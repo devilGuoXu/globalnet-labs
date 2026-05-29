@@ -42,6 +42,20 @@
     "detailUrl": "/proxy/ipfoxy"
   },
   {
+    "id": "glorycloud",
+    "name": "GloryCloud",
+    "type": "residential-proxy",
+    "rating": 9.1,
+    "poolSize": "6000万+",
+    "proxyTypes": ["动态住宅", "静态ISP", "数据中心"],
+    "isFeatured": true,
+    "badge": "企业级稳定",
+    "features": ["纯静态ISP代理", "企业级稳定", "城市级定位"],
+    "affiliateUrl": "https://www.glorycloud.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/glorycloud"
+  },
+  {
     "id": "brightdata",
     "name": "Bright Data",
     "type": "residential-proxy",
