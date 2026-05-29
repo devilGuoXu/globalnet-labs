@@ -36,8 +36,8 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
                   </li>
                 ))}
               </ul>
-              {proxy.id === 'netnut' && (
-                <img src={`${base}/images/netnut.png`} alt="NetNut" class="h-14 w-auto self-center" />
+              {(proxy.id === 'netnut' || proxy.id === 'soax') && (
+                <img src={`${base}/images/${proxy.id}.png`} alt={proxy.name} class="h-14 w-auto self-center" />
               )}
             </div>
             <div class="pt-3 border-t border-slate-800 text-right">
