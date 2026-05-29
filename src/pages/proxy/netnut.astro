@@ -13,9 +13,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           返回代理列表
         </a>
         <div class="flex items-start justify-between gap-6">
-          <div>
-            <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-3">NetNut 深度评测</h1>
-            <p class="text-slate-400 text-lg">运营商直连架构的住宅代理解决方案，企业级数据采集的可靠选择</p>
+          <div class="flex items-center gap-4">
+            <img src={`${base}/images/netnut.png`} alt="NetNut" class="h-12 w-auto" />
+            <div>
+              <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">NetNut 深度评测</h1>
+              <p class="text-slate-400 text-lg">运营商直连架构的住宅代理解决方案，企业级数据采集的可靠选择</p>
+            </div>
           </div>
           <div class="flex items-center gap-1 text-amber-400 shrink-0">
             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
@@ -166,27 +169,18 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">价格方案</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          NetNut 采用按流量计费的定价模式，根据不同的套餐等级提供差异化的服务配置。企业用户可根据实际需求联系销售团队定制专属方案。以下为公开参考价格：
+          NetNut 采用按流量计费的定价模式，根据不同的套餐等级提供差异化的服务配置。企业用户可根据实际需求联系销售团队定制专属方案。以下为官方价格参考：
         </p>
-        <div class="grid md:grid-cols-3 gap-4">
-          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50 text-center">
-            <h3 class="text-slate-300 font-semibold mb-2">入门版</h3>
-            <p class="text-2xl font-bold text-slate-100 mb-2">$9/GB</p>
-            <p class="text-xs text-slate-500">按量计费，适合小规模测试</p>
+        <div class="space-y-4">
+          <div>
+            <h3 class="text-sm font-semibold text-slate-300 mb-2">住宅代理定价</h3>
+            <img src={`${base}/images/netnut-res-price.webp`} alt="NetNut 住宅代理价格" class="w-full rounded-lg" />
           </div>
-          <div class="bg-slate-950/50 rounded-lg p-5 border border-emerald-500/20 text-center relative">
-            <span class="absolute -top-2.5 left-1/2 -translate-x-1/2 text-xs bg-emerald-500 text-slate-950 px-3 py-0.5 rounded-full font-medium">推荐</span>
-            <h3 class="text-slate-300 font-semibold mb-2">专业版</h3>
-            <p class="text-2xl font-bold text-emerald-400 mb-2">$7/GB</p>
-            <p class="text-xs text-slate-500">100GB 起，适合中型项目</p>
-          </div>
-          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50 text-center">
-            <h3 class="text-slate-300 font-semibold mb-2">企业版</h3>
-            <p class="text-2xl font-bold text-slate-100 mb-2">定制</p>
-            <p class="text-xs text-slate-500">按需定制，SLA 保障</p>
+          <div>
+            <h3 class="text-sm font-semibold text-slate-300 mb-2">移动代理定价</h3>
+            <img src={`${base}/images/netnut-mob-price.webp`} alt="NetNut 移动代理价格" class="w-full rounded-lg" />
           </div>
         </div>
-        <p class="text-xs text-slate-600 mt-4">注：以上价格为公开参考价格，实际价格以 NetNut 官方最新报价为准。</p>
       </section>
 
       <!-- Verdict -->

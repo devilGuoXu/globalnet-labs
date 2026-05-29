@@ -1,6 +1,6 @@
 ---
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
-const currentPath = Astro.url.pathname;
+const currentPath = Astro.url.pathname.replace(/\/+$/, '') || base;
 const navItems = [
   { label: '主页', href: base },
   { label: 'VPN', href: `${base}/vpn` },
