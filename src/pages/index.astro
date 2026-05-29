@@ -4,6 +4,7 @@ import homepageData from '../data/homepage.json';
 import vpnsData from '../data/vpns.json';
 import proxiesData from '../data/proxies.json';
 
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const featuredAll = [
   ...vpnsData.filter(v => v.isFeatured),
   ...proxiesData.filter(p => p.isFeatured),
@@ -226,13 +227,13 @@ const featuredAll = [
           <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
           科技前沿动态
         </h2>
-        <a href="/vpn" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1">
+        <a href={`${base}/vpn`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1">
           更多内容>
         </a>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         {homepageData.trends.map((trend) => (
-          <a href={trend.link} class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-emerald-500/30 transition-all duration-300 group block">
+          <a href={`${base}${trend.link}`} class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-emerald-500/30 transition-all duration-300 group block">
             <span class="inline-block text-xs font-medium text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-full mb-3">{trend.tag}</span>
             <h3 class="text-base font-semibold text-slate-100 group-hover:text-emerald-400 transition-colors mb-2">{trend.title}</h3>
             <p class="text-sm text-slate-400 leading-relaxed">{trend.description}</p>
@@ -248,13 +249,13 @@ const featuredAll = [
           <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
           基础知识百科
         </h2>
-        <a href="/proxy" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1">
+        <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1">
           更多内容>
         </a>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         {homepageData.knowledgeBase.map((entry) => (
-          <a href={entry.link} class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-emerald-500/30 transition-all duration-300 group block">
+          <a href={`${base}${entry.link}`} class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-emerald-500/30 transition-all duration-300 group block">
             <h3 class="text-base font-semibold text-slate-100 group-hover:text-emerald-400 transition-colors mb-2">{entry.title}</h3>
             <p class="text-sm text-slate-400 leading-relaxed">{entry.description}</p>
           </a>

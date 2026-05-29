@@ -9,14 +9,15 @@ export interface Props {
 }
 
 const { title, description } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 ---
 
 <!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/webp" href="/images/logo.webp" />
-    <link rel="shortcut icon" href="/images/logo.webp" />
+    <link rel="icon" type="image/webp" href={`${base}/images/logo.webp`} />
+    <link rel="shortcut icon" href={`${base}/images/logo.webp`} />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description ?? '出海网络安全、全球隐私技术与跨境数据采集工具导航站'} />

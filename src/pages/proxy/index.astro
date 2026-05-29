@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import proxiesData from '../../data/proxies.json';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 ---
 
 <Layout title="海外住宅 / 移动代理厂商全览 - GlobalNet Labs">
@@ -12,7 +13,7 @@ import proxiesData from '../../data/proxies.json';
       {proxiesData.map((proxy) => {
         const isExternal = proxy.detailUrl.startsWith('http');
         return (
-          <a href={proxy.detailUrl} target={isExternal ? '_blank' : undefined} rel={isExternal ? 'noopener noreferrer' : undefined} class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-emerald-500/30 transition-all duration-300 group block">
+          <a href={isExternal ? proxy.detailUrl : `${base}${proxy.detailUrl}`} target={isExternal ? '_blank' : undefined} rel={isExternal ? 'noopener noreferrer' : undefined} class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-emerald-500/30 transition-all duration-300 group block">
             <div class="flex items-start justify-between mb-3">
               <div class="flex items-center gap-3">
                 <h3 class="text-base font-semibold text-slate-100 group-hover:text-emerald-400 transition-colors">{proxy.name}</h3>

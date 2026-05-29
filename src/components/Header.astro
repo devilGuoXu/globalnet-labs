@@ -1,22 +1,23 @@
 ---
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const currentPath = Astro.url.pathname;
 const navItems = [
-  { label: '主页', href: '/' },
-  { label: 'VPN', href: '/vpn' },
-  { label: '代理', href: '/proxy' },
-  { label: '联系我们', href: '/contact' },
+  { label: '主页', href: base },
+  { label: 'VPN', href: `${base}/vpn` },
+  { label: '代理', href: `${base}/proxy` },
+  { label: '联系我们', href: `${base}/contact` },
 ];
 ---
 
 <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur-sm sticky top-0 z-50">
   <div class="max-w-[1440px] mx-auto px-6 h-16 flex items-center justify-between">
-    <a href="/" class="text-xl font-bold text-slate-100 tracking-tight">
+    <a href={base} class="text-xl font-bold text-slate-100 tracking-tight">
       <span class="text-emerald-400">G</span>lobalNet
       <span class="text-emerald-400">L</span>abs
     </a>
     <nav class="flex items-center gap-1">
       {navItems.map((item) => {
-        const isActive = currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href));
+        const isActive = currentPath === item.href || (item.href !== base && currentPath.startsWith(item.href));
         return (
           <a
             href={item.href}
