@@ -1,0 +1,35 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/webp" href="/images/logo.webp" />
+    <link rel="shortcut icon" href="/images/logo.webp" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description ?? '出海网络安全、全球隐私技术与跨境数据采集工具导航站'} />
+    <title>{title}</title>
+    <slot name="adsense-script" />
+  </head>
+  <body class="bg-slate-950 text-slate-100 min-h-screen">
+    <div class="min-h-screen flex flex-col">
+      <Header />
+      <main class="flex-1">
+        <slot />
+      </main>
+      <Footer />
+    </div>
+  </body>
+</html>

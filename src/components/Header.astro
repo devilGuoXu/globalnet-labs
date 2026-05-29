@@ -1,0 +1,35 @@
+---
+const currentPath = Astro.url.pathname;
+const navItems = [
+  { label: '主页', href: '/' },
+  { label: 'VPN', href: '/vpn' },
+  { label: '代理', href: '/proxy' },
+  { label: '联系我们', href: '/contact' },
+];
+---
+
+<header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur-sm sticky top-0 z-50">
+  <div class="max-w-[1440px] mx-auto px-6 h-16 flex items-center justify-between">
+    <a href="/" class="text-xl font-bold text-slate-100 tracking-tight">
+      <span class="text-emerald-400">G</span>lobalNet
+      <span class="text-emerald-400">L</span>abs
+    </a>
+    <nav class="flex items-center gap-1">
+      {navItems.map((item) => {
+        const isActive = currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href));
+        return (
+          <a
+            href={item.href}
+            class={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+              isActive
+                ? 'bg-emerald-500/10 text-emerald-400'
+                : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+            }`}
+          >
+            {item.label}
+          </a>
+        );
+      })}
+    </nav>
+  </div>
+</header>

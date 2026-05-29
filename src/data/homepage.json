@@ -1,0 +1,72 @@
+{
+  "trends": [
+    {
+      "title": "2026 跨境风控升级与住宅 IP 革命",
+      "description": "海外平台（TikTok、Amazon）风控算法演进，纯净住宅与移动代理成为合规出海核心。",
+      "tag": "科技前沿",
+      "link": "/vpn"
+    },
+    {
+      "title": "WireGuard 协议普及率超 80%",
+      "description": "基于 UDP 的 WireGuard 已成为行业标准，隧道连接速度与稳定性大幅提升。",
+      "tag": "技术趋势",
+      "link": "/vpn"
+    },
+    {
+      "title": "IPv6 过渡期代理需求激增",
+      "description": "全球 IPv6 部署率突破 45%，双栈架构下代理兼容性成为选型关键。",
+      "tag": "行业洞察",
+      "link": "/proxy"
+    },
+    {
+      "title": "SOCKS5 代理在跨境社媒中的应用",
+      "description": "相比 HTTP 代理，SOCKS5 在 TCP/UDP 全协议支持上更具优势，适合直播与实时通讯场景。",
+      "tag": "技术指南",
+      "link": "/proxy"
+    },
+    {
+      "title": "AI 驱动的智能代理轮换系统",
+      "description": "机器学习算法实现异常检测与自动 IP 轮换，提升爬虫采集效率达 300%。",
+      "tag": "科技前沿",
+      "link": "/proxy"
+    },
+    {
+      "title": "全球数据隐私法规演进（2026）",
+      "description": "欧盟《数据法案》与巴西 LGPD 新规生效，跨境数据传输合规要求进一步收紧。",
+      "tag": "行业洞察",
+      "link": "/vpn"
+    }
+  ],
+  "knowledgeBase": [
+    {
+      "title": "虚拟专用网络（VPN）完整指南",
+      "description": "加密隧道技术原理、协议对比（WireGuard vs OpenVPN）及使用场景详解。",
+      "link": "/vpn"
+    },
+    {
+      "title": "住宅代理 vs 数据中心代理",
+      "description": "核心区别、适用场景（爬虫/养号/社媒营销）及 IP 封禁风险全面对比。",
+      "link": "/proxy"
+    },
+    {
+      "title": "静态 ISP 代理选购指南",
+      "description": "ISP 代理兼具住宅 IP 可信度与静态稳定性，适合电商平台长期运营。",
+      "link": "/proxy"
+    },
+    {
+      "title": "网络加密隧道协议对比表",
+      "description": "OpenVPN / WireGuard / IKEv2 / IPSec 性能、安全性与兼容性横向测评。",
+      "link": "/vpn"
+    },
+    {
+      "title": "4G/5G 移动代理应用场景",
+      "description": "移动代理在社媒注册、验证码接收、本地化测试中的独特优势。",
+      "link": "/proxy"
+    },
+    {
+      "title": "跨境网络合规与风险防范",
+      "description": "出海企业网络架构合规要点，DNS/WebRTC 泄露检测与数据安全最佳实践。",
+      "link": "/vpn"
+    }
+  ]
+}

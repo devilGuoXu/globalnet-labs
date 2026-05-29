@@ -1,0 +1,296 @@
+---
+import Layout from '../layouts/Layout.astro';
+import homepageData from '../data/homepage.json';
+import vpnsData from '../data/vpns.json';
+import proxiesData from '../data/proxies.json';
+
+const featuredAll = [
+  ...vpnsData.filter(v => v.isFeatured),
+  ...proxiesData.filter(p => p.isFeatured),
+];
+---
+
+<Layout title="GlobalNet Labs - 出海网络科技导航站">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <!-- Hero -->
+    <section class="flex flex-col md:flex-row items-center gap-10 mb-20">
+      <div class="flex-1">
+        <h1 class="text-4xl md:text-5xl font-bold text-slate-100 leading-tight mb-5">
+          出海网络科技
+          <span class="text-emerald-400">导航站</span>
+        </h1>
+        <p class="text-slate-400 text-lg leading-relaxed">
+          聚合全球优质虚拟专用网络与海外住宅代理服务，为跨境电商、出海工作室与技术极客提供专业工具导航。
+        </p>
+      </div>
+      <div class="hidden md:flex items-center justify-center flex-shrink-0 w-[480px]">
+        <svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" class="w-full">
+          <defs>
+            <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#0a2a4a" stop-opacity="0.6"/>
+              <stop offset="60%" stop-color="#061a2e" stop-opacity="0.3"/>
+              <stop offset="100%" stop-color="transparent"/>
+            </radialGradient>
+            <radialGradient id="earthGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.4"/>
+              <stop offset="50%" stop-color="#0088cc" stop-opacity="0.15"/>
+              <stop offset="100%" stop-color="transparent"/>
+            </radialGradient>
+            <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.8"/>
+              <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+            </radialGradient>
+            <filter id="glowFilter">
+              <feGaussianBlur stdDeviation="2" result="blur"/>
+              <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+            <filter id="softGlow">
+              <feGaussianBlur stdDeviation="4"/>
+            </filter>
+          </defs>
+
+          <!-- Background -->
+          <rect width="480" height="360" fill="#020b17" rx="12"/>
+
+          <!-- Background glow -->
+          <circle cx="240" cy="180" r="200" fill="url(#bgGlow)"/>
+
+          <!-- Grid lines -->
+          <g stroke="#0a3050" stroke-width="0.5" opacity="0.4">
+            <line x1="0" y1="90" x2="480" y2="90"/>
+            <line x1="0" y1="180" x2="480" y2="180"/>
+            <line x1="0" y1="270" x2="480" y2="270"/>
+            <line x1="120" y1="0" x2="120" y2="360"/>
+            <line x1="240" y1="0" x2="240" y2="360"/>
+            <line x1="360" y1="0" x2="360" y2="360"/>
+          </g>
+
+          <!-- Earth glow -->
+          <circle cx="240" cy="180" r="120" fill="url(#earthGlow)"/>
+
+          <!-- Digital Earth - Asia centered view -->
+          <g transform="translate(240,180)">
+            <circle cx="0" cy="0" r="95" fill="none" stroke="#0055aa" stroke-width="0.8" opacity="0.25"/>
+
+            <!-- Graticule -->
+            <g fill="none" stroke="#0088cc" stroke-width="0.3" opacity="0.12">
+              <ellipse rx="95" ry="70"/>
+              <ellipse rx="80" ry="58"/>
+              <ellipse rx="60" ry="44"/>
+              <ellipse rx="35" ry="25"/>
+              <line x1="0" y1="-95" x2="0" y2="95"/>
+              <line x1="-95" y1="0" x2="95" y2="0"/>
+              <line x1="-67" y1="67" x2="67" y2="-67"/>
+              <line x1="67" y1="67" x2="-67" y2="-67"/>
+            </g>
+
+            <!-- Eurasia (Europe to Asia) -->
+            <path d="M-30,-55 C-25,-58 -18,-55 -12,-50 C-6,-45 -2,-38 0,-32 C4,-26 8,-20 14,-18 C20,-16 28,-14 35,-18 C42,-22 48,-28 52,-34 C56,-40 58,-48 54,-52 C50,-56 42,-54 36,-50 C30,-46 26,-42 22,-38 C18,-34 14,-36 10,-38 C6,-40 0,-42 -4,-40 C-8,-38 -12,-36 -16,-38 C-20,-40 -26,-48 -30,-55 Z"
+                  fill="#00d4ff" fill-opacity="0.18" stroke="#00e5ff" stroke-width="0.8" stroke-opacity="0.4"/>
+
+            <!-- Europe & Africa left portion -->
+            <path d="M-30,-55 C-34,-50 -38,-44 -40,-38 C-42,-32 -38,-28 -34,-26 C-30,-24 -26,-26 -24,-30 C-22,-34 -24,-40 -28,-46 Z"
+                  fill="#00d4ff" fill-opacity="0.14" stroke="#00e5ff" stroke-width="0.6" stroke-opacity="0.35"/>
+
+            <!-- Africa -->
+            <path d="M-24,-22 C-20,-18 -16,-14 -14,-8 C-12,0 -10,10 -12,20 C-14,28 -18,34 -22,36 C-26,38 -28,34 -26,28 C-24,20 -22,12 -20,4 C-18,-4 -20,-12 -24,-22 Z"
+                  fill="#00d4ff" fill-opacity="0.18" stroke="#00e5ff" stroke-width="0.8" stroke-opacity="0.4"/>
+
+            <!-- South Asia / India -->
+            <path d="M-2,-22 C2,-18 4,-14 4,-8 C4,0 2,6 0,8 C-2,6 -4,0 -4,-6 C-4,-12 -4,-18 -2,-22 Z"
+                  fill="#00d4ff" fill-opacity="0.14" stroke="#00e5ff" stroke-width="0.6" stroke-opacity="0.35"/>
+
+            <!-- Southeast Asia -->
+            <path d="M10,-10 C14,-8 18,-4 20,2 C22,8 20,14 16,18 C12,20 8,18 6,14 C4,10 4,4 6,-2 C8,-6 8,-8 10,-10 Z"
+                  fill="#00d4ff" fill-opacity="0.14" stroke="#00e5ff" stroke-width="0.6" stroke-opacity="0.35"/>
+
+            <!-- Indonesia / Maritime SE Asia -->
+            <path d="M14,20 C18,22 22,24 26,22 C30,20 28,18 24,18 C20,18 16,18 14,20 Z"
+                  fill="#00d4ff" fill-opacity="0.1" stroke="#00e5ff" stroke-width="0.5" stroke-opacity="0.25"/>
+
+            <!-- Japan / East Asia islands -->
+            <path d="M42,-30 C44,-26 46,-22 44,-18 C42,-14 40,-16 38,-20 C36,-24 38,-28 42,-30 Z"
+                  fill="#00d4ff" fill-opacity="0.1" stroke="#00e5ff" stroke-width="0.5" stroke-opacity="0.25"/>
+
+            <!-- Australia -->
+            <path d="M20,44 C26,42 32,44 36,48 C40,52 38,56 34,58 C28,60 22,56 18,52 C16,48 16,46 20,44 Z"
+                  fill="#00d4ff" fill-opacity="0.14" stroke="#00e5ff" stroke-width="0.6" stroke-opacity="0.35"/>
+
+            <!-- Glowing Earth core -->
+            <circle cx="0" cy="0" r="25" fill="none" stroke="#00d4ff" stroke-width="0.4" opacity="0.2"/>
+            <circle cx="0" cy="0" r="12" fill="#00d4ff" opacity="0.08" filter="url(#softGlow)"/>
+            <circle cx="0" cy="0" r="4" fill="#00e5ff" opacity="0.6">
+              <animate attributeName="r" values="3;6;3" dur="3s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+            </circle>
+          </g>
+
+          <!-- Connection lines -->
+          <g fill="none" stroke-linecap="round">
+            <path d="M80,120 C140,100 160,80 200,130" stroke="#00d4ff" stroke-width="1" opacity="0.3"/>
+            <path d="M200,130 C230,160 250,110 320,90" stroke="#00bcd4" stroke-width="0.8" opacity="0.25"/>
+            <path d="M320,90 C360,100 380,140 400,200" stroke="#00e5ff" stroke-width="1.2" opacity="0.35"/>
+            <path d="M400,200 C380,240 340,260 300,240" stroke="#0099cc" stroke-width="0.8" opacity="0.2"/>
+            <path d="M300,240 C260,230 220,260 160,250" stroke="#00d4ff" stroke-width="1" opacity="0.3"/>
+            <path d="M160,250 C120,240 90,220 80,120" stroke="#0088cc" stroke-width="0.8" opacity="0.25"/>
+            <path d="M130,80 C170,60 200,60 240,100" stroke="#00e5ff" stroke-width="0.8" opacity="0.2"/>
+            <path d="M240,100 C280,130 300,100 360,120" stroke="#00bcd4" stroke-width="0.6" opacity="0.2"/>
+            <path d="M80,120 C100,160 120,200 160,250" stroke="#0099dd" stroke-width="0.7" opacity="0.2"/>
+            <path d="M320,90 C340,50 380,40 420,60" stroke="#00d4ff" stroke-width="0.8" opacity="0.25"/>
+            <path d="M400,200 C420,180 440,160 440,120" stroke="#00bcd4" stroke-width="0.6" opacity="0.15"/>
+          </g>
+
+          <!-- Data particles flowing on paths -->
+          <g filter="url(#glowFilter)">
+            <circle r="2" fill="#00e5ff" opacity="0.9">
+              <animateMotion dur="4s" repeatCount="indefinite" path="M80,120 C140,100 160,80 200,130"/>
+            </circle>
+            <circle r="1.5" fill="#00bcd4" opacity="0.7">
+              <animateMotion dur="5s" repeatCount="indefinite" path="M200,130 C230,160 250,110 320,90"/>
+            </circle>
+            <circle r="2.5" fill="#00e5ff" opacity="0.8">
+              <animateMotion dur="6s" repeatCount="indefinite" path="M320,90 C360,100 380,140 400,200"/>
+            </circle>
+            <circle r="1.5" fill="#0088cc" opacity="0.6">
+              <animateMotion dur="7s" repeatCount="indefinite" path="M400,200 C380,240 340,260 300,240"/>
+            </circle>
+            <circle r="2" fill="#00d4ff" opacity="0.8">
+              <animateMotion dur="5s" repeatCount="indefinite" path="M300,240 C260,230 220,260 160,250"/>
+            </circle>
+            <circle r="1" fill="#0099cc" opacity="0.7">
+              <animateMotion dur="4.5s" repeatCount="indefinite" path="M160,250 C120,240 90,220 80,120"/>
+            </circle>
+            <circle r="1.5" fill="#00e5ff" opacity="0.6">
+              <animateMotion dur="8s" repeatCount="indefinite" path="M80,120 C100,160 120,200 160,250"/>
+            </circle>
+            <circle r="1" fill="#00bcd4" opacity="0.5">
+              <animateMotion dur="6.5s" repeatCount="indefinite" path="M320,90 C340,50 380,40 420,60"/>
+            </circle>
+          </g>
+
+          <!-- Network nodes -->
+          <g filter="url(#glowFilter)">
+            <circle cx="80" cy="120" r="4" fill="#00e5ff"/>
+            <circle cx="80" cy="120" r="8" fill="url(#nodeGlow)"/>
+            <circle cx="200" cy="130" r="5" fill="#00d4ff"/>
+            <circle cx="200" cy="130" r="10" fill="url(#nodeGlow)"/>
+            <circle cx="320" cy="90" r="4.5" fill="#00e5ff"/>
+            <circle cx="320" cy="90" r="9" fill="url(#nodeGlow)"/>
+            <circle cx="400" cy="200" r="5" fill="#00bcd4"/>
+            <circle cx="400" cy="200" r="10" fill="url(#nodeGlow)"/>
+            <circle cx="300" cy="240" r="3.5" fill="#0099cc"/>
+            <circle cx="300" cy="240" r="7" fill="url(#nodeGlow)"/>
+            <circle cx="160" cy="250" r="4" fill="#00d4ff"/>
+            <circle cx="160" cy="250" r="8" fill="url(#nodeGlow)"/>
+            <circle cx="130" cy="80" r="3" fill="#00bcd4"/>
+            <circle cx="130" cy="80" r="6" fill="url(#nodeGlow)"/>
+            <circle cx="240" cy="100" r="3.5" fill="#00e5ff"/>
+            <circle cx="240" cy="100" r="7" fill="url(#nodeGlow)"/>
+            <circle cx="360" cy="120" r="3" fill="#0088cc"/>
+            <circle cx="360" cy="120" r="6" fill="url(#nodeGlow)"/>
+            <circle cx="420" cy="60" r="3" fill="#00d4ff"/>
+            <circle cx="420" cy="60" r="6" fill="url(#nodeGlow)"/>
+            <circle cx="440" cy="120" r="2.5" fill="#00bcd4"/>
+            <circle cx="440" cy="120" r="5" fill="url(#nodeGlow)"/>
+          </g>
+
+          <!-- Orbital rings around Earth -->
+
+          <!-- Orbital rings around Earth -->
+          <ellipse cx="240" cy="180" rx="120" ry="30" fill="none" stroke="#0055aa" stroke-width="0.5" opacity="0.15" transform="rotate(-20,240,180)"/>
+          <ellipse cx="240" cy="180" rx="145" ry="35" fill="none" stroke="#0077cc" stroke-width="0.3" opacity="0.1" transform="rotate(15,240,180)"/>
+
+          <!-- Small data pulses -->
+          <g filter="url(#glowFilter)">
+            <circle cx="140" cy="110" r="1.5" fill="#00e5ff" opacity="0.8">
+              <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+            </circle>
+            <circle cx="310" cy="140" r="1" fill="#00bcd4" opacity="0.6">
+              <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+            </circle>
+            <circle cx="170" cy="200" r="1.5" fill="#00d4ff" opacity="0.7">
+              <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" begin="1s"/>
+            </circle>
+            <circle cx="350" cy="180" r="1" fill="#0088cc" opacity="0.5">
+              <animate attributeName="opacity" values="0;1;0" dur="2.8s" repeatCount="indefinite" begin="1.5s"/>
+            </circle>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <!-- 科技前沿 -->
+    <section class="mb-16">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-2xl font-bold text-slate-100 flex items-center gap-2">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          科技前沿动态
+        </h2>
+        <a href="/vpn" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1">
+          更多内容>
+        </a>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {homepageData.trends.map((trend) => (
+          <a href={trend.link} class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-emerald-500/30 transition-all duration-300 group block">
+            <span class="inline-block text-xs font-medium text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-full mb-3">{trend.tag}</span>
+            <h3 class="text-base font-semibold text-slate-100 group-hover:text-emerald-400 transition-colors mb-2">{trend.title}</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">{trend.description}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- 基础知识 -->
+    <section class="mb-16">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-2xl font-bold text-slate-100 flex items-center gap-2">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+          基础知识百科
+        </h2>
+        <a href="/proxy" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1">
+          更多内容>
+        </a>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {homepageData.knowledgeBase.map((entry) => (
+          <a href={entry.link} class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-emerald-500/30 transition-all duration-300 group block">
+            <h3 class="text-base font-semibold text-slate-100 group-hover:text-emerald-400 transition-colors mb-2">{entry.title}</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">{entry.description}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- 赞助商 -->
+    {featuredAll.length > 0 && (
+      <section>
+        <h2 class="text-2xl font-bold text-slate-100 mb-6 flex items-center gap-2">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
+          全站黄金赞助商
+        </h2>
+        <div class="grid md:grid-cols-2 gap-4">
+          {featuredAll.map((product) => {
+            const isVpn = product.type === 'vpn';
+            return (
+              <a href={product.detailUrl} target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-emerald-500/30 transition-all duration-300 group block">
+                <div class="flex items-center justify-between mb-3">
+                  <h3 class="text-base font-semibold text-slate-100 group-hover:text-emerald-400 transition-colors">{product.name}</h3>
+                  {product.badge && (
+                    <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">{product.badge}</span>
+                  )}
+                </div>
+                {isVpn ? (
+                  <p class="text-sm text-slate-400">{product.jurisdiction} · {product.protocols?.join('/')}</p>
+                ) : (
+                  <p class="text-sm text-slate-400">IP池 {product.poolSize} · {product.proxyTypes?.join('/')}</p>
+                )}
+                <p class="text-lg font-bold text-slate-100 mt-3">{product.price || product.startingPrice}</p>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )}
+  </div>
+</Layout>
