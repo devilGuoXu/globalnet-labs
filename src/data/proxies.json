@@ -28,6 +28,20 @@
     "detailUrl": "/proxy/soax"
   },
   {
+    "id": "ipfoxy",
+    "name": "IPFoxy",
+    "type": "residential-proxy",
+    "rating": 9.3,
+    "poolSize": "9000万+",
+    "proxyTypes": ["动态住宅", "静态ISP", "数据中心"],
+    "isFeatured": true,
+    "badge": "纯净静态ISP",
+    "features": ["纯静态ISP代理", "企业级稳定", "城市级定位"],
+    "affiliateUrl": "https://ipfoxy.net/",
+    "couponCode": "",
+    "detailUrl": "/proxy/ipfoxy"
+  },
+  {
     "id": "brightdata",
     "name": "Bright Data",
     "type": "residential-proxy",
@@ -82,19 +96,5 @@
     "affiliateUrl": "https://iproyal.com/",
     "couponCode": "",
     "detailUrl": "https://iproyal.com/"
-  },
-  {
-    "id": "beemobile",
-    "name": "BeeMobile",
-    "type": "mobile-proxy",
-    "rating": 8.8,
-    "poolSize": "500万+",
-    "proxyTypes": ["4G移动", "5G移动"],
-    "isFeatured": false,
-    "badge": "",
-    "features": ["纯移动IP池", "真机SIM卡", "运营商级稳定", "城市级定位"],
-    "affiliateUrl": "https://beemobile.io/",
-    "couponCode": "",
-    "detailUrl": "https://beemobile.io/"
   }
 ]
