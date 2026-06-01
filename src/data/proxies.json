@@ -98,6 +98,20 @@
     "detailUrl": "/proxy/kookeey"
   },
   {
+    "id": "oxylabs",
+    "name": "Oxylabs",
+    "type": "residential-proxy",
+    "rating": 8.9,
+    "poolSize": "1亿+",
+    "proxyTypes": ["动态住宅", "静态ISP", "数据中心"],
+    "isFeatured": true,
+    "badge": "亿万IP资源",
+    "features": ["1亿+全球IP池", "AI智能轮换", "实时抓取API", "城市级定位"],
+    "affiliateUrl": "https://oxylabs.io/",
+    "couponCode": "",
+    "detailUrl": "/proxy/oxylabs"
+  },
+  {
     "id": "brightdata",
     "name": "Bright Data",
     "type": "residential-proxy",
@@ -110,19 +124,5 @@
     "affiliateUrl": "https://brightdata.com/",
     "couponCode": "",
     "detailUrl": "https://brightdata.com/"
-  },
-  {
-    "id": "oxylabs",
-    "name": "Oxylabs",
-    "type": "residential-proxy",
-    "rating": 9.5,
-    "poolSize": "1亿+",
-    "proxyTypes": ["动态住宅", "静态ISP", "数据中心"],
-    "isFeatured": false,
-    "badge": "",
-    "features": ["亿万IP资源", "AI智能轮换", "实时抓取API"],
-    "affiliateUrl": "https://oxylabs.cn/",
-    "couponCode": "",
-    "detailUrl": "https://oxylabs.cn/"
   }
 ]
