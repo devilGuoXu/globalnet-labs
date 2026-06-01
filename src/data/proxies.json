@@ -112,17 +112,17 @@
     "detailUrl": "/proxy/oxylabs"
   },
   {
-    "id": "brightdata",
+    "id": "bright",
     "name": "Bright Data",
     "type": "residential-proxy",
-    "rating": 9.8,
-    "poolSize": "7200万+",
+    "rating": 8.7,
+    "poolSize": "4亿+",
     "proxyTypes": ["动态住宅", "静态ISP", "4G/5G移动"],
     "isFeatured": true,
     "badge": "全球最大IP池",
-    "features": ["城市级定位", "99.9%连通率", "社媒防关联"],
+    "features": ["7200万+住宅IP", "99.9%连通率", "社媒防关联", "城市级定位"],
     "affiliateUrl": "https://brightdata.com/",
     "couponCode": "",
-    "detailUrl": "https://brightdata.com/"
+    "detailUrl": "/proxy/bright"
   }
 ]
