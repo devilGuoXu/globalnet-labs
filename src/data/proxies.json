@@ -59,7 +59,7 @@
     "id": "iproyal",
     "name": "IPRoyal",
     "type": "residential-proxy",
-    "rating": 9.0,
+    "rating": 9.1,
     "poolSize": "5000万+",
     "proxyTypes": ["动态住宅", "数据中心", "静态ISP"],
     "isFeatured": true,
@@ -82,6 +82,20 @@
     "affiliateUrl": "https://decodo.com/",
     "couponCode": "",
     "detailUrl": "/proxy/decodo"
+  },
+  {
+    "id": "kookeey",
+    "name": "Kookeey",
+    "type": "residential-proxy",
+    "rating": 9.0,
+    "poolSize": "4700万+",
+    "proxyTypes": ["动态住宅", "静态ISP", "移动代理", "数据中心"],
+    "isFeatured": true,
+    "badge": "新人288元礼包",
+    "features": ["4700万+动态住宅", "6600万+移动IP", "城市级定位", "中文客服"],
+    "affiliateUrl": "https://www.kookeey.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/kookeey"
   },
   {
     "id": "brightdata",
