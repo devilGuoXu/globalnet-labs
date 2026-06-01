@@ -166,5 +166,19 @@
     "affiliateUrl": "https://floppydata.com/",
     "couponCode": "",
     "detailUrl": "/proxy/floppydata"
+  },
+  {
+    "id": "shenlongproxy",
+    "name": "神龙代理",
+    "type": "residential-proxy",
+    "rating": 8.3,
+    "poolSize": "9000万+",
+    "proxyTypes": ["动态住宅", "动态数据中心", "长效ISP"],
+    "isFeatured": true,
+    "badge": "1V1专属客服",
+    "features": ["9000万+动态住宅", "200+国家覆盖", "城市级定位", "7x24技术支持"],
+    "affiliateUrl": "https://www.shenlongproxy.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/shenlongproxy"
   }
 ]
