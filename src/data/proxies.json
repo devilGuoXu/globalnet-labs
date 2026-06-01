@@ -152,5 +152,19 @@
     "affiliateUrl": "https://www.kuaidaili.cn/",
     "couponCode": "",
     "detailUrl": "/proxy/kuaidaili"
+  },
+  {
+    "id": "floppydata",
+    "name": "FloppyData",
+    "type": "residential-proxy",
+    "rating": 8.4,
+    "poolSize": "1亿+",
+    "proxyTypes": ["动态住宅", "移动代理", "数据中心", "ISP"],
+    "isFeatured": true,
+    "badge": "住宅 $1/GB",
+    "features": ["住宅代理$1/GB起", "195+国家覆盖", "99.99%正常运行", "24/7人工支持"],
+    "affiliateUrl": "https://floppydata.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/floppydata"
   }
 ]
