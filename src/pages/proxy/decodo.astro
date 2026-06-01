@@ -1,0 +1,219 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Decodo 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/decodo.png`} alt="Decodo" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Decodo 深度评测</h1>
+          <p class="text-slate-400 text-lg">AI 驱动的代理与数据采集平台，前身 Smartproxy</p>
+        </div>
+      </div>
+
+      <!-- 评分概览 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">9.1</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 资源量</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.3</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">AI 集成能力</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.6</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 产品概述 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Decodo（前身 Smartproxy）是一家全球领先的代理与数据采集平台，于 2025 年正式品牌升级为 Decodo，从单纯的代理服务商转型为 AI 驱动的数据基础设施平台。Decodo 拥有超过 1.15 亿个住宅 IP，覆盖全球 195+ 个国家与地区，提供住宅代理、静态 ISP 代理、移动代理、数据中心代理以及 Site Unblocker 等全品类代理产品。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          除了传统的代理服务，Decodo 还推出了一系列创新产品：Web Scraping API（可按请求复杂度灵活计费）、SERP API、AI Parser（将 HTML 自动转为结构化 JSON）、Fast Search API 和 Video Downloader 等。这些产品使 Decodo 从代理提供商升级为完整的数据采集基础设施。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          Decodo 特别注重 AI 生态集成，提供 n8n 节点、LangChain Loader、MCP Server 等 AI 工具集成，使 AI 模型和智能体能够直接接入实时网络数据。
+        </p>
+      </section>
+
+      <!-- 核心特性 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1.15 亿 + 住宅 IP 资源</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Decodo 拥有超过 1.15 亿个真实住宅 IP 地址，覆盖全球 195+ 个国家与地区。IP 资源涵盖住宅代理、静态 ISP 代理、移动代理和数据中心代理四种类型，满足从基础数据采集到高难度目标访问的各种需求。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理起价仅 $2/GB，是市场上性价比最高的住宅代理之一。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">AI Parser</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Decodo 的 AI Parser 是行业首创的功能之一。用户只需描述需要的数据，AI Parser 即可自动将网页 HTML 转换为结构化的 JSON 数据，无需编写任何解析代码。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">这一功能大幅降低了数据采集的技术门槛，使非开发人员也能轻松获取结构化数据。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Web Scraping API</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Decodo 的全新 Web Scraping API 采用按请求复杂度计费的模式，用户只需为实际使用的功能付费。API 内置反封锁机制，自动处理 CAPTCHA、IP 封禁和 JavaScript 渲染。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">起价仅 $0.09/千次请求，适合从中小规模到企业级的数据采集项目。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">AI 生态集成</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Decodo 在 AI 生态集成方面走在前列，提供 n8n 集成节点、LangChain Loader、MCP Server 和 OpenClaw 集成。AI 开发者和数据科学家可以直接将 Decodo 接入 AI 工作流，实现实时网络数据获取。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">MCP Server 支持让 AI 智能体能够自主浏览网页、获取搜索结果和分析最新数据。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Site Unblocker</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Site Unblocker 是 Decodo 的高级代理解决方案，专为突破最严格的网站反爬机制而设计。它自动处理代理轮换、CAPTCHA 验证和 IP 封禁，用户只需一个 API 请求即可获取目标网页内容。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">起价仅 $0.95/千次请求，适合需要访问高难度目标的采集任务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">99.99% 正常运行时间</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Decodo 承诺 99.99% 的服务可用性，其基础设施经过企业级优化，响应时间低于 0.2 秒。无论是大规模数据采集还是实时 API 调用，都能保持稳定可靠的性能。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">高可用性对于关键业务的数据采集任务至关重要。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">免费工具与试用</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Decodo 提供 Chrome 和 Firefox 代理扩展、Proxy Checker 等免费工具，帮助用户快速测试和配置代理。所有产品均提供免费试用，用户可以在购买前充分测试服务性能。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">14 天退款保证进一步降低了用户的决策风险。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">精确地理定位</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Decodo 支持国家、州、城市和 ASN 级别的精确定位，覆盖美国（1610 万+ IP）、英国（500 万+ IP）、德国（560 万+ IP）等核心市场。用户可以根据目标网站的地理限制选择最合适的出口 IP。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">新增的大洲级定位功能进一步扩展了地理定位的灵活性。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 适用场景 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. AI 训练数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Decodo 的 AI Parser 和 Web Scraping API 是 AI 训练数据采集的理想工具。AI Parser 可以将网页内容自动转为结构化 JSON，配合 MCP Server 和 LangChain 集成，AI 团队可以构建端到端的数据采集流水线。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">高带宽代理基础设施确保大规模数据采集的效率。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 电商价格监测</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Decodo 的住宅代理和 Web Scraping API 适合电商价格监测场景。1.15 亿 + 的住宅 IP 池可以模拟真实用户行为，避免被电商平台识别为爬虫。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">按请求计费的 Web Scraping API 使得监控成本与采集量精确匹配。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 社媒多账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Decodo 的静态 ISP 代理和粘性会话功能适合社媒多账号管理。固定 IP 地址确保账号登录稳定，降低风控触发概率。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">静态住宅代理起价仅 $0.27/IP，是市场上具竞争力的静态 IP 方案之一。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">广告团队可以使用 Decodo 的全球代理网络和精确地理定位功能，验证广告在不同地区和设备上的投放效果。移动代理尤其适合验证移动端广告展示情况。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">Site Unblocker 可以帮助访问那些对广告验证工具有严格限制的目标网站。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. SEO 与 SERP 监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Decodo 的 SERP API 专为搜索引擎结果采集而设计，支持 Google、Bing 等主流搜索引擎。用户可以实时追踪关键词排名，分析竞争对手的 SEO 策略。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">Fast Search API 提供超低延迟的搜索结果获取，适合需要实时 SEO 数据的场景。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">6. 大规模数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Decodo 的数据中心代理起价仅 $0.02/IP，适合需要大规模、高效率的数据采集任务。结合 Site Unblocker 和 Web Scraping API，可以构建企业级的数据采集基础设施。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">99.99% 的正常运行时间确保了采集任务的持续稳定运行。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 优势与局限 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>1.15 亿 + 住宅 IP，195+ 国家覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>AI Parser 自动 HTML 转 JSON，降低技术门槛</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>产品线最全面：代理 + Scraping API + AI 工具</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>AI 生态集成：n8n / LangChain / MCP Server</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.99% 正常运行，<0.2s 平均响应</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅代理起价 $2/GB，性价比突出</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费工具 + 14 天退款保障</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌更名不久，部分用户尚不熟悉 Decodo 品牌</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动代理价格较高，起价 $2.25/GB</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>高级功能（AI Parser 等）需付费使用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>静态 ISP 代理 IP 数量有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分国家的 IP 覆盖较少</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>控制面板功能较多，新用户需要适应</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 价格方案 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">价格方案</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">Decodo（前身 Smartproxy）提供多种代理类型的灵活定价，以下为官方价格参考：</p>
+        <div class="space-y-4">
+          <div>
+            <h3 class="text-sm font-semibold text-slate-300 mb-2">住宅代理定价</h3>
+            <img src={`${base}/images/decodo-res-price.webp`} alt="Decodo 住宅代理价格" class="w-full rounded-lg" />
+          </div>
+          <div>
+            <h3 class="text-sm font-semibold text-slate-300 mb-2">移动代理定价</h3>
+            <img src={`${base}/images/decodo-mob-price.webp`} alt="Decodo 移动代理价格" class="w-full rounded-lg" />
+          </div>
+        </div>
+      </section>
+
+      <!-- 总结 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Decodo（前身 Smartproxy）从一家代理提供商成功转型为 AI 驱动的数据采集平台，在产品线的广度和深度上均达到了行业领先水平。1.15 亿 + 的住宅 IP 资源、全面的代理类型覆盖以及创新的 AI 工具，使其能满足从个人开发者到企业级团队的多种需求。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          AI Parser 和 AI 生态集成（n8n、LangChain、MCP）是 Decodo 的差异化竞争优势，为 AI 数据采集场景提供了独特价值。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估 IP 资源量、产品多样性和创新能力，Decodo 获得 9.1 分，特别推荐给需要全面代理 + 数据采集解决方案的团队，以及对 AI 数据流水线有需求的开发者。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://decodo.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Decodo 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

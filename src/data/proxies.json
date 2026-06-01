@@ -70,6 +70,20 @@
     "detailUrl": "/proxy/iproyal"
   },
   {
+    "id": "decodo",
+    "name": "Decodo",
+    "type": "residential-proxy",
+    "rating": 9.1,
+    "poolSize": "1.15亿+",
+    "proxyTypes": ["动态住宅", "静态ISP", "移动代理", "数据中心"],
+    "isFeatured": true,
+    "badge": "AI 数据采集",
+    "features": ["1.15亿+住宅IP", "195+国家覆盖", "AI Parser", "99.99%正常运行"],
+    "affiliateUrl": "https://decodo.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/decodo"
+  },
+  {
     "id": "brightdata",
     "name": "Bright Data",
     "type": "residential-proxy",
@@ -96,19 +110,5 @@
     "affiliateUrl": "https://oxylabs.cn/",
     "couponCode": "",
     "detailUrl": "https://oxylabs.cn/"
-  },
-  {
-    "id": "smartproxy",
-    "name": "Smartproxy",
-    "type": "residential-proxy",
-    "rating": 9.1,
-    "poolSize": "5500万+",
-    "proxyTypes": ["动态住宅", "静态ISP", "移动代理"],
-    "isFeatured": false,
-    "badge": "",
-    "features": ["社交平台友好", "不限并发会话", "城市/州级定位"],
-    "affiliateUrl": "https://smartproxy.com/",
-    "couponCode": "",
-    "detailUrl": "https://smartproxy.com/"
   }
 ]
