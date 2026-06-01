@@ -124,5 +124,19 @@
     "affiliateUrl": "https://brightdata.com/",
     "couponCode": "",
     "detailUrl": "/proxy/bright"
+  },
+  {
+    "id": "rola-ip",
+    "name": "ROLA-IP",
+    "type": "residential-proxy",
+    "rating": 8.7,
+    "poolSize": "1.05亿+",
+    "proxyTypes": ["动态住宅", "数据中心", "移动代理", "IPv6"],
+    "isFeatured": true,
+    "badge": "P2P 点对点代理",
+    "features": ["1.05亿+全球IP", "210+国家覆盖", "IPv6支持", "P2P点对点架构"],
+    "affiliateUrl": "https://rola-ip.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/rola-ip"
   }
 ]
