@@ -180,5 +180,19 @@
     "affiliateUrl": "https://www.shenlongproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/shenlongproxy"
+  },
+  {
+    "id": "novada",
+    "name": "Novada",
+    "type": "residential-proxy",
+    "rating": 8.3,
+    "poolSize": "1亿+",
+    "proxyTypes": ["动态住宅", "移动代理", "ISP", "数据中心"],
+    "isFeatured": true,
+    "badge": "$0.85/GB 起",
+    "features": ["1亿+住宅IP", "195+国家覆盖", "爬虫API", "99.99%成功率"],
+    "affiliateUrl": "https://www.novada.com/cn/",
+    "couponCode": "",
+    "detailUrl": "/proxy/novada"
   }
 ]
