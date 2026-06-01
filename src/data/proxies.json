@@ -194,5 +194,19 @@
     "affiliateUrl": "https://www.novada.com/cn/",
     "couponCode": "",
     "detailUrl": "/proxy/novada"
+  },
+  {
+    "id": "packetstream",
+    "name": "PacketStream",
+    "type": "residential-proxy",
+    "rating": 8.3,
+    "poolSize": "P2P 共享网络",
+    "proxyTypes": ["动态住宅", "静态住宅"],
+    "isFeatured": true,
+    "badge": "P2P 带宽共享",
+    "features": ["P2P住宅代理网络", "全球覆盖", "带宽变现计划", "Reseller API"],
+    "affiliateUrl": "https://packetstream.io/",
+    "couponCode": "",
+    "detailUrl": "/proxy/packetstream"
   }
 ]
