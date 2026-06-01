@@ -138,5 +138,19 @@
     "affiliateUrl": "https://rola-ip.com/",
     "couponCode": "",
     "detailUrl": "/proxy/rola-ip"
+  },
+  {
+    "id": "kuaidaili",
+    "name": "快代理",
+    "type": "residential-proxy",
+    "rating": 8.5,
+    "poolSize": "1000万+",
+    "proxyTypes": ["国内代理", "海外动态住宅", "海外静态住宅"],
+    "isFeatured": true,
+    "badge": "12年国内老牌",
+    "features": ["1000万+国内海外IP", "12年专业沉淀", "隧道代理Pro", "国内城市级定位"],
+    "affiliateUrl": "https://www.kuaidaili.cn/",
+    "couponCode": "",
+    "detailUrl": "/proxy/kuaidaili"
   }
 ]
