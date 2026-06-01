@@ -56,6 +56,20 @@
     "detailUrl": "/proxy/glorycloud"
   },
   {
+    "id": "ipRoyal",
+    "name": "IPRoyal",
+    "type": "residential-proxy",
+    "rating": 9.0,
+    "poolSize": "5000万+",
+    "proxyTypes": ["动态住宅", "数据中心", "静态ISP"],
+    "isFeatured": true,
+    "badge": "按GB计费灵活",
+    "features": ["按GB计费灵活", "全球覆盖190+国家", "API快速集成", "静态ISP代理"],
+    "affiliateUrl": "https://iproyal.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/iproyal"
+  },
+  {
     "id": "brightdata",
     "name": "Bright Data",
     "type": "residential-proxy",
@@ -96,19 +110,5 @@
     "affiliateUrl": "https://smartproxy.com/",
     "couponCode": "",
     "detailUrl": "https://smartproxy.com/"
-  },
-  {
-    "id": "ipRoyal",
-    "name": "IPRoyal",
-    "type": "residential-proxy",
-    "rating": 9.0,
-    "poolSize": "5000万+",
-    "proxyTypes": ["动态住宅", "数据中心", "静态ISP"],
-    "isFeatured": false,
-    "badge": "",
-    "features": ["按GB计费灵活", "全球覆盖190+国家", "API集成"],
-    "affiliateUrl": "https://iproyal.com/",
-    "couponCode": "",
-    "detailUrl": "https://iproyal.com/"
   }
 ]
