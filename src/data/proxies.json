@@ -208,5 +208,19 @@
     "affiliateUrl": "https://packetstream.io/",
     "couponCode": "",
     "detailUrl": "/proxy/packetstream"
+  },
+  {
+    "id": "okkproxy",
+    "name": "OKKProxy",
+    "type": "residential-proxy",
+    "rating": 8.2,
+    "poolSize": "1亿+",
+    "proxyTypes": ["动态住宅", "静态住宅", "移动代理", "数据中心"],
+    "isFeatured": true,
+    "badge": "$0.65/GB 起",
+    "features": ["1亿+住宅IP", "200+国家覆盖", "99.99%正常运行", "0.3s响应速度"],
+    "affiliateUrl": "https://okkproxy.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/okkproxy"
   }
 ]
