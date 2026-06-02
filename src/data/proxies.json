@@ -264,5 +264,19 @@
     "affiliateUrl": "https://www.kocerroxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/kocerroxy"
+  },
+  {
+    "id": "rayobyte",
+    "name": "Rayobyte",
+    "type": "residential-proxy",
+    "rating": 8.0,
+    "poolSize": "4000万+",
+    "proxyTypes": ["动态住宅", "静态ISP", "数据中心", "移动代理"],
+    "isFeatured": true,
+    "badge": "$0.50/GB 起",
+    "features": ["4000万+住宅IP", "静态ISP代理", "无限带宽DC", "Web Unblocker"],
+    "affiliateUrl": "https://rayobyte.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/rayobyte"
   }
 ]
