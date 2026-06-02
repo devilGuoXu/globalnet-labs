@@ -362,5 +362,19 @@
     "affiliateUrl": "https://www.proxy4u.com/",
     "couponCode": "",
     "detailUrl": "/proxy/proxy4u"
+  },
+  {
+    "id": "proxyrack",
+    "name": "ProxyRack",
+    "type": "residential-proxy",
+    "rating": 8.0,
+    "poolSize": "8500万+",
+    "proxyTypes": ["住宅代理", "移动代理", "数据中心", "ISP"],
+    "isFeatured": true,
+    "badge": "$49.95/月起",
+    "features": ["8500万+住宅IP", "140+国家覆盖", "不限量带宽方案", "HTTP/SOCKS/UDP"],
+    "affiliateUrl": "https://www.proxyrack.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxyrack"
   }
 ]

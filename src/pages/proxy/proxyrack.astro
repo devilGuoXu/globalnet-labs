@@ -1,0 +1,217 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="ProxyRack 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/proxyrack.png`} alt="ProxyRack" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">ProxyRack 深度评测</h1>
+          <p class="text-slate-400 text-lg">8500万+住宅IP，不限量带宽方案，2010年成立的澳大利亚老牌代理服务商</p>
+        </div>
+      </div>
+
+      <!-- 评分概览 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">性能稳定</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 规模</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">中文支持</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 产品概述 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyRack 是一家成立于 2010 年的澳大利亚代理服务商，提供住宅代理、数据中心代理、移动代理和 ISP 代理四种核心产品。平台拥有超过 8500 万住宅 IP，覆盖全球 140 多个国家和地区，日均处理超过 8 亿次 API 请求。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyRack 的最大特色在于其不限量带宽方案。与按 GB 计费的主流模式不同，ProxyRack 提供按线程数或端口数计费的不限量方案，用户支付固定费用后可使用任意流量。住宅代理起价 $49.95/月（10GB），不限量方案 $199/月起（100 线程）。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          ProxyRack 支持 HTTP、HTTPS、SOCKS4、SOCKS5 和 UDP 协议，覆盖范围在行业中较为罕见。平台强调 IP 来源的合规性，提供 3 天退款保证。拥有 3000+ 企业客户，运营超过 15 年。
+        </p>
+      </section>
+
+      <!-- 代理类型 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理类型</h2>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">住宅代理</h3>
+            <p class="text-sm text-slate-400">8500万+真实住宅IP，140+国家覆盖，支持城市和ISP定位，提供计量和不限量两种方案。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">移动代理</h3>
+            <p class="text-sm text-slate-400">真实 4G/5G 移动网络 IP，70+国家覆盖，社媒平台高信任度，适合账号管理和广告验证。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">数据中心代理</h3>
+            <p class="text-sm text-slate-400">20,000+ IP 池，无限数据传输，提供美国/全球轮换和静态选项，适合大批量数据采集。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">ISP 代理</h3>
+            <p class="text-sm text-slate-400">静态住宅 IP，兼具住宅可信度和数据中心性能，适合电商和社媒账号长期稳定运营。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 核心特性 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">不限量带宽方案</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyRack 最突出的特色是按线程/端口计费的不限量带宽方案。用户购买指定数量的并发线程后，可以使用无限流量，无需担心 GB 费用超支。不限量住宅方案 100 线程起 $199/月，适合大规模数据采集。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">此外也提供传统的按量计费方案，Premium 住宅代理 $49.95/月（10GB），满足不同需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">8500 万+ 住宅 IP 资源</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyRack 拥有超过 8500 万住宅 IP，覆盖 140 多个国家和地区。IP 资源持续性更新，月度活跃 IP 超过 500 万。支持城市级和 ISP 级定位，满足精准地理定位需求。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">数据中心代理拥有 20,000+ IP 池，移动代理覆盖 70+ 国家。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多协议全面支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyRack 支持 HTTP、HTTPS、SOCKS4、SOCKS5 和 UDP 五种协议。UDP 支持在代理行业中较为少见，对于需要 UDP 协议的特定应用场景（如游戏、流媒体）具有重要意义。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">支持轮换和粘性端口，可自定义轮换时间间隔。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">丰富的附加功能</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyRack 提供子账号管理、Web 抓取 API、Android SDK、自定义轮换定时器等功能。用户可以通过统一的控制面板管理所有代理类型和设置。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">平台拥有完善的知识库、论坛和活跃博客，提供丰富的使用指南和技术支持。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">长期稳定运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyRack 成立于 2010 年，是代理行业中运营时间最长的服务商之一。超过 15 年的持续运营证明了其业务稳定性和技术可靠性，日均 8 亿次 API 请求验证了其基础设施的处理能力。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">提供 3 天退款保证，降低用户试用风险。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">广泛应用场景覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyRack 的代理产品适用于网页数据采集、社媒账号管理、广告验证、SEO 监控、市场调研、电商价格监控、品牌保护等多种场景。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">不限量带宽方案特别适合需要持续大规模采集流量的企业和团队。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 定价 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">定价方案</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-3">住宅代理方案</h3>
+            <img src={`${base}/images/proxyrack-res-price.webp`} alt="ProxyRack 住宅代理价格" class="w-full rounded-lg" />
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-3">移动代理方案</h3>
+            <img src={`${base}/images/proxyrack-mob-price.webp`} alt="ProxyRack 移动代理价格" class="w-full rounded-lg" />
+          </div>
+        </div>
+      </section>
+
+      <!-- 适用场景 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 大规模数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxyRack 的不限量带宽方案是大规模数据采集的天然选择。$199/月 100 线程起步，不限流量，采集规模只受线程数限制。8500 万+ IP 池确保了 IP 轮换的充足资源。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理的真实 ISP IP 和多协议支持（HTTP/SOCKS5）使其适合社媒多账号管理。粘性会话模式确保账号登录状态稳定，移动代理的高信任度进一步降低封号风险。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxyRack 的城市级和 ISP 级定位支持广告验证团队精确模拟目标市场用户的访问行为。140+ 国家覆盖为全球广告验证提供了充足的地理多样性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. SEO 监控与市场调研</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">不限量带宽方案特别适合需要持续监控关键词排名的 SEO 团队。多国家覆盖和自定义轮换定时器让跨国 SEO 监控更加灵活高效。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 电商价格监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxyRack 的数据中心代理（20,000+ IP 池）和无限数据传输能力非常适合电商平台的大批量价格数据采集任务。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 优势与局限 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>不限量带宽方案，大流量场景极具优势</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支持 UDP 协议，行业罕见</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>运营超 15 年，经验丰富稳定可靠</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>产品线全面：住宅/移动/DC/ISP</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>3 天退款保证</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不限量方案入门价 $199/月，门槛较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅 IP 总量少于头部大厂</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>定价信息不够透明，需注册查看</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 总结 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyRack 以不限量带宽方案和 15 年的行业经验在代理市场中建立了独特定位。对于需要持续大规模数据采集的用户，按线程计费的不限量模式相比按 GB 计费具有显著的成本优势。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          8500 万+住宅 IP、UDP 协议支持、全面的产品线和丰富的附加功能使其成为一个功能完善的一站式代理平台。3 天退款保证也降低了用户的尝试门槛。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估产品完整性、不限量模式和长期稳定性，ProxyRack 获得 8.0 分，特别推荐给需要大规模持续数据采集的团队和企业用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.proxyrack.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 ProxyRack 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
