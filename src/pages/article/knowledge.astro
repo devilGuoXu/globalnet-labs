@@ -1,0 +1,39 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+
+const articles = [
+  { slug: "vpn-complete-guide", title: "虚拟专用网络（VPN）完整指南", description: "加密隧道技术原理、协议对比（WireGuard vs OpenVPN）及使用场景详解。" },
+  { slug: "residential-vs-datacenter", title: "住宅代理 vs 数据中心代理", description: "核心区别、适用场景（爬虫/养号/社媒营销）及 IP 封禁风险全面对比。" },
+  { slug: "static-isp-guide", title: "静态 ISP 代理选购指南", description: "ISP 代理兼具住宅 IP 可信度与静态稳定性，适合电商平台长期运营。" },
+  { slug: "vpn-protocol-comparison", title: "网络加密隧道协议对比表", description: "OpenVPN / WireGuard / IKEv2 / IPSec 性能、安全性与兼容性横向测评。" },
+  { slug: "mobile-proxy-4g5g", title: "4G/5G 移动代理应用场景", description: "移动代理在社媒注册、验证码接收、本地化测试中的独特优势。" },
+  { slug: "cross-border-compliance", title: "跨境网络合规与风险防范", description: "出海企业网络架构合规要点，DNS/WebRTC 泄露检测与数据安全最佳实践。" },
+];
+---
+
+<Layout title="基础知识百科 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回首页
+      </a>
+
+      <div class="flex items-center gap-3 mb-10">
+        <svg class="w-8 h-8 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+        <h1 class="text-3xl md:text-4xl font-bold text-slate-100">基础知识百科</h1>
+      </div>
+
+      <div class="space-y-4">
+        {articles.map((a) => (
+          <a href={`${base}/article/${a.slug}`} class="bg-slate-900 border border-slate-800 rounded-xl p-6 hover:border-emerald-500/30 transition-all duration-300 group block">
+            <h2 class="text-lg font-semibold text-slate-100 group-hover:text-emerald-400 transition-colors mb-2">{a.title}</h2>
+            <p class="text-sm text-slate-400">{a.description}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</Layout>

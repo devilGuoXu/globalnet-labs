@@ -1,0 +1,40 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+
+const articles = [
+  { slug: "2026-cross-border-risk", title: "2026 跨境风控升级与住宅 IP 革命", tag: "科技前沿", description: "海外平台（TikTok、Amazon）风控算法演进，纯净住宅与移动代理成为合规出海核心。" },
+  { slug: "wireguard-80-percent", title: "WireGuard 协议普及率超 80%", tag: "技术趋势", description: "基于 UDP 的 WireGuard 已成为行业标准，隧道连接速度与稳定性大幅提升。" },
+  { slug: "ipv6-proxy-demand", title: "IPv6 过渡期代理需求激增", tag: "行业洞察", description: "全球 IPv6 部署率突破 45%，双栈架构下代理兼容性成为选型关键。" },
+  { slug: "socks5-social-media", title: "SOCKS5 代理在跨境社媒中的应用", tag: "技术指南", description: "相比 HTTP 代理，SOCKS5 在 TCP/UDP 全协议支持上更具优势，适合直播与实时通讯场景。" },
+  { slug: "ai-proxy-rotation", title: "AI 驱动的智能代理轮换系统", tag: "科技前沿", description: "机器学习算法实现异常检测与自动 IP 轮换，提升爬虫采集效率达 300%。" },
+  { slug: "privacy-regulations-2026", title: "全球数据隐私法规演进（2026）", tag: "行业洞察", description: "欧盟《数据法案》与巴西 LGPD 新规生效，跨境数据传输合规要求进一步收紧。" },
+];
+---
+
+<Layout title="科技前沿动态 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回首页
+      </a>
+
+      <div class="flex items-center gap-3 mb-10">
+        <svg class="w-8 h-8 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        <h1 class="text-3xl md:text-4xl font-bold text-slate-100">科技前沿动态</h1>
+      </div>
+
+      <div class="space-y-4">
+        {articles.map((a) => (
+          <a href={`${base}/article/${a.slug}`} class="bg-slate-900 border border-slate-800 rounded-xl p-6 hover:border-emerald-500/30 transition-all duration-300 group block">
+            <span class="inline-block text-xs font-medium text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-full mb-3">{a.tag}</span>
+            <h2 class="text-lg font-semibold text-slate-100 group-hover:text-emerald-400 transition-colors mb-2">{a.title}</h2>
+            <p class="text-sm text-slate-400">{a.description}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</Layout>
