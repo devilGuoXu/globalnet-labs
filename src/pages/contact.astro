@@ -1,23 +1,198 @@
 ---
 import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 ---
 
 <Layout title="联系我们 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
-    <h1 class="text-3xl font-bold text-slate-100 mb-3">联系我们</h1>
-    <p class="text-slate-400 mb-10">如有合作、建议或问题，欢迎与我们取得联系。</p>
+    <div class="max-w-4xl mx-auto">
+      <!-- 返回 -->
+      <a href={`${base}/`} class="inline-flex items-center gap-1 text-sm text-emerald-400 hover:text-emerald-300 transition-colors mb-10">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回首页
+      </a>
 
-    <div class="bg-slate-900 border border-slate-800 rounded-xl p-8 max-w-2xl">
-      <p class="text-slate-400 mb-6">请通过以下方式联系我们：</p>
-      <div class="space-y-4">
-        <div class="flex items-center gap-3 text-sm">
-          <svg class="w-5 h-5 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-          <span class="text-slate-300">邮箱：contact@globalnetlabs.com</span>
+      <!-- Hero -->
+      <div class="text-center mb-14">
+        <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 mb-6">
+          <svg class="w-8 h-8 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
         </div>
-        <div class="flex items-center gap-3 text-sm">
-          <svg class="w-5 h-5 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-          <span class="text-slate-300">地址：上海市浦东新区</span>
+        <h1 class="text-4xl md:text-5xl font-bold text-slate-100 mb-4 tracking-tight">联系我们</h1>
+        <p class="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
+          无论您有合作意向、产品建议还是任何疑问，我们都期待听到您的声音
+        </p>
+      </div>
+
+      <!-- 分隔线 -->
+      <div class="flex items-center gap-4 mb-14">
+        <div class="flex-1 h-px bg-gradient-to-r from-transparent via-emerald-500/30 to-transparent"></div>
+        <div class="w-2 h-2 rounded-full bg-emerald-400/60"></div>
+        <div class="flex-1 h-px bg-gradient-to-r from-transparent via-emerald-500/30 to-transparent"></div>
+      </div>
+
+      <!-- 联系卡片 -->
+      <div class="grid md:grid-cols-3 gap-5 mb-14">
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 text-center hover:border-emerald-500/20 transition-all duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center mx-auto mb-4 group-hover:bg-emerald-500/20 transition-colors">
+            <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <h3 class="text-sm font-semibold text-slate-100 mb-2">电子邮箱</h3>
+          <a href="mailto:contact@globalnetlabs.com" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors">contact@globalnetlabs.com</a>
+          <p class="text-xs text-slate-500 mt-2">工作日 24 小时内回复</p>
         </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 text-center hover:border-emerald-500/20 transition-all duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center mx-auto mb-4 group-hover:bg-emerald-500/20 transition-colors">
+            <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="text-sm font-semibold text-slate-100 mb-2">响应时间</h3>
+          <p class="text-sm text-slate-300">工作日 9:00 - 18:00</p>
+          <p class="text-xs text-slate-500 mt-2">周末及节假日顺延回复</p>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 text-center hover:border-emerald-500/20 transition-all duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center mx-auto mb-4 group-hover:bg-emerald-500/20 transition-colors">
+            <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <h3 class="text-sm font-semibold text-slate-100 mb-2">运营地点</h3>
+          <p class="text-sm text-slate-300">中国 · 上海</p>
+          <p class="text-xs text-slate-500 mt-2">服务全球出海企业</p>
+        </div>
+      </div>
+
+      <!-- 联系表单区域 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-14">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
+            <svg class="w-5 h-5 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
+          </div>
+          <div>
+            <h2 class="text-lg font-bold text-slate-100">发送消息</h2>
+            <p class="text-xs text-slate-500">请填写以下信息，我们会尽快与您取得联系</p>
+          </div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4 mb-4">
+          <div>
+            <label class="block text-xs text-slate-400 mb-1.5">您的姓名</label>
+            <input type="text" placeholder="请输入姓名" class="w-full bg-slate-950/50 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-slate-300 placeholder-slate-600 focus:outline-none focus:border-emerald-500/50 transition-colors" />
+          </div>
+          <div>
+            <label class="block text-xs text-slate-400 mb-1.5">电子邮箱</label>
+            <input type="email" placeholder="请输入邮箱" class="w-full bg-slate-950/50 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-slate-300 placeholder-slate-600 focus:outline-none focus:border-emerald-500/50 transition-colors" />
+          </div>
+        </div>
+        <div class="mb-4">
+          <label class="block text-xs text-slate-400 mb-1.5">主题</label>
+          <select class="w-full bg-slate-950/50 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-slate-400 focus:outline-none focus:border-emerald-500/50 transition-colors">
+            <option value="">请选择主题</option>
+            <option value="合作">合作洽谈</option>
+            <option value="建议">产品建议</option>
+            <option value="问题">问题反馈</option>
+            <option value="其他">其他</option>
+          </select>
+        </div>
+        <div class="mb-5">
+          <label class="block text-xs text-slate-400 mb-1.5">消息内容</label>
+          <textarea rows="5" placeholder="请输入您的消息内容..." class="w-full bg-slate-950/50 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-slate-300 placeholder-slate-600 focus:outline-none focus:border-emerald-500/50 transition-colors resize-none"></textarea>
+        </div>
+        <button class="w-full md:w-auto px-8 py-3 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-lg transition-colors text-sm cursor-pointer">
+          发送消息
+        </button>
+        <p class="text-xs text-slate-600 mt-3">提交即表示您同意我们的<a href={`${base}/article/privacy-policy`} class="text-emerald-400 hover:text-emerald-300 transition-colors">隐私政策</a></p>
+      </section>
+
+      <!-- 常见联系问题 -->
+      <section class="mb-14">
+        <div class="flex items-center gap-3 mb-8">
+          <div class="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
+            <svg class="w-5 h-5 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h2 class="text-lg font-bold text-slate-100">常见联系问题</h2>
+        </div>
+        <div class="space-y-3">
+          <details class="bg-slate-900/50 border border-slate-800 rounded-xl group open:border-emerald-500/20 transition-colors">
+            <summary class="flex items-center justify-between px-6 py-4 cursor-pointer list-none">
+              <span class="text-sm font-medium text-slate-300 group-open:text-emerald-400 transition-colors">如何与贵平台开展商务合作？</span>
+              <svg class="w-4 h-4 text-slate-500 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <div class="px-6 pb-4">
+              <p class="text-xs text-slate-400 leading-relaxed">我们欢迎代理服务商、VPN 提供商以及跨境生态相关企业洽谈商务合作。请通过邮件联系我们，在邮件中简要介绍您的公司和合作意向，我们将在 2-3 个工作日内与您联系。</p>
+            </div>
+          </details>
+          <details class="bg-slate-900/50 border border-slate-800 rounded-xl group open:border-emerald-500/20 transition-colors">
+            <summary class="flex items-center justify-between px-6 py-4 cursor-pointer list-none">
+              <span class="text-sm font-medium text-slate-300 group-open:text-emerald-400 transition-colors">如何提交产品收录申请？</span>
+              <svg class="w-4 h-4 text-slate-500 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <div class="px-6 pb-4">
+              <p class="text-xs text-slate-400 leading-relaxed">如果您希望您的产品被收录到 GlobalNet Labs 平台，请发送邮件至 contact@globalnetlabs.com，邮件标题注明"产品收录申请"，并提供产品名称、官网链接、核心功能描述和目标用户群体等信息。我们的评测团队会在评估后与您联系。</p>
+            </div>
+          </details>
+          <details class="bg-slate-900/50 border border-slate-800 rounded-xl group open:border-emerald-500/20 transition-colors">
+            <summary class="flex items-center justify-between px-6 py-4 cursor-pointer list-none">
+              <span class="text-sm font-medium text-slate-300 group-open:text-emerald-400 transition-colors">内容纠错或信息更新如何反馈？</span>
+              <svg class="w-4 h-4 text-slate-500 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <div class="px-6 pb-4">
+              <p class="text-xs text-slate-400 leading-relaxed">如果您发现我们平台上的产品信息、价格、评分或文章内容存在错误或需要更新，欢迎随时通过邮件联系我们。请提供具体的页面链接、错误描述以及更正建议，我们核实后会在 3 个工作日内完成更新。</p>
+            </div>
+          </details>
+          <details class="bg-slate-900/50 border border-slate-800 rounded-xl group open:border-emerald-500/20 transition-colors">
+            <summary class="flex items-center justify-between px-6 py-4 cursor-pointer list-none">
+              <span class="text-sm font-medium text-slate-300 group-open:text-emerald-400 transition-colors">关于产品评测的标准是什么？</span>
+              <svg class="w-4 h-4 text-slate-500 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <div class="px-6 pb-4">
+              <p class="text-xs text-slate-400 leading-relaxed">我们的评测基于多项客观指标，包括 IP 池规模、覆盖范围、连接速度、稳定性、价格竞争力、客户支持和功能完整性等。所有产品均经过实际使用测试，确保评测结果的真实性和可靠性。详细的评测方法论可参考相关文章内容。</p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- 其他资源 -->
+      <section class="bg-gradient-to-br from-emerald-500/5 via-slate-900 to-emerald-500/5 border border-emerald-500/10 rounded-xl p-8 mb-8">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
+            <svg class="w-5 h-5 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+          </div>
+          <h2 class="text-lg font-bold text-slate-100">其他资源</h2>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4">
+          <a href={`${base}/article/terms-of-service`} class="flex items-center gap-3 p-4 bg-slate-950/30 rounded-lg border border-slate-800/50 hover:border-emerald-500/20 transition-all group">
+            <svg class="w-5 h-5 text-slate-500 group-hover:text-emerald-400 transition-colors shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            <div>
+              <p class="text-sm font-medium text-slate-300 group-hover:text-emerald-400 transition-colors">用户服务协议</p>
+              <p class="text-xs text-slate-600">了解使用条款与条件</p>
+            </div>
+          </a>
+          <a href={`${base}/article/privacy-policy`} class="flex items-center gap-3 p-4 bg-slate-950/30 rounded-lg border border-slate-800/50 hover:border-emerald-500/20 transition-all group">
+            <svg class="w-5 h-5 text-slate-500 group-hover:text-emerald-400 transition-colors shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+            <div>
+              <p class="text-sm font-medium text-slate-300 group-hover:text-emerald-400 transition-colors">隐私保护政策</p>
+              <p class="text-xs text-slate-600">了解数据收集与处理方式</p>
+            </div>
+          </a>
+          <a href={`${base}/article/legal-disclaimer`} class="flex items-center gap-3 p-4 bg-slate-950/30 rounded-lg border border-slate-800/50 hover:border-emerald-500/20 transition-all group">
+            <svg class="w-5 h-5 text-slate-500 group-hover:text-emerald-400 transition-colors shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>
+            <div>
+              <p class="text-sm font-medium text-slate-300 group-hover:text-emerald-400 transition-colors">免责声明与合规条款</p>
+              <p class="text-xs text-slate-600">了解责任范围与合规要求</p>
+            </div>
+          </a>
+          <a href={`${base}/about`} class="flex items-center gap-3 p-4 bg-slate-950/30 rounded-lg border border-slate-800/50 hover:border-emerald-500/20 transition-all group">
+            <svg class="w-5 h-5 text-slate-500 group-hover:text-emerald-400 transition-colors shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <div>
+              <p class="text-sm font-medium text-slate-300 group-hover:text-emerald-400 transition-colors">关于我们</p>
+              <p class="text-xs text-slate-600">了解我们的使命与团队</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- 底部返回 -->
+      <div class="text-center">
+        <a href={`${base}/`} class="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-emerald-400 transition-colors">
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+          返回首页
+        </a>
       </div>
     </div>
   </div>
