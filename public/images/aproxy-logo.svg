@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="80" viewBox="0 0 300 80" fill="none">
+  <rect width="300" height="80" rx="12" fill="#1AB394"/>
+  <path d="M30 56L50 24L70 56H30Z" fill="#18CCAE"/>
+  <path d="M22 56L50 16L78 56H62L50 34L38 56H22Z" fill="#FFFFFF"/>
+  <text x="92" y="48" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF" letter-spacing="1">APROXY</text>
+</svg>
