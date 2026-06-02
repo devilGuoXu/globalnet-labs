@@ -278,5 +278,19 @@
     "affiliateUrl": "https://rayobyte.com/",
     "couponCode": "",
     "detailUrl": "/proxy/rayobyte"
+  },
+  {
+    "id": "proxy4free",
+    "name": "Proxy4Free",
+    "type": "residential-proxy",
+    "rating": 8.0,
+    "poolSize": "9000万+",
+    "proxyTypes": ["动态住宅", "静态住宅", "数据中心", "ISP"],
+    "isFeatured": true,
+    "badge": "无限并发",
+    "features": ["9000万+住宅IP", "190+国家覆盖", "99.5%成功率", "无限并发会话"],
+    "affiliateUrl": "https://www.proxy4free.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxy4free"
   }
 ]
