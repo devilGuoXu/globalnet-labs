@@ -37,7 +37,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
                 ))}
               </ul>
               {(proxy.id === 'netnut' || proxy.id === 'soax' || proxy.id === 'ipfoxy' || proxy.id === 'glorycloud' || proxy.id === 'iproyal' || proxy.id === 'decodo' || proxy.id === 'kookeey' || proxy.id === 'oxylabs' || proxy.id === 'bright' || proxy.id === 'rola-ip' || proxy.id === 'kuaidaili' || proxy.id === 'floppydata' || proxy.id === 'shenlongproxy' || proxy.id === 'novada' || proxy.id === 'packetstream' || proxy.id === 'okkproxy' || proxy.id === 'infiniteproxies' || proxy.id === 'trustproxy' || proxy.id === 'kocerroxy' || proxy.id === 'rayobyte' || proxy.id === 'proxy4free' || proxy.id === 'aproxy') && (
-                <img src={`${base}/images/${proxy.id === 'kocerroxy' || proxy.id === 'floppydata' ? proxy.id + '-logo.svg' : proxy.id + '.png'}`} alt={proxy.name} class="h-14 w-auto self-center" />
+                <img src={`${base}/images/${proxy.id === 'kocerroxy' || proxy.id === 'floppydata' || proxy.id === 'aproxy' ? proxy.id + '-logo.svg' : proxy.id + '.png'}`} alt={proxy.name} class="h-14 w-auto self-center" />
               )}
             </div>
             <div class="pt-3 border-t border-slate-800 text-right">
