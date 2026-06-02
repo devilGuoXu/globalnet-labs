@@ -1,0 +1,204 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Proxy4U 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/proxy4u.png`} alt="Proxy4U" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Proxy4U 深度评测</h1>
+          <p class="text-slate-400 text-lg">9000万+全球IP，$0.30/GB 起，流量永不过期的按量付费代理服务商</p>
+        </div>
+      </div>
+
+      <!-- 评分概览 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 规模</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">中文支持</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 产品概述 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxy4U 是一家总部位于香港的全球代理服务商，提供住宅代理、移动代理和数据中心代理三种核心产品。平台拥有超过 9000 万 IP 资源，覆盖全球 90 多个国家和地区，被 Business Insider、Benzinga、MarketWatch 等国际财经媒体报道。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxy4U 的最大特色在于其独特的定价模式：购买的流量永不过期，无月费，无强制订阅。住宅代理起价 $0.99/GB，数据中心代理最低仅 $0.30/GB，移动代理起价 $1.99/GB。平台与 GoLogin、Dolphin Anty、Multilogin 等 16 款主流反检测浏览器建立了合作关系。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          Proxy4U 提供免费试用，Reviews.io 评分 4.8/5（311 条评价），99% 的用户推荐率。24/7 人工客服通过 WhatsApp 和 Telegram 提供支持。香港公司运营，支持 HTTP(S) 和 SOCKS5 协议。
+        </p>
+      </section>
+
+      <!-- 代理类型 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理类型</h2>
+        <div class="grid md:grid-cols-3 gap-4">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">住宅代理</h3>
+            <p class="text-sm text-slate-400">真实住宅 ISP IP，$0.99/GB 起，覆盖全球 90+ 国家，支持城市级定位和轮换/粘性会话。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">移动代理</h3>
+            <p class="text-sm text-slate-400">真实 4G/5G 移动网络 IP，$1.99/GB 起，99.9% 正常运行，社媒平台高信任度。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">数据中心代理</h3>
+            <p class="text-sm text-slate-400">高性能数据中心 IP，$0.49/GB 起，99.99% 正常运行，城市/运营商级定位，适合大批量采集。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 核心特性 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">9000 万+ IP 资源池</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy4U 拥有超过 9000 万 IP 地址，覆盖全球 90 多个国家和地区。住宅 IP 支持城市级定位，数据中心代理支持城市和运营商级定位。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">IP 资源采用实时利用率追踪，用户可以查看带宽消耗、会话状态和 IP 轮换情况。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">流量永不过期，无月费</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy4U 最突出的卖点是购买的流量永不过期。与传统代理服务商的月度订阅模式不同，用户一次性购买流量后可以按需使用，不限时间。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">没有月费，没有强制续费，没有隐藏费用。对于使用频率不稳定或项目周期长的用户来说，这种模式非常灵活。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">极具竞争力的阶梯定价</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅代理起价 $0.99/GB，100GB 以上降至 $0.85/GB，500GB 以上仅 $0.60/GB。数据中心代理更加实惠，$0.49/GB 起，500GB 以上低至 $0.30/GB。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">1TB+ 还可联系客服获取企业定制价格。按量付费模式让用户只为实际使用的流量付费。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">轮换与粘性会话双模式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy4U 同时支持 IP 自动轮换和粘性会话两种模式。轮换模式适合数据采集场景，每次请求自动更换 IP；粘性会话模式适合账号管理，保持 IP 持续不变。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">用户可以根据具体任务类型灵活切换，兼顾采集效率和账号稳定性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">广泛的反检测浏览器兼容</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy4U 与 16 款主流反检测浏览器建立了官方合作关系，包括 GoLogin、Dolphin Anty、MuLogin、Multilogin、ixBrowser、VMLogin、Octo Browser、HideMIUM、BitBrowser、XLogin、CapSolver、GeeLark、GenLogin、CaptchaAI、Vision Browser、Undetectable。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">这意味着 Proxy4U 的代理在这些浏览器中经过充分测试，兼容性有保障。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">24/7 人工客服</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy4U 提供 24/7 真人客服支持，可通过 WhatsApp 和 Telegram 即时联系。Reviews.io 评分 4.8/5（311 条评价），99% 用户推荐率。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">曾被 Business Insider、Benzinga、MarketWatch、Yahoo Finance 等多家国际媒体报道。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 定价 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">定价方案</h2>
+        <img src={`${base}/images/proxy4u-pricing.png`} alt="Proxy4U 定价方案" class="w-full rounded-lg" />
+      </section>
+
+      <!-- 适用场景 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 社媒账号多开管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Proxy4U 与主流反检测浏览器的深度兼容使其成为社媒多账号管理的理想选择。移动代理的高信任度降低了 Facebook、Instagram 等平台的检测风险，粘性会话模式确保账号登录状态稳定。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 网页数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理的自动 IP 轮换和 9000 万+ IP 池可有效应对反爬机制。$0.30/GB 的数据中心代理在大批量采集中具有显著的成本优势。购买流量永不过期，适合长期采集项目。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 跨境电商与市场调研</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">城市级和运营商级定位支持让 Proxy4U 适合跨境电商价格监控和区域市场调研。无限并发请求保证了多任务并行处理效率。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. SEO 监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全球 90+ 国家覆盖和免费国家定位使 Proxy4U 适合 SEO 团队进行跨国关键词排名监控和搜索结果分析。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理的真实 ISP IP 和多国家覆盖支持广告验证团队从不同地区验证广告投放效果，确保广告内容的准确展示。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 优势与局限 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>流量永不过期，性价比突出</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无月费无订阅，按量付费</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>与 16 款反检测浏览器兼容</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Reviews.io 4.8 分，口碑优秀</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>24/7 人工客服支持</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理 $0.99/GB 起，高于部分竞品</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>90 国家覆盖，少于头部大厂的 195+</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度有待提升</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 总结 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxy4U 以"流量永不过期、无月费"的独特定价模式在代理市场中建立了差异化优势。9000 万+ IP 覆盖 90+ 国家，数据中心代理低至 $0.30/GB，在性价比方面表现突出。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          与 16 款主流反检测浏览器的官方合作和 Reviews.io 4.8 分的高评分证明了其在用户群体中的认可度。24/7 人工客服和免费试用政策也降低了用户的尝试门槛。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估产品完整性、定价竞争力和用户口碑，Proxy4U 获得 8.0 分，特别推荐给追求按量付费灵活性、需要长时间跨度的采集项目以及使用反检测浏览器进行社媒多账号管理的用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.proxy4u.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Proxy4U 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
