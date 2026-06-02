@@ -306,5 +306,19 @@
     "affiliateUrl": "https://aproxy.com/zh/",
     "couponCode": "",
     "detailUrl": "/proxy/aproxy"
+  },
+  {
+    "id": "ipwo",
+    "name": "IPWO",
+    "type": "residential-proxy",
+    "rating": 8.0,
+    "poolSize": "9000万+",
+    "proxyTypes": ["动态住宅", "静态住宅", "不限量住宅", "数据中心"],
+    "isFeatured": true,
+    "badge": "¥9.40/GB 起",
+    "features": ["9000万+纯净住宅IP", "200+国家覆盖", "99.8%成功率", "流量永不过期"],
+    "affiliateUrl": "https://www.ipwo.net/",
+    "couponCode": "",
+    "detailUrl": "/proxy/ipwo"
   }
 ]

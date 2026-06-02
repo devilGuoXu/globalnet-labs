@@ -1,0 +1,213 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="IPWO 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/ipwo.png`} alt="IPWO" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">IPWO 深度评测</h1>
+          <p class="text-slate-400 text-lg">9000万+纯净住宅IP，¥9.40/GB 起，流量永不过期的中国代理服务商</p>
+        </div>
+      </div>
+
+      <!-- 评分概览 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.2</div>
+            <div class="text-xs text-slate-500 mt-1">IP 规模</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">中文支持</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 产品概述 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          IPWO 是一家中国代理服务提供商，专注于为全球用户提供高质量的住宅代理解决方案。平台拥有超过 9000 万合规纯净住宅 IP，覆盖全球 200 多个国家和地区，以 99.8% 的成功率和毫秒级响应时间在数据采集领域建立了良好口碑。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          IPWO 的产品线涵盖动态住宅代理、静态住宅代理、不限量住宅代理和数据中心代理四大类型。动态住宅代理按流量计费，¥9.40/GB 起，且流量永不过期；静态住宅代理 ¥35/IP/月，提供纯静态 ISP 资源；不限量住宅代理低至 ¥1.6/天，专为 AI 大模型训练和大规模数据采集场景打造。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          平台支持 HTTP(S) 和 SOCKS5 协议，提供城市级精准定位、自定义 IP 轮换策略、无限并发会话和可视化流量监控等完善功能。全中文界面和 7×24 小时技术支持对中国用户极为友好。
+        </p>
+      </section>
+
+      <!-- 代理类型 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理类型</h2>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">动态住宅代理</h3>
+            <p class="text-sm text-slate-400">9000万+纯净住宅IP，200+国家覆盖，¥9.40/GB 起，流量永不过期，支持城市级定位。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">静态住宅代理</h3>
+            <p class="text-sm text-slate-400">ISP 原生静态住宅 IP，¥35/IP/月，不限流量，在线率 99.9%，适合账号长期稳定运营。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">不限量住宅代理</h3>
+            <p class="text-sm text-slate-400">独享服务器资源，无流量/IP 限制，低至 ¥1.6/天，支持 AI 训练和大规模数据采集。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">数据中心代理</h3>
+            <p class="text-sm text-slate-400">免费数据中心代理，0 成本体验，适合测试和小规模任务。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 核心特性 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">9000 万+ 纯净住宅 IP 池</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">IPWO 拥有超过 9000 万合规纯净住宅 IP，覆盖全球 200 多个国家和地区。在美国、巴西、德国、日本、英国、越南、法国、韩国等主要市场均有大量 IP 资源储备。巴西拥有约 465 万 IP，韩国约 184 万 IP，法国约 152 万 IP。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">所有 IP 均为真实住宅来源，纯度高，有效降低被目标网站识别和封锁的风险。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">流量永不过期</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">IPWO 动态住宅代理的已购流量永不过期，用户可以按需使用，无需担心流量浪费。这在代理行业中是一项极具吸引力的政策，尤其适合使用频率不固定的个人用户和中小团队。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">配合 ¥9.40/GB 的起价，IPWO 在性价比方面具备显著竞争力。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">99.8% 成功率与毫秒级响应</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">IPWO 拥有 99.8% 的连接成功率和毫秒级响应时间，依托 100Gbps 高速带宽基础设施，确保数据采集任务的稳定性和效率。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">智能 IP 轮换策略配合城市级精准定位，可在毫秒级完成 IP 切换，大幅提升采集效率。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">AI 与大规模采集优化</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">IPWO 的不限量住宅代理专为 AI 大模型训练和大规模数据采集场景设计。独享服务器资源、无流量/IP 限制、无限并发请求，为 AI 训练数据的持续采集提供稳定可靠的代理基础设施。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">低至 ¥1.6/天的定价使 AI 数据采集团队可以低成本构建大规模数据管道。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">完善的工具集成生态</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">IPWO 支持与 Selenium、Puppeteer、Playwright、Scrapy 等主流数据采集框架的无缝集成，同时兼容 AdsPower、Bitbrowser 等指纹浏览器。提供多语言代码示例（Python、Node.js、Java 等），帮助开发者快速上手。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">全面的 API 接口和参数说明使代理资源的自动化管理变得更加便捷。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">可视化流量管理与子账号体系</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">IPWO 提供全面的流量管理面板，支持实时流量监控、流量消耗明细和灵活的代理配置。子账号权限管理体系使团队协作更加高效，管理员可以精确控制每个子账号的流量配额和权限范围。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">直观的仪表盘设计降低了管理成本，用户无需专业技术背景即可轻松上手。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 定价 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">定价方案</h2>
+        <div class="space-y-4">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-3">动态住宅代理方案</h3>
+            <img src={`${base}/images/ipwo-res-price.webp`} alt="IPWO 住宅代理价格" class="w-full rounded-lg" />
+          </div>
+        </div>
+      </section>
+
+      <!-- 适用场景 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. AI 大模型训练数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">IPWO 的不限量住宅代理无流量/IP 限制、无限并发，是 AI 训练数据采集的理想选择。¥1.6/天的低成本方案使采集团队可以长时间、大规模地构建高质量训练数据集。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 跨境电商运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">静态住宅代理 ¥35/IP/月提供 ISP 原生纯净 IP，不限流量，适合跨境电商多店铺管理。城市级定位功能支持获取特定市场的本地化商品和价格数据，配合 AdsPower、Bitbrowser 等指纹浏览器使用效果更佳。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 大规模数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">动态住宅代理的 ¥9.40/GB 定价和流量不过期政策，配合 99.8% 的成功率和毫秒级响应，使其在大规模数据采集场景中兼具性价比和稳定性的双重优势。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. SEO 监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">利用 IPWO 的城市级精准定位功能，SEO 团队可以从全球 200+ 国家的城市级维度监控关键词排名。纯净住宅 IP 确保搜索结果的本地化和真实性，避免数据中心 IP 导致的搜索结果偏差。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 社媒账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">静态住宅代理支持长期稳定会话，在线率 99.9%，适合社媒账号的长期运营。子账号管理体系使团队可以协作管理多个账号，并通过可视化面板实时监控流量消耗和代理状态。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 优势与局限 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>9000 万+ 纯净住宅 IP，200+ 国家覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>动态流量永不过期，¥9.40/GB 起</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>不限量代理低至 ¥1.6/天，适合 AI 训练</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.8% 成功率，毫秒级响应</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>全中文界面，7×24 技术支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>子账号管理，可视化流量监控</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌历史和市场知名度相对有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>缺少移动代理产品线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分冷门地区 IP 资源可能有限</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 总结 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          IPWO 以 9000 万+ 纯净住宅 IP、¥9.40/GB 的起价和流量永不过期政策在代理市场中建立了独特的竞争力。99.8% 的成功率、毫秒级响应时间和 100Gbps 带宽基础设施体现了平台在技术层面的扎实投入。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          动态住宅、静态住宅、不限量住宅和数据中心代理的完整产品线覆盖了从个人开发者到 AI 企业级客户的多样化需求。全中文界面和子账号管理体系对中国团队尤为友好，大幅降低了使用和管理门槛。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估 IP 规模、定价竞争力、AI 场景适配和中文支持等因素，IPWO 获得 8.0 分，特别推荐给 AI 数据采集团队、跨境电商运营者以及追求流量不过期灵活性的个人开发者。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.ipwo.net/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 IPWO 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
