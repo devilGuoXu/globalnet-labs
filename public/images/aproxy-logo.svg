@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="232" height="64" viewBox="0 0 232 64" fill="none">
-  <rect width="232" height="64" rx="8" fill="white"/>
-  <path d="M28.5 48L42 16L55.5 48H28.5Z" fill="#1AB394"/>
-  <path d="M22 48L42 8L62 48H54L42 24L30 48H22Z" fill="#0E7EFF"/>
-  <path d="M44 48L58 16L72 48H44Z" fill="#8768FF"/>
-  <text x="82" y="40" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#081A2C">Aproxy</text>
-</svg>
