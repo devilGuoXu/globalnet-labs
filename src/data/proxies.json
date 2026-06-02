@@ -334,5 +334,19 @@
     "affiliateUrl": "https://ziny.io/",
     "couponCode": "",
     "detailUrl": "/proxy/ziny"
+  },
+  {
+    "id": "ake",
+    "name": "AKE",
+    "type": "residential-proxy",
+    "rating": 8.0,
+    "poolSize": "900万+",
+    "proxyTypes": ["移动代理", "住宅代理", "企业代理"],
+    "isFeatured": true,
+    "badge": "$0.90/GB 起",
+    "features": ["900万+IP资源", "188+国家覆盖", "SOCKS5支持", "免费试用"],
+    "affiliateUrl": "https://ake.net/",
+    "couponCode": "",
+    "detailUrl": "/proxy/ake"
   }
 ]
