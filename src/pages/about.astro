@@ -1,0 +1,239 @@
+---
+import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="关于我们 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <!-- 顶部返回 -->
+      <a href={`${base}/`} class="inline-flex items-center gap-1 text-sm text-emerald-400 hover:text-emerald-300 transition-colors mb-10">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回首页
+      </a>
+
+      <!-- Hero -->
+      <div class="text-center mb-16">
+        <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 mb-6">
+          <svg class="w-8 h-8 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg>
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-slate-100 mb-4 tracking-tight">
+          关于 <span class="text-emerald-400">GlobalNet Labs</span>
+        </h1>
+        <p class="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
+          连接全球网络，赋能出海业务——我们致力于为跨境电商、出海团队和技术极客提供专业的网络工具导航与技术服务
+        </p>
+      </div>
+
+      <!-- 分隔线 -->
+      <div class="flex items-center gap-4 mb-16">
+        <div class="flex-1 h-px bg-gradient-to-r from-transparent via-emerald-500/30 to-transparent"></div>
+        <div class="w-2 h-2 rounded-full bg-emerald-400/60"></div>
+        <div class="flex-1 h-px bg-gradient-to-r from-transparent via-emerald-500/30 to-transparent"></div>
+      </div>
+
+      <!-- 使命愿景 -->
+      <div class="grid md:grid-cols-2 gap-6 mb-16">
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-8 hover:border-emerald-500/20 transition-all duration-500 group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center mb-5 group-hover:bg-emerald-500/20 transition-colors">
+            <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h2 class="text-xl font-bold text-slate-100 mb-3">我们的使命</h2>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            在全球化浪潮中，网络壁垒和数据安全是出海企业面临的首要挑战。GlobalNet Labs 致力于打破信息孤岛，通过精选和评测全球优质的网络工具，帮助中国企业和个人用户安全、高效地连接全球互联网，让出海之路更加顺畅。
+          </p>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-8 hover:border-emerald-500/20 transition-all duration-500 group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center mb-5 group-hover:bg-emerald-500/20 transition-colors">
+            <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+          </div>
+          <h2 class="text-xl font-bold text-slate-100 mb-3">我们的愿景</h2>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            成为出海领域最值得信赖的网络技术导航平台。我们追求中立、客观、深度的产品评测，为每一位用户提供精准的工具选型建议。我们相信，更好的网络连接能创造更多的商业可能。
+          </p>
+        </div>
+      </div>
+
+      <!-- 平台数据 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-16">
+        <h2 class="text-xl font-bold text-slate-100 text-center mb-8">平台概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div class="text-center">
+            <div class="text-3xl font-bold text-emerald-400 mb-1">17+</div>
+            <div class="text-xs text-slate-500">收录代理产品</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-bold text-emerald-400 mb-1">5+</div>
+            <div class="text-xs text-slate-500">收录 VPN 产品</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-bold text-emerald-400 mb-1">12+</div>
+            <div class="text-xs text-slate-500">深度评测文章</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-bold text-emerald-400 mb-1">38</div>
+            <div class="text-xs text-slate-500">静态页面</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 核心价值 -->
+      <section class="mb-16">
+        <h2 class="text-2xl font-bold text-slate-100 text-center mb-10">我们的核心价值</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-slate-900/50 border border-slate-800 rounded-xl p-6 text-center hover:border-emerald-500/20 transition-all duration-300">
+            <div class="w-12 h-12 rounded-full bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center mx-auto mb-4">
+              <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            </div>
+            <h3 class="text-base font-semibold text-slate-100 mb-2">中立客观</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">所有评测基于真实使用体验，不偏袒任何品牌，为您的选型决策提供可靠参考</p>
+          </div>
+          <div class="bg-slate-900/50 border border-slate-800 rounded-xl p-6 text-center hover:border-emerald-500/20 transition-all duration-300">
+            <div class="w-12 h-12 rounded-full bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center mx-auto mb-4">
+              <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+            </div>
+            <h3 class="text-base font-semibold text-slate-100 mb-2">深度专业</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">每篇文章均由行业从业者撰写，万字长文提供深度的技术解析与实战经验</p>
+          </div>
+          <div class="bg-slate-900/50 border border-slate-800 rounded-xl p-6 text-center hover:border-emerald-500/20 transition-all duration-300">
+            <div class="w-12 h-12 rounded-full bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center mx-auto mb-4">
+              <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+            </div>
+            <h3 class="text-base font-semibold text-slate-100 mb-2">持续更新</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">紧跟行业发展动态，定期更新产品数据和评测内容，确保信息的时效性和准确性</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 发展历程 -->
+      <section class="mb-16">
+        <h2 class="text-2xl font-bold text-slate-100 text-center mb-10">发展历程</h2>
+        <div class="relative">
+          <div class="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-emerald-500/40 via-emerald-500/20 to-transparent"></div>
+          <div class="space-y-10">
+            <div class="relative flex items-start gap-6 md:gap-0">
+              <div class="hidden md:flex md:w-1/2 justify-end pr-8">
+                <div class="text-right">
+                  <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">2026 Q2</span>
+                  <h3 class="text-base font-semibold text-slate-100 mt-2">法律条款与关于我们上线</h3>
+                  <p class="text-xs text-slate-500 mt-1">完成用户服务协议、隐私保护政策和免责声明编写，新增关于我们页面</p>
+                </div>
+              </div>
+              <div class="absolute left-4 md:left-1/2 w-3 h-3 rounded-full bg-emerald-400 border-2 border-slate-950 -translate-x-1/2 mt-1.5 z-10"></div>
+              <div class="md:w-1/2 pl-10 md:pl-8 md:hidden">
+                <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">2026 Q2</span>
+                <h3 class="text-base font-semibold text-slate-100 mt-2">法律条款与关于我们上线</h3>
+                <p class="text-xs text-slate-500 mt-1">完成用户服务协议、隐私保护政策和免责声明编写，新增关于我们页面</p>
+              </div>
+            </div>
+            <div class="relative flex items-start gap-6 md:gap-0">
+              <div class="md:w-1/2 md:pl-8 hidden md:block">
+                <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">2026 Q1</span>
+                <h3 class="text-base font-semibold text-slate-100 mt-2">文章系统与万字内容</h3>
+                <p class="text-xs text-slate-500 mt-1">上线12篇深度文章，每篇万字以上，涵盖科技前沿与基础知识百科两大板块</p>
+              </div>
+              <div class="absolute left-4 md:left-1/2 w-3 h-3 rounded-full bg-slate-600 border-2 border-slate-950 -translate-x-1/2 mt-1.5 z-10"></div>
+              <div class="md:w-1/2 pl-10 md:pl-8 md:hidden">
+                <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">2026 Q1</span>
+                <h3 class="text-base font-semibold text-slate-100 mt-2">文章系统与万字内容</h3>
+                <p class="text-xs text-slate-500 mt-1">上线12篇深度文章，每篇万字以上，涵盖科技前沿与基础知识百科两大板块</p>
+              </div>
+            </div>
+            <div class="relative flex items-start gap-6 md:gap-0">
+              <div class="hidden md:flex md:w-1/2 justify-end pr-8">
+                <div class="text-right">
+                  <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">2026 Q1</span>
+                  <h3 class="text-base font-semibold text-slate-100 mt-2">代理产品线扩展</h3>
+                  <p class="text-xs text-slate-500 mt-1">收录17款代理产品，涵盖住宅、移动、ISP和数据中心等多种代理类型</p>
+                </div>
+              </div>
+              <div class="absolute left-4 md:left-1/2 w-3 h-3 rounded-full bg-slate-600 border-2 border-slate-950 -translate-x-1/2 mt-1.5 z-10"></div>
+              <div class="md:w-1/2 pl-10 md:pl-8 md:hidden">
+                <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">2026 Q1</span>
+                <h3 class="text-base font-semibold text-slate-100 mt-2">代理产品线扩展</h3>
+                <p class="text-xs text-slate-500 mt-1">收录17款代理产品，涵盖住宅、移动、ISP和数据中心等多种代理类型</p>
+              </div>
+            </div>
+            <div class="relative flex items-start gap-6 md:gap-0">
+              <div class="md:w-1/2 md:pl-8 hidden md:block">
+                <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">2025 Q4</span>
+                <h3 class="text-base font-semibold text-slate-100 mt-2">VPN 与代理导航上线</h3>
+                <p class="text-xs text-slate-500 mt-1">完成 VPN 和代理产品详情页开发，支持评分、定价、特性展示和外部链接跳转</p>
+              </div>
+              <div class="absolute left-4 md:left-1/2 w-3 h-3 rounded-full bg-slate-600 border-2 border-slate-950 -translate-x-1/2 mt-1.5 z-10"></div>
+              <div class="md:w-1/2 pl-10 md:pl-8 md:hidden">
+                <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">2025 Q4</span>
+                <h3 class="text-base font-semibold text-slate-100 mt-2">VPN 与代理导航上线</h3>
+                <p class="text-xs text-slate-500 mt-1">完成 VPN 和代理产品详情页开发，支持评分、定价、特性展示和外部链接跳转</p>
+              </div>
+            </div>
+            <div class="relative flex items-start gap-6 md:gap-0">
+              <div class="hidden md:flex md:w-1/2 justify-end pr-8">
+                <div class="text-right">
+                  <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">2025 Q3</span>
+                  <h3 class="text-base font-semibold text-slate-100 mt-2">项目启动</h3>
+                  <p class="text-xs text-slate-500 mt-1">GlobalNet Labs 项目正式启动，基于 Astro + Tailwind CSS 构架建站</p>
+                </div>
+              </div>
+              <div class="absolute left-4 md:left-1/2 w-3 h-3 rounded-full bg-emerald-400 border-2 border-slate-950 -translate-x-1/2 mt-1.5 z-10"></div>
+              <div class="md:w-1/2 pl-10 md:pl-8 md:hidden">
+                <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">2025 Q3</span>
+                <h3 class="text-base font-semibold text-slate-100 mt-2">项目启动</h3>
+                <p class="text-xs text-slate-500 mt-1">GlobalNet Labs 项目正式启动，基于 Astro + Tailwind CSS 构架建站</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 团队 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-16">
+        <h2 class="text-xl font-bold text-slate-100 text-center mb-8">我们的团队</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="text-center">
+            <div class="w-20 h-20 rounded-full bg-gradient-to-br from-emerald-400/20 to-emerald-600/20 border border-emerald-500/20 flex items-center justify-center mx-auto mb-4">
+              <svg class="w-10 h-10 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+            </div>
+            <h3 class="text-sm font-semibold text-slate-100">技术团队</h3>
+            <p class="text-xs text-slate-500 mt-1">网络工程与安全领域专家</p>
+          </div>
+          <div class="text-center">
+            <div class="w-20 h-20 rounded-full bg-gradient-to-br from-emerald-400/20 to-emerald-600/20 border border-emerald-500/20 flex items-center justify-center mx-auto mb-4">
+              <svg class="w-10 h-10 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
+            </div>
+            <h3 class="text-sm font-semibold text-slate-100">编辑团队</h3>
+            <p class="text-xs text-slate-500 mt-1">出海行业资深从业者</p>
+          </div>
+          <div class="text-center">
+            <div class="w-20 h-20 rounded-full bg-gradient-to-br from-emerald-400/20 to-emerald-600/20 border border-emerald-500/20 flex items-center justify-center mx-auto mb-4">
+              <svg class="w-10 h-10 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            </div>
+            <h3 class="text-sm font-semibold text-slate-100">评测团队</h3>
+            <p class="text-xs text-slate-500 mt-1">专注产品体验与测评</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 联系方式 -->
+      <section class="bg-gradient-to-br from-emerald-500/5 via-slate-900 to-emerald-500/5 border border-emerald-500/10 rounded-xl p-8 mb-8 text-center">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">联系我们</h2>
+        <p class="text-sm text-slate-400 leading-relaxed mb-6 max-w-lg mx-auto">
+          如果您有任何问题、建议或合作意向，欢迎通过以下方式与我们取得联系
+        </p>
+        <div class="flex flex-col items-center gap-3">
+          <a href="mailto:contact@globalnetlabs.com" class="inline-flex items-center gap-2 text-sm text-emerald-400 hover:text-emerald-300 transition-colors">
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            contact@globalnetlabs.com
+          </a>
+        </div>
+      </section>
+
+      <div class="text-center">
+        <a href={`${base}/`} class="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-emerald-400 transition-colors">
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+          返回首页
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
