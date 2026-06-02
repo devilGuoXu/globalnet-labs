@@ -46,39 +46,6 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         </div>
       </section>
 
-      <!-- 定价 -->
-      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">定价方案</h2>
-        <div class="grid md:grid-cols-2 gap-6 mb-6">
-          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold mb-3">住宅代理方案</h3>
-            <img src={`${base}/images/rayobyte-res-price.webp`} alt="Rayobyte 住宅代理价格" class="w-full rounded" />
-          </div>
-          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold mb-3">移动代理方案</h3>
-            <img src={`${base}/images/rayobyte-mob-price.webp`} alt="Rayobyte 移动代理价格" class="w-full rounded" />
-          </div>
-        </div>
-        <div class="grid md:grid-cols-4 gap-4">
-          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-800/50 text-center">
-            <div class="text-2xl font-bold text-slate-100 mb-1">$0.50<span class="text-xs text-slate-500">/GB</span></div>
-            <div class="text-xs text-slate-400">住宅代理起价</div>
-          </div>
-          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-800/50 text-center">
-            <div class="text-2xl font-bold text-slate-100 mb-1">$4.60<span class="text-xs text-slate-500">/IP</span></div>
-            <div class="text-xs text-slate-400">静态 ISP 起价</div>
-          </div>
-          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-800/50 text-center">
-            <div class="text-2xl font-bold text-slate-100 mb-1">$1<span class="text-xs text-slate-500">/IP</span></div>
-            <div class="text-xs text-slate-400">静态 DC 起价</div>
-          </div>
-          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-800/50 text-center">
-            <div class="text-2xl font-bold text-slate-100 mb-1">$5<span class="text-xs text-slate-500">/月</span></div>
-            <div class="text-xs text-slate-400">轮转 ISP 起价</div>
-          </div>
-        </div>
-      </section>
-
       <!-- 产品概述 -->
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
@@ -162,6 +129,39 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">伦理合规与社会责任</h3>
             <p class="text-sm text-slate-400 leading-relaxed mb-2">Rayobyte 强调其代理来源的伦理合规性，所有 IP 均通过用户自愿共享方式获取。平台与 Eden Reforestation Project 合作，每笔购买都会参与植树造林，支持全球生物多样性保护。</p>
             <p class="text-sm text-slate-400 leading-relaxed">这种对伦理和社会责任的承诺使 Rayobyte 在企业客户中建立了一定的品牌信任度。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 定价 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">定价方案</h2>
+        <div class="grid md:grid-cols-2 gap-6 mb-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-3">住宅代理方案</h3>
+            <img src={`${base}/images/rayobyte-res-price.webp`} alt="Rayobyte 住宅代理价格" class="w-full rounded" />
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-3">移动代理方案</h3>
+            <img src={`${base}/images/rayobyte-mob-price.webp`} alt="Rayobyte 移动代理价格" class="w-full rounded" />
+          </div>
+        </div>
+        <div class="grid md:grid-cols-4 gap-4">
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-800/50 text-center">
+            <div class="text-2xl font-bold text-slate-100 mb-1">$0.50<span class="text-xs text-slate-500">/GB</span></div>
+            <div class="text-xs text-slate-400">住宅代理起价</div>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-800/50 text-center">
+            <div class="text-2xl font-bold text-slate-100 mb-1">$4.60<span class="text-xs text-slate-500">/IP</span></div>
+            <div class="text-xs text-slate-400">静态 ISP 起价</div>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-800/50 text-center">
+            <div class="text-2xl font-bold text-slate-100 mb-1">$1<span class="text-xs text-slate-500">/IP</span></div>
+            <div class="text-xs text-slate-400">静态 DC 起价</div>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-800/50 text-center">
+            <div class="text-2xl font-bold text-slate-100 mb-1">$5<span class="text-xs text-slate-500">/月</span></div>
+            <div class="text-xs text-slate-400">轮转 ISP 起价</div>
           </div>
         </div>
       </section>
