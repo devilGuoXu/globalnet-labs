@@ -714,6 +714,12 @@ const categoryLinks: Record<string, string> = {
   "基础知识百科": `${base}/article/knowledge`,
   "政策条款": `${base}/`,
 };
+
+const categoryText: Record<string, string> = {
+  "科技前沿动态": "科技前沿动态",
+  "基础知识百科": "基础知识百科",
+  "政策条款": "首页",
+};
 ---
 
 <Layout title={`${article.title} - GlobalNet Labs`}>
@@ -721,7 +727,7 @@ const categoryLinks: Record<string, string> = {
     <div class="max-w-3xl mx-auto">
       <a href={categoryLinks[article.category]} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
-        返回{article.category}
+        返回{categoryText[article.category]}
       </a>
 
       <div class="mb-10">
@@ -741,7 +747,7 @@ const categoryLinks: Record<string, string> = {
       <div class="mt-12 pt-8 border-t border-slate-800">
         <a href={categoryLinks[article.category]} class="inline-flex items-center gap-2 text-emerald-400 hover:text-emerald-300 transition-colors">
           <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
-          返回{article.category}列表
+          返回{categoryText[article.category]}
         </a>
       </div>
     </div>
