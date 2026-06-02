@@ -1,0 +1,224 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="InfiniteProxies 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/infiniteproxies.png`} alt="InfiniteProxies" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">InfiniteProxies 深度评测</h1>
+          <p class="text-slate-400 text-lg">自2019年运营，住宅/移动/静态代理，数据永不过期</p>
+        </div>
+      </div>
+
+      <!-- 评分概览 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">8.1</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">覆盖范围</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.8</div>
+            <div class="text-xs text-slate-500 mt-1">稳定性</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 定价 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">定价方案</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <a href="https://www.infiniteproxies.com/" target="_blank" rel="noopener noreferrer" class="block bg-slate-950/50 rounded-lg p-5 border border-slate-800/50 hover:border-emerald-500/50 transition-all">
+            <h3 class="text-emerald-400 font-semibold mb-3">住宅代理</h3>
+            <img src={`${base}/images/infiniteproxies-res-price.webp`} alt="InfiniteProxies 住宅代理价格" class="w-full rounded" />
+            <p class="text-xs text-slate-500 mt-2">住宅代理：$2/GB 起</p>
+          </a>
+          <a href="https://www.infiniteproxies.com/" target="_blank" rel="noopener noreferrer" class="block bg-slate-950/50 rounded-lg p-5 border border-slate-800/50 hover:border-emerald-500/50 transition-all">
+            <h3 class="text-emerald-400 font-semibold mb-3">移动代理</h3>
+            <img src={`${base}/images/infiniteproxies-mob-price.webp`} alt="InfiniteProxies 移动代理价格" class="w-full rounded" />
+            <p class="text-xs text-slate-500 mt-2">移动代理</p>
+          </a>
+        </div>
+      </section>
+
+      <!-- 产品概述 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          InfiniteProxies 成立于 2019 年，是一家提供住宅、移动、静态 ISP、数据中心和 IPv6 等多种代理类型的综合代理服务商。平台拥有超过 700 万个住宅 IP，覆盖 150 多个国家和地区，月消耗流量达 69,000 GB，服务超过 200,000 名客户。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          InfiniteProxies 的最大特色是数据永不过期——购买的流量不会按月清零，用户可以按需长期使用。平台支持 HTTP/HTTPS 和 SOCKS5 协议，提供每次请求轮换或最长 120 分钟会话粘滞两种模式，并支持国家、城市、ISP 和地区级定位。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          产品线涵盖旋转住宅代理、美国移动代理（AT&T/Verizon/T-Mobile）、美国静态 ISP 代理、数据中心代理、IPv6 代理以及即将推出的 Scraping API 和独立服务器。平台与 1,000 多种工具兼容，并通过 Discord 提供快速客户支持。
+        </p>
+      </section>
+
+      <!-- 代理类型 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理类型</h2>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">旋转住宅代理</h3>
+            <p class="text-sm text-slate-400">700万+住宅IP池，150+国家覆盖，$2/GB起。每次请求轮换或120分钟会话粘滞。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">美国移动代理</h3>
+            <p class="text-sm text-slate-400">AT&T、Verizon、T-Mobile 真实移动 IP，几乎不可封禁，适合高难度任务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">静态 ISP 代理</h3>
+            <p class="text-sm text-slate-400">美国静态 ISP IP，长期租赁，稳定性高，适合持久连接需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">数据中心 & IPv6</h3>
+            <p class="text-sm text-slate-400">$0.3/GB 起的数据中心代理，IPv6代理支持无限新IP和10,000GB流量。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 核心特性 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据永不过期</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">InfiniteProxies 的住宅和数据中心代理流量不会按月过期，用户可以按需使用，不用担心月度流量浪费。这种灵活的计费模式为预算有限的团队提供了更大的自由度。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">700万+ 住宅 IP 池</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">平台拥有超过 700 万个真实住宅 IP，覆盖 150 多个国家。月消耗流量达 69,000 GB，服务超过 20 万客户，证明了其网络的活跃度和可靠性。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">IP 来自数百个不同的 ISP 和子网，确保 IP 的多样性和纯净度。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">灵活的区域定位</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">InfiniteProxies 支持国家、城市、ISP 和地区级的多层次定位。用户可以根据数据采集需求精确选择目标区域的代理 IP。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">旋转代理支持 150+ 国家，能满足全球范围内的数据采集需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">灵活的轮换模式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">用户可根据任务需求选择每次请求轮换 IP 或最长 120 分钟的会话粘滞。轮换模式适合高频数据采集，粘滞模式适合需要保持会话一致性的场景。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">这种灵活性使 InfiniteProxies 能够适应多种不同的使用场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">美国移动代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">提供 AT&T、Verizon 和 T-Mobile 三大运营商的真实移动 IP。移动代理被认为几乎不可封禁，验证码延迟极低，适合对 IP 质量要求极高的任务。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">移动代理是 InfiniteProxies 的特色产品之一。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多协议 & 工具兼容</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">支持 HTTP/HTTPS 和 SOCKS5 协议，兼容 1,000 多种数据采集和自动化工具。用户无需更改现有工具链即可接入 InfiniteProxies 的代理网络。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">完善的文档和 Discord 支持团队为用户提供技术支持。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 适用场景 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 数据采集与爬虫</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">旋转住宅代理的每次请求轮换模式非常适合大规模数据采集。700万+ IP 池和 150+ 国家覆盖确保了采集任务的持续性和多样性。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">数据永不过期的计费模式让团队无需担心月度流量限制。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. SEO 监控与排名跟踪</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">150+ 国家的 IP 覆盖让 SEO 团队可以从全球各地监控关键词排名和搜索结果。城市级定位支持精确模拟目标市场的搜索行为。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">数据中心代理的 $0.3/GB 低价为高频 SEO 监控提供了经济方案。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 多账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">美国移动代理（AT&T/Verizon/T-Mobile）和管理多账号的理想选择。移动 IP 的真实性和低封禁率可以有效规避平台的风控检测。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">静态 ISP 代理则适合需要长期稳定 IP 的账号运营。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅代理的真实性使广告验证结果更加可靠。多国家覆盖支持跨区域广告投放的验证需求。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">移动代理则可以模拟真实用户的移动端广告体验。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. IPv6 代理测试</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">InfiniteProxies 提供 IPv6 代理产品，支持无限的新 IP 和高达 10,000GB 的流量。适合需要大量 IP 进行测试或采集的用户。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">IPv6 代理是一种新兴的代理类型，具有独特的优势。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 优势与局限 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>数据永不过期，无月度清零</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$0.3/GB 起，价格极具竞争力</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>美国移动代理，几乎不可封禁</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>产品线全面（住宅/移动/ISP/DC/IPv6）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>灵活轮换 + 120分钟会话粘滞</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>兼容 1,000+ 工具</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理响应时间 600ms 较慢</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅限美国移动代理，地区单一</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>缺少亚洲地区静态代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>中国用户访问可能有网络限制</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 总结 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          InfiniteProxies 凭借数据永不过期的计费模式、丰富多样的代理类型和极具竞争力的价格，在代理市场中建立了独特的优势。自 2019 年运营以来积累了 20 万 + 客户和月 69,000 GB 的流量消耗，证明了其服务的可靠性。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          美国移动代理是其特色产品，适合对 IP 质量要求极高的任务。虽然住宅代理的响应速度（600ms）不如一些高端竞品，但综合性价比和灵活的计费方式使其成为中小规模团队的实用选择。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估价格优势、产品多样性和计费灵活性，InfiniteProxies 获得 8.1 分，特别推荐给注重性价比、需要数据永不过期方案的开发者和数据采集团队。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.infiniteproxies.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 InfiniteProxies 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

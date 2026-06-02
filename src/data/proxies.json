@@ -222,5 +222,19 @@
     "affiliateUrl": "https://okkproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/okkproxy"
+  },
+  {
+    "id": "infiniteproxies",
+    "name": "InfiniteProxies",
+    "type": "residential-proxy",
+    "rating": 8.1,
+    "poolSize": "700万+",
+    "proxyTypes": ["动态住宅", "移动代理", "静态住宅", "数据中心", "IPv6"],
+    "isFeatured": true,
+    "badge": "$2/GB 起",
+    "features": ["700万+住宅IP", "150+国家覆盖", "数据永不过期", "自2019年运营"],
+    "affiliateUrl": "https://www.infiniteproxies.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/infiniteproxies"
   }
 ]
