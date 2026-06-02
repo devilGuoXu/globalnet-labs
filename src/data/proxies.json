@@ -250,5 +250,19 @@
     "affiliateUrl": "https://trustproxy.io/",
     "couponCode": "",
     "detailUrl": "/proxy/trustproxy"
+  },
+  {
+    "id": "kocerroxy",
+    "name": "Kocerroxy",
+    "type": "residential-proxy",
+    "rating": 8.0,
+    "poolSize": "5000万+",
+    "proxyTypes": ["动态住宅", "数据中心"],
+    "isFeatured": true,
+    "badge": "$1.8/GB 起",
+    "features": ["5000万+住宅IP", "150+国家覆盖", "HTTP/SOCKS5", "$4试用套餐"],
+    "affiliateUrl": "https://www.kocerroxy.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/kocerroxy"
   }
 ]
