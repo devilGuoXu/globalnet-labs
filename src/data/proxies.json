@@ -376,5 +376,19 @@
     "affiliateUrl": "https://www.proxyrack.com/",
     "couponCode": "",
     "detailUrl": "/proxy/proxyrack"
+  },
+  {
+    "id": "fleetproxy",
+    "name": "FleetProxy",
+    "type": "residential-proxy",
+    "rating": 8.0,
+    "poolSize": "3000万+",
+    "proxyTypes": ["住宅代理", "移动代理", "数据中心", "ISP"],
+    "isFeatured": true,
+    "badge": "$1.59/GB 起",
+    "features": ["3000万+住宅IP", "195+国家覆盖", "流量永不过期", "即买即用"],
+    "affiliateUrl": "https://fleetproxy.io/",
+    "couponCode": "30OFF",
+    "detailUrl": "/proxy/fleetproxy"
   }
 ]
