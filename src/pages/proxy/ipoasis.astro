@@ -1,0 +1,217 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="IPOasis 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/ipoasis.png`} alt="IPOasis" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">IPOasis 深度评测</h1>
+          <p class="text-slate-400 text-lg">8000万+住宅IP，$0.78/GB 起，99.9%可用率的代理服务商</p>
+        </div>
+      </div>
+
+      <!-- 评分概览 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 规模</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">中文支持</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 产品概述 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          IPOasis 是一家全球代理服务商，提供动态住宅代理、静态住宅代理、移动代理和数据中心代理四种核心产品。平台拥有超过 8000 万 IP 资源，覆盖全球 195 多个国家和地区，服务可用率达到 99.9%。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          动态住宅代理起价 $0.78/GB，新用户专享 2GB 体验价 $1.99/GB。所有流量永不过期，支持按量付费。静态住宅代理 $3.99/IP 起，移动代理 $0.88/GB 起，数据中心代理 $5/GB 起。支持支付宝和微信支付，对中国用户友好。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          IPOasis 提供直观的控制面板，支持实时流量分析、子账号管理和灵活的 IP 管理。API 接口支持 HTTP(S) 和 SOCKS5 协议，配套详细的开发文档。与 AdsPower、BitBrowser、MoreLogin 等多款指纹浏览器深度集成。
+        </p>
+      </section>
+
+      <!-- 代理类型 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理类型</h2>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">动态住宅代理</h3>
+            <p class="text-sm text-slate-400">8000万+ IP，195+国家覆盖，$0.78/GB 起，支持自动轮换和粘性会话，流量永不过期。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">静态住宅代理（ISP）</h3>
+            <p class="text-sm text-slate-400">50万+ IP，$3.99/IP 起，30天以上长期稳定，无限流量，保证固定 IP。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">移动代理</h3>
+            <p class="text-sm text-slate-400">3000万+ IP，真实 4G/5G 蜂窝网络，$0.88/GB 起，支持轮换和粘性会话。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">数据中心代理</h3>
+            <p class="text-sm text-slate-400">2000万+ IP，超快速度，$5/GB，无限并发会话，不限带宽。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 核心特性 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">8000 万+ IP 全球覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">IPOasis 拥有超过 8000 万 IP 资源，覆盖 195 多个国家和地区。美国约 485 万 IP，印度约 890 万 IP，德国约 218 万 IP，英国约 202 万 IP。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">支持城市级地理定位，满足精确的地域定向需求。IP 池每日刷新，保持纯净度。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">99.9% 企业级服务可用性</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">IPOasis 采用冗余基础设施架构，具备自动故障转移能力，保证 99.9% 的服务可用性。低延迟响应优化确保在全球范围内的稳定表现。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">适用于对稳定性要求苛刻的企业级数据采集任务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">$0.78/GB 起超低价格</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">动态住宅代理起价仅 $0.78/GB，采用按量付费模式。新用户专享 2GB 体验价 $1.99/GB。批量购买 100GB 低至 $1.9/GB（Business 方案）。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">流量永不过期，没有月度订阅，没有强制续费。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">指纹浏览器深度集成</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">IPOasis 与 AdsPower、BitBrowser、MoreLogin、Mulogin 等主流指纹浏览器深度集成，提供一键配置方案。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">配合云服务（Google Cloud、AWS、Cloudflare）构建了企业级的基础设施生态。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">丰富免费工具集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">IPOasis 提供 Proxy Checker、IP 查询、IP 黑名单检测、WebRTC Leak Test、DNS Leak Test、浏览器指纹检测等免费工具。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">以及免费代理列表，方便用户在购买前进行评估和测试。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">完善 API 与实时监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">提供完善的 API 接口和详细开发文档，控制面板支持实时流量分析、子账号权限管理和灵活的 IP 管理。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">接入 Google Cloud、AWS 等云基础设施，确保全球低延迟访问。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 定价 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">定价方案</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-3">住宅代理方案</h3>
+            <img src={`${base}/images/ipoasis-res-price.webp`} alt="IPOasis 住宅代理价格" class="w-full rounded-lg" />
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-3">移动代理方案</h3>
+            <img src={`${base}/images/ipoasis-mob-price.webp`} alt="IPOasis 移动代理价格" class="w-full rounded-lg" />
+          </div>
+        </div>
+      </section>
+
+      <!-- 适用场景 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 大规模数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">IPOasis 的动态住宅代理 8000 万+ IP 池和 $0.78/GB 的超低起步价，适合大规模公开数据采集。流量永不过期保障长期项目的连续性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒账号运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">静态住宅代理（$3.99/IP，30 天以上稳定）和移动代理适合社媒账号的长期稳定运营。与 AdsPower、BitBrowser 等指纹浏览器的深度集成简化了多账号管理。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 电商价格监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">数据中心代理（无限并发，不限带宽）和动态住宅代理适合电商价格和库存数据的持续监控。API 接口方便自动化调度。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 广告验证与品牌保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">195+ 国家的住宅代理网络支持广告验证团队从全球多角度验证广告投放效果。城市级定位功能使验证结果更加精准。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. SEO 监控与市场调研</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">城市级定位和 195+ 国家覆盖支持 SEO 团队从全球各地监控关键词排名。免费工具集中的 IP 检测工具辅助评估代理质量。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 优势与局限 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$0.78/GB 超低起步价</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>8000万+ IP，IP 池较大</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.9% 企业级服务可用性</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>指纹浏览器深度集成</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支持支付宝/微信支付</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌较新，市场知名度有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>数据中心 $5/GB 价格偏高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面，仅英文</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>产品线相对精简（4 类）</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 总结 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          IPOasis 以 $0.78/GB 的超低起步价和 8000 万+ 的 IP 池在代理市场中主打性价比优势。99.9% 的服务可用性和冗余基础设施架构保障了企业级稳定性，指纹浏览器的深度集成为社媒运营用户提供了便捷体验。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          支持支付宝和微信支付降低了中国用户的购买门槛。流量永不过期的按量付费模式适合长期项目。丰富的免费工具集也为用户提供了额外的实用价值。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估性价比、IP 规模和服务可靠性，IPOasis 获得 8.0 分，特别推荐给注重性价比、需要大量住宅 IP 进行数据采集，以及使用指纹浏览器管理多账号的用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.ipoasis.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 IPOasis 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
