@@ -1,0 +1,221 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="NaProxy 海外住宅代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/naproxy.png`} alt="NaProxy" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">NaProxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">9000万+住宅IP，覆盖200+国家，99.5%高可用性的全球代理服务商</p>
+        </div>
+      </div>
+
+      <!-- 评分概览 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 规模</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">中文支持</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 产品概述 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          NaProxy 是星汉网络科技（XINGHAN NETWORK TECHNOLOGY CO., LIMITED）旗下全球住宅代理服务品牌，公司注册于香港。平台拥有超过 9000 万个合规住宅 IP 资源，覆盖全球 200 多个国家，承诺 99.5% 的正常运行时间，已服务超过 3000 家企业客户。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          NaProxy 提供住宅代理、静态住宅代理、无限流量住宅、长效 ISP 代理、静态数据中心代理和定制服务六种产品线。住宅代理低至 $-/GB，静态住宅低至 $-/IP，无限流量住宅低至 $-/天。平台支持无限并发会话和城市级定位，响应时间仅需 0.6 秒。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          支持简体中文、繁体中文、英文、葡萄牙语、越南语、俄语、印尼语、印地语和德语九种语言界面。提供 24/7 技术支持，注册后可联系客服领取 600M 免费试用。
+        </p>
+      </section>
+
+      <!-- 代理类型 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理类型</h2>
+        <div class="grid md:grid-cols-3 gap-4">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">住宅代理</h3>
+            <p class="text-sm text-slate-400">来自真实住宅设备的高匿名 IP，适合小带宽场景。9000 万+ IP 池，无限并发请求，0.6 秒响应时间。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">静态住宅代理</h3>
+            <p class="text-sm text-slate-400">配置固定的专属住宅 IP，享受无与伦比的速度和稳定性。独享静态住宅 IP，稳定线路支持长时间在线。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">无限流量住宅</h3>
+            <p class="text-sm text-slate-400">不限流量的分级住宅代理，随机分配国家和地区。支持多并发连接，配备专用代理服务器，低至 $-/天。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">长效 ISP 代理</h3>
+            <p class="text-sm text-slate-400">数据中心与住宅 IP 的融合方案，兼顾速度与隐匿性。IP 有效期超过 24 小时，提供超强隐匿性和稳定性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">静态数据中心代理</h3>
+            <p class="text-sm text-slate-400">高速稳定的专用数据中心 IP，IP 可用率大于 98%，快速响应时间，适合对成本和速度敏感的大规模任务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">定制服务</h3>
+            <p class="text-sm text-slate-400">为多样化需求和目标提供最佳匹配的 IP 解决方案。支持企业级定制，定价根据需求灵活配置。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 核心特性 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">9000 万+ IP 全球覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">NaProxy 坐拥超过 9000 万个合规住宅 IP 资源，覆盖全球 200 多个国家和地区。美国超 760 万、巴西超 560 万、俄罗斯超 520 万、德国超 240 万、加拿大超 220 万。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">部署 5200 台高速服务器，确保全球范围的低延迟连接和稳定可用性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">99.5% 正常运行时间</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">NaProxy 承诺 99.5% 的服务可用率，代理平均响应时间仅需 0.6 秒。无限并发会话搭配智能加速引擎，确保数据采集任务的高速稳定执行。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">自动故障转移机制保障业务连续性，即使部分节点异常也能自动切换至可用线路。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">城市级精确地理定位</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">支持国家和城市两级地理目标定位，可精确选择特定城市的住宅 IP 资源。为区域本地化数据采集、广告验证、价格监控等场景提供强大支持。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">覆盖超过 200 个地点的全球住宅代理基础设施，确保精确的区域连接。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">六产品线完整覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">NaProxy 提供住宅代理、静态住宅、无限流量住宅、长效 ISP 代理、静态数据中心代理和定制服务六种产品。轮换和按需两种代理模式自由切换，满足从短期采集到长期运营的完整需求。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">所有产品均可通过统一的控制面板和 API 管理，降低运维复杂度。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">易用性与 API 集成</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">NaProxy 提供直观易用的面板和完整的 API 接口，兼容任何软件、浏览器、脚本、代理工具或设备。简单的 API 和完善的文档支持快速上手使用。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 HTTP/HTTPS/SOCKS5 协议，兼容主流指纹浏览器和自动化工具。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">九语言界面与多国本地化</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">NaProxy 支持简体中文、繁体中文、英文、葡萄牙语、越南语、俄语、印尼语、印地语和德语九种语言。客服邮箱 support@naproxy.com，合作邮箱 partner@naproxy.com。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">注册后可联系客服领取 600M 免费试用，新用户优惠力度较大。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 定价 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">定价方案</h2>
+        <div>
+          <h3 class="text-emerald-400 font-semibold mb-3">代理方案概览</h3>
+          <img src={`${base}/images/naproxy-res-price.webp`} alt="NaProxy 定价方案" class="w-full rounded-lg" />
+          <p class="text-xs text-slate-500 mt-2">注：具体价格需注册登录后查看，官网首页标价为 $- 表示需要登录获取实时报价。</p>
+        </div>
+      </section>
+
+      <!-- 适用场景 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 数据抓取与采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">NaProxy 的住宅代理适合大规模公开数据抓取，9000 万+ IP 池避免请求被目标网站封锁。无限并发会话支持高速并行采集，结合城市级定位获取区域特定数据。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 广告验证与品牌保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">高匿名住宅 IP 从全球多地区验证广告投放效果，城市级定位确保本地化广告验证的精准性。99.5% 高可用率保障验证任务持续执行，品牌保护监控不中断。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO 监控与排名追踪</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">利用 NaProxy 全球 IP 资源模拟不同地区的搜索排名结果，监控关键词排名和本地化搜索表现。住宅 IP 的匿名性确保搜索结果不受代理 IP 类型干扰。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 价格监测与竞品分析</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全球 5200 台高速服务器配合 0.6 秒响应时间，实现实时价格抓取和竞品动态监控。支持并发访问多目标站点，适合电商和零售行业的价格策略制定。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 股市数据与金融分析</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">NaProxy 官网明确将股市数据列为核心应用场景。稳定可靠的代理连接确保金融数据的实时获取，无限流量方案适合高频数据采集需求。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 优势与局限 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>9000 万+ IP，全球排名前三的大型 IP 池</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>六种产品线，覆盖从采集到运营的完整需求</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>城市级精确地理定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>九语言界面，多区域用户友好</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.5% 可用率 + 0.6 秒响应时间</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>600M 免费试用，新用户友好</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>官网标价为 $-，需注册登录查看实际价格</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度相对有限，新兴代理服务商</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无限流量方案按天计费，适合流量需求明确的用户</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无移动代理产品线</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 总结 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          NaProxy 以其 9000 万+ 的庞大 IP 规模、六种产品线的完整覆盖和城市级精确地理定位，在全球住宅代理市场中展现了较强的竞争力。平台 99.5% 的可用率和 0.6 秒的响应时间确保了数据采集任务的稳定高效执行。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          九语言界面和多国本地化策略使其在不同区域市场都有较好的用户体验。600M 免费试用的政策也降低了用户决策门槛。六种产品线从住宅代理到数据中心代理再到定制服务，可适配多元化的使用场景需求。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估 IP 规模、产品丰富度和中文支持，NaProxy 获得 7.5 分。特别推荐给重视 IP 规模的数据采集团队、需要城市级定位的精准抓取用户以及跨境电商和广告验证从业者。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.naproxy.com/zh" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 NaProxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

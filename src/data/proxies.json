@@ -600,5 +600,19 @@
     "affiliateUrl": "https://www.instaip.net/",
     "couponCode": "",
     "detailUrl": "/proxy/instaip"
+  },
+  {
+    "id": "naproxy",
+    "name": "NaProxy",
+    "type": "residential-proxy",
+    "rating": 7.5,
+    "poolSize": "9000万+",
+    "proxyTypes": ["住宅代理", "静态住宅", "无限流量", "ISP", "数据中心"],
+    "isFeatured": true,
+    "badge": "9000万+IP",
+    "features": ["9000万+住宅IP", "200+国家覆盖", "99.5%正常运行", "城市级定位"],
+    "affiliateUrl": "https://www.naproxy.com/zh",
+    "couponCode": "",
+    "detailUrl": "/proxy/naproxy"
   }
 ]
