@@ -572,5 +572,19 @@
     "affiliateUrl": "https://www.onesproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/onesproxy"
+  },
+  {
+    "id": "stormproxies",
+    "name": "StormProxies",
+    "type": "residential-proxy",
+    "rating": 7.5,
+    "poolSize": "7000万+",
+    "proxyTypes": ["动态住宅(流量)", "动态住宅(额度)", "长效住宅"],
+    "isFeatured": true,
+    "badge": "7000万IP池",
+    "features": ["7000万+住宅IP", "190+国家覆盖", "99.2%可用率", "API/账密提取"],
+    "affiliateUrl": "https://www.stormproxies.cn/",
+    "couponCode": "",
+    "detailUrl": "/proxy/stormproxies"
   }
 ]
