@@ -460,5 +460,19 @@
     "affiliateUrl": "https://anyip.io/",
     "couponCode": "",
     "detailUrl": "/proxy/anyip"
+  },
+  {
+    "id": "proxies",
+    "name": "Proxies.Fo",
+    "type": "residential-proxy",
+    "rating": 8.0,
+    "poolSize": "8600万+",
+    "proxyTypes": ["住宅代理", "数据中心", "IPv6", "ISP"],
+    "isFeatured": true,
+    "badge": "$3/月起",
+    "features": ["8600万+住宅IP", "150+国家覆盖", "10GBPS骨干网", "99%正常运行"],
+    "affiliateUrl": "https://proxies.fo/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxies"
   }
 ]

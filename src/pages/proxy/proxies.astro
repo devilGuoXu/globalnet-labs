@@ -1,0 +1,217 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Proxies.Fo 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/proxies.png`} alt="Proxies.Fo" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Proxies.Fo 深度评测</h1>
+          <p class="text-slate-400 text-lg">8600万+住宅IP，$3/月起，10GBPS骨干网的代理服务商</p>
+        </div>
+      </div>
+
+      <!-- 评分概览 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 规模</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">中文支持</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 产品概述 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxies.Fo 是一家全球代理服务商，提供住宅代理、ISP 代理、数据中心代理、IPv6 代理和无限住宅流量方案。平台拥有 8600 万+ 住宅 IP，覆盖全球 150 多个国家和地区，采用 10GBPS 骨干网络。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          住宅代理起价 $3/月，ISP 代理起价 $3/月，数据中心代理起价 $7.5/天，IPv6 代理起价 $10，无限住宅流量方案 $180/月。支持 HTTP(S)、SOCKS5 和 UDP 协议，提供旋转和粘性两种会话模式。Trustpilot 评分 4.6。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          Proxies.Fo 提供现代化的控制面板，支持实时使用统计、订阅管理和集成代码片段。严格的 NO LOGS 政策保障用户隐私安全。24/7 技术支持团队快速响应。支持用户认证和 IP 白名单两种认证方式。
+        </p>
+      </section>
+
+      <!-- 代理类型 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理类型</h2>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">住宅代理</h3>
+            <p class="text-sm text-slate-400">8600万+ IP，150+国家覆盖，$3/月起，支持旋转和粘性会话，10GBPS 高速骨干网。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">ISP 代理</h3>
+            <p class="text-sm text-slate-400">Tier 1 运营商静态 IP，$3/月起，低欺诈分数，10GBPS 上行链路，优质静态 IP 资源。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">数据中心代理</h3>
+            <p class="text-sm text-slate-400">$7.5/天，5000 IP，支持旋转和粘性，HTTPS/SOCKS5/UDP，美国/法国机房。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">IPv6 代理</h3>
+            <p class="text-sm text-slate-400">$10/月起，2x /29 子网，无限线程，用户认证，适合大规模数据采集。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 核心特性 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">8600 万+ IP 全球覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxies.Fo 拥有 8600 万+ 住宅 IP，覆盖 150+ 国家和地区。美国约 34 万 IP，德国约 10 万 IP，英国约 10 万 IP，中国约 13 万 IP。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">IP 池持续扩展中，移动代理即将上线。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">10GBPS 骨干网速度</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxies.Fo 采用 10GBPS 骨干网络和 ATT ISP 代理池，提供行业领先的连接速度。99% 的服务可用率保障持续稳定的代理体验。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">不限带宽，满足高流量数据采集任务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">五类产品线，灵活选择</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅代理、ISP 代理、数据中心代理、IPv6 代理和无限住宅流量方案五条产品线。ISP 代理（$3/月）提供 Tier 1 运营商级别的静态 IP，低欺诈分数。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">无限住宅方案 $180/月，不限流量，100+ GEO 定位。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">NO LOGS 隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxies.Fo 严格执行 NO LOGS 政策，绝不监控或记录用户活动。100% 匿名浏览，确保用户隐私和数据安全。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">同时支持 HTTP(S)、SOCKS5 和 UDP 三种协议，兼容性广泛。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">现代化控制面板</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">直观的 Dashboard 界面，支持实时使用统计、订阅管理、快速集成代码片段。支持用户认证和 IP 白名单两种认证方式。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">友好的 UI 设计让代理生成和管理变得简单便捷。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">24/7 技术支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxies.Fo 提供 24/7 快速响应的技术支持团队。Trustpilot 评分 4.6，用户普遍认可其速度和稳定性。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">提供转售方案（Reseller），适合代理代理商和合作伙伴。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 定价 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">定价方案</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-3">住宅代理方案</h3>
+            <img src={`${base}/images/proxies-res-price.webp`} alt="Proxies.Fo 住宅代理价格" class="w-full rounded-lg" />
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-3">移动代理方案</h3>
+            <img src={`${base}/images/proxies-mob-price.webp`} alt="Proxies.Fo 移动代理价格" class="w-full rounded-lg" />
+          </div>
+        </div>
+      </section>
+
+      <!-- 适用场景 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 大规模数据爬取</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Proxies.Fo 的住宅代理和 IPv6 代理适合大规模数据爬取。10GBPS 速度保障高效采集，不限带宽方案满足海量数据需求。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ISP 代理（Tier 1 运营商静态 IP）和住宅代理适合社媒账号的长期稳定运营。低欺诈分数的 ISP IP 可有效降低账号风险。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 电商价格监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">数据中心代理（$7.5/天，5000 IP）和住宅代理适合电商价格和库存数据的持续监控。UDP 协议支持特殊场景需求。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">150+ 国家的住宅代理网络支持广告验证团队从全球多地区验证广告投放效果。NO LOGS 政策保护数据安全。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 代理转售业务</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Proxies.Fo 提供转售方案，适合希望搭建自有代理品牌的合作伙伴。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 优势与局限 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>10GBPS 高速骨干网</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>五类产品线，选择丰富</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅代理 $3/月起步</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>NO LOGS 严格隐私保护</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支持 UDP 协议</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动代理尚未上线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>数据中心按天计费，灵活性较低</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌新，知名度有限</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 总结 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxies.Fo 以 10GBPS 高速骨干网和五类产品线的全面覆盖在代理市场中建立了独特的定位。8600 万+ 住宅 IP 覆盖 150+ 国家，住宅代理 $3/月起步，在价格和性能之间取得了良好平衡。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          NO LOGS 隐私保护和 UDP 协议支持是其差异化亮点。现代化控制面板和快速集成的代码片段降低了使用门槛。Trustpilot 4.6 评分反映了用户对速度和稳定性的认可。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估产品多样性、速度和隐私保护，Proxies.Fo 获得 8.0 分，特别推荐给注重隐私保护、需要高速连接的多场景代理用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://proxies.fo/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Proxies.Fo 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
