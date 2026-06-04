@@ -273,7 +273,7 @@ const sponsors = [sponsorVpn, sponsorProxy].filter(Boolean);
           {sponsors.map((product) => {
             const isVpn = product.type === 'vpn';
             return (
-              <a href={product.detailUrl} target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-emerald-500/30 transition-all duration-300 group block">
+              <a href={product.id === 'netnut' ? product.affiliateUrl : product.detailUrl} target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-emerald-500/30 transition-all duration-300 group block">
                 <div class="flex items-center justify-between mb-3">
                   <h3 class="text-base font-semibold text-slate-100 group-hover:text-emerald-400 transition-colors">{product.name}</h3>
                   {product.badge && (
