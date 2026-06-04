@@ -586,5 +586,19 @@
     "affiliateUrl": "https://www.stormproxies.cn/",
     "couponCode": "",
     "detailUrl": "/proxy/stormproxies"
+  },
+  {
+    "id": "instaip",
+    "name": "InstaIP",
+    "type": "residential-proxy",
+    "rating": 7.5,
+    "poolSize": "5000万+",
+    "proxyTypes": ["动态住宅", "静态住宅", "数据中心"],
+    "isFeatured": true,
+    "badge": "99.9%可用率",
+    "features": ["200+国家覆盖", "99.9%可用率", "24/7技术支持", "中文界面"],
+    "affiliateUrl": "https://www.instaip.net/",
+    "couponCode": "",
+    "detailUrl": "/proxy/instaip"
   }
 ]
