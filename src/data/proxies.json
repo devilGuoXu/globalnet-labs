@@ -404,5 +404,19 @@
     "affiliateUrl": "https://lightningproxies.net/",
     "couponCode": "",
     "detailUrl": "/proxy/lightningproxies"
+  },
+  {
+    "id": "asocks",
+    "name": "ASocks",
+    "type": "residential-proxy",
+    "rating": 8.0,
+    "poolSize": "700万+",
+    "proxyTypes": ["住宅代理", "移动代理", "企业方案"],
+    "isFeatured": true,
+    "badge": "$5/个/月起",
+    "features": ["700万+纯净IP", "150+地区覆盖", "99.7%连接成功率", "G2评分4.9"],
+    "affiliateUrl": "https://asocks.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/asocks"
   }
 ]
