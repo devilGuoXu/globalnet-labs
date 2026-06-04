@@ -516,5 +516,19 @@
     "affiliateUrl": "https://www.starlinkproxy.net/",
     "couponCode": "",
     "detailUrl": "/proxy/starlinkproxy"
+  },
+  {
+    "id": "ippeak",
+    "name": "IPPeak",
+    "type": "residential-proxy",
+    "rating": 7.9,
+    "poolSize": "8000万+",
+    "proxyTypes": ["住宅代理", "不限量住宅", "ISP"],
+    "isFeatured": true,
+    "badge": "99.95%成功率",
+    "features": ["8000万+住宅IP", "195+国家覆盖", "99.95%连接成功率", "HTTP(S)/SOCKS5"],
+    "affiliateUrl": "https://www.ippeak.com/zh-CN",
+    "couponCode": "",
+    "detailUrl": "/proxy/ippeak"
   }
 ]
