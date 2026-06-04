@@ -558,5 +558,19 @@
     "affiliateUrl": "https://www.ipfly.net/",
     "couponCode": "",
     "detailUrl": "/proxy/ipfly"
+  },
+  {
+    "id": "onesproxy",
+    "name": "OnesProxy",
+    "type": "residential-proxy",
+    "rating": 7.8,
+    "poolSize": "3000万+",
+    "proxyTypes": ["动态住宅", "静态住宅", "动态手机", "数据中心"],
+    "isFeatured": true,
+    "badge": "自建骨干网",
+    "features": ["3000万+自有住宅IP", "190+国家覆盖", "99.99%可用率", "城市级定位"],
+    "affiliateUrl": "https://www.onesproxy.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/onesproxy"
   }
 ]
