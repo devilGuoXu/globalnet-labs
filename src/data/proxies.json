@@ -502,5 +502,19 @@
     "affiliateUrl": "https://www.thordata.com/zh",
     "couponCode": "",
     "detailUrl": "/proxy/thordata"
+  },
+  {
+    "id": "starlinkproxy",
+    "name": "StarlinkProxy",
+    "type": "residential-proxy",
+    "rating": 7.9,
+    "poolSize": "10亿+",
+    "proxyTypes": ["动态住宅"],
+    "isFeatured": true,
+    "badge": "10亿+IP",
+    "features": ["10亿+纯净住宅IP", "220+国家地区覆盖", "每日新增IP", "高性价比"],
+    "affiliateUrl": "https://www.starlinkproxy.net/",
+    "couponCode": "",
+    "detailUrl": "/proxy/starlinkproxy"
   }
 ]
