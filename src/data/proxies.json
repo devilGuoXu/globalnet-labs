@@ -544,5 +544,19 @@
     "affiliateUrl": "https://ip2up.com/",
     "couponCode": "",
     "detailUrl": "/proxy/ip2up"
+  },
+  {
+    "id": "ipfly",
+    "name": "IPFLY",
+    "type": "residential-proxy",
+    "rating": 7.9,
+    "poolSize": "9000万+",
+    "proxyTypes": ["住宅代理", "ISP", "数据中心"],
+    "isFeatured": true,
+    "badge": "$1/GB 起",
+    "features": ["9000万+代理IP", "190+国家覆盖", "99.9%可用率", "无限并发"],
+    "affiliateUrl": "https://www.ipfly.net/",
+    "couponCode": "",
+    "detailUrl": "/proxy/ipfly"
   }
 ]
