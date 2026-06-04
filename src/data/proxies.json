@@ -530,5 +530,19 @@
     "affiliateUrl": "https://www.ippeak.com/zh-CN",
     "couponCode": "",
     "detailUrl": "/proxy/ippeak"
+  },
+  {
+    "id": "ip2up",
+    "name": "IP2UP",
+    "type": "residential-proxy",
+    "rating": 7.9,
+    "poolSize": "1亿+",
+    "proxyTypes": ["动态住宅", "不限量住宅", "静态住宅"],
+    "isFeatured": true,
+    "badge": "$0.45/GB 起",
+    "features": ["1亿+IP", "200+国家覆盖", "99.9%可用率", "城市/ASN定位"],
+    "affiliateUrl": "https://ip2up.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/ip2up"
   }
 ]
