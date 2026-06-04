@@ -474,5 +474,19 @@
     "affiliateUrl": "https://proxies.fo/",
     "couponCode": "",
     "detailUrl": "/proxy/proxies"
+  },
+  {
+    "id": "ipdodo",
+    "name": "IPdodo",
+    "type": "residential-proxy",
+    "rating": 7.9,
+    "poolSize": "8000万+",
+    "proxyTypes": ["动态住宅", "静态住宅", "跨境专线"],
+    "isFeatured": true,
+    "badge": "免费测试",
+    "features": ["8000万+住宅IP", "180+地区覆盖", "自研多端客户端", "7x24售后护航"],
+    "affiliateUrl": "https://www.ipdodo.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/ipdodo"
   }
 ]
