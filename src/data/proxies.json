@@ -488,5 +488,19 @@
     "affiliateUrl": "https://www.ipdodo.com/",
     "couponCode": "",
     "detailUrl": "/proxy/ipdodo"
+  },
+  {
+    "id": "thordata",
+    "name": "ThorData",
+    "type": "residential-proxy",
+    "rating": 7.9,
+    "poolSize": "1亿+",
+    "proxyTypes": ["住宅代理", "移动代理", "数据中心", "ISP"],
+    "isFeatured": true,
+    "badge": "$0.65/GB 起",
+    "features": ["1亿+住宅IP", "190+国家覆盖", "99.9%正常运行", "中文界面支持"],
+    "affiliateUrl": "https://www.thordata.com/zh",
+    "couponCode": "",
+    "detailUrl": "/proxy/thordata"
   }
 ]
