@@ -895,4 +895,18 @@
     "couponCode": "",
     "detailUrl": "/proxy/bestproxy"
   }
+  {
+    "id": "vircs",
+    "name": "VIRCS",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "400+ 专线线路",
+    "proxyTypes": ["住宅IP VPS", "高速代理", "专线隧道"],
+    "isFeatured": false,
+    "badge": "AT&T住宅IP",
+    "features": ["纯正AT&T/Frontier住宅IP", "加州自有公寓机房", "静态独享IP", "不限流量"],
+    "affiliateUrl": "https://www.vircs.com/",
+    "couponCode": "vircs",
+    "detailUrl": "/proxy/vircs"
+  }
 ]
