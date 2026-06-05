@@ -12,8 +12,8 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </a>
 
       <div class="flex items-center gap-4 mb-10">
-        <div class="bg-white rounded-xl p-2 flex items-center justify-center">
-          <img src={`${base}/images/instaip.png`} alt="InstaIP" class="h-14 w-auto" />
+        <div class="bg-white rounded-xl shrink-0 w-20 h-20 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/instaip.png`} alt="InstaIP" class="max-w-[70%] max-h-[70%] w-auto h-auto object-contain" />
         </div>
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">InstaIP 深度评测</h1>
