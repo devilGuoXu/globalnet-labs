@@ -1,0 +1,245 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="RapidProxy 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="bg-white rounded-xl shrink-0 w-20 h-20 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/rapidproxy.png`} alt="RapidProxy" class="max-w-[70%] max-h-[70%] w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">RapidProxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">9000万+ 住宅 IP，$0.65/GB 起，99.9% 成功率，220+ 国家覆盖</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">代理类型丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          RapidProxy 是一家总部位于香港的代理服务商，由 Flux Stream Network Limited 运营。平台提供轮转住宅代理和静态住宅代理两大核心产品线，拥有超过 9000 万个优质住宅 IP，覆盖全球 220 多个国家和地区。RapidProxy 以其 $0.65/GB 起的高性价比价格、流量永不过期的灵活政策和 500MB 免费试用，吸引了大量数据采集和自动化领域的用户。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          平台支持用户/密码认证和 API 提取两种接入方式，提供 HTTP/HTTPS/SOCKS5 三协议支持，平均响应时间低至 0.35 秒。RapidProxy 提供城市级精确定位、Sticky Session（1-180 分钟自定义）和无限制并发连接等专业功能。支持支付宝和多种加密货币付款。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          RapidProxy 提供完整的中文界面和中文客服支持，集成市面上绝大多数指纹浏览器，包括 AdsPower、Dolphin Anty、Multilogin、GoLogin、BitBrowser 等。注意：由于政策原因，该服务在中国大陆不可用。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理产品线详解</h2>
+        <p class="text-slate-300 leading-relaxed mb-6">RapidProxy 提供两种核心代理产品，覆盖短期数据采集和长期稳定运营两大场景：</p>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">轮转住宅代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">$0.65/GB 起，按量计费，流量永不过期。9000万+ 活跃住宅 IP，220+ 国家地区覆盖。支持国家/城市级定位，HTTP/HTTPS/SOCKS5 协议，响应时间 &lt;0.5s。自动轮转模式，支持 Sticky Session（1-180 分钟自定义）。适合网页爬取、广告验证、SERP 监控等场景。新用户注册即送 500MB 免费流量。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态住宅代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">$5/IP/月起，30天有效期，无限流量。独享专属住宅 IP，支持 Tier-1 ASN 提供商，高稳定性低封禁风险。支持国家/州/城市级选择，可续期。适合账号管理、社媒运营、电商店铺管理等需要长期固定 IP 的场景。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">9000万+ 优质住宅 IP，220+ 国家覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">RapidProxy 拥有超过 9000 万个高质量住宅 IP，覆盖全球 220 多个国家和地区。所有 IP 均来自真实住宅网络，确保了高匿名性和低封禁率。美国拥有 337 万+ IP，英国 328 万+，德国 297 万+，巴西 289 万+，日本 21 万+。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">庞大的 IP 池和强大的资源调度能力，确保在大规模数据采集任务中拥有充足的轮换空间。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">城市级精确定位</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">RapidProxy 支持国家和城市级别的精确地理定位。用户可以通过仪表板直接选择目标城市，或在使用用户名/密码认证时通过参数实现城市级定位、ISP 选择和批量 IP 生成。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">精细的地理定位在本地化 SEO 监控、区域广告验证和本地化市场调研等场景中尤为重要。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">$0.65/GB 起的极致性价比</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">RapidProxy 的轮转住宅代理以 $0.65/GB 的极具竞争力的价格面向市场。按量计费模式让用户只在实际使用时付费，且流量永不过期。使用优惠码 RAPID10 可享受全部方案 10% 折扣。新用户注册即送 500MB 免费流量用于测试。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">静态住宅代理 $5/IP/月起，无限流量适合长期运营需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">HTTP/HTTPS/SOCKS5 三协议支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">RapidProxy 全线代理产品支持 HTTP、HTTPS 和 SOCKS5 三种协议。HTTP/HTTPS 协议适合网页浏览和数据采集，SOCKS5 协议支持更广泛的 TCP/UDP 流量转发。三种协议兼容市面上绝大多数软件工具和开发框架。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Sticky Session 与智能轮转</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">RapidProxy 提供两种 IP 轮换模式：随机 IP（默认每 5 分钟自动更换）和 Sticky IP（用户自定义 1-180 分钟更换间隔）。灵活的 Rotation Time 设置让用户可以根据具体任务需求自定义 IP 切换频率。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">无限制并发会话支持，多个连接可同时运行而不受限。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">指纹浏览器深度集成</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">RapidProxy 与市面上主流指纹浏览器实现了深度集成，包括 AdsPower、Dolphin Anty、Multilogin、GoLogin、Hidemium、MoreLogin、Undetectable、VMLogin、BitBrowser、Clon Browser 等。提供详细的集成指南和逐步操作说明。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">支持用户/密码认证和 API 提取两种接入方式，适配不同技术栈的用户。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">中文界面与 24/7 客服支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">RapidProxy 提供完整的中文操作界面，支持简体中文和英文切换。客户支持团队通过 Telegram、WhatsApp、Email 和 LiveChat 提供 24/7 全天候服务。详细的文档、常见问题解答和代码示例帮助用户快速上手。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">注意：由于政策原因，RapidProxy 服务在中国大陆不可用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">支持多种付款方式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">RapidProxy 提供丰富的付款方式，包括支付宝（中国大陆和香港）、USDT（TRC20/ERC20/BEP20）、比特币、以太坊、莱特币、狗狗币、TON、门罗币、BNB 等多种加密货币。灵活的付款方式覆盖全球用户需求。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">对于中国用户来说，支付宝支付是最便捷的选择。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 网页爬取（Web Scraping）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">RapidProxy 将网页爬取列为首要应用场景。9000 万+ 优质住宅 IP 确保充足的轮换空间，自动轮转模式和 Sticky Session 灵活适配不同类型的爬虫任务。99.9% 的成功率保障了数据采集的稳定性和连续性。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">$0.65/GB 的极低价格在大规模爬取任务中具有显著的成本竞争力，流量永不过期意味着用户无需担心剩余流量浪费。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 电商情报与价格监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">RapidProxy 的城市级精确定位让电商运营者可以从不同城市获取真实的竞品定价和库存数据。平台专门提供 E-Commerce Intelligence 解决方案，支持跨区域的价格采集和产品信息监控。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">静态住宅代理（$5/IP/月）则为需要长期稳定连接的电商店铺运营提供了可靠的 IP 资源。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 广告验证（Ad Verification）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">RapidProxy 将广告验证列为核心应用场景之一。住宅代理的真实 IP 身份和城市级定位能力让验证团队可以精确模拟目标地区的用户视角查看广告投放。无限制并发会话支持大规模的广告验证项目。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 社媒账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">RapidProxy 提供专门的社交媒体管理方案，支持 X（Twitter）、LinkedIn、YouTube、Reddit、Facebook、Discord、TikTok、Instagram 等平台的代理接入。深度集成指纹浏览器，为多账号运营提供完整的技术栈。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">静态住宅代理（$5/IP/月）是社媒账号长期稳定运营的理想选择。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. SERP 监控与 SEO</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">RapidProxy 的住宅代理支持城市级定位，可以模拟全球真实用户的视角查询搜索引擎结果。$0.65/GB 的低价格在大规模 SERP 监控项目中具有显著的成本优势。Bing 代理接入满足特定搜索引擎的监控需求。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">6. 市场调研与品牌保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">RapidProxy 提供市场调研和品牌保护解决方案。220+ 国家的覆盖使企业可以在主要市场区域监测消费者趋势、竞品动态和仿冒产品。住宅代理的高匿名性确保了调研和监控行为不被目标网站识别。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案参考</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">RapidProxy 提供轮转住宅代理和静态住宅代理两种定价方案：</p>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm text-slate-300">
+            <thead>
+              <tr class="border-b border-slate-700">
+                <th class="text-left py-3 px-4 text-slate-400 font-medium">产品类型</th>
+                <th class="text-left py-3 px-4 text-slate-400 font-medium">计费模式</th>
+                <th class="text-left py-3 px-4 text-slate-400 font-medium">起步价</th>
+                <th class="text-left py-3 px-4 text-slate-400 font-medium">核心特点</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-slate-800/50">
+                <td class="py-3 px-4">轮转住宅代理</td>
+                <td class="py-3 px-4">按量计费</td>
+                <td class="py-3 px-4">$0.65/GB</td>
+                <td class="py-3 px-4">9000万+ IP，流量永不过期</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4">静态住宅代理</td>
+                <td class="py-3 px-4">按 IP 计费</td>
+                <td class="py-3 px-4">$5/IP/月</td>
+                <td class="py-3 px-4">无限流量，30天有效期</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-sm text-slate-500 mt-4">使用优惠码 <span class="text-emerald-400 font-mono">RAPID10</span> 可享全方案 10% 折扣。新用户注册即送 500MB 免费流量。</p>
+        <p class="text-sm text-slate-500 mt-2">轮转住宅代理价格方案：</p>
+        <img src={`${base}/images/rapidproxy-res-price.webp`} alt="RapidProxy 住宅代理价格方案" class="w-full rounded-lg mt-2" />
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$0.65/GB 起，价格极具竞争力</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>流量永不过期，按量计费灵活</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>500MB 免费试用，注册即送</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>9000万+ IP，220+ 国家覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>深度集成主流指纹浏览器</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>中文界面 + 多语言客服支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支付宝 + 加密货币多样付款</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>响应时间低至 0.35s</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>因政策原因，服务在中国大陆不可用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无移动代理产品线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无无限流量住宅代理方案</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度相比头部厂商偏低</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 ASN 级定位功能</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无浏览器扩展或桌面客户端</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          RapidProxy 凭借 $0.65/GB 起的亲民价格、流量永不过期的灵活政策和新用户 500MB 免费试用的低门槛，在住宅代理市场中建立了良好的性价比口碑。9000 万+ 优质住宅 IP、220+ 国家覆盖、城市级精确定位和 HTTP/HTTPS/SOCKS5 三协议支持，使平台能够适应网页爬取、广告验证、SERP 监控、社媒运营和电商情报等多种数据采集场景。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          平台对主流指纹浏览器的深度集成是其核心差异化优势——AdsPower、Dolphin Anty、Multilogin、GoLogin 等一站式集成极大地降低了多账号运营用户的技术门槛。支付宝和多种加密货币的支付方式也为全球用户提供了便利。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估 IP 质量、价格竞争力、功能完善度和客户支持等多个维度，RapidProxy 获得 7.3 分评价。特别推荐给需要高性价比住宅代理进行网页爬取的数据采集团队、多账号运营的个人用户和追求灵活付费模式的价格敏感型用户。注意：该服务在中国大陆不可用。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.rapidproxy.io/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 RapidProxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

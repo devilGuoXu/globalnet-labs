@@ -866,5 +866,19 @@
     "affiliateUrl": "https://proxysale.com/zh/",
     "couponCode": "",
     "detailUrl": "/proxy/proxysale"
+  },
+  {
+    "id": "rapidproxy",
+    "name": "RapidProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "9000万+",
+    "proxyTypes": ["住宅代理", "静态住宅代理"],
+    "isFeatured": false,
+    "badge": "500MB免费试用",
+    "features": ["9000万+活跃住宅IP", "220+国家地区", "99.9%成功率", "HTTP/SOCKS5双协议"],
+    "affiliateUrl": "https://www.rapidproxy.io/",
+    "couponCode": "RAPID10",
+    "detailUrl": "/proxy/rapidproxy"
   }
 ]

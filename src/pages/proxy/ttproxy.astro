@@ -12,7 +12,9 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </a>
 
       <div class="flex items-center gap-4 mb-10">
-        <img src={`${base}/images/ttproxy.png`} alt="TTProxy" class="h-14 w-auto" />
+        <div class="bg-white rounded-xl shrink-0 w-20 h-20 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/ttproxy.png`} alt="TTProxy" class="max-w-[70%] max-h-[70%] w-auto h-auto object-contain" />
+        </div>
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">TTProxy 深度评测</h1>
           <p class="text-slate-400 text-lg">1000万+ 住宅 IP，$1.7/GB 起，100% 匿名，100MB 免费试用</p>
