@@ -1,0 +1,237 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="TTProxy 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/ttproxy.png`} alt="TTProxy" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">TTProxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">1000万+ 住宅 IP，$1.7/GB 起，100% 匿名，100MB 免费试用</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">代理类型丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          TTProxy 是一家专注于住宅代理的服务商，提供住宅代理（Residential Proxies）和旋转代理（Rotating Proxies）两大产品线。平台拥有超过 1000 万个高质量住宅 IP，IP 池持续更新增长，以 $1.7/GB 起的经济价格和 100MB 免费试用政策吸引了众多中小规模用户。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          TTProxy 的核心特色在于其简单易用的产品定位——API 简洁高效，用户管理控制台友好便捷，提供方便的查询、购买和续费功能。平台自建数据节点，保证网络稳定和连接速度，实现快速简便的集成体验。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          TTProxy 提供 7x24 小时技术支持，兼容各类爬虫系统和自动化工具。入门套餐仅需 $9.9（含 5GB 流量），适合个人开发者和中小团队快速开始数据采集项目。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理产品线详解</h2>
+        <p class="text-slate-300 leading-relaxed mb-6">TTProxy 提供两种代理类型，覆盖数据采集和自动化运营的核心需求：</p>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅代理（Residential Proxies）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">来自全球多国的真实家庭住宅 IP，100% 匿名，零 IP 封禁。自建数据节点保证网络稳定和快速连接。适合市场调研、广告验证、社媒运营等对 IP 信任度要求较高的场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">旋转代理（Rotating Proxies）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">易于集成且高度可靠的旋转代理。API 简洁高效，为各类爬虫系统提供通用便捷的集成方式。适合大规模数据采集、网页爬取和自动化任务，自动轮换 IP 地址降低封禁风险。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1000万+ 高质量 IP 池</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">TTProxy 拥有超过 1000 万个住宅代理 IP，IP 池持续更新和增长。所有 IP 均来自全球多国的真实家庭住宅网络，确保 100% 匿名的代理体验。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">持续的 IP 更新机制保证了 IP 池的活力和纯净度，零 IP 封禁的承诺为用户提供了稳定的数据采集环境。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">自建数据节点，稳定快速</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">TTProxy 拥有自建数据节点，而非依赖第三方的共享基础设施。自建节点保证了网络连接的稳定性和数据传输速度，为用户提供高质量的代理连接体验。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">对于对连接速度有较高要求的数据采集任务，自建节点的低延迟优势能够提供显著的效率提升。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">简洁高效的 API 集成</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">TTProxy 提供简洁高效的 API，为各类爬虫系统提供通用便捷的集成方式。无论使用 Python、Node.js 还是其他编程语言，只需简单的代码即可接入全球住宅代理网络。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">API 的易用性大大降低了开发者的集成门槛，让新手用户也能快速上手使用住宅代理进行数据采集。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">友好的用户管理控制台</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">TTProxy 提供界面友好、功能丰富的用户管理控制台（Dashboard），为用户提供方便的查询、购买和续费功能。控制台设计简洁直观，所有操作一目了然。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">对于不熟悉命令行操作的普通用户来说，管理控制台的友好性是重要的加分项。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">100MB 免费试用</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">TTProxy 提供 100MB 免费试用套餐，新用户无需付费即可体验平台的服务质量和 IP 质量。试用过程中遇到任何问题，还可以联系 7x24 小时技术支持获取帮助。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">免费试用政策为用户提供了零风险的体验环境，可以在决定购买前充分评估服务是否符合自己的需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">7x24 小时技术支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">TTProxy 提供 7x24 小时全天候技术支持服务。无论用户遇到集成问题、网络连接问题还是其他技术咨询，都可以随时联系技术团队获取帮助。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">全天候的技术支持确保了用户在使用过程中遇到问题时能够及时得到解决，减少业务中断时间。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 数据采集与网页爬取</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">TTProxy 的住宅代理和旋转代理在数据采集场景中表现均衡。旋转代理的自动 IP 轮换机制有效降低了反爬虫拦截率，1000 万+ IP 池为大规模爬虫提供了充足的轮换空间。简洁的 API 设计让爬虫程序的集成变得简单快捷。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">$1.7/GB 的价格在住宅代理市场中处于中等水平，适合中小规模的数据采集项目。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 市场调研与竞品分析</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅代理的 100% 匿名性和零 IP 封禁承诺在市场调研场景中提供了可靠的保障。住宅 IP 的真实设备身份确保调研数据的真实性和准确性，避免了因代理 IP 被识别而导致的调研偏差。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">入门套餐仅需 $9.9，个人调研者和初创团队可以以极低的成本开始市场数据收集。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 广告验证（Ad Verification）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">TTProxy 的住宅代理在广告验证场景中具有较好的基础能力。来自全球多国的住宅 IP 可以模拟真实用户的广告观看行为，确保验证结果的可靠性。简单易用的 API 便于广告验证系统的快速集成。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">100MB 免费试用让广告验证团队可以在投入前充分验证代理质量和兼容性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 社媒运营与账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅代理的 100% 匿名特性在社交媒体多账号管理场景中提供了基础保障。真实住宅 IP 降低了社媒平台的风控触发概率，稳定的自建节点保证了日常运营的连接质量。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">7x24 技术支持在遇到账号关联或封禁问题时可以提供及时的协助和解决方案。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. SEO 监控与排名追踪</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">TTProxy 的旋转代理在 SEO 监控场景中表现适用。IP 自动轮换机制可以模拟不同地域用户查看搜索结果的场景，友好的管理控制台便于查看使用情况和流量消耗。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">$9.9 的低入门门槛和 100MB 免费试用的政策，让 SEO 从业者可以低成本验证不同地域的搜索排名差异。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">6. 自动化与 Bot 工具</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">TTProxy 的旋转代理专为自动化工具设计，API 简洁高效，可快速集成到各类 Bot 系统和自动化脚本中。稳定的自建节点和大规模的 IP 池确保自动化任务可以稳定运行。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">入门套餐 $9.9 含 5GB 流量，对于自动化 Bot 的中低频率使用场景而言性价比突出。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案参考</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">TTProxy 提供两种简洁的套餐方案，均按流量计费，适合不同规模的使用需求：</p>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm text-slate-300">
+            <thead>
+              <tr class="border-b border-slate-700">
+                <th class="text-left py-3 px-4 text-slate-400 font-medium">套餐</th>
+                <th class="text-left py-3 px-4 text-slate-400 font-medium">价格</th>
+                <th class="text-left py-3 px-4 text-slate-400 font-medium">流量</th>
+                <th class="text-left py-3 px-4 text-slate-400 font-medium">每 GB 价格</th>
+                <th class="text-left py-3 px-4 text-slate-400 font-medium">每日 IP 数</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-slate-800/50">
+                <td class="py-3 px-4 text-emerald-400 font-medium">入门</td>
+                <td class="py-3 px-4">$9.9</td>
+                <td class="py-3 px-4">5GB</td>
+                <td class="py-3 px-4">$1.98/GB</td>
+                <td class="py-3 px-4">100万+</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 text-emerald-400 font-medium">Basic</td>
+                <td class="py-3 px-4">$85</td>
+                <td class="py-3 px-4">50GB</td>
+                <td class="py-3 px-4">$1.70/GB</td>
+                <td class="py-3 px-4">100万+</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-sm text-slate-500 mt-4">价格方案详情：</p>
+        <img src={`${base}/images/ttproxy-price.webp`} alt="TTProxy 价格方案" class="w-full rounded-lg mt-2" />
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$9.9 入门 + 100MB 免费试用，低门槛体验</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>自建数据节点，连接稳定快速</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>API 简洁高效，集成门槛低</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>100% 匿名 + 零 IP 封禁承诺</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>友好管理控制台，操作直观</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>7x24 全天候技术支持</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅提供住宅和旋转代理，产品类型单一</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无浏览器扩展或桌面客户端</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无城市级精确定位功能</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无移动代理或 ISP 代理产品线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>公开信息较少，品牌知名度有限</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          TTProxy 以简洁易用的产品定位和低门槛的价格策略，在住宅代理市场中找到了自己的差异化空间。1000 万+ IP 池、自建数据节点和简洁高效的 API 设计，为个人开发者和中小团队提供了快速集成的数据采集基础设施。$9.9 的入门套餐和 100MB 免费试用进一步降低了用户的决策成本。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          TTProxy 在易用性和性价比方面表现出色——友好的管理控制台、7x24 技术支持和零 IP 封禁承诺为中小规模用户提供了可靠的日常使用保障。但产品线相对单一（仅住宅和旋转代理），缺乏移动代理、ISP 代理和城市级定位等高级功能，对于需求复杂的企业级用户来说选择空间有限。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估 IP 质量、价格竞争力、易用性和技术支持等多个维度，TTProxy 获得 7.3 分评价。特别推荐给个人开发者、中小数据采集团队和预算有限的新手用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://ttproxy.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 TTProxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

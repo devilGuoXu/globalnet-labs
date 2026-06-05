@@ -838,5 +838,19 @@
     "affiliateUrl": "https://www.ipcool.net/",
     "couponCode": "",
     "detailUrl": "/proxy/ipcool"
+  },
+  {
+    "id": "ttproxy",
+    "name": "TTProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1000万+",
+    "proxyTypes": ["住宅代理", "旋转代理"],
+    "isFeatured": true,
+    "badge": "100MB免费试用",
+    "features": ["1000万+优质IP", "100%匿名/零封禁", "API快速集成", "7x24技术支持"],
+    "affiliateUrl": "https://ttproxy.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/ttproxy"
   }
 ]
