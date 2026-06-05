@@ -1,0 +1,239 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="HydraProxy 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/hydraproxy.webp`} alt="HydraProxy" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">HydraProxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">500万+住宅IP，20万+美国4G/5G移动IP，无限带宽，24小时退款保障</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">代理类型丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          HydraProxy 是一家专注于住宅代理和移动代理的专业服务商，拥有超过 500 万个住宅 IP 和 20 万个美国 4G/5G 移动 IP。平台提供住宅代理、美国移动代理、静态移动代理、国际移动代理和 ISP 代理五大产品线，以弹性的计费周期和无月费承诺在代理市场中建立了独特的定位。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          HydraProxy 的核心特色在于其精细化的代理控制能力：用户可以根据需要选择协议类型、网络类型和地理位置（精确到美国各州和邮政编码）。平台支持 HTTPS 和 SOCKS5 协议，提供旋转 IP 和粘性 IP 会话两种模式，住宅代理按流量计费（$2.5-$5/GB），移动代理按天计费（$2.95/天起）。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          HydraProxy 提供 24 小时无条件退款保证，让用户可以放心试用。平台在 Trustpilot 上获得积极评价，支持 24/7 在线聊天和邮件技术支持。提供 Chrome、Firefox、Edge 浏览器扩展和 HydraHeaders 工具，并设有代理商和联盟计划。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理产品线详解</h2>
+        <p class="text-slate-300 leading-relaxed mb-6">HydraProxy 提供五种代理类型，覆盖从个人用户到企业级客户的全场景需求：</p>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">500万+全球住宅 IP，支持旋转和粘性会话。按流量计费 $2.5-$5/GB，无限并发连接，用户名/密码认证。覆盖全球多国，适合市场调研、广告验证、旅行票价汇总和数据采集等场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">美国 4G/5G 移动代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">20万+美国移动 IP，无限带宽，支持 5/10/30 分钟 IP 轮换。$2.95/天（标准版）起，无月费承诺。HTTPS/SOCKS5 支持，可指定运营商。适合社媒运营、广告验证和应用测试。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态移动代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全球静态移动/WiFi IP，无限带宽，$3/天/端口。支持 ISP 和城市级定位，可按邮政编码筛选。4G 或 WiFi 连接 IP，HTTPS/SOCKS5 支持。适合需要固定 IP 的长期登录和电商运营场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">国际移动代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全球 3G/4G/5G 移动代理，按流量计费 $2.5-$5/GB。自定义轮换时间，静态 IP 最长保持 24 小时。无限并发连接，支持 ISP 和国家定位。适合多地区社媒运营和国际市场调研。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">ISP 代理（静态住宅）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全球 ISP 静态 IP，30 天套餐可续期。无限带宽，HTTP/SOCKS5 支持。传统数据中心代理的最佳替代方案，兼具稳定性和高信任度。适合电商运营、社媒账号管理等需要长期稳定 IP 的业务。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">500万+住宅 IP 与 20万+ 美国移动 IP</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">HydraProxy 拥有超过 500 万个全球住宅 IP 和 20 万个美国 4G/5G 移动 IP。住宅 IP 来自 100% 本地对等设备，通过商业 ISP 或移动运营商连接，确保了 IP 的真实性和高信任度。移动 IP 覆盖美国主要运营商网络。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">在数据采集、广告验证和社媒运营等对 IP 质量要求较高的场景中，真实住宅和移动 IP 能够有效降低封禁率和验证码触发频率。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">弹性计费，无月费承诺</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">HydraProxy 所有产品均无月度承诺，用户可以根据实际需求灵活选择计费周期。移动代理按天计费（最短 1 天），住宅代理按流量计费（最低 1GB），ISP 代理按月计费。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">弹性的计费模式特别适合短期项目和阶段性数据采集任务，用户只需为实际使用的服务付费，避免了长期绑定带来的浪费。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">精细化地理定位</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">HydraProxy 提供业内领先的地理定位精度。美国移动代理和静态移动代理支持精确到州、城市甚至邮政编码（ZIP Code）级别的定位。住宅代理和国际移动代理支持国家级别定位。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">精细的地理定位能力在本地化广告验证、区域 SEO 监控和本地化市场调研中尤为重要，用户可以模拟特定地区的真实用户行为获取准确的数据。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">旋转 IP 与粘性 IP 双模式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">HydraProxy 同时支持旋转 IP 和粘性 IP 两种会话模式。旋转模式下 IP 按设定时间自动轮换（移动代理支持 5/10/30 分钟），适合大规模数据采集和社媒批量注册。粘性模式下 IP 保持固定，适合需要长期登录的电商店铺和社媒账号管理。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">用户可以根据不同的业务需求灵活切换模式，一个平台即可满足多样化的代理使用场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">HTTPS & SOCKS5 双协议与无限带宽</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">HydraProxy 全线产品支持 HTTPS 和 SOCKS5 代理协议。移动代理和静态移动代理提供无限带宽，住宅代理和国际移动代理按流量计费。无限并发连接支持多线程工具的高效运行。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">双协议兼容性使 HydraProxy 能够适配市面上绝大多数软件工具，包括指纹浏览器、自动化脚本和爬虫框架。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">浏览器扩展与 HydraHeaders 工具</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">HydraProxy 提供 Chrome、Firefox 和 Microsoft Edge 三大主流浏览器的扩展程序，用户可以直接在浏览器中一键切换代理配置。HydraHeaders 是一款自定义 HTTP 请求头工具，帮助用户模拟不同的浏览器指纹和设备信息。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">浏览器扩展和 HydraHeaders 的组合为社媒运营和广告验证人员提供了强大的工具链，无需额外技术配置即可实现代理切换和请求头自定义。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">24 小时退款保证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">HydraProxy 提供 24 小时无条件退款保证，用户在购买后 24 小时内对服务不满意可以获得全额退款。这一政策在代理行业中较为少见，体现了平台对自身 IP 质量的信心。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">灵活的退款政策结合弹性的计费模式，让用户可以零风险地测试平台的服务质量，无需担心投入资金后无法获得满意的体验。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">代理商与联盟计划</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">HydraProxy 提供完善的代理商（Reseller）和联盟营销（Affiliate）计划。代理商可以以自有品牌转售 HydraProxy 的代理服务，联盟会员则可以通过推广获得佣金。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">对于有客户资源或流量资源的个人和团队来说，这是一个将流量变现的良好机会。平台提供必要的技术支持和计费系统，合作伙伴只需专注于市场推广。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 市场调研与数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">HydraProxy 的住宅代理和旋转 IP 模式在市场调研和数据采集场景中表现出色。500 万+ IP 池确保了 IP 的多样性，按流量计费模式（$2.5-$5/GB）在中等规模采集中具有较好的成本效益。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">无限并发连接支持大规模并发数据采集，旋转 IP 有效规避反爬虫机制。旅游票价汇总和电商价格监控是 HydraProxy 官方案例中重点推荐的应用方向。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">HydraProxy 的住宅代理和移动代理在广告验证场景中具有天然优势。真实住宅 IP 和 4G/5G 移动设备 IP 提供了最高的信任度，确保广告验证结果的真实性和可靠性。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">精细的地理定位功能（美国支持邮政编码级别）使广告验证团队可以从特定地区精确模拟用户查看广告投放，获取最真实的区域性广告数据。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 社媒运营与多账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">美国 4G/5G 移动代理和静态移动代理在社交媒体多账号管理场景中表现出色。移动 IP 的真实设备身份提供了最高的匿名性和最低的封禁风险。粘性 IP 模式适合 Facebook、Instagram、TikTok 等平台的日常运营。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">旋转 IP 模式则适合批量注册和验证码接收场景。HydraProxy 的浏览器扩展使社媒运营人员可以一键切换代理，提升多账号管理效率。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 旅行票价汇总（Travel Fare Aggregation）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">HydraProxy 将旅行票价汇总列为其核心应用场景。住宅代理的全球覆盖使票价聚合平台可以从不同地区获取真实的票价信息。弹性计费模式（按天或按流量）适合季节性波动的旅行数据采集需求。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">无月费承诺意味着在淡季可以减少用量降低成本，旺季再灵活增加资源。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. QA 测试与网站验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">HydraProxy 的移动代理被官方推荐用于 QA 测试场景。真实移动设备 IP 让开发者和 QA 团队可以从真实用户的角度测试移动端应用和网站的兼容性。多地区覆盖支持全球化的测试需求。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">静态移动代理的固定 IP 特性适合需要长时间保持连接的持续测试场景。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">6. 电商运营与品牌保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ISP 代理以静态住宅 IP 的高信任度在电商运营场景中发挥优势。30 天套餐配合续期选项提供了长期稳定的 IP 环境，适合 Amazon、eBay 等平台的店铺运营。住宅代理则适合竞品价格监控和市场情报收集。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">品牌保护方面，住宅代理的全球覆盖让企业能够在主要市场区域监控仿冒产品和商标侵权行为。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>500万+住宅IP + 20万+美国4G/5G移动IP，资源优质</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>弹性计费，无月费承诺，按天/按流量灵活选择</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>精细地理定位，美国支持邮政编码级别</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>旋转/粘性IP双模式，灵活适配不同场景</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Chrome/Firefox/Edge扩展 + HydraHeaders工具链</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>24小时无条件退款，零风险试用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>24/7 LiveChat技术支持，响应及时</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理按流量计费，大流量场景成本较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动代理以美国为主，国际覆盖有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服，中国用户使用门槛较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无独立桌面客户端，配置依赖浏览器扩展或手动设置</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理仅支持HTTPS协议，无SOCKS5</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>数据中心代理产品线较弱，以住宅和移动为主</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">价格方案</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">HydraProxy 提供灵活的定价模式，覆盖从个人用户到企业级客户的价格区间。以下为各产品的价格参考：</p>
+        <div class="space-y-4">
+          <div>
+            <h3 class="text-sm font-semibold text-slate-300 mb-2">住宅代理价格</h3>
+            <img src={`${base}/images/hydraproxy-res-price.webp`} alt="HydraProxy 住宅代理价格方案" class="w-full rounded-lg" />
+          </div>
+          <div>
+            <h3 class="text-sm font-semibold text-slate-300 mb-2">移动代理价格</h3>
+            <img src={`${base}/images/hydraproxy-mob-price.webp`} alt="HydraProxy 移动代理价格方案" class="w-full rounded-lg" />
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          HydraProxy 凭借 500 万+住宅 IP 和 20 万+美国 4G/5G 移动 IP 的优质资源、弹性的计费模式和精细化的地理定位能力，在代理市场中建立了独特的品牌定位。无论是住宅代理的按流量计费还是移动代理的按天计费，无月费承诺的灵活政策都让用户可以根据实际需求自由选择。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          HydraProxy 在美国移动代理领域具有显著优势，20 万+ IP 池支持精确到邮政编码级别的定位，配合 24 小时退款保证和 24/7 LiveChat 支持，为广告验证、社媒运营和市场调研等场景提供了可靠的基础设施。浏览器扩展和 HydraHeaders 工具进一步降低了用户的使用门槛。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估 IP 质量、产品多样性、计费灵活性和客户支持等多个维度，HydraProxy 获得 7.3 分评价。特别推荐给需要美国本地化代理的广告验证团队、社媒运营人员和旅游票价聚合平台。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://hydraproxy.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 HydraProxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

@@ -782,5 +782,19 @@
     "affiliateUrl": "https://proxy-seller.com/",
     "couponCode": "",
     "detailUrl": "/proxy/proxy-seller"
+  },
+  {
+    "id": "hydraproxy",
+    "name": "HydraProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "500万+",
+    "proxyTypes": ["住宅代理", "移动代理", "静态移动", "ISP代理"],
+    "isFeatured": true,
+    "badge": "24小时退款保障",
+    "features": ["500万+住宅IP", "20万+美国移动IP", "无限带宽", "HTTP/SOCKS5"],
+    "affiliateUrl": "https://hydraproxy.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/hydraproxy"
   }
 ]
