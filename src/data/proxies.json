@@ -740,5 +740,19 @@
     "affiliateUrl": "https://proxy-ipv4.com/",
     "couponCode": "",
     "detailUrl": "/proxy/proxy-ipv4"
+  },
+  {
+    "id": "proxy-cheap",
+    "name": "Proxy-Cheap",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "45000+客户",
+    "proxyTypes": ["静态住宅", "数据中心", "移动代理", "轮换住宅"],
+    "isFeatured": true,
+    "badge": "低至$0.15/月",
+    "features": ["45000+满意客户", "中文支持/支付宝", "7种代理类型", "HTTP/SOCKS5"],
+    "affiliateUrl": "https://www.proxy-cheap.com/cn",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxy-cheap"
   }
 ]
