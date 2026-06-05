@@ -810,5 +810,19 @@
     "affiliateUrl": "https://geonix.com/",
     "couponCode": "",
     "detailUrl": "/proxy/geonix"
+  },
+  {
+    "id": "dataimpulse",
+    "name": "DataImpulse",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "9000万+",
+    "proxyTypes": ["住宅代理", "数据中心代理", "移动代理", "高级住宅代理"],
+    "isFeatured": true,
+    "badge": "$1/GB 起",
+    "features": ["9000万+纯净IP池", "195+国家覆盖", "套餐永不过期", "24/7真人客服"],
+    "affiliateUrl": "https://dataimpulse.com/zh-cn/",
+    "couponCode": "",
+    "detailUrl": "/proxy/dataimpulse"
   }
 ]
