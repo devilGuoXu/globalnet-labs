@@ -628,5 +628,19 @@
     "affiliateUrl": "https://www.infatica.io",
     "couponCode": "",
     "detailUrl": "/proxy/infatica"
+  },
+  {
+    "id": "lumiproxy",
+    "name": "LumiProxy",
+    "type": "residential-proxy",
+    "rating": 7.5,
+    "poolSize": "9000万+",
+    "proxyTypes": ["住宅", "无限住宅", "ISP", "静态住宅", "数据中心"],
+    "isFeatured": true,
+    "badge": "ISO认证",
+    "features": ["9000万+住宅IP", "195+国家覆盖", "99.5%成功率", "城市级定位"],
+    "affiliateUrl": "https://www.lumiproxy.com/zh-hans/",
+    "couponCode": "",
+    "detailUrl": "/proxy/lumiproxy"
   }
 ]
