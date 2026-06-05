@@ -880,5 +880,19 @@
     "affiliateUrl": "https://www.rapidproxy.io/",
     "couponCode": "RAPID10",
     "detailUrl": "/proxy/rapidproxy"
+  },
+  {
+    "id": "bestproxy",
+    "name": "BestProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "8000万+",
+    "proxyTypes": ["住宅代理", "不限量住宅", "静态住宅", "静态数据中心", "长效ISP"],
+    "isFeatured": false,
+    "badge": "代理 + 爬虫 API",
+    "features": ["8000万+真实住宅IP", "全球200+地点", "五大代理+三大API", "城市级定位"],
+    "affiliateUrl": "https://bestproxy.com/zh/",
+    "couponCode": "",
+    "detailUrl": "/proxy/bestproxy"
   }
 ]
