@@ -1,0 +1,215 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="711Proxy 海外住宅代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/711proxy.png`} alt="711Proxy" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">711Proxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">1亿+住宅IP，200+国家覆盖，$0.55/GB 起的动态住宅代理服务商</p>
+        </div>
+      </div>
+
+      <!-- 评分概览 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 规模</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">中文支持</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 产品概述 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          711Proxy 是一家面向全球市场的住宅 IP 代理服务商，专注于为企业用户提供高质量的旋转和静态 IP 代理解决方案。平台拥有超过 1 亿个合规住宅 IP 资源，覆盖全球 200 多个国家和地区，承诺 99.9% 的正常运行时间和 99.7% 的请求成功率。用户评分高达 4.9/5。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          711Proxy 提供动态住宅代理（按 GB）、动态住宅代理（按 IP）、无限旋转代理（高带宽）、静态住宅代理和 SOCKS5 代理五种产品。动态住宅代理大型套餐低至 $0.55/GB，按 IP 计费低至 $0.03/IP，静态住宅代理 $3.5/IP/30天。每日动态更新 680 万+ IP，新增 6 万+ 新 IP。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          平台支持城市级地理定位、无限并发会话、20-40M/s 高速传输和 <0.3s 超低延迟。支持中文、英文、俄语、越南语等多种语言界面。技术支持邮箱 support@711proxy.com，商务合作 bd@711proxy.com。根据政策要求，该服务不支持在中国大陆使用。
+        </p>
+      </section>
+
+      <!-- 代理类型 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理类型</h2>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">动态住宅代理（按 GB）</h3>
+            <p class="text-sm text-slate-400">$0.55/GB 起（大型套餐），1亿+ IP 池。自动轮换 IP，99.7% 成功率。支持 30/90/180 天有效期，未用完流量可冻结保留。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">动态住宅代理（按 IP）</h3>
+            <p class="text-sm text-slate-400">$0.03/IP 起，每次提取消耗一个 IP 额度。每个 IP 可用 30 分钟至 6 小时，可续费继续使用。IP 额度永不过期。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">无限旋转代理</h3>
+            <p class="text-sm text-slate-400">$64/天起，高带宽方案（200Mbps-1Gbps）。无限流量使用，适合大规模持续数据采集任务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">静态住宅代理</h3>
+            <p class="text-sm text-slate-400">$3.5/IP/30天，长期稳定的固定住宅 IP。持久连接，适合需要固定身份的长期运营任务。提供专属 IP 资源。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">SOCKS5 代理</h3>
+            <p class="text-sm text-slate-400">SOCKS5 协议代理，提供更高的协议灵活性和应用兼容性。适合需要非 HTTP 流量的特定场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">企业定制方案</h3>
+            <p class="text-sm text-slate-400">为高用量客户提供更具竞争力的价格和灵活的代理分配功能，支持 CDKey 分配。24/7 技术支持，定制化解决方案。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 核心特性 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1亿+ 住宅 IP 全球覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">711Proxy 拥有超过 1 亿个真实住宅 IP 资源，覆盖全球 200 多个国家。每日动态更新 680 万+ IP，每日新增 6 万+ 新 IP，确保 IP 池的活力和纯净度。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">热门覆盖包括美国、英国、巴西、印度、西班牙、加拿大等主要国家，支持城市级精确地理定位。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">99.7% 成功率与超高并发</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">711Proxy 承诺 99.7% 的请求成功率，<0.3s 超低延迟。无限并发会话配合 20-40M/s 高效传输，满足大规模数据采集的并发需求。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">灵活的 IP 轮换策略：支持自动轮换和粘性会话，可通过 API 请求即时更换 IP。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">双模式灵活计费</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">同时提供按 GB 和按 IP 两种计费模式，这在代理行业中较为灵活。按 GB 计费适合持续性数据采集，大型套餐 $0.55/GB。按 IP 计费低至 $0.03/IP，每个 IP 最长使用 6 小时。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">按 IP 计费的额度永不过期，用户可以长期储备。按 GB 计费套餐到期后未使用流量可冻结，续费后恢复使用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">纯净 IP 与企业级管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">711Proxy 注重 IP 质量和业务适配性，IP 纯净度高达 99.9%。严格的数据合规确保 IP 来源合法可靠。企业计划支持 CDKey 分配功能。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">提供完善的团队管理功能，包括子账号分配、IP 白名单访问控制、实时数据看板等，方便企业监控和管理资源消耗。支持每 24 小时免费更换静态 IP。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多种支付方式与中文支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">711Proxy 支持支付宝、信用卡和加密货币等多种支付渠道，方便全球用户购买。提供中文界面和中文客服支持。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">提供独立 Help Center（docs.711proxy.com），API 文档完善。企业用户享有 24/7 技术团队支持。注意：根据政策要求，该服务不支持在中国大陆使用。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 定价 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">定价方案</h2>
+        <div>
+          <h3 class="text-emerald-400 font-semibold mb-3">代理方案概览</h3>
+          <img src={`${base}/images/711proxy-res-price.webp`} alt="711Proxy 定价方案" class="w-full rounded-lg" />
+        </div>
+      </section>
+
+      <!-- 适用场景 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 数据抓取与市场调研</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">动态住宅代理 $0.55/GB 起的价格在大规模数据采集中具有性价比优势。1亿+ IP 池避免请求被封锁，无限并发会话支持高速并行采集。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 广告验证与品牌保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">高匿名住宅 IP 从全球多地区验证广告投放效果，城市级定位确保本地化验证的精准性。99.7% 成功率保障验证任务持续执行。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO 监控与排名追踪</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">利用全球 IP 资源模拟不同地区的搜索排名，<0.3s 超低延迟确保搜索结果获取的速度。静态住宅代理适合长期 SEO 监控任务。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 电商运营与竞品分析</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">静态住宅代理 $3.5/IP/30 天提供长期稳定的店铺运营环境。动态住宅代理适合大规模的竞品价格数据采集和产品信息监控。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. AI 数据采集与模型训练</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">711Proxy 官网明确将 AI 和 BI 场景列为核心应用。无限旋转代理高带宽方案适合持续稳定的 AI 训练数据流，每日更新的海量 IP 确保数据多样性。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 优势与局限 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>1亿+ IP，每日更新 680 万+</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$0.55/GB 大型套餐，性价比突出</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.7% 成功率 + <0.3s 超低延迟</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>按 IP 计费额度永不过期</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>企业级团队管理与 CDKey 分配</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>4.9/5 用户评分，市场口碑优秀</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>中国大陆不可用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无限流量方案按天计费，$64/天起步</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>按 IP 计费套餐单价相对按 GB 较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无移动代理产品线</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 总结 -->
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          711Proxy 以 1亿+ 的庞大 IP 规模、99.7% 的高成功率和 <0.3s 的超低延迟，在全球住宅代理市场中展现了强大的综合实力。每日动态更新 680 万+ IP 的运营策略确保了 IP 池的活力和纯净度，按 GB 和按 IP 双模式计费为用户提供了灵活的选择空间。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          4.9/5 的高用户评分反映了市场对其服务的认可。企业级团队管理、CDKey 分配、支付宝/信用卡/加密货币多种支付方式等功能设计也体现了对多类型用户需求的深入理解。无限旋转代理方案为大规模持续采集场景提供了稳定可靠的解决方案。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估 IP 规模、性价比和成功率，711Proxy 获得 7.5 分。特别推荐给大规模数据采集团队、需要每日更新 IP 的用户、企业级代理管理需求者以及 AI 数据采集从业者。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.711proxy.com/zh-CN" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 711Proxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

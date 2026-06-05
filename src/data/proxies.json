@@ -656,5 +656,19 @@
     "affiliateUrl": "https://cliproxy.com/zh/",
     "couponCode": "",
     "detailUrl": "/proxy/cliproxy"
+  },
+  {
+    "id": "711proxy",
+    "name": "711Proxy",
+    "type": "residential-proxy",
+    "rating": 7.5,
+    "poolSize": "1亿+",
+    "proxyTypes": ["动态住宅", "无限流量", "静态住宅", "SOCKS5"],
+    "isFeatured": true,
+    "badge": "99.7%成功率",
+    "features": ["1亿+住宅IP", "200+国家覆盖", "99.9%可用率", "城市级定位"],
+    "affiliateUrl": "https://www.711proxy.com/zh-CN",
+    "couponCode": "",
+    "detailUrl": "/proxy/711proxy"
   }
 ]
