@@ -824,5 +824,19 @@
     "affiliateUrl": "https://dataimpulse.com/zh-cn/",
     "couponCode": "",
     "detailUrl": "/proxy/dataimpulse"
+  },
+  {
+    "id": "ipcool",
+    "name": "IPCool",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "9000万+",
+    "proxyTypes": ["动态住宅代理", "数据中心代理", "4G/5G移动代理", "静态ISP代理"],
+    "isFeatured": true,
+    "badge": "中文客服",
+    "features": ["99.9%请求连通率", "<0.6s平均响应", "城市/ASN级定位", "Reseller代理计划"],
+    "affiliateUrl": "https://www.ipcool.net/",
+    "couponCode": "",
+    "detailUrl": "/proxy/ipcool"
   }
 ]
