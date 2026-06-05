@@ -796,5 +796,19 @@
     "affiliateUrl": "https://hydraproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/hydraproxy"
+  },
+  {
+    "id": "geonix",
+    "name": "Geonix",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "400+网络",
+    "proxyTypes": ["IPv4代理", "IPv6代理", "ISP代理", "移动代理", "住宅代理"],
+    "isFeatured": true,
+    "badge": "GDPR/CCPA合规",
+    "features": ["IPv4低至$0.50/IP", "HTTP/SOCKS5双协议", "城市/州级定位", "400+网络1000+子网"],
+    "affiliateUrl": "https://geonix.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/geonix"
   }
 ]
