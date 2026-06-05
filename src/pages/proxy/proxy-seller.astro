@@ -1,0 +1,246 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Proxy-Seller 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/proxy-seller.png`} alt="Proxy-Seller" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Proxy-Seller 深度评测</h1>
+          <p class="text-slate-400 text-lg">10年+经验的老牌代理服务商，IPv6低至$0.08/IP，220+国家覆盖，企业级代理解决方案</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">代理类型丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxy-Seller 成立于2014年，总部位于塞浦路斯利马索尔，是一家拥有超过10年运营经验的成熟代理IP服务商。平台累计服务超过50万客户，IP资源覆盖全球220多个国家和地区，拥有800+子网和400+网络运营商，是目前市场上产品线最丰富的代理平台之一。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxy-Seller 的核心优势在于其极低的IPv6代理价格（最低仅$0.08/IP）和多元化的代理产品矩阵，涵盖IPv4数据中心代理、IPv6代理、ISP代理、住宅代理、移动代理（4G/5G）以及共享代理和MIX混合套餐。平台支持SOCKS5和HTTP(S)双协议，提供高达1Gbps的带宽速度和99%的正常运行时间保证。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          Proxy-Seller 在Trustpilot上获得4.6星评级，支持24/7/365全天候客服、24小时无条件换IP/退款政策，并提供PHP、Node.js、Python、Java和Golang等多种语言的API接口，兼顾个人用户和企业级客户的需求。平台严格遵守GDPR和CCPA隐私法规，所有IP均来自合法合规渠道。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理产品线详解</h2>
+        <p class="text-slate-300 leading-relaxed mb-6">Proxy-Seller提供七种代理类型，覆盖从个人开发者到大型企业的全场景需求：</p>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">IPv4数据中心代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">高速数据中心IP，支持国家/城市级定位。混播IP $0.70/IP起，独享IP $0.90/IP起。适合SEO监控、广告验证、电商运营等对速度和稳定性要求较高的场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">IPv6代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Proxy-Seller的拳头产品，价格低至$0.08/IP，极具性价比。支持HTTP(S)和SOCKS5协议。适用于大规模数据采集、爬虫项目和对成本敏感的高并发任务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">ISP代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">由ISP分配的独享静态IP，兼具数据中心的稳定性和住宅级的高信任度。价格$1.05-$1.50/IP/月起。适合电商店铺管理、长期登录会话和社媒账号运营。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">来自真实ISP的住宅IP，47万+IP池覆盖190+国家。500MB起售$1.99，按流量计费。最高匿名性，适合需要真实用户身份的社媒运营、市场调研和品牌保护场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">移动代理（4G/5G）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">来自真实移动运营商的设备IP，最高等级的匿名性。价格$25-$80/IP/月，支持按国家精确定位。适合社媒注册、验证码接收、TikTok/Instagram等移动端社媒运营。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">共享代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">高性价比的共享IP方案，价格低至$0.04/IP。适合预算有限的日常代理使用、轻量级数据采集和个人项目，以极低成本满足基本的代理需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">MIX混合套餐</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">灵活的代理组合方案，用户可以根据需求混合搭配不同类型的代理IP。适合业务场景多元化的用户，以套餐价享受更优惠的整体价格，实现成本和需求的平衡。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">10年+运营经验与50万+客户信任</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy-Seller自2014年起深耕代理服务行业，超过10年的持续运营证明了平台的稳定性和可靠性。累计服务超过50万客户，覆盖个人开发者、中小企业到大型跨国企业，在全球代理市场中建立了良好的声誉。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">在Trustpilot上获得4.6星评级，用户评价普遍认可其稳定的IP质量和高效的客户服务。长期运营的经验积累使Proxy-Seller在基础设施优化、网络路由调整和IP资源管理方面具有深厚的技术底蕴。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">全球覆盖：220+国家，800+子网，400+运营商</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy-Seller的IP资源覆盖全球220多个国家和地区，拥有超过800个不同的子网和400多家网络运营商。庞大的资源网络确保了全球各地区IP的可获得性和稳定性。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">多样化的网络运营商覆盖意味着用户可以根据目标网站或平台选择合适的ISP来源IP，进一步提升IP的信任度和成功率，尤其适合对ISP多样性有要求的精细化运营场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">IPv6代理：极致性价比之选</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy-Seller的IPv6代理以其低至$0.08/IP的价格成为市场上最具性价比的选择之一。IPv6代理提供了几乎无限的IP地址空间，非常适合需要大量IP进行轮换的大规模数据采集和爬虫项目。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">不过需要注意的是，部分网站尚未完全支持IPv6协议，在兼容性方面可能不如IPv4广泛。用户需要根据目标网站的IPv6支持情况合理选择代理类型。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">SOCKS5 & HTTP(S) 双协议支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy-Seller全线产品同时支持SOCKS5和HTTP(S)代理协议。SOCKS5协议在处理非HTTP流量（如游戏、流媒体）时更具优势，而HTTP(S)协议则在网页数据采集和浏览器配置中更加便捷。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">双协议兼容性使Proxy-Seller能够适配市面上绝大多数指纹浏览器（如Multilogin、AdsPower、Dolphin&#123;anty&#125;等）、SEO工具和自动化脚本，为不同技术栈的用户提供灵活的连接方式。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1Gbps高速带宽与99%正常运行时间</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy-Seller提供高达1Gbps的带宽速度，确保数据传输的高效性。数据中心代理通常在速度和稳定性方面表现优异，住宅代理则在高匿名性场景中发挥优势。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">99%的正常运行时间保证配合24/7/365的技术支持，为用户提供了可靠的服务保障。对于需要持续运行的生产环境，Proxy-Seller的高可用性能够有效减少业务中断风险。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">24小时无条件换IP/退款保障</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy-Seller提供24小时无条件换IP和退款政策，用户在购买后24小时内可随时更换不满意的IP地址或申请全额退款。这一政策在代理行业中较为少见，体现了平台对自身IP质量的信心。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">灵活的退款换IP政策降低了用户的试错成本，让用户可以在实际使用中检验IP质量，无需担心购买后无法退换的风险。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多语言API与开发者友好</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy-Seller提供全面的API接口，支持PHP、Node.js、Python、Java和Golang五种主流编程语言。完善的API文档和SDK使开发者可以快速集成代理管理功能到自己的应用系统中。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">API支持IP的批量购买、更换、状态查询和管理等操作，适合需要自动化管理代理资源的技术团队和企业用户。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">合规性与隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy-Seller严格遵循GDPR和CCPA隐私法规，所有代理IP均来自合法合规的渠道，确保IP来源的道德性和合法性。住宅IP来自自愿参与的设备所有者，数据中心IP则来自自有的服务器基础设施。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">对于注重数据隐私和法律合规性的企业用户来说，Proxy-Seller的合规承诺是其选择平台的重要考量因素之一。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 搜索引擎优化（SEO）监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy-Seller的220+国家数据中心代理是SEO从业者的理想工具。用户可以从全球各地发起搜索请求，获取真实的本地化搜索结果，监控关键词排名变化。IPv4代理的稳定高速特性在批量查询场景中表现出色。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">对于需要模拟真实用户行为的场景，住宅代理可以提供更高的匿名性和更接近真实用户的效果，避免搜索引擎的差异化对待。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 电商价格监控与市场调研</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy-Seller的IPv6代理以极低的成本优势成为大规模电商价格监控项目的首选。$0.08/IP的超低价格使监控项目可以轻松扩展到数千个并发IP，实现对多个电商平台、多个地区的实时价格跟踪。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">ISP代理和住宅代理则适合需要登录状态的电商店铺数据采集和竞品分析，提供更高的账号稳定性和低封禁率。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 广告验证与品牌保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">广告验证团队可以利用Proxy-Seller的全球IP网络从不同地理位置模拟真实用户验证广告投放效果。住宅代理和移动代理的高匿名性确保了验证结果的真实可信，避免了数据中心IP被广告平台识别造成的验证偏差。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">品牌保护方面，全球220+国家的覆盖让企业能够在主要市场区域全面监控仿冒产品和商标侵权行为。移动代理特别适合在移动端广告投放验证场景中使用。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 网络安全研究</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy-Seller的数据中心代理和MIX混合套餐为网络安全研究人员提供了灵活的多IP测试环境。不同子网和运营商的IP资源可以模拟多样化的攻击面和网络环境，支持渗透测试、漏洞评估和安全审计等工作。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">Golang和Python等语言的API支持使安全工具可以快速集成代理轮换功能，构建自动化的安全测试框架。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. AI/LLM数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">随着大语言模型（LLM）训练对多样化数据的需求激增，Proxy-Seller的IPv6代理和大规模IP池为AI训练数据采集提供了经济高效的解决方案。低至$0.08/IP的成本使采集项目可以快速扩展IP规模。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理在采集需要登录验证或反爬虫机制的网站数据时表现更佳，虽然成本较高但数据成功率和质量也相应提升。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">6. 社交媒体运营与游戏</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxy-Seller的ISP代理和住宅代理在社交媒体多账号运营场景中表现稳定。ISP代理兼具稳定性和信任度，适合Facebook、Instagram、TikTok等平台的日常运营管理。移动代理则适合需要真实移动设备身份的手机端社媒运营。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">SOCKS5协议支持使Proxy-Seller可以应用于游戏加速、Sneaker抢鞋机器人和流媒体解锁等低延迟需求的场景，1Gbps的带宽速度确保了良好的网络体验。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>10年+运营经验，50万+客户，品牌成熟可靠</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>IPv6代理低至$0.08/IP，极致性价比</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>七种代理类型，产品线极为丰富</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>24小时无条件换IP/退款，零风险试用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>全球220+国家覆盖，800+子网，400+运营商</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>多语言API支持（PHP/Node.js/Python/Java/Golang）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>GDPR/CCPA合规，IP来源合法</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理IP池规模（47万）相比大厂偏小</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IPv6代理兼容性有限，部分网站不支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理按流量计费，大容量场景成本较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无自主研发的桌面客户端，配置依赖API或手动设置</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分小众地区IP资源有限，覆盖深度不及头部厂商</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">价格方案</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">Proxy-Seller提供灵活的定价模式，覆盖从个人用户到企业级客户的价格区间。以下为各产品线的价格参考：</p>
+        <div class="space-y-4">
+          <div>
+            <h3 class="text-sm font-semibold text-slate-300 mb-2">住宅代理价格</h3>
+            <img src={`${base}/images/proxy-seller-res-price.webp`} alt="Proxy-Seller 住宅代理价格方案" class="w-full rounded-lg" />
+          </div>
+          <div>
+            <h3 class="text-sm font-semibold text-slate-300 mb-2">移动代理价格</h3>
+            <img src={`${base}/images/proxy-seller-mob-price.webp`} alt="Proxy-Seller 移动代理价格方案" class="w-full rounded-lg" />
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxy-Seller 凭借10年以上的行业经验、50万+客户基础和极为丰富的代理产品线，在全球代理市场中建立了稳固的地位。从低至$0.08/IP的IPv6代理到高信任度的住宅代理和移动代理，几乎覆盖了所有可能的代理使用场景。其24小时无条件的换IP/退款政策在业内极为少见，充分体现了平台对自身IP质量的信心。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxy-Seller 在IPv6代理领域具有显著的价格优势，对于需要大规模IP的数据采集、AI训练和爬虫项目来说是最具性价比的选择之一。同时，多语言API支持和GDPR/CCPA合规认证使其在企业级客户中具有较好的竞争力。不过，住宅代理IP池规模相对较小、无自有客户端等问题是其需要持续改进的方向。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估产品丰富度、价格竞争力、全球覆盖和客户口碑等多个维度，Proxy-Seller 获得7.3分评价。特别推荐给对IPv6代理有需求的开发者、需要多元代理产品线的技术团队和注重成本效益的企业用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://proxy-seller.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Proxy-Seller 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
