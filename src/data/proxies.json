@@ -642,5 +642,19 @@
     "affiliateUrl": "https://www.lumiproxy.com/zh-hans/",
     "couponCode": "",
     "detailUrl": "/proxy/lumiproxy"
+  },
+  {
+    "id": "cliproxy",
+    "name": "Cliproxy",
+    "type": "residential-proxy",
+    "rating": 7.5,
+    "poolSize": "5000万+",
+    "proxyTypes": ["动态住宅", "静态住宅", "无限流量", "ISP"],
+    "isFeatured": true,
+    "badge": "99%成功率",
+    "features": ["5000万+住宅IP", "全球覆盖", "99%成功率", "城市级定位"],
+    "affiliateUrl": "https://cliproxy.com/zh/",
+    "couponCode": "",
+    "detailUrl": "/proxy/cliproxy"
   }
 ]
