@@ -726,5 +726,33 @@
     "affiliateUrl": "https://www.yilus5.com/",
     "couponCode": "",
     "detailUrl": "/proxy/yilus5"
+  },
+  {
+    "id": "proxy-seller",
+    "name": "Proxy-Seller",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "47万+",
+    "proxyTypes": ["住宅代理", "数据中心", "ISP代理", "移动代理"],
+    "isFeatured": true,
+    "badge": "10年+运营经验",
+    "features": ["50万+客户信任", "220+国家覆盖", "1Gbps高速带宽", "24小时换IP/退款"],
+    "affiliateUrl": "https://proxy-seller.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxy-seller"
+  },
+  {
+    "id": "proxy-ipv4",
+    "name": "Proxy-IPv4",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "800+子网",
+    "proxyTypes": ["IPv4代理", "IPv6代理", "ISP代理", "移动代理"],
+    "isFeatured": true,
+    "badge": "IPv4低至$0.39/IP",
+    "features": ["独享私有IP", "300+网络覆盖", "HTTP/SOCKS5双协议", "24/7技术支持"],
+    "affiliateUrl": "https://proxy-ipv4.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxy-ipv4"
   }
 ]
