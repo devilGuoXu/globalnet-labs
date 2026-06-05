@@ -908,5 +908,19 @@
     "affiliateUrl": "https://www.vircs.com/",
     "couponCode": "vircs",
     "detailUrl": "/proxy/vircs"
+  },
+  {
+    "id": "onlineproxy",
+    "name": "OnlineProxy",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "1800万+",
+    "proxyTypes": ["移动代理（Lite）", "移动代理（Regular）"],
+    "isFeatured": false,
+    "badge": "真实手机+SIM",
+    "features": ["1800万+真实移动IP", "40+国家/200+城市", "独享设备", "不限流量"],
+    "affiliateUrl": "https://onlineproxy.io/zh",
+    "couponCode": "",
+    "detailUrl": "/proxy/onlineproxy"
   }
 ]
