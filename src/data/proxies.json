@@ -754,5 +754,19 @@
     "affiliateUrl": "https://www.proxy-cheap.com/cn",
     "couponCode": "",
     "detailUrl": "/proxy/proxy-cheap"
+  },
+  {
+    "id": "youproxy",
+    "name": "Youproxy",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "50+国家",
+    "proxyTypes": ["IPv4代理", "IPv6代理", "ISP代理", "移动代理"],
+    "isFeatured": true,
+    "badge": "IPv6低至$0.07/IP",
+    "features": ["独享私有IP", "50+国家覆盖", "无限带宽", "HTTP/SOCKS5"],
+    "affiliateUrl": "https://youproxy.io/en",
+    "couponCode": "",
+    "detailUrl": "/proxy/youproxy"
   }
 ]

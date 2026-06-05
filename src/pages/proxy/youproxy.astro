@@ -1,0 +1,231 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Youproxy 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/youproxy.png`} alt="Youproxy" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Youproxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">独享私有代理，IPv6低至$0.07/IP，无限带宽，HTTP/SOCKS5双协议，24/7技术支持</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">代理类型丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Youproxy 成立于2017年，总部位于立陶宛维尔纽斯，是一家专注提供私有独享代理的服务商，拥有超过7年的行业运营经验。平台提供 IPv4、IPv6、ISP 和移动代理（4G/5G）四大产品线，覆盖全球 50+ 国家，以极具竞争力的价格（IPv4 低至 $0.65/IP，IPv6 低至 $0.07/IP）在全球代理市场中占据一席之地。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Youproxy 的核心优势在于所有代理均为独享私有 IP，用户无需与他人共享地址，从根本上消除了因邻居滥用导致的 IP 封禁风险。平台支持 HTTP 和 SOCKS5 双协议，提供无限带宽、99% 正常运行时间、近乎即时激活（约 10 秒）和 24/7 全天候技术支持。IPv6 代理的低至 $0.07/IP 的价格在市场上极具竞争力。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          Youproxy 在 G2 等第三方评测平台上获得积极评价，用户普遍认可其 IP 质量、稳定性和客户支持。平台严格遵守 GDPR、CCPA 和 ISO/IEC 27001 合规标准，所有 IP 均来自合法渠道。提供 24 小时退款窗口，让用户可以放心试用。支持 Visa、Mastercard、PayPal、比特币和以太坊等多种支付方式。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理产品线详解</h2>
+        <p class="text-slate-300 leading-relaxed mb-6">Youproxy 提供四种代理类型，覆盖从个人用户到企业级客户的全场景需求：</p>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">IPv4 数据中心代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Youproxy 的核心产品。独享私有 IPv4 地址，$0.65/IP 起，支持按周/月/年租赁。覆盖美国、英国、德国、法国、日本等 38+ 国家。无限带宽，HTTP/SOCKS5 双协议。适合广告验证、SEO 监控、PPC 管理和多线程数据采集等场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">IPv6 代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Youproxy 的极致性价比产品，价格低至 $0.07/IP。覆盖加拿大、英国、法国、德国、日本、荷兰、美国等地区。无限带宽，支持 HTTP 和 SOCKS5 协议。适合大规模爬虫、SEO 数据采集和需要大量 IP 轮换的项目。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">ISP 代理（静态住宅）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">由真实 ISP 提供的静态住宅 IP，$1.27/IP 起。覆盖美国、英国、德国、法国、日本、新加坡、台湾等 24+ 国家/地区。兼具数据中心代理的稳定性和住宅级的高信任度，无限带宽。适合电商运营、社媒账号管理和需要高信任度的业务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">移动代理（4G/5G）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">来自真实移动运营商的设备 IP，$7/IP 起。覆盖美国、英国、德国、法国、印度、泰国、土耳其等 18+ 国家。真正的 4G/5G 移动网络 IP，提供最高等级的匿名性。适合社媒注册、广告验证、应用测试和移动端数据采集。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">100% 独享私有代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Youproxy 所有代理均为独享私有 IP，每个地址只有一个用户使用。与共享代理不同，用户无需担心因他人滥用导致的 IP 封禁、速度下降或黑名单问题。对于需要稳定 IP 信誉的广告验证、SEO 监控和电商运营场景，独享机制确保了 IP 的纯净度和可控性。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">这也是 Youproxy 在 IP 纯净度方面获得较高评价的核心原因。用户的使用行为只影响自己的代理，不会被"坏邻居"牵连。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">极具竞争力的价格体系</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Youproxy 在定价方面具有明显优势：IPv6 代理低至 $0.07/IP，IPv4 代理 $0.65/IP 起，ISP 代理 $1.27/IP 起，移动代理 $7/IP 起。批量购买可享受最高 40% 折扣，长期租赁（月/季/年）价格更优惠。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">不限带宽是所有套餐的标配，用户无需担心流量消耗。灵活的租赁周期（1 周到 12 个月）让用户可以根据项目需求灵活选择，短期测试成本极低。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">50+ 国家覆盖，全球化资源网络</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Youproxy 的代理资源覆盖全球 50 多个国家，包括美国、英国、德国、法国、日本、中国、印度、巴西、澳大利亚、新加坡等主要市场。多样化的网络资源确保了 IP 的丰富性和可替换性。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">每种代理类型都有各自不同的覆盖范围：IPv4 覆盖 38+ 国家、ISP 覆盖 24+ 国家/地区、移动代理覆盖 18+ 国家。用户可以根据项目需求选择目标地区的代理。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">HTTP & SOCKS5 双协议支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Youproxy 全线产品同时支持 HTTP(S) 和 SOCKS5 代理协议，用户可以根据使用场景自由选择。HTTP 协议适合浏览器配置和网页数据采集，SOCKS5 则更适合非 HTTP 流量和需要低延迟的应用。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">双协议兼容性使 Youproxy 能够适配市面上绝大多数软件工具，包括指纹浏览器、SEO 工具、自动化脚本和爬虫框架。支持用户名/密码和 IP 白名单两种认证方式。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无限带宽与即时激活</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Youproxy 所有套餐均提供无限带宽，无速度或流量限制。无论 IPv4、IPv6、ISP 还是移动代理，用户都可以尽情使用而无需担心额外费用。100+ 线程并发支持满足了大规模数据采集项目的性能需求。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">支付确认后，代理几乎即时激活（约 10 秒），自动化系统确保快速交付。99% 的正常运行时间保证配合 24/7 技术支持，为用户提供了可靠的服务保障。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">24 小时退款保障</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Youproxy 提供 24 小时退款窗口，用户从 IP 分配开始的 24 小时内可以申请退款。虽然不提供免费试用，但这一政策为用户提供了安全的测试方式。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">如果在使用过程中遇到任何问题，用户也可以随时联系技术支持更换 IP。灵活的退款和更换政策降低了用户的试错成本。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">完善的 API 接口</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Youproxy 提供完整的 RESTful API 接口，涵盖代理购买、续费、更换、状态查询和管理等全部功能。详细的 API 文档为开发者提供了清晰的集成指南，方便技术团队构建自动化的工作流程。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">个人账户的控制面板支持多种格式的代理导出，用户可以按需选择 HTTPS 或 SOCKS5 端口格式，适配不同软件的需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">合规性与安全认证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Youproxy 严格遵守 GDPR、CCPA 和 ISO/IEC 27001 信息安全标准，所有 IP 来源合法合规。平台明确禁止代理用于钓鱼、垃圾邮件、暴力破解、DDoS 攻击和访问银行/政府网站等非法用途。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">严格的合规政策确保了 IP 资源的纯净度和可持续性。对于注重数据隐私和法律合规性的企业用户来说，ISO/IEC 27001 认证是重要的信任背书。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. SEO 监控与关键词排名跟踪</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Youproxy 的数据中心代理以高速稳定和无限带宽的特性成为 SEO 监控的理想选择。用户可以从全球 50+ 国家发起搜索请求，获取真实的本地化搜索排名数据。IPv4 代理的独享特性确保了查询的稳定性和可靠性。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">对于需要大量 IP 进行批量查询的 SEO 工具，IPv6 代理以 $0.07/IP 的极致性价比提供了大规模部署的可能，大幅降低运营成本。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 数据采集与网络爬虫</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Youproxy 的 IPv6 代理以 $0.07/IP 的低价成为大规模爬虫项目的首选。无限带宽和 100+ 线程支持充分满足高并发数据采集的性能需求。独享私有 IP 避免了因共享导致的速率限制和 IP 封禁。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">API 接口支持程序化的代理管理和自动化集成，方便爬虫框架无缝接入。用户可以通过 API 批量购买、更换和管理代理，实现全自动化的数据采集管线。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 广告验证（Ad Verification）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Youproxy 将广告验证列为核心应用场景之一。独享私有 IPv4 代理的高纯净度确保了广告验证结果的真实性，避免了因共享 IP 被标记导致的验证偏差。50+ 国家的覆盖范围使验证团队可以从全球各地模拟用户查看广告投放。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">移动代理以真实设备 IP 提供最高匿名性，特别适合移动端广告验证场景。ISP 代理则兼具高信任度和稳定性，适合对 IP 质量要求严苛的验证需求。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 社交媒体多账号运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ISP 代理和移动代理在社交媒体多账号管理场景中表现出色。ISP 代理提供稳定的静态 IP 环境，适合 Facebook、Instagram、TikTok 等平台的日常运营和管理。移动代理的 4G/5G 真实设备 IP 则适合批量注册和验证码接收。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">SOCKS5 协议支持兼容 Multilogin、AdsPower 等主流指纹浏览器。无限带宽确保长时间在线不会产生额外费用。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 电商运营与价格监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Youproxy 的 ISP 代理在电商运营场景中表现稳健。来自真实 ISP 的静态住宅 IP 具有高信任度，适合 Amazon、eBay、Shopify 等平台的店铺长期运营。独享 IP 确保登录环境稳定，降低账号关联风险。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">数据中心 IPv4/IPv6 代理适合商品数据采集和竞争对手价格监控，无限带宽支持长时间不间断的数据采集任务。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">6. 企业级应用与 DevOps 测试</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Youproxy 为企业客户提供灵活的自定义解决方案，支持按需扩展和定制化集成。ISO/IEC 27001 信息安全认证为企业级客户提供了重要的合规性保障。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">DevOps 团队可以使用 API 接口将代理管理集成到 CI/CD 流水线中，实现自动化测试环境的 IP 动态分配和管理。多地区覆盖适合全球化的应用测试和地理封锁绕过。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>100%独享私有 IP，无邻居干扰，IP纯净度高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>价格极具竞争力，IPv6低至$0.07/IP</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限带宽，无速度或流量限制</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>50+国家覆盖，IP资源全球化</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>即时激活（~10秒），24小时退款保障</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>HTTP/SOCKS5双协议，API接口完善</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>ISO/IEC 27001认证，GDPR/CCPA合规</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服，中国用户使用门槛较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅支持国家级别定位，无法精确到城市</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅IP池规模有限，以数据中心代理为主</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无免费试用，仅提供24小时退款窗口</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IPv6仅限于部分国家，覆盖范围不及IPv4</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>需要 KYC 验证才能访问被封锁的资源或端口</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">价格方案</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">Youproxy 提供灵活的定价模式，覆盖从个人用户到企业级客户的价格区间。以下为各产品的价格参考：</p>
+        <div class="space-y-4">
+          <div>
+            <h3 class="text-sm font-semibold text-slate-300 mb-2">代理价格方案</h3>
+            <img src={`${base}/images/youproxy-price.webp`} alt="Youproxy 价格方案" class="w-full rounded-lg" />
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Youproxy 凭借 100% 独享私有代理的核心特色、极具竞争力的价格体系和无限的带宽政策，在代理市场中建立了良好的口碑。自 2017 年运营以来，平台积累了丰富的行业经验，覆盖 50+ 国家的全球资源网络为数据采集、广告验证和 SEO 监控等场景提供了充足的 IP 资源。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          IPv6 代理低至 $0.07/IP 的价格在市场上极具吸引力，配合无限带宽和即时激活的体验，使其成为大规模数据采集项目最具成本效益的选择之一。ISO/IEC 27001 信息安全认证和 GDPR/CCPA 合规进一步增强了企业级用户的信任度。24 小时退款窗口为用户提供了安全的测试方式。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估价格竞争力、IP 纯净度、产品多样性和客户口碑等多个维度，Youproxy 获得 7.3 分评价。特别推荐给需要大量 IP 进行 SEO 监控和数据采集的技术团队，以及注重 IP 纯净度和合规性的企业用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://youproxy.io/en" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Youproxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
