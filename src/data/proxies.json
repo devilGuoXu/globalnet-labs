@@ -698,5 +698,19 @@
     "affiliateUrl": "https://www.okeyproxy.com/cn",
     "couponCode": "",
     "detailUrl": "/proxy/okeyproxy"
+  },
+  {
+    "id": "9proxy",
+    "name": "9Proxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "2000万+",
+    "proxyTypes": ["动态住宅"],
+    "isFeatured": true,
+    "badge": "$0.015/IP 起",
+    "features": ["2000万+住宅IP", "90+国家覆盖", "无限带宽按IP计费", "SOCKS5/UDP支持"],
+    "affiliateUrl": "https://9proxy.com/zh",
+    "couponCode": "",
+    "detailUrl": "/proxy/9proxy"
   }
 ]
