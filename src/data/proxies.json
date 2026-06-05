@@ -922,5 +922,19 @@
     "affiliateUrl": "https://onlineproxy.io/zh",
     "couponCode": "",
     "detailUrl": "/proxy/onlineproxy"
+  },
+  {
+    "id": "carrierproxy",
+    "name": "CarrierProxy",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "东欧/美洲/亚洲多国",
+    "proxyTypes": ["4G移动代理"],
+    "isFeatured": false,
+    "badge": "免费测试2小时",
+    "features": ["真实4G移动IP", "无限流量", "HTTP/SOCKS5", "IP定时/链接轮换"],
+    "affiliateUrl": "https://carrierproxy.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/carrierproxy"
   }
 ]
