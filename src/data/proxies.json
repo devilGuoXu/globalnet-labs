@@ -936,5 +936,19 @@
     "affiliateUrl": "https://carrierproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/carrierproxy"
+  },
+  {
+    "id": "oculusproxies",
+    "name": "OculusProxies",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "8050万+",
+    "proxyTypes": ["数据中心", "ISP代理", "住宅代理"],
+    "isFeatured": false,
+    "badge": "$0.10/GB起",
+    "features": ["8050万+全球IP", "195+国家覆盖", "免费5个DC代理试用", "SOCKS5支持"],
+    "affiliateUrl": "https://oculusproxies.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/oculusproxies"
   }
 ]
