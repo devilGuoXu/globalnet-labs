@@ -950,5 +950,19 @@
     "affiliateUrl": "https://oculusproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/oculusproxies"
+  },
+  {
+    "id": "croxy",
+    "name": "Croxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "8000万+",
+    "proxyTypes": ["住宅代理", "静态住宅", "数据中心", "ISP"],
+    "isFeatured": false,
+    "badge": "$0.10/GB起",
+    "features": ["8000万+真实住宅IP", "195+国家覆盖", "HTTP/SOCKS5", "无限并发连接"],
+    "affiliateUrl": "https://croxy.com/zh/",
+    "couponCode": "",
+    "detailUrl": "/proxy/croxy"
   }
 ]
