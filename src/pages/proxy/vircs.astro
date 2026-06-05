@@ -12,7 +12,9 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </a>
 
       <div class="flex items-center gap-4 mb-10">
-        <img src={`${base}/images/vircs.png`} alt="VIRCS" class="h-14 w-auto" />
+        <div class="bg-white rounded-xl w-20 h-20 flex items-center justify-center overflow-hidden shrink-0">
+          <img src={`${base}/images/vircs.png`} alt="VIRCS" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+        </div>
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">VIRCS 深度评测</h1>
           <p class="text-slate-400 text-lg">美国加州自有公寓机房，AT&T/Frontier 原生住宅 IP，静态独享不限流量</p>

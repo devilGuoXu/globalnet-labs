@@ -53,6 +53,14 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
                   <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
                     <img src={`${base}/images/ttproxy.png`} alt="TTProxy" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
                   </div>
+                ) : proxy.id === 'vircs' ? (
+                  <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+                    <img src={`${base}/images/vircs.png`} alt="VIRCS" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+                  </div>
+                ) : proxy.id === 'onlineproxy' ? (
+                  <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+                    <img src={`${base}/images/onlineproxy.png`} alt="OnlineProxy" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+                  </div>
                 ) : proxy.id === 'floppydata' ? (
                   <div class="shrink-0 flex items-center justify-center">
                     <img src={`${base}/images/floppydata-logo.svg`} alt="FloppyData" class="h-8 w-auto" />
