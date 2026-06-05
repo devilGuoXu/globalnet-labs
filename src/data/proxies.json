@@ -670,5 +670,33 @@
     "affiliateUrl": "https://www.711proxy.com/zh-CN",
     "couponCode": "",
     "detailUrl": "/proxy/711proxy"
+  },
+  {
+    "id": "owlproxy",
+    "name": "OwlProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "全球200+国家",
+    "proxyTypes": ["静态住宅", "动态住宅", "移动代理", "数据中心", "IPv6"],
+    "isFeatured": true,
+    "badge": "全产品线覆盖",
+    "features": ["全球200+国家覆盖", "99.9%网络连通率", "HTTP/SOCKS5三协议", "智能会话轮换"],
+    "affiliateUrl": "https://www.owlproxy.com/zh",
+    "couponCode": "",
+    "detailUrl": "/proxy/owlproxy"
+  },
+  {
+    "id": "okeyproxy",
+    "name": "OkeyProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1.5亿+",
+    "proxyTypes": ["动态住宅", "静态ISP", "数据中心", "不限量住宅", "高阶住宅"],
+    "isFeatured": true,
+    "badge": "1.5亿住宅IP",
+    "features": ["1.5亿+动态住宅IP", "200+国家地区覆盖", "城市级精准定位", "99.9%成功率"],
+    "affiliateUrl": "https://www.okeyproxy.com/cn",
+    "couponCode": "",
+    "detailUrl": "/proxy/okeyproxy"
   }
 ]
