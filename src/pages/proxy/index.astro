@@ -46,7 +46,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
                     <img src={`${base}/images/instaip.png`} alt="InstaIP" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
                   </div>
                 ) : (
-                  <img src={`${base}/images/${proxy.id === 'kocerroxy' || proxy.id === 'floppydata' ? proxy.id + '-logo.svg' : proxy.id + '.png'}`} alt={proxy.name} class="h-14 w-auto self-center" />
+                  <img src={`${base}/images/${proxy.id === 'kocerroxy' || proxy.id === 'floppydata' ? proxy.id + '-logo.svg' : proxy.id + '.png'}`} alt={proxy.name} class="${proxy.id === '711proxy' || proxy.id === 'floppydata' ? 'h-10' : 'h-14'} w-auto self-center" />
                 )
               )}
             </div>
