@@ -712,5 +712,19 @@
     "affiliateUrl": "https://9proxy.com/zh",
     "couponCode": "",
     "detailUrl": "/proxy/9proxy"
+  },
+  {
+    "id": "yilus5",
+    "name": "易路代理",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "9000万+",
+    "proxyTypes": ["动态住宅", "静态住宅", "移动代理", "数据中心"],
+    "isFeatured": true,
+    "badge": "911 S5替代",
+    "features": ["9000万+住宅IP", "200+国家覆盖", "无限并发会话", "专属管理客户端"],
+    "affiliateUrl": "https://www.yilus5.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/yilus5"
   }
 ]
