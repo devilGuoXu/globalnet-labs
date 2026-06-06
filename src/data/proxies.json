@@ -1006,5 +1006,19 @@
     "affiliateUrl": "https://astroproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/astroproxy"
+  },
+  {
+    "id": "ltesocks",
+    "name": "LTESocks",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "195+国家",
+    "proxyTypes": ["4G/5G移动代理", "住宅代理", "ISP代理", "SOCKS5"],
+    "isFeatured": false,
+    "badge": "$7/天起",
+    "features": ["无限流量", "5G最高150Mbps", "SOCKS5/HTTPS", "195+国家"],
+    "affiliateUrl": "https://ltesocks.io/",
+    "couponCode": "",
+    "detailUrl": "/proxy/ltesocks"
   }
 ]
