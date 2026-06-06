@@ -978,5 +978,19 @@
     "affiliateUrl": "https://spaw.co/",
     "couponCode": "",
     "detailUrl": "/proxy/spaw"
+  },
+  {
+    "id": "liveproxies",
+    "name": "Live Proxies",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1000万+",
+    "proxyTypes": ["住宅代理", "静态住宅", "移动代理"],
+    "isFeatured": false,
+    "badge": "$45/月起",
+    "features": ["独享IP不共享", "无限并发线程", "静态住宅30天+", "24/7客服"],
+    "affiliateUrl": "https://liveproxies.io/",
+    "couponCode": "",
+    "detailUrl": "/proxy/liveproxies"
   }
 ]
