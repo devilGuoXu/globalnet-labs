@@ -964,5 +964,19 @@
     "affiliateUrl": "https://croxy.com/zh/",
     "couponCode": "",
     "detailUrl": "/proxy/croxy"
+  },
+  {
+    "id": "spaw",
+    "name": "Spaw",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "550万+",
+    "proxyTypes": ["3G/4G移动代理"],
+    "isFeatured": false,
+    "badge": "$49.99/月起",
+    "features": ["无限流量", "无限线程", "API轮换", "即时激活"],
+    "affiliateUrl": "https://spaw.co/",
+    "couponCode": "",
+    "detailUrl": "/proxy/spaw"
   }
 ]
