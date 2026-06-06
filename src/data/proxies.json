@@ -992,5 +992,19 @@
     "affiliateUrl": "https://liveproxies.io/",
     "couponCode": "",
     "detailUrl": "/proxy/liveproxies"
+  },
+  {
+    "id": "astroproxy",
+    "name": "AstroProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "5000万+",
+    "proxyTypes": ["住宅代理", "移动代理", "数据中心"],
+    "isFeatured": false,
+    "badge": "$3.65/GB起",
+    "features": ["5000万+全球IP", "100+国家覆盖", "HTTP/SOCKS5", "免费测试"],
+    "affiliateUrl": "https://astroproxy.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/astroproxy"
   }
 ]
