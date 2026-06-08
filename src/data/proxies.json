@@ -616,6 +616,20 @@
     "detailUrl": "/proxy/naproxy"
   },
   {
+    "id": "hypeproxies",
+    "name": "HypeProxies",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "50万+ ISP IPs",
+    "proxyTypes": ["ISP代理", "住宅代理", "抢购代理"],
+    "isFeatured": false,
+    "badge": "$1试用",
+    "features": ["ISP静态住宅$1.30/IP起", "10Gbps骨干网", "不限带宽不限线程", "24/7多语言支持"],
+    "affiliateUrl": "https://hypeproxies.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/hypeproxies"
+  },
+  {
     "id": "infatica",
     "name": "Infatica",
     "type": "residential-proxy",
