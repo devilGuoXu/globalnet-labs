@@ -1146,5 +1146,19 @@
     "affiliateUrl": "https://shifter.io/",
     "couponCode": "",
     "detailUrl": "/proxy/shifter"
+  },
+  {
+    "id": "privateproxy",
+    "name": "PrivateProxy",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "15年运营经验",
+    "proxyTypes": ["数据中心静态", "数据中心轮换", "住宅静态", "住宅轮换", "ISP代理"],
+    "isFeatured": false,
+    "badge": "$1.5/月起",
+    "features": ["15年自营硬件非转售", "全部套餐不限流量+不限连接", "客服中位响应2m48s", "100%独享代理零共享"],
+    "affiliateUrl": "https://privateproxy.me/",
+    "couponCode": "",
+    "detailUrl": "/proxy/privateproxy"
   }
 ]
