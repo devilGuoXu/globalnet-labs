@@ -1104,5 +1104,19 @@
     "affiliateUrl": "https://www.omegaproxy.com/zh/",
     "couponCode": "",
     "detailUrl": "/proxy/omegaproxy"
+  },
+  {
+    "id": "mobileproxynow",
+    "name": "MobileProxyNow",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "德国/英国/美国",
+    "proxyTypes": ["4G/5G移动代理"],
+    "isFeatured": false,
+    "badge": "$1一小时试用",
+    "features": ["100%独享物理设备+真实SIM卡", "德国/英国/美国三地运营商", "HTTP/SOCKS5/OpenVPN/WireGuard四协议", "三模式IP轮换6-20秒"],
+    "affiliateUrl": "https://www.mobileproxynow.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/mobileproxynow"
   }
 ]
