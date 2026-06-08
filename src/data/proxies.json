@@ -1118,5 +1118,19 @@
     "affiliateUrl": "https://www.mobileproxynow.com/",
     "couponCode": "",
     "detailUrl": "/proxy/mobileproxynow"
+  },
+  {
+    "id": "sx",
+    "name": "SX.ORG",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1200万+ IPs",
+    "proxyTypes": ["移动代理", "住宅代理", "企业代理"],
+    "isFeatured": false,
+    "badge": "$3/GB统一价",
+    "features": ["235国家/10万城市覆盖", "$3/GB统一价移动/住宅/企业", "独创IP评级系统5.0分", "无KYC+中文界面+支付宝"],
+    "affiliateUrl": "https://sx.org/zh/",
+    "couponCode": "",
+    "detailUrl": "/proxy/sx"
   }
 ]
