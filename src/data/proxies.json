@@ -1188,5 +1188,19 @@
     "affiliateUrl": "https://www.anonymous-proxies.net/",
     "couponCode": "",
     "detailUrl": "/proxy/anonymous-proxies"
+  },
+  {
+    "id": "ipcola",
+    "name": "IPCola",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1亿+ IPs",
+    "proxyTypes": ["静态代理", "轮换代理", "直连代理"],
+    "isFeatured": false,
+    "badge": "$0.8/GB起",
+    "features": ["1亿+活跃住宅IP 195国家覆盖", "静态$1.2/月·轮换$0.8/GB·直连$1.8/月", "100%合规住宅代理城市/州/ISP定位", "免费试用+Dashboard+API"],
+    "affiliateUrl": "https://www.ipcola.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/ipcola"
   }
 ]
