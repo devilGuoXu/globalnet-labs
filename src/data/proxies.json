@@ -938,6 +938,20 @@
     "detailUrl": "/proxy/carrierproxy"
   },
   {
+    "id": "marsproxies",
+    "name": "MarsProxies",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "100万+ IPs",
+    "proxyTypes": ["住宅代理", "ISP代理", "数据中心代理", "移动代理"],
+    "isFeatured": false,
+    "badge": "4.8 Trustpilot",
+    "features": ["PCMag最佳客服奖", "住宅$1.65/GB起", "195+国家城市级定位", "支付宝/加密货币"],
+    "affiliateUrl": "https://marsproxies.cn/",
+    "couponCode": "",
+    "detailUrl": "/proxy/marsproxies"
+  },
+  {
     "id": "oculusproxies",
     "name": "OculusProxies",
     "type": "residential-proxy",
