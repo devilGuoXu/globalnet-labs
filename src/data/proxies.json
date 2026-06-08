@@ -910,6 +910,20 @@
     "detailUrl": "/proxy/vircs"
   },
   {
+    "id": "webshare",
+    "name": "Webshare",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "8000万+ IPs",
+    "proxyTypes": ["数据中心代理", "静态住宅代理", "轮换住宅代理"],
+    "isFeatured": false,
+    "badge": "免费10代理",
+    "features": ["永久免费套餐10代理", "DC $0.018/IP起", "195+国家城市级定位", "Chrome扩展+API"],
+    "affiliateUrl": "https://www.webshare.io/",
+    "couponCode": "",
+    "detailUrl": "/proxy/webshare"
+  },
+  {
     "id": "onlineproxy",
     "name": "OnlineProxy",
     "type": "mobile-proxy",
