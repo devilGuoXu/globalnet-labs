@@ -1,0 +1,206 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="proxy.cc 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/proxy-cc.png`} alt="proxy.cc" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">proxy.cc 深度评测</h1>
+          <p class="text-slate-400 text-lg">8 年运营经验，美国静态住宅代理，50+ 国家动态住宅，1000+ 企业客户</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          proxy.cc 是一家拥有 8 年运营经验的代理服务商，服务超过 1000 家企业客户，提供美国静态住宅代理、全球动态住宅代理、数据中心代理、ISP 代理和不限量住宅代理等多条产品线。平台核心优势在于美国静态住宅代理，支持城市、ISP 和 ASN 级别的精准定位，不限带宽和不限并发连接。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          动态住宅代理覆盖 50+ 个国家，支持自动轮换和粘性会话。数据中心代理提供高达 1Gbps 的高速带宽和 DDoS 防护。平台提供免费测试流量，新用户可以先行体验再购买。与多家指纹浏览器兼容，支持 HTTP 和 SOCKS5 协议。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          proxy.cc 支持支付宝和微信支付，在中国大陆可直接访问，中文客服团队通过工单系统提供 7x24 支持。邀请返利计划和企业定制方案也可按需获取。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">美国静态住宅代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">proxy.cc 的核心产品线——美国静态住宅代理，支持城市、ISP 和 ASN 级别的精准定位，不限带宽和不限并发连接。IP 长期固定不变，适合账号管理、电商运营和社媒维护等需要稳定身份的场景。静态住宅代理配合主流指纹浏览器使用效果出色。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">全球动态住宅代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">覆盖 50+ 个国家的动态住宅代理 IP 池，支持自动轮换和粘性会话模式。适合大规模数据采集、价格监测和广告验证等需要高频更换 IP 的场景。国家级别定位满足大部分跨境数据采集需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">高速数据中心代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">数据中心代理提供高达 1Gbps 的带宽和 DDoS 防护，延迟低、速度快。适合对网络速度要求较高的场景，如 SEO 监测、实时行情数据采集和竞品分析。支持 HTTP 和 SOCKS5 协议。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">中国大陆友好 + 中文支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">proxy.cc 在中国大陆可直接访问，支持支付宝和微信支付，中文客服团队通过工单系统提供 7x24 服务。对于中国大陆用户而言，从注册、充值到使用全程无障碍，无需额外网络工具即可完成购买和配置。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">免费测试流量 + 灵活方案</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">新用户可以申请免费测试流量，在购买前充分评估服务质量。各产品线提供灵活的流量方案选择，满足不同规模项目的需求。8 年运营经验和 1000+ 企业客户的积累体现了平台的服务稳定性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">API 集成 + 网络爬虫 API</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供 API 接口用于代理管理和配置，支持 IP 白名单和账密两种认证方式。同时提供 Web Scraper API 服务，简化数据采集流程。接口兼容主流编程语言的 HTTP 客户端，方便开发者快速集成。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 跨境电商多账号运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">美国静态住宅代理是 Amazon、eBay、Shopify 等平台多账号管理的理想选择。IP 长期固定且为真实住宅 IP，配合指纹浏览器可降低账号关联风险。不限并发连接支持同时管理大量店铺。支付宝/微信支付降低了中国卖家的支付门槛。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒运营与品牌管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">静态住宅代理为 Facebook、Instagram、TikTok 等社媒账号提供稳定的登录环境。50+ 国家动态住宅代理可同时管理不同地区的社媒矩阵账号。中文客服团队降低了国内社媒运营团队的沟通成本。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 数据采集与价格监测</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">动态住宅代理的自动轮换机制适合大规模电商数据采集和竞品价格监测。数据中心代理的高速低延迟适合需要实时响应的数据接口。免费测试流量让用户在决定购买前验证代理质量。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. SEO 监测与广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅代理在搜索引擎中具有较高的信任度，可获取准确的 SERP 结果。国家级别定位满足不同区域的 SEO 研究需求。不限流量方案适合持续性监测任务。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <img src={`${base}/images/proxy-cc-res-price.webp`} alt="proxy.cc 住宅代理价格方案" class="w-full rounded-lg" />
+        <p class="text-xs text-slate-500 mt-3 text-center">静态住宅/动态住宅/数据中心/ISP 多条产品线，支持免费测试流量</p>
+      </section>
+
+      <!-- 支付方式 -->
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">Visa</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+            <span class="text-sm text-slate-200">Mastercard</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">PayPal</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="w-5 h-5 flex items-center justify-center text-xs font-bold text-green-400 rounded bg-green-900/30">U</span>
+            <span class="text-sm text-slate-200">USDT</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="w-5 h-5 flex items-center justify-center text-xs font-bold text-green-500 rounded bg-green-900/30">支</span>
+            <span class="text-sm text-slate-200">支付宝</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="w-5 h-5 flex items-center justify-center text-xs font-bold text-green-500 rounded bg-green-900/30">微</span>
+            <span class="text-sm text-slate-200">微信支付</span>
+          </div>
+        </div>
+        <p class="text-xs text-slate-500 mt-3">注：支持支付宝和微信支付，中国大陆用户可无障碍购买</p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>8 年运营经验，1000+ 企业客户验证</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>美国静态住宅代理支持城市/ISP/ASN 精准定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>中国大陆可直接访问，支持支付宝和微信支付</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>中文客服团队 7x24 工单支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费测试流量，购买前可先行体验</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>多条产品线覆盖静态/动态/DC/ISP 全场景</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>动态住宅 IP 池覆盖仅 50+ 国家，少于主流服务商</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>未公开 IP 池总量和第三方评分</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>核心优势集中在美国静态住宅，其他地区覆盖有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>产品线和 IP 规模相比一线服务商有差距</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          proxy.cc 是一家在中国市场深耕 8 年的代理服务商，拥有美国静态住宅代理、全球动态住宅代理、数据中心代理、ISP 代理和不限量住宅代理等多条产品线。其美国静态住宅代理支持城市/ISP/ASN 精准定位，不限带宽不限并发，配合指纹浏览器在跨境电商和社媒运营场景中表现稳定。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          平台最大的差异化优势在于对中国大陆用户的友好支持——可直接访问、支持支付宝和微信支付、中文客服团队，让国内用户从注册到使用全程无障碍。免费测试流量降低了评估门槛，8 年运营经验和 1000+ 企业客户积累了足够的服务信誉。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          但动态住宅仅覆盖 50+ 国家，IP 池规模和产品线丰富度与国际一线服务商存在差距，未公开第三方评分也增加了透明度方面的顾虑。综合评估其在中国市场的本土化优势和美国静态住宅的产品力，proxy.cc 获得 7.3 分评价。特别推荐给以美国市场为主的跨境电商团队和中国大陆用户群体。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://proxy.cc/zh/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 proxy.cc 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

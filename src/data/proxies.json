@@ -1036,6 +1036,20 @@
     "detailUrl": "/proxy/geonode"
   },
   {
+    "id": "proxycc",
+    "name": "proxy.cc",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "8年运营",
+    "proxyTypes": ["静态住宅", "动态住宅", "数据中心", "ISP"],
+    "isFeatured": false,
+    "badge": "免费测试",
+    "features": ["美国静态住宅城市/ISP/ASN定位", "50+国家动态住宅", "8年运营1000+企业客户", "支持支付宝/微信支付"],
+    "affiliateUrl": "https://proxy.cc/zh/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxycc"
+  },
+  {
     "id": "omegaproxy",
     "name": "OmegaProxy",
     "type": "residential-proxy",
