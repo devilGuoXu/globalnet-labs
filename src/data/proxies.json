@@ -1132,5 +1132,19 @@
     "affiliateUrl": "https://sx.org/zh/",
     "couponCode": "",
     "detailUrl": "/proxy/sx"
+  },
+  {
+    "id": "shifter",
+    "name": "Shifter",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "2.05亿+ IPs",
+    "proxyTypes": ["住宅代理", "ISP代理", "Web Scraping API", "SERP API"],
+    "isFeatured": false,
+    "badge": "创立于2012",
+    "features": ["2.05亿+住宅IP195+国家", "城市/ASN级定位无限并发", "sid/ttl/每次请求三模式轮换", "无SDK锁定一行代码集成"],
+    "affiliateUrl": "https://shifter.io/",
+    "couponCode": "",
+    "detailUrl": "/proxy/shifter"
   }
 ]
