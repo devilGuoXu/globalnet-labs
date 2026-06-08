@@ -1160,5 +1160,19 @@
     "affiliateUrl": "https://privateproxy.me/",
     "couponCode": "",
     "detailUrl": "/proxy/privateproxy"
+  },
+  {
+    "id": "coronium",
+    "name": "Coronium",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "43万+ IPs",
+    "proxyTypes": ["4G/5G移动代理", "住宅VPN", "IPv4代理"],
+    "isFeatured": false,
+    "badge": "独享物理设备",
+    "features": ["独享4G/5G物理设备真实运营商IP", "95-99% Trust Score", "HTTP/SOCKS5/OpenVPN三协议", "AI生态MCP Server/AI Visibility Lab"],
+    "affiliateUrl": "https://www.coronium.io/",
+    "couponCode": "",
+    "detailUrl": "/proxy/coronium"
   }
 ]
