@@ -1020,5 +1020,33 @@
     "affiliateUrl": "https://ltesocks.io/",
     "couponCode": "",
     "detailUrl": "/proxy/ltesocks"
+  },
+  {
+    "id": "geonode",
+    "name": "Geonode",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "250万+ IPs",
+    "proxyTypes": ["住宅代理", "ISP代理", "数据中心代理", "Scraper API"],
+    "isFeatured": false,
+    "badge": "$0.27/GB起",
+    "features": ["自营IP网络", "195+国家", "价格匹配保证", "KYC合规"],
+    "affiliateUrl": "https://geonode.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/geonode"
+  },
+  {
+    "id": "omegaproxy",
+    "name": "OmegaProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "9000万+ IPs",
+    "proxyTypes": ["住宅代理", "静态住宅代理", "无限流量", "ISP代理", "数据中心代理", "Scraper API"],
+    "isFeatured": false,
+    "badge": "$0.77/GB起",
+    "features": ["220+国家", "六条产品线", "指纹浏览器合作", "无效IP不计费"],
+    "affiliateUrl": "https://www.omegaproxy.com/zh/",
+    "couponCode": "",
+    "detailUrl": "/proxy/omegaproxy"
   }
 ]
