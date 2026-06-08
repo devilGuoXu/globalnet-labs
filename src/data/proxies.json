@@ -1174,5 +1174,19 @@
     "affiliateUrl": "https://www.coronium.io/",
     "couponCode": "",
     "detailUrl": "/proxy/coronium"
+  },
+  {
+    "id": "anonymous-proxies",
+    "name": "Anonymous Proxies",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "100+ 国家覆盖",
+    "proxyTypes": ["数据中心", "住宅", "移动", "ISP", "SOCKS5", "Shadowsocks", "Trojan", "WireGuard"],
+    "isFeatured": false,
+    "badge": "$0.5/月起",
+    "features": ["15+ 年运营经验 10+ 种代理/VPN 协议", "Shadowsocks/Trojan/WireGuard 增强隐私", "静态代理不限带宽 + 即时激活", "精确到子网/城市/州/国家 IP 选择"],
+    "affiliateUrl": "https://www.anonymous-proxies.net/",
+    "couponCode": "",
+    "detailUrl": "/proxy/anonymous-proxies"
   }
 ]
