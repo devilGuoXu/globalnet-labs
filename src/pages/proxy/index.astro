@@ -11,17 +11,9 @@ const filtered = proxiesData.filter(p => whitelist.includes(p.id));
     <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-3">海外住宅 / 移动代理厂商全览</h1>
     <p class="text-slate-400 mb-6">全球住宅代理与移动代理资源聚合，覆盖跨境数据采集、社媒运营与风控规避场景。</p>
 
-    <div class="flex items-center justify-between mb-6">
+    <div class="flex items-center mb-6">
       <div class="flex items-center gap-2 text-sm text-slate-400">
         <span>共 <span id="total-count">{filtered.length}</span> 家厂商</span>
-      </div>
-      <div class="flex items-center gap-2 text-sm text-slate-400">
-        <span>每页</span>
-        <select id="page-size" class="bg-slate-800 border border-slate-700 rounded-lg px-3 py-1.5 text-slate-200 focus:outline-none focus:border-emerald-500 cursor-pointer">
-          <option value="10">10</option>
-          <option value="20">20</option>
-          <option value="50">50</option>
-        </select>
       </div>
     </div>
 
@@ -122,10 +114,20 @@ const filtered = proxiesData.filter(p => whitelist.includes(p.id));
       })}
     </div>
 
-    <div id="pagination" class="flex items-center justify-center gap-4 mt-8 text-sm">
-      <button id="prev-page" class="px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-300 hover:bg-slate-700 disabled:opacity-40 disabled:cursor-not-allowed transition-all" disabled>上一页</button>
-      <span id="page-info" class="text-slate-400">第 1 页 / 共 1 页</span>
-      <button id="next-page" class="px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-300 hover:bg-slate-700 disabled:opacity-40 disabled:cursor-not-allowed transition-all">下一页</button>
+    <div id="pagination" class="flex items-center justify-center gap-3 mt-8 text-sm flex-wrap">
+      <div class="flex items-center gap-2 text-slate-400 mr-2">
+        <span>每页</span>
+        <select id="page-size" class="bg-slate-800 border border-slate-700 rounded-lg px-2 py-1.5 text-slate-200 focus:outline-none focus:border-emerald-500 cursor-pointer">
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="50">50</option>
+        </select>
+      </div>
+      <button id="first-page" class="px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-300 hover:bg-slate-700 disabled:opacity-40 disabled:cursor-not-allowed transition-all" disabled>首页</button>
+      <button id="prev-page" class="px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-300 hover:bg-slate-700 disabled:opacity-40 disabled:cursor-not-allowed transition-all" disabled>上一页</button>
+      <span id="page-info" class="text-slate-400 px-2">第 1 页 / 共 1 页</span>
+      <button id="next-page" class="px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-300 hover:bg-slate-700 disabled:opacity-40 disabled:cursor-not-allowed transition-all">下一页</button>
+      <button id="last-page" class="px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-300 hover:bg-slate-700 disabled:opacity-40 disabled:cursor-not-allowed transition-all" disabled>末页</button>
     </div>
   </div>
 </Layout>
@@ -135,8 +137,10 @@ const filtered = proxiesData.filter(p => whitelist.includes(p.id));
   const totalSpan = document.getElementById('total-count');
   const pageSizeSelect = document.getElementById('page-size');
   const pageInfo = document.getElementById('page-info');
+  const firstBtn = document.getElementById('first-page');
   const prevBtn = document.getElementById('prev-page');
   const nextBtn = document.getElementById('next-page');
+  const lastBtn = document.getElementById('last-page');
   const total = cards.length;
   let page = 1;
   let perPage = 10;
@@ -147,8 +151,10 @@ const filtered = proxiesData.filter(p => whitelist.includes(p.id));
     });
     const totalPages = Math.ceil(total / perPage) || 1;
     pageInfo.textContent = `第 ${page} 页 / 共 ${totalPages} 页`;
+    firstBtn.disabled = page <= 1;
     prevBtn.disabled = page <= 1;
     nextBtn.disabled = page >= totalPages;
+    lastBtn.disabled = page >= totalPages;
   }
 
   pageSizeSelect.addEventListener('change', () => {
@@ -157,14 +163,13 @@ const filtered = proxiesData.filter(p => whitelist.includes(p.id));
     showPage();
   });
 
-  prevBtn.addEventListener('click', () => {
-    if (page > 1) { page--; showPage(); }
-  });
-
+  firstBtn.addEventListener('click', () => { page = 1; showPage(); });
+  prevBtn.addEventListener('click', () => { if (page > 1) { page--; showPage(); } });
   nextBtn.addEventListener('click', () => {
     const totalPages = Math.ceil(total / perPage) || 1;
     if (page < totalPages) { page++; showPage(); }
   });
+  lastBtn.addEventListener('click', () => { page = Math.ceil(total / perPage) || 1; showPage(); });
 
   showPage();
 </script>
