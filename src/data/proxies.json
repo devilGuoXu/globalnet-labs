@@ -1426,5 +1426,19 @@
     "affiliateUrl": "https://mangoproxy.com/",
     "couponCode": "GLOBAL",
     "detailUrl": "/proxy/mangoproxy"
+  },
+  {
+    "id": "gonzoproxy",
+    "name": "GonzoProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "2000万+",
+    "proxyTypes": ["住宅代理", "移动代理"],
+    "isFeatured": false,
+    "badge": "$0.7/GB 起",
+    "features": ["2000万+IP 190+国家 90%封禁保护率", "ISO/IEC 27001认证+QUIC协议+0.47s响应", "智能IP分配+自动故障切换+城市级定位", "无需KYC中国282万+IP首次充值匹配"],
+    "affiliateUrl": "https://gonzoproxy.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/gonzoproxy"
   }
 ]
