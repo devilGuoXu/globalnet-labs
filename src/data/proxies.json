@@ -1702,7 +1702,7 @@
     "proxyTypes": ["住宅代理", "静态住宅", "数据中心"],
     "isFeatured": false,
     "badge": "按需付费",
-    "features": ["6500万+住宅 IP 195+国家覆盖", "六种代理类型 动态/静态/数据中心", "按需付费 无阶梯定价 即充即用", "中文界面 浏览器插件 移动端APP", "支持支付宝/USDT/信用卡"],
+    "features": ["6500万+住宅 IP 195+国家覆盖", "六种代理类型 动态/静态/数据中心", "按需付费 无阶梯定价 即充即用", "中文界面 浏览器插件 移动端APP"],
     "affiliateUrl": "https://www.proxy302.com/",
     "couponCode": "",
     "detailUrl": "/proxy/proxy302"
