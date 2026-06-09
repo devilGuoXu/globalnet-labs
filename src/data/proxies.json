@@ -1678,5 +1678,19 @@
     "affiliateUrl": "https://proxyred.net/",
     "couponCode": "",
     "detailUrl": "/proxy/proxyred"
+  },
+  {
+    "id": "proxylite",
+    "name": "ProxyLite",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "7200万+",
+    "proxyTypes": ["住宅代理", "静态住宅", "静态数据中心", "ISP代理"],
+    "isFeatured": false,
+    "badge": "多产品线",
+    "features": ["7200万+住宅 IP 190+国家覆盖", "五条产品线 住宅/静态住宅/数据中心/ISP", "SOCKS5/HTTP(S) Scraper API+MCP Server", "多语言支持 含中文界面"],
+    "affiliateUrl": "https://www.proxylite.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxylite"
   }
 ]
