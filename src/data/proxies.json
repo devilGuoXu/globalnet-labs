@@ -1440,5 +1440,19 @@
     "affiliateUrl": "https://gonzoproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/gonzoproxy"
+  },
+  {
+    "id": "flashproxy",
+    "name": "FlashProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1亿+ IPs",
+    "proxyTypes": ["住宅代理", "住宅Lite", "数据中心", "ISP", "IPv6", "移动代理"],
+    "isFeatured": false,
+    "badge": "$0.10/GB起",
+    "features": ["七条产品线全覆盖住宅Lite$0.10/GB起", "1亿+IP 201+国家 SOCKS5 UDP支持", "实时分析+智能重试+自动旋转", "50,000+企业客户 4.9星评分"],
+    "affiliateUrl": "https://www.flashproxy.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/flashproxy"
   }
 ]
