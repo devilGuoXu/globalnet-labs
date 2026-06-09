@@ -1370,5 +1370,19 @@
     "affiliateUrl": "https://www.trustedproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/trustedproxies"
+  },
+  {
+    "id": "proxymesh",
+    "name": "ProxyMesh",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "170+ IPs",
+    "proxyTypes": ["数据中心", "旋转代理"],
+    "isFeatured": false,
+    "badge": "2011 年运营",
+    "features": ["HTTP自动旋转IP每12小时轮换+Elite匿名", "17台独立服务器10国+世界代理25000+IP", "2011年运营至今行业最老牌之一", "纯HTTP极简配置多语言开发指南"],
+    "affiliateUrl": "https://proxymesh.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxymesh"
   }
 ]

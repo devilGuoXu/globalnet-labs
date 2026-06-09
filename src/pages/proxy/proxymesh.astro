@@ -1,0 +1,178 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="ProxyMesh 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/proxymesh.png`} alt="ProxyMesh" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">ProxyMesh 深度评测</h1>
+          <p class="text-slate-400 text-lg">2011 年运营至今，HTTP 旋转代理专家，17 台服务器 10 国，世界代理 25000+ IP</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyMesh 是一家自 2011 年起运营的老牌 HTTP 旋转代理服务商，专注于为网络爬虫和数据采集提供高质量匿名代理。平台以"简单、可靠、匿名、自动"为核心理念，提供 17 台代理服务器分布在 10 个国家（7 个美国州 + 5 个欧洲国家 + 3 个亚洲国家 + 澳大利亚），每台服务器 10 个轮换出口 IP。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          标准代理每 12 小时自动轮换 IP，单日单地点可获得 20 个不同 IP。世界代理（World Proxy）提供约 25000 个 IP，覆盖 23 个国家。平台宣称 Elite 1 级匿名（去除所有识别头），99% 正常运行时间，每月处理数百 TB 数据。仅支持 HTTP 代理协议，配置简单，无需下载额外软件。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          自 2011 年运营至今已服务数千客户，包括多个知名企业。提供分级定价方案，高级方案支持子账户、发票定制、预付费带宽折扣和年付优惠。提供 24/7 在线聊天和邮件技术支持。提供 Python、JavaScript、Ruby 等多语言代理配置指南。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">自动旋转 IP，每 12 小时轮换</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">每个 ProxyMesh 地点拥有 10 个出口 IP，每 12 小时自动轮换一次。这意味着单地点每天可获得 20 个不同 IP，所有地点加起来每天 340 个 IP。每次请求从该地点的 IP 池中随机选择一个出口 IP，无需人工干预。对于需要持续爬取但希望避免被目标网站限制的用户，这种自动化轮换设计降低了代理管理的复杂度。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">全球 17 台服务器 + 世界代理 25000 IP</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">标准网络包含 17 台代理服务器，部署在美国（7 个州）、欧洲（5 个国家：英国、德国、荷兰、法国、爱尔兰）、亚洲（3 个国家：新加坡、日本、印度）和澳大利亚。每台服务器 10 个出口 IP。世界代理（World Proxy）提供约 25000 个 IP，覆盖 23 个国家。每个代理服务器位于独立数据中心，单个服务器故障不影响其他节点。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Elite 1 级匿名 + 99% 正常运行</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxyMesh 提供 Elite Level 1 匿名保护——所有识别头（如 X-Forwarded-For）均被移除，请求无法追溯到原始用户。每月处理数百 TB 数据，维持 99% 以上的正常运行时间。提供公开状态页面监控所有服务器运行状况。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">纯 HTTP 代理，极简配置</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxyMesh 仅支持 HTTP 代理协议（不支持 SOCKS5），这是其产品定位的有意选择——HTTP 协议兼容性最广，配置最简单。用户无需下载任何软件，只需配置浏览器或 HTTP 客户端的代理设置即可使用。提供代理自动配置（PAC）URL 方便浏览器设置。这种极简设计对于非技术用户来说容易上手。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">自 2011 年运营，行业标杆级稳定性</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">15+ 年的持续运营使 ProxyMesh 成为代理行业中最资深且稳定的服务商之一。多位客户反馈"使用了 5 年以上"、"完全满意"。平台在取消服务时主动征求客户反馈，匿名评价普遍正面且客户表示"会再回来使用"。这种运营稳定性对于需要长期代理支持的企业客户来说具有安全感。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">企业级方案 + 多语言开发指南</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">高级方案专为高容量爬取需求的企业设计，支持同时使用多个代理、独立子账户、发票定制和预付费带宽折扣。提供 Python、JavaScript、Ruby 等多语言的代理配置快速入门指南，以及专门的 US ISP 代理、Web 代理等补充服务。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
+          <img src={`${base}/images/proxymesh-price.webp`} alt="ProxyMesh 价格" class="w-full rounded-lg" />
+        </div>
+        <p class="text-xs text-slate-500 text-center mt-4">支持月付/年付 | 预付费带宽折扣 | 7 天退款保证</p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 网络爬虫与数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyMesh 的核心定位——为网络爬虫提供旋转代理。自动 IP 轮换和 Elite 匿名使爬虫能有效规避反爬机制和频率限制。纯 HTTP 协议与 Python（requests/Scrapy）、JavaScript（axios/node-fetch）、Ruby 等主流爬虫框架天然兼容。每 12 小时轮换 + 每次请求随机 IP 的设计适合对爬取频率有要求的数据采集项目。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. AI 模型训练数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyMesh 官网将"为 AI 模型获取训练数据"列为首要用例。AI 训练需要大规模、高质量、多样化的数据集，旋转代理可帮助采集器持续从目标网站获取数据而不被限制。多个国家/地区的 IP 覆盖也可为训练数据提供地理多样性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 电商价格监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyMesh 官网专门提到"以不同货币抓取价格"。全球 10 个国家的代理节点可模拟不同国家的消费者视角查看价格。旋转 IP 避免了因频繁请求而被电商平台封禁的风险。高级方案的大带宽适合需要大规模价格监控的企业用户。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 搜索引擎数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyMesh 的 17 台服务器分布在主要的搜索引擎数据中心所在地（美国多州、欧洲各国、新加坡、日本、印度），适合采集不同地区的搜索引擎结果数据。Elite 匿名确保搜索请求不被识别为代理流量。旋转 IP 设计避免了因批量搜索查询而被搜索引擎限制。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 匿名浏览与隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Elite 1 级匿名去除了所有识别头，适合对隐私要求较高的浏览场景。PAC 配置使个人用户可以在浏览器中便捷地使用代理。世界代理的 25000+ IP 池提供了更高的匿名性。但仅支持 HTTP 协议限制了其在 SOCKS5 需求场景中的应用。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>2011 年运营至今，15+ 年行业最老牌服务商之一</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>自动旋转 IP + Elite 1 级匿名</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>全球 17 台独立数据中心服务器</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>世界代理 25000+ IP，23 国覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>配置极简，HTTP 协议零门槛</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>公共状态页 + 24/7 真人客服</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅 HTTP 协议，不支持 SOCKS5</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅数据中心代理，无住宅/移动产品线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>标准 IP 池仅 170-340 IP/天，规模有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无免费试用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持 sticky session 或 API 自定义 IP</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyMesh 是一家具有 15+ 年历史的老牌 HTTP 旋转代理服务商，以其极简的产品哲学和可靠的运行稳定性在网络爬虫和数据采集领域建立了良好声誉。自动 IP 旋转、Elite 匿名和全球 17 台独立数据中心服务器的架构设计，使其在网络爬虫场景中具有可靠的表现。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          平台坚持"简单可靠"的定位不动摇——仅支持 HTTP 协议，无需额外软件，配置极为简单。标准网络每天 340 个 IP 和世界代理 25000+ IP 的规模满足了从个人开发者到企业级客户的不同需求层级。15+ 年的持续运营时间和数千客户的积累证明了其商业模式的可持续性。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于产品线单一（仅 HTTP 数据中心代理，无 SOCKS5、无住宅/移动代理）、标准 IP 池规模有限、无中文支持和免费试用。综合评估，ProxyMesh 获得 7.3 分评价。特别推荐给需要简单可靠的 HTTP 旋转代理进行网络爬虫的开发者、需要长期稳定数据采集的企业用户、以及预算有限但需要稳定代理的个人开发者。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://proxymesh.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 ProxyMesh 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
