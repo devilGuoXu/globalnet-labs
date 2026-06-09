@@ -1554,6 +1554,20 @@
     "detailUrl": "/proxy/mobileproxy-space"
   },
   {
+    "id": "iprocket",
+    "name": "IPRocket",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "6000万+ IPs",
+    "proxyTypes": ["住宅代理", "数据中心代理", "移动代理"],
+    "isFeatured": false,
+    "badge": "",
+    "features": ["标准住宅 $0.7/GB + 高级住宅 $0.9/GB 双产品线", "6000万+/9000万+ IP 池 200+国家城市覆盖", "不限并发会话 动态轮换+粘性会话120分钟", "HTTP(S)+SOCKS5双协议 API集成"],
+    "affiliateUrl": "https://iprocket.io/",
+    "couponCode": "IPRocket9",
+    "detailUrl": "/proxy/iprocket"
+  },
+  {
     "id": "jellynodes",
     "name": "JellyNodes",
     "type": "residential-proxy",
