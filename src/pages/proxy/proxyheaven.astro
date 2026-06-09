@@ -1,0 +1,182 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="ProxyHeaven 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/proxyheaven.png`} alt="ProxyHeaven" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">ProxyHeaven 深度评测</h1>
+          <p class="text-slate-400 text-lg">ISP 数据中心代理 + 住宅代理，专注球鞋抢购与高防护网站，7×24 Discord 客服，$11/月起</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyHeaven 是一家专注于球鞋抢购（Sneaker Botting）领域的代理服务商，以 ISP 数据中心代理和住宅代理为核心产品，并附带销售老龄 Gmail 账号等配套服务。平台运营于 Shopify 之上，提供即时交付和 7×24 Discord 客服支持。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ISP 数据中心代理是 ProxyHeaven 的主力产品，服务器位于弗吉尼亚州（VA），提供多个系列——X-HEAVEN（$15.90/月）、HEAVEN（$26/月）、S-HEAVEN/T-HEAVEN/PP-HEAVEN（$24/月）、ULTIMATE（$29/月）、ELITE（$26/月）以及 GODLIKE ELITE（$80/月，已售罄）等。所有 ISP 代理均以 user:pass 格式认证，30 天有效期可续租，速度 20-60ms。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          住宅代理（Residential Proxy Plan，$11/月起）则专注于提供广泛兼容性，可在任何网站和反爬保护下工作，适用于 Nike/SNKRS、高防护限时发售和大规模补货场景。EliteHeaven 是邀请制的精英代理计划，为顶级 bot 用户提供隔离的独立网络线路，确保子网不被污染。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">ISP 数据中心代理 — 球鞋抢购专用优化</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxyHeaven 的 ISP 数据中心代理是其核心产品，服务器位于弗吉尼亚州，提供多个定价层级以适应不同预算。所有 ISP 代理针对球鞋抢购场景进行了专门优化：在 Footsites、Supreme、YeezySupply 等高防护网站上线期间自动解锁（日常锁定以保护 IP 纯净度）。用户可通过 Discord 联系团队在补货时即时解锁。支持 /24 子网（250 个代理/$450/月）批量购买。Consistent ISPs 和 Heaven ISPs 两种类型分别针对 Retail Botting 和 Footsites 进行了专项优化。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅代理 — 全站点兼容</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理计划（$11/月起）采用自研系统，24/7 管理运维，提供几乎覆盖所有国家的住宅 IP。平台宣称住宅代理可在任何网站和反爬保护下工作，包括 Nike/SNKRS 等高难度限时发售场景。由于引入了第二个 IP 池，住宅 IP 生成无数量上限。相比 ISP 代理，住宅代理更适合需要高信任度 IP 和全站点兼容性的多样化抢购需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">EliteHeaven — 邀请制精英代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">EliteHeaven 是 ProxyHeaven 最高级别的代理服务，采用邀请制准入。平台为 EliteHeaven 搭建了完全独立的专用网络线路，运行在自有服务器上，避免了传统球鞋代理市场中共享网络带来的子网污染风险。申请表格每 2-3 周通过 Twitter 和 Discord 发布。这种严格的准入机制确保了顶级 bot 用户之间的 IP 隔离，在高端球鞋抢购场景中具有显著的竞争力。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">7×24 Discord 客服 + 即时交付</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxyHeaven 的所有客户支持均通过 Discord 工单系统进行，覆盖每周 7 天、每天 24 小时。订单支付后即时交付，如果未收到激活邮件可通过 Discord 工单快速解决。平台还提供 Coupon 码"HEAVEN"享 25% 折扣。客服团队在 FAQ 中强调"我们宁愿超额交付也不愿少交付"，体现了以客户满意度为导向的服务理念。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Gmail 账号配套 + 子网批量方案</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">除代理外，ProxyHeaven 还提供 2008 年和 2012 年注册的老龄 Gmail 账号（$14/个），以及 S-HEAVEN Accounts & ISP Bundle（$40）。这些老账号在注册各类抢购账号时具有更高的信任度和更低的风控概率。子网方案（/24，250 个 IP，$450/月）为大型 bot 操盘手提供了批量独享 IP 的经济选择。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多重防护站点专项优化</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxyHeaven 的 ISP 代理针对球鞋抢购行业中最严苛的网站保护系统进行了专项优化——Footsites（Footlocker 系列）、Supreme、YeezySupply、Shopify、FNL/JD、DSG、Hibbet 等。Godlike ISP 代理层级更是专门为最强保护的网站设计，FAQ 中形象比喻为"你不需要用游戏 PC 来回复邮件"。这种垂直领域的深度优化使 ProxyHeaven 在球鞋 bot 社区中建立了专业口碑。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 球鞋抢购（Sneaker Botting）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyHeaven 最核心的应用场景。ISP 数据中心代理针对 Footsites、Supreme、YeezySupply、Shopify 等高防护抢购网站进行了深度优化。日常锁定 + 发售自动解锁的机制既保护了 IP 纯度，又确保了关键时刻的可用性。Godlike ISP 层级专为最强网站保护设计。住宅代理适用于 Nike/SNKRS 和需要高信任度的限时发售。EliteHeaven 邀请制服务为顶级 bot 用户提供隔离专用线路。多个定价层级（$15.90-$80/月）满足了从入门到专业的不同需求。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 零售 Botting（Retail Botting）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Consistent ISPs 系列专门针对 Retail Botting 进行了优化——在 FNL/JD、DSG 等零售网站的抢购中表现突出。这类代理比 Heaven ISPs 价格更低且配备了定制化的后端监控系统，针对目标站点进行了性能调优。20-60ms 的响应速度在抢购场景中具有时间优势。$24-29/月的定价相比同类球鞋代理具有竞争力。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 账号注册与管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyHeaven 配套销售的老龄 Gmail 账号（2008/2012 年注册）在注册各类抢购账号时具有更高的通过率。住宅代理的全站点兼容性可用于注册 Nike、Footlocker、Supreme 等平台的账号。ISP 代理的稳定性适合已有账号的日常登录维护和 Cookie 保持。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 高防护网站数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyHeaven 的住宅代理宣称可在"任何网站和 bot 保护"下工作，包括具有最强反爬措施的网站。对于需要从 Shopify 商店、限时发售平台和高防护电商网站采集价格、库存和产品数据的场景，住宅代理配合自研系统的 24/7 管理提供了持续的可用性保障。无限 IP 生成也消除了大规模采集的 IP 限制。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
+          <h3 class="text-emerald-400 font-semibold text-lg mb-3">价格一览</h3>
+          <img src={`${base}/images/proxyheaven-price.webp`} alt="ProxyHeaven 价格方案" class="w-full rounded-lg" />
+        </div>
+        <p class="text-xs text-slate-500 text-center mt-4">使用优惠码 HEAVEN 享 25% 折扣 | ISP 30 天有效期可续租 | 即时交付 | 7×24 Discord 客服</p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">支付方式</h2>
+        <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
+          <p class="text-sm text-slate-400">平台基于 Shopify 构建，支持 Shopify Payments 接受的常用支付方式。具体支持的支付方式请以官网结算页面为准。</p>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>ISP 代理深度适配球鞋抢购（Footsites/Supreme/Shopify）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅代理全站点兼容 + 无限 IP 生成</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>EliteHeaven 邀请制提供隔离独立网络</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>20-60ms 低延迟 + ISP 发售自动解锁</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>"HEAVEN" 25% 折扣 + 7×24 Discord 客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>配套 Gmails + 子网方案，一站式抢购生态</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅弗吉尼亚州单一服务器地点</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>ISP 代理日常锁定部分热门站点</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅支持 HTTP/HTTPS，无 SOCKS5</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分高端产品经常售罄（Godlike）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>行业极为垂直，不适合通用代理需求</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyHeaven 是球鞋抢购代理领域中的专业服务商，ISP 数据中心代理在 Footsites、Supreme、Shopify 等高防护抢购网站上的深度优化使其在 sneaker bot 社区中建立了专业口碑。多个定价层级（$15.90-$80/月）和 EliteHeaven 邀请制服务覆盖了从入门到精英的全谱系用户。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ISP 代理的日常锁定 + 发售自动解锁机制在保护 IP 纯净度和确保关键时刻可用性之间取得了平衡。住宅代理的全站点兼容性和无限 IP 生成为需要更高信任度的场景提供了备选方案。"HEAVEN" 25% 折扣码和配套的老龄 Gmail 账号也体现了平台对球鞋抢购生态的系统性覆盖。7×24 Discord 客服为抢购活动中的突发问题提供了实时支持保障。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          但弗吉尼亚州单一服务器位置、HTTP/HTTPS 协议限制和部分高端产品经常售罄的库存问题也限制了其应用范围。综合评估其球鞋抢购领域的专业化程度、ISP 代理性能和生态完整性，ProxyHeaven 获得 7.3 分评价。特别推荐给从事球鞋抢购的 bot 用户、零售抢购操盘手和需要高防护网站代理的 sneaker 社区成员。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://proxyheaven.io/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 ProxyHeaven 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

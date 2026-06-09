@@ -1230,5 +1230,19 @@
     "affiliateUrl": "https://hproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/hproxy"
+  },
+  {
+    "id": "proxyheaven",
+    "name": "ProxyHeaven",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "ISP + 住宅代理",
+    "proxyTypes": ["ISP数据中心", "住宅代理", "Gmail账号", "EliteHeaven"],
+    "isFeatured": false,
+    "badge": "$11/月起",
+    "features": ["ISP代理$15.90-$80/月球鞋抢购深度优化", "住宅代理全站点兼容无限IP生成", "EliteHeaven邀请制隔离独立网络", "HEAVEN 25%折扣 7x24 Discord客服"],
+    "affiliateUrl": "https://proxyheaven.io/",
+    "couponCode": "HEAVEN",
+    "detailUrl": "/proxy/proxyheaven"
   }
 ]
