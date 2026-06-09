@@ -1356,5 +1356,19 @@
     "affiliateUrl": "https://proxys.io/en",
     "couponCode": "",
     "detailUrl": "/proxy/proxys"
+  },
+  {
+    "id": "trustedproxies",
+    "name": "Trusted Proxies",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "80+ 国家",
+    "proxyTypes": ["数据中心", "旋转代理"],
+    "isFeatured": false,
+    "badge": "7 天试用",
+    "features": ["Hybrid IP Pools智能路由自动适配目标", "旋转/共享/专属数据中心三条产品线", "GeoSet扩展一键切换国家代理", "14+年运营3000+企业客户含中文"],
+    "affiliateUrl": "https://www.trustedproxies.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/trustedproxies"
   }
 ]
