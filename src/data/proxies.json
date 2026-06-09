@@ -1202,5 +1202,19 @@
     "affiliateUrl": "https://www.ipcola.com/",
     "couponCode": "",
     "detailUrl": "/proxy/ipcola"
+  },
+  {
+    "id": "myprivateproxy",
+    "name": "MyPrivateProxy",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "100,000+ IPs",
+    "proxyTypes": ["Private代理", "共享代理", "VPN"],
+    "isFeatured": false,
+    "badge": "自2010年运营",
+    "features": ["220+服务器24数据中心12美国城市", "无限带宽99.99%正常运行", "10%额外代理奖励+3天退款", "24/7/365客服+SEO工具适配"],
+    "affiliateUrl": "https://www.myprivateproxy.net/",
+    "couponCode": "",
+    "detailUrl": "/proxy/myprivateproxy"
   }
 ]
