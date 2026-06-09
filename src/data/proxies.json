@@ -1384,5 +1384,19 @@
     "affiliateUrl": "https://proxymesh.com/",
     "couponCode": "",
     "detailUrl": "/proxy/proxymesh"
+  },
+  {
+    "id": "plainproxies",
+    "name": "PlainProxies",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "2500万+",
+    "proxyTypes": ["住宅代理", "数据中心", "ISP", "IPv6"],
+    "isFeatured": false,
+    "badge": "€0.55/GB 起",
+    "features": ["住宅/数据中心/ISP/IPv6五条产品线全覆盖", "2500万+IP 195+国家 城市级定位", "无限带宽+99.9%成功率+24h粘性会话", "指纹浏览器集成+免费试用无需信用卡"],
+    "affiliateUrl": "https://plainproxies.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/plainproxies"
   }
 ]
