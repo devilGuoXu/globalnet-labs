@@ -1608,5 +1608,19 @@
     "affiliateUrl": "https://www.quarkip.com/",
     "couponCode": "",
     "detailUrl": "/proxy/quarkip"
+  },
+  {
+    "id": "proxywing",
+    "name": "ProxyWing",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "7000万+ IPs",
+    "proxyTypes": ["住宅代理", "数据中心代理", "移动代理", "ISP代理"],
+    "isFeatured": false,
+    "badge": "Trustpilot 4.5",
+    "features": ["7000万+真实IP 190+国家 4条产品线", "住宅 $1/GB | 数据中心 $0.90/月 | ISP $1.70/月", "HTTP/SOCKS5/UDP 城市级定位 粘性+轮换", "99.99%在线率 24/7支持 反检测浏览器集成"],
+    "affiliateUrl": "https://proxywing.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxywing"
   }
 ]
