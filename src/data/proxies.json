@@ -1716,7 +1716,7 @@
     "proxyTypes": ["数据中心", "住宅代理"],
     "isFeatured": false,
     "badge": "自营网络",
-    "features": ["自营代理网络 自2009年运营", "独家数据中心+轮转住宅代理", "无限带宽 99.9%正常运行时间", "40+数据中心 50+城市 100+Gbps", "Proxy Management API 管理面板"],
+    "features": ["自营代理网络 自2009年运营", "独家数据中心+轮转住宅代理", "无限带宽 99.9%正常运行时间", "40+数据中心 50+城市 100+Gbps"],
     "affiliateUrl": "https://www.squidproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/squidproxies"
