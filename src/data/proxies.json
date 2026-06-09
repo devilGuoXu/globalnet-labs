@@ -1328,5 +1328,19 @@
     "affiliateUrl": "https://coproxy.io/",
     "couponCode": "",
     "detailUrl": "/proxy/coproxy"
+  },
+  {
+    "id": "byteful",
+    "name": "Byteful",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "3500万+",
+    "proxyTypes": ["住宅代理", "移动代理", "数据中心", "静态住宅"],
+    "isFeatured": false,
+    "badge": "$1.75/GB 起",
+    "features": ["住宅/移动/数据中心/ISP四条产品线全覆盖", "3500万+IP 300+ISP子网 195+国家", "100Gbps容量 99.9%正常运行 道德采购", "开发者API+免费试用1GB"],
+    "affiliateUrl": "https://byteful.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/byteful"
   }
 ]
