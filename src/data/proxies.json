@@ -1552,5 +1552,19 @@
     "affiliateUrl": "https://mobileproxy.space/",
     "couponCode": "",
     "detailUrl": "/proxy/mobileproxy-space"
+  },
+  {
+    "id": "jellynodes",
+    "name": "JellyNodes",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "300万+ IPs",
+    "proxyTypes": ["住宅代理"],
+    "isFeatured": false,
+    "badge": "真实设备 IP",
+    "features": ["300万+真实设备IP 145+国家覆盖", "不限线程+自动轮换+按量计费", "SOCKS5+HTTPS双协议 IPv4+IPv6", "Pay As You Go $3/GB起"],
+    "affiliateUrl": "https://jellynodes.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/jellynodes"
   }
 ]
