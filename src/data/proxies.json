@@ -1538,5 +1538,19 @@
     "affiliateUrl": "https://newipnow.com/",
     "couponCode": "",
     "detailUrl": "/proxy/newipnow"
+  },
+  {
+    "id": "mobileproxy-space",
+    "name": "mobileproxy.space",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "2.38亿+ IPs",
+    "proxyTypes": ["移动代理", "服务器代理", "回连代理"],
+    "isFeatured": false,
+    "badge": "真实 SIM 卡",
+    "features": ["真实 SIM 卡移动代理 53国/223运营商", "不限流量 HTTP/SOCKS5 双协议", "IP 链接/定时/API 三种更换方式", "3小时免费试用+随时退款"],
+    "affiliateUrl": "https://mobileproxy.space/",
+    "couponCode": "",
+    "detailUrl": "/proxy/mobileproxy-space"
   }
 ]

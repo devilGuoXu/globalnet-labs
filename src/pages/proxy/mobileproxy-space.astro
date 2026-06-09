@@ -1,0 +1,220 @@
+﻿---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="mobileproxy.space 移动代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/mobileproxy-space.svg`} alt="mobileproxy.space" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">mobileproxy.space 深度评测</h1>
+          <p class="text-slate-400 text-lg">真实 SIM 卡移动代理，238M+ IP，53 国家，$0.14/天起，不限流量</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">全球覆盖</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          mobileproxy.space（MOBIROX LLP，英国伦敦）是一家专注于真实 SIM 卡移动代理的服务商，自 2020 年运营至今。平台提供移动代理（Mobile）、服务器代理（Server）和回连代理（Backconnect）三条产品线，覆盖 53 个国家、223 家运营商，拥有超过 2.38 亿个 IP 地址。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          mobileproxy.space 强调"真实 SIM 卡，无模拟或虚拟化"，所有移动 IP 均来自 GSM 运营商的真实移动网络。提供 3 小时免费试用（无需绑定银行卡）、不限流量、HTTP/SOCKS5 双协议支持和随时退款（按未使用时间退款）。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          平台在 Product Hunt（5.0）、SaaSHub（5.0）和 TrustyTech（4.9）等评测平台上获得高分评价。支持 9 种语言界面，拥有完善的 API 和 MCP Server，可用于 AI Agent 自动化。适合 SMM 多账号管理、流量套利、数据采集和反检测浏览器等场景。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">真实 SIM 卡，238M+ IP 池</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">mobileproxy.space 的所有移动代理均使用真实 GSM 运营商 SIM 卡，非模拟或虚拟化通道。IP 池规模达到 2.38 亿+，覆盖 53 个国家、252 个城市和 223 家移动运营商。日均 IP 变更超过 198 万次，确保 IP 池持续更新和纯净。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">三条产品线：移动/服务器/回连</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">mobileproxy.space 提供三种代理类型：移动代理（Mobile Proxy，真实 SIM 卡 IP，独享通道，稳定会话）、服务器代理（Server Proxy，静态代理，适合不需要移动 IP 的场景，低至 $0.14/天）和回连代理（Backconnect Proxy，每次请求更换 IP，适合大规模数据采集，目前支持俄罗斯）。用户可以根据任务需求灵活选择。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">不限流量 + HTTP/SOCKS5 + 250 并发</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有套餐均提供不限流量（Unlimited Traffic），无按 GB 计费。支持 HTTP/HTTPS 和 SOCKS5 双协议。移动代理和服务器代理为独享私有通道，回连代理支持每个端口 250 个并发连接。速度根据网络条件在 3-30+ Mbps 之间。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">灵活 IP 更换：链接/定时/API</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">mobileproxy.space 支持三种 IP 更换方式：通过唯一链接手动更换（每次点击更换 IP）、按定时器自动更换（2 分钟到 1440 分钟可配置）和通过 API 更换（GET 请求格式 JSON）。IP 更换平均时间约 5 秒，最小更换间隔 30 秒。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3 小时免费试用 + 随时退款</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">mobileproxy.space 提供 3 小时免费试用，无需绑定银行卡。注册后即可获得一个可用移动代理。试用结束后还会发送 20% 折扣优惠券。所有付费订单支持随时退款，按未使用时间退还余额。支付方式包括 MIR、SBP、USDT、加密币等。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">AI Agent 与 MCP Server</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">mobileproxy.space 提供官方 MCP Server（@mobileproxy/mcp-server），支持 Claude Code、Cursor 等 AI 开发工具直接控制代理：IP 旋转、国家切换、检查器、历史记录等能力通过工具暴露给 AI Agent。支持 Anthropic Computer Use、OpenAI Operator、browser-use 等浏览器自动化框架。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
+          <p class="text-slate-300 leading-relaxed text-sm mb-4">mobileproxy.space 提供三种代理类型，以下为部分代表价格（更多国家和套餐详见官网）：</p>
+
+          <h3 class="text-emerald-400 font-semibold text-base mb-3">服务器代理（静态代理，可选国家）</h3>
+          <div class="grid md:grid-cols-5 gap-3 mb-6">
+            <div class="text-center p-3 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-lg font-bold text-emerald-400">$0.14</div>
+              <div class="text-xs text-slate-400">/天</div>
+            </div>
+            <div class="text-center p-3 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-lg font-bold text-emerald-400">$0.67</div>
+              <div class="text-xs text-slate-400">/周</div>
+            </div>
+            <div class="text-center p-3 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-lg font-bold text-emerald-400">$1.64</div>
+              <div class="text-xs text-slate-400">/月</div>
+            </div>
+            <div class="text-center p-3 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-lg font-bold text-emerald-400">$4.78</div>
+              <div class="text-xs text-slate-400">/3 个月</div>
+            </div>
+            <div class="text-center p-3 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-lg font-bold text-emerald-400">$18.97</div>
+              <div class="text-xs text-slate-400">/年</div>
+            </div>
+          </div>
+
+          <h3 class="text-emerald-400 font-semibold text-base mb-3">移动代理（真实 SIM，按国家定价，以俄罗斯为例）</h3>
+          <div class="grid md:grid-cols-5 gap-3 mb-6">
+            <div class="text-center p-3 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-lg font-bold text-emerald-400">$6.9</div>
+              <div class="text-xs text-slate-400">/天</div>
+            </div>
+            <div class="text-center p-3 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-lg font-bold text-emerald-400">$13.9</div>
+              <div class="text-xs text-slate-400">/周</div>
+            </div>
+            <div class="text-center p-3 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-lg font-bold text-emerald-400">$33.9</div>
+              <div class="text-xs text-slate-400">/月</div>
+            </div>
+            <div class="text-center p-3 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-lg font-bold text-emerald-400">$81.9</div>
+              <div class="text-xs text-slate-400">/3 个月</div>
+            </div>
+            <div class="text-center p-3 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-lg font-bold text-emerald-400">$272.9</div>
+              <div class="text-xs text-slate-400">/年</div>
+            </div>
+          </div>
+
+          <p class="text-xs text-slate-500">美国移动代理 $21.9/天起，英国 $20.9/天起，所有套餐均不限流量、独享私有通道、HTTP/SOCKS5 双协议</p>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 社媒多账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">移动代理的 IP 纯净度最高，极难被社媒平台检测为代理。mobileproxy.space 兼容 AdsPower、GoLogin、Octo Browser、Multilogin、Kameleo、Incogniton 等主流反检测浏览器。53 个国家覆盖满足不同地区的账号注册和运营需求。独享私有通道避免了 IP 冲突和连带封禁。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 数据采集与网页抓取</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">回连代理（Backconnect）适合大规模数据采集，每次请求自动更换 IP，每个端口支持 250 个并发连接。移动 IP 更容易绕过 Cloudflare、Akamai、DataDome 等反爬保护。支持 Python、Node.js、Puppeteer 等主流爬虫框架。API 支持一键集成到自动化脚本。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 流量套利与广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">真实移动 IP 是流量套利和广告验证的首选。mobileproxy.space 支持 Yandex.Direct、Google Ads 等广告平台的广告投放验证和 A/B 测试。IP 更换 API 可以快速切换地理位置，模拟不同地区的用户视角。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. AI Agent 自动化</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">mobileproxy.space 是少数提供 MCP Server 的代理服务商，支持 Claude Code、Cursor 等 AI 开发工具直接控制代理。可用于 LLM Pipeline 的数据采集、browser-use Agent 的浏览器自动化、AI 爬虫绕过反爬保护等场景。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>真实 SIM 卡移动 IP，非模拟/虚拟化</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>53 国家/223 运营商/2.38 亿 IP 覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>三条产品线满足不同需求</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>3 小时免费试用，无需银行卡</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>MCP Server 支持 AI Agent 集成</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动代理定价较高（$6.9/天起）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>回连代理仅支持俄罗斯</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>速度为 3-30 Mbps（移动网络特性）</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          mobileproxy.space 是一家以真实 SIM 卡移动代理为核心特色的服务商，拥有 2.38 亿+ IP 地址覆盖 53 个国家和 223 家运营商。其最大优势在于移动 IP 的真实性——非模拟或虚拟化，而是来自 GSM 运营商的真实移动网络，这使得其 IP 纯净度极高，非常适合社媒多账号管理、反检测浏览器和流量套利等高要求场景。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          三条产品线（移动/服务器/回连）覆盖面广，MCP Server 支持在同类产品中罕见，适合 AI Agent 自动化场景。3 小时免费试用和随时退款政策降低了用户的尝试成本。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于移动代理定价较高（$6.9/天起）、回连代理仅限俄罗斯以及无中文界面。综合评估，mobileproxy.space 获得 7.3 分评价。特别推荐给对 IP 纯净度要求极高的社媒多账号管理团队和需要真实移动 IP 的 AI 自动化开发者。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://mobileproxy.space/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 mobileproxy.space 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
