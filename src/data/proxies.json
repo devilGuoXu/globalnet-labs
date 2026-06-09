@@ -1412,5 +1412,19 @@
     "affiliateUrl": "https://ipv4connect.com/",
     "couponCode": "",
     "detailUrl": "/proxy/ipv4connect"
+  },
+  {
+    "id": "mangoproxy",
+    "name": "MangoProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "9000万+",
+    "proxyTypes": ["住宅代理", "数据中心", "ISP", "移动"],
+    "isFeatured": false,
+    "badge": "$0.6/GB 起",
+    "features": ["9000万+IP 200+国家 住宅低至$0.6/GB", "动态按量+静态固定双架构全覆盖", "450+工具集成HTTP/SOCKS5双协议", "24/7客服巴西3600万IP南美优势"],
+    "affiliateUrl": "https://mangoproxy.com/",
+    "couponCode": "GLOBAL",
+    "detailUrl": "/proxy/mangoproxy"
   }
 ]
