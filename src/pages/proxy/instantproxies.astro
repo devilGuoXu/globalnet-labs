@@ -1,0 +1,170 @@
+﻿---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="InstantProxies 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/instantproxies.png`} alt="InstantProxies" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">InstantProxies 深度评测</h1>
+          <p class="text-slate-400 text-lg">数据中心代理 $1/IP/月 · 住宅代理 $1/GB · 即时激活 · 无限流量 · 7天退款保证</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          InstantProxies（instantproxies.com）是一家以数据中心代理和住宅代理为核心产品的代理服务商。其口号是"Blazing Fast Proxies"——强调速度和即时可用性。代理购买后即时激活，数据中心代理提供无限流量，住宅代理按 $1/GB 按量计费。网络平均响应时间 200ms，过去 24 小时运行时间 100%。设置时间仅需 60 秒。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          InstantProxies 提供两种代理类型：数据中心代理（$1/IP/月，无限流量，专用 IP，即开即用）和住宅代理（$1/GB，真实 ISP IP，5 分钟轮换，更高成功率）。购买前可对目标 URL 进行免费在线测试，检查速度、兼容性和成功率。API 接口完善，支持用户名/密码认证和 IP 白名单两种方式。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          支持美加、欧洲、亚洲等主要地区，可联系客服请求特定国家或城市定位。不限固定并发连接数，可扩展至 100K+ 代理和 1M+ 线程。提供 7 天退款保证和全天候客服支持。适合网页抓取、浏览器自动化、SEO 监控、数据采集等场景。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心 + 住宅代理双产品线</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">InstantProxies 同时提供数据中心代理和住宅代理。数据中心代理采用专用独立 IP，高速稳定，无限流量，适合高吞吐量的数据采集任务。住宅代理使用真实 ISP IP，5 分钟自动轮换，获得更高的目标网站兼容性和成功率，适合风控较严的网站。用户可根据工作负载灵活选择或组合使用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">$1/代理/月 + $1/GB，透明定价</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">数据中心代理 $1/IP/月起，包含无限带宽，无流量上限。住宅代理 $1/GB 按量计费，月最低消费 $10。价格结构简单透明，无隐藏费用。随时可升级或调整套餐。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">购买前免费在线测试</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">InstantProxies 提供独特的"Test Before You Buy"功能——在主页输入任意目标 URL 即可实时测试代理响应速度、成功率和兼容性。这在行业中较为少见，让用户无需付费即可评估代理质量是否符合需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">即时激活 + 即时可用</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支付完成后代理即时激活，用户立即被重定向到控制面板获取代理信息。设置时间约 60 秒，平均响应时间 200ms。支持用户名/密码和 IP 白名单两种认证方式，适配动态 IP 和固定 IP 环境。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无限扩展，不限并发连接</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">不设固定并发连接数上限，可扩展至 100K+ 代理和 1M+ 线程。数据中心代理含无限带宽，适合大规模分布式采集场景。支持 API 管理和示例代码集成。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">7 天退款保证 + 多区域覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供 7 天无理由退款保证。代理覆盖美国、加拿大、欧洲、亚洲等主要地区，可联系客服定制特定国家、城市或区域的代理。工作日提供在线聊天支持（太平洋时间 7 AM–5 PM），24/7 工单支持。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
+          <img src={`${base}/images/instantproxies-price.webp`} alt="InstantProxies 价格" class="w-full rounded-lg" />
+        </div>
+        <p class="text-xs text-slate-500 text-center mt-3">数据中心代理 $1/IP/月起 · 住宅代理 $1/GB 起（月最低 $10）</p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 大规模数据采集与网页抓取</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">数据中心代理 $1/IP/月含无限带宽，适合高吞吐量的数据采集任务。不设固定并发连接上限，可扩展至 100K+ 代理和 1M+ 线程。购买前可测试目标 URL 确保兼容性，降低风险。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 浏览器自动化与多账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">支持 HTTP/HTTPS 协议，可配合任何浏览器自动化工具。住宅代理使用真实 ISP IP，每 5 分钟轮换一次，适合需要更自然流量特征的多账号操作。支持用户名/密码认证，方便在自动化脚本中配置。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO 监控与排名追踪</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">美加、欧洲、亚洲覆盖适合全球 SEO 排名监控。可联系客服获取特定城市定位。数据中心代理的速度和稳定性适合高频次的排名检查任务。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 电商价格监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">数据中心代理的无限带宽和住宅代理的高成功率组合适合电商价格监控场景。购买前测试确保特定电商网站兼容。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$1/IP/月数据中心 + $1/GB 住宅，定价透明</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>购买前免费在线测试目标 URL</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>数据中心无限流量，不限并发连接</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>即时激活 + 7 天退款保证</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理仅 HTTP/HTTPS，无 SOCKS5</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理月最低 $10，小量使用成本较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>覆盖地区以欧美为主，亚太节点有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 SOCKS5 支持，协议灵活性受限</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          InstantProxies 是一家以速度和简易性为核心理念的代理服务商，提供数据中心和住宅两条产品线。数据中心代理 $1/IP/月含无限带宽，住宅代理 $1/GB 按量计费，定价透明且具有竞争力。其最大的特色是购买前可对目标 URL 进行免费在线测试，这在代理行业中较为少见。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          即时激活、不限并发连接数、7 天退款保证等政策降低了试用风险。API 接入和双认证方式（用户名/密码、IP 白名单）使其适配多种使用场景。网络平均 200ms 的响应时间和 100% 运行时间也提供了基础的质量保障。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于住宅代理仅支持 HTTP/HTTPS 协议（无 SOCKS5）、月最低消费 $10 对小用户门槛偏高以及覆盖区域以欧美为主。综合评估，InstantProxies 获得 7.3 分评价。特别推荐给需要数据中心代理进行大规模数据采集的团队和需要即开即用代理的用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://instantproxies.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 InstantProxies 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

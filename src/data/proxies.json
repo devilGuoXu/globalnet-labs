@@ -1554,6 +1554,20 @@
     "detailUrl": "/proxy/mobileproxy-space"
   },
   {
+    "id": "instantproxies",
+    "name": "InstantProxies",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "10万+ IPs",
+    "proxyTypes": ["数据中心代理", "住宅代理"],
+    "isFeatured": false,
+    "badge": "即时激活",
+    "features": ["数据中心 $1/IP/月 无限流量 | 住宅 $1/GB", "200ms响应+即时激活+100%运行时间", "100K+代理 1M+线程 不限连接数", "HTTP/HTTPS API接入 用户密码/IP白名单认证"],
+    "affiliateUrl": "https://instantproxies.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/instantproxies"
+  },
+  {
     "id": "iprocket",
     "name": "IPRocket",
     "type": "residential-proxy",
