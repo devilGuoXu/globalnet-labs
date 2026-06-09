@@ -1244,5 +1244,19 @@
     "affiliateUrl": "https://proxyheaven.io/",
     "couponCode": "HEAVEN",
     "detailUrl": "/proxy/proxyheaven"
+  },
+  {
+    "id": "911proxy",
+    "name": "911Proxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "9000万+ IPs",
+    "proxyTypes": ["动态住宅", "无限住宅", "长效ISP", "静态住宅", "数据中心", "Scraper API"],
+    "isFeatured": false,
+    "badge": "中文界面",
+    "features": ["9000万+住宅IP195+国家覆盖", "完整中文界面+中文客服+指纹浏览器生态", "城市/ISP/ASN精确定位+多平台客户端", "512MB免费试用 Trustpilot 4.9"],
+    "affiliateUrl": "https://www.911proxy.com/zh-hans/",
+    "couponCode": "",
+    "detailUrl": "/proxy/911proxy"
   }
 ]

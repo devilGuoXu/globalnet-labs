@@ -1,0 +1,188 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="911Proxy 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/911proxy.png`} alt="911Proxy" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">911Proxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">9000 万 + 真实住宅 IP，覆盖 195+ 国家，中文界面 + 中文客服，Trustpilot 4.9 评分</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          911Proxy（911proxy.com）是盛天网络科技有限公司旗下的代理服务品牌，总部位于香港，提供面向全球市场的住宅代理、无限住宅代理、长效 ISP 代理、静态住宅代理、静态数据中心代理和 Web Scraper API 等六大产品线。平台拥有超过 9000 万真实住宅 IP，覆盖 195+ 个国家和地区，Trustpilot 评分 4.9/5（500+ 条评论）。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          911Proxy 在中文市场上具有显著优势——提供完整的中文界面、中文客服支持（邮箱 support@911proxy.com），支持 Google 账号快速注册，并提供 512MB 免费流量试用。平台与 AdsPower、花漾指纹浏览器、VMlogin、火豹浏览器等主流指纹浏览器建立了合作关系，针对中国用户的社媒运营和跨境电商场景进行了优化。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          技术支持 HTTP(S) 和 SOCKS5 两种协议，支持精确到城市、ISP 和 ASN 级别的 IP 定位。提供 Windows、macOS、Linux 客户端，以及 API、浏览器插件、控制面板等多种使用方式。IP 速度 20-50M/s，网络在线率 99.5%。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">9000 万 + 住宅 IP + 195 国家覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">911Proxy 的 IP 池规模在行业中属于前列，宣称拥有 9000 万 + 真实住宅设备 IP，覆盖 195+ 个国家和地区。以美国为例，拥有超过 660 万可用 IP，日本约 493 万，俄罗斯约 341 万，法国约 195 万。平台定期更新 IP 池（如新增 80 万 + 美国住宅资源）。IP 类型为真实住宅设备 IP，在反爬虫和风控场景中具有天然的信任度优势。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">六大产品线覆盖全场景</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">911Proxy 的产品体系较为完整：住宅代理（按量计费）、无限住宅代理（按时长计费，无限流量）、长效 ISP 代理（数据中心 + 住宅优势融合）、静态住宅代理（固定 IP，不限流量/并发）、静态数据中心代理（无限带宽，按 IP 计费）和 Web Scraper API（结构化数据采集）。从短期采集到长期运营、从动态轮换到静态固定、从代理到 API，覆盖了绝大多数代理使用场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">中文界面 + 中文客服 + 指纹浏览器生态</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">911Proxy 在中文市场上的投入是其核心差异化优势之一。完整的中文界面（包括官网、Dashboard 和文档）降低了中文用户的使用门槛。中文客服团队通过邮箱提供支持。平台与 AdsPower、花漾指纹浏览器、VMlogin、火豹浏览器等中国用户常用的指纹浏览器建立了官方合作关系，在社媒多账号管理和跨境电商场景中集成便捷。这对于不擅长英文的中国用户尤为友好。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">精确定位：国家/省份/城市/ISP/ASN</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持多级精确定位能力——从国家到省份/州、城市、ISP 运营商和 ASN 自治系统。这种多层级定位在广告验证、本地化 SEO 监测和区域市场调研等需要精确地理定位的场景中具有实用价值。911Proxy 甚至宣称可以精确到街道级别的 IP 筛选，这在住宅代理领域中属于较为精细的定位能力。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多平台客户端 + API + 浏览器插件</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">911Proxy 提供丰富的使用方式：Windows 客户端、macOS 客户端、Linux 客户端、Web 控制面板、API 接口（支持 Python/Node.js/PHP/GO/cURL）、浏览器插件和账号密码代理。Dashboard 支持 IP 白名单、轮换策略、认证方式等自定义设置，用户可精确控制代理行为。多语言代码示例帮助开发者快速集成。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">512MB 免费试用 + Trustpilot 4.9 评分</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">911Proxy 提供 512MB 免费流量试用，新用户可通过联系客服获取，降低了购买前的评估门槛。Trustpilot 评分 4.9/5（500+ 条评价），在代理行业中属于顶级评分。用户评价普遍提到服务的可靠性、速度和客户支持质量。平台还提供推广返利计划和反洗钱合规计划，体现了规范化运营的意图。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 社媒多账号运营（中文用户首选）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">911Proxy 在中文社媒运营场景中具有独特的生态优势。完整的中文界面和客服支持解决了语言障碍。与 AdsPower、花漾指纹浏览器、VMlogin 等国产指纹浏览器的官方合作使集成过程顺畅。9000 万 + 住宅 IP 和 SOCKS5 协议支持为 TikTok、Facebook、Instagram 等平台的多账号管理提供了充足的 IP 资源和协议兼容性。512MB 免费试用也降低了新用户的测试成本。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 跨境电商与市场调研</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">911Proxy 的 195+ 国家覆盖和城市级精确定位在跨境电商的价格监测、竞品分析和市场调研中具有实用价值。静态住宅代理和静态数据中心代理提供固定 IP，适合长期稳定的账号运营。无限住宅代理的不限流量特性适合大规模数据采集任务。平台还专门设有品牌保护、市场调研和广告验证等应用场景页面，针对性地提供了行业解决方案。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO 监测与本地化排名追踪</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">911Proxy 的精确到城市级别的 IP 定位能力在 SEO 本地化排名监测中具有直接价值。用户可以从特定城市和国家查看搜索引擎的 SERP 结果，验证 SEO 策略在目标市场的实际效果。99.5% 的网络在线率和 20-50M/s 的速度确保了监测任务的持续性和效率。API 接口支持编程化的大规模排名查询。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 广告验证与品牌保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">911Proxy 官网设有专门的品牌保护和广告验证场景页面。住宅代理的真实用户 IP 特性在 Google Ads、Meta Ads 等平台的广告验证中具有高度可信度。ISP/ASN 级别的精确定位能力可以模拟特定运营商的用户群体查看广告投放情况。长效 ISP 代理结合了住宅信任度和数据中心速度，在持续性的广告监测中表现稳定。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. Web Scraper API 数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">911Proxy 最新推出的 Web Scraper API 提供结构化的网页数据提取能力，无需自行管理代理和解析 HTML。与代理产品在同一平台内集成，用户可以在住宅代理和 Scraper API 之间灵活切换。AI 数据采集场景也被列为重点方向，反映了平台对 AI 训练数据市场的关注。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
+          <h3 class="text-emerald-400 font-semibold text-lg mb-3">住宅代理</h3>
+          <img src={`${base}/images/911proxy-res-price.webp`} alt="911Proxy 住宅代理价格" class="w-full rounded-lg" />
+        </div>
+        <p class="text-xs text-slate-500 text-center mt-4">另有无限住宅/长效ISP/静态住宅/静态数据中心/Web Scraper API 等多条产品线 | 新用户可联系客服获 512MB 免费流量</p>
+      </section>
+
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+        </div>
+        <p class="text-sm text-slate-400">具体支持支付方式请以官网结算页面为准。平台支持 Google 账号注册。</p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>9000 万 + 真实住宅 IP，195+ 国家覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>完整中文界面 + 中文客服 + 中文文档</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>与 AdsPower/花漾/VMlogin 等指纹浏览器深度合作</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>六条产品线覆盖全场景 + Web Scraper API</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>精确到城市/ISP/ASN 多级定位 + 512MB 免费试用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Trustpilot 4.9 评分 + 多平台客户端</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分低价产品起售价标注为 $0，需进入详情页确认实际价格</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中国大陆地区使用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无移动代理产品线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 Shadowsocks/Trojan/WireGuard 等加密协议</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度（911Proxy）与已停运的 911.re 容易混淆</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 OpenVPN/WireGuard 协议支持</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          911Proxy 是面向中文市场打造的住宅代理服务商，9000 万 + 真实住宅 IP、195+ 国家覆盖和 Trustpilot 4.9 评分在行业中具有竞争力。完整的中文界面、中文客服和与 AdsPower、花漾指纹浏览器等国产工具的深度合作，使其在中国用户的社媒多账号管理和跨境电商场景中具有明显的生态优势。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          六条产品线（标准住宅、无限住宅、长效 ISP、静态住宅、静态数据中心、Web Scraper API）覆盖了从动态采集到静态运营的全谱系需求。精确到城市/ISP/ASN 的多级定位能力和多平台客户端（Windows/Mac/Linux/API/浏览器插件）提供了灵活的使用方式。512MB 免费试用的存在也降低了新用户的尝试门槛。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          但不支持中国大陆地区使用、缺乏移动代理和加密协议（Shadowsocks/Trojan）的短板也限制了部分应用场景。品牌名称与已停运的 911.re 容易产生混淆，需要注意区分。综合评估其中文市场适配度、IP 规模和产品完整性，911Proxy 获得 7.3 分评价。特别推荐给需要中文界面支持的中国跨境电商团队、社媒运营人员和需要通过 AdsPower 等指纹浏览器进行多账号管理的用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.911proxy.com/zh-hans/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 911Proxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
