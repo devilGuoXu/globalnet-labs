@@ -1216,5 +1216,19 @@
     "affiliateUrl": "https://www.myprivateproxy.net/",
     "couponCode": "",
     "detailUrl": "/proxy/myprivateproxy"
+  },
+  {
+    "id": "hproxy",
+    "name": "HProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "8500万+ IPs",
+    "proxyTypes": ["住宅代理", "移动代理", "ISP代理", "数据中心", "Scraper API"],
+    "isFeatured": false,
+    "badge": "$0.35/GB起",
+    "features": ["住宅Basic/Standard/Survey三级按量计费", "移动4G/5G/LTE真实蜂窝 + ISP $1.20/IP", "115+ Scraper API 覆盖23+社媒平台", "无合约$2起充24h退款 Trustpilot 4.6"],
+    "affiliateUrl": "https://hproxy.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/hproxy"
   }
 ]

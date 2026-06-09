@@ -1,0 +1,185 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="HProxy 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/hproxy.png`} alt="HProxy" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">HProxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">住宅/移动/ISP/数据中心四线代理 + 115+ Scraper API，按量计费 $0.35/GB 起，Trustpilot 4.6</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          HProxy（hproxy.com）是一家以"诚实基础设施"为品牌理念的新锐代理服务商，运营约 4 年，提供住宅代理（Residential）、移动代理（Mobile）、ISP 代理和数据中心代理（IPv4/IPv6）四条核心产品线，以及覆盖 23+ 平台、115+ 端点（Endpoint）的 Scraper API 数据采集服务。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          住宅代理分为 Basic（$0.35/GB）、Standard（$1.20/GB）和 Survey（$0.99/GB）三个层级，IP 池总量超过 8500 万，覆盖 160-215 个国家。支持 HTTP(S) 和 SOCKS5 协议，粘性会话 1-48 小时可调。移动代理提供真实 4G/5G/LTE 蜂窝网络连接，端口按月计费。ISP 代理为静态住宅 IP，数据中心代理提供 IPv4/IPv6 双栈支持。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          HProxy 的核心差异化在于其开发者友好的按量计费模式——无订阅、无合约、无销售电话，最低 $2 起充，24 小时可退款。Trustpilot 评分 4.6/5（103 条评价）。Scraper API 提供 Instagram、TikTok、YouTube、Twitter/X、Facebook、LinkedIn、Reddit 等主流社交平台的结构化数据接口。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">四条产品线 + 三级住宅代理体系</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">HProxy 的产品架构清晰：住宅代理（Residential）提供 ISP 分配的真人住宅 IP，分为 Basic（$0.35/GB，85M+ IP/160+ 国家）、Standard（$1.20/GB，72M+ IP/195+ 国家）和 Survey（$0.99/GB，50M+ IP/215+ 国家，支持 ISP 定位）三个层级，满足从经济型大批量采集到高精度定位的不同需求。移动代理（Mobile）提供运营商真实 4G/5G/LTE 连接，端口月付。ISP 代理兼顾住宅信任度和数据中心速度。数据中心代理以 IPv4/IPv6 双栈和无限带宽为卖点。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">115+ Scraper API — 一站式社媒数据接口</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">HProxy 的 Scraper API 是其重要的差异化产品，提供 115+ 个数据采集端点，覆盖 Instagram、TikTok、YouTube、Twitter/X、Facebook、LinkedIn、Reddit、Pinterest、Snapchat、Twitch、Threads、Discord、Bluesky、Google 搜索、Amazon 等 23+ 平台。每次调用返回干净的结构化 JSON，按成功调用计费（最低 $0.003/次）。支持通过 Dashboard 生成 API Key，使用 X-API-Key 或 Authorization Bearer 认证，提供 Playground 在线测试。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">按量计费 + 无合约 + $2 起充 + 24h 退款</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">HProxy 采用纯粹的 Pay-as-you-go 按量计费模式——无订阅费用、无合约绑定、无销售电话。最低 $2 起充，充值后余额永不过期（住宅 Basic/Standard 带宽永不过期，Survey 30 天有效期）。24 小时内未使用完的余额可退款。定价保持稳定，无季节性加价或促销游戏。这种模式对开发者和中小团队尤为友好，降低了尝试和集成门槛。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">粘性会话 + HTTP/SOCKS5 + 灵活轮换</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理支持粘性会话（Sticky Sessions），Basic 层级 1-4 小时，Standard 1-24 小时，Survey 最长 48 小时，适应不同场景的 IP 稳定性需求。支持 HTTP(S) 和 SOCKS5 两种协议，可通过 Dashboard 或 API 进行精细化的会话管理。灵活的轮换策略适配从社媒账号管理（需长会话）到大规模数据爬取（需高频轮换）的多样化需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Trustpilot 4.6 评分 + 透明团队</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">HProxy 在 Trustpilot 上获得 4.6/5 评分（103 条评价），并在官网上公开了完整的 6 人团队名单——CEO Billal Ainaoui、全栈开发者 Sammilan Vilvaranjan、后端开发者 Burak Ayaz、设计负责人 Richard Rivera、产品负责人 Leonard Saghyan、策略与规划 Frida Mandera。这种透明度在代理行业中较为少见。支持邮件联系团队，无分层客服体系，"信件直接抵达工坊"。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">免费工具 + Proxy Checker + 文档完善</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">官网提供免费的 Proxy Checker、免费代理列表（Free Proxy List）和完善的 API 文档（Docs），帮助开发者在购买前评估代理质量和测试集成方案。Scraper API 文档提供了 cURL、Node.js、Python 三种语言的示例代码和详细的 Playground 在线调试面板，开发者无需编写任何代码即可测试所有 115+ 端点的响应格式。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 社媒数据采集与分析</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">HProxy 最强的场景。115+ Scraper API 覆盖 Instagram、TikTok、YouTube、Twitter/X、Facebook、LinkedIn、Reddit、Pinterest 等主流社交平台，支持用户画像、帖子内容、评论互动、视频信息、广告库等多种数据类型。每次调用 $0.003 起的定价在大规模数据采集中成本优势明显。对于需要结构化社媒数据的市场调研、竞品分析和舆情监测团队，Scraper API 省去了代理配置、IP 轮换和 HTML 解析的复杂度。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 住宅代理用于通用 Web Scraping</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅代理的 Basic 层级（$0.35/GB）适合大规模通用 Web Scraping 任务，85M+ IP 池和 160+ 国家覆盖足以应对大部分场景。Standard 层级（$1.20/GB）提供更长的粘性会话（1-24 小时）和 195 国家覆盖，适合需要稳定长连接的采集任务。Survey 层级（$0.99/GB）支持 ISP 精确定位，适合对运营商有特殊要求的场景。按量计费模式使成本完全可控。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 移动代理用于高信任度场景</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">4G/5G/LTE 真实蜂窝网络连接在需要最高信任度的场景中具有天然优势——移动运营商的 CGNAT 机制使大量用户共享公网 IP，网站难以封禁。正确的 ASN 标识适用于广告验证、本地化 SEO 监测和需要模拟真实移动用户的场景。端口月付的定价模式对长期移动代理用户较为友好。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. ISP 代理用于电商与广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ISP 代理结合了住宅 IP 的信任度和数据中心的速度优势，在 Amazon、eBay、Shopify 等电商平台的价格监测、库存追踪和广告验证场景中具有实用价值。$1.20/IP 的定价在 ISP 代理市场中属于合理区间。静态 IP 特性适合需要长期稳定身份的账号运营和品牌监测场景。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 数据中心代理用于高速低延迟任务</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">HProxy 的数据中心代理支持 IPv4 和 IPv6 双栈，无限带宽，即时激活。$1.50/IP 的定价适合对延迟敏感且对 IP 信任度要求不高的场景，如 SEO 排名查询、网站可用性监控和价格聚合。IPv6 代理以 IPv4 价格的一小部分提供大量 IP，适合需要大规模 IP 池的高速采集任务。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <div class="space-y-4">
+          <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-3">住宅代理（Res）</h3>
+            <img src={`${base}/images/hproxy-res-price.webp`} alt="HProxy 住宅代理价格" class="w-full rounded-lg" />
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-3">移动代理（Mob）</h3>
+            <img src={`${base}/images/hproxy-mob-price.png`} alt="HProxy 移动代理价格" class="w-full rounded-lg" />
+          </div>
+        </div>
+        <p class="text-xs text-slate-500 text-center mt-4">无合约按量计费 | 最低 $2 起充 | 24 小时可退款 | HTTP/SOCKS5 双协议</p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅/移动/ISP/数据中心四线产品 + 115+ Scraper API</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>按量计费 $0.35/GB 起，$2 起充，24h 退款</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅代理三级分层，粘性会话最长 48h</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Trustpilot 4.6/5，团队透明公开</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>HTTP/SOCKS5 双协议 + IPv6 支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Scraper API $0.003/次起 + 免费 Playground 测试</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>运营时间仅 4 年，品牌历史较短</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅限 HTTPS/SOCKS5，无 OpenVPN/WireGuard</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无免费试用（最低 $2 起充）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>国家覆盖因 Tier 而异（Basic 160 国，Standard 195 国）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分 Tier 无 ISP 精确定位（Basic/Standard）</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          HProxy 是代理行业中产品体系完整且具有创新精神的新锐服务商。四条产品线（住宅/移动/ISP/数据中心）覆盖了主流代理类型，三级住宅代理体系（Basic/Standard/Survey）为不同预算和精度需求提供了灵活选择。115+ Scraper API 的社媒数据采集能力在代理行业中独树一帜，是其最显著的差异化优势。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          按量计费 $0.35/GB 起 + $2 起充 + 24 小时退款的定价政策对开发者和中小团队极具吸引力。Trustpilot 4.6/5 的评分和公开透明的 6 人团队信息在行业中建立了信任基础。住宅代理的三级粘性会话机制（1-48 小时）和 HTTP/SOCKS5 双协议支持适配了从社媒运营到大规模数据采集的广泛场景。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          但 4 年的运营时间相对较短，品牌知名度有限。无中文界面和中文客服也限制了其在中文市场的拓展。综合评估其产品广度、定价竞争力和创新能力，HProxy 获得 7.3 分评价。特别推荐给需要社媒数据 API + 代理一站式解决方案的开发团队、数据采集工程师和社媒营销分析师。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://hproxy.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 HProxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
