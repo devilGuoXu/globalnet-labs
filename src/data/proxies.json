@@ -1272,5 +1272,19 @@
     "affiliateUrl": "https://www.nsocks.com/zh/",
     "couponCode": "",
     "detailUrl": "/proxy/nsocks"
+  },
+  {
+    "id": "b2proxy",
+    "name": "B2Proxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "8000万+ IPs",
+    "proxyTypes": ["住宅代理", "不限量住宅", "静态住宅"],
+    "isFeatured": false,
+    "badge": "$0.7/GB起",
+    "features": ["8000万+新鲜住宅IP195+国家覆盖", "$0.7/GB起流量永久有效99.95%成功率", "中文界面+微信客服+Google一键注册", "HTTP/SOCKS5无限并发城市级定位"],
+    "affiliateUrl": "https://www.b2proxy.com/zh-CN",
+    "couponCode": "",
+    "detailUrl": "/proxy/b2proxy"
   }
 ]
