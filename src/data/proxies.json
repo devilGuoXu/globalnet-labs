@@ -1314,5 +1314,19 @@
     "affiliateUrl": "https://hypeproxy.io/",
     "couponCode": "",
     "detailUrl": "/proxy/hypeproxy"
+  },
+  {
+    "id": "coproxy",
+    "name": "CoProxy",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "IPv4 代理池",
+    "proxyTypes": ["数据中心", "住宅"],
+    "isFeatured": false,
+    "badge": "$0.6 起",
+    "features": ["数据中心+住宅双产品线旋转/粘性可选", "SOCKS5+HTTP双协议+IP白名单", "99.99%正常运行+退款保障", "15种语言含中文+免费代理+联盟计划"],
+    "affiliateUrl": "https://coproxy.io/",
+    "couponCode": "",
+    "detailUrl": "/proxy/coproxy"
   }
 ]
