@@ -1300,5 +1300,19 @@
     "affiliateUrl": "https://keyproxy.net/en",
     "couponCode": "",
     "detailUrl": "/proxy/keyproxy"
+  },
+  {
+    "id": "hypeproxy",
+    "name": "HypeProxy",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "法国 4G/5G",
+    "proxyTypes": ["移动代理", "静态住宅"],
+    "isFeatured": false,
+    "badge": "55€/月 起",
+    "features": ["法国三大运营商4G纯净IP高信任度", "三种IP轮换自动/API/手动", "HTTPS+SOCKS5双协议+IP白名单", "Trustpilot 4.9+24h免费试用"],
+    "affiliateUrl": "https://hypeproxy.io/",
+    "couponCode": "",
+    "detailUrl": "/proxy/hypeproxy"
   }
 ]
