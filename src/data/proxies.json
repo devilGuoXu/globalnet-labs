@@ -1398,5 +1398,19 @@
     "affiliateUrl": "https://plainproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/plainproxies"
+  },
+  {
+    "id": "ipv4connect",
+    "name": "IPv4 Connect",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "/24-/12 段",
+    "proxyTypes": ["IPv4 地址", "地址交易"],
+    "isFeatured": false,
+    "badge": "IP 交易市场",
+    "features": ["纯净IPv4地址段/24-/12经黑名单检测", "固定定价全托管转让2-3周完成", "ARIN/RIPE/APNIC官方认证3000+客户", "非代理服务是IP地址交易市场"],
+    "affiliateUrl": "https://ipv4connect.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/ipv4connect"
   }
 ]
