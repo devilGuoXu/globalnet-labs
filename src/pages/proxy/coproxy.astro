@@ -12,7 +12,9 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </a>
 
       <div class="flex items-center gap-4 mb-10">
-        <img src={`${base}/images/coproxy.png`} alt="CoProxy" class="h-14 w-auto" />
+        <div class="bg-white rounded-xl shrink-0 w-16 h-16 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/coproxy.png`} alt="CoProxy" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+        </div>
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">CoProxy 深度评测</h1>
           <p class="text-slate-400 text-lg">2022 年成立，伦敦注册，高性价比 IPv4 代理，低至 $0.6 起，99.99% 正常运行</p>
