@@ -102,6 +102,10 @@ const filtered = proxiesData.filter(p => whitelist.includes(p.id));
                     <div class="shrink-0 flex items-center justify-center">
                       <img src={`${base}/images/jellynodes.png`} alt="JellyNodes" class="h-8 w-auto" />
                     </div>
+                  ) : proxy.id === 'proxytrail' ? (
+                    <div class="shrink-0 flex items-center justify-center">
+                      <img src={`${base}/images/proxytrail.png`} alt="ProxyTrail" class="h-8 w-auto" />
+                    </div>
                   ) : proxy.id === 'trustedproxies' || proxy.id === 'geonode' || proxy.id === 'hproxy' ? (
                     <div class="shrink-0 flex items-center justify-center">
                       <img src={`${base}/images/${proxy.id}.png`} alt={proxy.name} class="h-8 w-auto" />
