@@ -1,0 +1,215 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Proxy302 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-6">
+        <img src={`${base}/images/proxy302.png`} alt="Proxy302" class="h-16 w-auto" />
+        <div>
+          <div class="flex items-center gap-3 flex-wrap">
+            <h1 class="text-3xl font-bold text-slate-100">Proxy302 评测</h1>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">住宅代理</span>
+          </div>
+          <p class="text-slate-400 mt-1">全球代理 IP 超市 —— 六种代理类型 · 按需付费 · 无阶梯定价</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">核心摘要</h2>
+        <div class="grid md:grid-cols-2 gap-4 text-sm">
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">产品类型</span>
+            <p class="text-slate-200 font-medium mt-1">动态住宅 · 静态住宅 · 数据中心 · 浏览器插件 · 移动端 APP</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">IP 池规模</span>
+            <p class="text-slate-200 font-medium mt-1">6500 万+ 住宅 IP，195+ 国家，2000+ 服务器</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">协议支持</span>
+            <p class="text-slate-200 font-medium mt-1">HTTP/HTTPS/SOCKS5</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">语言支持</span>
+            <p class="text-slate-200 font-medium mt-1">简体中文 · 英文 · 俄语</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxy302 自称"全球代理 IP 自助超市"，以按需付费、无阶梯定价、即充即用为核心卖点。与许多代理平台仅提供一两种代理类型不同，Proxy302 提供六种代理产品线，涵盖动态住宅（按流量/按 IP 两种模式）、静态住宅（按流量/按 IP 两种模式）和数据中心 IP（按流量/按 IP 两种模式），用户可根据需求灵活组合，真正实现"超市式"自助选购。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          平台拥有 6500 万+ 住宅 IP 资源，覆盖 195+ 国家地区，2000+ 服务器部署，IP 可精确到城市级别。Proxy302 提供浏览器插件（Chrome）、远程 PC 客户端和移动端 APP（iOS/Android），覆盖所有主流使用场景。用户界面简洁高效，提供在线 Demo 界面方便用户在注册前体验功能流程。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          平台采用 PTC（Proxy Token Coin）充值体系，余额永久有效，无时间限制。支付方式支持支付宝、信用卡、美国运通、银联和 USDT 等，在中文用户和全球用户中都具有良好的可及性。运营主体为 Adswave Technology Limited。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理产品线</h2>
+
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">动态住宅代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">6500 万+ 真实住宅设备 IP，195+ 国家覆盖，IP 可精确到城市。短效动态 IP，按流量扣费，99.9% 正常运行时间，支持 HTTP/SOCKS5 协议。适合数据采集、广告验证、社媒运营等需要大量轮换 IP 的场景。</p>
+          </div>
+
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">动态住宅代理（按 IP）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">2000 万+ IP 资源，195+ 国家覆盖，按 IP 扣费而非按流量。短效动态 IP，最长有效期 24 小时，无限流量。适合需要在一定时间内保持同一 IP 但无需长期固定的使用场景。</p>
+          </div>
+
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态住宅代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">80 万+ 长效静态住宅 IP，35+ 国家覆盖，固定 IP 地址。生成 IP 免费，按流量扣费，IP 可精确到城市。99.9% 正常运行时间，支持 HTTP/SOCKS5，适合需要长期稳定代理身份的业务场景。</p>
+          </div>
+
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态住宅代理（按 IP）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">独享静态住宅 IP，无限流量，可按天生成。80 万+ IP 池，35+ 国家覆盖。适合需要独占固定 IP、长期稳定使用的高要求场景，如账号管理、品牌保护等。</p>
+          </div>
+
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">75 万+ 数据中心 IP，95+ 国家覆盖，长效静态 IP，固定 IP 地址。生成 IP 免费，按流量扣费，高效稳定。适合对速度要求高、对匿名性要求相对较低的批量数据采集场景。</p>
+          </div>
+
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心代理（按 IP）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">独享静态数据中心 IP，14+ 国家覆盖，无限流量，可按天生成。安全性高，适合需要独占 IP 的特定业务场景。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">住宅代理定价参考</h2>
+        <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
+          <img src={`${base}/images/proxy302-res-price.webp`} alt="Proxy302 住宅代理价格" class="max-w-full h-auto" />
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心功能与工具生态</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">六种产品线全覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Proxy302 是代理产品线最丰富的平台之一，六种代理类型覆盖从低成本数据中心到高匿名住宅、从按流量到按 IP、从动态到静态的所有主流需求。用户无需在多个平台间切换，一个账户即可管理所有类型的代理需求。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">浏览器插件 + 远程 PC + 移动端</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供免费的 Chrome 浏览器插件，一键开启/关闭代理，无需复杂配置。远程 PC 功能支持一键直连海外网络，全天候可用。移动端 APP（iOS/Android）高度便携，支持随时随地一键直连全球网络。三种接入方式覆盖桌面、移动和远程办公场景。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">按需付费 · 无阶梯定价 · 即充即用</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">无需套餐捆绑购买，充值到账即可使用所有类型的代理 IP。PTC 充值代币永久有效，无时间限制。无阶梯式定价意味着用量越大单价比不会升高，对大规模用户友好。Demo 界面无需注册即可体验完整功能。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">全球合作伙伴生态</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Proxy302 与数十家指纹浏览器、自动化工具和跨境服务商建立了合作关系，包括 AdsPower、GoLogin、Dolphin Anty、Kameleo、比特浏览器、Hubstudio、MoreLogin、DICloak、Undetectable 等主流反检测浏览器，以及 SocialEcho、SalesMartly 等社媒运营工具，用户可在这些工具中直接配置 Proxy302 代理。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多支付方式支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持支付宝、Visa、American Express、Mastercard、银联和 USDT 等主流支付方式，兼顾中国用户和全球用户的支付习惯。多种支付选择确保交易的便捷和安全。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 支付方式 -->
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">信用卡</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">American Express</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">银联</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span class="text-sm text-slate-200">USDT</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+            <span class="text-sm text-slate-200">支付宝</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>六种代理产品线，类型选择极为丰富</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>6500 万+ 住宅 IP，195+ 国家覆盖，IP 可精确到城市</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>中文界面 + 浏览器插件 + 移动端 APP + 远程 PC</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支持支付宝/银联/信用卡/USDT 多种支付方式</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>按需付费，PTC 余额永久有效，无阶梯定价</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费 Demo 界面，注册前即可体验</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>与数十家指纹浏览器/自动化工具深度合作集成</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>静态住宅和数据中心 IP 覆盖的国家范围（35+/95+）远少于动态住宅（195+）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度不及 Bright Data、Oxylabs 等头部厂商</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无无限流量方案，所有产品线均按量或按 IP 计费</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无移动代理产品线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无公开的 Trustpilot 等第三方评分平台评价</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动端 iOS 版本仅限非中国区 App Store 下载</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxy302 凭借六种代理产品线的丰富选择，真正实现了"全球代理 IP 超市"的产品定位。从动态住宅到静态数据中心、从按流量到按 IP，平台覆盖了几乎所有主流代理消费模式。6500 万+ 住宅 IP、195+ 国家覆盖配合城市级定位能力，在资源规模上处于行业中等偏上水平。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxy302 的差异化优势在于其"超市式"的按需付费模式和中文友好的产品体验——简体中文界面、支付宝/银联支付、浏览器插件和移动端 APP 对中国用户非常友好。PTC 余额永久有效的设计也减少了用户对流量过期浪费的顾虑。与 AdsPower、GoLogin、Dolphin 等数十家指纹浏览器的深度合作集成，使其成为反检测浏览器用户的热门选择。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于各产品线的地理覆盖差异较大（动态 195+ 国 vs 静态 35+ 国 vs 数据中心 95+ 国）、缺少无限流量方案和移动代理产品线。综合评估，Proxy302 获得 7.3 分评价。特别推荐给需要中文界面的中国跨境用户、同时使用多种代理类型的多场景需求者，以及寻求指纹浏览器兼容代理的反检测浏览器用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.proxy302.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Proxy302 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
