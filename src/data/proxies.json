@@ -1594,5 +1594,19 @@
     "affiliateUrl": "https://jellynodes.com/",
     "couponCode": "",
     "detailUrl": "/proxy/jellynodes"
+  },
+  {
+    "id": "quarkip",
+    "name": "QuarkIP",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "5000万+ IPs",
+    "proxyTypes": ["住宅代理", "数据中心代理", "数据中心IPv6代理", "ISP代理"],
+    "isFeatured": false,
+    "badge": "流量永不过期",
+    "features": ["住宅代理 $1.6/GB 5000万+IP 200+国家", "数据中心代理 $4.52/IP 无限流量 | IPv6 $1.74/IP", "HTTP/SOCKS5 粘性会话+轮换 99.9%在线", "200MB免费试用+即时激活+AdsPower集成"],
+    "affiliateUrl": "https://www.quarkip.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/quarkip"
   }
 ]
