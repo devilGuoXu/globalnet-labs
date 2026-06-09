@@ -1,0 +1,168 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="BotProxy 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/botproxy.png`} alt="BotProxy" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">BotProxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">数据中心轮换代理 + Browser API + MCP Server，面向 AI Agent 与爬虫开发者，$50-150/月，2017 年运营</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          BotProxy（botproxy.com）是一家成立于 2017 年的代理与浏览器自动化平台，定位为"面向代码和 AI Agent 的互联网网关"。提供旋转代理（数据中心 IP）、云端 Chrome 浏览器 API 和 MCP Server（Model Context Protocol）三条产品线，已服务 7,000+ 用户。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          BotProxy 的核心理念是开发者友好——无需管理代理列表，通过单一端点 `proxy.botproxy.net:8080` 即可获得自动轮换的代理 IP。Anti-Detect Mode 通过 TLS 指纹伪装绕过反爬系统。Browser API 提供云端 Chrome 工作器，支持页面导航、表单填写、CAPTCHA 解决和截图生成。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          2025-2026 年新增 MCP Server 集成，使 Claude、ChatGPT、Cursor 等 AI 工具可直接通过 Model Context Protocol 获得浏览器自动化和网页抓取能力。自称比住宅代理方案便宜 10 倍，Pro 方案 $50/月起。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">单一端点轮换代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">BotProxy 提供数千个数据中心 IP，所有流量通过单一端点 `proxy.botproxy.net:8080` 路由。每次请求自动轮换到新 IP，或通过 Session Pin 固定会话。无需管理代理列表和白名单，显著降低集成复杂度。支持任何语言和 HTTP 客户端。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Anti-Detect Mode：TLS 指纹伪装</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">BotProxy 的 Anti-Detect Mode 可伪造 TLS 指纹，使数据中心流量的网络特征看起来像真实浏览器。这一功能在不使用住宅 IP 的情况下也能绕过部分反爬系统，在保持数据中心代理速度优势的同时提升隐身性。官方声称比住宅代理便宜 10 倍。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Browser API：云端 Chrome 工作器</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">BotProxy 提供 HTTP API 调用的云端 Chrome 浏览器工作器。支持页面导航、表单填写、CAPTCHA 解决、截图和 PDF 生成。浏览器流量自动通过 BotProxy 代理网络路由。Ultra 1 方案包含 5 个并发会话和每月 10,000 次请求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">MCP Server：AI Agent 原生集成</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">BotProxy 提供 Model Context Protocol（MCP）服务器，使 Claude、ChatGPT、Cursor 等 AI 工具可直接获得浏览器自动化和网页抓取能力。AI Agent 可通过 MCP 协议调用 BotProxy 执行网页浏览、数据提取和交互操作。这是行业中较新的差异化功能。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">7 天免费试用 + 多地域覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有方案均提供 7 天免费试用。代理支持 US East/Central/West、EU（法兰克福、伦敦、马德里、巴黎、阿姆斯特丹）、亚洲（新加坡、班加罗尔）、澳大利亚（悉尼）、加拿大多伦多等全球多地域出口。Pro 方案仅限美国，Medium 以上方案包含全球覆盖。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
+          <img src={`${base}/images/botproxy-price.webp`} alt="BotProxy 价格方案" class="w-full rounded-lg" />
+        </div>
+        <p class="text-xs text-slate-500 text-center mt-4">Pro $50/月 · Medium $80/月 · Large $100/月 · Ultra 1 $150/月 · 7 天免费试用</p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. AI Agent 网页访问</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">BotProxy 的 MCP Server 使 AI Agent（Claude、ChatGPT、Cursor 等）可直接获取网页内容。开发者只需在 AI 工具中配置 MCP 端点，Agent 即可自主浏览网页、提取数据和填写表单。这是 BotProxy 最具差异化的应用场景。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. Web Scraping 与数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">单一端点轮换代理适合各种爬虫框架（Scrapy、Playwright、Python requests）。Anti-Detect Mode 增加数据中心代理的生存率。Browser API 可渲染 JavaScript 动态页面，解决 SPA 页面的爬取难题。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 反爬绕过与 CAPTCHA 处理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">TLS 指纹伪装配合 IP 轮换可绕过基于 TLS 握手特征的反爬检测。Browser API 内置 CAPTCHA 解决能力。对于需要浏览器环境的复杂反爬场景，云 Chrome 工作器可直接处理。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 多地域数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Medium 及以上方案支持全球多地 IP 出口。适合跨境电商比价、全球 SEO 监控、地域化广告验证等需要从不同地点获取数据的场景。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>单一端点集成，无需管理代理池</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>三大产品线：代理 + Browser API + MCP</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>AI Agent 原生集成（MCP Server）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Anti-Detect TLS 指纹伪装</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>7 天免费试用，2017 年起运营</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>数据中心 IP，纯净度不如住宅代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 SOCKS5 支持，仅 HTTP/HTTPS</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无住宅 / 移动代理产品线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>流量超出后溢价较高（$0.65-1.10/GB）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 池规模未公开</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          BotProxy 是一家定位独特的代理与浏览器自动化平台。与其他代理服务商不同，BotProxy 并非简单的 IP 转售商，而是面向开发者提供"代理 + 浏览器 + AI Agent"一站式访问方案。单一端点的旋转代理设计显著降低了集成门槛。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Anti-Detect Mode 和 Browser API 的组合使其在应对复杂反爬场景时具有灵活的选择。MCP Server 的 AI Agent 原生集成是当前代理行业中较少见的差异化功能，对 AI 应用开发团队有较强吸引力。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于数据中心 IP 的纯净度不如住宅代理、仅支持 HTTP/HTTPS 协议以及缺少住宅/移动产品线。综合评估，BotProxy 获得 7.3 分评价。特别推荐给 AI Agent 开发者、需要快速集成代理的爬虫团队和需要云端浏览器能力的自动化项目。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://botproxy.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 BotProxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

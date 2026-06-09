@@ -1468,5 +1468,19 @@
     "affiliateUrl": "https://dynaprox.com/",
     "couponCode": "",
     "detailUrl": "/proxy/dynaprox"
+  },
+  {
+    "id": "botproxy",
+    "name": "BotProxy",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "数千 IPs",
+    "proxyTypes": ["数据中心轮换代理", "Browser API", "MCP Server"],
+    "isFeatured": false,
+    "badge": "MCP AI 集成",
+    "features": ["旋转代理$50/月起单一端点集成", "Anti-Detect TLS指纹伪装", "云端Chrome Browser API", "MCP Server AI Agent原生集成"],
+    "affiliateUrl": "https://botproxy.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/botproxy"
   }
 ]
