@@ -1482,5 +1482,19 @@
     "affiliateUrl": "https://botproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/botproxy"
+  },
+  {
+    "id": "cyberyozh",
+    "name": "CyberYozh",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "5000万+ IPs",
+    "proxyTypes": ["移动代理", "住宅代理", "ISP住宅", "数据中心"],
+    "isFeatured": false,
+    "badge": "多合一代理",
+    "features": ["四条产品线+SMS+虚拟卡+欺诈评分", "移动代理$1.7/天UDP+指纹修改", "5000万+IP 100+国家 99.8%成功率", "中文界面 2014年运营"],
+    "affiliateUrl": "https://app.cyberyozh.com/zh-cn/",
+    "couponCode": "",
+    "detailUrl": "/proxy/cyberyozh"
   }
 ]
