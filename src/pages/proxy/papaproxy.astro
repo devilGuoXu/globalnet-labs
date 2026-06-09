@@ -1,0 +1,171 @@
+﻿---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="PapaProxy 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/papaproxy.png`} alt="PapaProxy" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">PapaProxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">数据中心代理，100,000+ IPv4，18 个国家，不限流量，HTTP/SOCKS5/UDP，$19/月起，无 KYC</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          PapaProxy（papaproxy.net）是一家专注于数据中心代理的服务商，提供不限量代理、私有代理、轮换代理和 UDP 代理四条产品线。平台拥有 100,000+ IPv4 地址，覆盖美国、欧洲、加拿大、英国、德国、俄罗斯、中国、乌克兰、澳大利亚、巴西等 18 个国家和地区。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          PapaProxy 强调"自有 IP、自己运营"——所有代理均由团队自管服务器直供，无转售、无带宽费用。支持 HTTP、SOCKS5 和 UDP 三协议，不限流量，单代理最高 500 Mbps。提供免费试用、24 小时退款保障和无 KYC 注册（大部分支付方式）。支持 Stripe、Visa、Mastercard、AliPay 和多种加密货币支付。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          产品以数据中心 IP 为主，没有住宅或移动代理。适合需要低成本、高速度、多 IP 的爬虫、自动化、SEO 和多账号管理场景。提供 API 管理接口，支持 IP 白名单认证和定时更新 IP 列表。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">100,000+ IPv4，18 个国家可选</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">PapaProxy 拥有 100,000+ 个 IPv4 地址，覆盖美国（$0.075/IP/月起）、欧洲（$0.073/IP/月起）、加拿大、英国、德国、俄罗斯、中国、乌克兰、澳大利亚、巴西、荷兰、法国、土耳其、印度、波兰、西班牙、瑞士、日本等 18 个国家。支持混合国家套餐。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">不限流量 + 高达 500 Mbps</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有代理套餐均提供不限流量（Unlimited Traffic），无隐藏费用。单代理最高速度 500 Mbps，连接数不限。服务器托管在全球多个数据中心，通道带宽 10-80 Gbps。这种不限量设计适合需要持续高速连接的大规模采集和自动化任务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">HTTP/SOCKS5/UDP 三协议支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">PapaProxy 同时支持 HTTPS、SOCKS5 和 UDP 三种协议。UDP 代理在代理行业中较为少见，适合游戏、直播和需要 UDP 传输的应用。SOCKS5 提供高级隐私保护，HTTPS 兼容性最广。用户可在控制面板中随时切换协议。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">低至 $0.073/IP/月，量大可议</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">PapaProxy 的定价在数据中心代理市场中具有竞争力。不限量代理从 $19/月起（约 100 IP），私有代理从 $2.5/月起，轮换代理从 $49/月起。大规模采购（500+ IP）享受批发折扣，超过 $500 的订单可配备专属客户经理并提供定制报价。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">免费试用 + 24 小时退款 + 无 KYC</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">PapaProxy 提供免费测试 IP 池（不限量、轮换和 UDP 产品），无需 KYC 即可注册。所有套餐提供 24 小时退款保障。支持 Stripe、Visa、Mastercard、AliPay、USDT、BTC、ETH 等多种支付方式。无 KYC 政策对隐私敏感用户友好。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">API + IP 白名单 + 指纹浏览器兼容</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">PapaProxy 提供完善的 API 接口，支持购买、续费、更新 IP 列表、管理 IP 绑定和导出列表。代理通过 IP 白名单认证。兼容所有主流指纹浏览器（AdsPower、Dolphin Anty、GoLogin、MoreLogin、Octo Browser 等）和自动化工具（Scrapy、Selenium、Puppeteer、Playwright 等）。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
+          <img src={`${base}/images/papaproxy-price.webp`} alt="PapaProxy 价格方案" class="w-full rounded-lg" />
+        </div>
+        <p class="text-xs text-slate-500 text-center mt-4">不限量代理 $19/月起 · 私有代理 $2.5/月起 · 轮换代理 $49/月起 · UDP 代理 $19/月起</p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 网络爬虫与数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">不限流量 + 高速连接 + 大批量 IP 使 PapaProxy 适合大规模数据采集。轮换代理每次请求更换 IP，适合需要频繁更换来源的爬虫任务。API 接口支持自动化 IP 管理，可与 Scrapy、Selenium 等框架集成。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 多账号管理与指纹浏览器</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">私有代理提供独享 IP，适合社媒多账号管理。兼容 AdsPower、Dolphin Anty、GoLogin 等主流指纹浏览器。IP 白名单认证提高了账号安全性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO 监控与排名追踪</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">18 个国家的 IP 出口适合全球 SEO 排名监控。不限量套餐适合需要持续大量查询的关键词追踪项目。低至 $0.073/IP/月的价格在长期监控项目中具有成本优势。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 游戏与 UDP 应用</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">UDP 代理产品线使 PapaProxy 适合游戏加速、直播推流和需要 UDP 协议的实时通信应用。$19/月起的价格在 UDP 代理市场中较为亲民。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>数据中心 IP 定价极低，$0.073/IP/月起</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>100,000+ IPv4，18 个国家，不限流量</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>HTTP/SOCKS5/UDP 三协议支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费试用 + 24 小时退款 + 无 KYC</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>完善 API + 指纹浏览器兼容</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅数据中心 IP，无住宅/移动代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>中国 IP 覆盖有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 纯净度不如住宅代理</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          PapaProxy 是一家专注于数据中心代理的服务商，以极具竞争力的价格（$0.073/IP/月起）和 100,000+ IPv4 的规模在市场中占据一席之地。18 个国家覆盖、不限流量、三协议支持（HTTP/SOCKS5/UDP）和 API 接口使其适合技术团队部署自动化代理基础设施。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          免费试用、24 小时退款保障和无 KYC 注册降低了用户的尝试成本。指纹浏览器兼容和丰富的工具生态集成使其在社媒多账号管理场景中同样可用。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于仅提供数据中心 IP（纯净度不如住宅代理）、无中文界面和客服。综合评估，PapaProxy 获得 7.3 分评价。特别推荐给需要大量数据中心 IP 的低成本爬虫项目、需要 UDP 代理的游戏/直播应用和预算有限的多账号管理团队。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://papaproxy.net/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 PapaProxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

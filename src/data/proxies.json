@@ -1506,9 +1506,23 @@
     "proxyTypes": ["住宅代理", "静态住宅", "不限量住宅", "数据中心", "ISP"],
     "isFeatured": false,
     "badge": "$0.80/GB起",
-    "features": ["五条产品线住宅/静态/不限量/DC/ISP", "1亿+IP 195+国家 0.6s响应", "无限并发会话+城市级定位", "指纹浏览器生态集成 中文界面"],
+    "features": ["五条产品线住宅/静态/不限量/DC/ISP", "1亿+IP 195+国家 0.6s响应", "无限并发会话+城市级定位", "指纹浏览器生态集成+中文界面"],
     "affiliateUrl": "https://www.flyproxy.com/zh-hans/",
     "couponCode": "",
     "detailUrl": "/proxy/flyproxy"
+  },
+  {
+    "id": "papaproxy",
+    "name": "PapaProxy",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "100,000+ IPs",
+    "proxyTypes": ["数据中心代理"],
+    "isFeatured": false,
+    "badge": "$0.073/IP起",
+    "features": ["100,000+ IPv4 18国家覆盖", "不限流量 最高500 Mbps", "HTTP/SOCKS5/UDP三协议", "免费试用+24h退款+无KYC"],
+    "affiliateUrl": "https://papaproxy.net/",
+    "couponCode": "",
+    "detailUrl": "/proxy/papaproxy"
   }
 ]
