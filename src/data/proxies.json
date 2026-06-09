@@ -1744,7 +1744,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "数据中心", "ISP代理"],
     "isFeatured": false,
     "badge": "多产品线",
-    "features": ["1.19亿+住宅 IP 195+国家覆盖", "住宅+移动+ISP+数据中心+鞋类代理", "城市级定位 不限并发 粘性会话", "Trustpilot 4.7 服务 Cursor/Notion", "免费试用 500MB 24小时"],
+    "features": ["1.19亿+住宅 IP 195+国家覆盖", "住宅+移动+ISP+数据中心+鞋类代理", "城市级定位 不限并发 粘性会话", "免费试用 500MB 24小时"],
     "affiliateUrl": "https://roundproxies.com/",
     "couponCode": "RP50",
     "detailUrl": "/proxy/roundproxies"
