@@ -1,0 +1,255 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="ProxyShare 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/proxyshare.png`} alt="ProxyShare" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">ProxyShare 深度评测</h1>
+          <p class="text-slate-400 text-lg">住宅代理 $0.67/GB · 静态住宅 $5/IP · 数据中心 $3/IP · ISP $0.27/GB · 7500 万+ IP · 195+ 国家</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyShare 是一家产品线丰富的代理服务商，提供住宅代理、静态住宅代理、数据中心代理、无限住宅代理和长效 ISP 代理五条产品线。平台拥有 7500 万+ 真实住宅 IP，覆盖 195+ 个国家和地区，支持城市级定位。核心卖点包括 AI 驱动的数据提取能力和极具竞争力的价格体系。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          住宅代理提供从 $0.67/GB 到 $0.9/GB 的多档流量方案，大容量用户可享受低价优势。静态住宅代理 $5/IP 提供固定 IP 方案，数据中心代理 $3/IP 无限带宽，长效 ISP 代理 $0.27/GB 融合数据中心速度和住宅纯净度。无限住宅代理 $64.79/天适合大规模高频数据采集。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          平台支持 HTTP 和 SOCKS5 双协议，提供粘性会话和自动轮换两种模式。子账户管理系统方便团队协作，API 支持一键提取代理。支付方式支持 VISA、Bitcoin、Neosurf 等，提供 24/7 客户支持。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品方案详解</h2>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50">
+            <div class="text-lg font-bold text-slate-100 mb-1">住宅代理</div>
+            <div class="text-2xl font-bold text-emerald-400 mb-4">$0.67<small class="text-sm text-slate-500 font-normal">/GB 起</small></div>
+            <p class="text-sm text-slate-400 mb-4">7500 万+ 真实住宅 IP，195+ 国家，城市级定位</p>
+            <ul class="space-y-2 text-sm text-slate-300">
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>10GB $9 → 3000GB $2000</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>HTTP/SOCKS5 协议</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>粘性会话 / 自动轮换</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>城市/国家选择</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>99.99% 在线率</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50">
+            <div class="text-lg font-bold text-slate-100 mb-1">静态住宅代理</div>
+            <div class="text-2xl font-bold text-emerald-400 mb-4">$5<small class="text-sm text-slate-500 font-normal">/IP</small></div>
+            <p class="text-sm text-slate-400 mb-4">固定 IP 地址，无限带宽和并发连接</p>
+            <ul class="space-y-2 text-sm text-slate-300">
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>10天 $5 → 60天 $16</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>无限带宽</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>HTTP/SOCKS5 协议</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>99.99% 在线率</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>按 IP/天计费</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50">
+            <div class="text-lg font-bold text-slate-100 mb-1">数据中心代理</div>
+            <div class="text-2xl font-bold text-emerald-400 mb-4">$3<small class="text-sm text-slate-500 font-normal">/IP</small></div>
+            <p class="text-sm text-slate-400 mb-4">高速数据中心 IP，99% 匿名，无限带宽</p>
+            <ul class="space-y-2 text-sm text-slate-300">
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>10天 $3 → 90天 $16</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>无限带宽</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>HTTP/SOCKS5 协议</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>99.5% 在线率</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>按 IP/天计费</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50">
+            <div class="text-lg font-bold text-slate-100 mb-1">长效 ISP 代理</div>
+            <div class="text-2xl font-bold text-emerald-400 mb-4">$0.27<small class="text-sm text-slate-500 font-normal">/GB</small></div>
+            <p class="text-sm text-slate-400 mb-4">融合数据中心速度和住宅 IP 纯净度</p>
+            <ul class="space-y-2 text-sm text-slate-300">
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>10GB $8 → 1000GB $350</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>HTTP/SOCKS5 协议</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>城市/国家选择</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>无限带宽</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>24/7 支持</li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-4 text-center text-sm text-slate-500">
+          另有无限住宅代理 $64.79/天，适合大规模高频数据采集场景
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">AI 驱动的数据提取</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxyShare 将 AI 技术融入代理服务，提供智能化的数据提取能力。系统可自动绕过 CAPTCHA 验证、突破地域限制，提升数据采集效率。这一能力在大规模数据采集和 AI 训练数据获取场景中具有明显优势。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">五条产品线全覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理、静态住宅代理、数据中心代理、无限住宅代理和长效 ISP 代理五条产品线覆盖从数据采集到社媒运营、从轻量使用到大容量高频的全场景需求。每条产品线都有独立的多档定价方案，用户可按需选择。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">7500 万+ IP 池 · 195+ 国家覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">7500 万+ 真实住宅 IP 覆盖 195+ 个国家和地区，支持城市级定位。大容量 IP 池有效降低被封禁风险，适合需要大量 IP 轮换的数据采集项目。IP 池持续更新，确保 IP 的纯净度和可用性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">子账户管理与团队协作</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持子账户管理系统，可以为团队成员分配独立的代理访问权限，并可设置流量限额。API 接口支持自动化提取代理，适合需要集成到自动化工作流的团队使用。白名单认证进一步增强安全性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">粘性会话 + 自动轮换双模式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持粘性会话（最长 24 小时保持同一 IP）和自动轮换两种 IP 使用模式。粘性会话适合需要长时间保持登录状态的社媒运营场景，自动轮换适合大规模数据采集。两种模式可根据实际需求灵活切换。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">99.99% 在线率保障</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">承诺 99.99% 的服务在线率，确保代理连接的稳定性和可靠性。24/7 客户支持团队可随时处理使用中遇到的问题。丰富的帮助中心文档和用户指南降低了上手难度。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. AI 训练数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">AI 驱动的数据提取能力是 ProxyShare 区别于一般代理服务商的特色功能。7500 万+ 真实 IP 和自动 CAPTCHA 绕过机制，让大规模 AI 训练数据采集更加高效。无限住宅代理方案 $64.79/天适合需要持续大规模数据输入的项目。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 电商价格监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅代理 $0.67/GB 的极具竞争力的价格，配合 195+ 国家城市级定位，适合全球电商价格监控。粘性会话模式在需要登录特定店铺账号时表现更好。数据中心代理 $3/IP 的高速度也适合快速价格查询。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 社媒多账号运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅代理的真实 IP 在 Instagram、Facebook、TikTok 等平台的信任度高。长效 ISP 代理 $0.27/GB 融合数据中心速度和住宅纯净度，在社媒运营中兼具性能和信任度。子账户管理功能方便团队分工协作。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 品牌保护与广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">静态住宅代理 $5/IP 的固定 IP 方案适合持续监控特定区域的品牌侵权和广告投放情况。城市级定位确保广告验证数据的精准度。API 接口可与现有监控系统集成。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. SEO 监测与市场研究</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅代理的纯净 IP 在搜索引擎中不易触发验证码，适合大规模 SERP 监测。195+ 国家城市级定位提供精确的本地化搜索结果。多产品线选择让用户可以根据监测频率和规模灵活选择方案。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <img src={`${base}/images/proxyshare-res-price.webp`} alt="ProxyShare 住宅代理价格方案" class="w-full rounded-lg" />
+        <p class="text-xs text-slate-500 mt-3 text-center">住宅代理 $0.67-$0.9/GB（按量递减），静态住宅 $5/IP起，数据中心 $3/IP起，长效 ISP $0.27/GB起，无限住宅 $64.79/天</p>
+      </section>
+
+      <!-- 支付方式 -->
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">VISA</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span class="text-sm text-slate-200">Bitcoin</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-slate-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            <span class="text-sm text-slate-200">Neosurf</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>五条产品线全覆盖，选择灵活</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅代理 $0.67/GB 起，大容量价格极具竞争力</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>7500 万+ IP，195+ 国家城市级定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>AI 驱动的数据提取能力</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>子账户管理 + API 自动化</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.99% 在线率，24/7 支持</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度较低，用户评价有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅支持 HTTP/SOCKS5，无 UDP 支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理小流量方案单价偏高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无限住宅代理按天计费，短期使用门槛高</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyShare 是一家产品线极为丰富且定价具有竞争力的代理服务商。住宅代理 $0.67/GB 起的大容量定价在行业中处于较低水平，五条产品线覆盖了从轻量使用到大规模 AI 数据采集的全场景需求。7500 万+ IP 和 195+ 国家城市级覆盖为数据采集提供了充足的 IP 资源。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          AI 驱动的数据提取能力是 ProxyShare 区别于多数代理服务商的特色功能，对于 AI 训练数据采集场景特别有吸引力。子账户管理、API 自动化、粘性会话与轮换双模式等功能使其在团队协作和自动化工作流中表现出色。静态住宅代理和数据中心代理的按 IP/天计费模式也为特定使用场景提供了灵活选择。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于品牌知名度较低、缺少 UDP 协议支持、无中文界面和客服。综合评估，ProxyShare 获得 7.3 分评价。特别推荐给需要大规模住宅代理进行 AI 数据采集的团队和需要多产品线灵活选择的电商数据采集用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://proxyshare.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 ProxyShare 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

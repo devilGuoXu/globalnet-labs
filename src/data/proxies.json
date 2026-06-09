@@ -1622,5 +1622,33 @@
     "affiliateUrl": "https://proxywing.com/",
     "couponCode": "",
     "detailUrl": "/proxy/proxywing"
+  },
+  {
+    "id": "proxyshare",
+    "name": "ProxyShare",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "7500万+ IPs",
+    "proxyTypes": ["住宅代理", "静态住宅代理", "数据中心代理", "无限住宅代理", "长效ISP代理"],
+    "isFeatured": false,
+    "badge": "AI数据提取",
+    "features": ["7500万+真实IP 195+国家 城市级定位", "住宅 $0.67/GB | 静态住宅 $5/IP | 数据中心 $3/IP | ISP $0.27/GB", "HTTP/SOCKS5 粘性会话+轮换 99.99%在线", "AI驱动数据提取 子账户管理 7×24支持"],
+    "affiliateUrl": "https://proxyshare.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxyshare"
+  },
+  {
+    "id": "proxytrail",
+    "name": "ProxyTrail",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "50+ 国家",
+    "proxyTypes": ["数据中心代理", "私有代理", "SOCKS5代理", "无限流量代理"],
+    "isFeatured": false,
+    "badge": "独享 IP",
+    "features": ["独享数据中心 IPv4 50+国家覆盖", "$1.5/IP/月 起 批量低至$0.40/IP/月", "HTTP(s)/SOCKS4/5 双协议 100Mbps", "无需实名 加密货币支付 24/7俄语支持"],
+    "affiliateUrl": "https://proxytrail.com/",
+    "couponCode": "SAVE15",
+    "detailUrl": "/proxy/proxytrail"
   }
 ]
