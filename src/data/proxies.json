@@ -1258,5 +1258,19 @@
     "affiliateUrl": "https://www.911proxy.com/zh-hans/",
     "couponCode": "",
     "detailUrl": "/proxy/911proxy"
+  },
+  {
+    "id": "nsocks",
+    "name": "NSOCKS",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "8000万+ IPs",
+    "proxyTypes": ["住宅代理", "无限住宅", "长效ISP", "静态住宅", "数据中心"],
+    "isFeatured": false,
+    "badge": "九种语言",
+    "features": ["8000万+住宅IP195国家99.95%在线率", "九种语言界面+中文客服+指纹浏览器生态", "城市/ISP/街道级定位+五条产品线", "AI/LLM数据采集专项适配"],
+    "affiliateUrl": "https://www.nsocks.com/zh/",
+    "couponCode": "",
+    "detailUrl": "/proxy/nsocks"
   }
 ]
