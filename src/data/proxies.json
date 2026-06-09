@@ -1454,5 +1454,19 @@
     "affiliateUrl": "https://www.flashproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/flashproxy"
+  },
+  {
+    "id": "dynaprox",
+    "name": "DynaProx",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "美国城市级",
+    "proxyTypes": ["住宅代理"],
+    "isFeatured": false,
+    "badge": "$10/月起",
+    "features": ["无限带宽/会话/线程/连接", "$10/月1端口起 美国城市级定位", "自动IP旋转 99.99%正常运行 SLA保障", "专注美国住宅代理"],
+    "affiliateUrl": "https://dynaprox.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/dynaprox"
   }
 ]
