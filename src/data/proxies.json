@@ -1720,5 +1720,19 @@
     "affiliateUrl": "https://www.squidproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/squidproxies"
+  },
+  {
+    "id": "spider",
+    "name": "Spider",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "300万+",
+    "proxyTypes": ["住宅代理", "移动代理", "SERP API"],
+    "isFeatured": false,
+    "badge": "免费方案",
+    "features": ["300万+住宅+移动 IP 150+国家", "住宅代理+SERP API+Fetch API", "城市级/ASN 定位 不限子用户", "免费 Candy 方案 100MB 试用", "API 优先 服务 HubSpot/Deloitte"],
+    "affiliateUrl": "https://www.spider.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/spider"
   }
 ]
