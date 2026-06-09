@@ -1524,5 +1524,19 @@
     "affiliateUrl": "https://papaproxy.net/",
     "couponCode": "",
     "detailUrl": "/proxy/papaproxy"
+  },
+  {
+    "id": "newipnow",
+    "name": "NewIPNow",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "自 2009 年运营",
+    "proxyTypes": ["私有数据中心代理"],
+    "isFeatured": false,
+    "badge": "$0.88/IP 起",
+    "features": ["私有独享 IP 低至 $0.88/IP/月", "不限流量+1000Mbps+99.9%在线率", "15+目标网站优化配置", "即时IP刷新+7天退款"],
+    "affiliateUrl": "https://newipnow.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/newipnow"
   }
 ]

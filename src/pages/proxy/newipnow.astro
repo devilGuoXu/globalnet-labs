@@ -1,0 +1,196 @@
+﻿---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="NewIPNow 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/newipnow.png`} alt="NewIPNow" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">NewIPNow 深度评测</h1>
+          <p class="text-slate-400 text-lg">私有数据中心代理，自 2009 年运营，$0.88/IP/月起，不限流量</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          NewIPNow（newipnow.com）是一家成立于 2009 年的私有数据中心代理服务商，总部位于美国内华达州拉斯维加斯。平台专注于提供静态 IPv4 私有代理（Private Proxies），所有 IP 均为独享使用，不与其他人共享。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          NewIPNow 主打"高性价比私有代理"定位，定价 $0.88/IP/月起，不限流量、不限带宽。覆盖美国、欧洲、加拿大、亚洲、非洲等 20+ 个国家的代理位置，支持按目标网站（Target）优化代理配置，包括 Instagram、Facebook、Google、Amazon、Ticketmaster、Nike 等主流平台。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          产品线以数据中心私有 IP 为主，不提供住宅代理或移动代理。提供 7 天退款保障、即时 IP 刷新、IP 白名单认证等功能。适合社媒多账号管理、电商运营、SEO 监控、匿名浏览等场景。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">$0.88/IP/月，独享私有 IP</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">NewIPNow 提供私有代理（Private Proxy），每个 IP 仅限一个用户独享，无需与其他用户共用 IP。定价从 $8.80/月（10 IP）到 $88/月（100 IP），折合 $0.88/IP/月。没有隐藏费用，不限流量、不限带宽。相比市场上动辄 $1.5-3/IP/月的同类产品，NewIPNow 在数据中心私有代理中具有明显的价格优势。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">目标网站优化配置</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">NewIPNow 的一大特色是按目标网站（Target）提供优化代理。用户在购买时可以选择 General、Instagram、Facebook、Twitter、Pinterest、YouTube、Google、Yahoo、TicketMaster、SEO、Adidas、Footlocker、Nike、Craigslist、Amazon 等特定目标。这意味着代理 IP 经过了针对特定平台的风控策略优化，比通用代理更适合社媒多账号管理和抢购等场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">不限流量 + 1000+ Mbps 骨干网</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有套餐均提供不限流量（Unlimited Bandwidth），没有按 GB 计费的担忧。代理服务器接入 1000+ Mbps 骨干连接，提供超过 99.9% 的网络在线率。企业级网络冗余监控确保连接的稳定性。独享 IP 的使用方式避免了带宽竞争问题。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">20+ 国家位置覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">NewIPNow 的私有代理网络覆盖 20+ 个国家，包括美国、欧洲、加拿大、亚洲和非洲等多个地区。用户可以根据套餐等级选择 2-5 个城市和 4-10 个子网进行配置。支持按位置定制代理列表。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">即时刷新 + IP 白名单认证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">NewIPNow 提供即时 IP 刷新功能，用户可以在控制面板中一键更换任意 IP。IP 使用白名单认证方式，授权后即可立即使用，无需等待。支持 HTTP/HTTPS 协议，兼容所有主流浏览器、指纹浏览器和自动化工具。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">7 天退款保障 + 2009 年以来运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">NewIPNow 提供 7 天退款保障。如果代理不符合预期，可以申请全额退款。平台自 2009 年运营至今，超过 15 年行业经验。多个第三方评测站（ResearchSnipers、BestProxyFinder、StupidProxy）对其服务质量给予了正面评价。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
+          <p class="text-slate-300 leading-relaxed text-sm mb-4">NewIPNow 提供四个套餐等级，所有套餐均包含不限流量、不限带宽、Elite 匿名、HTTP(s) 兼容、即时激活和 7 天退款保障：</p>
+          <div class="grid md:grid-cols-4 gap-4">
+            <div class="text-center p-4 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-2xl font-bold text-emerald-400">$8.80</div>
+              <div class="text-xs text-slate-400 mt-1">/月</div>
+              <div class="text-sm text-slate-300 mt-2 font-semibold">10 代理</div>
+              <div class="text-xs text-slate-500 mt-1">2 城市 · 4 子网</div>
+            </div>
+            <div class="text-center p-4 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-2xl font-bold text-emerald-400">$22</div>
+              <div class="text-xs text-slate-400 mt-1">/月</div>
+              <div class="text-sm text-slate-300 mt-2 font-semibold">25 代理</div>
+              <div class="text-xs text-slate-500 mt-1">3 城市 · 6 子网</div>
+            </div>
+            <div class="text-center p-4 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-2xl font-bold text-emerald-400">$44</div>
+              <div class="text-xs text-slate-400 mt-1">/月</div>
+              <div class="text-sm text-slate-300 mt-2 font-semibold">50 代理</div>
+              <div class="text-xs text-slate-500 mt-1">4 城市 · 8 子网</div>
+            </div>
+            <div class="text-center p-4 bg-slate-800/50 rounded-lg border border-slate-700/50">
+              <div class="text-2xl font-bold text-emerald-400">$88</div>
+              <div class="text-xs text-slate-400 mt-1">/月</div>
+              <div class="text-sm text-slate-300 mt-2 font-semibold">100 代理</div>
+              <div class="text-xs text-slate-500 mt-1">5 城市 · 10 子网</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 社媒多账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">NewIPNow 提供按目标网站优化配置的功能，支持 Instagram、Facebook、Twitter、Pinterest、YouTube 等主流社媒平台的专用代理。私有独享 IP 减少了账号关联风险，即时 IP 刷新功能在账号被封后可以快速更换 IP。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 电商运营与抢购</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">支持 Amazon、Nike、Adidas、Footlocker、Ticketmaster、Craigslist 等电商和票务平台的优化代理。不限流量和高带宽骨干网适合大规模商品监控和限量抢购场景。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO 监控与市场调研</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">20+ 国家的代理位置适合全球 SEO 排名监控和竞争分析。不限流量和 1000+ Mbps 速度适合大规模关键词查询。私有 IP 的纯净度高于共享数据中心代理。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 匿名浏览与数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Elite 匿名级别、无日志政策和 HTTPS 兼容使 NewIPNow 适合需要隐私保护的匿名浏览。静态 IP 适合需要保持会话粘性的数据采集任务。通用代理（General）兼容所有 HTTP/HTTPS 网站。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>私有独享 IP，$0.88/IP/月 极具性价比</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>不限流量 + 1000+ Mbps + 99.9% 在线率</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>目标网站优化配置（15+ 平台专用）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>即时 IP 刷新 + 7 天退款保障</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>自 2009 年运营，15+ 年行业经验</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅数据中心代理，无住宅/移动代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅 HTTP/HTTPS，无 SOCKS5/UDP 支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>产品线单一，仅有私有数据中心代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和客服</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          NewIPNow 是一家专注于私有数据中心代理的老牌服务商（自 2009 年），以 $0.88/IP/月的定价在数据中心代理市场中具有竞争力。其最大的特色是按目标网站（Target）优化代理配置，覆盖 Instagram、Facebook、Amazon、Nike 等 15+ 主流平台，这在同类产品中较为少见。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          不限流量、1000+ Mbps 骨干网、即时 IP 刷新和 7 天退款保障降低了用户的使用风险。私有独享 IP 的模式避免了共享代理常见的连带封禁问题。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于仅提供数据中心代理（无住宅/移动代理）、仅支持 HTTP/HTTPS（无 SOCKS5/UDP）以及产品线单一。综合评估，NewIPNow 获得 7.3 分评价。特别推荐给需要低成本私有数据中心 IP 的社媒多账号管理团队和电商运营者。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://newipnow.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 NewIPNow 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
