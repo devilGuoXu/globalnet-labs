@@ -1286,5 +1286,19 @@
     "affiliateUrl": "https://www.b2proxy.com/zh-CN",
     "couponCode": "",
     "detailUrl": "/proxy/b2proxy"
+  },
+  {
+    "id": "keyproxy",
+    "name": "KeyProxy",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "多国 4G/5G",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "$10/周 起",
+    "features": ["MultiPort 百线程单代理+每请求新IP", "Dual Link 0-1s IP换+99.8%正常运行", "TwinPort HTTP/SOCKS5双协议同时在线", "免费测试+无条件退款+24/7客服"],
+    "affiliateUrl": "https://keyproxy.net/en",
+    "couponCode": "",
+    "detailUrl": "/proxy/keyproxy"
   }
 ]
