@@ -2,106 +2,169 @@
 import Layout from '../../layouts/Layout.astro';
 import proxiesData from '../../data/proxies.json';
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const whitelist = ['netnut','soax','ipfoxy','glorycloud','iproyal','decodo','kookeey','oxylabs','bright','rola-ip','kuaidaili','floppydata','shenlongproxy','novada','packetstream','okkproxy','infiniteproxies','trustproxy','kocerroxy','rayobyte','proxy4free','aproxy','ipwo','ziny','ake','proxy4u','proxyrack','fleetproxy','lightningproxies','asocks','ipoasis','resiprox','anyip','proxies','ipdodo','thordata','starlinkproxy','ippeak','ip2up','ipfly','onesproxy','stormproxies','instaip','naproxy','infatica','lumiproxy','cliproxy','711proxy','owlproxy','okeyproxy','9proxy','yilus5','proxy-ipv4','proxy-cheap','youproxy','proxy-seller','hydraproxy','geonix','dataimpulse','ipcool','ttproxy','proxysale','rapidproxy','bestproxy','vircs','onlineproxy','carrierproxy','oculusproxies','croxy','spaw','liveproxies','astroproxy','ltesocks','geonode','omegaproxy','proxycc','marsproxies','webshare','hypeproxies','mobileproxynow','sx','shifter','privateproxy','coronium','anonymous-proxies','ipcola','myprivateproxy','hproxy','proxyheaven','911proxy','nsocks','b2proxy','keyproxy','hypeproxy','coproxy','byteful','proxys','trustedproxies','proxymesh','plainproxies'];
+const filtered = proxiesData.filter(p => whitelist.includes(p.id));
 ---
 
 <Layout title="海外住宅 / 移动代理厂商全览 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-3">海外住宅 / 移动代理厂商全览</h1>
-    <p class="text-slate-400 mb-10">全球住宅代理与移动代理资源聚合，覆盖跨境数据采集、社媒运营与风控规避场景。</p>
+    <p class="text-slate-400 mb-6">全球住宅代理与移动代理资源聚合，覆盖跨境数据采集、社媒运营与风控规避场景。</p>
 
-    <div class="grid md:grid-cols-2 gap-4">
-      {proxiesData.map((proxy) => {
+    <div class="flex items-center justify-between mb-6">
+      <div class="flex items-center gap-2 text-sm text-slate-400">
+        <span>共 <span id="total-count">{filtered.length}</span> 家厂商</span>
+      </div>
+      <div class="flex items-center gap-2 text-sm text-slate-400">
+        <span>每页</span>
+        <select id="page-size" class="bg-slate-800 border border-slate-700 rounded-lg px-3 py-1.5 text-slate-200 focus:outline-none focus:border-emerald-500 cursor-pointer">
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="50">50</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="proxy-grid" class="grid md:grid-cols-2 gap-4">
+      {filtered.map((proxy) => {
         const isExternal = proxy.detailUrl.startsWith('http');
         return (
-          <a href={isExternal ? proxy.detailUrl : `${base}${proxy.detailUrl}`} target={isExternal ? '_blank' : undefined} rel={isExternal ? 'noopener noreferrer' : undefined} class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-emerald-500/30 transition-all duration-300 group block">
-            <div class="flex items-start justify-between mb-3">
-              <div class="flex items-center gap-3">
-                <h3 class="text-base font-semibold text-slate-100 group-hover:text-emerald-400 transition-colors">{proxy.name}</h3>
-                {proxy.badge && (
-                  <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">{proxy.badge}</span>
+          <div class="proxy-card">
+            <a href={isExternal ? proxy.detailUrl : `${base}${proxy.detailUrl}`} target={isExternal ? '_blank' : undefined} rel={isExternal ? 'noopener noreferrer' : undefined} class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-emerald-500/30 transition-all duration-300 group block">
+              <div class="flex items-start justify-between mb-3">
+                <div class="flex items-center gap-3">
+                  <h3 class="text-base font-semibold text-slate-100 group-hover:text-emerald-400 transition-colors">{proxy.name}</h3>
+                  {proxy.badge && (
+                    <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">{proxy.badge}</span>
+                  )}
+                </div>
+                <span class="flex items-center gap-1 text-amber-400 text-sm shrink-0">
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                  {proxy.rating}
+                </span>
+              </div>
+              <p class="text-sm text-slate-400 mb-3"><span class="text-slate-500">IP池：</span>{proxy.poolSize} · {proxy.proxyTypes?.join('、')}</p>
+              <div class="flex gap-4 mb-4">
+                <ul class="space-y-1 flex-1">
+                  {proxy.features.map((f) => (
+                    <li class="flex items-center gap-2 text-sm text-slate-300">
+                      <svg class="w-3.5 h-3.5 text-emerald-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                      {f}
+                    </li>
+                  ))}
+                </ul>
+                 {(proxy.id === 'netnut' || proxy.id === 'soax' || proxy.id === 'ipfoxy' || proxy.id === 'glorycloud' || proxy.id === 'iproyal' || proxy.id === 'decodo' || proxy.id === 'kookeey' || proxy.id === 'oxylabs' || proxy.id === 'bright' || proxy.id === 'rola-ip' || proxy.id === 'kuaidaili' || proxy.id === 'floppydata' || proxy.id === 'shenlongproxy' || proxy.id === 'novada' || proxy.id === 'packetstream' || proxy.id === 'okkproxy' || proxy.id === 'infiniteproxies' || proxy.id === 'trustproxy' || proxy.id === 'kocerroxy' || proxy.id === 'rayobyte' || proxy.id === 'proxy4free' || proxy.id === 'aproxy' || proxy.id === 'ipwo' || proxy.id === 'ziny' || proxy.id === 'ake' || proxy.id === 'proxy4u' || proxy.id === 'proxyrack' || proxy.id === 'fleetproxy' || proxy.id === 'lightningproxies' || proxy.id === 'asocks' || proxy.id === 'ipoasis' || proxy.id === 'resiprox' || proxy.id === 'anyip' || proxy.id === 'proxies' || proxy.id === 'ipdodo' || proxy.id === 'thordata' || proxy.id === 'starlinkproxy' || proxy.id === 'ippeak' || proxy.id === 'ip2up' || proxy.id === 'ipfly' || proxy.id === 'onesproxy' || proxy.id === 'stormproxies' || proxy.id === 'instaip' || proxy.id === 'naproxy' || proxy.id === 'infatica' || proxy.id === 'lumiproxy' || proxy.id === 'cliproxy' || proxy.id === '711proxy' || proxy.id === 'owlproxy' || proxy.id === 'okeyproxy' || proxy.id === '9proxy' || proxy.id === 'yilus5' || proxy.id === 'proxy-ipv4' || proxy.id === 'proxy-cheap' || proxy.id === 'youproxy' || proxy.id === 'proxy-seller' || proxy.id === 'hydraproxy' || proxy.id === 'geonix' || proxy.id === 'dataimpulse' || proxy.id === 'ipcool' || proxy.id === 'ttproxy' || proxy.id === 'proxysale' || proxy.id === 'rapidproxy' || proxy.id === 'bestproxy' || proxy.id === 'vircs' || proxy.id === 'onlineproxy' || proxy.id === 'carrierproxy' || proxy.id === 'oculusproxies' || proxy.id === 'croxy' || proxy.id === 'spaw' || proxy.id === 'liveproxies' || proxy.id === 'astroproxy' || proxy.id === 'ltesocks' || proxy.id === 'geonode' || proxy.id === 'omegaproxy' || proxy.id === 'proxycc' || proxy.id === 'marsproxies' || proxy.id === 'webshare' || proxy.id === 'hypeproxies' || proxy.id === 'mobileproxynow' || proxy.id === 'sx' || proxy.id === 'shifter' || proxy.id === 'privateproxy' || proxy.id === 'coronium' || proxy.id === 'anonymous-proxies' || proxy.id === 'ipcola' || proxy.id === 'myprivateproxy' || proxy.id === 'hproxy' || proxy.id === 'proxyheaven' || proxy.id === '911proxy' || proxy.id === 'nsocks' || proxy.id === 'b2proxy' || proxy.id === 'keyproxy' || proxy.id === 'hypeproxy' || proxy.id === 'coproxy' || proxy.id === 'byteful' || proxy.id === 'proxys' || proxy.id === 'trustedproxies' || proxy.id === 'proxymesh' || proxy.id === 'plainproxies') && (
+                  proxy.id === 'aproxy' ? (
+                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+                      <img src={`${base}/images/aproxy.png`} alt="APROXY" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+                    </div>
+                  ) : proxy.id === 'instaip' ? (
+                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+                      <img src={`${base}/images/instaip.png`} alt="InstaIP" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+                    </div>
+                  ) : proxy.id === '711proxy' ? (
+                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+                      <img src={`${base}/images/711proxy.png`} alt="711Proxy" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+                    </div>
+                  ) : proxy.id === 'ttproxy' ? (
+                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+                      <img src={`${base}/images/ttproxy.png`} alt="TTProxy" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+                    </div>
+                  ) : proxy.id === 'vircs' ? (
+                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+                      <img src={`${base}/images/vircs.png`} alt="VIRCS" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+                    </div>
+                  ) : proxy.id === 'onlineproxy' ? (
+                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+                      <img src={`${base}/images/onlineproxy.png`} alt="OnlineProxy" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+                    </div>
+                  ) : proxy.id === 'sx' ? (
+                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+                      <img src={`${base}/images/sx.png`} alt="SX.ORG" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+                    </div>
+                  ) : proxy.id === 'privateproxy' ? (
+                    <div class="bg-white rounded-xl shrink-0 w-16 h-16 flex items-center justify-center overflow-hidden">
+                      <img src={`${base}/images/privateproxy.png`} alt="PrivateProxy" class="max-w-[85%] max-h-[85%] w-auto h-auto object-contain" />
+                    </div>
+                  ) : proxy.id === 'myprivateproxy' ? (
+                    <div class="bg-white rounded-xl shrink-0 w-16 h-16 flex items-center justify-center overflow-hidden">
+                      <img src={`${base}/images/myprivateproxy.png`} alt="MyPrivateProxy" class="max-w-[85%] max-h-[85%] w-auto h-auto object-contain" />
+                    </div>
+                  ) : proxy.id === 'coproxy' ? (
+                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+                      <img src={`${base}/images/coproxy.png`} alt="CoProxy" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+                    </div>
+                  ) : proxy.id === 'byteful' ? (
+                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+                      <img src={`${base}/images/byteful.png`} alt="Byteful" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+                    </div>
+                  ) : proxy.id === 'floppydata' ? (
+                    <div class="shrink-0 flex items-center justify-center">
+                      <img src={`${base}/images/floppydata-logo.svg`} alt="FloppyData" class="h-8 w-auto" />
+                    </div>
+                  ) : proxy.id === 'trustedproxies' || proxy.id === 'geonode' || proxy.id === 'hproxy' ? (
+                    <div class="shrink-0 flex items-center justify-center">
+                      <img src={`${base}/images/${proxy.id}.png`} alt={proxy.name} class="h-8 w-auto" />
+                    </div>
+                  ) : proxy.id === 'proxycc' ? (
+                    <img src={`${base}/images/proxy-cc.png`} alt="proxy.cc" class="h-14 w-auto self-center" />
+                  ) : (
+                    <img src={`${base}/images/${proxy.id === 'kocerroxy' ? proxy.id + '-logo.svg' : proxy.id === 'hydraproxy' ? proxy.id + '.webp' : proxy.id + '.png'}`} alt={proxy.name} class="h-14 w-auto self-center" />
+                  )
                 )}
               </div>
-              <span class="flex items-center gap-1 text-amber-400 text-sm shrink-0">
-                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                {proxy.rating}
-              </span>
-            </div>
-            <p class="text-sm text-slate-400 mb-3"><span class="text-slate-500">IP池：</span>{proxy.poolSize} · {proxy.proxyTypes?.join('、')}</p>
-            <div class="flex gap-4 mb-4">
-              <ul class="space-y-1 flex-1">
-                {proxy.features.map((f) => (
-                  <li class="flex items-center gap-2 text-sm text-slate-300">
-                    <svg class="w-3.5 h-3.5 text-emerald-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                    {f}
-                  </li>
-                ))}
-              </ul>
-               {(proxy.id === 'netnut' || proxy.id === 'soax' || proxy.id === 'ipfoxy' || proxy.id === 'glorycloud' || proxy.id === 'iproyal' || proxy.id === 'decodo' || proxy.id === 'kookeey' || proxy.id === 'oxylabs' || proxy.id === 'bright' || proxy.id === 'rola-ip' || proxy.id === 'kuaidaili' || proxy.id === 'floppydata' || proxy.id === 'shenlongproxy' || proxy.id === 'novada' || proxy.id === 'packetstream' || proxy.id === 'okkproxy' || proxy.id === 'infiniteproxies' || proxy.id === 'trustproxy' || proxy.id === 'kocerroxy' || proxy.id === 'rayobyte' || proxy.id === 'proxy4free' || proxy.id === 'aproxy' || proxy.id === 'ipwo' || proxy.id === 'ziny' || proxy.id === 'ake' || proxy.id === 'proxy4u' || proxy.id === 'proxyrack' || proxy.id === 'fleetproxy' || proxy.id === 'lightningproxies' || proxy.id === 'asocks' || proxy.id === 'ipoasis' || proxy.id === 'resiprox' || proxy.id === 'anyip' || proxy.id === 'proxies' || proxy.id === 'ipdodo' || proxy.id === 'thordata' || proxy.id === 'starlinkproxy' || proxy.id === 'ippeak' || proxy.id === 'ip2up' || proxy.id === 'ipfly' || proxy.id === 'onesproxy' || proxy.id === 'stormproxies' || proxy.id === 'instaip' || proxy.id === 'naproxy' || proxy.id === 'infatica' || proxy.id === 'lumiproxy' || proxy.id === 'cliproxy' || proxy.id === '711proxy' || proxy.id === 'owlproxy' || proxy.id === 'okeyproxy' || proxy.id === '9proxy' || proxy.id === 'yilus5' || proxy.id === 'proxy-ipv4' || proxy.id === 'proxy-cheap' || proxy.id === 'youproxy' || proxy.id === 'proxy-seller' || proxy.id === 'hydraproxy' || proxy.id === 'geonix' || proxy.id === 'dataimpulse' || proxy.id === 'ipcool' || proxy.id === 'ttproxy' || proxy.id === 'proxysale' || proxy.id === 'rapidproxy' || proxy.id === 'bestproxy' || proxy.id === 'vircs' || proxy.id === 'onlineproxy' || proxy.id === 'carrierproxy' || proxy.id === 'oculusproxies' || proxy.id === 'croxy' || proxy.id === 'spaw' || proxy.id === 'liveproxies' || proxy.id === 'astroproxy' || proxy.id === 'ltesocks' || proxy.id === 'geonode' || proxy.id === 'omegaproxy' || proxy.id === 'proxycc' || proxy.id === 'marsproxies' || proxy.id === 'webshare' || proxy.id === 'hypeproxies' || proxy.id === 'mobileproxynow' || proxy.id === 'sx' || proxy.id === 'shifter' || proxy.id === 'privateproxy' || proxy.id === 'coronium' || proxy.id === 'anonymous-proxies' || proxy.id === 'ipcola' || proxy.id === 'myprivateproxy' || proxy.id === 'hproxy' || proxy.id === 'proxyheaven' || proxy.id === '911proxy' || proxy.id === 'nsocks' || proxy.id === 'b2proxy' || proxy.id === 'keyproxy' || proxy.id === 'hypeproxy' || proxy.id === 'coproxy' || proxy.id === 'byteful' || proxy.id === 'proxys' || proxy.id === 'trustedproxies' || proxy.id === 'proxymesh' || proxy.id === 'plainproxies') && (
-                proxy.id === 'aproxy' ? (
-                  <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
-                    <img src={`${base}/images/aproxy.png`} alt="APROXY" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
-                  </div>
-                ) : proxy.id === 'instaip' ? (
-                  <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
-                    <img src={`${base}/images/instaip.png`} alt="InstaIP" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
-                  </div>
-                ) : proxy.id === '711proxy' ? (
-                  <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
-                    <img src={`${base}/images/711proxy.png`} alt="711Proxy" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
-                  </div>
-                ) : proxy.id === 'ttproxy' ? (
-                  <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
-                    <img src={`${base}/images/ttproxy.png`} alt="TTProxy" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
-                  </div>
-                ) : proxy.id === 'vircs' ? (
-                  <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
-                    <img src={`${base}/images/vircs.png`} alt="VIRCS" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
-                  </div>
-                ) : proxy.id === 'onlineproxy' ? (
-                  <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
-                    <img src={`${base}/images/onlineproxy.png`} alt="OnlineProxy" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
-                  </div>
-                ) : proxy.id === 'sx' ? (
-                  <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
-                    <img src={`${base}/images/sx.png`} alt="SX.ORG" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
-                  </div>
-                ) : proxy.id === 'privateproxy' ? (
-                  <div class="bg-white rounded-xl shrink-0 w-16 h-16 flex items-center justify-center overflow-hidden">
-                    <img src={`${base}/images/privateproxy.png`} alt="PrivateProxy" class="max-w-[85%] max-h-[85%] w-auto h-auto object-contain" />
-                  </div>
-                ) : proxy.id === 'myprivateproxy' ? (
-                  <div class="bg-white rounded-xl shrink-0 w-16 h-16 flex items-center justify-center overflow-hidden">
-                    <img src={`${base}/images/myprivateproxy.png`} alt="MyPrivateProxy" class="max-w-[85%] max-h-[85%] w-auto h-auto object-contain" />
-                  </div>
-                ) : proxy.id === 'coproxy' ? (
-                  <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
-                    <img src={`${base}/images/coproxy.png`} alt="CoProxy" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
-                  </div>
-                ) : proxy.id === 'byteful' ? (
-                  <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
-                    <img src={`${base}/images/byteful.png`} alt="Byteful" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
-                  </div>
-                ) : proxy.id === 'floppydata' ? (
-                  <div class="shrink-0 flex items-center justify-center">
-                    <img src={`${base}/images/floppydata-logo.svg`} alt="FloppyData" class="h-8 w-auto" />
-                  </div>
-                ) : proxy.id === 'trustedproxies' || proxy.id === 'geonode' || proxy.id === 'hproxy' ? (
-                  <div class="shrink-0 flex items-center justify-center">
-                    <img src={`${base}/images/${proxy.id}.png`} alt={proxy.name} class="h-8 w-auto" />
-                  </div>
-                ) : proxy.id === 'proxycc' ? (
-                  <img src={`${base}/images/proxy-cc.png`} alt="proxy.cc" class="h-14 w-auto self-center" />
-                ) : (
-                  <img src={`${base}/images/${proxy.id === 'kocerroxy' ? proxy.id + '-logo.svg' : proxy.id === 'hydraproxy' ? proxy.id + '.webp' : proxy.id + '.png'}`} alt={proxy.name} class="h-14 w-auto self-center" />
-                )
-              )}
-            </div>
-            <div class="pt-3 border-t border-slate-800 text-right">
-              <span class="text-sm text-emerald-400 group-hover:text-emerald-300 transition-colors">查看详情 →</span>
-            </div>
-          </a>
+              <div class="pt-3 border-t border-slate-800 text-right">
+                <span class="text-sm text-emerald-400 group-hover:text-emerald-300 transition-colors">查看详情 →</span>
+              </div>
+            </a>
+          </div>
         );
       })}
     </div>
+
+    <div id="pagination" class="flex items-center justify-center gap-4 mt-8 text-sm">
+      <button id="prev-page" class="px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-300 hover:bg-slate-700 disabled:opacity-40 disabled:cursor-not-allowed transition-all" disabled>上一页</button>
+      <span id="page-info" class="text-slate-400">第 1 页 / 共 1 页</span>
+      <button id="next-page" class="px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-300 hover:bg-slate-700 disabled:opacity-40 disabled:cursor-not-allowed transition-all">下一页</button>
+    </div>
   </div>
 </Layout>
+
+<script>
+  const cards = document.querySelectorAll('.proxy-card');
+  const totalSpan = document.getElementById('total-count');
+  const pageSizeSelect = document.getElementById('page-size');
+  const pageInfo = document.getElementById('page-info');
+  const prevBtn = document.getElementById('prev-page');
+  const nextBtn = document.getElementById('next-page');
+  const total = cards.length;
+  let page = 1;
+  let perPage = 10;
+
+  function showPage() {
+    cards.forEach((card, i) => {
+      card.style.display = (i >= (page - 1) * perPage && i < page * perPage) ? '' : 'none';
+    });
+    const totalPages = Math.ceil(total / perPage) || 1;
+    pageInfo.textContent = `第 ${page} 页 / 共 ${totalPages} 页`;
+    prevBtn.disabled = page <= 1;
+    nextBtn.disabled = page >= totalPages;
+  }
+
+  pageSizeSelect.addEventListener('change', () => {
+    perPage = parseInt(pageSizeSelect.value);
+    page = 1;
+    showPage();
+  });
+
+  prevBtn.addEventListener('click', () => {
+    if (page > 1) { page--; showPage(); }
+  });
+
+  nextBtn.addEventListener('click', () => {
+    const totalPages = Math.ceil(total / perPage) || 1;
+    if (page < totalPages) { page++; showPage(); }
+  });
+
+  showPage();
+</script>
