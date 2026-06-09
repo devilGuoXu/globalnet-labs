@@ -1664,5 +1664,19 @@
     "affiliateUrl": "https://www.proxysentinel.io/",
     "couponCode": "",
     "detailUrl": "/proxy/proxysentinel"
+  },
+  {
+    "id": "proxyred",
+    "name": "ProxyRed",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1000万+",
+    "proxyTypes": ["住宅代理"],
+    "isFeatured": false,
+    "badge": "灵活轮换",
+    "features": ["1000万+住宅 IP 195+国家覆盖", "按GB计费$35起/10GB 无限方案$399起", "SOCKS5/HTTP(S) 灵活轮换+粘性会话", "加密货币支付 自2019年运营"],
+    "affiliateUrl": "https://proxyred.net/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxyred"
   }
 ]
