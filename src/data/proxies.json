@@ -1650,5 +1650,19 @@
     "affiliateUrl": "https://proxytrail.com/",
     "couponCode": "SAVE15",
     "detailUrl": "/proxy/proxytrail"
+  },
+  {
+    "id": "proxysentinel",
+    "name": "ProxySentinel",
+    "type": "proxy-tool",
+    "rating": 7.3,
+    "poolSize": "自带代理（BYOP）",
+    "proxyTypes": ["代理管理器"],
+    "isFeatured": false,
+    "badge": "7天免费试用",
+    "features": ["自带代理（BYOP）节省成本", "企业级故障转移与监控", "200-500并发·500GB-2TB带宽", "7天免费试用·无需信用卡"],
+    "affiliateUrl": "https://www.proxysentinel.io/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxysentinel"
   }
 ]
