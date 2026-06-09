@@ -1,0 +1,170 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Proxys.io 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/proxys.png`} alt="Proxys.io" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Proxys.io 深度评测</h1>
+          <p class="text-slate-400 text-lg">2016 年运营至今，伦敦注册，IPv6 低至 $0.13，70+ 国家覆盖，支持中文</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.3</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxys.io 是一家自 2016 年起运营的代理服务商，公司注册于英国伦敦（ONLINE CONNECT LTD）。平台提供数据中心代理（IPv4 和 IPv6）、住宅代理和移动代理三大品类，覆盖 70+ 个国家（FAQ 中提及 240+ 国家/地区）。以极低的 IPv6 代理价格（低至 $0.13/月）和高性价比 IPv4 代理为市场定位。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxys.io 的产品线非常丰富，包括共享 IPv4（最多 3 人共用）、独享 IPv4（Foreign 和 Russia 两种线路）、Premium 住宅 IPv4、IPv6、动态代理以及移动代理。全部支持 HTTP(s) 和 SOCKS5 双协议，支持 IP 白名单认证。提供 24 小时退款保障和 20% 终身联盟佣金。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          官网支持包括简体中文在内的 10 种语言，提供 50+ 支付方式（含支付宝、加密货币、银行卡等）。7×24 小时在线聊天和邮件支持，宣称响应时间 10-15 秒。免费提供 Proxy Checker 工具和 ProxyControl 管理软件。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">极致低价 IPv6 代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Proxys.io 将 IPv6 代理价格压至 $0.13/月（批量 250-500 个时低至 $0.1/个），在同行业中具有显著的价格竞争力。平台为 IPv6 代理提供 IPv4 隧道技术——用户以 IPv4 格式连接，IP 切换在服务端完成，解决了大多数软件不直接支持 IPv6 的问题。适合预算极有限的大规模代理需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">丰富的 IPv4 产品矩阵</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">IPv4 产品线覆盖了从共享到独享、从数据中心到住宅的全价位段。共享 IPv4（$0.67/月起，最多 3 人共用）适合预算敏感的基础需求；独享 Foreign IPv4（$1.47/月起，覆盖乌克兰/英国/美国/德国等）适合常规运营；Premium 住宅 IPv4（$3.6/月起，俄罗斯/波兰住宅 IP）适合高信任度场景。俄罗斯线路更可自主选择数据中心、移动或住宅 IP 类型。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">HTTP(s) + SOCKS5 双协议 + IP 白名单</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全部产品支持 HTTP(s) 和 SOCKS5 双协议，购买时无需选择协议，两种协议同时可用。支持 IP 白名单认证，在个人账户中可自由管理授权 IP。提供登录名/密码和 IP 白名单两种认证方式。双协议兼容市面上几乎所有软件和指纹浏览器。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">70+ 国家覆盖 + 240+ 地区</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">官网显示 70+ 国家覆盖，FAQ 中提及 240+ 国家/地区。重点国家包括乌克兰、英国、美国、德国、印度、波兰、西班牙、荷兰、法国、土耳其、罗马尼亚、意大利、巴西、加拿大、香港、澳大利亚等。对于需要特定地区代理（如东欧、独联体）的用户，Proxys.io 的覆盖较为全面。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">50+ 支付方式 + 10 种语言 + 中文支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持银行卡（Visa/MasterCard）、加密货币（USDT/BTC/ETH）、支付宝（Alipay）、Perfect Money、AdvCash、QIWI 等 50+ 支付方式。官网提供简体中文界面，降低了中文用户的使用门槛。7×24 小时在线聊天支持，宣称平均响应 10-15 秒。这在面向全球用户的代理平台中属于较高的服务标准。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">自动交付 + 24 小时退款 + 终身联盟 20%</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">购买后代理自动出现在个人账户中，即时生效。24 小时内可无条件退款。联盟计划提供终身 20% 佣金。此外还提供免费的 Proxy Checker（代理可用性检测工具）和 ProxyControl（代理管理软件），以及详细的中文软件配置教程（如指纹浏览器设置指南）。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 大规模低成本代理需求</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">IPv6 代理低至 $0.13/月的价格使其在大规模代理部署场景中极具成本优势。结合 IPv4 隧道技术，用户无需担心软件兼容性。适合需要大量代理进行数据采集的 SEO 工具、价格监控系统和大规模账号注册项目。批量购买 250-500 个 IPv6 代理每月仅需 $25-50。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 东欧/独联体市场运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Proxys.io 在东欧和独联体地区的覆盖具有明显优势——俄罗斯、乌克兰、波兰、白俄罗斯、哈萨克斯坦等国家均有代理节点。俄罗斯线路更支持数据中心/移动/住宅三种 IP 类型可选。对于面向俄语市场、东欧电商或独联体流量的运营者来说，这一区域覆盖能力是核心价值之一。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 社媒多账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Premium 住宅 IPv4（俄罗斯/波兰住宅 IP）和移动代理适合 Instagram、Facebook、VK 等社媒平台的多账号运营。HTTP(s) 和 SOCKS5 双协议兼容主流指纹浏览器。共享 IPv4 虽然价格更低，但最多 3 人共用，在社媒场景中推荐使用独享 IPv4 或住宅代理以确保账号安全。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 跨境电商与广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">70+ 国家的数据中心代理覆盖适合跨境电商的价格比较和市场调研。住宅代理可用于广告验证场景，验证不同地区的广告投放效果。移动代理适用于需要模拟真实 3G/4G/5G 用户行为的场景。支付宝支付支持方便了中国卖家的购买。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 数据抓取与 SEO 监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">数据中心代理的 7 Mbit 稳定带宽适合常规数据抓取任务。IPv6 代理的超低成本使其可用于大规模分布式抓取。动态代理（$0.27/月）提供自动旋转 IP，适合需要频繁更换 IP 的抓取场景。免费的 Proxy Checker 工具可帮助用户批量验证代理可用性。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>IPv6 代理低至 $0.13/月，极致性价比</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>产品矩阵丰富（共享/独享/住宅/移动/IPv6）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>东欧/独联体覆盖突出，俄罗斯线路多 IP 类型</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>10 种语言含中文 + 支付宝支付</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>50+ 支付方式 + 24h 退款 + 7×24 客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>2016 年运营至今，市场验证充分</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.25 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>静态代理仅 7 Mbit 带宽，速度一般</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>共享 IPv4 最多 3 人共用，可能受邻居影响</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理仅俄罗斯/波兰两国家</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IPv6 在部分网站兼容性有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动代理价格较高（$56.79/月起）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>界面设计相对传统，用户体验一般</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxys.io 是一家具有 10 年运营历史的老牌代理服务商，以极低的 IPv6 代理价格（$0.13/月）和丰富的产品线在市场中占据独特定位。从共享 IPv4 到住宅代理、从数据中心到移动代理，产品矩阵覆盖了几乎所有价位段和使用场景，70+ 国家覆盖和东欧/独联体地区的优势覆盖使其在国际化运营场景中具有不可替代的价值。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          中文界面 + 支付宝支付 + 50+ 支付方式 + 24 小时退款保障，降低了全球用户（尤其是中文用户）的使用门槛。7×24 小时的快速客服响应（宣称 10-15 秒）和免费的 Proxy Checker 工具也体现了对用户体验的重视。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于静态代理带宽仅 7 Mbit、住宅代理仅覆盖俄罗斯和波兰两国家、共享代理可能受邻居影响。综合评估，Proxys.io 获得 7.3 分评价。特别推荐给东欧/独联体市场运营者、需要超低成本 IPv6 大规模代理的用户、以及需要中文支持的中小型代理采购者。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://proxys.io/en" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Proxys.io 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

@@ -1342,5 +1342,19 @@
     "affiliateUrl": "https://byteful.com/",
     "couponCode": "",
     "detailUrl": "/proxy/byteful"
+  },
+  {
+    "id": "proxys",
+    "name": "Proxys.io",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "70+ 国家",
+    "proxyTypes": ["数据中心", "住宅", "移动", "IPv6"],
+    "isFeatured": false,
+    "badge": "$0.13/月起",
+    "features": ["IPv6低至$0.13/月极致性价比", "共享/独享/住宅/移动/IPv6多产品线", "70+国家东欧覆盖突出含中文界面", "50+支付方式含支付宝7x24客服"],
+    "affiliateUrl": "https://proxys.io/en",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxys"
   }
 ]
