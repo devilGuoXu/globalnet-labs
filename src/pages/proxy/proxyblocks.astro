@@ -1,0 +1,289 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="ProxyBlocks 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-6">
+        <img src={`${base}/images/proxyblocks.png`} alt="ProxyBlocks" class="h-16 w-auto" />
+        <div>
+          <div class="flex items-center gap-3 flex-wrap">
+            <h1 class="text-3xl font-bold text-slate-100">ProxyBlocks 评测</h1>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">不限流量</span>
+          </div>
+          <p class="text-slate-400 mt-1">专属移动代理 · 5G · 不限流量 · 多协议支持 · 欧洲及巴西覆盖</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">核心摘要</h2>
+        <div class="grid md:grid-cols-2 gap-4 text-sm">
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">产品类型</span>
+            <p class="text-slate-200 font-medium mt-1">专属 5G 移动代理 · 真实手机硬件 · 消费级 SIM 卡</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">覆盖范围</span>
+            <p class="text-slate-200 font-medium mt-1">德国 · 瑞士 · 波兰 · 西班牙 · 巴西，多运营商可选</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">核心特性</span>
+            <p class="text-slate-200 font-medium mt-1">不限流量 · 专属单用户 · 6 协议支持 · 控制面板 · 即时交付</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">支付方式</span>
+            <p class="text-slate-200 font-medium mt-1">Visa · Mastercard · Amex · PayPal · 加密货币 (Cryptomus)</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyBlocks 是一家专注于专属 5G 移动代理的服务商，总部位于欧洲。其核心理念是"你会喜欢用的移动代理"——通过真实智能手机硬件和消费级 SIM 卡提供专属单用户代理连接。与传统共享 IP 池模式不同，每个用户获得的是一台独立专属代理，带宽无限且不受其他用户影响。其 Product Hunt 产品展示和 Trustpilot 4.5 评分在一定程度上反映了市场认可度。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyBlocks 最突出的特点在于其极致的控制力和灵活性。通过自主研发的"ProxyBlocks Control"控制面板，用户可以精细控制代理的每一个细节：IP 轮换间隔（1 分钟到 72 小时可调）、轮换方式（静态 / 按需 URL / 定时）、OS 被动指纹伪装、自定义 DNS、跳过已用 IP 等。支持多达 6 种连接协议（HTTP / SOCKS5 TCP+UDP+QUIC / OpenVPN TCP+UDP / WireGuard），在移动代理行业极为罕见。所有套餐均享受不限流量传输，无带宽上限。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          覆盖范围包括德国（o2 / Telekom）、瑞士（Sunrise）、波兰（T-Mobile / Orange）、西班牙（Orange）和巴西（Vivo / Claro）五个国家，提供多个主流运营商的 5G 连接。代理位于实际智能手机上，使用真实运营商 ASN，具有极高的信任等级。支持 IP 白名单和用户名密码认证。提供 $2.50 的 4 小时试用选项（波兰 / 西班牙 / 巴西），方便用户在购买前评估性能。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品线与技术规格</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm text-slate-300">
+            <thead>
+              <tr class="border-b border-slate-700 text-slate-400">
+                <th class="text-left py-3 px-2">地区</th>
+                <th class="text-left py-3 px-2">运营商</th>
+                <th class="text-left py-3 px-2">速度</th>
+                <th class="text-left py-3 px-2">试用</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-slate-800">
+                <td class="py-3 px-2">德国</td>
+                <td class="py-3 px-2">o2 / Telekom</td>
+                <td class="py-3 px-2">40 Mbit/s</td>
+                <td class="py-3 px-2">1 天起</td>
+              </tr>
+              <tr class="border-b border-slate-800">
+                <td class="py-3 px-2">瑞士</td>
+                <td class="py-3 px-2">Sunrise</td>
+                <td class="py-3 px-2">50 Mbit/s</td>
+                <td class="py-3 px-2">1 天起</td>
+              </tr>
+              <tr class="border-b border-slate-800">
+                <td class="py-3 px-2">波兰</td>
+                <td class="py-3 px-2">T-Mobile / Orange</td>
+                <td class="py-3 px-2">80 / 65 Mbit/s</td>
+                <td class="py-3 px-2">$2.50 / 4h</td>
+              </tr>
+              <tr class="border-b border-slate-800">
+                <td class="py-3 px-2">西班牙</td>
+                <td class="py-3 px-2">Orange</td>
+                <td class="py-3 px-2">20 Mbit/s</td>
+                <td class="py-3 px-2">$2.50 / 4h</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-2">巴西</td>
+                <td class="py-3 px-2">Vivo / Claro</td>
+                <td class="py-3 px-2">25 Mbit/s</td>
+                <td class="py-3 px-2">$2.50 / 4h</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心功能</h2>
+        <div class="grid md:grid-cols-2 gap-6 text-sm">
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多样协议支持</h3>
+            <p class="text-slate-400 leading-relaxed">全面支持 HTTP、SOCKS5（TCP+UDP+QUIC）、OpenVPN（TCP+UDP）和 WireGuard 协议，覆盖几乎所有应用场景。SOCKS5 UDP + QUIC 支持在流媒体和实时通信场景中表现突出。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">ProxyBlocks 控制面板</h3>
+            <p class="text-slate-400 leading-relaxed">自主研发的专属控制面板，可视化配置代理的每个细节。支持实时查看代理状态、修改认证方式、调整 IP 轮换参数、切换协议模式，以及查看使用统计。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">IP 轮换引擎</h3>
+            <p class="text-slate-400 leading-relaxed">三种轮换模式：固定间隔（1 分钟至 72 小时）、按需 URL 触发、完全静态。IP 轮换仅需 4-10 秒，连接不间断。支持"跳过已用 IP"时间窗口设置。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">安全与指纹伪装</h3>
+            <p class="text-slate-400 leading-relaxed">支持 OS 被动指纹伪装（OS Fingerprint+），可在代理层面模拟不同操作系统的 TCP/IP 指纹，绕过基于指纹检测的反爬机制。支持自定义 DNS 解析器。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">不限流量</h3>
+            <p class="text-slate-400 leading-relaxed">所有套餐均不限流量传输，无带宽上限。按时间周期（天 / 周 / 月）计费，适合高负载持续运行任务，无需担心超额费用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">即时交付与试用</h3>
+            <p class="text-slate-400 leading-relaxed">支付完成后即时交付代理。提供 $2.50 的 4 小时试用选项（波兰 / 西班牙 / 巴西），评估满意后再决定是否购买长期方案。5+ 代理批量购买可享折扣。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">定价方案</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50 text-center">
+            <div class="text-emerald-400 font-bold text-xl">$2.50</div>
+            <div class="text-slate-400 text-sm mb-4">4 小时试用</div>
+            <ul class="text-sm text-slate-300 space-y-2 text-left">
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>波兰/西班牙/巴西</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>不限流量使用</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>体验全部功能</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50 text-center">
+            <div class="text-emerald-400 font-bold text-xl">1 天</div>
+            <div class="text-slate-400 text-sm mb-4">按天计费</div>
+            <ul class="text-sm text-slate-300 space-y-2 text-left">
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>5 地区全部可用</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>不限流量不限速</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>即时交付</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-emerald-500/30 ring-1 ring-emerald-500/20 text-center">
+            <div class="text-xs text-emerald-400 mb-2">推荐</div>
+            <div class="text-emerald-400 font-bold text-xl">7 天</div>
+            <div class="text-slate-400 text-sm mb-4">按周计费</div>
+            <ul class="text-sm text-slate-300 space-y-2 text-left">
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>性价比最高</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>不限流量不限速</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>5+ 批量享折扣</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50 text-center">
+            <div class="text-emerald-400 font-bold text-xl">30 天</div>
+            <div class="text-slate-400 text-sm mb-4">按月计费</div>
+            <ul class="text-sm text-slate-300 space-y-2 text-left">
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>长期项目最佳</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>不限流量不限速</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>稳定专属代理</li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-xs text-slate-500 mt-4 text-center">具体价格请访问官网配置页面选择地区、运营商和时长查看</p>
+      </section>
+
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">Visa / Mastercard / Amex</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-sky-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">PayPal</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+            <span class="text-sm text-slate-200">加密货币 (Cryptomus)</span>
+          </div>
+        </div>
+        <p class="text-xs text-slate-500 mt-3">支持 Apple Pay 和 Google Pay</p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>专属单用户代理，完全独享硬件资源</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>不限流量传输，无带宽上限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>6 种协议支持（HTTP/SOCKS5/OpenVPN/WireGuard）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>丰富的控制面板功能：指纹/DNS/轮换/IP白名单</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>真实 5G 手机 + 运营商 SIM，高信任等级</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$2.50 低门槛试用，即时交付</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅 5 个国家覆盖，缺少亚洲/北美地区</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>产品单一，仅提供移动代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>速度标注为参考值，移动网络波动较大</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面，仅支持英文</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>大量订购可能需要等待补货</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>未公开 API 文档详情</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">应用场景</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+          <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50 text-center">
+            <span class="text-emerald-400 font-semibold block">数据采集</span>
+            <span class="text-slate-500 text-xs">Web Scraping</span>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50 text-center">
+            <span class="text-emerald-400 font-semibold block">社媒管理</span>
+            <span class="text-slate-500 text-xs">Social Media</span>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50 text-center">
+            <span class="text-emerald-400 font-semibold block">广告验证</span>
+            <span class="text-slate-500 text-xs">Ad Verification</span>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50 text-center">
+            <span class="text-emerald-400 font-semibold block">SEO 分析</span>
+            <span class="text-slate-500 text-xs">SEO Analysis</span>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50 text-center">
+            <span class="text-emerald-400 font-semibold block">应用测试</span>
+            <span class="text-slate-500 text-xs">Web/App Testing</span>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50 text-center">
+            <span class="text-emerald-400 font-semibold block">市场研究</span>
+            <span class="text-slate-500 text-xs">Market Research</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyBlocks 在专属移动代理领域树立了一个独特的标准。其最大的吸引力在于"专属 + 不限量"的组合——每个用户获得一台独立专属代理，不限流量、不限速，这在移动代理市场中极为罕见。覆盖 5 个国家的多运营商选择（德国 Telekom/o2、瑞士 Sunrise、波兰 T-Mobile/Orange、西班牙 Orange、巴西 Vivo/Claro）为欧洲和南美用户提供了优质选择。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          技术上，ProxyBlocks 的控制面板深度令人印象深刻：IP 轮换（1 分钟到 72 小时可调）、3 种轮换模式、OS 被动指纹伪装、自定义 DNS、跳过已用 IP、支持 6 种连接协议（包括 WireGuard 和 QUIC）等丰富功能，远超一般移动代理服务商。即时交付和 $2.50 的低门槛试用也降低了用户的决策成本。Trustpilot 4.5 评分和 Product Hunt 展示反映了社区认可。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于覆盖范围较窄（仅 5 国），缺少北美、亚洲和澳洲地区；产品线单一（仅移动代理）；且速度受移动网络固有波动影响。综合评估，ProxyBlocks 获得 7.3 分评价。特别推荐给需要欧洲专属 5G 移动代理的用户、需要无限带宽持续运行的高频运营团队、对代理协议多样性有严格要求的开发者，以及看重代理控制面板可定制性的技术用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://proxyblocks.io/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 ProxyBlocks 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

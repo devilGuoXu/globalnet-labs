@@ -2260,5 +2260,18 @@
     "features": ["住宅30M/高级90M/企业100M+IP 无限ISP/IPv6/DC 100+国家 99.9%运行时间", "账户管理系统 永久保存配置 一键续费扩容 24/7真人客服（非聊天机器人）", "住宅95%成功率·7天粘性 高级99%成功率·1小时粘性 企业98% HTTP/SOCKS5", "$2/GB起（住宅） 无限ISP$40/天 批量自动折扣 Stripe/加密货币 24h退款"],
     "affiliateUrl": "https://enigmaproxy.net/",
     "detailUrl": "/proxy/enigmaproxy"
+  },
+  {
+    "id": "proxyblocks",
+    "name": "ProxyBlocks",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "专属",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "不限流量",
+    "features": ["德国/Swiss/波兰/西班牙/巴西5地 多运营商(Telekom/o2/Sunrise/T-Mobile/Orange/Vivo) 真实5G手机SIM", "不限流量 40-80Mbps 专属单用户 HTTP/SOCKS5+UDP+QUIC/OpenVPN/WireGuard 6协议", "ProxyBlocks控制面板 IP白名单 自定义轮换(1min-72h) OS指纹+ DNS 跳过已用IP 即时交付", "$2.50/4h试用 按天/周/月计费 5+批量折扣 Visa/Mastercard/Amex/PayPal/加密"],
+    "affiliateUrl": "https://proxyblocks.io/",
+    "detailUrl": "/proxy/proxyblocks"
   }
 ]
