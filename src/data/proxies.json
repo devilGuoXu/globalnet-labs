@@ -2325,5 +2325,18 @@
     "features": ["7000+每日在线", "无限流量不限速", "多国+美国各州", "24/7技术支持"],
     "affiliateUrl": "https://s5proxies.com/",
     "detailUrl": "/proxy/s5proxies"
+  },
+  {
+    "id": "proxied",
+    "name": "Proxied",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "多卖家市场",
+    "proxyTypes": ["4G/5G移动代理"],
+    "isFeatured": false,
+    "badge": "4G/5G专属",
+    "features": ["4G/5G专属设备", "无限流量不限速", "多国城市级定位", "$4/小时起售"],
+    "affiliateUrl": "https://proxied.com/",
+    "detailUrl": "/proxy/proxied"
   }
 ]

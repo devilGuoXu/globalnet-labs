@@ -12,7 +12,9 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </a>
 
       <div class="flex items-center gap-4 mb-6">
-        <img src={`${base}/images/s5proxies.png`} alt="S5 Proxies" class="h-16 w-auto" />
+        <div class="bg-white rounded-xl shrink-0 w-16 h-16 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/s5proxies.png`} alt="S5 Proxies" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+        </div>
         <div>
           <div class="flex items-center gap-3 flex-wrap">
             <h1 class="text-3xl font-bold text-slate-100">S5 Proxies 评测</h1>
