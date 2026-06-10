@@ -134,9 +134,15 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">价格图片</h2>
-        <div class="space-y-4">
-          <img src={`${base}/images/spyderproxy-res-price.webp`} alt="SpyderProxy 住宅代理价格" class="w-full max-w-2xl mx-auto rounded-lg" />
-          <img src={`${base}/images/spyderproxy-mob-price.webp`} alt="SpyderProxy 移动代理价格" class="w-full max-w-2xl mx-auto rounded-lg" />
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-sm text-slate-400 mb-2 text-center">住宅代理定价</h3>
+            <img src={`${base}/images/spyderproxy-res-price.webp`} alt="SpyderProxy 住宅代理价格" class="w-full max-w-2xl mx-auto rounded-lg" />
+          </div>
+          <div>
+            <h3 class="text-sm text-slate-400 mb-2 text-center">移动代理定价</h3>
+            <img src={`${base}/images/spyderproxy-mob-price.webp`} alt="SpyderProxy 移动代理价格" class="w-full max-w-2xl mx-auto rounded-lg" />
+          </div>
         </div>
       </section>
 
