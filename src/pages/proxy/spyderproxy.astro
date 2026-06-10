@@ -1,0 +1,236 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="SpyderProxy 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-6">
+        <div class="bg-white rounded-xl shrink-0 w-16 h-16 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/spyderproxy.png`} alt="SpyderProxy" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <div class="flex items-center gap-3 flex-wrap">
+            <h1 class="text-3xl font-bold text-slate-100">SpyderProxy 评测</h1>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">全产品线覆盖</span>
+          </div>
+          <p class="text-slate-400 mt-1">住宅代理 · 数据中心 · 移动 LTE · 1.3 亿+ IP · 195+ 国家</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">核心摘要</h2>
+        <div class="grid md:grid-cols-2 gap-4 text-sm">
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">代理类型</span>
+            <p class="text-slate-200 font-medium mt-1">住宅 · 预算住宅 · 静态住宅 · 数据中心 · LTE 移动 · 运动鞋 · 旋转数据中心 · 旋转移动</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">覆盖范围</span>
+            <p class="text-slate-200 font-medium mt-1">1.3 亿+ IP · 195+ 国家 · 城市级定位</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">核心特性</span>
+            <p class="text-slate-200 font-medium mt-1">0.3s 响应 · 99.99% 在线 · HTTP(S)+SOCKS5 · $1.75/GB 起</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">支付方式</span>
+            <p class="text-slate-200 font-medium mt-1">比特币 · 以太坊 · USDT · 加密货币</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          SpyderProxy 是一家拥有超大 IP 池的综合性代理服务商，提供多达 8 条产品线覆盖住宅代理、数据中心代理和移动 LTE 代理三大品类。其 IP 池总量超过 1.3 亿，覆盖 195+ 个国家，是市场上 IP 资源最丰富的服务商之一。住宅代理中又细分为 Premium Residential（$2.75/GB，1.2 亿+ IP）和 Budget Residential（$1.75/GB，1000 万+ IP），满足不同预算和质量的用户需求。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          除了代理服务，SpyderProxy 还提供多种免费在线工具，包括免费代理列表、IP 查询、DNS 泄漏测试、HTTP Header 查询、IPv6 检测、WebRTC 泄漏测试、浏览器指纹检测和代理检测器，成为代理用户的实用工具箱。平台还设有代理经销商（Reseller）计划和推荐返佣（Referral）计划。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          所有产品线均支持 HTTP(S) 和 SOCKS5 协议。静态产品（静态住宅/数据中心/LTE/运动鞋）均包含无限带宽。平均响应速度低于 0.3 秒，在线率 99.99%。支持 Python、Node.js、cURL 等多种语言和框架集成。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品线与定价方案</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+            <div class="text-emerald-400 font-bold text-2xl">$2.75</div>
+            <div class="text-slate-400 text-sm mb-2">Premium 住宅 /GB</div>
+            <ul class="text-xs text-slate-300 space-y-1">
+              <li>1.2 亿+ IP · 195+ 国家</li>
+              <li>城市级定位 · 粘性 8h</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+            <div class="text-emerald-400 font-bold text-2xl">$1.75</div>
+            <div class="text-slate-400 text-sm mb-2">预算住宅 /GB</div>
+            <ul class="text-xs text-slate-300 space-y-1">
+              <li>1000 万+ IP · 高可用</li>
+              <li>粘性 24h · 超高性价比</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+            <div class="text-emerald-400 font-bold text-2xl">$3.90</div>
+            <div class="text-slate-400 text-sm mb-2">静态住宅 /天</div>
+            <ul class="text-xs text-slate-300 space-y-1">
+              <li>140+ 国家 · 无限流量</li>
+              <li>稳定静态 IP</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+            <div class="text-emerald-400 font-bold text-2xl">$3.55</div>
+            <div class="text-slate-400 text-sm mb-2">数据中心 /月</div>
+            <ul class="text-xs text-slate-300 space-y-1">
+              <li>40+ 国家 · 无限流量</li>
+              <li>极速响应</li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+            <div class="text-emerald-400 font-bold text-2xl">$2.00</div>
+            <div class="text-slate-400 text-sm mb-2">LTE 移动 /个</div>
+            <ul class="text-xs text-slate-300 space-y-1">
+              <li>120+ 国家 · 无限流量</li>
+              <li>真实移动 IP</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+            <div class="text-emerald-400 font-bold text-2xl">$1.95</div>
+            <div class="text-slate-400 text-sm mb-2">运动鞋 /月</div>
+            <ul class="text-xs text-slate-300 space-y-1">
+              <li>抢购专用 · 无限流量</li>
+              <li>低检测率</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+            <div class="text-emerald-400 font-bold text-2xl">$1.00</div>
+            <div class="text-slate-400 text-sm mb-2">旋转数据中心 /GB</div>
+            <ul class="text-xs text-slate-300 space-y-1">
+              <li>自动轮换 · 极速</li>
+              <li>大规模采集</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+            <div class="text-emerald-400 font-bold text-2xl">$3.50</div>
+            <div class="text-slate-400 text-sm mb-2">旋转移动 /GB</div>
+            <ul class="text-xs text-slate-300 space-y-1">
+              <li>4G/5G · 最高信任度</li>
+              <li>自动轮换</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">价格图片</h2>
+        <div class="space-y-4">
+          <img src={`${base}/images/spyderproxy-res-price.webp`} alt="SpyderProxy 住宅代理价格" class="w-full max-w-2xl mx-auto rounded-lg" />
+          <img src={`${base}/images/spyderproxy-mob-price.webp`} alt="SpyderProxy 移动代理价格" class="w-full max-w-2xl mx-auto rounded-lg" />
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">比特币 (BTC)</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">以太坊 (ETH)</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">USDT</span>
+          </div>
+        </div>
+        <p class="text-xs text-slate-500 mt-3">信用卡即将支持</p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">平台特性</h2>
+        <div class="grid md:grid-cols-2 gap-6 text-sm">
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">8 条产品线全覆盖</h3>
+            <p class="text-slate-400 leading-relaxed">从预算住宅到高级住宅、从数据中心到移动 LTE、从静态到旋转，覆盖几乎所有代理使用场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">免费在线工具箱</h3>
+            <p class="text-slate-400 leading-relaxed">提供代理检测器、IP 查询、DNS 泄漏测试、浏览器指纹检测等实用免费工具，方便用户日常使用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">经销商与返佣计划</h3>
+            <p class="text-slate-400 leading-relaxed">支持 Reseller 经销商集成和 Referral 推荐返佣，适合有流量的联盟营销推广。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">快速集成</h3>
+            <p class="text-slate-400 leading-relaxed">支持 Python/Node.js/cURL/Go/Java 多种语言，提供 Socket 代理格式，即开即用。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>1.3 亿+ IP，195+ 国家，全球最大 IP 池之一</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>8 条产品线覆盖全场景</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>0.3s 响应速度 + 99.99% 在线率</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>预算住宅 $1.75/GB，极致性价比</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费工具箱 + 经销商计划</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅接受加密货币支付，无信用卡/PayPal</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无免费试用方案</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌较新，知名度有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>旋转产品按 GB 计费，非无限流量</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          SpyderProxy 凭借其庞大的 1.3 亿+ IP 池和 8 条产品线的全面覆盖，在代理市场中占据了综合型服务商的定位。从 $1.75/GB 的预算住宅到 $2.75/GB 的高级住宅，从 $3.55/月的数据中心到 $2/个的 LTE 移动代理，几乎涵盖了代理用户的全部使用场景。0.3 秒的平均响应速度和 99.99% 的在线率确保了稳定的服务质量。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Budget Residential 产品线以 $1.75/GB 的价格提供了极具性价比的入门选择，而 Premium Residential 则提供了城市级定位和 8 小时粘性会话的高级功能。静态产品全系列包含无限带宽，适合需要稳定带宽的任务。免费的在线工具箱（代理检测器、IP 查询等）为日常使用提供了额外便利。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于仅支持加密货币支付（无信用卡/PayPal）、无免费试用方案、品牌较新。综合评估，SpyderProxy 获得 7.3 分评价。特别推荐给需要多样化代理产品线的一站式用户、预算敏感型的大规模采集项目（Budget Residential）、以及希望接入经销商/返佣计划的推广者。对于偏好信用卡支付或需要免费试用的用户，建议考虑其他代理服务商。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://spyderproxy.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 SpyderProxy
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

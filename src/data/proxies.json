@@ -2351,5 +2351,18 @@
     "features": ["自有硬件设施", "16+国家覆盖", "无限流量不限速", "HTTP/SOCKS5+UDP"],
     "affiliateUrl": "https://proxystyler.com/",
     "detailUrl": "/proxy/proxystyler"
+  },
+  {
+    "id": "spyderproxy",
+    "name": "SpyderProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1.3亿+",
+    "proxyTypes": ["住宅代理", "数据中心", "移动代理"],
+    "isFeatured": false,
+    "badge": "全产品线覆盖",
+    "features": ["1.3亿+住宅IP", "195+国家覆盖", "0.3秒超低延迟", "8条产品线覆盖"],
+    "affiliateUrl": "https://spyderproxy.com/",
+    "detailUrl": "/proxy/spyderproxy"
   }
 ]
