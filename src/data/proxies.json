@@ -2208,5 +2208,18 @@
     "features": ["住宅+移动+DC+爬虫API 4类代理 4000万+IP 200国家 99.9%在线率", "住宅$1.20/GB起(1000GB) 移动$2.10/GB起 DC$0.70/GB起 批量折扣", "无限并发 自动轮换(1/10/30分钟) 黏性会话 独享IP 控制面板", "加密货币+信用卡支付 Telegram支持 白标 White-label 俄罗斯公司"],
     "affiliateUrl": "https://psbproxy.io/",
     "detailUrl": "/proxy/psbproxy"
+  },
+  {
+    "id": "proxiware",
+    "name": "Proxiware",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1亿+",
+    "proxyTypes": ["住宅代理", "移动代理", "数据中心代理"],
+    "isFeatured": false,
+    "badge": "1亿+IP",
+    "features": ["住宅Premium+Eco+无限住宅+静态ISP+移动+DC 6类代理 100M+IP 165+国家", "1亿+住宅IP 165+国家 1000+城市 ISP/城市级定位 99.99%在线率 Trustpilot 4.9", "住宅$1.25/GB起 移动$1.12/GB起 DC$0.30/GB起 Eco仅$0.15/GB Spring25优惠码", "流量滚动 60秒设置 无需信用卡 Discord/Telegram社区 24/7人工支持 5万+客户"],
+    "affiliateUrl": "https://proxiware.com/",
+    "detailUrl": "/proxy/proxiware"
   }
 ]
