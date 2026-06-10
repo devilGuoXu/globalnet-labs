@@ -1972,5 +1972,19 @@
     "affiliateUrl": "https://gsocks.net/",
     "couponCode": "",
     "detailUrl": "/proxy/gsocks"
+  },
+  {
+    "id": "catproxies",
+    "name": "CatProxies",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "2000万+",
+    "proxyTypes": ["住宅代理", "移动代理", "数据中心", "ISP代理", "IPv6代理"],
+    "isFeatured": false,
+    "badge": "无限并发",
+    "features": ["6条产品线 住宅+无限住宅+移动+DC+IPv6+ISP 2000万+住宅IP 195国家", "住宅$2.5/GB起 移动$3.4/GB起 无限住宅$70/天起 ISP$2/月起", "HTTP/SOCKS5 粘性30分钟 城市级+运营商级定位 99.9%在线 无限并发", "免费试用无信用卡 猫猫救援月捐 Trustpilot5星 24/7客服 TG/Discord"],
+    "affiliateUrl": "https://catproxies.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/catproxies"
   }
 ]
