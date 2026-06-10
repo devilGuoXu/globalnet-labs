@@ -2056,5 +2056,19 @@
     "affiliateUrl": "https://databay.com/",
     "couponCode": "",
     "detailUrl": "/proxy/databay"
+  },
+  {
+    "id": "proxyjet",
+    "name": "ProxyJet",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "7500万+",
+    "proxyTypes": ["轮换住宅", "静态住宅", "移动代理", "数据中心"],
+    "isFeatured": false,
+    "badge": "流量有效期1年",
+    "features": ["轮换住宅+静态住宅+移动+DC 75M+住宅IP 180+地区 无限并发", "住宅$0.55/GB起 静态住宅$0.75/GB起 移动$1.5/GB起 DC$0.25/GB起", "HTTP/SOCKS5 0.3秒响应 城市+州级定位 即时生成代理<20秒 失败不扣费", "流量有效期1年 自服务加密支付 24/7支持 Discord社区 反检测浏览器集成"],
+    "affiliateUrl": "https://proxyjet.io/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxyjet"
   }
 ]
