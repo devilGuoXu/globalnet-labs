@@ -1916,5 +1916,19 @@
     "affiliateUrl": "https://proxidize.com/",
     "couponCode": "",
     "detailUrl": "/proxy/proxidize"
+  },
+  {
+    "id": "simplynode",
+    "name": "SimplyNode",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "800万+",
+    "proxyTypes": ["住宅代理", "移动代理"],
+    "isFeatured": false,
+    "badge": "道德采购",
+    "features": ["住宅代理+5G/4G/LTE移动代理 800万+IP 185+国家 城市级定位", "HTTP/HTTPS/SOCKS5 无限并发 99.3%成功率 轮换/粘性会话最长6小时", "PAYG按量计费 流量永不过期 无承诺无合约 公平透明定价", "Trustpilot 4.6 道德IP采购 无日志 24/7客服 14天退款"],
+    "affiliateUrl": "https://www.simplynode.io/",
+    "couponCode": "",
+    "detailUrl": "/proxy/simplynode"
   }
 ]
