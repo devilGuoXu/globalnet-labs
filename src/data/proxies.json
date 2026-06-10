@@ -1902,5 +1902,19 @@
     "affiliateUrl": "https://2captcha.com/proxy",
     "couponCode": "",
     "detailUrl": "/proxy/2captcha"
+  },
+  {
+    "id": "proxidize",
+    "name": "Proxidize",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "数百万",
+    "proxyTypes": ["移动代理", "住宅代理"],
+    "isFeatured": false,
+    "badge": "企业级",
+    "features": ["移动代理 4G/5G 美国真实运营商 城市级+ASN/ISP定位 Per GB $2/GB", "住宅代理 195+国家 百万级IP $1/GB 按量计费 未用流量永久有效", "HTTP/HTTPS/SOCKS5 HTTP/3 QUIC UDP SOCKS 无限并发 99.992%在线", "SOC2/ISO27001 G2 4.7分 100MB免费试用 30天退款 10000+客户"],
+    "affiliateUrl": "https://proxidize.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxidize"
   }
 ]
