@@ -1944,5 +1944,19 @@
     "affiliateUrl": "https://www.quanqiudaili.com/",
     "couponCode": "",
     "detailUrl": "/proxy/quanqiudaili"
+  },
+  {
+    "id": "proxy.market",
+    "name": "Proxy.Market",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "2200万+",
+    "proxyTypes": ["住宅代理", "移动代理", "ISP代理", "数据中心"],
+    "isFeatured": false,
+    "badge": "全品类",
+    "features": ["住宅+移动+ISP+数据中心4条产品线 2200万+住宅IP 195国家 2016年成立", "住宅$2.1/GB起 移动$6.23/GB起 ISP$2.96/IP起 数据中心$0.09/IP起", "99.9%在线 24/7客服 API集成 Proxy Checker 即时交付 24小时退款", "Visa/MC/Amex/UnionPay/PayPal/Stripe/加密货币 中/英/俄"],
+    "affiliateUrl": "https://proxy.market/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxy.market"
   }
 ]
