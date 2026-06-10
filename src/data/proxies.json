@@ -2312,5 +2312,18 @@
     "features": ["1000万+住宅IP", "静态ISP代理", "城市级精准定位", "SOC 2合规认证"],
     "affiliateUrl": "https://hexproxies.com/",
     "detailUrl": "/proxy/hexproxy"
+  },
+  {
+    "id": "s5proxies",
+    "name": "S5 Proxies",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "7000+",
+    "proxyTypes": ["SOCKS5住宅"],
+    "isFeatured": false,
+    "badge": "SOCKS5住宅",
+    "features": ["7000+每日在线", "无限流量不限速", "多国+美国各州", "24/7技术支持"],
+    "affiliateUrl": "https://s5proxies.com/",
+    "detailUrl": "/proxy/s5proxies"
   }
 ]
