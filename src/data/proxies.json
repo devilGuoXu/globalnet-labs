@@ -1930,5 +1930,19 @@
     "affiliateUrl": "https://www.simplynode.io/",
     "couponCode": "",
     "detailUrl": "/proxy/simplynode"
+  },
+  {
+    "id": "quanqiudaili",
+    "name": "全球代理",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "9500万+",
+    "proxyTypes": ["住宅代理", "数据中心"],
+    "isFeatured": false,
+    "badge": "中文服务",
+    "features": ["动态住宅+静态住宅+静态机房 9500万+IP 200+国家和地区 日增5万+", "AI智能匹配IP 自定义:账号/格式/UDP/DNS/国家/城市/运营商", "99.9%在线率 1v1专属服务 24/7客服 深耕5年 5000+客户", "中文界面 支付宝/微信支付 运营商直采+自建资源 海外网络使用"],
+    "affiliateUrl": "https://www.quanqiudaili.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/quanqiudaili"
   }
 ]
