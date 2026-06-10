@@ -2000,5 +2000,19 @@
     "affiliateUrl": "https://www.yiluproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/yiluproxy"
+  },
+  {
+    "id": "evomi",
+    "name": "Evomi",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "5400万+",
+    "proxyTypes": ["住宅代理", "移动代理", "数据中心", "静态住宅", "高级住宅"],
+    "isFeatured": false,
+    "badge": "瑞士品质",
+    "features": ["住宅+移动+DC+静态住宅+高级住宅 5条产品线 5400万+道德IP 150+国家", "住宅$0.49/GB起 移动$2.20/GB起 DC$0.35/GB起 静态住宅$1/IP起", "HTTP/SOCKS5 TCP指纹模拟 城市级定位 <0.5s响应 99.99%在线 无限会话", "EWDCI道德认证 瑞士品质 免费试用1天 24/7客服 无条件退款"],
+    "affiliateUrl": "https://evomi.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/evomi"
   }
 ]
