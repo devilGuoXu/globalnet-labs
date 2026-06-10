@@ -1,0 +1,181 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="2Captcha 验证码识别服务深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-6">
+        <img src={`${base}/images/2captcha.png`} alt="2Captcha" class="h-16 w-auto" />
+        <div>
+          <div class="flex items-center gap-3 flex-wrap">
+            <h1 class="text-3xl font-bold text-slate-100">2Captcha 评测</h1>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">AI识别</span>
+          </div>
+          <p class="text-slate-400 mt-1">验证码识别 · reCAPTCHA/Image/Turnstile/FunCaptcha · AI + 人工</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">核心摘要</h2>
+        <div class="grid md:grid-cols-2 gap-4 text-sm">
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">服务类型</span>
+            <p class="text-slate-200 font-medium mt-1">验证码识别解决服务（Captcha Solving Service）</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">支持类型</span>
+            <p class="text-slate-200 font-medium mt-1">reCAPTCHA v2/v3/Enterprise · Image · Turnstile · FunCaptcha · AWS · ALTCHA</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">价格</span>
+            <p class="text-slate-200 font-medium mt-1">千次低至 $0.5（Image）· reCAPTCHA $1-2.99/千次</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">集成方式</span>
+            <p class="text-slate-200 font-medium mt-1">REST API · 多语言 SDK · 浏览器扩展 · 4500+ 软件</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          2Captcha 是全球领先的验证码识别解决服务商，以 AI 自动识别为主、人工兜底为辅的技术路线，为开发者、数据采集团队和自动化运营者提供高效、低成本的验证码绕过方案。平台支持 reCAPTCHA v2/v3/Enterprise、Image Captcha、Cloudflare Turnstile、FunCaptcha、Amazon AWS WAF、ALTCHA 等主流验证码类型，价格从千次 $0.5 起。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          2Captcha 的核心优势在于"AI-first + Human fallback"的双引擎架构——大部分验证码由 AI 模型自动识别以保证速度和可扩展性，当 AI 置信度不足时由人工标注员兜底。这种架构在保持高速度的同时确保了接近 100% 的识别准确率。平台提供 99.9% 在线率 SLA 和 24/7 技术支持。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          2Captcha 在 GitHub 上拥有丰富的开源生态，提供 Python、PHP、Ruby、Java、Golang、C#、JavaScript 等多语言 SDK。同时提供 Chrome、Firefox、Edge 浏览器扩展，已集成到 4500+ 第三方软件中。平台还提供浏览器指纹数据集和数据标注（Bounding Box）等额外服务。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心功能与技术特性</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">验证码类型全覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 reCAPTCHA v2（含 Callback/Invisible）、reCAPTCHA v3、reCAPTCHA Enterprise、Image Captcha（图片验证码）、Cloudflare Turnstile、Arkose Labs FunCaptcha、Amazon AWS WAF Captcha、ALTCHA 滑块验证码等。每种验证码均有详细的 API 文档和在线 Demo 供测试。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">AI + 人工双引擎</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">大部分验证码任务由 AI 模型自动处理，速度快、可扩展性强。当 AI 对识别结果置信度不足时，任务自动流转给人工标注员。这种 Human-in-the-loop 架构在速度与准确率之间取得了最佳平衡，特别适合处理模糊图片、复杂扭曲文字等 AI 难以独立处理的边缘情况。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">完善的开发者 API</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供 RESTful API 接口，支持同步和异步两种调用模式。API 客户端覆盖 Python、PHP、Ruby、Java、Golang、C#、JavaScript 等主流语言。开发者可将验证码识别无缝集成到 Selenium、Puppeteer、Playwright、Cypress、Scrapy 等自动化框架中。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">浏览器扩展一键解决</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供 Chrome、Firefox、Edge 三大浏览器的扩展插件，安装后可在浏览网页时自动识别并填充验证码，无需手动复制粘贴。适合需要手动操作浏览器但希望自动处理验证码的用户。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4500+ 软件生态集成</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">2Captcha 已集成到 4500+ 第三方软件和工具中，涵盖数据采集、SEO 监控、社交媒体自动化、电商运营等领域的常用软件。用户只需在软件中输入 2Captcha API Key 即可启用验证码自动识别功能。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">验证码类型与定价参考</h2>
+        <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50 overflow-x-auto">
+          <table class="w-full text-sm text-slate-300">
+            <thead>
+              <tr class="border-b border-slate-700">
+                <th class="text-left py-3 px-2">验证码类型</th>
+                <th class="text-right py-3 px-2">价格（千次）</th>
+                <th class="text-right py-3 px-2">免费容量/分钟</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">reCAPTCHA v2</td><td class="text-right py-2.5 px-2">$1 — $2.99</td><td class="text-right py-2.5 px-2">11,273</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">Image Captcha</td><td class="text-right py-2.5 px-2">$0.5 — $1</td><td class="text-right py-2.5 px-2">12,000</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">Cloudflare Turnstile</td><td class="text-right py-2.5 px-2">$1.45</td><td class="text-right py-2.5 px-2">2,883</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">reCAPTCHA v3</td><td class="text-right py-2.5 px-2">$1.45 — $2.99</td><td class="text-right py-2.5 px-2">757</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">reCAPTCHA Enterprise</td><td class="text-right py-2.5 px-2">$1 — $2.99</td><td class="text-right py-2.5 px-2">483</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">FunCaptcha</td><td class="text-right py-2.5 px-2">$1.45 — $50</td><td class="text-right py-2.5 px-2">578</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">Amazon Captcha</td><td class="text-right py-2.5 px-2">$1.45</td><td class="text-right py-2.5 px-2">5,632</td></tr>
+              <tr><td class="py-2.5 px-2">ALTCHA</td><td class="text-right py-2.5 px-2">$2.99</td><td class="text-right py-2.5 px-2">203</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-xs text-slate-500 mt-2">价格以官网实时报价为准，此处仅为参考</p>
+      </section>
+
+      <!-- 支付方式 -->
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">银行卡 / 电子支付</span>
+          </div>
+        </div>
+        <p class="text-xs text-slate-500 mt-3">具体支付方式请以官网结算页面为准</p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>验证码类型覆盖面广，支持 8+ 主流类型</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>AI + 人工双引擎，速度与准确率兼具</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>千次低至 $0.5，性价比突出</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>多语言 SDK + 浏览器扩展 + 4500+ 软件集成</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>GitHub #1 captcha solver，开源生态丰富</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.9% 在线率，24/7 技术支持</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>非代理服务，而是验证码识别服务</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>复杂 FunCaptcha 价格可达 $50/千次</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>需配合代理或其他自动化工具使用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>免费容量有限，高并发需预充值</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          2Captcha 是全球领先的验证码识别解决服务，以 AI-first + Human fallback 的双引擎架构为核心技术优势。支持 8+ 主流验证码类型（reCAPTCHA v2/v3/Enterprise、Image、Cloudflare Turnstile、FunCaptcha、AWS、ALTCHA），千次价格低至 $0.5，性价比出色。完善的开发者 API 和丰富的开源 SDK 生态使其成为自动化数据采集和浏览器自动化场景中的首选验证码解决服务。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          2Captcha 的核心价值在于"低价格 + 高准确率 + 易集成"——AI 自动处理保证了速度和低成本，人工兜底保证了复杂验证码的识别率，多语言 SDK 和浏览器扩展大幅降低了集成门槛。4500+ 软件的集成生态也证明了其市场认可度。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于非代理服务本身、复杂验证码类型价格偏高以及缺乏中文支持。综合评估，2Captcha 获得 7.3 分评价。特别推荐给需要进行大规模数据采集的代理用户、使用 Selenium/Puppeteer 进行浏览器自动化的开发者，以及需要绕过 reCAPTCHA/Cloudflare 验证的 SEO 和广告验证团队。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://2captcha.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 2Captcha 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
