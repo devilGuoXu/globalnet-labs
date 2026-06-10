@@ -2042,5 +2042,19 @@
     "affiliateUrl": "https://www.ipipgo.com/",
     "couponCode": "",
     "detailUrl": "/proxy/ipipgo"
+  },
+  {
+    "id": "databay",
+    "name": "Databay",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "3400万+",
+    "proxyTypes": ["住宅代理", "住宅Flex", "数据中心", "移动代理"],
+    "isFeatured": false,
+    "badge": "按量计费",
+    "features": ["住宅+住宅Flex+DC+移动 4条产品线 3400万+住宅IP 200+国家 无限并发", "住宅$0.65/GB起 住宅Flex$0.55/GB起 DC$0.5/GB起 移动$2.5/GB起", "HTTP/SOCKS5 粘性120分钟 城市+邮编+GPS定位 <500ms 99.9%在线", "7天退款 无月费 全REST API 反检测浏览器集成 Discord社区"],
+    "affiliateUrl": "https://databay.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/databay"
   }
 ]
