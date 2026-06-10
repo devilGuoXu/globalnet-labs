@@ -1,0 +1,192 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="AltProxy 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-6">
+        <img src={`${base}/images/altproxy.png`} alt="AltProxy" class="h-16 w-auto" />
+        <div>
+          <div class="flex items-center gap-3 flex-wrap">
+            <h1 class="text-3xl font-bold text-slate-100">AltProxy 评测</h1>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">独享IP</span>
+          </div>
+          <p class="text-slate-400 mt-1">私密代理 · 包量代理 · 移动代理 · 100+ 服务器 · 全球 100+ 国家 · 独享 IP</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">核心摘要</h2>
+        <div class="grid md:grid-cols-2 gap-4 text-sm">
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">产品类型</span>
+            <p class="text-slate-200 font-medium mt-1">私密代理 · 包量代理 · 移动代理（4G/5G）</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">覆盖范围</span>
+            <p class="text-slate-200 font-medium mt-1">100+ 全球服务器，100+ 国家，城市级定位</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">核心特性</span>
+            <p class="text-slate-200 font-medium mt-1">独享 IP · 无限流量 · 100Mbps-1Gbps · HTTP/SOCKS5 · 免费更换 IP</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">支付方式</span>
+            <p class="text-slate-200 font-medium mt-1">信用卡 · 比特币 · USDT · 以太坊 · CryptoPayments</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          AltProxy（ALTPROXY）是一家成立于 2015 年的俄罗斯代理服务商，以私密（独享）代理为核心特色，提供私密代理、包量代理和移动代理三条产品线。平台运营超过 100 台全球服务器，覆盖 100+ 个国家，IP 池规模超过 1000 万。AltProxy 最大的差异化优势在于"独享 IP"——每个代理仅供一位用户使用，购买者在整个服务期内是 IP 的唯一使用者，彻底避免了共享 IP 带来的信誉问题和封禁风险。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          AltProxy 以"独享 + 高速 + 低价"为核心定位。所有服务器带宽从 100Mbps 到 1Gbps，支持 HTTP/HTTPS 和 SOCKS5 协议，无限流量。俄罗斯、乌克兰、美国、欧洲等地大量低价节点（莫斯科 $1.5/IP 月起）。平台提供灵活的按 IP 数量、按地区、按时长的计费方式，还提供 35% 的联盟佣金计划。支持信用卡（国际和俄罗斯）、比特币、USDT、以太坊等多种加密货币支付，对隐私敏感用户极为友好。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          AltProxy 提供 24/7 技术支持，购买后 24 小时内可免费更换问题 IP。平台提供个人账户系统，用户购买后通过邮箱接收访问码，登录后可下载代理列表和管理续费。支持 VKontakte、Odnoklassniki、Instagram、Twitter、Facebook 等社交网络的代理使用。网站支持英语和俄语，主要服务俄语区市场。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特性</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">私密代理（Private Proxies）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">AltProxy 的核心产品，强调"你唯一的专属使用权"。选择国家、城市、IP 数量（1 个起）和订阅时长（1/3/6/12 个月）后即可购买。覆盖 100+ 个国家和地区，城市级定位，大量城市仅 $5/IP 月，莫斯科 $1.5/IP 月，圣彼得堡 $1.5/IP 月，基辅 $3/IP 月，伦敦、法兰克福、阿姆斯特丹 $4/IP 月。独享 IP 确保不会被他人使用影响信誉，适合多账号管理、社媒运营、SEO 监测等需要 IP 纯净度的场景。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">包量代理（Packet Proxies）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">面向大型项目和批量需求的优化方案，以更优惠的批量价格提供代理服务。适合数据采集、大规模 SEO 监测、批量账号管理等需要大量 IP 的场景。同样使用独享 IP 和高速服务器，支持 HTTP/HTTPS/SOCKS5 协议。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">移动代理（Mobile Proxies 4G/5G）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供真实 4G 和 5G 移动网络 IP，覆盖乌克兰、俄罗斯、美国和欧洲四个区域。速度 15Mbps，支持 HTTP/HTTPS/SOCKS5 协议。提供私密通道（每通道 1 用户，无限连接）和公共通道两种选择。支持通过 API 更换 IP 和重启调制解调器。移动代理定价：1 天 $22，14 天 $86（44% 优惠），30 天 $132（58% 优惠）。特别适合 SMM 推广、社媒账号管理、广告验证等对信任分要求高的场景。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">支付与隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">AltProxy 在支付隐私方面有显著优势，接受信用卡（国际 Stripe 和俄罗斯本地）、比特币、USDT、以太坊和 CryptoPayments。加密货币支付为用户提供了匿名支付选项。平台强调不将用户数据分享给第三方，所有信息传输加密。注册仅需邮箱，购买后通过邮箱接收访问码，登录个人账户即可下载代理和续费。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-2">定价方案</h2>
+        <p class="text-sm text-slate-400 mb-4">按 IP 计费，无限流量，独享使用</p>
+        <div class="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-3">私密代理</h3>
+            <p class="text-sm text-slate-300 mb-4">按 IP、城市、时长选购</p>
+            <ul class="space-y-2 text-sm text-slate-300">
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>莫斯科 $1.5/IP·月</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>圣彼得堡 $1.5/IP·月</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>伦敦/法兰克福 $4/IP·月</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>全球 100+ 城市 $5/IP·月</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>独享 IP · 无限流量</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-3">移动代理</h3>
+            <p class="text-sm text-slate-300 mb-4">4G/5G，15Mbps，私密/公共通道</p>
+            <ul class="space-y-2 text-sm text-slate-300">
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>1 天 $22</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>14 天 $86（省 44%）</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>30 天 $132（省 58%）</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>API 更换 IP</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>US/UK/EU/RU 四区域</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">信用卡</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+            <span class="text-sm text-slate-200">比特币</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+            <span class="text-sm text-slate-200">USDT</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"/></svg>
+            <span class="text-sm text-slate-200">以太坊</span>
+          </div>
+        </div>
+        <p class="text-xs text-slate-500 mt-3">具体支付方式请以官网结算页面为准</p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>独享 IP，整个服务期仅一人使用，信誉极佳</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$1.5/IP 月起，全球最便宜的独享代理之一</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>100Mbps-1Gbps 高速带宽，无限流量</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>多种加密货币支付，隐私友好</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费更换问题 IP（24 小时内）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>35% 联盟佣金，俄语区市场深耕 10 年+</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面，仅支持英语和俄语</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>俄罗斯公司，部分国家用户可能存在支付限制</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无住宅代理和旋转代理，IP 类型以 DC 为主</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 API 批量管理功能（私密代理）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>网站设计较旧，用户体验一般</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅公开承诺 90% 在线率，低于行业标准</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          AltProxy 是一家以独享 IP 为核心特色的俄罗斯代理服务商，在俄语区市场深耕超过 10 年。独享 IP 确保使用者是 IP 的唯一主人，彻底避免了共享代理常见的信誉污染和封禁问题，尤其适合多账号运营和社媒管理等对 IP 纯净度要求较高的场景。$1.5/IP 月起的极低价格和 100Mbps-1Gbps 的高速带宽使其在性价比方面具有竞争力。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          AltProxy 的核心价值在于"独享 IP + 极致低价 + 加密货币隐私"——与主流住宅代理按 GB 计费的昂贵模式不同，AltProxy 提供按 IP 计费的独享方案，适合长期稳定使用的用户。多种加密货币支付选项对隐私敏感用户友好，35% 联盟佣金也对推广者具有吸引力。莫斯科 $1.5/IP 月、伦敦 $4/IP 月的定价在独享代理市场中极具竞争力。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于无中文界面、IP 类型以数据中心为主、无 API 批量管理功能以及仅承诺 90% 在线率。综合评估，AltProxy 获得 7.3 分评价。特别推荐给需要独享 IP 的多账号管理用户、对隐私和加密货币支付有需求的用户、俄语区市场运营者，以及预算有限但需要纯净 IP 的小团队。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://altproxy.com/en/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 AltProxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

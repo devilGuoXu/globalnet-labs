@@ -2098,5 +2098,19 @@
     "affiliateUrl": "https://www.limeproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/limeproxies"
+  },
+  {
+    "id": "altproxy",
+    "name": "AltProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1000万+",
+    "proxyTypes": ["私密代理", "包量代理", "移动代理"],
+    "isFeatured": false,
+    "badge": "独享IP",
+    "features": ["私密代理+包量代理+移动代理 100+服务器 全球100+国家 无限流量", "独享IP 唯一使用者 100Mbps-1Gbps 灵活地区定位 A级子网选择", "HTTP/SOCKS5 10M+移动IP 15Mbps API更换IP 免费更换IP", "35%联盟佣金 加密货币支付 俄罗斯技术团队 24/7技术支持"],
+    "affiliateUrl": "https://altproxy.com/en/",
+    "couponCode": "",
+    "detailUrl": "/proxy/altproxy"
   }
 ]
