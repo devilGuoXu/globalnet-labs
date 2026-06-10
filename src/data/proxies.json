@@ -1862,6 +1862,20 @@
     "detailUrl": "/proxy/proxy6"
   },
   {
+    "id": "mobilehop",
+    "name": "MobileHop",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "—",
+    "proxyTypes": ["4G移动代理", "5G移动代理"],
+    "isFeatured": false,
+    "badge": "专属设备",
+    "features": ["Verizon/AT&T 4G/5G 专属移动代理 50+ 美国城市覆盖", "MultiHop多城市漫游 单专属设备 无限IP变更 自动轮换", "HTTPS/SOCKS5/L2TP VPN 多协议 TCP指纹伪造 99.9%在线", "24/7 在线客服 PayPal/加密货币/信用卡 即时交付 API集成"],
+    "affiliateUrl": "https://mobilehop.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/mobilehop"
+  },
+  {
     "id": "gridpanel",
     "name": "GridPanel",
     "type": "mobile-proxy",
