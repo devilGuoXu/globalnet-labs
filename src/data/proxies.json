@@ -1862,6 +1862,20 @@
     "detailUrl": "/proxy/proxy6"
   },
   {
+    "id": "gridpanel",
+    "name": "GridPanel",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "5000+",
+    "proxyTypes": ["4G/5G移动代理", "住宅代理", "数据中心"],
+    "isFeatured": false,
+    "badge": "真实设备",
+    "features": ["4G/5G 专属移动代理 + 住宅代理 + 数据中心 + Scraping API 全产品线", "英国/美国/德国/荷兰 4G/5G 独立设备 真实 SIM 无限流量", "住宅代理 PAYG 模式 数据中心按时计费 Scraping API 按次计费", "99.99% 在线率 HTTP/SOCKS5 完全匿名 自动 IP 轮换 5000+ 客户"],
+    "affiliateUrl": "https://gridpanel.net/",
+    "couponCode": "",
+    "detailUrl": "/proxy/gridpanel"
+  },
+  {
     "id": "2captcha",
     "name": "2Captcha",
     "type": "captcha-service",
