@@ -2154,5 +2154,19 @@
     "affiliateUrl": "https://www.iphtml.com/",
     "couponCode": "",
     "detailUrl": "/proxy/iphtml"
+  },
+  {
+    "id": "froxy",
+    "name": "Froxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1000万+",
+    "proxyTypes": ["住宅代理", "移动代理", "数据中心代理"],
+    "isFeatured": false,
+    "badge": "流量结转",
+    "features": ["住宅+移动+DC 3类代理+SERP爬虫+电商爬虫 1000万+IP 200+地点", "HTTP/SOCKS5 旋转+黏性会话 流量自动结转 99.99%在线率", "住宅$2.69/GB起 移动$3.90/GB起 DC$0.60/GB起 $1.99试用3天", "中文/多语言 G2 4.8 Trustpilot 加密货币+Visa/Mastercard/Amex"],
+    "affiliateUrl": "https://froxy.com/zh-cn",
+    "couponCode": "",
+    "detailUrl": "/proxy/froxy"
   }
 ]

@@ -1,0 +1,173 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Froxy 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-6">
+        <img src={`${base}/images/froxy.png`} alt="Froxy" class="h-16 w-auto" />
+        <div>
+          <div class="flex items-center gap-3 flex-wrap">
+            <h1 class="text-3xl font-bold text-slate-100">Froxy 评测</h1>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">流量结转</span>
+          </div>
+          <p class="text-slate-400 mt-1">住宅代理 · 移动代理 · 数据中心 · SERP爬虫 · 电商爬虫 · 爱沙尼亚公司</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">核心摘要</h2>
+        <div class="grid md:grid-cols-2 gap-4 text-sm">
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">产品类型</span>
+            <p class="text-slate-200 font-medium mt-1">住宅代理 · 移动代理 · 数据中心代理 · SERP 爬虫 · 电商爬虫</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">覆盖范围</span>
+            <p class="text-slate-200 font-medium mt-1">1000 万+ IP，200+ 地点，城市级定位</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">核心特性</span>
+            <p class="text-slate-200 font-medium mt-1">流量自动结转 · 99.99% 在线率 · 旋转+黏性会话 · 多语言</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">支付方式</span>
+            <p class="text-slate-200 font-medium mt-1">Visa · Mastercard · Amex · 比特币 · 以太坊 · LTC · BNB · TonCoin</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Froxy（运营主体 Wergames OÜ）是一家总部位于爱沙尼亚塔林的代理服务商，提供住宅代理、移动代理和数据中心代理三条主要产品线，以及 SERP 爬虫和电商爬虫两种数据抓取工具。平台在全球拥有 1000 万+ IP 地址，覆盖 200+ 个地点，支持 HTTP/HTTPS/SOCKS5 协议和城市级定位。G2 评分 4.8，Trustpilot 上有大量真实用户评价。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Froxy 最独特的差异化优势是"流量结转"——所有未使用的流量会在续费时自动结转到下一个计费周期，用户不会浪费任何已购买的流量。同时平台提供 3 天 $1.99 的试用期，让用户在正式购买前充分测试代理质量。住宅代理起价 $2.69/GB，移动代理 $3.90/GB，数据中心代理低至 $0.60/GB，定价透明且有竞争力。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          平台支持中文、英文、俄语、葡萄牙语、日语五种语言界面，对中文用户非常友好。支持多种加密货币支付（比特币、以太坊、莱特币、BNB、TonCoin、Capitalist）以及 Visa/Mastercard/Amex 传统信用卡支付。提供 KYC 验证、详细的帮助文档和 24/7 技术支持。公司成立于 2021 年，注册于爱沙尼亚，提供明确的服务条款、隐私政策和退款政策。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特性</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅代理（Residential Proxy）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">1000 万+ 真实住宅 IP，来自 200+ 个地点，支持城市级和 ISP 级别精确定位。支持 HTTP/HTTPS/SOCKS5 协议，旋转和黏性两种会话模式。一个套餐即可访问全球所有地点，无需按国家购买。未使用流量自动结转至下月，99.99% 在线率。支持 3 天 $1.99 试用。支付方式包括加密货币和信用卡。起价 $2.69/GB，提供常规和企业两种套餐层级。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">移动代理（Mobile Proxy 4G/5G）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">真实运营商 4G/5G 移动 IP，覆盖 200+ 个地点，1000 万+ IP 池。支持城市级甚至运营商级别定位。自动 IP 轮换，最低封禁率。支持 HTTP/HTTPS/SOCKS5，99.99% 在线率，24/7 技术支持。流量同样支持结转。起价 $3.90/GB。移动和移动+两种套餐层级，适合社媒账户管理、App 测试、广告验证等场景。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心代理（Datacenter Proxy）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">高速共享数据中心代理，部署于美国、欧洲等多个地点。支持 HTTPS 和 SOCKS5 协议，流量结转。起价 $0.60/GB，性价比极高。与 Helium Scraper、PhantomBuster、GoLogin、AdsPower、Dolphin Anty、Kameleo、Jarvee 等工具深度集成。适合大规模爬虫、SEO 监测、竞品跟踪等对速度要求高的场景。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">SERP 爬虫与电商爬虫</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Froxy 同时提供两种数据抓取工具：SERP 爬虫支持所有主流搜索引擎，$1.32/1000 次请求起，无验证码，输出 JSON 或 CSV。电商爬虫支持 Amazon、eBay、AliExpress 等主流电商平台，同样 $1.32/1000 次请求起。两种工具均内置代理池，无需单独配置代理。适合 SEO 监测、价格跟踪、市场研究等场景。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">住宅代理定价</h2>
+        <div class="mt-4">
+          <img src={`${base}/images/froxy-res-price.webp`} alt="Froxy 住宅代理定价" class="w-full rounded-xl" />
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">移动代理定价</h2>
+        <div class="mt-4">
+          <img src={`${base}/images/froxy-mob-price.webp`} alt="Froxy 移动代理定价" class="w-full rounded-xl" />
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">Visa/Mastercard/Amex</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+            <span class="text-sm text-slate-200">比特币/ETH/LTC</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+            <span class="text-sm text-slate-200">BNB/TonCoin</span>
+          </div>
+        </div>
+        <p class="text-xs text-slate-500 mt-3">具体支付方式请以官网结算页面为准</p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>流量自动结转，不浪费任何已购流量</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅 $2.69/GB + DC $0.60/GB，定价合理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>中英俄葡日五语言界面，中文用户友好</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>G2 4.8 + Trustpilot 真实用户评价</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.99% 在线率，旋转+黏性两种会话模式</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>丰富加密货币支付 + $1.99 三天试用</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动代理 $3.90/GB 起，价格偏高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>KYC 验证要求可能影响部分用户的支付流畅度</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>数据中心代理仅共享模式，无独享选项</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无公开 API 文档，集成需自行联系支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅 IP 池 1000 万+，在行业中属于中等规模</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持静态 ISP 代理，产品线以旋转为主</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Froxy（Wergames OÜ）是一家爱沙尼亚代理服务商，以"流量结转"为核心差异化优势——所有未使用流量自动转入下一周期，这在代理行业中较为罕见。三条代理产品线（住宅、移动、DC）加上两种爬虫工具覆盖了从个人开发到企业级数据采集的广泛需求。住宅 $2.69/GB、DC $0.60/GB 的定价颇具竞争力。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Froxy 对多语言市场的投入值得关注——支持中、英、俄、葡、日五种界面语言，在非英语代理服务商中较为少见。加密货币支付支持 BTC、ETH、LTC、BNB、TonCoin 等多种币种，对隐私敏感用户友好。G2 4.8 评分和 Trustpilot 上的真实用户反馈表明服务质量得到市场验证。与 GoLogin、AdsPower、Dolphin Anty 等指纹浏览器的集成也降低了社媒运营者的使用门槛。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于移动代理价格偏高、KYC 验证可能影响支付体验、共享 DC 代理无独享选项。综合评估，Froxy 获得 7.3 分评价。特别推荐给注重流量利用率的团队、需要多语言服务的中文用户、偏好加密货币支付的隐私用户，以及寻求 SERP 和电商爬虫一站式解决方案的开发团队。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://froxy.com/zh-cn" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Froxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
