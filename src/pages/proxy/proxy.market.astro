@@ -12,7 +12,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </a>
 
       <div class="flex items-center gap-4 mb-6">
-        <img src={`${base}/images/proxy.market.png`} alt="Proxy.Market" class="h-16 w-auto" />
+        <img src={`${base}/images/proxy-market.png`} alt="Proxy.Market" class="h-16 w-auto" />
         <div>
           <div class="flex items-center gap-3 flex-wrap">
             <h1 class="text-3xl font-bold text-slate-100">Proxy.Market 评测</h1>
@@ -76,6 +76,17 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">工具生态与 API 集成</h3>
             <p class="text-sm text-slate-400 leading-relaxed">Proxy.Market 提供丰富的在线工具：Proxy Checker 可批量检测代理可用性、Format Converter 支持多种代理格式互转、IPv6 Checker 检测 IPv6 兼容性、Online Calculator 帮助估算流量需求。完整的 REST API 文档支持代理的购买、续费、列表创建等全生命周期管理，支持与 Docker、Python、Android、Linux 等环境集成。支持 Telegram 客服通道。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <img src={`${base}/images/proxy-market-res-price.webp`} alt="Proxy.Market 住宅代理定价 - 住宅代理起售价$2.1/GB，移动$6.23/GB起" class="w-full rounded-lg border border-slate-700/50" loading="lazy" />
+          </div>
+          <div>
+            <img src={`${base}/images/proxy-market-mob-price.webp`} alt="Proxy.Market 移动代理定价 - 移动代理起售价$6.23/GB，住宅$2.1/GB起" class="w-full rounded-lg border border-slate-700/50" loading="lazy" />
           </div>
         </div>
       </section>
