@@ -2084,5 +2084,19 @@
     "affiliateUrl": "https://www.aluvia.io/",
     "couponCode": "",
     "detailUrl": "/proxy/aluvia"
+  },
+  {
+    "id": "limeproxies",
+    "name": "LimeProxies",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "8000万+",
+    "proxyTypes": ["住宅代理", "移动代理", "ISP代理", "静态住宅", "数据中心"],
+    "isFeatured": false,
+    "badge": "免费试用",
+    "features": ["住宅+移动+ISP+静态住宅+DC+SOCKS5 7条产品线 8000万+IP 195+国家", "免费试用 无需信用卡 即时设置 自定义代理数量/带宽/地区 灵活套餐", "HTTP/SOCKS5 99.97%成功率 Chrome插件 24/7专家支持 完整API文档", "Trustpilot 4.8 5000+企业信赖 免费试用 Chrome扩展"],
+    "affiliateUrl": "https://www.limeproxies.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/limeproxies"
   }
 ]

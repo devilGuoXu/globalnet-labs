@@ -1,0 +1,170 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="LimeProxies 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-6">
+        <img src={`${base}/images/limeproxies.png`} alt="LimeProxies" class="h-16 w-auto" />
+        <div>
+          <div class="flex items-center gap-3 flex-wrap">
+            <h1 class="text-3xl font-bold text-slate-100">LimeProxies 评测</h1>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">免费试用</span>
+          </div>
+          <p class="text-slate-400 mt-1">住宅代理 · 移动代理 · ISP 代理 · 静态住宅 · 数据中心 · 8000 万+ IP · 195+ 国家</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">核心摘要</h2>
+        <div class="grid md:grid-cols-2 gap-4 text-sm">
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">产品类型</span>
+            <p class="text-slate-200 font-medium mt-1">住宅 · 移动 · 轮换 ISP · 静态住宅 · 独享 DC · 共享 DC · SOCKS5</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">覆盖范围</span>
+            <p class="text-slate-200 font-medium mt-1">195+ 国家，8000 万+ 住宅 IP</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">核心特性</span>
+            <p class="text-slate-200 font-medium mt-1">99.97% 成功率 · HTTP/SOCKS5 · Chrome 扩展 · 完整 API · 即时设置</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">信任评分</span>
+            <p class="text-slate-200 font-medium mt-1">Trustpilot 4.8 · 5000+ 企业信赖 · 免费试用无需信用卡 · 24/7 专家支持</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          LimeProxies 是一家老牌的代理服务商，以产品线齐全、免费试用和优秀的客户支持著称。平台拥有超过 8000 万住宅 IP 资源，覆盖全球 195+ 个国家和地区，提供住宅代理、移动代理、轮换 ISP 代理、静态住宅代理、独享数据中心、共享数据中心和 SOCKS5 代理共 7 条产品线，是市场上产品最全面的代理平台之一。Trustpilot 评分高达 4.8 分（102 条评价），已获得超过 5000 家企业的信赖。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          LimeProxies 的核心差异化优势在于"全产品线 + 免费试用 + 自定义套餐"——平台提供从住宅到数据中心、从共享到独享、从 HTTP 到 SOCKS5 的全方位代理产品，用户可以免费试用（无需信用卡），账户即时激活。与其他按 GB 计费的平台不同，LimeProxies 允许用户自定义代理数量、带宽、地区和刷新频率，灵活度极高。99.97% 的成功率和 24/7 专家支持进一步保障了服务质量。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          LimeProxies 提供 Chrome 浏览器扩展（评分最高的代理插件之一），用户可以在浏览器中一键切换代理 IP。平台还提供完善的 API 文档，支持与 Scrapy、Puppeteer、Selenium、Playwright 等自动化工具的集成。LimeProxies 已被 Authority Labs、WebPosition、Booking.com、Hotels.com 等行业领先企业采用，在数据采集、电商监控、广告验证、SEO 监测等场景中广泛应用。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特性</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅代理（Residential）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">LimeProxies 的核心产品，提供 8000 万+ 真实住宅 IP，覆盖 195+ 个国家。自动轮换 IP 机制确保每次请求更换新 IP，保障数据采集的匿名性和稳定性。支持城市和州级定位，HTTP/HTTPS/SOCKS5 协议。配合 Chrome 扩展即可在浏览器中一键使用住宅代理，无需复杂配置。99.97% 的成功率在行业中处于领先水平。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">移动代理与 ISP 代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">移动代理提供真实 4G/5G 移动网络 IP，适合社媒管理、广告验证和移动端测试等高信任分场景。轮换 ISP 代理介于住宅和 DC 之间，提供接近住宅的信任等级和接近 DC 的速度，性价比出色。静态住宅代理适用于需要长期保持固定 IP 的粘性会话场景，如账号管理和登录态保持。各产品线均支持自定义套餐配置，用户可按需选择代理数量和带宽。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心代理（独享/共享）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供独享和共享两种数据中心代理方案。独享数据中心代理为单一用户保留专属 IP，速度最快、纯净度最高，适合对性能和稳定性要求严格的企业级采集任务。共享数据中心代理性价比较高，适合预算有限的常规数据采集、SEO 监测和价格追踪场景。50 万+ 数据中心 IP 覆盖全球主要地区，HTTP/HTTPS/SOCKS5 协议支持。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Chrome 扩展与开发者工具</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">LimeProxies 的 Chrome 浏览器扩展是其特色产品之一——用户安装后可在浏览器右上角一键切换代理 IP，实时查看可用代理列表和连接状态，极大地降低了代理使用门槛。平台还提供完善的 REST API 文档，支持代理自动轮换、批量提取和管理功能。自定义套餐功能允许用户精确选择代理数量、带宽（GB）、地区和 IP 刷新频率，真正做到按需付费。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-2">定价方案</h2>
+        <p class="text-sm text-slate-400 mb-6">免费试用，无需信用卡，自定义套餐</p>
+        <div class="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-sm mb-3">住宅代理定价</h3>
+            <img src={`${base}/images/limeproxies-res-price.webp`} alt="LimeProxies 住宅代理定价" class="w-full rounded-lg border border-slate-700/50" loading="lazy" />
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-sm mb-3">移动代理定价</h3>
+            <img src={`${base}/images/limeproxies-mob-price.webp`} alt="LimeProxies 移动代理定价" class="w-full rounded-lg border border-slate-700/50" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">信用卡</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-sky-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">PayPal</span>
+          </div>
+        </div>
+        <p class="text-xs text-slate-500 mt-3">具体支付方式请以官网结算页面为准</p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>7 条产品线全覆盖，住宅/移动/ISP/DC/SOCKS5 一站式选择</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费试用无需信用卡，即时开通</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Chrome 扩展一键切换代理，使用极为便捷</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>自定义套餐，精确控制代理数量/带宽/地区</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.97% 成功率，Trustpilot 4.8 高分评价</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>24/7 专家技术支持，5000+ 企业信赖</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面，国内用户使用不便</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无公开的合规认证（SOC 2 等）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无加密货币支付选项</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动代理池大小未明确披露</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 AI 代理 SDK 等现代开发者工具</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 Windows/APP 客户端</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          LimeProxies 是一家产品线极为齐全的老牌代理服务商，从住宅代理到数据中心、从共享 IP 到独享 IP、从 HTTP 到 SOCKS5，几乎覆盖了所有代理使用场景。免费试用（无需信用卡）和 Chrome 扩展两大特色使其对新手用户尤其友好，自定义套餐功能则让企业用户可以根据精确需求配置资源。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          LimeProxies 的核心价值在于"全产品线 + 零门槛试用 + 高度自定义"——7 条产品线使其成为少数能一站式满足不同代理需求的平台之一。免费试用无需信用卡的政策降低了评估成本，Chrome 扩展极大简化了日常使用，自定义套餐的灵活性在传统代理服务商中较为罕见。Trustpilot 4.8 分和 5000+ 企业客户的规模也验证了其服务质量和市场认可度。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于无中文界面、无加密货币支付、无 AI 代理 SDK 等现代开发者工具。综合评估，LimeProxies 获得 7.3 分评价。特别推荐给需要全产品线代理服务的企业用户、希望免费试用后再购买的新手、偏好 Chrome 扩展一键切换代理的轻度用户，以及需要自定义套餐配置的灵活需求用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.limeproxies.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 LimeProxies 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
