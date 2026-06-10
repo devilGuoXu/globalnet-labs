@@ -2286,5 +2286,18 @@
     "features": ["IPv4静态DC 1Gbps 美国机房 160₽/起 IPv4静态ISP 住宅IP 240₽/起 即买即用附送IPv6", "IPv6旋转代理 Windstream ISP/DC/SimpleDC 轮换1秒-24h 海量地址 195国200+地点", "线程计费100-10000线程 月付/周付 IPv6起500₽/月 自有基础设施 HTTP/SOCKS5", "Robokassa支付 中文/英文/俄文 Telegram即时支持 Discord社区 俄罗斯公司"],
     "affiliateUrl": "https://dcproxy.shop/en",
     "detailUrl": "/proxy/dcproxy"
+  },
+  {
+    "id": "ipnproxy",
+    "name": "IPNProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1800万+",
+    "proxyTypes": ["住宅代理", "移动代理", "数据中心代理"],
+    "isFeatured": false,
+    "badge": "流量不限期",
+    "features": ["住宅18M+IP $1.75/GB起 高级移动/普通移动/数据中心 4大产品线 HTTP/SOCKS5", "精准定位：国家/城市/邮编/ASN 美国34万+/英国29万+/澳洲21万+/德法加", "按量计费 余额不限期 粘性会话+自动轮换 纯净IP低欺诈分 API+Dashboard全控制", "USDT/BTC/ETH/LTE加密+信用卡 俄语/英语 Trustpilot好评 SourceForge奖"],
+    "affiliateUrl": "https://ipnproxy.com/en",
+    "detailUrl": "/proxy/ipnproxy"
   }
 ]
