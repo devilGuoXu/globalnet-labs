@@ -2364,5 +2364,18 @@
     "features": ["1.3亿+住宅IP", "195+国家覆盖", "0.3秒超低延迟", "8条产品线覆盖"],
     "affiliateUrl": "https://spyderproxy.com/",
     "detailUrl": "/proxy/spyderproxy"
+  },
+  {
+    "id": "my4gproxy",
+    "name": "My 4G Proxy",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "16+国家",
+    "proxyTypes": ["4G移动代理"],
+    "isFeatured": false,
+    "badge": "独享4G代理",
+    "features": ["16+国家覆盖", "一端口一用户", "无限流量不限速", "指纹浏览器适配"],
+    "affiliateUrl": "https://my4gproxy.com/",
+    "detailUrl": "/proxy/my4gproxy"
   }
 ]
