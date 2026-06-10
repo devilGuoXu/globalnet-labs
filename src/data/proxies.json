@@ -1986,5 +1986,19 @@
     "affiliateUrl": "https://catproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/catproxies"
+  },
+  {
+    "id": "yiluproxy",
+    "name": "YiluProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "9000万+",
+    "proxyTypes": ["动态住宅", "动态手机", "动态机房", "静态住宅", "静态机房"],
+    "isFeatured": false,
+    "badge": "中文界面",
+    "features": ["5条产品线 动态住宅+手机+机房+静态住宅+静态机房 9000万+IP 200+国家", "动态住宅￥35/GB起 动态手机￥75/GB起 动态机房￥5/GB起 静态住宅￥56/IP起", "HTTP/SOCKS5 城市级定位 99.99%在线 无限并发 无限带宽 毫秒响应", "中文界面 支付宝/USDT支付 专属客户端 免费试用 1v1客服 TG支持"],
+    "affiliateUrl": "https://www.yiluproxy.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/yiluproxy"
   }
 ]
