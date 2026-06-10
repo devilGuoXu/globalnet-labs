@@ -2028,5 +2028,19 @@
     "affiliateUrl": "https://www.joinmassive.com/zh",
     "couponCode": "",
     "detailUrl": "/proxy/joinmassive"
+  },
+  {
+    "id": "ipipgo",
+    "name": "IPIPGO",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "9000万+",
+    "proxyTypes": ["动态住宅", "静态住宅", "数据中心", "独享静态", "动态不限量"],
+    "isFeatured": false,
+    "badge": "中文界面",
+    "features": ["动态住宅+静态住宅+数据中心+TikTok专线+SERP API 8条产品线 9000万+IP 200+国家", "动态住宅￥3.04/GB起 静态住宅￥17.91/IP月起 数据中心￥2.16/GB起", "HTTP/SOCKS5 城市级定位 无限并发 百兆带宽 PC/APP客户端 插件", "TikTok专线方案 ISO9001/27001认证 中文界面 1v1客服 免费试用"],
+    "affiliateUrl": "https://www.ipipgo.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/ipipgo"
   }
 ]
