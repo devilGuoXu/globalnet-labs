@@ -2231,7 +2231,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "数据中心代理"],
     "isFeatured": false,
     "badge": "Chrome扩展",
-    "features": ["住宅Premium+Exclusive+无限+移动+DC+AT&T+IPv6 7类代理 7500万+IP", "7500万+住宅IP 195+国家 ASN/城市/州级定位 IP质量过滤 3天免费试用", "住宅$1.59/GB起(1TB) Exclusive$1.50/GB起 移动$2.50/GB起 $2.19 Exclusive特价", "3天免费试用 无需信用卡 Chrome扩展 GoLogin集成 WhatsApp/Telegram支持 JUN15优惠码"],
+    "features": ["住宅Premium/Exclusive/无限/移动/DC/AT&T/IPv6 7类代理", "7500万+住宅IP 195+国家 ASN/城市/州级定位 3天免费试用", "住宅$1.59/GB起(1TB) Exclusive$1.50/GB起 移动$2.50/GB起", "3天免费试用 无需信用卡 Chrome扩展 GoLogin集成 JUN15优惠码"],
     "affiliateUrl": "https://rainproxy.io/",
     "detailUrl": "/proxy/rainproxy"
   },
@@ -2270,7 +2270,7 @@
     "proxyTypes": ["移动代理"],
     "isFeatured": false,
     "badge": "不限流量",
-    "features": ["德国/Swiss/波兰/西班牙/巴西5地 多运营商(Telekom/o2/Sunrise/T-Mobile/Orange/Vivo) 真实5G手机SIM", "不限流量 40-80Mbps 专属单用户 HTTP/SOCKS5+UDP+QUIC/OpenVPN/WireGuard 6协议", "ProxyBlocks控制面板 IP白名单 自定义轮换(1min-72h) OS指纹+ DNS 跳过已用IP 即时交付", "$2.50/4h试用 按天/周/月计费 5+批量折扣 Visa/Mastercard/Amex/PayPal/加密"],
+    "features": ["德/瑞士/波兰/西班牙/巴西5国 多运营商 真实5G手机SIM卡", "不限流量 40-80Mbps 专属单用户 HTTP/SOCKS5/WireGuard/QUIC", "控制面板 IP白名单 自定义轮换(1min-72h) 跳过已用IP", "$2.50/4h试用 按天/周/月计费 批量折扣 Visa/PayPal/加密"],
     "affiliateUrl": "https://proxyblocks.io/",
     "detailUrl": "/proxy/proxyblocks"
   },
