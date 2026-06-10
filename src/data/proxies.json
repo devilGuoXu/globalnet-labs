@@ -1114,7 +1114,7 @@
     "proxyTypes": ["4G/5G移动代理"],
     "isFeatured": false,
     "badge": "$1一小时试用",
-    "features": ["100%独享物理设备+真实SIM卡", "德国/英国/美国三地运营商", "HTTP/SOCKS5/OpenVPN/WireGuard四协议", "三模式IP轮换6-20秒"],
+    "features": ["独享物理设备+真实SIM卡", "德/英/美三地运营商", "四协议全面兼容", "三模式IP轮换"],
     "affiliateUrl": "https://www.mobileproxynow.com/",
     "couponCode": "",
     "detailUrl": "/proxy/mobileproxynow"
@@ -1170,7 +1170,7 @@
     "proxyTypes": ["4G/5G移动代理", "住宅VPN", "IPv4代理"],
     "isFeatured": false,
     "badge": "独享物理设备",
-    "features": ["独享4G/5G物理设备真实运营商IP", "95-99% Trust Score", "HTTP/SOCKS5/OpenVPN三协议", "AI生态MCP Server/AI Visibility Lab"],
+    "features": ["独享4G/5G真实设备", "95-99%信任评分", "三协议全面兼容", "AI生态MCP集成"],
     "affiliateUrl": "https://www.coronium.io/",
     "couponCode": "",
     "detailUrl": "/proxy/coronium"
@@ -1184,7 +1184,7 @@
     "proxyTypes": ["数据中心", "住宅", "移动", "ISP", "SOCKS5", "Shadowsocks", "Trojan", "WireGuard"],
     "isFeatured": false,
     "badge": "$0.5/月起",
-    "features": ["15+ 年运营经验 10+ 种代理/VPN 协议", "Shadowsocks/Trojan/WireGuard 增强隐私", "静态代理不限带宽 + 即时激活", "精确到子网/城市/州/国家 IP 选择"],
+    "features": ["15年运营+10种协议", "增强隐私协议支持", "静态代理不限带宽", "精确IP定位选择"],
     "affiliateUrl": "https://www.anonymous-proxies.net/",
     "couponCode": "",
     "detailUrl": "/proxy/anonymous-proxies"
@@ -1198,7 +1198,7 @@
     "proxyTypes": ["静态代理", "轮换代理", "直连代理"],
     "isFeatured": false,
     "badge": "$0.8/GB起",
-    "features": ["1亿+活跃住宅IP 195国家覆盖", "静态$1.2/月·轮换$0.8/GB·直连$1.8/月", "100%合规住宅代理城市/州/ISP定位", "免费试用+Dashboard+API"],
+    "features": ["1亿+住宅全球覆盖", "三种代理模式可选", "合规城市级定位", "免费试用+API集成"],
     "affiliateUrl": "https://www.ipcola.com/",
     "couponCode": "",
     "detailUrl": "/proxy/ipcola"
@@ -1226,7 +1226,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "ISP代理", "数据中心", "Scraper API"],
     "isFeatured": false,
     "badge": "$0.35/GB起",
-    "features": ["住宅Basic/Standard/Survey三级按量计费", "移动4G/5G/LTE真实蜂窝 + ISP $1.20/IP", "115+ Scraper API 覆盖23+社媒平台", "无合约$2起充24h退款 Trustpilot 4.6"],
+    "features": ["住宅三级按量计费", "移动4G/5G真实蜂窝", "115+爬虫API覆盖", "无合约+退款保障"],
     "affiliateUrl": "https://hproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/hproxy"
@@ -1240,7 +1240,7 @@
     "proxyTypes": ["ISP数据中心", "住宅代理", "Gmail账号", "EliteHeaven"],
     "isFeatured": false,
     "badge": "$11/月起",
-    "features": ["ISP代理$15.90-$80/月球鞋抢购深度优化", "住宅代理全站点兼容无限IP生成", "EliteHeaven邀请制隔离独立网络", "HEAVEN 25%折扣 7x24 Discord客服"],
+    "features": ["ISP球鞋抢购优化", "住宅全站点兼容", "Elite独立网络", "7x24客服支持"],
     "affiliateUrl": "https://proxyheaven.io/",
     "couponCode": "HEAVEN",
     "detailUrl": "/proxy/proxyheaven"
@@ -1254,7 +1254,7 @@
     "proxyTypes": ["动态住宅", "无限住宅", "长效ISP", "静态住宅", "数据中心", "Scraper API"],
     "isFeatured": false,
     "badge": "中文界面",
-    "features": ["9000万+住宅IP195+国家覆盖", "完整中文界面+中文客服+指纹浏览器生态", "城市/ISP/ASN精确定位+多平台客户端", "512MB免费试用 Trustpilot 4.9"],
+    "features": ["9000万+住宅覆盖", "中文界面+中文客服", "精确定位+多客户端", "免费试用可信赖"],
     "affiliateUrl": "https://www.911proxy.com/zh-hans/",
     "couponCode": "",
     "detailUrl": "/proxy/911proxy"
@@ -1268,7 +1268,7 @@
     "proxyTypes": ["住宅代理", "无限住宅", "长效ISP", "静态住宅", "数据中心"],
     "isFeatured": false,
     "badge": "九种语言",
-    "features": ["8000万+住宅IP195国家99.95%在线率", "九种语言界面+中文客服+指纹浏览器生态", "城市/ISP/街道级定位+五条产品线", "AI/LLM数据采集专项适配"],
+    "features": ["8000万+住宅IP覆盖", "九种语言界面", "街道级精确定位", "AI数据采集适配"],
     "affiliateUrl": "https://www.nsocks.com/zh/",
     "couponCode": "",
     "detailUrl": "/proxy/nsocks"
@@ -1282,7 +1282,7 @@
     "proxyTypes": ["住宅代理", "不限量住宅", "静态住宅"],
     "isFeatured": false,
     "badge": "$0.7/GB起",
-    "features": ["8000万+新鲜住宅IP195+国家覆盖", "$0.7/GB起流量永久有效99.95%成功率", "中文界面+微信客服+Google一键注册", "HTTP/SOCKS5无限并发城市级定位"],
+    "features": ["8000万+住宅IP覆盖", "流量永久有效", "中文界面+微信客服", "无限并发城市定位"],
     "affiliateUrl": "https://www.b2proxy.com/zh-CN",
     "couponCode": "",
     "detailUrl": "/proxy/b2proxy"
@@ -1296,7 +1296,7 @@
     "proxyTypes": ["移动代理"],
     "isFeatured": false,
     "badge": "$10/周 起",
-    "features": ["MultiPort 百线程单代理+每请求新IP", "Dual Link 0-1s IP换+99.8%正常运行", "TwinPort HTTP/SOCKS5双协议同时在线", "免费测试+无条件退款+24/7客服"],
+    "features": ["百线程每请求新IP", "0-1秒快速IP轮换", "双协议同时在线", "免费测试+退款保障"],
     "affiliateUrl": "https://keyproxy.net/en",
     "couponCode": "",
     "detailUrl": "/proxy/keyproxy"
@@ -1310,7 +1310,7 @@
     "proxyTypes": ["移动代理", "静态住宅"],
     "isFeatured": false,
     "badge": "55€/月 起",
-    "features": ["法国三大运营商4G纯净IP高信任度", "三种IP轮换自动/API/手动", "HTTPS+SOCKS5双协议+IP白名单", "Trustpilot 4.9+24h免费试用"],
+    "features": ["法国4G纯净高信任", "三种IP轮换模式", "双协议+IP白名单", "24小时免费试用"],
     "affiliateUrl": "https://hypeproxy.io/",
     "couponCode": "",
     "detailUrl": "/proxy/hypeproxy"
@@ -1338,7 +1338,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "数据中心", "静态住宅"],
     "isFeatured": false,
     "badge": "$1.75/GB 起",
-    "features": ["住宅/移动/数据中心/ISP四条产品线全覆盖", "3500万+IP 300+ISP子网 195+国家", "100Gbps容量 99.9%正常运行 道德采购", "开发者API+免费试用1GB"],
+    "features": ["四条产品线全覆盖", "3500万+IP全球覆盖", "高容量高可用率", "开发者API+试用"],
     "affiliateUrl": "https://byteful.com/",
     "couponCode": "",
     "detailUrl": "/proxy/byteful"
@@ -1366,7 +1366,7 @@
     "proxyTypes": ["数据中心", "旋转代理"],
     "isFeatured": false,
     "badge": "7 天试用",
-    "features": ["Hybrid IP Pools智能路由自动适配目标", "旋转/共享/专属数据中心三条产品线", "GeoSet扩展一键切换国家代理", "14+年运营3000+企业客户含中文"],
+    "features": ["智能路由自动适配", "三条数据中心产品线", "一键切换国家代理", "14年企业客户信赖"],
     "affiliateUrl": "https://www.trustedproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/trustedproxies"
@@ -1380,7 +1380,7 @@
     "proxyTypes": ["数据中心", "旋转代理"],
     "isFeatured": false,
     "badge": "2011 年运营",
-    "features": ["HTTP自动旋转IP每12小时轮换+Elite匿名", "17台独立服务器10国+世界代理25000+IP", "2011年运营至今行业最老牌之一", "纯HTTP极简配置多语言开发指南"],
+    "features": ["自动旋转+Elite匿名", "全球25000+IP覆盖", "2011年老牌运营", "极简HTTP配置"],
     "affiliateUrl": "https://proxymesh.com/",
     "couponCode": "",
     "detailUrl": "/proxy/proxymesh"
@@ -1394,7 +1394,7 @@
     "proxyTypes": ["住宅代理", "数据中心", "ISP", "IPv6"],
     "isFeatured": false,
     "badge": "€0.55/GB 起",
-    "features": ["住宅/数据中心/ISP/IPv6五条产品线全覆盖", "2500万+IP 195+国家 城市级定位", "无限带宽+99.9%成功率+24h粘性会话", "指纹浏览器集成+免费试用无需信用卡"],
+    "features": ["五条产品线全覆盖", "2500万+全球IP", "无限带宽高可用", "指纹浏览器集成"],
     "affiliateUrl": "https://plainproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/plainproxies"
@@ -1408,7 +1408,7 @@
     "proxyTypes": ["IPv4 地址", "地址交易"],
     "isFeatured": false,
     "badge": "IP 交易市场",
-    "features": ["纯净IPv4地址段/24-/12经黑名单检测", "固定定价全托管转让2-3周完成", "ARIN/RIPE/APNIC官方认证3000+客户", "非代理服务是IP地址交易市场"],
+    "features": ["纯净IPv4地址段", "全托管快速转让", "RIR官方认证", "IP地址交易市场"],
     "affiliateUrl": "https://ipv4connect.com/",
     "couponCode": "",
     "detailUrl": "/proxy/ipv4connect"
@@ -1422,7 +1422,7 @@
     "proxyTypes": ["住宅代理", "数据中心", "ISP", "移动"],
     "isFeatured": false,
     "badge": "$0.6/GB 起",
-    "features": ["9000万+IP 200+国家 住宅低至$0.6/GB", "动态按量+静态固定双架构全覆盖", "450+工具集成HTTP/SOCKS5双协议", "24/7客服巴西3600万IP南美优势"],
+    "features": ["9000万+IP全球覆盖", "双架构灵活选择", "450+工具集成", "南美IP优势"],
     "affiliateUrl": "https://mangoproxy.com/",
     "couponCode": "GLOBAL",
     "detailUrl": "/proxy/mangoproxy"
@@ -1436,7 +1436,7 @@
     "proxyTypes": ["住宅代理", "移动代理"],
     "isFeatured": false,
     "badge": "$0.7/GB 起",
-    "features": ["2000万+IP 190+国家 90%封禁保护率", "ISO/IEC 27001认证+QUIC协议+0.47s响应", "智能IP分配+自动故障切换+城市级定位", "无需KYC中国282万+IP首次充值匹配"],
+    "features": ["2000万+全球覆盖", "ISO认证+QUIC协议", "智能分配+故障切换", "无需KYC即可用"],
     "affiliateUrl": "https://gonzoproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/gonzoproxy"
@@ -1450,7 +1450,7 @@
     "proxyTypes": ["住宅代理", "住宅Lite", "数据中心", "ISP", "IPv6", "移动代理"],
     "isFeatured": false,
     "badge": "$0.10/GB起",
-    "features": ["七条产品线全覆盖住宅Lite$0.10/GB起", "1亿+IP 201+国家 SOCKS5 UDP支持", "实时分析+智能重试+自动旋转", "50,000+企业客户 4.9星评分"],
+    "features": ["七条产品线全覆盖", "1亿+全球IP覆盖", "实时智能轮换", "50000+企业信赖"],
     "affiliateUrl": "https://www.flashproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/flashproxy"
@@ -1464,7 +1464,7 @@
     "proxyTypes": ["住宅代理"],
     "isFeatured": false,
     "badge": "$10/月起",
-    "features": ["无限带宽/会话/线程/连接", "$10/月1端口起 美国城市级定位", "自动IP旋转 99.99%正常运行 SLA保障", "专注美国住宅代理"],
+    "features": ["无限带宽与连接", "美国城市级定位", "自动IP旋转", "专注美国住宅"],
     "affiliateUrl": "https://dynaprox.com/",
     "couponCode": "",
     "detailUrl": "/proxy/dynaprox"
@@ -1478,7 +1478,7 @@
     "proxyTypes": ["数据中心轮换代理", "Browser API", "MCP Server"],
     "isFeatured": false,
     "badge": "MCP AI 集成",
-    "features": ["旋转代理$50/月起单一端点集成", "Anti-Detect TLS指纹伪装", "云端Chrome Browser API", "MCP Server AI Agent原生集成"],
+    "features": ["反检测TLS指纹", "云端浏览器API", "MCP AI原生集成"],
     "affiliateUrl": "https://botproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/botproxy"
@@ -1492,7 +1492,7 @@
     "proxyTypes": ["移动代理", "住宅代理", "ISP住宅", "数据中心"],
     "isFeatured": false,
     "badge": "多合一代理",
-    "features": ["四条产品线+SMS+虚拟卡+欺诈评分", "移动代理$1.7/天UDP+指纹修改", "5000万+IP 100+国家 99.8%成功率", "中文界面 2014年运营"],
+    "features": ["多合一代理服务", "移动代理UDP支持", "5000万+IP资源", "中文界面支持"],
     "affiliateUrl": "https://app.cyberyozh.com/zh-cn/",
     "couponCode": "",
     "detailUrl": "/proxy/cyberyozh"
@@ -1506,7 +1506,7 @@
     "proxyTypes": ["住宅代理", "静态住宅", "不限量住宅", "数据中心", "ISP"],
     "isFeatured": false,
     "badge": "$0.80/GB起",
-    "features": ["五条产品线住宅/静态/不限量/DC/ISP", "1亿+IP 195+国家 0.6s响应", "无限并发会话+城市级定位", "指纹浏览器生态集成+中文界面"],
+    "features": ["五条产品线覆盖", "1亿+全球IP", "城市级精确定位", "指纹浏览器集成"],
     "affiliateUrl": "https://www.flyproxy.com/zh-hans/",
     "couponCode": "",
     "detailUrl": "/proxy/flyproxy"
@@ -1534,7 +1534,7 @@
     "proxyTypes": ["私有数据中心代理"],
     "isFeatured": false,
     "badge": "$0.88/IP 起",
-    "features": ["私有独享 IP 低至 $0.88/IP/月", "不限流量+1000Mbps+99.9%在线率", "15+目标网站优化配置", "即时IP刷新+7天退款"],
+    "features": ["私有独享IP", "不限流量高速", "网站优化配置", "即时IP刷新"],
     "affiliateUrl": "https://newipnow.com/",
     "couponCode": "",
     "detailUrl": "/proxy/newipnow"
@@ -1548,7 +1548,7 @@
     "proxyTypes": ["移动代理", "服务器代理", "回连代理"],
     "isFeatured": false,
     "badge": "真实 SIM 卡",
-    "features": ["真实 SIM 卡移动代理 53国/223运营商", "不限流量 HTTP/SOCKS5 双协议", "IP 链接/定时/API 三种更换方式", "3小时免费试用+随时退款"],
+    "features": ["真实SIM卡代理", "53国223运营商", "不限流量双协议", "三种IP更换方式"],
     "affiliateUrl": "https://mobileproxy.space/",
     "couponCode": "",
     "detailUrl": "/proxy/mobileproxy-space"
@@ -1562,7 +1562,7 @@
     "proxyTypes": ["数据中心代理", "住宅代理"],
     "isFeatured": false,
     "badge": "即时激活",
-    "features": ["数据中心 $1/IP/月 无限流量 | 住宅 $1/GB", "200ms响应+即时激活+100%运行时间", "100K+代理 1M+线程 不限连接数", "HTTP/HTTPS API接入 用户密码/IP白名单认证"],
+    "features": ["数据中心+住宅", "即时激活快响应", "无限并发连接", "HTTP/HTTPS API"],
     "affiliateUrl": "https://instantproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/instantproxies"
@@ -1576,7 +1576,7 @@
     "proxyTypes": ["住宅代理", "数据中心代理", "移动代理"],
     "isFeatured": false,
     "badge": "",
-    "features": ["标准住宅 $0.7/GB + 高级住宅 $0.9/GB 双产品线", "6000万+/9000万+ IP 池 200+国家城市覆盖", "不限并发会话 动态轮换+粘性会话120分钟", "HTTP(S)+SOCKS5双协议 API集成"],
+    "features": ["双产品线住宅", "6000万+IP覆盖", "不限并发会话", "HTTP/SOCKS5协议"],
     "affiliateUrl": "https://iprocket.io/",
     "couponCode": "IPRocket9",
     "detailUrl": "/proxy/iprocket"
@@ -1590,7 +1590,7 @@
     "proxyTypes": ["住宅代理"],
     "isFeatured": false,
     "badge": "真实设备 IP",
-    "features": ["300万+真实设备IP 145+国家覆盖", "不限线程+自动轮换+按量计费", "SOCKS5+HTTPS双协议 IPv4+IPv6", "Pay As You Go $3/GB起"],
+    "features": ["300万+真实设备IP", "145+国家覆盖", "不限线程自动轮换", "SOCKS5+HTTPS双协议"],
     "affiliateUrl": "https://jellynodes.com/",
     "couponCode": "",
     "detailUrl": "/proxy/jellynodes"
@@ -1604,7 +1604,7 @@
     "proxyTypes": ["住宅代理", "数据中心代理", "数据中心IPv6代理", "ISP代理"],
     "isFeatured": false,
     "badge": "流量永不过期",
-    "features": ["住宅代理 $1.6/GB 5000万+IP 200+国家", "数据中心代理 $4.52/IP 无限流量 | IPv6 $1.74/IP", "HTTP/SOCKS5 粘性会话+轮换 99.9%在线", "200MB免费试用+即时激活+AdsPower集成"],
+    "features": ["5000万+住宅IP", "数据中心+IPv6", "HTTP/SOCKS5协议", "AdsPower集成"],
     "affiliateUrl": "https://www.quarkip.com/",
     "couponCode": "",
     "detailUrl": "/proxy/quarkip"
@@ -1618,7 +1618,7 @@
     "proxyTypes": ["住宅代理", "数据中心代理", "移动代理", "ISP代理"],
     "isFeatured": false,
     "badge": "Trustpilot 4.5",
-    "features": ["7000万+真实IP 190+国家 4条产品线", "住宅 $1/GB | 数据中心 $0.90/月 | ISP $1.70/月", "HTTP/SOCKS5/UDP 城市级定位 粘性+轮换", "99.99%在线率 24/7支持 反检测浏览器集成"],
+    "features": ["7000万+真实IP", "190+国家覆盖", "HTTP/SOCKS5/UDP", "城市级精准定位"],
     "affiliateUrl": "https://proxywing.com/",
     "couponCode": "",
     "detailUrl": "/proxy/proxywing"
@@ -1632,7 +1632,7 @@
     "proxyTypes": ["住宅代理", "静态住宅代理", "数据中心代理", "无限住宅代理", "长效ISP代理"],
     "isFeatured": false,
     "badge": "AI数据提取",
-    "features": ["7500万+真实IP 195+国家 城市级定位", "住宅 $0.67/GB | 静态住宅 $5/IP | 数据中心 $3/IP | ISP $0.27/GB", "HTTP/SOCKS5 粘性会话+轮换 99.99%在线", "AI驱动数据提取 子账户管理 7×24支持"],
+    "features": ["7500万+真实IP", "195+国家覆盖", "城市级精准定位", "AI驱动数据提取"],
     "affiliateUrl": "https://proxyshare.com/",
     "couponCode": "",
     "detailUrl": "/proxy/proxyshare"
@@ -1646,7 +1646,7 @@
     "proxyTypes": ["数据中心代理", "私有代理", "SOCKS5代理", "无限流量代理"],
     "isFeatured": false,
     "badge": "独享 IP",
-    "features": ["独享数据中心 IPv4 50+国家覆盖", "$1.5/IP/月 起 批量低至$0.40/IP/月", "HTTP(s)/SOCKS4/5 双协议 100Mbps", "无需实名 加密货币支付 24/7俄语支持"],
+    "features": ["独享数据中心IPv4", "50+国家覆盖", "HTTP/SOCKS5协议", "无需实名注册"],
     "affiliateUrl": "https://proxytrail.com/",
     "couponCode": "SAVE15",
     "detailUrl": "/proxy/proxytrail"
@@ -1660,7 +1660,7 @@
     "proxyTypes": ["代理管理器"],
     "isFeatured": false,
     "badge": "7天免费试用",
-    "features": ["自带代理（BYOP）节省成本", "企业级故障转移与监控", "200-500并发·500GB-2TB带宽", "7天免费试用·无需信用卡"],
+    "features": ["自带代理免成本", "企业级故障转移", "高并发大带宽", "7天免费试用"],
     "affiliateUrl": "https://www.proxysentinel.io/",
     "couponCode": "",
     "detailUrl": "/proxy/proxysentinel"
@@ -1674,7 +1674,7 @@
     "proxyTypes": ["住宅代理"],
     "isFeatured": false,
     "badge": "灵活轮换",
-    "features": ["1000万+住宅 IP 195+国家覆盖", "按GB计费$35起/10GB 无限方案$399起", "SOCKS5/HTTP(S) 灵活轮换+粘性会话", "加密货币支付 自2019年运营"],
+    "features": ["1000万+住宅IP", "195+国家覆盖", "灵活轮换+粘性", "加密货币支付"],
     "affiliateUrl": "https://proxyred.net/",
     "couponCode": "",
     "detailUrl": "/proxy/proxyred"
@@ -1688,7 +1688,7 @@
     "proxyTypes": ["住宅代理", "静态住宅", "静态数据中心", "ISP代理"],
     "isFeatured": false,
     "badge": "多产品线",
-    "features": ["7200万+住宅 IP 190+国家覆盖", "五条产品线 住宅/静态住宅/数据中心/ISP", "SOCKS5/HTTP(S) Scraper API+MCP Server", "多语言支持 含中文界面"],
+    "features": ["7200万+住宅IP", "五条产品线覆盖", "SOCKS5/HTTP(S)", "中文界面支持"],
     "affiliateUrl": "https://www.proxylite.com/",
     "couponCode": "",
     "detailUrl": "/proxy/proxylite"
@@ -1716,7 +1716,7 @@
     "proxyTypes": ["数据中心", "住宅代理"],
     "isFeatured": false,
     "badge": "自营网络",
-    "features": ["自营代理网络 自2009年运营", "独家数据中心+轮转住宅代理", "无限带宽 99.9%正常运行时间", "40+数据中心 50+城市 100+Gbps"],
+    "features": ["自营代理网络", "2009年老牌运营", "无限带宽保障", "40+数据中心"],
     "affiliateUrl": "https://www.squidproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/squidproxies"
@@ -1730,7 +1730,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "SERP API"],
     "isFeatured": false,
     "badge": "免费方案",
-    "features": ["300万+住宅+移动 IP 150+国家", "住宅代理+SERP API+Fetch API", "城市级/ASN 定位 不限子用户", "免费 Candy 方案 100MB 试用"],
+    "features": ["300万+住宅移动IP", "150+国家覆盖", "SERP+Fetch API", "城市级精准定位"],
     "affiliateUrl": "https://www.spider.com/",
     "couponCode": "",
     "detailUrl": "/proxy/spider"
@@ -1758,7 +1758,7 @@
     "proxyTypes": ["住宅代理", "数据中心", "ISP代理"],
     "isFeatured": false,
     "badge": "加密货币",
-    "features": ["3000万+住宅 IP 155+国家覆盖", "住宅+数据中心+静态ISP三产品线", "0.5s响应 99.9%正常运行 HTTP/SOCKS5", "256MB免费试用 支持加密货币支付"],
+    "features": ["3000万+住宅IP", "155+国家覆盖", "三产品线覆盖", "0.5s快速响应"],
     "affiliateUrl": "https://www.thunderproxy.com/en",
     "couponCode": "BF50",
     "detailUrl": "/proxy/thunderproxy"
@@ -1772,7 +1772,7 @@
     "proxyTypes": ["住宅代理"],
     "isFeatured": false,
     "badge": "低延迟",
-    "features": ["900万+住宅 IP 150+国家 城市级定位", "0.4s超低延迟 99.9%在线率 粘性会话", "HTTP/SOCKS5 gate.quickproxy.io统一网关", "24/7人工支持 即用即付 $1.99试用"],
+    "features": ["900万+住宅IP", "150+国家城市定位", "0.4s超低延迟", "HTTP/SOCKS5网关"],
     "affiliateUrl": "https://quickproxy.io/",
     "couponCode": "",
     "detailUrl": "/proxy/quickproxy"
@@ -1786,7 +1786,7 @@
     "proxyTypes": ["住宅代理", "数据中心", "移动代理"],
     "isFeatured": false,
     "badge": "多产品线",
-    "features": ["住宅+数据中心+Mobile+SERP API 四产品线", "1.2亿+住宅 IP 4万数据中心 IP 195+国家", "HTTP/SOCKS5+UDP 粘性会话120分钟 不限并发", "免费代理列表/Checker/浏览器扩展 24/7人工支持"],
+    "features": ["四产品线覆盖", "1.2亿+住宅IP", "HTTP/SOCKS5+UDP", "免费代理工具集"],
     "affiliateUrl": "https://proxyscrape.com/",
     "couponCode": "",
     "detailUrl": "/proxy/proxyscrape"
@@ -1800,7 +1800,7 @@
     "proxyTypes": ["动态住宅", "静态住宅"],
     "isFeatured": false,
     "badge": "中文支持",
-    "features": ["1.5亿+住宅IP 200+国家 城市/州级定位", "动态+静态住宅双产品线 指纹浏览器适配", "99.96%成功率 <0.5s响应 HTTP/SOCKS5", "中文界面/中文客服 支持USDT加密支付 免费试用"],
+    "features": ["1.5亿+住宅IP", "200+国家覆盖", "城市州级定位", "中文客服支持"],
     "affiliateUrl": "https://momoproxy.com/zh-CN",
     "couponCode": "",
     "detailUrl": "/proxy/momoproxy"
@@ -1814,7 +1814,7 @@
     "proxyTypes": ["数据中心", "住宅代理", "移动代理", "静态ISP"],
     "isFeatured": false,
     "badge": "不限流量",
-    "features": ["Dedicated数据中心+住宅+Mobile+静态ISP 四产品线", "不限流量带宽 10Gbps高速 HTTP/SOCKS4/5", "99.8%在线率 16+机房位置 精英级匿名", "运动鞋抢购/SEO/社媒专用 支持BTC支付 免费试用"],
+    "features": ["四产品线覆盖", "不限流量带宽", "99.8%在线率", "专用代理方案"],
     "affiliateUrl": "https://www.aceproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/aceproxies"
@@ -1828,7 +1828,7 @@
     "proxyTypes": ["静态ISP", "住宅代理"],
     "isFeatured": false,
     "badge": "Bot 专用",
-    "features": ["Premium ISP + Secret Residential 双产品线", "Tier 1 ISP 不限流量带宽 HTTP/S 极速响应", "Residential 无限IP/线程 城市级定位 SOCKS5", "Discord社群支持 Stripe/BitPay加密支付"],
+    "features": ["ISP+住宅双产品线", "不限流量带宽", "无限IP与线程", "城市级定位"],
     "affiliateUrl": "https://www.flowproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/flowproxies"
@@ -1842,7 +1842,7 @@
     "proxyTypes": ["静态ISP", "住宅代理", "数据中心"],
     "isFeatured": false,
     "badge": "多支付",
-    "features": ["ISP+Subnet+住宅+Captcha 四条产品线 静态IP", "50万+静态IP 不限流量带宽 99.9%在线率", "0欺诈分 Tier 1 ASN 数百子网 Socks5/HTTP", "Trustpilot高分 Discord10万+社群 加密/微信/支付宝支付"],
+    "features": ["四条产品线", "50万+静态IP", "0欺诈高纯净", "99.9%在线率"],
     "affiliateUrl": "https://bartproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/bartproxies"
@@ -1856,7 +1856,7 @@
     "proxyTypes": ["IPv4代理", "IPv6代理", "MTProto代理"],
     "isFeatured": false,
     "badge": "低价位",
-    "features": ["IPv4+IPv6+Shared+MTProto 四条产品线 个人独享", "100万+用户 4000万+已售代理 50万+在用", "HTTPs/SOCKS5 即时自动交付 API集成 完全匿名", "3天起售 最低价 30%佣金合作计划 9年运营"],
+    "features": ["IPv4/IPv6双线", "个人独享代理", "完全匿名保护", "9年运营经验"],
     "affiliateUrl": "https://proxy6.net/",
     "couponCode": "",
     "detailUrl": "/proxy/proxy6"
@@ -1870,7 +1870,7 @@
     "proxyTypes": ["4G移动代理", "5G移动代理"],
     "isFeatured": false,
     "badge": "专属设备",
-    "features": ["Verizon/AT&T 4G/5G 专属移动代理 50+ 美国城市覆盖", "MultiHop多城市漫游 单专属设备 无限IP变更 自动轮换", "HTTPS/SOCKS5/L2TP VPN 多协议 TCP指纹伪造 99.9%在线", "24/7 在线客服 PayPal/加密货币/信用卡 即时交付 API集成"],
+    "features": ["4G/5G专属移动代理", "美国50+城市覆盖", "多协议支持", "TCP指纹伪造"],
     "affiliateUrl": "https://mobilehop.com/",
     "couponCode": "",
     "detailUrl": "/proxy/mobilehop"
@@ -1884,7 +1884,7 @@
     "proxyTypes": ["4G/5G移动代理", "住宅代理", "数据中心"],
     "isFeatured": false,
     "badge": "真实设备",
-    "features": ["4G/5G 专属移动代理 + 住宅代理 + 数据中心 + Scraping API 全产品线", "英国/美国/德国/荷兰 4G/5G 独立设备 真实 SIM 无限流量", "住宅代理 PAYG 模式 数据中心按时计费 Scraping API 按次计费", "99.99% 在线率 HTTP/SOCKS5 完全匿名 自动 IP 轮换 5000+ 客户"],
+    "features": ["四产品线全覆盖", "4G/5G真实设备", "欧美多国覆盖", "99.99%在线率"],
     "affiliateUrl": "https://gridpanel.net/",
     "couponCode": "",
     "detailUrl": "/proxy/gridpanel"
@@ -1898,7 +1898,7 @@
     "proxyTypes": ["住宅代理", "数据中心", "移动代理", "ISP代理"],
     "isFeatured": false,
     "badge": "代理网络",
-    "features": ["五大代理类型: 住宅/数据中心/移动/ISP/SOCKS5 9000万+IP 220+国家", "住宅代理 $5/GB起 批量折扣低至$1.4/GB 城市/ISP级定位", "无限并发 99.9%在线 ~0.7s响应 HTTP/HTTPS/SOCKS5 0-120min粘性", "Chrome扩展+多语言API 无日志 Visa/PayPal/BTC/USDT/支付宝"],
+    "features": ["五大代理类型", "9000万+全球IP", "城市/ISP级定位", "Chrome扩展集成"],
     "affiliateUrl": "https://2captcha.com/proxy",
     "couponCode": "",
     "detailUrl": "/proxy/2captcha"
@@ -1912,7 +1912,7 @@
     "proxyTypes": ["移动代理", "住宅代理"],
     "isFeatured": false,
     "badge": "企业级",
-    "features": ["移动代理 4G/5G 美国真实运营商 城市级+ASN/ISP定位 Per GB $2/GB", "住宅代理 195+国家 百万级IP $1/GB 按量计费 未用流量永久有效", "HTTP/HTTPS/SOCKS5 HTTP/3 QUIC UDP SOCKS 无限并发 99.992%在线", "SOC2/ISO27001 G2 4.7分 100MB免费试用 30天退款 10000+客户"],
+    "features": ["4G/5G真实运营商", "城市级+ASN定位", "无限并发连接", "SOC2/ISO认证"],
     "affiliateUrl": "https://proxidize.com/",
     "couponCode": "",
     "detailUrl": "/proxy/proxidize"
@@ -1926,7 +1926,7 @@
     "proxyTypes": ["住宅代理", "移动代理"],
     "isFeatured": false,
     "badge": "道德采购",
-    "features": ["住宅代理+5G/4G/LTE移动代理 800万+IP 185+国家 城市级定位", "HTTP/HTTPS/SOCKS5 无限并发 99.3%成功率 轮换/粘性会话最长6小时", "PAYG按量计费 流量永不过期 无承诺无合约 公平透明定价", "Trustpilot 4.6 道德IP采购 无日志 24/7客服 14天退款"],
+    "features": ["住宅+移动双代理", "800万+全球IP", "城市级定位", "道德IP采购"],
     "affiliateUrl": "https://www.simplynode.io/",
     "couponCode": "",
     "detailUrl": "/proxy/simplynode"
@@ -1940,7 +1940,7 @@
     "proxyTypes": ["住宅代理", "数据中心"],
     "isFeatured": false,
     "badge": "中文服务",
-    "features": ["动态住宅+静态住宅+静态机房 9500万+IP 200+国家和地区 日增5万+", "AI智能匹配IP 自定义:账号/格式/UDP/DNS/国家/城市/运营商", "99.9%在线率 1v1专属服务 24/7客服 深耕5年 5000+客户", "中文界面 支付宝/微信支付 运营商直采+自建资源 海外网络使用"],
+    "features": ["9500万+全球IP", "200+国家覆盖", "AI智能匹配IP", "中文界面客服"],
     "affiliateUrl": "https://www.quanqiudaili.com/",
     "couponCode": "",
     "detailUrl": "/proxy/quanqiudaili"
@@ -1954,7 +1954,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "ISP代理", "数据中心"],
     "isFeatured": false,
     "badge": "全品类",
-    "features": ["住宅+移动+ISP+数据中心4条产品线 2200万+住宅IP 195国家 2016年成立", "住宅$2.1/GB起 移动$6.23/GB起 ISP$2.96/IP起 数据中心$0.09/IP起", "99.9%在线 24/7客服 API集成 Proxy Checker 即时交付 24小时退款", "Visa/MC/Amex/UnionPay/PayPal/Stripe/加密货币 中/英/俄"],
+    "features": ["四产品线覆盖", "2200万+住宅IP", "195国家覆盖", "2016年成立"],
     "affiliateUrl": "https://proxy.market/",
     "couponCode": "",
     "detailUrl": "/proxy/proxy.market"
@@ -1968,7 +1968,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "数据中心", "专属代理"],
     "isFeatured": false,
     "badge": "流量永不过期",
-    "features": ["4条产品线 住宅+移动+DC+专属 3000万+IP 190+国家 流量永不过期", "住宅$4/GB起 移动$6/GB起 数据中心$0.60/GB起 专属$2/IP起", "HTTP/SOCKS5 粘性+轮换 城市级定位 1000+Mbps 99.99%在线 API控制台", "24/7客服 免费试用100MB 忠诚度6级折扣 自有基础设施 无过售"],
+    "features": ["四产品线可选", "3000万+全球IP", "城市级定位", "流量永不过期"],
     "affiliateUrl": "https://gsocks.net/",
     "couponCode": "",
     "detailUrl": "/proxy/gsocks"
@@ -1982,7 +1982,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "数据中心", "ISP代理", "IPv6代理"],
     "isFeatured": false,
     "badge": "无限并发",
-    "features": ["6条产品线 住宅+无限住宅+移动+DC+IPv6+ISP 2000万+住宅IP 195国家", "住宅$2.5/GB起 移动$3.4/GB起 无限住宅$70/天起 ISP$2/月起", "HTTP/SOCKS5 粘性30分钟 城市级+运营商级定位 99.9%在线 无限并发", "免费试用无信用卡 猫猫救援月捐 Trustpilot5星 24/7客服 TG/Discord"],
+    "features": ["六产品线可选", "2000万+住宅IP", "城市级精确定位", "无限并发连接"],
     "affiliateUrl": "https://catproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/catproxies"
@@ -1996,7 +1996,7 @@
     "proxyTypes": ["动态住宅", "动态手机", "动态机房", "静态住宅", "静态机房"],
     "isFeatured": false,
     "badge": "中文界面",
-    "features": ["5条产品线 动态住宅+手机+机房+静态住宅+静态机房 9000万+IP 200+国家", "动态住宅￥35/GB起 动态手机￥75/GB起 动态机房￥5/GB起 静态住宅￥56/IP起", "HTTP/SOCKS5 城市级定位 99.99%在线 无限并发 无限带宽 毫秒响应", "中文界面 支付宝/USDT支付 专属客户端 免费试用 1v1客服 TG支持"],
+    "features": ["五产品线可选", "9000万+全球IP", "城市级定位", "中文界面支持"],
     "affiliateUrl": "https://www.yiluproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/yiluproxy"
@@ -2010,7 +2010,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "数据中心", "静态住宅", "高级住宅"],
     "isFeatured": false,
     "badge": "瑞士品质",
-    "features": ["住宅+移动+DC+静态住宅+高级住宅 5条产品线 5400万+道德IP 150+国家", "住宅$0.49/GB起 移动$2.20/GB起 DC$0.35/GB起 静态住宅$1/IP起", "HTTP/SOCKS5 TCP指纹模拟 城市级定位 <0.5s响应 99.99%在线 无限会话", "EWDCI道德认证 瑞士品质 免费试用1天 24/7客服 无条件退款"],
+    "features": ["五产品线可选", "5400万+道德IP", "瑞士品质认证", "TCP指纹模拟"],
     "affiliateUrl": "https://evomi.com/",
     "couponCode": "",
     "detailUrl": "/proxy/evomi"
@@ -2024,7 +2024,7 @@
     "proxyTypes": ["住宅代理", "ISP代理", "网页渲染", "网页搜索"],
     "isFeatured": false,
     "badge": "AI原生",
-    "features": ["住宅代理API+网页渲染+搜索API+ISP代理 160万+道德IP 195+国家", "住宅代理$4.9/GB起 企业版$3.2/GB起 ISP代理$1.8/IP起", "HTTP/SOCKS5 粘性30分钟 城市+邮编级定位 <600ms 99.9%在线", "SOC2/GDPR/CCPA合规 AppEsteem认证 AI原生多语言 免费试用"],
+    "features": ["住宅API+渲染", "160万+道德IP", "城市邮编级定位", "SOC2合规认证"],
     "affiliateUrl": "https://www.joinmassive.com/zh",
     "couponCode": "",
     "detailUrl": "/proxy/joinmassive"
@@ -2038,7 +2038,7 @@
     "proxyTypes": ["动态住宅", "静态住宅", "数据中心", "独享静态", "动态不限量"],
     "isFeatured": false,
     "badge": "中文界面",
-    "features": ["动态住宅+静态住宅+数据中心+TikTok专线+SERP API 8条产品线 9000万+IP 200+国家", "动态住宅￥3.04/GB起 静态住宅￥17.91/IP月起 数据中心￥2.16/GB起", "HTTP/SOCKS5 城市级定位 无限并发 百兆带宽 PC/APP客户端 插件", "TikTok专线方案 ISO9001/27001认证 中文界面 1v1客服 免费试用"],
+    "features": ["八产品线覆盖", "9000万+全球IP", "城市级定位", "TikTok专线方案"],
     "affiliateUrl": "https://www.ipipgo.com/",
     "couponCode": "",
     "detailUrl": "/proxy/ipipgo"
@@ -2052,7 +2052,7 @@
     "proxyTypes": ["住宅代理", "住宅Flex", "数据中心", "移动代理"],
     "isFeatured": false,
     "badge": "按量计费",
-    "features": ["住宅+住宅Flex+DC+移动 4条产品线 3400万+住宅IP 200+国家 无限并发", "住宅$0.65/GB起 住宅Flex$0.55/GB起 DC$0.5/GB起 移动$2.5/GB起", "HTTP/SOCKS5 粘性120分钟 城市+邮编+GPS定位 <500ms 99.9%在线", "7天退款 无月费 全REST API 反检测浏览器集成 Discord社区"],
+    "features": ["3400万+住宅IP", "城市级精准定位", "反检测浏览器集成", "7天退款保障"],
     "affiliateUrl": "https://databay.com/",
     "couponCode": "",
     "detailUrl": "/proxy/databay"
@@ -2066,7 +2066,7 @@
     "proxyTypes": ["轮换住宅", "静态住宅", "移动代理", "数据中心"],
     "isFeatured": false,
     "badge": "流量有效期1年",
-    "features": ["轮换住宅+静态住宅+移动+DC 75M+住宅IP 180+地区 无限并发", "住宅$0.55/GB起 静态住宅$0.75/GB起 移动$1.5/GB起 DC$0.25/GB起", "HTTP/SOCKS5 0.3秒响应 城市+州级定位 即时生成代理<20秒 失败不扣费", "流量有效期1年 自服务加密支付 24/7支持 Discord社区 反检测浏览器集成"],
+    "features": ["7500万+住宅IP", "0.3秒超快响应", "城市级定位", "流量有效期一年"],
     "affiliateUrl": "https://proxyjet.io/",
     "couponCode": "",
     "detailUrl": "/proxy/proxyjet"
@@ -2080,7 +2080,7 @@
     "proxyTypes": ["移动代理"],
     "isFeatured": false,
     "badge": "AI代理专用",
-    "features": ["美国移动代理 AI代理SDK 自有设备无限流量无限并发", "Agent.Connect $3/GB Big.Connect $1/GB 按量计费 数据永不过期", "Playwright/Puppeteer/Selenium 原生集成 主机名路由 无KYC", "加密货币支付 自有真实SIM卡 合规道德 US州级定位 99.9%在线"],
+    "features": ["美国移动代理", "AI代理SDK集成", "自有真实SIM卡", "无限流量并发"],
     "affiliateUrl": "https://www.aluvia.io/",
     "couponCode": "",
     "detailUrl": "/proxy/aluvia"
@@ -2094,7 +2094,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "ISP代理", "静态住宅", "数据中心"],
     "isFeatured": false,
     "badge": "免费试用",
-    "features": ["住宅+移动+ISP+静态住宅+DC+SOCKS5 7条产品线 8000万+IP 195+国家", "免费试用 无需信用卡 即时设置 自定义代理数量/带宽/地区 灵活套餐", "HTTP/SOCKS5 99.97%成功率 Chrome插件 24/7专家支持 完整API文档", "Trustpilot 4.8 5000+企业信赖 免费试用 Chrome扩展"],
+    "features": ["8000万+住宅IP", "免费试用无信用卡", "99.97%成功率", "Chrome插件支持"],
     "affiliateUrl": "https://www.limeproxies.com/",
     "couponCode": "",
     "detailUrl": "/proxy/limeproxies"
@@ -2108,7 +2108,7 @@
     "proxyTypes": ["私密代理", "包量代理", "移动代理"],
     "isFeatured": false,
     "badge": "独享IP",
-    "features": ["私密代理+包量代理+移动代理 100+服务器 全球100+国家 无限流量", "独享IP 唯一使用者 100Mbps-1Gbps 灵活地区定位 A级子网选择", "HTTP/SOCKS5 10M+移动IP 15Mbps API更换IP 免费更换IP", "35%联盟佣金 加密货币支付 俄罗斯技术团队 24/7技术支持"],
+    "features": ["私密独享IP", "全球100+国家", "无限流量带宽", "API更换IP"],
     "affiliateUrl": "https://altproxy.com/en/",
     "couponCode": "",
     "detailUrl": "/proxy/altproxy"
@@ -2122,7 +2122,7 @@
     "proxyTypes": ["移动代理"],
     "isFeatured": false,
     "badge": "真实SIM卡",
-    "features": ["4G/LTE移动代理 全球40+国家 120+运营商 真实SIM卡 4G速度60Mbps", "独享设备不共享带宽 旋转IP+黏性IP 99%更换成功率 25个并发端口", "Web界面+浏览器插件+SMS测试+设备模拟+API Dolphin/GoLogin/AdsPower", "广告验证+支付测试+短信检测+社媒管理 免费试用Demo 银行转账/加密货币"],
+    "features": ["4G/LTE移动代理", "全球40+国家覆盖", "真实SIM卡设备", "指纹浏览器集成"],
     "affiliateUrl": "https://3gproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/3gproxy"
@@ -2136,7 +2136,7 @@
     "proxyTypes": ["住宅代理", "数据中心代理"],
     "isFeatured": false,
     "badge": "6条产品线",
-    "features": ["旋转住宅+旋转DC+静态住宅+静态DC+API住宅+API DC 6条产品线 99.5%成功率", "ISP住宅代理 $1.80/GB起 DC代理 $0.48/GB起 静态IP $1.40/IP 无限流量", "HTTP/SOCKS5 全球覆盖 专属客户经理 24/7支持 7天免费试用", "Web+AI+eCommerce+社媒+广告验证+SEO+SERP G2评级 100%伦理IP"],
+    "features": ["6条产品线覆盖", "99.5%成功率", "专属客户经理", "7天免费试用"],
     "affiliateUrl": "https://www.ipway.com/",
     "couponCode": "",
     "detailUrl": "/proxy/ipway"
@@ -2150,7 +2150,7 @@
     "proxyTypes": ["住宅代理", "数据中心代理", "移动代理"],
     "isFeatured": false,
     "badge": "5条产品线",
-    "features": ["住宅+DC+移动+旋转+静态 5条产品线 70M+住宅IP 220+国家 20000+城市", "HTTP/SOCKS5 流量永不过期 无限并发 城市级定位 99.9%匿名率", "住宅$3/GB起 DC$1/IP起 Starter $6/2GB Pro $25/10GB 免费试用", "中文/英文双界面 10000+团队信赖 Visa/Mastercard/Alipay/加密货币"],
+    "features": ["7000万+住宅IP", "220+国家覆盖", "流量永不过期", "无限并发连接"],
     "affiliateUrl": "https://www.iphtml.com/",
     "couponCode": "",
     "detailUrl": "/proxy/iphtml"
@@ -2164,7 +2164,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "数据中心代理"],
     "isFeatured": false,
     "badge": "流量结转",
-    "features": ["住宅+移动+DC 3类代理+SERP爬虫+电商爬虫 1000万+IP 200+地点", "HTTP/SOCKS5 旋转+黏性会话 流量自动结转 99.99%在线率", "住宅$2.69/GB起 移动$3.90/GB起 DC$0.60/GB起 $1.99试用3天", "中文/多语言 G2 4.8 Trustpilot 加密货币+Visa/Mastercard/Amex"],
+    "features": ["住宅+移动+DC代理", "SERP爬虫服务", "99.99%在线率", "流量自动结转"],
     "affiliateUrl": "https://froxy.com/zh-cn",
     "couponCode": "",
     "detailUrl": "/proxy/froxy"
@@ -2178,7 +2178,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "数据中心代理"],
     "isFeatured": false,
     "badge": "无限并发",
-    "features": ["旋转住宅+无限住宅+静态住宅+旋转移动+专属移动+DC 6类代理+SERP/电商/社媒API", "3000万+住宅IP 170+国家 195+地点 ISP/城市级定位 99.89%成功率", "住宅$3.50/GB起 移动$4.50/GB起 DC$0.35/GB 数据滚动 无限并发", "Trustpilot 4.6 EWDCI认证 Chrome扩展 移动App $1.97试用 多语言"],
+    "features": ["3000万+住宅IP", "ISP城市级定位", "无限并发连接", "Chrome扩展支持"],
     "affiliateUrl": "https://proxyempire.io/",
     "couponCode": "PROMO50",
     "detailUrl": "/proxy/proxyempire"
@@ -2192,7 +2192,7 @@
     "proxyTypes": ["住宅代理", "数据中心代理"],
     "isFeatured": false,
     "badge": "即时支持",
-    "features": ["旋转住宅+移动+DC IPv4/IPv6 4类代理 种子箱业务起家 2011年创立", "690万+住宅IP 100+国家 99.9%成功率 无限线程 256位SSL加密", "住宅10GB €30/月(€3/GB)起 灵活方案€5/GB起 轮换/黏性会话", "24/7即时聊天支持 4.8评分 24小时退款 HTTPS/SOCKS5 多语言"],
+    "features": ["2011年老牌运营", "690万+住宅IP", "无限线程连接", "24/7即时支持"],
     "affiliateUrl": "https://www.rapidseedbox.com/zh/",
     "detailUrl": "/proxy/rapidseedbox"
   },
@@ -2205,7 +2205,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "数据中心代理"],
     "isFeatured": false,
     "badge": "流量不限时",
-    "features": ["住宅+移动+DC+爬虫API 4类代理 4000万+IP 200国家 99.9%在线率", "住宅$1.20/GB起(1000GB) 移动$2.10/GB起 DC$0.70/GB起 批量折扣", "无限并发 自动轮换(1/10/30分钟) 黏性会话 独享IP 控制面板", "加密货币+信用卡支付 Telegram支持 白标 White-label 俄罗斯公司"],
+    "features": ["4000万+住宅IP", "200国家覆盖", "无限并发会话", "自动IP轮换"],
     "affiliateUrl": "https://psbproxy.io/",
     "detailUrl": "/proxy/psbproxy"
   },
@@ -2218,7 +2218,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "数据中心代理"],
     "isFeatured": false,
     "badge": "1亿+IP",
-    "features": ["住宅Premium+Eco+无限住宅+静态ISP+移动+DC 6类代理 100M+IP 165+国家", "1亿+住宅IP 165+国家 1000+城市 ISP/城市级定位 99.99%在线率 Trustpilot 4.9", "住宅$1.25/GB起 移动$1.12/GB起 DC$0.30/GB起 Eco仅$0.15/GB Spring25优惠码", "流量滚动 60秒设置 无需信用卡 Discord/Telegram社区 24/7人工支持 5万+客户"],
+    "features": ["1亿+住宅IP", "165+国家覆盖", "Trustpilot 4.9", "60秒快速设置"],
     "affiliateUrl": "https://proxiware.com/",
     "detailUrl": "/proxy/proxiware"
   },
@@ -2231,7 +2231,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "数据中心代理"],
     "isFeatured": false,
     "badge": "Chrome扩展",
-    "features": ["住宅Premium/Exclusive/无限/移动/DC/AT&T/IPv6 7类代理", "7500万+住宅IP 195+国家 ASN/城市/州级定位 3天免费试用", "住宅$1.59/GB起(1TB) Exclusive$1.50/GB起 移动$2.50/GB起", "3天免费试用 无需信用卡 Chrome扩展 GoLogin集成 JUN15优惠码"],
+    "features": ["7500万+住宅IP", "ASN城市级定位", "3天免费试用", "Chrome扩展支持"],
     "affiliateUrl": "https://rainproxy.io/",
     "detailUrl": "/proxy/rainproxy"
   },
@@ -2244,7 +2244,7 @@
     "proxyTypes": ["移动代理"],
     "isFeatured": false,
     "badge": "裸机移动",
-    "features": ["裸机5G移动代理 专属单租户 真实美国设备 支持HTTP/SOCKS5+TCP/UDP", "按小时计费$1/小时/代理 每分钟更换IP 无限API请求 更换ISP/地点", "5G超快网络 高可信移动ASN 城市/州级定位 IPv4/IPv6双栈", "API全控制 开发者友好 支持AI训练/数据采集/社媒 企业定制SLA"],
+    "features": ["裸机5G移动代理", "真实美国设备", "每分钟更换IP", "API全控制"],
     "affiliateUrl": "https://www.illusory.io/",
     "detailUrl": "/proxy/illusory"
   },
@@ -2257,7 +2257,7 @@
     "proxyTypes": ["住宅代理", "数据中心代理", "ISP代理"],
     "isFeatured": false,
     "badge": "账户系统",
-    "features": ["住宅30M/高级90M/企业100M+IP 无限ISP/IPv6/DC 100+国家 99.9%运行时间", "账户管理系统 永久保存配置 一键续费扩容 24/7真人客服（非聊天机器人）", "住宅95%成功率·7天粘性 高级99%成功率·1小时粘性 企业98% HTTP/SOCKS5", "$2/GB起（住宅） 无限ISP$40/天 批量自动折扣 Stripe/加密货币 24h退款"],
+    "features": ["1亿+住宅IP", "账户管理系统", "24/7真人客服", "7天粘性会话"],
     "affiliateUrl": "https://enigmaproxy.net/",
     "detailUrl": "/proxy/enigmaproxy"
   },
@@ -2270,7 +2270,7 @@
     "proxyTypes": ["移动代理"],
     "isFeatured": false,
     "badge": "不限流量",
-    "features": ["德/瑞士/波兰/西班牙/巴西5国 多运营商 真实5G手机SIM卡", "不限流量 40-80Mbps 专属单用户 HTTP/SOCKS5/WireGuard/QUIC", "控制面板 IP白名单 自定义轮换(1min-72h) 跳过已用IP", "$2.50/4h试用 按天/周/月计费 批量折扣 Visa/PayPal/加密"],
+    "features": ["真实5G手机SIM卡", "5国多运营商", "不限流量带宽", "自定义IP轮换"],
     "affiliateUrl": "https://proxyblocks.io/",
     "detailUrl": "/proxy/proxyblocks"
   },
@@ -2283,7 +2283,7 @@
     "proxyTypes": ["数据中心代理", "ISP代理"],
     "isFeatured": false,
     "badge": "线程计费",
-    "features": ["IPv4静态DC 1Gbps 美国机房 160₽/起 IPv4静态ISP 住宅IP 240₽/起 即买即用附送IPv6", "IPv6旋转代理 Windstream ISP/DC/SimpleDC 轮换1秒-24h 海量地址 195国200+地点", "线程计费100-10000线程 月付/周付 IPv6起500₽/月 自有基础设施 HTTP/SOCKS5", "Robokassa支付 中文/英文/俄文 Telegram即时支持 Discord社区 俄罗斯公司"],
+    "features": ["IPv4静态DC代理", "IPv6旋转代理", "线程计费灵活", "HTTP/SOCKS5"],
     "affiliateUrl": "https://dcproxy.shop/en",
     "detailUrl": "/proxy/dcproxy"
   },
@@ -2296,7 +2296,7 @@
     "proxyTypes": ["住宅代理", "移动代理", "数据中心代理"],
     "isFeatured": false,
     "badge": "流量不限期",
-    "features": ["住宅18M+IP $1.75/GB起 高级移动/普通移动/数据中心 4大产品线 HTTP/SOCKS5", "精准定位：国家/城市/邮编/ASN 美国34万+/英国29万+/澳洲21万+/德法加", "按量计费 余额不限期 粘性会话+自动轮换 纯净IP低欺诈分 API+Dashboard全控制", "USDT/BTC/ETH/LTE加密+信用卡 俄语/英语 Trustpilot好评 SourceForge奖"],
+    "features": ["1800万+住宅IP", "城市邮编级定位", "按量计费不限期", "纯净低欺诈IP"],
     "affiliateUrl": "https://ipnproxy.com/en",
     "detailUrl": "/proxy/ipnproxy"
   },
@@ -2309,7 +2309,7 @@
     "proxyTypes": ["住宅代理", "ISP代理"],
     "isFeatured": false,
     "badge": "SOC 2合规",
-    "features": ["住宅$1.70/GB起 150+国家 旋转+粘性 SOCKS5+HTTP Comcast/AT&T/Verizon", "ISP$0.83/IP起 静态住宅IP 阿什本VA机房 无限带宽 Comcast/Frontier/Windstream", "1000万+IP 195+国家 150+ASN 城市级定位 <50ms延迟 99.99%可用 SLA保障", "信用卡+50+加密货币 即时激活 $5试用 24/7支持 SOC 2 Type II/GDPR/PCI DSS"],
+    "features": ["1000万+住宅IP", "静态ISP代理", "城市级精准定位", "SOC 2合规认证"],
     "affiliateUrl": "https://hexproxies.com/",
     "detailUrl": "/proxy/hexproxy"
   }
