@@ -2014,5 +2014,19 @@
     "affiliateUrl": "https://evomi.com/",
     "couponCode": "",
     "detailUrl": "/proxy/evomi"
+  },
+  {
+    "id": "joinmassive",
+    "name": "JoinMassive",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "160万+",
+    "proxyTypes": ["住宅代理", "ISP代理", "网页渲染", "网页搜索"],
+    "isFeatured": false,
+    "badge": "AI原生",
+    "features": ["住宅代理API+网页渲染+搜索API+ISP代理 160万+道德IP 195+国家", "住宅代理$4.9/GB起 企业版$3.2/GB起 ISP代理$1.8/IP起", "HTTP/SOCKS5 粘性30分钟 城市+邮编级定位 <600ms 99.9%在线", "SOC2/GDPR/CCPA合规 AppEsteem认证 AI原生多语言 免费试用"],
+    "affiliateUrl": "https://www.joinmassive.com/zh",
+    "couponCode": "",
+    "detailUrl": "/proxy/joinmassive"
   }
 ]
