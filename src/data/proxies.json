@@ -2195,5 +2195,18 @@
     "features": ["旋转住宅+移动+DC IPv4/IPv6 4类代理 种子箱业务起家 2011年创立", "690万+住宅IP 100+国家 99.9%成功率 无限线程 256位SSL加密", "住宅10GB €30/月(€3/GB)起 灵活方案€5/GB起 轮换/黏性会话", "24/7即时聊天支持 4.8评分 24小时退款 HTTPS/SOCKS5 多语言"],
     "affiliateUrl": "https://www.rapidseedbox.com/zh/",
     "detailUrl": "/proxy/rapidseedbox"
+  },
+  {
+    "id": "psbproxy",
+    "name": "PSB Proxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "4000万+",
+    "proxyTypes": ["住宅代理", "移动代理", "数据中心代理"],
+    "isFeatured": false,
+    "badge": "流量不限时",
+    "features": ["住宅+移动+DC+爬虫API 4类代理 4000万+IP 200国家 99.9%在线率", "住宅$1.20/GB起(1000GB) 移动$2.10/GB起 DC$0.70/GB起 批量折扣", "无限并发 自动轮换(1/10/30分钟) 黏性会话 独享IP 控制面板", "加密货币+信用卡支付 Telegram支持 白标 White-label 俄罗斯公司"],
+    "affiliateUrl": "https://psbproxy.io/",
+    "detailUrl": "/proxy/psbproxy"
   }
 ]
