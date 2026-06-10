@@ -127,7 +127,7 @@ const filtered = proxiesData.filter(p => whitelist.includes(p.id));
                     <img src={`${base}/images/proxy-cc.png`} alt="proxy.cc" class="h-14 w-auto self-center" />
                   ) : proxy.id === 'databay' || proxy.id === 'psbproxy' ? (
                     <div class="shrink-0 flex items-center justify-center">
-                      <img src={`${base}/images/${proxy.id}.webp?v=2`} alt={proxy.name} class="h-6 w-auto" />
+                      <img src={`${base}/images/${proxy.id}.png`} alt={proxy.name} class="h-8 w-auto" />
                     </div>
                   ) : (
                     <img src={`${base}/images/${proxy.id === 'kocerroxy' ? proxy.id + '-logo.svg' : proxy.id === 'proxy.market' ? 'proxy-market.png' : proxy.id === 'hydraproxy' || proxy.id === 'proxysentinel' ? proxy.id + '.webp' : proxy.id + '.png'}`} alt={proxy.name} class="h-14 w-auto self-center" />
