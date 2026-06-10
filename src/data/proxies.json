@@ -2140,5 +2140,19 @@
     "affiliateUrl": "https://www.ipway.com/",
     "couponCode": "",
     "detailUrl": "/proxy/ipway"
+  },
+  {
+    "id": "iphtml",
+    "name": "IPHTML",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "7000万+",
+    "proxyTypes": ["住宅代理", "数据中心代理", "移动代理"],
+    "isFeatured": false,
+    "badge": "5条产品线",
+    "features": ["住宅+DC+移动+旋转+静态 5条产品线 70M+住宅IP 220+国家 20000+城市", "HTTP/SOCKS5 流量永不过期 无限并发 城市级定位 99.9%匿名率", "住宅$3/GB起 DC$1/IP起 Starter $6/2GB Pro $25/10GB 免费试用", "中文/英文双界面 10000+团队信赖 Visa/Mastercard/Alipay/加密货币"],
+    "affiliateUrl": "https://www.iphtml.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/iphtml"
   }
 ]
