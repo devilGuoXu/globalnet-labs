@@ -1958,5 +1958,19 @@
     "affiliateUrl": "https://proxy.market/",
     "couponCode": "",
     "detailUrl": "/proxy/proxy.market"
+  },
+  {
+    "id": "gsocks",
+    "name": "GSocks",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "3000万+",
+    "proxyTypes": ["住宅代理", "移动代理", "数据中心", "专属代理"],
+    "isFeatured": false,
+    "badge": "流量永不过期",
+    "features": ["4条产品线 住宅+移动+DC+专属 3000万+IP 190+国家 流量永不过期", "住宅$4/GB起 移动$6/GB起 数据中心$0.60/GB起 专属$2/IP起", "HTTP/SOCKS5 粘性+轮换 城市级定位 1000+Mbps 99.99%在线 API控制台", "24/7客服 免费试用100MB 忠诚度6级折扣 自有基础设施 无过售"],
+    "affiliateUrl": "https://gsocks.net/",
+    "couponCode": "",
+    "detailUrl": "/proxy/gsocks"
   }
 ]
