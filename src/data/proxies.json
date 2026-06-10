@@ -2234,5 +2234,31 @@
     "features": ["住宅Premium+Exclusive+无限+移动+DC+AT&T+IPv6 7类代理 7500万+IP", "7500万+住宅IP 195+国家 ASN/城市/州级定位 IP质量过滤 3天免费试用", "住宅$1.59/GB起(1TB) Exclusive$1.50/GB起 移动$2.50/GB起 $2.19 Exclusive特价", "3天免费试用 无需信用卡 Chrome扩展 GoLogin集成 WhatsApp/Telegram支持 JUN15优惠码"],
     "affiliateUrl": "https://rainproxy.io/",
     "detailUrl": "/proxy/rainproxy"
+  },
+  {
+    "id": "illusory",
+    "name": "Illusory",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "专属",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "裸机移动",
+    "features": ["裸机5G移动代理 专属单租户 真实美国设备 支持HTTP/SOCKS5+TCP/UDP", "按小时计费$1/小时/代理 每分钟更换IP 无限API请求 更换ISP/地点", "5G超快网络 高可信移动ASN 城市/州级定位 IPv4/IPv6双栈", "API全控制 开发者友好 支持AI训练/数据采集/社媒 企业定制SLA"],
+    "affiliateUrl": "https://www.illusory.io/",
+    "detailUrl": "/proxy/illusory"
+  },
+  {
+    "id": "enigmaproxy",
+    "name": "EnigmaProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1亿+",
+    "proxyTypes": ["住宅代理", "数据中心代理", "ISP代理"],
+    "isFeatured": false,
+    "badge": "账户系统",
+    "features": ["住宅30M/高级90M/企业100M+IP 无限ISP/IPv6/DC 100+国家 99.9%运行时间", "账户管理系统 永久保存配置 一键续费扩容 24/7真人客服（非聊天机器人）", "住宅95%成功率·7天粘性 高级99%成功率·1小时粘性 企业98% HTTP/SOCKS5", "$2/GB起（住宅） 无限ISP$40/天 批量自动折扣 Stripe/加密货币 24h退款"],
+    "affiliateUrl": "https://enigmaproxy.net/",
+    "detailUrl": "/proxy/enigmaproxy"
   }
 ]
