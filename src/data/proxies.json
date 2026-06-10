@@ -1748,5 +1748,19 @@
     "affiliateUrl": "https://roundproxies.com/",
     "couponCode": "RP50",
     "detailUrl": "/proxy/roundproxies"
+  },
+  {
+    "id": "thunderproxy",
+    "name": "Thunderproxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "3000万+",
+    "proxyTypes": ["住宅代理", "数据中心", "ISP代理"],
+    "isFeatured": false,
+    "badge": "加密货币",
+    "features": ["3000万+住宅 IP 155+国家覆盖", "住宅+数据中心+静态ISP三产品线", "0.5s响应 99.9%正常运行 HTTP/SOCKS5", "256MB免费试用 支持加密货币支付"],
+    "affiliateUrl": "https://www.thunderproxy.com/en",
+    "couponCode": "BF50",
+    "detailUrl": "/proxy/thunderproxy"
   }
 ]
