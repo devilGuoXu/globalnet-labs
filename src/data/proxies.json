@@ -2112,5 +2112,19 @@
     "affiliateUrl": "https://altproxy.com/en/",
     "couponCode": "",
     "detailUrl": "/proxy/altproxy"
+  },
+  {
+    "id": "3gproxy",
+    "name": "3G Proxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "120+",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "真实SIM卡",
+    "features": ["4G/LTE移动代理 全球40+国家 120+运营商 真实SIM卡 4G速度60Mbps", "独享设备不共享带宽 旋转IP+黏性IP 99%更换成功率 25个并发端口", "Web界面+浏览器插件+SMS测试+设备模拟+API Dolphin/GoLogin/AdsPower", "广告验证+支付测试+短信检测+社媒管理 免费试用Demo 银行转账/加密货币"],
+    "affiliateUrl": "https://3gproxy.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/3gproxy"
   }
 ]
