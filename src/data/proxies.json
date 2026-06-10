@@ -1892,14 +1892,14 @@
   {
     "id": "2captcha",
     "name": "2Captcha",
-    "type": "captcha-service",
+    "type": "residential-proxy",
     "rating": 7.3,
-    "poolSize": "—",
-    "proxyTypes": ["验证码识别"],
+    "poolSize": "9000万+",
+    "proxyTypes": ["住宅代理", "数据中心", "移动代理", "ISP代理"],
     "isFeatured": false,
-    "badge": "AI识别",
-    "features": ["验证码识别服务 reCAPTCHA/Image/Turnstile/FunCaptcha", "AI自动识别+人工兜底 99.9%在线率 千次低至$0.5", "Python/PHP/Java/C#/JS 多语言SDK GitHub开源", "Chrome/Firefox/Edge浏览器扩展 4500+软件集成"],
-    "affiliateUrl": "https://2captcha.com/",
+    "badge": "代理网络",
+    "features": ["五大代理类型: 住宅/数据中心/移动/ISP/SOCKS5 9000万+IP 220+国家", "住宅代理 $5/GB起 批量折扣低至$1.4/GB 城市/ISP级定位", "无限并发 99.9%在线 ~0.7s响应 HTTP/HTTPS/SOCKS5 0-120min粘性", "Chrome扩展+多语言API 无日志 Visa/PayPal/BTC/USDT/支付宝"],
+    "affiliateUrl": "https://2captcha.com/proxy",
     "couponCode": "",
     "detailUrl": "/proxy/2captcha"
   }

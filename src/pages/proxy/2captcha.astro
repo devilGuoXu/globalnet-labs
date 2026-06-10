@@ -3,7 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 ---
 
-<Layout title="2Captcha 验证码识别服务深度评测 - GlobalNet Labs">
+<Layout title="2Captcha 代理服务深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
       <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
@@ -15,11 +15,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <img src={`${base}/images/2captcha.png`} alt="2Captcha" class="h-16 w-auto" />
         <div>
           <div class="flex items-center gap-3 flex-wrap">
-            <h1 class="text-3xl font-bold text-slate-100">2Captcha 评测</h1>
+            <h1 class="text-3xl font-bold text-slate-100">2Captcha 代理评测</h1>
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
-            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">AI识别</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">代理网络</span>
           </div>
-          <p class="text-slate-400 mt-1">验证码识别 · reCAPTCHA/Image/Turnstile/FunCaptcha · AI + 人工</p>
+          <p class="text-slate-400 mt-1">住宅代理 · 数据中心 · 移动代理 · ISP 代理 · SOCKS5 · 全球 220+ 国家</p>
         </div>
       </div>
 
@@ -27,20 +27,20 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <h2 class="text-xl font-bold text-slate-100 mb-4">核心摘要</h2>
         <div class="grid md:grid-cols-2 gap-4 text-sm">
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">服务类型</span>
-            <p class="text-slate-200 font-medium mt-1">验证码识别解决服务（Captcha Solving Service）</p>
+            <span class="text-slate-500">代理类型</span>
+            <p class="text-slate-200 font-medium mt-1">住宅 · 数据中心 · 移动 3G/4G · ISP · SOCKS5 · Premium</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">支持类型</span>
-            <p class="text-slate-200 font-medium mt-1">reCAPTCHA v2/v3/Enterprise · Image · Turnstile · FunCaptcha · AWS · ALTCHA</p>
+            <span class="text-slate-500">IP 池规模</span>
+            <p class="text-slate-200 font-medium mt-1">9000 万+ 住宅 IP · 700 万+ 移动 IP · 220+ 国家</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">价格</span>
-            <p class="text-slate-200 font-medium mt-1">千次低至 $0.5（Image）· reCAPTCHA $1-2.99/千次</p>
+            <span class="text-slate-500">性能指标</span>
+            <p class="text-slate-200 font-medium mt-1">99.9% 在线率 · ~0.7s 响应 · 无限并发 · HTTP/HTTPS/SOCKS5</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">集成方式</span>
-            <p class="text-slate-200 font-medium mt-1">REST API · 多语言 SDK · 浏览器扩展 · 4500+ 软件</p>
+            <span class="text-slate-500">定价模式</span>
+            <p class="text-slate-200 font-medium mt-1">住宅 $5/GB 起 · 批量折扣至 $1.4/GB · 3 个月有效期</p>
           </div>
         </div>
       </section>
@@ -48,66 +48,67 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          2Captcha 是全球领先的验证码识别解决服务商，以 AI 自动识别为主、人工兜底为辅的技术路线，为开发者、数据采集团队和自动化运营者提供高效、低成本的验证码绕过方案。平台支持 reCAPTCHA v2/v3/Enterprise、Image Captcha、Cloudflare Turnstile、FunCaptcha、Amazon AWS WAF、ALTCHA 等主流验证码类型，价格从千次 $0.5 起。
+          2Captcha 是全球知名的代理服务提供商，提供住宅代理、数据中心代理、3G/4G 移动代理、ISP 代理和 SOCKS5 代理等多条产品线。平台拥有超过 9000 万住宅 IP 和 700 万移动 IP，覆盖 220+ 国家和地区，支持国家、州/省、城市和 ISP 级别的精准定位。作为行业领先的代理基础设施平台，2Captcha 被 G2、SourceForge 和 Captchathecat 等评测机构评为高分。
         </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          2Captcha 的核心优势在于"AI-first + Human fallback"的双引擎架构——大部分验证码由 AI 模型自动识别以保证速度和可扩展性，当 AI 置信度不足时由人工标注员兜底。这种架构在保持高速度的同时确保了接近 100% 的识别准确率。平台提供 99.9% 在线率 SLA 和 24/7 技术支持。
+          2Captcha 代理服务的核心优势在于"全类型覆盖 + 弹性定价"——从住宅到数据中心、从移动到 ISP，用户可以在一个平台获取所需的所有代理类型。按 GB 计费的定价模式从 $5/GB 起，批量购买最高可享 72% 折扣（低至 $1.4/GB）。平台提供灵活的粘性会话设置（0-120 分钟），支持 HTTP/HTTPS/SOCKS5 协议，无并发连接限制。
         </p>
         <p class="text-slate-300 leading-relaxed">
-          2Captcha 在 GitHub 上拥有丰富的开源生态，提供 Python、PHP、Ruby、Java、Golang、C#、JavaScript 等多语言 SDK。同时提供 Chrome、Firefox、Edge 浏览器扩展，已集成到 4500+ 第三方软件中。平台还提供浏览器指纹数据集和数据标注（Bounding Box）等额外服务。
+          2Captcha 提供 Chrome 浏览器代理扩展和代理切换器插件，支持 PHP、Node.js、C#、Go、Java、Python 等多语言 API 集成。平台严格遵循无日志政策，支持 SSL 加密、GDPR 和 CCPA 合规。支付方式包括 Visa、Mastercard、PayPal、支付宝、BTC、USDT 和 Airtm。
         </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">核心功能与技术特性</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理产品与技术特性</h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">验证码类型全覆盖</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">支持 reCAPTCHA v2（含 Callback/Invisible）、reCAPTCHA v3、reCAPTCHA Enterprise、Image Captcha（图片验证码）、Cloudflare Turnstile、Arkose Labs FunCaptcha、Amazon AWS WAF Captcha、ALTCHA 滑块验证码等。每种验证码均有详细的 API 文档和在线 Demo 供测试。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅代理（Residential）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">2Captcha 的核心代理产品，基于全球真实用户的社区共享网络。拥有超过 9000 万住宅 IP，覆盖 220+ 国家和地区，支持国家、州/省、城市和 ISP 级别的精准定位。粘性会话 0-120 分钟可调，支持 HTTP/HTTPS/SOCKS5 协议，无并发连接限制。99.9% 在线率保证，约 0.7s 平均响应时间。定价 $5/GB 起，批量购买低至 $1.4/GB。</p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">AI + 人工双引擎</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">大部分验证码任务由 AI 模型自动处理，速度快、可扩展性强。当 AI 对识别结果置信度不足时，任务自动流转给人工标注员。这种 Human-in-the-loop 架构在速度与准确率之间取得了最佳平衡，特别适合处理模糊图片、复杂扭曲文字等 AI 难以独立处理的边缘情况。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心代理（Datacenter / Premium）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供全球分布的数据中心代理服务器，Premium 代理拥有高效流量管理能力，可应对大规模流量激增，响应速度行业领先。支持共享 IP 池和独立 IP 获取，支持国家、州和城市级别定位。零带宽限制，零目标限制，API 集成便捷。</p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">完善的开发者 API</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">提供 RESTful API 接口，支持同步和异步两种调用模式。API 客户端覆盖 Python、PHP、Ruby、Java、Golang、C#、JavaScript 等主流语言。开发者可将验证码识别无缝集成到 Selenium、Puppeteer、Playwright、Cypress、Scrapy 等自动化框架中。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">移动代理（Mobile 3G/4G）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">通过真实对等网络提供 3G/4G 移动 IP，拥有超过 700 万真实移动 IP，覆盖全球各大城市。支持按国家、城市、运营商和 ASN 的精准定位，无并发连接限制。适合需要从移动设备视角访问互联网的广告验证、应用测试等场景。</p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">浏览器扩展一键解决</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">提供 Chrome、Firefox、Edge 三大浏览器的扩展插件，安装后可在浏览网页时自动识别并填充验证码，无需手动复制粘贴。适合需要手动操作浏览器但希望自动处理验证码的用户。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">ISP 代理（静态住宅）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供由 ISP 分配的真实住宅 IP，用户可长期持有同一 IP 地址，不受中断或延迟影响。支持全球任意城市定位，提供行业最快的静态住宅 ISP IP 速度。适合需要稳定长期 IP 的社媒运营、电商管理和品牌保护等场景。</p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4500+ 软件生态集成</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">2Captcha 已集成到 4500+ 第三方软件和工具中，涵盖数据采集、SEO 监控、社交媒体自动化、电商运营等领域的常用软件。用户只需在软件中输入 2Captcha API Key 即可启用验证码自动识别功能。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">SOCKS5 代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 TCP 协议和增强认证方式，提供超低延迟和高带宽连接。全球网络覆盖，适用于流媒体、BT 下载和在线游戏等对速度和匿名性要求较高的场景。</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">验证码类型与定价参考</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">定价参考</h2>
         <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50 overflow-x-auto">
           <table class="w-full text-sm text-slate-300">
             <thead>
               <tr class="border-b border-slate-700">
-                <th class="text-left py-3 px-2">验证码类型</th>
-                <th class="text-right py-3 px-2">价格（千次）</th>
-                <th class="text-right py-3 px-2">免费容量/分钟</th>
+                <th class="text-left py-3 px-2">流量包</th>
+                <th class="text-right py-3 px-2">价格</th>
+                <th class="text-right py-3 px-2">每 GB 单价</th>
               </tr>
             </thead>
             <tbody>
-              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">reCAPTCHA v2</td><td class="text-right py-2.5 px-2">$1 — $2.99</td><td class="text-right py-2.5 px-2">11,273</td></tr>
-              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">Image Captcha</td><td class="text-right py-2.5 px-2">$0.5 — $1</td><td class="text-right py-2.5 px-2">12,000</td></tr>
-              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">Cloudflare Turnstile</td><td class="text-right py-2.5 px-2">$1.45</td><td class="text-right py-2.5 px-2">2,883</td></tr>
-              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">reCAPTCHA v3</td><td class="text-right py-2.5 px-2">$1.45 — $2.99</td><td class="text-right py-2.5 px-2">757</td></tr>
-              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">reCAPTCHA Enterprise</td><td class="text-right py-2.5 px-2">$1 — $2.99</td><td class="text-right py-2.5 px-2">483</td></tr>
-              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">FunCaptcha</td><td class="text-right py-2.5 px-2">$1.45 — $50</td><td class="text-right py-2.5 px-2">578</td></tr>
-              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">Amazon Captcha</td><td class="text-right py-2.5 px-2">$1.45</td><td class="text-right py-2.5 px-2">5,632</td></tr>
-              <tr><td class="py-2.5 px-2">ALTCHA</td><td class="text-right py-2.5 px-2">$2.99</td><td class="text-right py-2.5 px-2">203</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">1 GB</td><td class="text-right py-2.5 px-2">$5</td><td class="text-right py-2.5 px-2">$5</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">10 GB</td><td class="text-right py-2.5 px-2">$40</td><td class="text-right py-2.5 px-2">$4</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">30 GB</td><td class="text-right py-2.5 px-2">$99.9</td><td class="text-right py-2.5 px-2">$3.33</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">100 GB</td><td class="text-right py-2.5 px-2">$250</td><td class="text-right py-2.5 px-2">$2.5</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">200 GB</td><td class="text-right py-2.5 px-2">$450</td><td class="text-right py-2.5 px-2">$2.25</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">1 TB</td><td class="text-right py-2.5 px-2">$2,000</td><td class="text-right py-2.5 px-2">$2</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">3 TB</td><td class="text-right py-2.5 px-2">$5,010</td><td class="text-right py-2.5 px-2">$1.67</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-2.5 px-2">5 TB</td><td class="text-right py-2.5 px-2">$8,000</td><td class="text-right py-2.5 px-2">$1.6</td></tr>
+              <tr><td class="py-2.5 px-2">10 TB</td><td class="text-right py-2.5 px-2">$14,000</td><td class="text-right py-2.5 px-2">$1.4</td></tr>
             </tbody>
           </table>
         </div>
-        <p class="text-xs text-slate-500 mt-2">价格以官网实时报价为准，此处仅为参考</p>
+        <p class="text-xs text-slate-500 mt-2">价格为住宅代理定价，以官网实时报价为准</p>
       </section>
 
       <!-- 支付方式 -->
@@ -120,7 +121,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">银行卡 / 电子支付</span>
+            <span class="text-sm text-slate-200">Visa / Mastercard</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+            <span class="text-sm text-slate-200">PayPal</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+            <span class="text-sm text-slate-200">BTC / USDT</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">支付宝 / Airtm</span>
           </div>
         </div>
         <p class="text-xs text-slate-500 mt-3">具体支付方式请以官网结算页面为准</p>
@@ -134,12 +147,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>验证码类型覆盖面广，支持 8+ 主流类型</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>AI + 人工双引擎，速度与准确率兼具</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>千次低至 $0.5，性价比突出</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>多语言 SDK + 浏览器扩展 + 4500+ 软件集成</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>GitHub #1 captcha solver，开源生态丰富</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.9% 在线率，24/7 技术支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>五大代理类型全覆盖：住宅/数据中心/移动/ISP/SOCKS5</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>9000 万+ 住宅 IP，220+ 国家，城市/ISP 级定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>批量折扣最高 72%，$5/GB 低至 $1.4/GB</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限并发连接，99.9% 在线率，HTTP/SOCKS5</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Chrome 扩展 + 多语言 API + 无日志政策</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支持加密货币、PayPal、支付宝等多种支付</span></li>
             </ul>
           </div>
           <div>
@@ -147,11 +160,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>非代理服务，而是验证码识别服务</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>复杂 FunCaptcha 价格可达 $50/千次</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>中国不可用，部分网站（PayPal/Telegram）被屏蔽</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无免费试用，购买流量 3 个月内有效</span></li>
               <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>需配合代理或其他自动化工具使用</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>免费容量有限，高并发需预充值</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>粘性会话最长 120 分钟，无永久会话</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理为社区共享网络，非专属设备</span></li>
             </ul>
           </div>
         </div>
@@ -160,19 +173,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          2Captcha 是全球领先的验证码识别解决服务，以 AI-first + Human fallback 的双引擎架构为核心技术优势。支持 8+ 主流验证码类型（reCAPTCHA v2/v3/Enterprise、Image、Cloudflare Turnstile、FunCaptcha、AWS、ALTCHA），千次价格低至 $0.5，性价比出色。完善的开发者 API 和丰富的开源 SDK 生态使其成为自动化数据采集和浏览器自动化场景中的首选验证码解决服务。
+          2Captcha 代理服务是全球代理市场中产品线最全面的平台之一，提供住宅代理、数据中心代理、移动 3G/4G 代理、ISP 代理和 SOCKS5 代理五大产品线。超过 9000 万住宅 IP 覆盖 220+ 国家和地区，配合国家/州/城市/ISP 四级定位能力，可满足绝大多数数据采集、社媒运营和广告验证场景的需求。
         </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          2Captcha 的核心价值在于"低价格 + 高准确率 + 易集成"——AI 自动处理保证了速度和低成本，人工兜底保证了复杂验证码的识别率，多语言 SDK 和浏览器扩展大幅降低了集成门槛。4500+ 软件的集成生态也证明了其市场认可度。
+          2Captcha 代理的核心价值在于"全类型 + 弹性定价 + 易集成"——一个平台覆盖所有代理需求，批量购买折扣最高 72%，Chrome 扩展和多语言 API 大幅降低使用门槛。无日志政策、SSL 加密和多种支付方式也提升了平台的可用性和信任度。
         </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于非代理服务本身、复杂验证码类型价格偏高以及缺乏中文支持。综合评估，2Captcha 获得 7.3 分评价。特别推荐给需要进行大规模数据采集的代理用户、使用 Selenium/Puppeteer 进行浏览器自动化的开发者，以及需要绕过 reCAPTCHA/Cloudflare 验证的 SEO 和广告验证团队。
+          主要局限在于中国不可用、无免费试用、流量 3 个月有效期以及社区共享网络带来的 IP 纯净度不确定性。综合评估，2Captcha 代理服务获得 7.3 分评价。特别推荐给需要多类型代理的一站式用户、预算敏感的大批量数据采集团队，以及偏好按 GB 计费灵活模式的开发者。
         </p>
       </section>
 
       <div class="text-center">
-        <a href="https://2captcha.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
-          访问 2Captcha 官网
+        <a href="https://2captcha.com/proxy" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 2Captcha 代理官网
           <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
         </a>
       </div>
