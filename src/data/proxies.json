@@ -2126,5 +2126,19 @@
     "affiliateUrl": "https://3gproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/3gproxy"
+  },
+  {
+    "id": "ipway",
+    "name": "IPWAY",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "100万+",
+    "proxyTypes": ["住宅代理", "数据中心代理"],
+    "isFeatured": false,
+    "badge": "6条产品线",
+    "features": ["旋转住宅+旋转DC+静态住宅+静态DC+API住宅+API DC 6条产品线 99.5%成功率", "ISP住宅代理 $1.80/GB起 DC代理 $0.48/GB起 静态IP $1.40/IP 无限流量", "HTTP/SOCKS5 全球覆盖 专属客户经理 24/7支持 7天免费试用", "Web+AI+eCommerce+社媒+广告验证+SEO+SERP G2评级 100%伦理IP"],
+    "affiliateUrl": "https://www.ipway.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/ipway"
   }
 ]
