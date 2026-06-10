@@ -75,6 +75,21 @@
     "detailUrl": "https://surfshark.com/"
   },
   {
+    "id": "cometvpn",
+    "name": "CometVPN",
+    "type": "vpn",
+    "rating": 7.5,
+    "price": "$1.89/月",
+    "jurisdiction": "塞舌尔（14 Eyes管辖外）",
+    "protocols": ["WireGuard", "OpenVPN", "IKEv2"],
+    "isFeatured": false,
+    "badge": "住宅VPN可选",
+    "features": ["住宅VPN附加可选", "无限设备连接", "30天退款保障", "14 Eyes管辖外"],
+    "affiliateUrl": "https://cometvpn.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/cometvpn"
+  },
+  {
     "id": "entervpn",
     "name": "EnterVPN",
     "type": "vpn",

@@ -1,0 +1,251 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="CometVPN 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-6">
+        <img src={`${base}/images/cometvpn.png`} alt="CometVPN" class="h-16 w-auto" />
+        <div>
+          <div class="flex items-center gap-3 flex-wrap">
+            <h1 class="text-3xl font-bold text-slate-100">CometVPN 评测</h1>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.5</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">住宅VPN可选</span>
+          </div>
+          <p class="text-slate-400 mt-1">VPN 服务 · 无限设备 · 全球节点 · AES-256 加密 · 无日志</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">核心摘要</h2>
+        <div class="grid md:grid-cols-2 gap-4 text-sm">
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">价格</span>
+            <p class="text-slate-200 font-medium mt-1">24月 $1.89/月 · 12月 $2.50/月 · 1月 $9.99/月</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">特色功能</span>
+            <p class="text-slate-200 font-medium mt-1">住宅 VPN · 专属住宅 IP · 混淆 VPN · DNS 泄漏保护</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">核心特性</span>
+            <p class="text-slate-200 font-medium mt-1">WireGuard · AES-256 · 零日志 · Kill Switch · 无限设备 · 无流量限制</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">支付方式</span>
+            <p class="text-slate-200 font-medium mt-1">Visa · Mastercard · Amex · PayPal · Discover · EPS · 加密货币</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          CometVPN 是一家注册于塞舌尔（Seychelles）的 VPN 服务商，其服务架构建立在 14 Eyes 监控联盟管辖范围之外，不受多数数字监控法律约束。品牌主打"全民 VPN"理念——性价比极高的长期套餐（24 月仅 $1.89/月）、无限设备同时连接、无流量限制，配合住宅 VPN 等增值功能，在入门级 VPN 市场中独树一帜。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          CometVPN 最独特的差异化优势在于其住宅 VPN（Residential VPN）和专属住宅 IP（Dedicated Residential IP）增值服务。传统 VPN 的服务器 IP 通常来自数据中心，容易被流媒体和反欺诈系统识别并拦截。CometVPN 的住宅 VPN 使用来自家庭设备的真实 ISP 分配的 IP 地址，极大降低了被识别为 VPN 的概率，显著提升了对 Netflix、HBO、Disney+ 等流媒体平台的可访问性。专属住宅 IP 则更进一步，为用户分配独占的住宅 IP 地址，适合需要稳定单一出口 IP 的场景。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          服务器网络覆盖全球众多国家，包括美国、英国、加拿大、印度、日本、巴西、韩国、马来西亚、阿根廷等，提供充足的国际带宽和高速连接。所有套餐均包含混淆 VPN（Obfuscated VPN）功能，可隐藏 VPN 使用痕迹，绕过深度包检测（DPI）封锁。公司提供 30 天无条件退款保证，降低用户尝试风险。客户端覆盖 Android、iOS、Windows、macOS 四大平台。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">定价方案</h2>
+        <div class="grid md:grid-cols-3 gap-4">
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50 text-center">
+            <div class="text-xs text-slate-500 mb-1">最佳价值</div>
+            <div class="text-emerald-400 font-bold text-3xl">$1.89</div>
+            <div class="text-slate-400 text-sm mb-4">/月 · 24 月</div>
+            <div class="text-xs text-slate-500 mb-3">+3 月免费 · 81% 优惠</div>
+            <ul class="text-sm text-slate-300 space-y-2 text-left">
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>无限设备连接</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>无限流量不限速</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>所有增值功能可选</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>30 天退款保障</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50 text-center">
+            <div class="text-xs text-slate-500 mb-1">推荐</div>
+            <div class="text-emerald-400 font-bold text-3xl">$2.50</div>
+            <div class="text-slate-400 text-sm mb-4">/月 · 12 月</div>
+            <div class="text-xs text-slate-500 mb-3">+1 月免费 · 75% 优惠</div>
+            <ul class="text-sm text-slate-300 space-y-2 text-left">
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>无限设备连接</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>无限流量不限速</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>所有增值功能可选</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>30 天退款保障</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50 text-center">
+            <div class="text-xs text-slate-500 mb-1">月付</div>
+            <div class="text-emerald-400 font-bold text-3xl">$9.99</div>
+            <div class="text-slate-400 text-sm mb-4">/月 · 按月</div>
+            <div class="text-xs text-slate-500 mb-3">$9.99 每月</div>
+            <ul class="text-sm text-slate-300 space-y-2 text-left">
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>无限设备连接</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>无限流量不限速</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>所有增值功能可选</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>30 天退款保障</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">价格图片</h2>
+        <img src={`${base}/images/cometvpn-price.webp`} alt="CometVPN 价格" class="w-full max-w-2xl mx-auto rounded-lg" />
+      </section>
+
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">Visa/Mastercard/Amex/Discover</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">PayPal</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">EPS</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">加密货币</span>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-3 mt-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
+            <span class="text-xs text-slate-300">30 天退款保障</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">住宅 VPN — CometVPN 的核心差异化</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          CometVPN 最独特的功能是其住宅 VPN（Residential VPN）和专属住宅 IP（Dedicated Residential IP）增值服务。传统 VPN 使用数据中心 IP，极易被 Netflix、HBO、Disney+ 等流媒体平台以及银行、电商网站的反欺诈系统识别并拦截。住宅 VPN 使用来自真实家庭宽带的 ISP 分配 IP，在网络层面与普通家庭用户无异，极大降低了被检测和封锁的概率。
+        </p>
+        <div class="grid md:grid-cols-2 gap-4 mt-6">
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">住宅 VPN</h3>
+            <p class="text-slate-400 text-sm">使用真实家庭设备 IP 地址。$1.74/月起。适合流媒体解锁、反检测访问、社媒管理。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">专属住宅 IP</h3>
+            <p class="text-slate-400 text-sm">独享住宅 IP，仅你一人使用。$2.79/月起。适合支付验证、电商账号、银行访问。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">混淆 VPN</h3>
+            <p class="text-slate-400 text-sm">隐藏 VPN 使用痕迹，绕过 DPI 深度包检测。所有套餐免费包含。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">DNS 泄漏保护</h3>
+            <p class="text-slate-400 text-sm">自动防止 DNS 请求泄漏，确保所有流量始终通过加密隧道。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">服务器节点分布</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
+          <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
+            <span class="text-slate-200 font-medium">🇺🇸 美国</span>
+            <p class="text-slate-500 text-xs mt-1">多城市节点</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
+            <span class="text-slate-200 font-medium">🇬🇧 英国</span>
+            <p class="text-slate-500 text-xs mt-1">伦敦等</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
+            <span class="text-slate-200 font-medium">🇨🇦 加拿大</span>
+            <p class="text-slate-500 text-xs mt-1">多城市节点</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
+            <span class="text-slate-200 font-medium">🇮🇳 印度</span>
+            <p class="text-slate-500 text-xs mt-1">多城市节点</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
+            <span class="text-slate-200 font-medium">🇯🇵 日本</span>
+            <p class="text-slate-500 text-xs mt-1">多城市节点</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
+            <span class="text-slate-200 font-medium">🇧🇷 巴西</span>
+            <p class="text-slate-500 text-xs mt-1">多城市节点</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
+            <span class="text-slate-200 font-medium">🇰🇷 韩国</span>
+            <p class="text-slate-500 text-xs mt-1">多城市节点</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
+            <span class="text-slate-200 font-medium">🌍 更多</span>
+            <p class="text-slate-500 text-xs mt-1">意大利、阿根廷、马来西亚、瑞典等全球多国</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$1.89/月（24月），极低入门价格</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅 VPN 附加功能，业内独有</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限设备连接，全家全平台覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限流量不限速，无使用限制</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>塞舌尔注册，14 Eyes 管辖外</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>30 天退款 + 多支付方式</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌较新，市场知名度有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无第三方独立审计证明</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅 VPN 为付费增值，非套餐标配</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 Linux 客户端</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面，仅支持英文</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无免费套餐，仅付费订阅</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          CometVPN 以 $1.89/月（24 月方案）的极致低价切入市场，配合无限设备连接、无限流量不限速的政策，在入门级 VPN 市场中极具竞争力。其核心差异化在于住宅 VPN 增值功能——传统 VPN 的 IP 多来自数据中心，易被识别拦截，而 CometVPN 提供的真实住宅 IP 大幅降低被检测概率，对需要流媒体解锁和反检测访问的用户有独特价值。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          技术方面，CometVPN 采用 AES-256 加密、支持 WireGuard/OpenVPN/IKEv2 协议、提供 Kill Switch 和 DNS 泄漏保护，基础安全配置完善。混淆 VPN 功能免费提供，有助于在严格网络审查环境下使用。塞舌尔注册地使其处于 14 Eyes 监控联盟管辖范围之外，在隐私保护方面有一定优势。客户端覆盖 Android、iOS、Windows、macOS 四大平台。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于品牌较新、缺乏第三方审计、住宅 VPN 需额外付费、无 Linux 客户端和无中文界面。综合评估，CometVPN 获得 7.5 分评价。特别推荐给预算敏感型用户、需要无限设备连接的家庭用户、以及需要住宅 VPN 进行流媒体解锁和反检测访问的用户。对于需要严格隐私审计证明或 Linux 支持的用户，建议同时考虑其他 VPN 方案。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://cometvpn.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 CometVPN 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
