@@ -2168,5 +2168,32 @@
     "affiliateUrl": "https://froxy.com/zh-cn",
     "couponCode": "",
     "detailUrl": "/proxy/froxy"
+  },
+  {
+    "id": "proxyempire",
+    "name": "ProxyEmpire",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "3000万+",
+    "proxyTypes": ["住宅代理", "移动代理", "数据中心代理"],
+    "isFeatured": false,
+    "badge": "无限并发",
+    "features": ["旋转住宅+无限住宅+静态住宅+旋转移动+专属移动+DC 6类代理+SERP/电商/社媒API", "3000万+住宅IP 170+国家 195+地点 ISP/城市级定位 99.89%成功率", "住宅$3.50/GB起 移动$4.50/GB起 DC$0.35/GB 数据滚动 无限并发", "Trustpilot 4.6 EWDCI认证 Chrome扩展 移动App $1.97试用 多语言"],
+    "affiliateUrl": "https://proxyempire.io/",
+    "couponCode": "PROMO50",
+    "detailUrl": "/proxy/proxyempire"
+  },
+  {
+    "id": "rapidseedbox",
+    "name": "RapidSeedbox",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "690万+",
+    "proxyTypes": ["住宅代理", "数据中心代理"],
+    "isFeatured": false,
+    "badge": "即时支持",
+    "features": ["旋转住宅+移动+DC IPv4/IPv6 4类代理 种子箱业务起家 2011年创立", "690万+住宅IP 100+国家 99.9%成功率 无限线程 256位SSL加密", "住宅10GB €30/月(€3/GB)起 灵活方案€5/GB起 轮换/黏性会话", "24/7即时聊天支持 4.8评分 24小时退款 HTTPS/SOCKS5 多语言"],
+    "affiliateUrl": "https://www.rapidseedbox.com/zh/",
+    "detailUrl": "/proxy/rapidseedbox"
   }
 ]
