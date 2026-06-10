@@ -1,0 +1,191 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Aluvia 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-6">
+        <img src={`${base}/images/aluvia.png`} alt="Aluvia" class="h-16 w-auto" />
+        <div>
+          <div class="flex items-center gap-3 flex-wrap">
+            <h1 class="text-3xl font-bold text-slate-100">Aluvia 评测</h1>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">AI代理专用</span>
+          </div>
+          <p class="text-slate-400 mt-1">美国移动代理 · AI 代理 SDK · Agent.Connect · Big.Connect · $3/GB 起</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">核心摘要</h2>
+        <div class="grid md:grid-cols-2 gap-4 text-sm">
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">产品类型</span>
+            <p class="text-slate-200 font-medium mt-1">Agent.Connect（按量·$3/GB）· Big.Connect（企业·$1/GB）</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">覆盖范围</span>
+            <p class="text-slate-200 font-medium mt-1">美国（Tier 1 运营商），更多地区即将推出</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">核心特性</span>
+            <p class="text-slate-200 font-medium mt-1">自有手机设备 · 真实运营商 SIM · AI SDK · 主机名路由 · 无 KYC · 无限并发</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">支付方式</span>
+            <p class="text-slate-200 font-medium mt-1">USDC 加密货币 · Visa · MasterCard · PayPal · Apple Pay · Google Pay</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Aluvia（Aluvia LLC）是一家总部位于美国特拉华州 Lewes 的创新型代理服务商，专注于为 AI 代理提供移动 IP 连接服务。与传统的代理服务商不同，Aluvia 专为 AI 代理场景设计——其核心产品是 Aluvia SDK，一个 TypeScript/Node.js 库，AI 开发者可以在 Playwright、Puppeteer、Selenium、Axios、got 和 Node fetch 等工具中加入几行代码即可让 AI 代理通过真实美国移动 IP 访问网络。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Aluvia 的核心理念是"AI 代理的 IP 问题"——AI 代理通常在云服务器或本地数据中心运行，这些环境的 IP 地址容易被网站识别并拦截（403、CAPTCHA、限流）。Aluvia 用真实美国 Tier 1 运营商（如 Verizon、T-Mobile、AT&T）的移动 IP 替代数据中心 IP，让网站认为流量来自真实手机用户而非机器。这种做法在 AI 代理、LLM 数据采集和 RAG 流水线等场景中尤为重要。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          Aluvia 在合规方面采用"垂直整合"模式——自己购买手机、自己安装 SIM 卡、自己运营基础设施，确保所有 IP 来源完全道德合规。平台支持 USDC 加密货币支付，无需 KYC，无需月度承诺，按量计费，数据永不过期，无限并发连接。设有 Agent.Connect（$3/GB，按量）和 Big.Connect（$1/GB，1TB 起购）两个产品层级，还支持 MCP 服务器协议。相比 Bright Data（$8/GB 按量）和 Oxylabs（$5.4/GB 按量）价格更具优势。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特性</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Agent.Connect（AI 代理连接）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Aluvia 的核心产品，专为 AI 创新者设计的代理连接服务。$3/GB 按量计费，无月度承诺，数据永不过期，无限并发连接。用户安装 Aluvia SDK 后可通过集成适配器（Playwright、Puppeteer、Selenium、Axios、got、Node fetch）快速连接。支持主机名路由规则——按目标域名选择性路由流量，AI 代理可以在运行时动态更新规则而无需重启。支持持久会话 IP（约 5-10 分钟）和 US 州级定位（如 us_ca、us_ny）。99.9% 在线率，注册仅需邮箱，无 KYC。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Big.Connect（企业级连接）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">面向大规模企业工作负载的代理连接方案，$1/GB，1TB 起购。同样无月度承诺，数据永不过期，无限并发连接。流量在企业基础设施中享有优先路由，提供专属客户经理、自定义集成支持和自定义 SLA。适合需要海量移动代理流量的企业用户和代理转售商。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Aluvia SDK 与基础设施</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Aluvia SDK 是 Aluvia 的核心技术差异点——一个 TypeScript/Node.js 本地客户端，提供 `AluviaClient` 类，通过 `client.start()` 启动连接并返回自动化工具需要的代理配置。支持 `asPlaywright()`、`asPuppeteer()` 等适配器方法，输出对应工具所需的精确格式。主机名路由规则可通过 `client.updateRules()` 动态更新，IP 会话 ID 和定位可通过 `client.updateSessionId()` 和 `client.updateTargetGeo()` 控制。基础设施方面，Aluvia 自营真实手机设备，使用直接向 Tier 1 运营商购买的 SIM 卡，云端管理，弹性可扩展。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">安全与合规</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Aluvia 在合规方面采取了不同于大多数代理商的策略——他们自营手机设备，直接向运营商购买 SIM 卡，完全掌控整个基础设施栈。这意味着没有恶意软件感染的手机、没有隐藏的第三方来源、没有暗黑模式。每个设备都使用真实的 Tier 1 运营商 SIM 卡，所有 IP 来源完全可追溯、道德合规。无使用场景限制——用户可以在任何合法用途中使用 Aluvia 的服务。平台不收集不必要的用户信息，支持加密货币支付以保护隐私。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-2">定价方案</h2>
+        <p class="text-sm text-slate-400 mb-4">按量计费，无月度承诺，数据永不过期</p>
+
+        <div class="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-1">Agent.Connect</h3>
+            <p class="text-slate-400 text-xs mb-4">AI 创新者方案</p>
+            <p class="text-3xl font-bold text-slate-100 mb-4">$3<span class="text-lg text-slate-400">/GB</span></p>
+            <ul class="space-y-2 text-sm text-slate-300">
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>按量计费</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>无月度承诺</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>数据永不过期</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>无限并发连接</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>99.9% 在线率</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-1">Big.Connect</h3>
+            <p class="text-slate-400 text-xs mb-4">企业方案</p>
+            <p class="text-3xl font-bold text-slate-100 mb-4">$1<span class="text-lg text-slate-400">/GB</span></p>
+            <ul class="space-y-2 text-sm text-slate-300">
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>1TB 起购</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>无月度承诺</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>数据永不过期</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>流量优先路由</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>专属客户经理</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+            <span class="text-sm text-slate-200">USDC 加密货币</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">信用卡</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-sky-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">PayPal</span>
+          </div>
+        </div>
+        <p class="text-xs text-slate-500 mt-3">具体支付方式请以官网结算页面为准</p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>AI 代理原生 SDK，Playwright/Puppeteer/Selenium 即时代理集成</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>自有手机设备 + 真实 SIM 卡，IP 来源 100% 道德合规</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无 KYC 注册，加密货币支付，保护用户隐私</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>数据永不过期，按量计费，无月度承诺</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>唯一专注 AI 代理场景的代理服务商</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限并发连接，无使用场景限制</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅支持美国移动 IP，覆盖范围极其有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无住宅代理、数据中心代理，产品线单一</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅 TypeScript/Node.js SDK，其他语言支持有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌全新，用户评价和市场声誉有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>$3/GB 在移动代理中尚可，但高于住宅代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无桌面客户端、无 Chrome 插件等传统工具</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Aluvia 是一家极具创新特色的代理服务商，以"AI 代理的移动连接"为核心定位，通过自有的 TypeScript SDK 和真实美国移动 IP 为 AI 代理提供防封连接。其垂直整合的手机设备运营模式和加密货币支付体系在行业中独树一帜，主机名路由规则支持 AI 代理在运行时动态控制流量路径，深度契合 AI 工作流的自动化需求。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Aluvia 的核心价值在于"AI 原生 SDK + 自有移动设备 + 隐私友好"——与 Bright Data（$8/GB 按量）和 Oxylabs（$5.4/GB 按量）等传统代理相比，Aluvia 的 $3/GB 价格具有竞争力，加上无月度承诺、数据永不过期和无 KYC 注册等政策，对 AI 开发者和独立创新者非常友好。MCP 服务器支持则进一步降低了 AI 代理集成的门槛。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于覆盖范围极其有限（仅美国）、产品线单一（仅移动代理）、仅提供 TypeScript/Node.js SDK 以及品牌全新缺乏市场验证。综合评估，Aluvia 获得 7.3 分评价。特别推荐给构建 AI 代理的开发者、需要美国移动 IP 防封的数据采集团队、重视隐私的加密货币用户，以及希望用几行代码快速集成代理的 Playwright/Puppeteer 用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.aluvia.io/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Aluvia 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

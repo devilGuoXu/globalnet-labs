@@ -2070,5 +2070,19 @@
     "affiliateUrl": "https://proxyjet.io/",
     "couponCode": "",
     "detailUrl": "/proxy/proxyjet"
+  },
+  {
+    "id": "aluvia",
+    "name": "Aluvia",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "数百万",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "AI代理专用",
+    "features": ["美国移动代理 AI代理SDK 自有设备无限流量无限并发", "Agent.Connect $3/GB Big.Connect $1/GB 按量计费 数据永不过期", "Playwright/Puppeteer/Selenium 原生集成 主机名路由 无KYC", "加密货币支付 自有真实SIM卡 合规道德 US州级定位 99.9%在线"],
+    "affiliateUrl": "https://www.aluvia.io/",
+    "couponCode": "",
+    "detailUrl": "/proxy/aluvia"
   }
 ]
