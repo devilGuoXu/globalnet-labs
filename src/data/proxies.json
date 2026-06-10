@@ -1804,5 +1804,61 @@
     "affiliateUrl": "https://momoproxy.com/zh-CN",
     "couponCode": "",
     "detailUrl": "/proxy/momoproxy"
+  },
+  {
+    "id": "aceproxies",
+    "name": "Ace Proxies",
+    "type": "dedicated-proxy",
+    "rating": 7.3,
+    "poolSize": "16+",
+    "proxyTypes": ["数据中心", "住宅代理", "移动代理", "静态ISP"],
+    "isFeatured": false,
+    "badge": "不限流量",
+    "features": ["Dedicated数据中心+住宅+Mobile+静态ISP 四产品线", "不限流量带宽 10Gbps高速 HTTP/SOCKS4/5", "99.8%在线率 16+机房位置 精英级匿名", "运动鞋抢购/SEO/社媒专用 支持BTC支付 免费试用"],
+    "affiliateUrl": "https://www.aceproxies.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/aceproxies"
+  },
+  {
+    "id": "flowproxies",
+    "name": "Flow Proxies",
+    "type": "isp-proxy",
+    "rating": 7.3,
+    "poolSize": "—",
+    "proxyTypes": ["静态ISP", "住宅代理"],
+    "isFeatured": false,
+    "badge": "Bot 专用",
+    "features": ["Premium ISP + Secret Residential 双产品线", "Tier 1 ISP 不限流量带宽 HTTP/S 极速响应", "Residential 无限IP/线程 城市级定位 SOCKS5", "Discord社群支持 Stripe/BitPay加密支付"],
+    "affiliateUrl": "https://www.flowproxies.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/flowproxies"
+  },
+  {
+    "id": "bartproxies",
+    "name": "Bart Proxies",
+    "type": "isp-proxy",
+    "rating": 7.3,
+    "poolSize": "50万+",
+    "proxyTypes": ["静态ISP", "住宅代理", "数据中心"],
+    "isFeatured": false,
+    "badge": "多支付",
+    "features": ["ISP+Subnet+住宅+Captcha 四条产品线 静态IP", "50万+静态IP 不限流量带宽 99.9%在线率", "0欺诈分 Tier 1 ASN 数百子网 Socks5/HTTP", "Trustpilot高分 Discord10万+社群 加密/微信/支付宝支付"],
+    "affiliateUrl": "https://bartproxies.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/bartproxies"
+  },
+  {
+    "id": "proxy6",
+    "name": "Proxy6",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "50万+",
+    "proxyTypes": ["IPv4代理", "IPv6代理", "MTProto代理"],
+    "isFeatured": false,
+    "badge": "低价位",
+    "features": ["IPv4+IPv6+Shared+MTProto 四条产品线 个人独享", "100万+用户 4000万+已售代理 50万+在用", "HTTPs/SOCKS5 即时自动交付 API集成 完全匿名", "3天起售 最低价 30%佣金合作计划 9年运营"],
+    "affiliateUrl": "https://proxy6.net/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxy6"
   }
 ]
