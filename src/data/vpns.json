@@ -73,5 +73,20 @@
     "affiliateUrl": "https://surfshark.com/",
     "couponCode": "",
     "detailUrl": "https://surfshark.com/"
+  },
+  {
+    "id": "entervpn",
+    "name": "EnterVPN",
+    "type": "vpn",
+    "rating": 7.5,
+    "price": "$2.00/月",
+    "jurisdiction": "",
+    "protocols": ["WireGuard", "OpenVPN", "IKEv2"],
+    "isFeatured": false,
+    "badge": "免费可用",
+    "features": ["免费套餐 10+节点 1Gbps", "24月$2/月 72%优惠 不限量", "72+节点 16国 10Gbps", "5设备 AES-256 零日志 7天退款"],
+    "affiliateUrl": "https://entervpn.com/",
+    "couponCode": "",
+    "detailUrl": "https://entervpn.com/"
   }
 ]
