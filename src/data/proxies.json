@@ -2455,5 +2455,18 @@
     "features": ["9300万+住宅池", "城市精准定位", "无限线程并发", "$4/GB按量计费"],
     "affiliateUrl": "https://proxycake.com/",
     "detailUrl": "/proxy/proxycake"
+  },
+  {
+    "id": "proxystore",
+    "name": "ProxyStore",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "全品类",
+    "proxyTypes": ["数据中心", "ISP", "住宅", "移动"],
+    "isFeatured": false,
+    "badge": "全品类代理",
+    "features": ["六大代理类型", "无限带宽不限速", "1-10Gbps速度", "即时自动交付"],
+    "affiliateUrl": "https://www.proxystore.net/",
+    "detailUrl": "/proxy/proxystore"
   }
 ]
