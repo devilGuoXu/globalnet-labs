@@ -2520,5 +2520,18 @@
     "features": ["180+地区覆盖", "按量付费不限时", "旋转/粘性可选", "HTTP/SOCKS5"],
     "affiliateUrl": "https://we1.town/en/home",
     "detailUrl": "/proxy/we1-town"
+  },
+  {
+    "id": "eclipseproxy",
+    "name": "Eclipse Proxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "100万+",
+    "proxyTypes": ["住宅代理", "移动代理", "数据中心"],
+    "isFeatured": false,
+    "badge": "全品类",
+    "features": ["全品类代理", "100万+住宅IP", "120+国家覆盖", "$1.25/GB起"],
+    "affiliateUrl": "https://www.eclipseproxy.com/",
+    "detailUrl": "/proxy/eclipseproxy"
   }
 ]
