@@ -1,0 +1,169 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="NafeProxys 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-6">
+        <div class="shrink-0 flex items-center justify-center">
+          <img src={`${base}/images/nafeproxys.webp`} alt="NafeProxys" class="h-14 w-auto" />
+        </div>
+        <div>
+          <div class="flex items-center gap-3 flex-wrap">
+            <h1 class="text-3xl font-bold text-slate-100">NafeProxys 评测</h1>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">巴西+西班牙</span>
+          </div>
+          <p class="text-slate-400 mt-1">巴西/西班牙 原生 4G/5G 移动代理 · 三大运营商 · HTTP/SOCKS5 · API 轮换</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">核心摘要</h2>
+        <div class="grid md:grid-cols-2 gap-4 text-sm">
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">代理类型</span>
+            <p class="text-slate-200 font-medium mt-1">巴西/西班牙 原生 4G/5G 移动代理 · HTTP/SOCKS5</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">覆盖范围</span>
+            <p class="text-slate-200 font-medium mt-1">巴西（Claro / Vivo / TIM）· 西班牙（Movistar / Vodafone / Orange）</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">核心特性</span>
+            <p class="text-slate-200 font-medium mt-1">运营商原生 IP · 自动轮换 · API 控制 · 面板管理</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">支付方式</span>
+            <p class="text-slate-200 font-medium mt-1">官网注册购买（联系客服）</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          NafeProxys 是一家专注于巴西和西班牙市场的原生移动代理服务商。与传统的住宅代理或数据中心代理不同，NafeProxys 通过真实的运营商 4G/5G 网络提供移动 IP，所有流量均通过 Claro、Vivo、TIM（巴西）和 Movistar、Vodafone、Orange（西班牙）等主流运营商的蜂窝网络路由。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          这种基于真实运营商网络的移动代理，在网络层面与普通移动用户无异，具有极高的纯净度和低检测率。平台提供 HTTP(S) 和 SOCKS5 两种协议支持，配备用户面板和 API 接口，支持自动 IP 轮换，适合网页数据采集、广告验证、质量检测和自动化任务等场景。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          NafeProxys 的差异化优势在于对巴西和西班牙市场的深度覆盖——分别接入当地三大主流运营商，用户可根据目标网站的需求选择特定运营商线路。面板提供实时流量监控和 IP 管理功能，API 接口支持编程化控制，适合技术团队集成使用。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">定价方案</h2>
+        <p class="text-slate-300 text-sm mb-4">NafeProxys 提供灵活的移动代理方案，按需选择巴西或西班牙线路。</p>
+        <img src={`${base}/images/nafeproxys-price.webp`} alt="NafeProxys 定价方案" class="w-full max-w-2xl mx-auto rounded-lg" />
+      </section>
+
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">官网注册购买</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">联系客服获取支付方式</span>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-3 mt-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
+            <span class="text-xs text-slate-300">面板 + API 管理</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
+            <span class="text-xs text-slate-300">运营商原生 IP</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
+            <span class="text-xs text-slate-300">自动 IP 轮换</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">平台特性</h2>
+        <div class="grid md:grid-cols-2 gap-6 text-sm">
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">运营商原生 4G/5G</h3>
+            <p class="text-slate-400 leading-relaxed">通过 Claro、Vivo、TIM、Movistar、Vodafone、Orange 等真实运营商网络接入，IP 纯净度极高。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">巴西 + 西班牙双市场</h3>
+            <p class="text-slate-400 leading-relaxed">深度覆盖巴西和西班牙市场，各接入三家主流运营商，可根据需求指定运营商线路。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">HTTP/S + SOCKS5 双协议</h3>
+            <p class="text-slate-400 leading-relaxed">同时支持 HTTP(S) 和 SOCKS5 协议，满足不同应用场景和工具的接入需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">面板 + API 管理</h3>
+            <p class="text-slate-400 leading-relaxed">用户面板实时监控流量和管理 IP，REST API 支持编程化轮换和控制，便于技术集成。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>巴西/西班牙运营商原生 IP，纯净度高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>双协议支持（HTTP/S + SOCKS5）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>面板 + API 双管理模式</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>三大运营商可选，灵活调配</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>自动 IP 轮换，适合采集任务</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅限巴西和西班牙，覆盖范围有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>支付方式不透明（需联系客服）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌较新，运营时间短</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文市场支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无公开退款政策</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          NafeProxys 是一家专注巴西和西班牙市场的移动代理服务商，通过真实运营商 4G/5G 网络提供高度纯净的移动 IP。其在巴西接入 Claro、Vivo、TIM 三大运营商，在西班牙接入 Movistar、Vodafone、Orange 三大运营商——这种"双市场 × 三运营商"的覆盖模式在同类型服务中具有鲜明的差异化定位。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          运营商原生 IP 的网络指纹与真实移动用户完全一致，检测难度极高。HTTP(S) 和 SOCKS5 双协议支持、用户面板和 API 双管理模式，为技术团队提供了灵活的选择。自动 IP 轮换功能对数据采集和广告验证等场景尤为实用。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于覆盖范围仅限于巴西和西班牙、支付方式不透明以及品牌较新。综合评估，NafeProxys 获得 7.3 分评价。特别推荐给聚焦巴西或西班牙市场的跨境业务用户、需要运营商原生移动 IP 进行广告验证的团队、以及对 IP 纯净度有高要求的社媒运营者。对于需要全球覆盖或成熟品牌保障的用户，建议考虑其他代理服务商。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://nafeproxys.online/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 NafeProxys
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

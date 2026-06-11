@@ -2559,5 +2559,18 @@
     "features": ["住宅+私有+IPV6", "无限带宽", "1500万+住宅IP", "12+国家覆盖"],
     "affiliateUrl": "https://proxygeo.com/",
     "detailUrl": "/proxy/proxygeo"
+  },
+  {
+    "id": "nafeproxys",
+    "name": "NafeProxys",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "运营商设备",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "巴西+西班牙",
+    "features": ["巴西/西班牙4G/5G", "运营商原生IP", "HTTP/SOCKS5", "API自动轮换"],
+    "affiliateUrl": "https://nafeproxys.online/",
+    "detailUrl": "/proxy/nafeproxys"
   }
 ]
