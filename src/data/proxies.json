@@ -2546,5 +2546,18 @@
     "features": ["美国原生4G/5G", "专属SIM绑定", "无限带宽", "真实设备"],
     "affiliateUrl": "https://sentracell.com/",
     "detailUrl": "/proxy/sentracell"
+  },
+  {
+    "id": "proxygeo",
+    "name": "ProxyGeo",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1500万+",
+    "proxyTypes": ["住宅代理", "私有代理", "IPV6"],
+    "isFeatured": false,
+    "badge": "多类型覆盖",
+    "features": ["住宅+私有+IPV6", "无限带宽", "1500万+住宅IP", "12+国家覆盖"],
+    "affiliateUrl": "https://proxygeo.com/",
+    "detailUrl": "/proxy/proxygeo"
   }
 ]
