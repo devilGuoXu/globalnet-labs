@@ -133,22 +133,16 @@ const filtered = proxiesData.filter(p => whitelist.includes(p.id));
                     <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
                       <img src={`${base}/images/eclipseproxy.webp`} alt="Eclipse Proxy" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
                     </div>
-                  ) : proxy.id === 'sentracell' ? (
-                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
-                      <img src={`${base}/images/sentracell.svg`} alt="SentraCell" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
-                    </div>
-                  ) : proxy.id === 'globalproxies' ? (
-                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
-                      <img src={`${base}/images/globalproxies.png`} alt="Global Proxies" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
-                    </div>
-                  ) : proxy.id === 'proproxies' ? (
-                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
-                      <img src={`${base}/images/proproxies.webp`} alt="ProProxies" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
-                    </div>
-                  ) : proxy.id === 's5proxies' || proxy.id === 'proxied' || proxy.id === 'proxystyler' || proxy.id === 'spyderproxy' || proxy.id === 'my4gproxy' || proxy.id === 'mobilesimportal' || proxy.id === 'iaproxy' || proxy.id === 'socks-market' || proxy.id === 'proxycake' || proxy.id === 'proxytee' || proxy.id === 'we1-town' ? (
+                  ) : proxy.id === 's5proxies' || proxy.id === 'proxied' || proxy.id === 'proxystyler' || proxy.id === 'spyderproxy' || proxy.id === 'my4gproxy' || proxy.id === 'mobilesimportal' || proxy.id === 'iaproxy' || proxy.id === 'socks-market' || proxy.id === 'proxycake' ? (
                     <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
                       <img src={`${base}/images/${proxy.id}.png`} alt={proxy.name} class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
                     </div>
+                  ) : proxy.id === 'globalproxies' || proxy.id === 'proxytee' || proxy.id === 'we1-town' ? (
+                    <img src={`${base}/images/${proxy.id}.png`} alt={proxy.name} class="h-14 w-auto self-center" />
+                  ) : proxy.id === 'proproxies' ? (
+                    <img src={`${base}/images/proproxies.webp`} alt="ProProxies" class="h-14 w-auto self-center" />
+                  ) : proxy.id === 'sentracell' ? (
+                    <img src={`${base}/images/sentracell.svg`} alt="SentraCell" class="h-14 w-auto self-center" />
                   ) : (
                     <img src={`${base}/images/${proxy.id === 'kocerroxy' ? proxy.id + '-logo.svg' : proxy.id === 'proxy.market' ? 'proxy-market.png' : proxy.id === 'hydraproxy' || proxy.id === 'proxysentinel' ? proxy.id + '.webp' : proxy.id + '.png'}`} alt={proxy.name} class="h-14 w-auto self-center" />
                   )
