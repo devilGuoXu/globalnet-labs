@@ -2468,5 +2468,18 @@
     "features": ["六大代理类型", "无限带宽不限速", "1-10Gbps速度", "即时自动交付"],
     "affiliateUrl": "https://www.proxystore.net/",
     "detailUrl": "/proxy/proxystore"
+  },
+  {
+    "id": "proproxies",
+    "name": "ProProxies",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "8国",
+    "proxyTypes": ["4G 移动代理"],
+    "isFeatured": false,
+    "badge": "4G移动",
+    "features": ["8国4G移动覆盖", "专属SIM独立线路", "自定义自动轮换", "10-15GB/天流量"],
+    "affiliateUrl": "https://www.proproxies.co.uk/",
+    "detailUrl": "/proxy/proproxies"
   }
 ]
