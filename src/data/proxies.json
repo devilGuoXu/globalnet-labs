@@ -2377,5 +2377,18 @@
     "features": ["16+国家覆盖", "一端口一用户", "无限流量不限速", "指纹浏览器适配"],
     "affiliateUrl": "https://my4gproxy.com/",
     "detailUrl": "/proxy/my4gproxy"
+  },
+  {
+    "id": "mobilesimportal",
+    "name": "MobileSimPortal",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "美国多州",
+    "proxyTypes": ["4G/5G移动代理", "远程设备", "SIM号码"],
+    "isFeatured": false,
+    "badge": "真实SIM设备",
+    "features": ["真实SIM卡设备", "无限流量不限速", "美国多州覆盖", "HTTP/SOCKS5+API"],
+    "affiliateUrl": "https://mobilesimportal.com/",
+    "detailUrl": "/proxy/mobilesimportal"
   }
 ]
