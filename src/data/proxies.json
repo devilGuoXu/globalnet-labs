@@ -2442,5 +2442,18 @@
     "features": ["Verizon 5G专属", "无限流量不限速", "HTTPS/SOCKS5", "12h免费试用"],
     "affiliateUrl": "https://onlyaiproxies.com/",
     "detailUrl": "/proxy/onlyaiproxies"
+  },
+  {
+    "id": "proxycake",
+    "name": "Proxy Cake",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "9300万+",
+    "proxyTypes": ["住宅代理"],
+    "isFeatured": false,
+    "badge": "住宅代理",
+    "features": ["9300万+住宅池", "城市精准定位", "无限线程并发", "$4/GB按量计费"],
+    "affiliateUrl": "https://proxycake.com/",
+    "detailUrl": "/proxy/proxycake"
   }
 ]
