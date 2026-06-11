@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="GridPanel 代理深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -36,50 +36,47 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">覆盖国家</span>
-            <p class="text-slate-200 font-medium mt-1">4G: 英/美/德/荷 · 5G: 英/美 · 住宅: 20+ 国家 · DC: 英/美/德</p>
+            <p class="text-slate-200 font-medium mt-1">4G: �?�?�?�?· 5G: �?�?· 住宅: 20+ 国家 · DC: �?�?�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">核心特性</span>
-            <p class="text-slate-200 font-medium mt-1">99.99% 在线率 · HTTP/SOCKS5 · 自动 IP 轮换 · 完全匿名</p>
+            <span class="text-slate-500">核心特�?/span>
+            <p class="text-slate-200 font-medium mt-1">99.99% 在线�?· HTTP/SOCKS5 · 自动 IP 轮换 · 完全匿名</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          GridPanel 是一家总部位于英国的代理服务商，专注于提供真实设备 IP 的代理网络。与大多数代理平台不同，GridPanel 的核心产品是 4G/5G 移动代理——每个客户获得专属的独立物理设备（手机/平板）和真实 SIM 卡，确保 IP 来自真实的移动网络。平台同时提供住宅代理、数据中心代理和 Scraping API（网页抓取 API）等多条产品线。
-        </p>
+          GridPanel 是一家总部位于英国的代理服务商，专注于提供真实设备 IP 的代理网络。与大多数代理平台不同，GridPanel 的核心产品是 4G/5G 移动代理——每个客户获得专属的独立物理设备（手�?平板）和真实 SIM 卡，确保 IP 来自真实的移动网络。平台同时提供住宅代理、数据中心代理和 Scraping API（网页抓�?API）等多条产品线�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          GridPanel 的核心竞争力在于"真实设备 + 无限流量 + 专属独占"——移动代理产品坚持使用真实的物理设备和真实 SIM 卡，每个客户拥有独立的调制解调器和 SIM 卡，获得全新的纯净 IP 地址。移动代理提供真正的无限流量套餐（每日保证 10GB 4G / 15GB 5G），无速度限制。平台支持 HTTP 和 SOCKS5 双协议，IP 可按计划自动轮换或通过 API 按需切换。
-        </p>
+          GridPanel 的核心竞争力在于"真实设备 + 无限流量 + 专属独占"——移动代理产品坚持使用真实的物理设备和真�?SIM 卡，每个客户拥有独立的调制解调器�?SIM 卡，获得全新的纯净 IP 地址。移动代理提供真正的无限流量套餐（每日保�?10GB 4G / 15GB 5G），无速度限制。平台支�?HTTP �?SOCKS5 双协议，IP 可按计划自动轮换或通过 API 按需切换�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          GridPanel 由行业专家团队运营，在网页数据提取领域拥有丰富经验。目前已服务 5000+ 客户，提供 50 次免费 Scraping API 试用（无需信用卡）。平台支持 USD、GBP、EUR 三种货币结算，提供 24 小时内问题解决退款保证。
-        </p>
+          GridPanel 由行业专家团队运营，在网页数据提取领域拥有丰富经验。目前已服务 5000+ 客户，提�?50 次免�?Scraping API 试用（无需信用卡）。平台支�?USD、GBP、EUR 三种货币结算，提�?24 小时内问题解决退款保证�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特性</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特�?/h2>
         <div class="space-y-6">
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">4G/5G 移动代理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">GridPanel 的核心产品线。提供英国、美国、德国、荷兰四国的 4G 代理和英国、美国两国的 5G 代理。每个客户获得独立的物理设备和真实 SIM 卡，IP 完全纯净专属。无限流量套餐，4G 每日保证至少 10GB，5G 每日保证至少 15GB。支持 HTTP/SOCKS5 双协议，IP 按计划自动轮换，也可通过 API 按需切换。所有移动代理通过最严格匿名测试，无任何代理或 VPN 痕迹。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">GridPanel 的核心产品线。提供英国、美国、德国、荷兰四国的 4G 代理和英国、美国两国的 5G 代理。每个客户获得独立的物理设备和真�?SIM 卡，IP 完全纯净专属。无限流量套餐，4G 每日保证至少 10GB�?G 每日保证至少 15GB。支�?HTTP/SOCKS5 双协议，IP 按计划自动轮换，也可通过 API 按需切换。所有移动代理通过最严格匿名测试，无任何代理�?VPN 痕迹�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅代理（Residential）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">提供 Eco 和 Pro 两种住宅代理产品，IP 来自全球真实用户的真实设备，覆盖英国、美国、德国、荷兰、法国、加拿大、澳大利亚、日本、意大利、西班牙等 20+ 个国家。支持 PAYG（按量计费）、Micro（100GB）和 Advanced（1TB）三种方案，流量永久有效。支持 HTTP/SOCKS5，自动 IP 轮换，完全匿名。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅代理（Residential�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供 Eco �?Pro 两种住宅代理产品，IP 来自全球真实用户的真实设备，覆盖英国、美国、德国、荷兰、法国、加拿大、澳大利亚、日本、意大利、西班牙�?20+ 个国家。支�?PAYG（按量计费）、Micro�?00GB）和 Advanced�?TB）三种方案，流量永久有效。支�?HTTP/SOCKS5，自�?IP 轮换，完全匿名�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心代理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">覆盖英国、美国和德国三国的数据中心代理，托管于全球顶级数据中心，配备冗余网络和电源。支持 HTTP 和 SOCKS5 双协议，提供 24 小时、周付和月付三种灵活方案。99.99% 在线率保证，完全匿名，适合对速度要求高的自动化场景。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">覆盖英国、美国和德国三国的数据中心代理，托管于全球顶级数据中心，配备冗余网络和电源。支�?HTTP �?SOCKS5 双协议，提供 24 小时、周付和月付三种灵活方案�?9.99% 在线率保证，完全匿名，适合对速度要求高的自动化场景�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">Scraping API</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">GridPanel 的网页抓取 API，提供真实浏览器渲染（管理数千台真实设备的 Chrome 浏览器）、JavaScript 执行、CSS 选择器提取、滚动/点击交互等功能。支持 Python、Node.js、Java、Ruby、PHP、Go、cURL 等多种语言的 SDK 示例。提供 Freelance（$12/月·1K 次）、Startup（$35/月·5K 次）和 Business（$135/月·20K 次）三档方案，新用户可免费试用 50 次。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">GridPanel 的网页抓�?API，提供真实浏览器渲染（管理数千台真实设备�?Chrome 浏览器）、JavaScript 执行、CSS 选择器提取、滚�?点击交互等功能。支�?Python、Node.js、Java、Ruby、PHP、Go、cURL 等多种语言�?SDK 示例。提�?Freelance�?12/月�?K 次）、Startup�?35/月�?K 次）�?Business�?135/月�?0K 次）三档方案，新用户可免费试�?50 次�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">IP 轮换与匿名性</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">所有代理产品支持灵活的 IP 轮换策略：可按计划自动轮换，也可通过 API 按需切换。所有代理通过最严格的匿名测试，无任何代理或 VPN 使用痕迹。移动代理使用真实手机信号塔分配的 IP，住宅代理使用真实用户设备 IP，确保最高级别匿名性。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">IP 轮换与匿名�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有代理产品支持灵活的 IP 轮换策略：可按计划自动轮换，也可通过 API 按需切换。所有代理通过最严格的匿名测试，无任何代理或 VPN 使用痕迹。移动代理使用真实手机信号塔分配�?IP，住宅代理使用真实用户设�?IP，确保最高级别匿名性�?/p>
           </div>
         </div>
       </section>
@@ -94,26 +91,26 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡 / 借记卡</span>
+            <span class="text-sm text-slate-200">信用�?/ 借记�?/span>
           </div>
         </div>
         <p class="text-xs text-slate-500 mt-3">具体支付方式请以官网结算页面为准</p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>真实物理设备 + 真实 SIM 卡，IP 纯净度极高</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限流量（4G 10GB/天, 5G 15GB/天），无速度限制</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>四条产品线覆盖移动/住宅/数据中心/抓取 API</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.99% 在线率，顶级数据中心冗余保障</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>灵活 IP 轮换 + API 按需切换 + HTTP/SOCKS5</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>50 次免费 Scraping API 试用，无需信用卡</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>真实物理设备 + 真实 SIM 卡，IP 纯净度极�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>无限流量�?G 10GB/�? 5G 15GB/天），无速度限制</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>四条产品线覆盖移�?住宅/数据中心/抓取 API</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>99.99% 在线率，顶级数据中心冗余保障</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>灵活 IP 轮换 + API 按需切换 + HTTP/SOCKS5</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>50 次免�?Scraping API 试用，无需信用�?/span></li>
             </ul>
           </div>
           <div>
@@ -121,11 +118,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动代理仅覆盖英/美/德/荷四国，覆盖范围有限</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无静态 ISP 代理产品线</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理仅支持按流量计费，不支持包月无限流量</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>高需求时移动代理交付可能需 24-48 小时</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>移动代理仅覆盖英/�?�?荷四国，覆盖范围有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面和中文客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无静�?ISP 代理产品�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>住宅代理仅支持按流量计费，不支持包月无限流量</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>高需求时移动代理交付可能需 24-48 小时</span></li>
             </ul>
           </div>
         </div>
@@ -134,14 +131,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          GridPanel 是一家以真实设备 IP 为核心的英国代理服务商，其 4G/5G 移动代理产品在整个行业中独树一帜——使用真实物理设备、真实 SIM 卡、专属独立通道，在 IP 纯净度和匿名性方面具有天然优势。四条产品线（4G/5G 移动代理、住宅代理、数据中心代理、Scraping API）覆盖了多数数据采集和自动化场景的核心需求。
-        </p>
+          GridPanel 是一家以真实设备 IP 为核心的英国代理服务商，�?4G/5G 移动代理产品在整个行业中独树一帜——使用真实物理设备、真�?SIM 卡、专属独立通道，在 IP 纯净度和匿名性方面具有天然优势。四条产品线�?G/5G 移动代理、住宅代理、数据中心代理、Scraping API）覆盖了多数数据采集和自动化场景的核心需求�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          GridPanel 的核心价值在于"真实 + 专属 + 无限"——真实设备 IP 确保了最高级别的匿名性和通过率，专属独占设备避免了 IP 共用带来的风控风险，无限流量方案满足了大规模数据采集的需求。Scraping API 的真实浏览器渲染和灵活交互能力也是一大亮点。
-        </p>
+          GridPanel 的核心价值在�?真实 + 专属 + 无限"——真实设�?IP 确保了最高级别的匿名性和通过率，专属独占设备避免�?IP 共用带来的风控风险，无限流量方案满足了大规模数据采集的需求。Scraping API 的真实浏览器渲染和灵活交互能力也是一大亮点�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于移动代理覆盖国家较少（4 国）、缺乏中文支持以及移动代理在高峰期可能需等待交付。综合评估，GridPanel 获得 7.3 分评价。特别推荐给对 IP 纯净度要求极高的社媒运营者、需要移动 IP 做广告验证的团队，以及希望通过真实浏览器渲染进行数据采集的开发者。
-        </p>
+          主要局限在于移动代理覆盖国家较少（4 国）、缺乏中文支持以及移动代理在高峰期可能需等待交付。综合评估，GridPanel 获得 7.3 分评价。特别推荐给�?IP 纯净度要求极高的社媒运营者、需要移�?IP 做广告验证的团队，以及希望通过真实浏览器渲染进行数据采集的开发者�?        </p>
       </section>
 
       <div class="text-center">

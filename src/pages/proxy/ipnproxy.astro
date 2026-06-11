@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="IPNProxy 深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -17,9 +17,9 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           <div class="flex items-center gap-3 flex-wrap">
             <h1 class="text-3xl font-bold text-slate-100">IPNProxy 评测</h1>
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
-            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">流量不限期</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">流量不限�?/span>
           </div>
-          <p class="text-slate-400 mt-1">住宅代理 · 移动代理 · 数据中心代理 · 1800万+ IP · 全球覆盖</p>
+          <p class="text-slate-400 mt-1">住宅代理 · 移动代理 · 数据中心代理 · 1800�? IP · 全球覆盖</p>
         </div>
       </div>
 
@@ -28,54 +28,51 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="grid md:grid-cols-2 gap-4 text-sm">
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">产品类型</span>
-            <p class="text-slate-200 font-medium mt-1">住宅代理 · 高级移动 · 普通移动 · 数据中心 · IPv6（即将推出）</p>
+            <p class="text-slate-200 font-medium mt-1">住宅代理 · 高级移动 · 普通移�?· 数据中心 · IPv6（即将推出）</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">覆盖范围</span>
-            <p class="text-slate-200 font-medium mt-1">1800万+ IP · 全球多国 · 城市/邮编/ASN 精准定位</p>
+            <p class="text-slate-200 font-medium mt-1">1800�? IP · 全球多国 · 城市/邮编/ASN 精准定位</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">核心特性</span>
-            <p class="text-slate-200 font-medium mt-1">按量计费 · 余额不限期 · 粘性会话 · 纯净低欺诈 · API + 面板</p>
+            <span class="text-slate-500">核心特�?/span>
+            <p class="text-slate-200 font-medium mt-1">按量计费 · 余额不限�?· 粘性会�?· 纯净低欺�?· API + 面板</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">支付方式</span>
-            <p class="text-slate-200 font-medium mt-1">加密货币 (USDT/BTC/ETH/LTE) · 信用卡 · SourceForge 获奖</p>
+            <p class="text-slate-200 font-medium mt-1">加密货币 (USDT/BTC/ETH/LTE) · 信用�?· SourceForge 获奖</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          IPNProxy 是一家提供住宅、移动和数据中心代理的综合服务商，拥有 1800 万以上的 IP 池，覆盖全球主要市场。其最大卖点在于"透明灵活的定价"——按量计费且余额不限期，用户购买的流量不会过期，随用随扣，无隐藏限制。这种定价模式在行业中较为少见，尤其适合使用频率不规则的用户。
-        </p>
+          IPNProxy 是一家提供住宅、移动和数据中心代理的综合服务商，拥�?1800 万以上的 IP 池，覆盖全球主要市场。其最大卖点在�?透明灵活的定�?——按量计费且余额不限期，用户购买的流量不会过期，随用随扣，无隐藏限制。这种定价模式在行业中较为少见，尤其适合使用频率不规则的用户�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          产品线涵盖四个主要类别：住宅代理（18M+ IP 池，$1.75/GB 起，支持国家/城市/邮编/ASN 精确到 ZIP 级别的定位）、高级移动代理（真实移动 IP，支持运营商和设备级定位）、普通移动代理以及数据中心代理（不限带宽和线程）。此外，IPv6 代理也即将上线。IPNProxy 还推出一款名为 IPNVPN 的 iOS VPN 应用作为安全产品线的延伸。
-        </p>
+          产品线涵盖四个主要类别：住宅代理�?8M+ IP 池，$1.75/GB 起，支持国家/城市/邮编/ASN 精确�?ZIP 级别的定位）、高级移动代理（真实移动 IP，支持运营商和设备级定位）、普通移动代理以及数据中心代理（不限带宽和线程）。此外，IPv6 代理也即将上线。IPNProxy 还推出一款名�?IPNVPN �?iOS VPN 应用作为安全产品线的延伸�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          平台提供完整的 API 文档（docs.ipnproxy.com）、支持多种编程语言（Node.js/Python/cURL/PHP/Go/Java/C#）的快速集成，并提供反检测浏览器（如 VMLogin、Undetectable、Incogniton、BitBrowser、DICloak）的代理配置指南。其用户评价在 Trustpilot 和 SourceForge 上表现良好，荣获 SourceForge Top Performer 奖项。
-        </p>
+          平台提供完整�?API 文档（docs.ipnproxy.com）、支持多种编程语言（Node.js/Python/cURL/PHP/Go/Java/C#）的快速集成，并提供反检测浏览器（如 VMLogin、Undetectable、Incogniton、BitBrowser、DICloak）的代理配置指南。其用户评价�?Trustpilot �?SourceForge 上表现良好，荣获 SourceForge Top Performer 奖项�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">产品线与特性</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品线与特�?/h2>
         <div class="grid md:grid-cols-2 gap-6 text-sm">
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅代理</h3>
-            <p class="text-slate-400 leading-relaxed">1800 万+ 真实住宅 IP 池。支持国家、城市、邮编、ASN 四级定位。$1.75/GB 起，纯净低欺诈分。HTTP/HTTPS/SOCKS5 协议支持。粘性会话和自动轮换可选。适合广告验证、SERP 追踪、品牌保护等场景。</p>
+            <p class="text-slate-400 leading-relaxed">1800 �? 真实住宅 IP 池。支持国家、城市、邮编、ASN 四级定位�?1.75/GB 起，纯净低欺诈分。HTTP/HTTPS/SOCKS5 协议支持。粘性会话和自动轮换可选。适合广告验证、SERP 追踪、品牌保护等场景�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">高级移动代理</h3>
-            <p class="text-slate-400 leading-relaxed">真实移动网络 IP，支持运营商和设备级定位。高度匿名，适合社媒管理、账号注册等对 IP 质量要求极高的场景。支持 HTTP/SOCKS5，可配置粘性会话时长。</p>
+            <p class="text-slate-400 leading-relaxed">真实移动网络 IP，支持运营商和设备级定位。高度匿名，适合社媒管理、账号注册等�?IP 质量要求极高的场景。支�?HTTP/SOCKS5，可配置粘性会话时长�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心代理</h3>
-            <p class="text-slate-400 leading-relaxed">不限带宽和不限线程，性价比极高。适合大规模数据采集、批量操作等对速度和流量有高要求的任务。全球多节点部署。</p>
+            <p class="text-slate-400 leading-relaxed">不限带宽和不限线程，性价比极高。适合大规模数据采集、批量操作等对速度和流量有高要求的任务。全球多节点部署�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">按量计费 · 余额不限期</h3>
-            <p class="text-slate-400 leading-relaxed">付费流量永不过期，用多少扣多少。无月费、无订阅、无隐藏费用。用户可随时充值，余额长期有效。这种模式特别适合使用频率波动较大的团队。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">按量计费 · 余额不限�?/h3>
+            <p class="text-slate-400 leading-relaxed">付费流量永不过期，用多少扣多少。无月费、无订阅、无隐藏费用。用户可随时充值，余额长期有效。这种模式特别适合使用频率波动较大的团队�?/p>
           </div>
         </div>
       </section>
@@ -107,7 +104,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50 flex items-center gap-3">
             <span class="text-2xl">🇨🇦</span>
             <div>
-              <span class="text-slate-200 font-medium block">加拿大</span>
+              <span class="text-slate-200 font-medium block">加拿�?/span>
               <span class="text-slate-500 text-xs">174,934 IPs</span>
             </div>
           </div>
@@ -140,7 +137,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <img src={`${base}/images/ipnproxy-mob-price.webp`} alt="IPNProxy 移动代理价格" class="w-full max-w-2xl mx-auto rounded-lg" />
           </div>
         </div>
-        <p class="text-xs text-slate-500 mt-4 text-center">按量计费 · 余额不限期 · 无隐藏费用 · 数据中心代理不限带宽线程</p>
+        <p class="text-xs text-slate-500 mt-4 text-center">按量计费 · 余额不限�?· 无隐藏费�?· 数据中心代理不限带宽线程</p>
       </section>
 
       <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
@@ -152,30 +149,30 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡</span>
+            <span class="text-sm text-slate-200">信用�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
             <span class="text-sm text-slate-200">USDT / BTC / ETH / LTC</span>
           </div>
         </div>
-        <p class="text-xs text-slate-500 mt-3">按量计费 · 余额不限期 · 无订阅 · 用多少付多少</p>
+        <p class="text-xs text-slate-500 mt-3">按量计费 · 余额不限�?· 无订�?· 用多少付多少</p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>余额不限期，买的流量永不过期</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅 1800 万+ IP 池，城市/邮编/ASN 级定位</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>产品线完整：住宅/移动/DC/IPv6（即将）</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>纯净 IP 低欺诈分，良好 Trustpilot 口碑</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>API 完善，多语言 SDK，反检测浏览器集成指南</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>SourceForge Top Performer 奖项</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>余额不限期，买的流量永不过期</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>住宅 1800 �? IP 池，城市/邮编/ASN 级定�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>产品线完整：住宅/移动/DC/IPv6（即将）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>纯净 IP 低欺诈分，良�?Trustpilot 口碑</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>API 完善，多语言 SDK，反检测浏览器集成指南</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>SourceForge Top Performer 奖项</span></li>
             </ul>
           </div>
           <div>
@@ -183,12 +180,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅 1800 万 IP 相比部分竞品偏小</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面，仅支持英语/俄语</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌较新，市场知名度有限</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IPv6 代理尚未正式发布</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>数据中心代理详情页信息较少</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无公开的运营商合作伙伴信息</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>住宅 1800 �?IP 相比部分竞品偏小</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面，仅支持英�?俄语</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>品牌较新，市场知名度有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>IPv6 代理尚未正式发布</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>数据中心代理详情页信息较�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无公开的运营商合作伙伴信息</span></li>
             </ul>
           </div>
         </div>
@@ -197,14 +194,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          IPNProxy 是一个兼具灵活性和产品质量的综合代理服务商。其最大的亮点在于"按量计费 + 余额不限期"的定价模型——购买流量永不过期，用多少扣多少，无需月费或订阅，这对于使用频率不规则、项目周期不固定的团队尤其友好。住宅代理起价 $1.75/GB，配合 1800 万+ IP 池和城市级甚至 ZIP 级定位能力，在同价位产品中具备不错的竞争力。
-        </p>
+          IPNProxy 是一个兼具灵活性和产品质量的综合代理服务商。其最大的亮点在于"按量计费 + 余额不限�?的定价模型——购买流量永不过期，用多少扣多少，无需月费或订阅，这对于使用频率不规则、项目周期不固定的团队尤其友好。住宅代理起�?$1.75/GB，配�?1800 �? IP 池和城市级甚�?ZIP 级定位能力，在同价位产品中具备不错的竞争力�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          产品线覆盖面较广——从住宅、高级移动、普通移动到数据中心，即将推出的 IPv6 代理也将进一步完善其产品矩阵。高质量的 API 文档和多种编程语言的 SDK 支持使开发者集成较为顺畅。与多款主流反检测浏览器的官方配置指南也是加分项。Trustpilot 和 SourceForge 的用户评价整体积极，反映出不错的服务水准。
-        </p>
+          产品线覆盖面较广——从住宅、高级移动、普通移动到数据中心，即将推出的 IPv6 代理也将进一步完善其产品矩阵。高质量�?API 文档和多种编程语言�?SDK 支持使开发者集成较为顺畅。与多款主流反检测浏览器的官方配置指南也是加分项。Trustpilot �?SourceForge 的用户评价整体积极，反映出不错的服务水准�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          局限方面，住宅 IP 池 1800 万相较 Bright Data 等头部厂商仍有差距；品牌在国内市场认知度较低；IPv6 产品尚未正式上线。综合评估，IPNProxy 获得 7.3 分评价。特别推荐给看重余额有效期、不希望流量浪费的用户；需要住宅+移动+DC 全产品线的中小型团队；以及需要精细地理定位（ZIP 级别）的广告验证和 SERP 追踪项目。
-        </p>
+          局限方面，住宅 IP �?1800 万相�?Bright Data 等头部厂商仍有差距；品牌在国内市场认知度较低；IPv6 产品尚未正式上线。综合评估，IPNProxy 获得 7.3 分评价。特别推荐给看重余额有效期、不希望流量浪费的用户；需要住�?移动+DC 全产品线的中小型团队；以及需要精细地理定位（ZIP 级别）的广告验证�?SERP 追踪项目�?        </p>
       </section>
 
       <div class="text-center">

@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="WE1TOWN 深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -21,7 +21,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">按量付费</span>
           </div>
-          <p class="text-slate-400 mt-1">土耳其代理平台 · 旋转住宅/移动/数据中心 · 按 GB 付费 · 180+ 地区</p>
+          <p class="text-slate-400 mt-1">土耳其代理平台 · 旋转住宅/移动/数据中心 · �?GB 付费 · 180+ 地区</p>
         </div>
       </div>
 
@@ -30,39 +30,36 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="grid md:grid-cols-2 gap-4 text-sm">
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">代理类型</span>
-            <p class="text-slate-200 font-medium mt-1">数据中心 · 住宅 · 移动 · IPv4/IPv6 · 静态 · 旋转 · 按量付费/无限</p>
+            <p class="text-slate-200 font-medium mt-1">数据中心 · 住宅 · 移动 · IPv4/IPv6 · 静�?· 旋转 · 按量付费/无限</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">覆盖范围</span>
-            <p class="text-slate-200 font-medium mt-1">180+ 地区 · 300 万+ 住宅 IP · 100 万+ 移动 IP</p>
+            <p class="text-slate-200 font-medium mt-1">180+ 地区 · 300 �? 住宅 IP · 100 �? 移动 IP</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">核心特性</span>
-            <p class="text-slate-200 font-medium mt-1">按量付费不限时 · 旋转/粘性可选 · HTTP/SOCKS5 · 即时配额追踪</p>
+            <span class="text-slate-500">核心特�?/span>
+            <p class="text-slate-200 font-medium mt-1">按量付费不限�?· 旋转/粘性可�?· HTTP/SOCKS5 · 即时配额追踪</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">支付方式</span>
-            <p class="text-slate-200 font-medium mt-1">信用卡 · 银行转账 · 在线充值</p>
+            <p class="text-slate-200 font-medium mt-1">信用�?· 银行转账 · 在线充�?/p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          WE1TOWN 是一家总部位于土耳其的综合数字服务商，提供代理、服务器、自动化软件等多种产品线。在代理领域，WE1TOWN 提供极为丰富的产品矩阵——从数据中心 IPv4/IPv6 到住宅 IPv4/IPv6、从旋转代理到静态代理、从按量付费到无限带宽方案，几乎覆盖了所有代理类型。
-        </p>
+          WE1TOWN 是一家总部位于土耳其的综合数字服务商，提供代理、服务器、自动化软件等多种产品线。在代理领域，WE1TOWN 提供极为丰富的产品矩阵——从数据中心 IPv4/IPv6 到住�?IPv4/IPv6、从旋转代理到静态代理、从按量付费到无限带宽方案，几乎覆盖了所有代理类型�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          WE1TOWN 的核心代理产品是 Pay-As-You-Go 按量付费旋转代理系列：包含旋转数据中心、旋转住宅和旋转移动三种类型。所有按量付费方案均无使用时间限制，购买的流量配额可随时使用——用户根据实际消耗付费，配额不会过期。支持旋转 IP 和粘性会话两种模式，覆盖 180+ 个地理位置，兼容 HTTP/HTTPS 和 SOCKS5 协议。
-        </p>
+          WE1TOWN 的核心代理产品是 Pay-As-You-Go 按量付费旋转代理系列：包含旋转数据中心、旋转住宅和旋转移动三种类型。所有按量付费方案均无使用时间限制，购买的流量配额可随时使用——用户根据实际消耗付费，配额不会过期。支持旋�?IP 和粘性会话两种模式，覆盖 180+ 个地理位置，兼容 HTTP/HTTPS �?SOCKS5 协议�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          此外还提供静态住宅代理（固定 IP）、ISP/UDP 代理、真实设备移动代理、无限带宽旋转住宅代理等多种特殊方案。平台配备完整的控制面板、即时配额追踪系统和操作日志。24/7 技术支持，支持土耳其语和英语。支付支持信用卡、银行转账等方式。
-        </p>
+          此外还提供静态住宅代理（固定 IP）、ISP/UDP 代理、真实设备移动代理、无限带宽旋转住宅代理等多种特殊方案。平台配备完整的控制面板、即时配额追踪系统和操作日志�?4/7 技术支持，支持土耳其语和英语。支付支持信用卡、银行转账等方式�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">定价方案</h2>
-        <p class="text-slate-300 text-sm mb-4">WE1TOWN 提供按量付费旋转代理（按 GB 计费，无限期使用）和多种固定方案。</p>
+        <p class="text-slate-300 text-sm mb-4">WE1TOWN 提供按量付费旋转代理（按 GB 计费，无限期使用）和多种固定方案�?/p>
         <p class="text-slate-300 text-xs mb-3 font-medium">住宅旋转代理定价</p>
         <img src={`${base}/images/we1-town-res-price.webp`} alt="WE1TOWN 住宅代理价格" class="w-full max-w-2xl mx-auto rounded-lg mb-6" />
         <p class="text-slate-300 text-xs mb-3 font-medium">移动旋转代理定价</p>
@@ -77,21 +74,21 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         </div>
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
-            <span class="text-sm text-slate-200">信用卡</span>
+            <span class="text-sm text-slate-200">信用�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <span class="text-sm text-slate-200">银行转账</span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
-            <span class="text-sm text-slate-200">在线充值</span>
+            <span class="text-sm text-slate-200">在线充�?/span>
           </div>
         </div>
         <div class="flex flex-wrap gap-3 mt-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
-            <span class="text-xs text-slate-300">BTK 认证提供商</span>
+            <span class="text-xs text-slate-300">BTK 认证提供�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
-            <span class="text-xs text-slate-300">24/7 技术支持</span>
+            <span class="text-xs text-slate-300">24/7 技术支�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
             <span class="text-xs text-slate-300">配额不限使用时间</span>
@@ -100,40 +97,40 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">平台特性</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">平台特�?/h2>
         <div class="grid md:grid-cols-2 gap-6 text-sm">
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
-            <h3 class="text-emerald-400 font-semibold mb-2">按量付费不限时</h3>
-            <p class="text-slate-400 leading-relaxed">购买的流量配额无使用时间限制，按实际消耗扣费。灵活充值，用多少付多少。</p>
+            <h3 class="text-emerald-400 font-semibold mb-2">按量付费不限�?/h3>
+            <p class="text-slate-400 leading-relaxed">购买的流量配额无使用时间限制，按实际消耗扣费。灵活充值，用多少付多少�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
-            <h3 class="text-emerald-400 font-semibold mb-2">多品类覆盖</h3>
-            <p class="text-slate-400 leading-relaxed">数据中心/住宅/移动 IPv4/IPv6、静态/旋转、按量/无限——全品类代理一站式选购。</p>
+            <h3 class="text-emerald-400 font-semibold mb-2">多品类覆�?/h3>
+            <p class="text-slate-400 leading-relaxed">数据中心/住宅/移动 IPv4/IPv6、静�?旋转、按�?无限——全品类代理一站式选购�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold mb-2">旋转 / 粘性双模式</h3>
-            <p class="text-slate-400 leading-relaxed">支持每次请求旋转 IP 和粘性会话两种模式，适应不同防封锁策略。</p>
+            <p class="text-slate-400 leading-relaxed">支持每次请求旋转 IP 和粘性会话两种模式，适应不同防封锁策略�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
-            <h3 class="text-emerald-400 font-semibold mb-2">土耳其本土服务商</h3>
-            <p class="text-slate-400 leading-relaxed">BTK 认证提供商，土耳其本地化服务，支持土耳其里拉和多种国际支付方式。</p>
+            <h3 class="text-emerald-400 font-semibold mb-2">土耳其本土服务�?/h3>
+            <p class="text-slate-400 leading-relaxed">BTK 认证提供商，土耳其本地化服务，支持土耳其里拉和多种国际支付方式�?/p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>代理品类最全的平台之一</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>按量付费配额不限时</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>180+ 地区覆盖广泛</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>旋转/粘性双模式</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>附带软件/VPS 等附加服务</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>代理品类最全的平台之一</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>按量付费配额不限�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>180+ 地区覆盖广泛</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>旋转/粘性双模式</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>附带软件/VPS 等附加服�?/span></li>
             </ul>
           </div>
           <div>
@@ -141,11 +138,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>土耳其公司，非中文服务</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>标价为土耳其里拉，汇率波动大</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>网站功能多但导航复杂</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无透明度 IP 池纯净度说明</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度主要在土耳其市场</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>土耳其公司，非中文服务</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>标价为土耳其里拉，汇率波动大</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>网站功能多但导航复杂</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无透明�?IP 池纯净度说�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>品牌知名度主要在土耳其市场</span></li>
             </ul>
           </div>
         </div>
@@ -154,14 +151,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          WE1TOWN 是土耳其市场领先的综合代理服务商，其最大的特色在于代理品类的丰富程度——从基础的数据中心 IPv4/IPv6 到高纯净度的住宅和移动代理，从按量付费到无限带宽方案，几乎覆盖了所有常见的代理类型。这在单一平台中较为少见。
-        </p>
+          WE1TOWN 是土耳其市场领先的综合代理服务商，其最大的特色在于代理品类的丰富程度——从基础的数据中�?IPv4/IPv6 到高纯净度的住宅和移动代理，从按量付费到无限带宽方案，几乎覆盖了所有常见的代理类型。这在单一平台中较为少见�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          按量付费方案不限使用时间的灵活计费模式是其差异化优势。用户购买的流量配额无过期压力，适合使用频率不固定的弹性需求场景。180+ 地区的地理覆盖范围较为广泛，旋转/粘性双模式适配不同防封锁策略。此外平台还提供 VPS 服务器、自动化软件等附加服务，形成了一定的生态协同效应。
-        </p>
+          按量付费方案不限使用时间的灵活计费模式是其差异化优势。用户购买的流量配额无过期压力，适合使用频率不固定的弹性需求场景�?80+ 地区的地理覆盖范围较为广泛，旋转/粘性双模式适配不同防封锁策略。此外平台还提供 VPS 服务器、自动化软件等附加服务，形成了一定的生态协同效应�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于土耳其本土定位带来的语言和汇率挑战、网站导航较复杂、品牌在中文市场知名度不高。综合评估，WE1TOWN 获得 7.3 分评价。特别推荐给需要多种代理类型统一管理的用户、追求灵活按量付费模式的弹性需求用户、以及需要土耳其/欧洲地区 IP 的用户。对于追求极简体验或中文支持的用户，建议考虑其他代理服务商。
-        </p>
+          主要局限在于土耳其本土定位带来的语言和汇率挑战、网站导航较复杂、品牌在中文市场知名度不高。综合评估，WE1TOWN 获得 7.3 分评价。特别推荐给需要多种代理类型统一管理的用户、追求灵活按量付费模式的弹性需求用户、以及需要土耳其/欧洲地区 IP 的用户。对于追求极简体验或中文支持的用户，建议考虑其他代理服务商�?        </p>
       </section>
 
       <div class="text-center">

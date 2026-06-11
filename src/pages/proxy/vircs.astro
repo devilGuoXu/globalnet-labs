@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="VIRCS 美国真实住宅IP深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -17,7 +17,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         </div>
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">VIRCS 深度评测</h1>
-          <p class="text-slate-400 text-lg">美国加州自有公寓机房，AT&T/Frontier 原生住宅 IP，静态独享不限流量</p>
+          <p class="text-slate-400 text-lg">美国加州自有公寓机房，AT&T/Frontier 原生住宅 IP，静态独享不限流�?/p>
         </div>
       </div>
 
@@ -30,11 +30,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">9.5</div>
-            <div class="text-xs text-slate-500 mt-1">IP纯净度</div>
+            <div class="text-xs text-slate-500 mt-1">IP纯净�?/div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">6.5</div>
-            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富�?/div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.0</div>
@@ -50,58 +50,58 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          VIRCS 是一家总部位于美国加州的住宅 IP 基础设施提供商，成立于 2022 年。与市面上常见的代理池服务商不同，VIRCS 的核心模式是在加州尔湾、旧金山、圣何塞、弗里蒙特等地的自有公寓内部署真实的家庭宽带线路，并通过 AT&T 和 Frontier 的授权代理商身份，将运营商正规分配的住宅宽带 IP 以 VPS 和代理形式交付给用户。
+          VIRCS 是一家总部位于美国加州的住�?IP 基础设施提供商，成立�?2022 年。与市面上常见的代理池服务商不同，VIRCS 的核心模式是在加州尔湾、旧金山、圣何塞、弗里蒙特等地的自有公寓内部署真实的家庭宽带线路，并通过 AT&T �?Frontier 的授权代理商身份，将运营商正规分配的住宅宽带 IP �?VPS 和代理形式交付给用户�?
         </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          这意味着 VIRCS 提供的 IP 并非数据中心 IP 或代理池轮换 IP，而是 100% 纯正的美国原生住宅 IP（Residential ISP），在 WHOIS/ARIN 查询中显示为"Private Customer"，归属 AT&T 或 Frontier 的住宅网段。这也是 VIRCS 最大的差异化优势——在 TikTok、Facebook、Instagram 等平台的风控体系中，这类 IP 的信任度远高于传统代理。
+          这意味着 VIRCS 提供�?IP 并非数据中心 IP 或代理池轮换 IP，而是 100% 纯正的美国原生住�?IP（Residential ISP），�?WHOIS/ARIN 查询中显示为"Private Customer"，归�?AT&T �?Frontier 的住宅网段。这也是 VIRCS 最大的差异化优势——在 TikTok、Facebook、Instagram 等平台的风控体系中，这类 IP 的信任度远高于传统代理�?
         </p>
         <p class="text-slate-300 leading-relaxed">
-          VIRCS 目前运营 4 个公寓节点（APT-1 至 APT-4），共 400+ 条成熟线路，每条线路独立 ONT 调制解调器、独立 IP 分配，互不干扰。设备搭载 APC 服务器级 PDU（远程每端口电源控制）和 UPS 断电保护系统，7×24 自动化监控告警。
+          VIRCS 目前运营 4 个公寓节点（APT-1 �?APT-4），�?400+ 条成熟线路，每条线路独立 ONT 调制解调器、独�?IP 分配，互不干扰。设备搭�?APC 服务器级 PDU（远程每端口电源控制）和 UPS 断电保护系统�?×24 自动化监控告警�?
         </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">核心架构：真实住宅 IP 的底层逻辑</h2>
-        <p class="text-slate-300 leading-relaxed mb-6">VIRCS 与传统住宅代理的本质区别在于其底层基础设施的完全差异化：</p>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心架构：真实住�?IP 的底层逻辑</h2>
+        <p class="text-slate-300 leading-relaxed mb-6">VIRCS 与传统住宅代理的本质区别在于其底层基础设施的完全差异化�?/p>
         <div class="grid md:grid-cols-2 gap-4">
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">自有公寓机房</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">VIRCS 在加州多个城市持有或租赁私人公寓，将宽带设备直接部署在住宅环境中。每间公寓作为一个独立节点，每条宽带线路连接独立的 ONT 调制解调器，IP 由 ISP 直接分配给该住宅地址。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">VIRCS 在加州多个城市持有或租赁私人公寓，将宽带设备直接部署在住宅环境中。每间公寓作为一个独立节点，每条宽带线路连接独立�?ONT 调制解调器，IP �?ISP 直接分配给该住宅地址�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">AT&T / Frontier 授权合作</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">VIRCS 是 AT&T 和 Frontier Communications 的授权代理商。每条宽带线路均通过正规渠道开通，IP 地址来自运营商的住宅 IP 分配池，在 ARIN 数据库中可验证归属，不含任何数据中心或代理标记。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">VIRCS �?AT&T �?Frontier Communications 的授权代理商。每条宽带线路均通过正规渠道开通，IP 地址来自运营商的住宅 IP 分配池，�?ARIN 数据库中可验证归属，不含任何数据中心或代理标记�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态独享 IP</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">每个 VIRCS 实例分配一个固定的静态独享 IP，不会像传统代理池那样在多用户间轮换。IP 在整个服务周期内保持不变，这对于需要长期稳定会话的 TikTok 养号、社媒运营场景至关重要。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态独�?IP</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">每个 VIRCS 实例分配一个固定的静态独�?IP，不会像传统代理池那样在多用户间轮换。IP 在整个服务周期内保持不变，这对于需要长期稳定会话的 TikTok 养号、社媒运营场景至关重要�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">双 ISP 冗余架构</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">VIRCS 采用双 ISP 冗余设计，当主线路出现瞬时波动时，备用线路可无缝切换，保障推流不卡顿、不掉线。APC PDU 和 UPS 系统进一步保障了硬件层面的电力稳定。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">�?ISP 冗余架构</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">VIRCS 采用�?ISP 冗余设计，当主线路出现瞬时波动时，备用线路可无缝切换，保障推流不卡顿、不掉线。APC PDU �?UPS 系统进一步保障了硬件层面的电力稳定�?/p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">产品线详解</h2>
-        <p class="text-slate-300 leading-relaxed mb-6">VIRCS 的产品类型分为两大类：轻量级代理接入方案和完整的 VPS 方案：</p>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品线详�?/h2>
+        <p class="text-slate-300 leading-relaxed mb-6">VIRCS 的产品类型分为两大类：轻量级代理接入方案和完整的 VPS 方案�?/p>
         <div class="grid md:grid-cols-2 gap-4">
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">高速代理 - $34.98/月</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">入门级方案，提供静态独享住宅 IP，50Mbps 独享带宽（可升级），不限流量。支持 SOCKS5 和 VLESS 协议，兼容 TCP/UDP 应用。适合仅需美国住宅连接点、无需服务器管理权限的用户，开箱即用。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">高速代�?- $34.98/�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">入门级方案，提供静态独享住�?IP�?0Mbps 独享带宽（可升级），不限流量。支�?SOCKS5 �?VLESS 协议，兼�?TCP/UDP 应用。适合仅需美国住宅连接点、无需服务器管理权限的用户，开箱即用�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">专线隧道 - $59.98/月</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">为亚太地区用户优化，300Mbps 高速带宽 + 100GB 流量包（可扩容）。GIA 专线中继，端到端加密隧道，适合中国大陆、香港、台湾、东南亚等地区用户连接。支持主流客户端工具。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">专线隧道 - $59.98/�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">为亚太地区用户优化，300Mbps 高速带�?+ 100GB 流量包（可扩容）。GIA 专线中继，端到端加密隧道，适合中国大陆、香港、台湾、东南亚等地区用户连接。支持主流客户端工具�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">标准版 VPS - $35.99/月</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">4 核 vCPU、8GB DDR4 RAM、50GB NVMe 存储，静态独享住宅 IP，50Mbps 独享带宽，不限流量。支持 Windows/Linux，KVM 虚拟化，购买后自动部署，AT&T 线路开通约 3-5 天。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">标准�?VPS - $35.99/�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">4 �?vCPU�?GB DDR4 RAM�?0GB NVMe 存储，静态独享住�?IP�?0Mbps 独享带宽，不限流量。支�?Windows/Linux，KVM 虚拟化，购买后自动部署，AT&T 线路开通约 3-5 天�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">旗舰版 VPS - $55.99/月</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">8 核 vCPU、16GB DDR4 RAM、100GB NVMe 存储，静态独享住宅 IP，不限流量。性能翻倍，适合多任务并行运营。专业版 $99.99/月 则提供 12 核/24GB/200GB 配置，满足高强度业务需求。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">旗舰�?VPS - $55.99/�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">8 �?vCPU�?6GB DDR4 RAM�?00GB NVMe 存储，静态独享住�?IP，不限流量。性能翻倍，适合多任务并行运营。专业版 $99.99/�?则提�?12 �?24GB/200GB 配置，满足高强度业务需求�?/p>
           </div>
         </div>
       </section>
@@ -116,7 +116,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡</span>
+            <span class="text-sm text-slate-200">信用�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
@@ -130,31 +130,31 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详�?/h2>
         <div class="space-y-6">
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">100% 纯正 AT&T 原生住宅 IP</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">VIRCS 最核心的卖点。IP 在 ipinfo、IPQualityScore 等数据库中显示为 ISP 类型，归属 AT&T 或 Frontier 的住宅网段，无任何数据中心（Datacenter）或代理（Proxy）标记。第三方测试显示欺诈评分极低（0-5 分），107/108 全新网段更是几乎零黑名单记录。在 TikTok 注册和养号测试中，0 封号率，视频能快速进入推荐池。</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">VIRCS 最核心的卖点。IP �?ipinfo、IPQualityScore 等数据库中显示为 ISP 类型，归�?AT&T �?Frontier 的住宅网段，无任何数据中心（Datacenter）或代理（Proxy）标记。第三方测试显示欺诈评分极低�?-5 分）�?07/108 全新网段更是几乎零黑名单记录。在 TikTok 注册和养号测试中�? 封号率，视频能快速进入推荐池�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态独享，非轮换代理池</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">与前文评测的 BestProxy、RapidProxy 等传统代理不同，VIRCS 的 IP 是静态且独享的。这意味着 IP 不会在多用户间轮换，也不会在每次请求时变化。对于需要长期稳定身份的场景——如 TikTok 账号矩阵运营、AI 浏览器代理（Browser Agent）的持续会话保持——静态独享 IP 的价值远超轮换代理。</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">与前文评测的 BestProxy、RapidProxy 等传统代理不同，VIRCS �?IP 是静态且独享的。这意味着 IP 不会在多用户间轮换，也不会在每次请求时变化。对于需要长期稳定身份的场景——如 TikTok 账号矩阵运营、AI 浏览器代理（Browser Agent）的持续会话保持——静态独�?IP 的价值远超轮换代理�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">不限流量 + 独享带宽</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">VIRCS 全系方案均提供不限流量方案（专线隧道为 100GB 流量包），带宽独享不受邻居干扰。实测平均下载带宽稳定在 100Mbps 以上，上传带宽 50-80Mbps，足以支撑 TikTok 4K 高清直播推流。从中国大陆连接美西节点，平均延迟 180-220ms，晚高峰无明显拥堵，丢包率低于 0.5%。</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">VIRCS 全系方案均提供不限流量方案（专线隧道�?100GB 流量包），带宽独享不受邻居干扰。实测平均下载带宽稳定在 100Mbps 以上，上传带�?50-80Mbps，足以支�?TikTok 4K 高清直播推流。从中国大陆连接美西节点，平均延�?180-220ms，晚高峰无明显拥堵，丢包率低�?0.5%�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">全托管式基础设施</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">APC 服务器级 PDU 支持远程每端口电源控制，UPS 断电保护确保异常断电时设备安全关机。24/7 自动化监控和告警系统实时检测线路状态。故障时需现场人工维修，平均响应约 3 小时。提供停机补偿政策：超过 3 小时不足 1 天补偿 1 天，超过 1 天双倍补偿。</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">APC 服务器级 PDU 支持远程每端口电源控制，UPS 断电保护确保异常断电时设备安全关机�?4/7 自动化监控和告警系统实时检测线路状态。故障时需现场人工维修，平均响应约 3 小时。提供停机补偿政策：超过 3 小时不足 1 天补�?1 天，超过 1 天双倍补偿�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">SOCKS5 + VLESS 双协议</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">高速代理方案支持 SOCKS5 和 VLESS 两种协议。SOCKS5 适合广泛的 TCP/UDP 应用兼容，VLESS 则提供更高效的加密传输。VPS 方案更支持完整的 Root 权限，用户可自由安装任何软件环境。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">SOCKS5 + VLESS 双协�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">高速代理方案支�?SOCKS5 �?VLESS 两种协议。SOCKS5 适合广泛�?TCP/UDP 应用兼容，VLESS 则提供更高效的加密传输。VPS 方案更支持完整的 Root 权限，用户可自由安装任何软件环境�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">支付宝/PayPal 付款，中文支持有限</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">VIRCS 支持支付宝、PayPal、信用卡和 USDT 多种付款方式，对国内用户友好。但售后方面，VIRCS 没有中文客服，主要通过邮件沟通，这一点与 Kookeey、IPCool 等提供中文支持的厂商相比存在差距。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">支付�?PayPal 付款，中文支持有�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">VIRCS 支持支付宝、PayPal、信用卡�?USDT 多种付款方式，对国内用户友好。但售后方面，VIRCS 没有中文客服，主要通过邮件沟通，这一点与 Kookeey、IPCool 等提供中文支持的厂商相比存在差距�?/p>
           </div>
         </div>
       </section>
@@ -163,24 +163,24 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. TikTok 美区运营（最核心场景）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">VIRCS 在 TikTok 美区运营中表现极为出色。AT&T 原生住宅 IP 在 TikTok 风控系统中具有高信任权重，注册新账号 0 封号率，视频内容能快速进入推荐池。直播推流支持 8000kbps+ 码率，连续 4 小时高清直播无缓冲。双 ISP 冗余架构保障长时间挂机养号不掉线。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. TikTok 美区运营（最核心场景�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">VIRCS �?TikTok 美区运营中表现极为出色。AT&T 原生住宅 IP �?TikTok 风控系统中具有高信任权重，注册新账号 0 封号率，视频内容能快速进入推荐池。直播推流支�?8000kbps+ 码率，连�?4 小时高清直播无缓冲。双 ISP 冗余架构保障长时间挂机养号不掉线�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. Facebook / Instagram 社媒矩阵</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">静态独享 IP 为每个社媒账号提供稳定的"家庭"身份，有效规避因 IP 频繁变动触发的"可疑登录"风控。每个 VIRCS 实例对应一个固定 IP，一个账号长期使用同一 IP，模拟真实用户的网络行为模式。</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">静态独�?IP 为每个社媒账号提供稳定的"家庭"身份，有效规避因 IP 频繁变动触发�?可疑登录"风控。每�?VIRCS 实例对应一个固�?IP，一个账号长期使用同一 IP，模拟真实用户的网络行为模式�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. AI 浏览器代理与自动化</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">对于需要持久身份和 Cookie 保持的 AI 浏览器代理（如 Operator、Comet、Claude Computer Use），VIRCS 的静态住宅 IP VPS 是理想选择。IP 一致性使 Cloudflare 等反爬系统给予更高的信任分，CAPTCHA 频率显著降低。这不适用于轮换代理场景——如果你需要百万级 IP 并发爬取，传统住宅代理（如 Bright Data、Oxylabs）更适合。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. AI 浏览器代理与自动�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">对于需要持久身份和 Cookie 保持�?AI 浏览器代理（�?Operator、Comet、Claude Computer Use），VIRCS 的静态住�?IP VPS 是理想选择。IP 一致性使 Cloudflare 等反爬系统给予更高的信任分，CAPTCHA 频率显著降低。这不适用于轮换代理场景——如果你需要百万级 IP 并发爬取，传统住宅代理（�?Bright Data、Oxylabs）更适合�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 跨境电商与账号管理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">Amazon 多账号管理、PayPal 风控过测等场景对 IP 纯净度要求极高。VIRCS 的 ISP 认证 IP 可有效避免因 IP 被标记为数据中心导致的风控拦截。城市级定位覆盖南加州和湾区多个城市，支持一定程度的本地化需求。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 跨境电商与账号管�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Amazon 多账号管理、PayPal 风控过测等场景对 IP 纯净度要求极高。VIRCS �?ISP 认证 IP 可有效避免因 IP 被标记为数据中心导致的风控拦截。城市级定位覆盖南加州和湾区多个城市，支持一定程度的本地化需求�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 广告验证与品牌保护</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">VIRCS 的真实住宅 IP 可用于从美国本地用户视角查看广告投放效果，验证广告是否正常展示、点击路径是否正确。静态 IP 支持长期持续的监测任务，无需担心 IP 轮换导致数据中断。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 广告验证与品牌保�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">VIRCS 的真实住�?IP 可用于从美国本地用户视角查看广告投放效果，验证广告是否正常展示、点击路径是否正确。静�?IP 支持长期持续的监测任务，无需担心 IP 轮换导致数据中断�?/p>
           </div>
         </div>
       </section>
@@ -191,19 +191,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>100% 纯正 AT&T/Frontier 原生住宅 IP，非数据中心伪装</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>加州自有公寓机房，基础设施透明可验证</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>静态独享 IP，无限流量，适合长期稳定运营</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>双 ISP 冗余 + APC PDU + UPS 企业级运维</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>TikTok 美区运营实测 0 封号，4K 直播无压力</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支持支付宝/PayPal/USDT 付款</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>100% 纯正 AT&T/Frontier 原生住宅 IP，非数据中心伪装</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>加州自有公寓机房，基础设施透明可验�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>静态独�?IP，无限流量，适合长期稳定运营</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>�?ISP 冗余 + APC PDU + UPS 企业级运�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>TikTok 美区运营实测 0 封号�?K 直播无压�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>支持支付�?PayPal/USDT 付款</span></li>
             </ul>
           </div>
           <div>
@@ -211,12 +211,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅限美国加州住宅 IP，无其他地区选择</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持网站托管、代理池转售、挖矿等用途</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文客服，仅邮件支持，无退款政策</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>故障依赖现场维修，平均响应约 3 小时</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>从中国大陆延迟 180-220ms，无 CN2/GIA 优化路由</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>产品类型偏窄，无移动代理、数据中心代理等</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>仅限美国加州住宅 IP，无其他地区选择</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>不支持网站托管、代理池转售、挖矿等用�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文客服，仅邮件支持，无退款政�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>故障依赖现场维修，平均响应约 3 小时</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>从中国大陆延�?180-220ms，无 CN2/GIA 优化路由</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>产品类型偏窄，无移动代理、数据中心代理等</span></li>
             </ul>
           </div>
         </div>
@@ -225,13 +225,13 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          VIRCS 在住宅 IP 市场中是一个独特的存在。它不是传统意义上的代理服务商，而更像是一个"住宅 IP 基础设施提供商"——通过在美国加州自有公寓中部署真实的 AT&T/Frontier 家庭宽带，将运营商级别的原生住宅 IP 以 VPS 和代理方案的形式交付给用户。
+          VIRCS 在住�?IP 市场中是一个独特的存在。它不是传统意义上的代理服务商，而更像是一�?住宅 IP 基础设施提供�?——通过在美国加州自有公寓中部署真实�?AT&T/Frontier 家庭宽带，将运营商级别的原生住宅 IP �?VPS 和代理方案的形式交付给用户�?
         </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          最大的亮点毫无疑问是 IP 纯净度：100% 真实 AT&T 住宅 IP，非数据中心伪装，非代理池轮换。在 TikTok 美区运营、Facebook/Instagram 社媒矩阵、AI 浏览器代理等需要持久身份和高信任度的场景中，VIRCS 的表现远优于传统住宅代理。实测 0 封号率、4K 直播无压力、无限流量等特性使其成为美区 TikTok 运营者的理想基础设施。
+          最大的亮点毫无疑问�?IP 纯净度：100% 真实 AT&T 住宅 IP，非数据中心伪装，非代理池轮换。在 TikTok 美区运营、Facebook/Instagram 社媒矩阵、AI 浏览器代理等需要持久身份和高信任度的场景中，VIRCS 的表现远优于传统住宅代理。实�?0 封号率�?K 直播无压力、无限流量等特性使其成为美�?TikTok 运营者的理想基础设施�?
         </p>
         <p class="text-slate-300 leading-relaxed">
-          但局限性也很明显：仅限美国加州、无中文客服、不支持网站托管、无退款政策。它不适合需要全球多地区 IP 覆盖、大规模轮换爬取、或网站托管等场景。综合评估 IP 纯净度、场景匹配度、基础设施质量等多个维度，VIRCS 获得 7.3 分评价。特别推荐给专注于美区 TikTok/社媒运营的团队，以及需要长期稳定美国住宅 IP 身份的 AI 自动化开发者。
+          但局限性也很明显：仅限美国加州、无中文客服、不支持网站托管、无退款政策。它不适合需要全球多地区 IP 覆盖、大规模轮换爬取、或网站托管等场景。综合评�?IP 纯净度、场景匹配度、基础设施质量等多个维度，VIRCS 获得 7.3 分评价。特别推荐给专注于美�?TikTok/社媒运营的团队，以及需要长期稳定美国住�?IP 身份�?AI 自动化开发者�?
         </p>
       </section>
 

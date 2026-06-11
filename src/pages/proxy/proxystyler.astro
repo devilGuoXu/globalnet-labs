@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="Proxy Styler 深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -34,67 +34,64 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">覆盖范围</span>
-            <p class="text-slate-200 font-medium mt-1">16+ 国家 · 美国/英国/澳洲/加拿大/新加坡/荷兰等</p>
+            <p class="text-slate-200 font-medium mt-1">16+ 国家 · 美国/英国/澳洲/加拿�?新加�?荷兰�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">核心特性</span>
+            <span class="text-slate-500">核心特�?/span>
             <p class="text-slate-200 font-medium mt-1">自有硬件 · 无限流量 · HTTP/SOCKS5+UDP · OpenVPN · API</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">支付方式</span>
-            <p class="text-slate-200 font-medium mt-1">银行卡 · SBP · 加密货币</p>
+            <p class="text-slate-200 font-medium mt-1">银行�?· SBP · 加密货币</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Proxy Styler 是一家专注于 4G/5G 移动代理的服务商，最大的差异化优势在于完全自有的硬件基础设施。与其他租赁第三方设备的代理服务不同，Proxy Styler 自行采购、部署和维护所有硬件设备——包括物理 Android 设备、4G/5G 模块、服务器机架和网络设备。这种自营模式使其在服务质量控制、设备可用性和故障响应方面拥有更高的自主权。
-        </p>
+          Proxy Styler 是一家专注于 4G/5G 移动代理的服务商，最大的差异化优势在于完全自有的硬件基础设施。与其他租赁第三方设备的代理服务不同，Proxy Styler 自行采购、部署和维护所有硬件设备——包括物�?Android 设备�?G/5G 模块、服务器机架和网络设备。这种自营模式使其在服务质量控制、设备可用性和故障响应方面拥有更高的自主权�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Proxy Styler 覆盖 16+ 个国家，包括美国（T-Mobile/AT&T/Verizon）、英国、澳大利亚、加拿大、新加坡、葡萄牙、荷兰、意大利、罗马尼亚、西班牙、乌克兰等热门地区。所有代理均为真实 SIM 卡驱动的移动 IP，支持 HTTP/HTTPS、SOCKS5（含完整 UDP 支持）和 OpenVPN 协议。4G 平均速度 20-100 Mbps，5G 可达 100-250 Mbps。
-        </p>
+          Proxy Styler 覆盖 16+ 个国家，包括美国（T-Mobile/AT&T/Verizon）、英国、澳大利亚、加拿大、新加坡、葡萄牙、荷兰、意大利、罗马尼亚、西班牙、乌克兰等热门地区。所有代理均为真�?SIM 卡驱动的移动 IP，支�?HTTP/HTTPS、SOCKS5（含完整 UDP 支持）和 OpenVPN 协议�?G 平均速度 20-100 Mbps�?G 可达 100-250 Mbps�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          平台提供 1 天免费试用，所有方案均包含无限流量（4G 无限制，5G 有 15GB/天公平使用政策）。支持通过 Telegram 机器人进行购买和管理，提供强大的 API 接口。支持银行卡、SBP 和多种加密货币支付。提供批量折扣，购买 5 个以上代理可享最高 10% 优惠。
-        </p>
+          平台提供 1 天免费试用，所有方案均包含无限流量�?G 无限制，5G �?15GB/天公平使用政策）。支持通过 Telegram 机器人进行购买和管理，提供强大的 API 接口。支持银行卡、SBP 和多种加密货币支付。提供批量折扣，购买 5 个以上代理可享最�?10% 优惠�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-6">定价方案</h2>
         <div class="grid md:grid-cols-3 gap-4">
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50 text-center">
-            <div class="text-xs text-slate-500 mb-1">1 天试用</div>
+            <div class="text-xs text-slate-500 mb-1">1 天试�?/div>
             <div class="text-emerald-400 font-bold text-2xl">免费</div>
-            <div class="text-slate-400 text-sm mb-4">1 天 · 无限流量</div>
+            <div class="text-slate-400 text-sm mb-4">1 �?· 无限流量</div>
             <ul class="text-sm text-slate-300 space-y-2 text-left">
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>完全免费体验</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>无限数据流量</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>所有协议支持</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>完全免费体验</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>无限数据流量</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>所有协议支�?/li>
             </ul>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50 text-center">
-            <div class="text-xs text-slate-500 mb-1">7 天</div>
+            <div class="text-xs text-slate-500 mb-1">7 �?/div>
             <div class="text-emerald-400 font-bold text-2xl">$22</div>
-            <div class="text-slate-400 text-sm mb-4">7 天 · 美国 4G</div>
+            <div class="text-slate-400 text-sm mb-4">7 �?· 美国 4G</div>
             <ul class="text-sm text-slate-300 space-y-2 text-left">
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>专属移动设备</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>无限数据流量</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>HTTP/SOCKS5+UDP</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>专属移动设备</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>无限数据流量</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>HTTP/SOCKS5+UDP</li>
             </ul>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50 text-center">
-            <div class="text-xs text-slate-500 mb-1">30 天</div>
+            <div class="text-xs text-slate-500 mb-1">30 �?/div>
             <div class="text-emerald-400 font-bold text-2xl">$60</div>
-            <div class="text-slate-400 text-sm mb-4">30 天 · 美国 4G</div>
+            <div class="text-slate-400 text-sm mb-4">30 �?· 美国 4G</div>
             <ul class="text-sm text-slate-300 space-y-2 text-left">
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>专属移动设备</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>无限数据流量</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>API + OpenVPN</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>专属移动设备</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>无限数据流量</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>API + OpenVPN</li>
             </ul>
           </div>
         </div>
-        <p class="text-xs text-slate-500 mt-4 text-center">价格因国家和地区而异 · 批量购买 5+ 个代理享 10% 折扣 · 48 小时退款保障</p>
+        <p class="text-xs text-slate-500 mt-4 text-center">价格因国家和地区而异 · 批量购买 5+ 个代理享 10% 折扣 · 48 小时退款保�?/p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
@@ -110,7 +107,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         </div>
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
-            <span class="text-sm text-slate-200">银行卡（Visa/Mastercard）</span>
+            <span class="text-sm text-slate-200">银行卡（Visa/Mastercard�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <span class="text-sm text-slate-200">SBP</span>
@@ -122,41 +119,41 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">平台特性</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">平台特�?/h2>
         <div class="grid md:grid-cols-2 gap-6 text-sm">
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold mb-2">自有硬件基础设施</h3>
-            <p class="text-slate-400 leading-relaxed">自购物理 Android 设备和 4G/5G 模块，自行部署服务器机架和网络设备，完全掌控服务质量。</p>
+            <p class="text-slate-400 leading-relaxed">自购物理 Android 设备�?4G/5G 模块，自行部署服务器机架和网络设备，完全掌控服务质量�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
-            <h3 class="text-emerald-400 font-semibold mb-2">多协议全面支持</h3>
-            <p class="text-slate-400 leading-relaxed">HTTP/HTTPS + SOCKS5（含完整 UDP 支持）+ OpenVPN，适应各类应用场景。</p>
+            <h3 class="text-emerald-400 font-semibold mb-2">多协议全面支�?/h3>
+            <p class="text-slate-400 leading-relaxed">HTTP/HTTPS + SOCKS5（含完整 UDP 支持�? OpenVPN，适应各类应用场景�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold mb-2">灵活 IP 轮换</h3>
-            <p class="text-slate-400 leading-relaxed">支持自动轮换（2 分钟起）、静态模式和手动切换三种模式，通过控制面板或 API 完全掌控。</p>
+            <p class="text-slate-400 leading-relaxed">支持自动轮换�? 分钟起）、静态模式和手动切换三种模式，通过控制面板�?API 完全掌控�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
-            <h3 class="text-emerald-400 font-semibold mb-2">快速部署</h3>
-            <p class="text-slate-400 leading-relaxed">大部分代理在付款确认后即时交付可用，24/7 专属技术支持团队。</p>
+            <h3 class="text-emerald-400 font-semibold mb-2">快速部�?/h3>
+            <p class="text-slate-400 leading-relaxed">大部分代理在付款确认后即时交付可用，24/7 专属技术支持团队�?/p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>自有硬件基础设施，服务可控性高</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>16+ 国家覆盖，选择丰富</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限流量 + 多种协议 + API 支持</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>1 天免费试用，零成本体验</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>4G 无限流量无上限</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>批量折扣 + 48 小时退款</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>自有硬件基础设施，服务可控性高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>16+ 国家覆盖，选择丰富</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>无限流量 + 多种协议 + API 支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>1 天免费试用，零成本体�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>4G 无限流量无上�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>批量折扣 + 48 小时退�?/span></li>
             </ul>
           </div>
           <div>
@@ -164,12 +161,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>5G 方案有 15GB/天公平使用限制</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>价格相对较高（美国 $60/月起）</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度有限</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅提供移动代理，无住宅/DC 产品线</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分国家无库存（法国/德国等）</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>5G 方案�?15GB/天公平使用限�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>价格相对较高（美�?$60/月起�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>品牌知名度有�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>仅提供移动代理，无住�?DC 产品�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>部分国家无库存（法国/德国等）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界�?/span></li>
             </ul>
           </div>
         </div>
@@ -178,14 +175,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Proxy Styler 以其自有硬件基础设施的运营模式在移动代理市场中建立了独特的差异化定位。自购物理设备、自建服务器机架的模式使其在服务质量和可用性方面拥有更高的控制力。16+ 国家的覆盖范围、无限流量政策、多协议支持（HTTP/SOCKS5+UDP/OpenVPN）以及灵活的 IP 轮换机制，使其能够满足从社媒多账号管理到网页数据采集的多种需求。
-        </p>
+          Proxy Styler 以其自有硬件基础设施的运营模式在移动代理市场中建立了独特的差异化定位。自购物理设备、自建服务器机架的模式使其在服务质量和可用性方面拥有更高的控制力�?6+ 国家的覆盖范围、无限流量政策、多协议支持（HTTP/SOCKS5+UDP/OpenVPN）以及灵活的 IP 轮换机制，使其能够满足从社媒多账号管理到网页数据采集的多种需求�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          1 天免费试用的政策降低了用户尝试门槛。4G 方案无限流量无上限对重度数据用户友好。API 接口和 Telegram 机器人管理提供了便捷的自动化集成能力。48 小时退款政策和按比例退款机制在售后服务方面表现合理。
-        </p>
+          1 天免费试用的政策降低了用户尝试门槛�?G 方案无限流量无上限对重度数据用户友好。API 接口�?Telegram 机器人管理提供了便捷的自动化集成能力�?8 小时退款政策和按比例退款机制在售后服务方面表现合理�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于 5G 方案有 15GB/天的公平使用限制、价格相对传统住宅代理偏高、部分热门国家（如法国、德国）暂无库存。综合评估，Proxy Styler 获得 7.3 分评价。特别推荐给需要高信任度移动 IP 的社媒运营和广告验证团队、对硬件基础设施质量有较高要求的企业用户、以及需要 OpenVPN 和 UDP 支持的特殊场景用户。对于预算有限或需要大量住宅 IP 覆盖的用户，建议同时评估其他代理服务商。
-        </p>
+          主要局限在�?5G 方案�?15GB/天的公平使用限制、价格相对传统住宅代理偏高、部分热门国家（如法国、德国）暂无库存。综合评估，Proxy Styler 获得 7.3 分评价。特别推荐给需要高信任度移�?IP 的社媒运营和广告验证团队、对硬件基础设施质量有较高要求的企业用户、以及需�?OpenVPN �?UDP 支持的特殊场景用户。对于预算有限或需要大量住�?IP 覆盖的用户，建议同时评估其他代理服务商�?        </p>
       </section>
 
       <div class="text-center">

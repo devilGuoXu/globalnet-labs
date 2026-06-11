@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="IPWAY 深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -19,7 +19,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">6条产品线</span>
           </div>
-          <p class="text-slate-400 mt-1">ISP 住宅代理 · 数据中心代理 · 旋转/静态 · API · 99.5% 成功率 · 美国公司</p>
+          <p class="text-slate-400 mt-1">ISP 住宅代理 · 数据中心代理 · 旋转/静�?· API · 99.5% 成功�?· 美国公司</p>
         </div>
       </div>
 
@@ -28,15 +28,15 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="grid md:grid-cols-2 gap-4 text-sm">
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">产品类型</span>
-            <p class="text-slate-200 font-medium mt-1">6 条产品线：旋转住宅 · 旋转 DC · 静态住宅 · 静态 DC · API 住宅 · API DC</p>
+            <p class="text-slate-200 font-medium mt-1">6 条产品线：旋转住�?· 旋转 DC · 静态住�?· 静�?DC · API 住宅 · API DC</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">核心优势</span>
-            <p class="text-slate-200 font-medium mt-1">99.5% 成功率 · 专属客户经理 · 7 天免费试用 · 100% 伦理 IP</p>
+            <p class="text-slate-200 font-medium mt-1">99.5% 成功�?· 专属客户经理 · 7 天免费试�?· 100% 伦理 IP</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">支付方式</span>
-            <p class="text-slate-200 font-medium mt-1">信用卡 · 银行转账 · 加密货币</p>
+            <p class="text-slate-200 font-medium mt-1">信用�?· 银行转账 · 加密货币</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">适合场景</span>
@@ -46,36 +46,33 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          IPWAY 是一家总部位于美国特拉华州威尔明顿的代理服务平台，提供涵盖住宅代理和数据中心代理的全面产品矩阵。与许多仅提供单一类型代理的服务商不同，IPWAY 同时提供旋转代理、静态代理和 API 代理三种接入方式，每种方式又分别支持 ISP 住宅 IP 和数据中心 IP，构成 6 条完整的产品线，覆盖从小型项目到企业级大规模运营的全部需求。
-        </p>
+          IPWAY 是一家总部位于美国特拉华州威尔明顿的代理服务平台，提供涵盖住宅代理和数据中心代理的全面产品矩阵。与许多仅提供单一类型代理的服务商不同，IPWAY 同时提供旋转代理、静态代理和 API 代理三种接入方式，每种方式又分别支持 ISP 住宅 IP 和数据中�?IP，构�?6 条完整的产品线，覆盖从小型项目到企业级大规模运营的全部需求�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          IPWAY 的核心竞争力在于"全栈代理"——无论用户需要高速低价的 DC 代理进行大规模爬虫，还是需要高信任度的住宅代理用于社媒管理和广告验证，都可以在同一平台完成。平台提供统一的仪表盘管理所有代理类型，支持子用户管理、域名/IP 白名单和黑名单、数据用量监控等功能。购买即赠送 100% 匹配流量（买一送一），提供 7 天免费试用并配备专属客户经理。
-        </p>
+          IPWAY 的核心竞争力在于"全栈代理"——无论用户需要高速低价的 DC 代理进行大规模爬虫，还是需要高信任度的住宅代理用于社媒管理和广告验证，都可以在同一平台完成。平台提供统一的仪表盘管理所有代理类型，支持子用户管理、域�?IP 白名单和黑名单、数据用量监控等功能。购买即赠�?100% 匹配流量（买一送一），提供 7 天免费试用并配备专属客户经理�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          IPWAY 在 G2 上获得企业用户好评，被评价为"IP 租赁行业中值得信赖和专业的合作伙伴"。主要合作伙伴包括 Emia、Madrivo、ZeroBounce 等。公司官网设计专业现代，技术文档完善，提供 SEO、AI、电商、金融、酒店旅游、网络安全等 12 个行业的具体解决方案。支持电话、邮件和工单系统多种联系方式，并提供免费咨询服务。
-        </p>
+          IPWAY �?G2 上获得企业用户好评，被评价为"IP 租赁行业中值得信赖和专业的合作伙伴"。主要合作伙伴包�?Emia、Madrivo、ZeroBounce 等。公司官网设计专业现代，技术文档完善，提供 SEO、AI、电商、金融、酒店旅游、网络安全等 12 个行业的具体解决方案。支持电话、邮件和工单系统多种联系方式，并提供免费咨询服务�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特性</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特�?/h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">旋转住宅代理（Rotating ISP Residential）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">使用真实 ISP 注册的住宅 IP，自动轮换，每次请求或按设定间隔更换 IP 地址。支持 HTTP/HTTPS/SOCKS5 协议，无限并发会话，99.5% 成功率。覆盖全球多地区，支持国家级别定位。适合网页爬虫、广告验证、SEO 监测、市场研究等需要大量 IP 轮换的场景。提供 7 天免费试用。Pro 25GB $45/月，Business 50GB $90/月（优惠价 $80），Enterprise 100GB $180/月（优惠价 $140）。年付低至 $0.98/GB。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">旋转住宅代理（Rotating ISP Residential�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">使用真实 ISP 注册的住�?IP，自动轮换，每次请求或按设定间隔更换 IP 地址。支�?HTTP/HTTPS/SOCKS5 协议，无限并发会话，99.5% 成功率。覆盖全球多地区，支持国家级别定位。适合网页爬虫、广告验证、SEO 监测、市场研究等需要大�?IP 轮换的场景。提�?7 天免费试用。Pro 25GB $45/月，Business 50GB $90/月（优惠�?$80），Enterprise 100GB $180/月（优惠�?$140）。年付低�?$0.98/GB�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">旋转数据中心代理（Rotating Datacenter）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">基于数据中心基础设施的高速旋转代理，提供比住宅代理更快的速度和更低的成本。自动 IP 轮换，100% 匿名，无限制带宽。适合大规模数据采集、SEO 监测、竞品跟踪等高速场景。Pro 300GB $144/月，Business 500GB $240/月（优惠价 $225），Enterprise 1000GB $480/月（优惠价 $420）。年付低至 $0.36/GB。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">旋转数据中心代理（Rotating Datacenter�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">基于数据中心基础设施的高速旋转代理，提供比住宅代理更快的速度和更低的成本。自�?IP 轮换�?00% 匿名，无限制带宽。适合大规模数据采集、SEO 监测、竞品跟踪等高速场景。Pro 300GB $144/月，Business 500GB $240/月（优惠�?$225），Enterprise 1000GB $480/月（优惠�?$420）。年付低�?$0.36/GB�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态代理（Dedicated ISP & Datacenter）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">提供固定 IP 地址，适合需要长期稳定身份的社媒账户管理、电商运营等场景。ISP 住宅静态代理：按 GB 计费 $1.80/GB 或按 IP 计费 $2.50/IP（256/512/1024 IP）。另有无限流量按 IP 方案 $1.40/IP。DC 静态代理：按 GB 计费 $0.50/GB 或按 IP 计费 $1.40/IP 无限流量。支持最长 5 小时黏性会话。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态代理（Dedicated ISP & Datacenter�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供固定 IP 地址，适合需要长期稳定身份的社媒账户管理、电商运营等场景。ISP 住宅静态代理：�?GB 计费 $1.80/GB 或按 IP 计费 $2.50/IP�?56/512/1024 IP）。另有无限流量按 IP 方案 $1.40/IP。DC 静态代理：�?GB 计费 $0.50/GB 或按 IP 计费 $1.40/IP 无限流量。支持最�?5 小时黏性会话�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">代理 API（Residential & Datacenter）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">提供 RESTful API 接口，开发者可直接集成代理能力到自有系统。住宅 API：Starter $100/月（20万请求），Small Business $249/月（53万请求），Business $990/月（220万请求），Enterprise $2,000/月（500万请求）。DC API：Starter $50/月（51万请求），Small Business $250/月（260万请求），Business $500/月（543万请求），Enterprise $1,000/月（1136万请求）。年付折扣明显。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">代理 API（Residential & Datacenter�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供 RESTful API 接口，开发者可直接集成代理能力到自有系统。住�?API：Starter $100/月（20万请求），Small Business $249/月（53万请求），Business $990/月（220万请求），Enterprise $2,000/月（500万请求）。DC API：Starter $50/月（51万请求），Small Business $250/月（260万请求），Business $500/月（543万请求），Enterprise $1,000/月（1136万请求）。年付折扣明显�?/p>
           </div>
         </div>
       </section>
@@ -96,7 +93,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡</span>
+            <span class="text-sm text-slate-200">信用�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
@@ -111,19 +108,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>6 条产品线全覆盖，旋转/静态/API + 住宅/DC 任意组合</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.5% 成功率，专属客户经理，企业级服务体验</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>7 天免费试用 + 首单 100% 匹配流量（买一送一）</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>DC 代理 $0.36/GB 起，性价比极高</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>统一仪表盘管理所有代理类型，支持子用户</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>美国公司，英文界面，G2 企业认证</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>6 条产品线全覆盖，旋转/静�?API + 住宅/DC 任意组合</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>99.5% 成功率，专属客户经理，企业级服务体验</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>7 天免费试�?+ 首单 100% 匹配流量（买一送一�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>DC 代理 $0.36/GB 起，性价比极�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>统一仪表盘管理所有代理类型，支持子用�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>美国公司，英文界面，G2 企业认证</span></li>
             </ul>
           </div>
           <div>
@@ -131,12 +128,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面，仅支持英文</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无移动代理产品线</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理 $1.80/GB 起，价格处于行业中上水平</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 池规模未公开，仅承诺覆盖国家和地区</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分功能（如 API）需联系销售获取完整文档</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>产品线过多可能对新手造成选择困难</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面，仅支持英�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无移动代理产品线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>住宅代理 $1.80/GB 起，价格处于行业中上水平</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>IP 池规模未公开，仅承诺覆盖国家和地�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>部分功能（如 API）需联系销售获取完整文�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>产品线过多可能对新手造成选择困难</span></li>
             </ul>
           </div>
         </div>
@@ -145,14 +142,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          IPWAY 是一家产品线极为丰富的美国代理服务平台，同时提供旋转住宅、旋转 DC、静态住宅、静态 DC、API 住宅和 API DC 六条完整产品线，这在代理行业中较为少见。平台以 99.5% 成功率和专属客户经理作为核心卖点，7 天免费试用和首单买一送一政策降低了用户的试错成本。DC 代理 $0.36/GB（年付）的定价在行业中具有竞争力。
-        </p>
+          IPWAY 是一家产品线极为丰富的美国代理服务平台，同时提供旋转住宅、旋�?DC、静态住宅、静�?DC、API 住宅�?API DC 六条完整产品线，这在代理行业中较为少见。平台以 99.5% 成功率和专属客户经理作为核心卖点�? 天免费试用和首单买一送一政策降低了用户的试错成本。DC 代理 $0.36/GB（年付）的定价在行业中具有竞争力�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          IPWAY 最大的价值在于"一站式代理解决方案"——用户无需在多个服务商之间切换，即可在同一平台获取住宅代理的高信任度和 DC 代理的高速度低成本。API 接口为开发团队提供了便捷的自动化集成能力，静态代理则为社媒运营和电商管理提供了稳定的 IP 身份。12 个行业解决方案覆盖了从 AI 训练到酒店旅游的广泛场景，适合中大型企业的多样化需求。
-        </p>
+          IPWAY 最大的价值在�?一站式代理解决方案"——用户无需在多个服务商之间切换，即可在同一平台获取住宅代理的高信任度和 DC 代理的高速度低成本。API 接口为开发团队提供了便捷的自动化集成能力，静态代理则为社媒运营和电商管理提供了稳定的 IP 身份�?2 个行业解决方案覆盖了�?AI 训练到酒店旅游的广泛场景，适合中大型企业的多样化需求�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于无中文界面、无移动代理产品线、住宅代理价格处于中上水平。综合评估，IPWAY 获得 7.3 分评价。特别推荐给需要多类型代理的企业团队、API 集成开发者、SEO/SERP 监测团队和 AI 数据采集项目。
-        </p>
+          主要局限在于无中文界面、无移动代理产品线、住宅代理价格处于中上水平。综合评估，IPWAY 获得 7.3 分评价。特别推荐给需要多类型代理的企业团队、API 集成开发者、SEO/SERP 监测团队�?AI 数据采集项目�?        </p>
       </section>
 
       <div class="text-center">

@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="Proxidize 深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -17,7 +17,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           <div class="flex items-center gap-3 flex-wrap">
             <h1 class="text-3xl font-bold text-slate-100">Proxidize 评测</h1>
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
-            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">企业级</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">企业�?/span>
           </div>
           <p class="text-slate-400 mt-1">4G/5G 移动代理 + 全球住宅代理 · SOC 2 Type II · ISO 27001</p>
         </div>
@@ -32,50 +32,47 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">覆盖范围</span>
-            <p class="text-slate-200 font-medium mt-1">移动：美国 · 住宅：195+ 国家</p>
+            <p class="text-slate-200 font-medium mt-1">移动：美�?· 住宅�?95+ 国家</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">核心特性</span>
+            <span class="text-slate-500">核心特�?/span>
             <p class="text-slate-200 font-medium mt-1">SOC 2 Type II · ISO 27001 · G2 4.7 · 10000+ 客户 · 99.992% 在线</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">定价模式</span>
-            <p class="text-slate-200 font-medium mt-1">移动 $2/GB 或 $59/月 无限 · 住宅 $1/GB · 100MB 免费试用</p>
+            <p class="text-slate-200 font-medium mt-1">移动 $2/GB �?$59/�?无限 · 住宅 $1/GB · 100MB 免费试用</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Proxidize 是一家全球领先的托管代理服务提供商（Managed Proxy Provider），专为企业级客户和大规模数据采集需求设计。平台提供美国 4G/5G 移动代理和覆盖 195+ 国家的住宅代理两大类核心产品，拥有超过 10,000 名客户和数百万级 IP 资源池。Proxidize 以企业级安全合规著称，通过了 SOC 2 Type II 和 ISO 27001 双重认证，在 G2 评分中荣获 4.7 星评价。
-        </p>
+          Proxidize 是一家全球领先的托管代理服务提供商（Managed Proxy Provider），专为企业级客户和大规模数据采集需求设计。平台提供美�?4G/5G 移动代理和覆�?195+ 国家的住宅代理两大类核心产品，拥有超�?10,000 名客户和数百万级 IP 资源池。Proxidize 以企业级安全合规著称，通过�?SOC 2 Type II �?ISO 27001 双重认证，在 G2 评分中荣�?4.7 星评价�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Proxidize 的核心差异化优势在于"托管 + 合规 + 高性能"——与许多自助式代理平台不同，Proxidize 提供全程托管服务，从代理配置到性能优化均有专业团队支持。其移动代理使用真正的美国移动运营商 IP（非 MVNO 或虚拟运营商），支持城市级和 ASN/ISP 级精准定位。住宅代理网络覆盖全球 195+ 个国家，拥有数百万个住宅 IP 节点，检测率仅 0.3%，成功率高达 99.9% 以上。
-        </p>
+          Proxidize 的核心差异化优势在于"托管 + 合规 + 高性能"——与许多自助式代理平台不同，Proxidize 提供全程托管服务，从代理配置到性能优化均有专业团队支持。其移动代理使用真正的美国移动运营商 IP（非 MVNO 或虚拟运营商），支持城市级和 ASN/ISP 级精准定位。住宅代理网络覆盖全�?195+ 个国家，拥有数百万个住宅 IP 节点，检测率�?0.3%，成功率高达 99.9% 以上�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          Proxidize 提供 24/7 全天候在线客服支持（实时聊天和电子邮件），拥有完善的知识库和 API 文档（developers.proxidize.com）。支持 Chrome 和 Firefox 浏览器扩展。支付方式支持信用卡和主流加密货币，并提供 100MB 免费试用（无需信用卡）和 30 天退款保证（使用量不超过 10GB）。大多数使用场景无需 KYC 认证。
-        </p>
+          Proxidize 提供 24/7 全天候在线客服支持（实时聊天和电子邮件），拥有完善的知识库和 API 文档（developers.proxidize.com）。支�?Chrome �?Firefox 浏览器扩展。支付方式支持信用卡和主流加密货币，并提�?100MB 免费试用（无需信用卡）�?30 天退款保证（使用量不超过 10GB）。大多数使用场景无需 KYC 认证�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特性</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特�?/h2>
         <div class="space-y-6">
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">4G/5G 移动代理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">Proxidize 的核心产品之一，提供基于美国真实移动运营商（非 MVNO 或 IP 转售商）的 4G 和 5G 移动代理。支持城市级精准定位（覆盖美国主要城市）以及 ASN/ISP 级定位。提供 Per GB（$2/GB）和 Per Proxy（$59/月无限带宽）两种计费模式。支持轮换和粘性会话（最长 3 天），HTTP/HTTPS/SOCKS5 协议，以及 HTTP/3 & QUIC 和 UDP over SOCKS 高级特性。平均速率 10-50 Mbps，突发可达 150 Mbps，无限并发，成功率 99.5% 以上。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">Proxidize 的核心产品之一，提供基于美国真实移动运营商（非 MVNO �?IP 转售商）�?4G �?5G 移动代理。支持城市级精准定位（覆盖美国主要城市）以及 ASN/ISP 级定位。提�?Per GB�?2/GB）和 Per Proxy�?59/月无限带宽）两种计费模式。支持轮换和粘性会话（最�?3 天），HTTP/HTTPS/SOCKS5 协议，以�?HTTP/3 & QUIC �?UDP over SOCKS 高级特性。平均速率 10-50 Mbps，突发可�?150 Mbps，无限并发，成功�?99.5% 以上�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅代理网络</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">Proxidize 提供覆盖 195+ 国家的全球住宅代理网络，拥有数百万个真实住宅 IP 节点。定价为统一的 $1/GB 按量计费，未使用的数据流量可永久有效，不会过期。支持城市级和 ISP 级精确定位，成功率 99.9% 以上，检测率仅 0.3%，适合对匿名性要求极高的数据采集和账号注册场景。支持 HTTP/HTTPS/SOCKS5 协议，无限并发连接。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">Proxidize 提供覆盖 195+ 国家的全球住宅代理网络，拥有数百万个真实住宅 IP 节点。定价为统一�?$1/GB 按量计费，未使用的数据流量可永久有效，不会过期。支持城市级�?ISP 级精确定位，成功�?99.9% 以上，检测率�?0.3%，适合对匿名性要求极高的数据采集和账号注册场景。支�?HTTP/HTTPS/SOCKS5 协议，无限并发连接�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">企业级安全合规</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">Proxidize 是少数通过 SOC 2 Type II 和 ISO 27001 双重认证的代理服务商之一，这意味着其在信息安全、数据保护、访问控制和运营流程方面通过了严格的第三方审计。平台提供完善的访问控制、数据加密和隐私保护机制，适用于金融科技、电商风控、合规审查等对安全和合规性有严格要求的行业场景。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">企业级安全合�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Proxidize 是少数通过 SOC 2 Type II �?ISO 27001 双重认证的代理服务商之一，这意味着其在信息安全、数据保护、访问控制和运营流程方面通过了严格的第三方审计。平台提供完善的访问控制、数据加密和隐私保护机制，适用于金融科技、电商风控、合规审查等对安全和合规性有严格要求的行业场景�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">仪表盘、扩展与 API</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">Proxidize 提供功能全面的管理控制平台，用户可在仪表盘中实时查看代理使用情况、监控带宽消耗、管理白名单 IP、生成 API 密钥等。提供 Chrome 和 Firefox 浏览器扩展，方便快捷切换代理配置。完善的 REST API 文档（developers.proxidize.com）支持自动化集成和自定义开发。提供 100MB 免费试用，无需绑定信用卡。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">Proxidize 提供功能全面的管理控制平台，用户可在仪表盘中实时查看代理使用情况、监控带宽消耗、管理白名单 IP、生�?API 密钥等。提�?Chrome �?Firefox 浏览器扩展，方便快捷切换代理配置。完善的 REST API 文档（developers.proxidize.com）支持自动化集成和自定义开发。提�?100MB 免费试用，无需绑定信用卡�?/p>
           </div>
         </div>
       </section>
@@ -101,7 +98,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡（Visa/MC/Amex/Discover）</span>
+            <span class="text-sm text-slate-200">信用卡（Visa/MC/Amex/Discover�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
@@ -112,19 +109,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>SOC 2 Type II + ISO 27001 双重企业安全认证</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>移动代理：真实美国运营商 IP，城市级/ASN 定位</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅代理：195+ 国家，$1/GB，未用流量永久有效</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>HTTP/HTTPS/SOCKS5 + HTTP/3 & QUIC + UDP over SOCKS</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>100MB 免费试用，30 天退款保证，无需 KYC</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>24/7 技术支持，Chrome/Firefox 扩展，完善 API</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>SOC 2 Type II + ISO 27001 双重企业安全认证</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>移动代理：真实美国运营商 IP，城市级/ASN 定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>住宅代理�?95+ 国家�?1/GB，未用流量永久有�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>HTTP/HTTPS/SOCKS5 + HTTP/3 & QUIC + UDP over SOCKS</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>100MB 免费试用�?0 天退款保证，无需 KYC</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>24/7 技术支持，Chrome/Firefox 扩展，完�?API</span></li>
             </ul>
           </div>
           <div>
@@ -132,11 +129,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动代理仅限美国 IP，无其他国家移动覆盖</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无数据中心代理和静态 ISP 代理</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理仅提供轮换 IP，无粘性会话选项</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持 PayPal 和支付宝/微信支付</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>移动代理仅限美国 IP，无其他国家移动覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面和中文客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无数据中心代理和静�?ISP 代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>住宅代理仅提供轮�?IP，无粘性会话选项</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>不支�?PayPal 和支付宝/微信支付</span></li>
             </ul>
           </div>
         </div>
@@ -145,14 +142,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Proxidize 是一家兼具企业级合规保障与高性能代理服务的专业提供商，以"移动代理 + 住宅代理 + SOC 2/ISO 27001 认证"为核心竞争力。其移动代理使用美国真实运营商 IP，支持 Per GB 和 Per Proxy 两种灵活计费模式，配合 HTTP/3, QUIC, UDP over SOCKS 等高级协议支持，在大规模数据采集和社媒运营场景中表现出色。住宅代理网络覆盖 195+ 国家，$1/GB 统一价格且未用流量永久有效，性价比突出。
-        </p>
+          Proxidize 是一家兼具企业级合规保障与高性能代理服务的专业提供商，以"移动代理 + 住宅代理 + SOC 2/ISO 27001 认证"为核心竞争力。其移动代理使用美国真实运营�?IP，支�?Per GB �?Per Proxy 两种灵活计费模式，配�?HTTP/3, QUIC, UDP over SOCKS 等高级协议支持，在大规模数据采集和社媒运营场景中表现出色。住宅代理网络覆�?195+ 国家�?1/GB 统一价格且未用流量永久有效，性价比突出�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Proxidize 的核心价值在于"企业级安全 + 托管服务 + 灵活计费"——SOC 2 Type II 和 ISO 27001 双认证使其在金融、合规等对安全要求严苛的场景中独树一帜。全程托管服务降低了技术门槛，100MB 免费试用和 30 天退款保证让用户体验无风险。Chrome/Firefox 扩展、完善 API 和 24/7 客服进一步提升了使用便利性。
-        </p>
+          Proxidize 的核心价值在�?企业级安�?+ 托管服务 + 灵活计费"——SOC 2 Type II �?ISO 27001 双认证使其在金融、合规等对安全要求严苛的场景中独树一帜。全程托管服务降低了技术门槛，100MB 免费试用�?30 天退款保证让用户体验无风险。Chrome/Firefox 扩展、完�?API �?24/7 客服进一步提升了使用便利性�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于移动代理仅限美国、无数据中心代理以及不支持 PayPal。综合评估，Proxidize 获得 7.3 分评价。特别推荐给需要企业级安全合规代理的大中型团队、对移动 IP 纯净度有高要求的数据采集团队、金融科技和电商风控场景以及需要全球住宅代理的跨境业务运营者。
-        </p>
+          主要局限在于移动代理仅限美国、无数据中心代理以及不支�?PayPal。综合评估，Proxidize 获得 7.3 分评价。特别推荐给需要企业级安全合规代理的大中型团队、对移动 IP 纯净度有高要求的数据采集团队、金融科技和电商风控场景以及需要全球住宅代理的跨境业务运营者�?        </p>
       </section>
 
       <div class="text-center">

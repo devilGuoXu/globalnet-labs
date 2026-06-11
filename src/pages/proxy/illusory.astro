@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="Illusory 深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -28,54 +28,51 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="grid md:grid-cols-2 gap-4 text-sm">
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">产品类型</span>
-            <p class="text-slate-200 font-medium mt-1">裸机移动代理 · 5G 真实设备 · 专属单租户</p>
+            <p class="text-slate-200 font-medium mt-1">裸机移动代理 · 5G 真实设备 · 专属单租�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">覆盖范围</span>
             <p class="text-slate-200 font-medium mt-1">美国城市部署，运营商级定位，ASN 纯净 IP</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">核心特性</span>
-            <p class="text-slate-200 font-medium mt-1">裸机专属 · 5G 超快 · 按小时计费 · 每分钟换 IP · API 全控制</p>
+            <span class="text-slate-500">核心特�?/span>
+            <p class="text-slate-200 font-medium mt-1">裸机专属 · 5G 超快 · 按小时计�?· 每分钟换 IP · API 全控�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">支付方式</span>
-            <p class="text-slate-200 font-medium mt-1">信用卡 · 加密货币</p>
+            <p class="text-slate-200 font-medium mt-1">信用�?· 加密货币</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Illusory 是一家专注于移动代理的美国服务商，其核心产品为"裸机移动代理"（Bare Metal Mobile Proxies）——基于真实 5G 移动设备、部署于美国各大城市机房的专属单租户代理。与传统的共享 IP 池模式不同，每个用户获得独立的物理设备资源，确保带宽、速度和稳定性不受其他用户影响。Illusory 在 AI 和数据采集团队中拥有良好的口碑，被多个 2026 年行业评测报告列为最佳移动代理服务商之一。
-        </p>
+          Illusory 是一家专注于移动代理的美国服务商，其核心产品�?裸机移动代理"（Bare Metal Mobile Proxies）——基于真�?5G 移动设备、部署于美国各大城市机房的专属单租户代理。与传统的共�?IP 池模式不同，每个用户获得独立的物理设备资源，确保带宽、速度和稳定性不受其他用户影响。Illusory �?AI 和数据采集团队中拥有良好的口碑，被多�?2026 年行业评测报告列为最佳移动代理服务商之一�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Illusory 最独特的差异化优势在于其"裸机"架构——代理运行在真实的 5G 移动设备上，使用真实的移动运营商 ASN，具备极高的信任等级和几乎为零的封禁风险。按小时计费（$1/小时/代理）的模式在代理行业中非常独特，用户无需为未使用的流量付费，只需为实际使用时间付费。支持每分钟更换 IP，适合高频次、高匿名性要求的场景。
-        </p>
+          Illusory 最独特的差异化优势在于�?裸机"架构——代理运行在真实�?5G 移动设备上，使用真实的移动运营商 ASN，具备极高的信任等级和几乎为零的封禁风险。按小时计费�?1/小时/代理）的模式在代理行业中非常独特，用户无需为未使用的流量付费，只需为实际使用时间付费。支持每分钟更换 IP，适合高频次、高匿名性要求的场景�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          平台提供完善的 API 接口，用户可以通过标准的 fetch 请求控制代理的部署、IP 更换和状态管理。支持 HTTP/HTTPS 和 SOCKS5 协议，同时支持 TCP 和 UDP，兼容 IPv4 和 IPv6 双协议栈。提供多种认证方式（用户名密码和 IP 白名单）。适合 AI 语言模型训练、市场研究、SaaS 集成、社媒管理等对代理纯净度和稳定性要求极高的场景。支持企业定制 SLA、专属客户经理和 Slack 频道。
-        </p>
+          平台提供完善�?API 接口，用户可以通过标准�?fetch 请求控制代理的部署、IP 更换和状态管理。支�?HTTP/HTTPS �?SOCKS5 协议，同时支�?TCP �?UDP，兼�?IPv4 �?IPv6 双协议栈。提供多种认证方式（用户名密码和 IP 白名单）。适合 AI 语言模型训练、市场研究、SaaS 集成、社媒管理等对代理纯净度和稳定性要求极高的场景。支持企业定�?SLA、专属客户经理和 Slack 频道�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特性</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特�?/h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">裸机移动代理（Bare Metal Mobile Proxy）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">基于美国真实 5G 移动设备的专属单租户代理。每个用户独享整台物理设备资源，无流量竞争。支持 HTTP/HTTPS/SOCKS5 协议，TCP 和 UDP 均可用。IPv4 和 IPv6 双协议栈。可按需更换 ISP 和城市/州级位置，每分钟可更换 IP 一次。极低延迟的 5G 运营商网络连接。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">裸机移动代理（Bare Metal Mobile Proxy�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">基于美国真实 5G 移动设备的专属单租户代理。每个用户独享整台物理设备资源，无流量竞争。支�?HTTP/HTTPS/SOCKS5 协议，TCP �?UDP 均可用。IPv4 �?IPv6 双协议栈。可按需更换 ISP 和城�?州级位置，每分钟可更�?IP 一次。极低延迟的 5G 运营商网络连接�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">按小时计费模式</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">$1/小时/代理，按实际使用时间计费。支持即时部署和取消，用户可随时扩展或缩减代理数量。批量订单可享折扣。企业用户可联系销售获取定制报价和专属客户经理。与传统按 GB 计费不同，按小时模式适合需要长时间保持同一 IP 运行的任务。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">按小时计费模�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">$1/小时/代理，按实际使用时间计费。支持即时部署和取消，用户可随时扩展或缩减代理数量。批量订单可享折扣。企业用户可联系销售获取定制报价和专属客户经理。与传统�?GB 计费不同，按小时模式适合需要长时间保持同一 IP 运行的任务�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">API 与控制面板</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">提供 RESTful API，用户可通过标准 HTTP 请求控制代理的部署、IP 更换、过期时间延长的全生命周期管理。支持 CMD+K 快捷键操作。提供现代化的 UI 控制面板，支持一键切换位置、管理认证方式和查看使用统计。API 文档完善，开发者友好。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">API 与控制面�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供 RESTful API，用户可通过标准 HTTP 请求控制代理的部署、IP 更换、过期时间延长的全生命周期管理。支�?CMD+K 快捷键操作。提供现代化�?UI 控制面板，支持一键切换位置、管理认证方式和查看使用统计。API 文档完善，开发者友好�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">企业级功能</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">支持自定义私有位置、全新 Virgin IP、指定运营商和城市/州。企业方案提供专属客户经理、上线支持、私有 Slack 频道、正常运行时间 SLA 保障和白手套服务。适合对代理来源、位置和性能有严格要求的机构级客户。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">企业级功�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持自定义私有位置、全�?Virgin IP、指定运营商和城�?州。企业方案提供专属客户经理、上线支持、私�?Slack 频道、正常运行时�?SLA 保障和白手套服务。适合对代理来源、位置和性能有严格要求的机构级客户�?/p>
           </div>
         </div>
       </section>
@@ -85,13 +82,13 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="grid md:grid-cols-3 gap-4 mt-4">
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50 text-center">
             <div class="text-emerald-400 font-bold text-2xl">$1</div>
-            <div class="text-slate-400 text-sm mb-4">/小时 · 每代理</div>
+            <div class="text-slate-400 text-sm mb-4">/小时 · 每代�?/div>
             <ul class="text-sm text-slate-300 space-y-2 text-left">
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>专属单租户</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>随时更换位置/ISP</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>每分钟换 IP</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>无限 API 请求</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>邮件支持</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>专属单租�?/li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>随时更换位置/ISP</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>每分钟换 IP</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>无限 API 请求</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>邮件支持</li>
             </ul>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-6 border border-emerald-500/30 ring-1 ring-emerald-500/20 text-center">
@@ -99,26 +96,26 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <div class="text-emerald-400 font-bold text-2xl">批量</div>
             <div class="text-slate-400 text-sm mb-4">批量订购折扣</div>
             <ul class="text-sm text-slate-300 space-y-2 text-left">
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>多城市/地点访问</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>指定城市/州</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>自有库存</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>固定价格/代理</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>邮件支持 SLA</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>多城�?地点访问</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>指定城市/�?/li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>自有库存</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>固定价格/代理</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>邮件支持 SLA</li>
             </ul>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50 text-center">
             <div class="text-emerald-400 font-bold text-2xl">企业</div>
             <div class="text-slate-400 text-sm mb-4">定制方案</div>
             <ul class="text-sm text-slate-300 space-y-2 text-left">
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>私有位置</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>Virgin 纯净 IP</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>指定运营商</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>专属客户经理 + Slack</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>24×7 企业级支持</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>私有位置</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>Virgin 纯净 IP</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>指定运营�?/li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>专属客户经理 + Slack</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>24×7 企业级支�?/li>
             </ul>
           </div>
         </div>
-        <p class="text-xs text-slate-500 mt-4 text-center">详细定价请访问 Illusory 官网查看</p>
+        <p class="text-xs text-slate-500 mt-4 text-center">详细定价请访�?Illusory 官网查看</p>
       </section>
 
       <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
@@ -130,7 +127,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡</span>
+            <span class="text-sm text-slate-200">信用�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
@@ -141,19 +138,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>裸机专属架构，独享整台设备资源，无邻居干扰</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>真实 5G 移动设备 + 运营商 ASN，封禁风险极低</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>按小时计费 $1/小时，灵活且无浪费</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>API 全控制，开发者体验极佳</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支持 TCP+UDP，IPv4+IPv6 双栈</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>企业级 SLA + 专属客户经理可选</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>裸机专属架构，独享整台设备资源，无邻居干�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>真实 5G 移动设备 + 运营�?ASN，封禁风险极�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>按小时计�?$1/小时，灵活且无浪�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>API 全控制，开发者体验极�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>支持 TCP+UDP，IPv4+IPv6 双栈</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>企业�?SLA + 专属客户经理可�?/span></li>
             </ul>
           </div>
           <div>
@@ -161,12 +158,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅限美国地区，暂不支持其他国家</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>$1/小时/代理，持续使用成本高于按 GB 计费方案</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面，仅支持英文</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>产品线单一，仅提供移动代理</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 池规模未公开，依赖库存可用性</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无公开 Trustpilot 等第三方评分</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>仅限美国地区，暂不支持其他国�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>$1/小时/代理，持续使用成本高于按 GB 计费方案</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面，仅支持英�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>产品线单一，仅提供移动代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>IP 池规模未公开，依赖库存可用�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无公开 Trustpilot 等第三方评分</span></li>
             </ul>
           </div>
         </div>
@@ -175,14 +172,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Illusory 是一家定位独特的移动代理服务商，其"裸机移动代理"模式在行业中独树一帜——基于真实 5G 移动设备的专属单租户架构，与传统共享 IP 池模式形成鲜明对比。每个用户独享完整的物理设备资源，从根本上解决了邻居干扰和 IP 污染问题。按小时计费（$1/小时/代理）的模式也非常灵活，适合需要长时间保持代理稳定运行的专业用户。
-        </p>
+          Illusory 是一家定位独特的移动代理服务商，�?裸机移动代理"模式在行业中独树一帜——基于真�?5G 移动设备的专属单租户架构，与传统共享 IP 池模式形成鲜明对比。每个用户独享完整的物理设备资源，从根本上解决了邻居干扰�?IP 污染问题。按小时计费�?1/小时/代理）的模式也非常灵活，适合需要长时间保持代理稳定运行的专业用户�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Illusory 对开发者体验的重视值得称赞——完善的 RESTful API、CMD+K 快捷键操作、多协议支持（HTTP/HTTPS/SOCKS5/TCP/UDP）、双协议栈（IPv4/IPv6），以及分钟级的 IP 更换能力，使其成为 AI 模型训练、数据分析、SaaS 集成等对技术集成要求较高的场景的理想选择。2026 年多个行业评测将其列为最佳移动代理服务商，也从侧面印证了其产品质量。
-        </p>
+          Illusory 对开发者体验的重视值得称赞——完善的 RESTful API、CMD+K 快捷键操作、多协议支持（HTTP/HTTPS/SOCKS5/TCP/UDP）、双协议栈（IPv4/IPv6），以及分钟级的 IP 更换能力，使其成�?AI 模型训练、数据分析、SaaS 集成等对技术集成要求较高的场景的理想选择�?026 年多个行业评测将其列为最佳移动代理服务商，也从侧面印证了其产品质量�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于仅限美国地区、产品线单一（仅移动代理）、持续使用成本可能高于按 GB 计费方案。综合评估，Illusory 获得 7.3 分评价。特别推荐给需要美国纯净移动代理的 AI 训练团队、对代理控制能力要求极高的开发者、需要专属裸机资源的企业用户，以及按小时计费模式更匹配使用场景的专业运营团队。
-        </p>
+          主要局限在于仅限美国地区、产品线单一（仅移动代理）、持续使用成本可能高于按 GB 计费方案。综合评估，Illusory 获得 7.3 分评价。特别推荐给需要美国纯净移动代理�?AI 训练团队、对代理控制能力要求极高的开发者、需要专属裸机资源的企业用户，以及按小时计费模式更匹配使用场景的专业运营团队�?        </p>
       </section>
 
       <div class="text-center">

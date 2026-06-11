@@ -1,164 +1,164 @@
-﻿---
+---
 import Layout from '../../layouts/Layout.astro';
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 ---
 
-<Layout title="IPRocket 住宅代理深度评测 - GlobalNet Labs">
+<Layout title="IPRocket סլ����������� - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
-        返回代理列表
+        ���ش����б�
       </a>
 
       <div class="flex items-center gap-4 mb-10">
         <img src={`${base}/images/iprocket.png`} alt="IPRocket" class="h-14 w-auto" />
         <div>
-          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">IPRocket 深度评测</h1>
-          <p class="text-slate-400 text-lg">住宅代理，6000 万+ IP，200+ 国家覆盖，按量计费 $0.7/GB 起，不限会话</p>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">IPRocket �������</h1>
+          <p class="text-slate-400 text-lg">סլ������6000 ��+ IP��200+ ���Ҹ��ǣ������Ʒ� $0.7/GB �𣬲��޻Ự</p>
         </div>
       </div>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">���ָ���</h2>
         <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-emerald-400">7.3</div>
-            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+            <div class="text-xs text-slate-500 mt-1">�ۺ�����</div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.0</div>
-            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+            <div class="text-xs text-slate-500 mt-1">IP ������</div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.5</div>
-            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+            <div class="text-xs text-slate-500 mt-1">��Ʒ�ḻ��</div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">8.0</div>
-            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+            <div class="text-xs text-slate-500 mt-1">�۸�����</div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.5</div>
-            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+            <div class="text-xs text-slate-500 mt-1">�ͻ�֧��</div>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-4">��Ʒ����</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          IPRocket（iprocket.io）是一家全球住宅代理服务商，提供标准住宅代理（Standard Residential）和高级住宅代理（Premium Residential）两条核心产品线，以及数据中心代理和移动代理。IP 池规模超过 6000 万（标准）/ 9000 万（高级），覆盖 200+ 个国家和地区。
+          IPRocket��iprocket.io����һ��ȫ��סլ���������̣��ṩ��׼סլ������Standard Residential���͸߼�סլ������Premium Residential���������Ĳ�Ʒ�ߣ��Լ��������Ĵ������ƶ�������IP �ع�ģ���� 6000 �򣨱�׼��/ 9000 �򣨸߼��������� 200+ �����Һ͵�����
         </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          IPRocket 采用按量计费（Pay As You Go）模式，标准住宅代理从 $0.7/GB 起，高级住宅代理从 $0.9/GB 起。流量永不过期，不限并发会话数。支持 HTTP(S) 和 SOCKS5 双协议，提供动态轮换和粘性会话（最长 120 分钟）两种模式。
+          IPRocket ���ð����Ʒѣ�Pay As You Go��ģʽ����׼סլ������ $0.7/GB �𣬸߼�סլ������ $0.9/GB �������������ڣ����޲����Ự����֧�� HTTP(S) �� SOCKS5 ˫Э�飬�ṩ��̬�ֻ���ճ�ԻỰ��� 120 ���ӣ�����ģʽ��
         </p>
         <p class="text-slate-300 leading-relaxed">
-          平台提供完善的 API 接口，支持用户名/密码认证，可与自动化工具集成。不限并发会话、不收取无效 IP 费用、国家/城市/区域级定位追踪。适合数据采集、社媒管理、电商运营、SEO 监控、广告验证等场景。
+          ƽ̨�ṩ���Ƶ� API �ӿڣ�֧���û���/������֤�������Զ������߼��ɡ����޲����Ự������ȡ��Ч IP ���á�����/����/���򼶶�λ׷�١��ʺ����ݲɼ�����ý������������Ӫ��SEO ��ء������֤�ȳ�����
         </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">�����������</h2>
         <div class="space-y-6">
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">标准与高级住宅代理双产品线</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">IPRocket 将住宅代理分为标准（Standard）和高级（Premium）两个层级。标准住宅代理拥有 6000 万+ IP 池，适合通用爬虫、SEO 追踪和账号管理等场景。高级住宅代理拥有 9000 万+ IP 池，IP 纯净度更高，适合 TikTok、Facebook、Amazon、Shopee 等风控严格平台的运营需求。两个层级都支持动态轮换和粘性会话（最长 120 分钟）。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">��׼��߼�סլ����˫��Ʒ��</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">IPRocket ��סլ������Ϊ��׼��Standard���͸߼���Premium�������㼶����׼סլ����ӵ�� 6000 ��+ IP �أ��ʺ�ͨ�����桢SEO ׷�ٺ��˺Ź����ȳ������߼�סլ����ӵ�� 9000 ��+ IP �أ�IP �����ȸ��ߣ��ʺ� TikTok��Facebook��Amazon��Shopee �ȷ���ϸ�ƽ̨����Ӫ���������㼶��֧�ֶ�̬�ֻ���ճ�ԻỰ��� 120 ���ӣ���</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">$0.7/GB 起，流量永不过期</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">标准住宅代理从 $0.7/GB 起，高级住宅代理从 $0.9/GB 起。按量计费，无月度最低消费，购买的流量永不过期。大容量套餐价格更低（800GB 低至 $0.9/GB）。支持优惠码 IPRocket9 享受永久 9 折优惠。不收取无效或失败 IP 的费用，只对实际可用流量收费。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">$0.7/GB ��������������</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">��׼סլ������ $0.7/GB �𣬸߼�סլ������ $0.9/GB �𡣰����Ʒѣ����¶�������ѣ�����������������ڡ��������ײͼ۸���ͣ�800GB ���� $0.9/GB����֧���Ż��� IPRocket9 �������� 9 ���Żݡ�����ȡ��Ч��ʧ�� IP �ķ��ã�ֻ��ʵ�ʿ��������շѡ�</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">不限并发会话 + 200+ 国家定位</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">所有套餐均不限并发会话数，支持同时运行大量浏览器配置文件或自动化线程。200+ 国家和城市级定位追踪，支持国家、城市、区域三级精度。99.05%+ 成功率，速度 1-5 MB/s。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">���޲����Ự + 200+ ���Ҷ�λ</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">�����ײ;����޲����Ự����֧��ͬʱ���д�������������ļ����Զ����̡߳�200+ ���Һͳ��м���λ׷�٣�֧�ֹ��ҡ����С������������ȡ�99.05%+ �ɹ��ʣ��ٶ� 1-5 MB/s��</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">动态轮换 + 粘性会话双模式</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">IPRocket 同时支持两种 IP 模式：动态轮换模式每次请求自动更换 IP，适合大规模数据采集；粘性会话模式保持同一 IP 最多 120 分钟，适合需要会话粘性的多账号管理和社媒操作。用户可根据任务需求灵活切换。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">��̬�ֻ� + ճ�ԻỰ˫ģʽ</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">IPRocket ͬʱ֧������ IP ģʽ����̬�ֻ�ģʽÿ�������Զ����� IP���ʺϴ��ģ���ݲɼ���ճ�ԻỰģʽ����ͬһ IP ��� 120 ���ӣ��ʺ���Ҫ�Ựճ�ԵĶ��˺Ź�������ý�������û��ɸ���������������л���</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心 + 移动代理补充</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">除住宅代理外，IPRocket 还提供数据中心代理（低至 $0.28/GB）和移动代理（低至 $1.8/GB 起），覆盖更多使用场景。数据中心代理适合高速低成本的批量请求，移动代理适合对 IP 纯净度要求最高的场景。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">�������� + �ƶ���������</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">��סլ�����⣬IPRocket ���ṩ�������Ĵ��������� $0.28/GB�����ƶ����������� $1.8/GB �𣩣����Ǹ���ʹ�ó������������Ĵ����ʺϸ��ٵͳɱ������������ƶ������ʺ϶� IP ������Ҫ����ߵĳ�����</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">API 集成 + 不限工具兼容</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">IPRocket 提供完善的 API 接口，支持通过用户名/密码认证生成代理凭据，可批量拉取代理列表。兼容所有支持 HTTP(S) 和 SOCKS5 代理的自动化工具和反检测浏览器。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">API ���� + ���޹��߼���</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">IPRocket �ṩ���Ƶ� API �ӿڣ�֧��ͨ���û���/������֤���ɴ���ƾ�ݣ���������ȡ�����б�����������֧�� HTTP(S) �� SOCKS5 �������Զ������ߺͷ�����������</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">�۸񷽰�</h2>
         <div class="space-y-6">
           <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-base mb-3">标准住宅代理（Standard Residential）</h3>
-            <img src={`${base}/images/iprocket-res-price.webp`} alt="IPRocket 标准住宅代理价格" class="w-full rounded-lg" />
+            <h3 class="text-emerald-400 font-semibold text-base mb-3">��׼סլ������Standard Residential��</h3>
+            <img src={`${base}/images/iprocket-res-price.webp`} alt="IPRocket ��׼סլ�����۸�" class="w-full rounded-lg" />
           </div>
           <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-base mb-3">移动代理（Mobile Proxy）</h3>
-            <img src={`${base}/images/iprocket-mob-price.webp`} alt="IPRocket 移动代理价格" class="w-full rounded-lg" />
+            <h3 class="text-emerald-400 font-semibold text-base mb-3">�ƶ�������Mobile Proxy��</h3>
+            <img src={`${base}/images/iprocket-mob-price.webp`} alt="IPRocket �ƶ������۸�" class="w-full rounded-lg" />
           </div>
-          <p class="text-xs text-slate-500 text-center">数据中心代理低至 $0.28/GB · 标准住宅从 $0.7/GB 起 · 高级住宅从 $0.9/GB 起 · 移动代理从 $1.8/GB 起</p>
+          <p class="text-xs text-slate-500 text-center">�������Ĵ������� $0.28/GB �� ��׼סլ�� $0.7/GB �� �� �߼�סլ�� $0.9/GB �� �� �ƶ������� $1.8/GB ��</p>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">���ó�����ϸ����</h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 数据采集与网页抓取</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">不限并发会话和动态轮换模式使 IPRocket 适合大规模数据采集。标准住宅代理 $0.7/GB 的定价和流量不过期政策降低了长期采集项目的成本。不收取无效 IP 费用进一步提升了成本效益。全球 200+ 国家覆盖满足多地区数据采集需求。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. ���ݲɼ�����ҳץȡ</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">���޲����Ự�Ͷ�̬�ֻ�ģʽʹ IPRocket �ʺϴ��ģ���ݲɼ�����׼סլ���� $0.7/GB �Ķ��ۺ��������������߽����˳��ڲɼ���Ŀ�ĳɱ�������ȡ��Ч IP ���ý�һ�������˳ɱ�Ч�档ȫ�� 200+ ���Ҹ��������������ݲɼ�����</p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒多账号管理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">高级住宅代理的 IP 纯净度更高，适合 TikTok、Facebook、Instagram、Amazon 等风控严格平台的多账号运营。粘性会话模式（120 分钟）确保账号登录后的会话稳定性。不限并发会话可同时管理大量账号。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. ��ý���˺Ź���</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">�߼�סլ������ IP �����ȸ��ߣ��ʺ� TikTok��Facebook��Instagram��Amazon �ȷ���ϸ�ƽ̨�Ķ��˺���Ӫ��ճ�ԻỰģʽ��120 ���ӣ�ȷ���˺ŵ�¼��ĻỰ�ȶ��ԡ����޲����Ự��ͬʱ���������˺š�</p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO 监控与排名追踪</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">200+ 国家和城市级定位适合全球 SEO 排名监控。动态轮换模式确保搜索结果的多样性。按量计费模式在间歇性 SEO 采集任务中成本可控。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO ���������׷��</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">200+ ���Һͳ��м���λ�ʺ�ȫ�� SEO ������ء���̬�ֻ�ģʽȷ����������Ķ����ԡ������Ʒ�ģʽ�ڼ�Ъ�� SEO �ɼ������гɱ��ɿء�</p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 电商运营与价格监控</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">高级住宅代理对 Amazon、Shopee 等电商平台友好。粘性会话模式适合登录状态的电商运营。城市级定位可查看不同地区的商品定价和库存情况。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. ������Ӫ��۸���</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">�߼�סլ������ Amazon��Shopee �ȵ���ƽ̨�Ѻá�ճ�ԻỰģʽ�ʺϵ�¼״̬�ĵ�����Ӫ�����м���λ�ɲ鿴��ͬ��������Ʒ���ۺͿ�������</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">���������</h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
-              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>����
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>标准/高级住宅双产品线，丰俭由人</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$0.7/GB 起，不限并发，流量不过期</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>不收取无效 IP 费用</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>数据中心/移动代理补充覆盖多场景</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">?</span><span>��׼/�߼�סլ˫��Ʒ�ߣ��������</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">?</span><span>$0.7/GB �𣬲��޲���������������</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">?</span><span>����ȡ��Ч IP ����</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">?</span><span>��������/�ƶ��������串�Ƕೡ��</span></li>
             </ul>
           </div>
           <div>
             <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
-              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>ע������
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 池 6000 万，小于主流大厂</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>速度 1-5 MB/s，非顶级水平</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和客服</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>起步套餐价格较高（$25/10GB）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">?</span><span>IP �� 6000 ��С��������</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">?</span><span>�ٶ� 1-5 MB/s���Ƕ���ˮƽ</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">?</span><span>�����Ľ���Ϳͷ�</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">?</span><span>���ײͼ۸�ϸߣ�$25/10GB��</span></li>
             </ul>
           </div>
         </div>
       </section>
 
-      <!-- 支付方式 -->
+      <!-- ֧����ʽ -->
       <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
         <div class="flex items-center gap-3 mb-6">
           <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
-          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+          <h2 class="text-xl font-bold text-slate-100">֧����ʽ</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">�ٷ�֧��</span>
         </div>
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
@@ -175,27 +175,27 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-            <span class="text-sm text-slate-200">加密货币</span>
+            <span class="text-sm text-slate-200">���ܻ���</span>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-4">�ܽ�����</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          IPRocket 是一家以住宅代理为核心的多产品线代理服务商，标准住宅代理从 $0.7/GB 起，提供 6000 万+ IP 覆盖 200+ 国家和地区。其最大的特色是标准/高级住宅代理双产品线设计，用户可以根据任务对 IP 纯净度的要求灵活选择，避免为不需要的高质量 IP 支付溢价。
+          IPRocket ��һ����סլ����Ϊ���ĵĶ��Ʒ�ߴ��������̣���׼סլ������ $0.7/GB ���ṩ 6000 ��+ IP ���� 200+ ���Һ͵�������������ɫ�Ǳ�׼/�߼�סլ����˫��Ʒ����ƣ��û����Ը�������� IP �����ȵ�Ҫ�����ѡ�񣬱���Ϊ����Ҫ�ĸ����� IP ֧����ۡ�
         </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          不限并发会话、流量不过期、不收取无效 IP 费用等政策对成本控制友好。数据中心代理（$0.28/GB）和移动代理（$1.8/GB）补充了产品矩阵，覆盖更多使用场景。IPRocket9 优惠码可享永久 9 折。
+          ���޲����Ự�����������ڡ�����ȡ��Ч IP ���õ����߶Գɱ������Ѻá��������Ĵ�����$0.28/GB�����ƶ�������$1.8/GB�������˲�Ʒ���󣬸��Ǹ���ʹ�ó�����IPRocket9 �Ż���������� 9 �ۡ�
         </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于 IP 池规模（6000 万）小于主流大厂、速度中等以及起步套餐价格较高。综合评估，IPRocket 获得 7.3 分评价。特别推荐给需要标准住宅代理进行数据采集的团队和对高级纯净 IP 有需求的社媒运营者。
+          ��Ҫ�������� IP �ع�ģ��6000 ��С�������󳧡��ٶ��е��Լ����ײͼ۸�ϸߡ��ۺ�������IPRocket ��� 7.3 �����ۡ��ر��Ƽ�����Ҫ��׼סլ�����������ݲɼ����ŶӺͶԸ߼����� IP ���������ý��Ӫ�ߡ�
         </p>
       </section>
 
       <div class="text-center">
         <a href="https://iprocket.io/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
-          访问 IPRocket 官网
+          ���� IPRocket ����
           <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
         </a>
       </div>

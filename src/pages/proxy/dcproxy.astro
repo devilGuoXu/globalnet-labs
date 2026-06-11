@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="DCProxy 深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -19,7 +19,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">线程计费</span>
           </div>
-          <p class="text-slate-400 mt-1">IPv4 静态代理 · IPv6 旋转代理 · ISP 住宅 IP · 数据中心 · 俄罗斯</p>
+          <p class="text-slate-400 mt-1">IPv4 静态代�?· IPv6 旋转代理 · ISP 住宅 IP · 数据中心 · 俄罗�?/p>
         </div>
       </div>
 
@@ -32,51 +32,48 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">覆盖范围</span>
-            <p class="text-slate-200 font-medium mt-1">IPv4：美国机房/ISP · IPv6：195 国家 200+ 地点</p>
+            <p class="text-slate-200 font-medium mt-1">IPv4：美国机�?ISP · IPv6�?95 国家 200+ 地点</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">核心特性</span>
-            <p class="text-slate-200 font-medium mt-1">线程计费 · 1秒-24h 轮换 · 海量IPv6 · 1Gbps 速度 · 自有基础设施</p>
+            <span class="text-slate-500">核心特�?/span>
+            <p class="text-slate-200 font-medium mt-1">线程计费 · 1�?24h 轮换 · 海量IPv6 · 1Gbps 速度 · 自有基础设施</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">支付方式</span>
-            <p class="text-slate-200 font-medium mt-1">Robokassa · 卢布 (₽) 计价 · 加密货币</p>
+            <p class="text-slate-200 font-medium mt-1">Robokassa · 卢布 (�? 计价 · 加密货币</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          DCProxy Shop 是一家俄罗斯代理服务商（ИП Любич Д.Б.），专注于提供高性价比的 IPv4 静态代理和 IPv6 旋转代理解决方案。其产品线覆盖两大类别：IPv4 静态代理（数据中心 / ISP 住宅 IP）和 IPv6 旋转代理（Windstream ISP / Datacenter / SimpleDC），定价以俄罗斯卢布 (₽) 计价，通过 Robokassa 支付网关收款。
-        </p>
+          DCProxy Shop 是一家俄罗斯代理服务商（ИП Любич Д.Б.），专注于提供高性价比的 IPv4 静态代理和 IPv6 旋转代理解决方案。其产品线覆盖两大类别：IPv4 静态代理（数据中心 / ISP 住宅 IP）和 IPv6 旋转代理（Windstream ISP / Datacenter / SimpleDC），定价以俄罗斯卢布 (�? 计价，通过 Robokassa 支付网关收款�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          DCProxy 最大的差异化优势在于其"线程计费"模式——IPv6 旋转代理的定价基于并发线程数而非流量或 IP 数量，用户可根据需要选择从 50 线程到 10000 线程的方案，按月或按周付费。IPv6 地址池海量，轮换间隔可从 1 秒到 24 小时任意设置，覆盖 195 个国家、200 多个地点，适合大规模数据采集和地理分布需求。IPv4 静态代理方面，提供美国数据中心（1Gbps 速度）和美国 ISP 住宅 IP（高信任等级），价格亲民。
-        </p>
+          DCProxy 最大的差异化优势在于其"线程计费"模式——IPv6 旋转代理的定价基于并发线程数而非流量�?IP 数量，用户可根据需要选择�?50 线程�?10000 线程的方案，按月或按周付费。IPv6 地址池海量，轮换间隔可从 1 秒到 24 小时任意设置，覆�?195 个国家�?00 多个地点，适合大规模数据采集和地理分布需求。IPv4 静态代理方面，提供美国数据中心�?Gbps 速度）和美国 ISP 住宅 IP（高信任等级），价格亲民�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          公司强调"自有基础设施"——运营自己的服务器和 IP 资源，不依赖第三方中间商。支持 Telegram 即时客服和 Discord 社区。网站支持俄文和英文界面，提供 IPv6 检测工具和价格计算器等辅助功能。整体定位为高性价比的代理商店，在独联体和东欧市场拥有相当的用户基础。
-        </p>
+          公司强调"自有基础设施"——运营自己的服务器和 IP 资源，不依赖第三方中间商。支�?Telegram 即时客服�?Discord 社区。网站支持俄文和英文界面，提�?IPv6 检测工具和价格计算器等辅助功能。整体定位为高性价比的代理商店，在独联体和东欧市场拥有相当的用户基础�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-6">产品线与定价方案</h2>
         <div class="grid md:grid-cols-2 gap-4 text-sm mb-6">
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-3">IPv4 静态代理</h3>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-3">IPv4 静态代�?/h3>
             <div class="space-y-3">
               <div class="bg-slate-900/80 rounded-lg p-3 border border-slate-700/40">
                 <div class="flex justify-between items-center">
                   <span class="text-slate-200 font-medium">数据中心</span>
-                  <span class="text-emerald-400 font-bold">160 ₽</span>
+                  <span class="text-emerald-400 font-bold">160 �?/span>
                 </div>
-                <p class="text-slate-500 text-xs mt-1">美国机房 · 1Gbps · 附送 IPv6 · 静态 IP</p>
+                <p class="text-slate-500 text-xs mt-1">美国机房 · 1Gbps · 附�?IPv6 · 静�?IP</p>
               </div>
               <div class="bg-slate-900/80 rounded-lg p-3 border border-slate-700/40">
                 <div class="flex justify-between items-center">
                   <span class="text-slate-200 font-medium">ISP 住宅</span>
-                  <span class="text-emerald-400 font-bold">240 ₽</span>
+                  <span class="text-emerald-400 font-bold">240 �?/span>
                 </div>
-                <p class="text-slate-500 text-xs mt-1">美国住宅 IP · 高信任度 · 静态 IP</p>
+                <p class="text-slate-500 text-xs mt-1">美国住宅 IP · 高信任度 · 静�?IP</p>
               </div>
             </div>
           </div>
@@ -86,19 +83,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <div class="bg-slate-900/80 rounded-lg p-3 border border-slate-700/40">
                 <div class="flex justify-between items-center">
                   <span class="text-slate-200 font-medium">Windstream ISP</span>
-                  <span class="text-slate-400 text-xs">100线程起 1400 ₽/月</span>
+                  <span class="text-slate-400 text-xs">100线程�?1400 �?�?/span>
                 </div>
               </div>
               <div class="bg-slate-900/80 rounded-lg p-3 border border-slate-700/40">
                 <div class="flex justify-between items-center">
                   <span class="text-slate-200 font-medium">数据中心</span>
-                  <span class="text-slate-400 text-xs">100线程起 800 ₽/月</span>
+                  <span class="text-slate-400 text-xs">100线程�?800 �?�?/span>
                 </div>
               </div>
               <div class="bg-slate-900/80 rounded-lg p-3 border border-slate-700/40">
                 <div class="flex justify-between items-center">
                   <span class="text-slate-200 font-medium">SimpleDC</span>
-                  <span class="text-slate-400 text-xs">50线程起 500 ₽/月</span>
+                  <span class="text-slate-400 text-xs">50线程�?500 �?�?/span>
                 </div>
               </div>
             </div>
@@ -106,67 +103,67 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         </div>
         <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
           <h3 class="text-slate-200 font-semibold mb-2">IPv6 旋转代理线程价格示例</h3>
-          <p class="text-xs text-slate-500 mb-3">线程数越高，单线程均价越低</p>
+          <p class="text-xs text-slate-500 mb-3">线程数越高，单线程均价越�?/p>
           <div class="overflow-x-auto">
             <table class="w-full text-xs text-slate-300">
               <thead>
                 <tr class="border-b border-slate-700 text-slate-400">
                   <th class="text-left py-2 px-2">线程</th>
-                  <th class="text-right py-2 px-2">Windstream ISP 月</th>
-                  <th class="text-right py-2 px-2">DC 月</th>
-                  <th class="text-right py-2 px-2">SimpleDC 月</th>
+                  <th class="text-right py-2 px-2">Windstream ISP �?/th>
+                  <th class="text-right py-2 px-2">DC �?/th>
+                  <th class="text-right py-2 px-2">SimpleDC �?/th>
                 </tr>
               </thead>
               <tbody>
                 <tr class="border-b border-slate-800">
                   <td class="py-2 px-2">100</td>
-                  <td class="text-right py-2 px-2">1400 ₽</td>
-                  <td class="text-right py-2 px-2">800 ₽</td>
-                  <td class="text-right py-2 px-2">700 ₽</td>
+                  <td class="text-right py-2 px-2">1400 �?/td>
+                  <td class="text-right py-2 px-2">800 �?/td>
+                  <td class="text-right py-2 px-2">700 �?/td>
                 </tr>
                 <tr class="border-b border-slate-800">
                   <td class="py-2 px-2">500</td>
-                  <td class="text-right py-2 px-2">3400 ₽</td>
-                  <td class="text-right py-2 px-2">2000 ₽</td>
-                  <td class="text-right py-2 px-2">1600 ₽</td>
+                  <td class="text-right py-2 px-2">3400 �?/td>
+                  <td class="text-right py-2 px-2">2000 �?/td>
+                  <td class="text-right py-2 px-2">1600 �?/td>
                 </tr>
                 <tr class="border-b border-slate-800">
                   <td class="py-2 px-2">1000</td>
-                  <td class="text-right py-2 px-2">6400 ₽</td>
-                  <td class="text-right py-2 px-2">3900 ₽</td>
-                  <td class="text-right py-2 px-2">3000 ₽</td>
+                  <td class="text-right py-2 px-2">6400 �?/td>
+                  <td class="text-right py-2 px-2">3900 �?/td>
+                  <td class="text-right py-2 px-2">3000 �?/td>
                 </tr>
                 <tr>
                   <td class="py-2 px-2">10000</td>
-                  <td class="text-right py-2 px-2">53000 ₽</td>
-                  <td class="text-right py-2 px-2">31200 ₽</td>
-                  <td class="text-right py-2 px-2">25000 ₽</td>
+                  <td class="text-right py-2 px-2">53000 �?/td>
+                  <td class="text-right py-2 px-2">31200 �?/td>
+                  <td class="text-right py-2 px-2">25000 �?/td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p class="text-xs text-slate-500 mt-2">以上为月付价格，周付价格更低 · 网站提供价格计算器</p>
+          <p class="text-xs text-slate-500 mt-2">以上为月付价格，周付价格更低 · 网站提供价格计算�?/p>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">技术特性</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">技术特�?/h2>
         <div class="grid md:grid-cols-2 gap-6 text-sm">
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">IPv4 静态代理</h3>
-            <p class="text-slate-400 leading-relaxed">美国和欧洲机房部署。数据中心代理速度 1Gbps 起，低延迟。ISP 住宅代理使用真实运营商分配的 IP 地址，具备最高的网站信任等级。支持 HTTP/SOCKS5。静态 IP 长期有效，适合需要固定出口地址的业务。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">IPv4 静态代�?/h3>
+            <p class="text-slate-400 leading-relaxed">美国和欧洲机房部署。数据中心代理速度 1Gbps 起，低延迟。ISP 住宅代理使用真实运营商分配的 IP 地址，具备最高的网站信任等级。支�?HTTP/SOCKS5。静�?IP 长期有效，适合需要固定出口地址的业务�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">IPv6 旋转代理</h3>
-            <p class="text-slate-400 leading-relaxed">海量 IPv6 地址空间，覆盖 195 个国家 200+ 地点。轮换周期 1 秒至 24 小时自由设置。按线程数（并发连接数）计费，而非按流量或 IP 数量。支持 HTTP/SOCKS5 协议。适合大规模分布式数据采集。</p>
+            <p class="text-slate-400 leading-relaxed">海量 IPv6 地址空间，覆�?195 个国�?200+ 地点。轮换周�?1 秒至 24 小时自由设置。按线程数（并发连接数）计费，而非按流量或 IP 数量。支�?HTTP/SOCKS5 协议。适合大规模分布式数据采集�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">Windstream ISP 住宅 IPv6</h3>
-            <p class="text-slate-400 leading-relaxed">使用 Windstream 运营商分配的住宅级 IPv6 地址。高信任等级，更难被目标网站识别为代理。适合对 IP 质量要求极高的 SEO 监控、广告验证、电商数据采集等场景。</p>
+            <p class="text-slate-400 leading-relaxed">使用 Windstream 运营商分配的住宅�?IPv6 地址。高信任等级，更难被目标网站识别为代理。适合�?IP 质量要求极高�?SEO 监控、广告验证、电商数据采集等场景�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">自有基础设施</h3>
-            <p class="text-slate-400 leading-relaxed">自行运营服务器和 IP 资源，不依赖第三方中间商。可直接控制服务质量和可用性。支持 Telegram 即时客服（@dcproxy_support）和 Discord 社区交流。</p>
+            <p class="text-slate-400 leading-relaxed">自行运营服务器和 IP 资源，不依赖第三方中间商。可直接控制服务质量和可用性。支�?Telegram 即时客服（@dcproxy_support）和 Discord 社区交流�?/p>
           </div>
         </div>
       </section>
@@ -182,29 +179,29 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <span class="text-sm text-slate-200">Robokassa</span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
-            <span class="text-sm text-slate-200">银行卡 (₽)</span>
+            <span class="text-sm text-slate-200">银行�?(�?</span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <span class="text-sm text-slate-200">加密货币</span>
           </div>
         </div>
-        <p class="text-xs text-slate-500 mt-3">价格以俄罗斯卢布 (₽) 计价 · 如需批量请联系 Telegram 客服</p>
+        <p class="text-xs text-slate-500 mt-3">价格以俄罗斯卢布 (�? 计价 · 如需批量请联�?Telegram 客服</p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>线程计费模式独特，IPv6 性价比极高</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>IPv6 覆盖 195 国 200+ 地点，地址池海量</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>IPv4 DC 1Gbps 速度，ISP 住宅 IP 高信任度</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>价格低廉，IPv6 起 500 ₽/月（约 $5.5 USD）</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>自有基础设施，Telegram 即时客服</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支持轮换 1 秒到 24 小时，灵活可调</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>线程计费模式独特，IPv6 性价比极�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>IPv6 覆盖 195 �?200+ 地点，地址池海�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>IPv4 DC 1Gbps 速度，ISP 住宅 IP 高信任度</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>价格低廉，IPv6 �?500 �?月（�?$5.5 USD�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>自有基础设施，Telegram 即时客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>支持轮换 1 秒到 24 小时，灵活可�?/span></li>
             </ul>
           </div>
           <div>
@@ -212,12 +209,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IPv4 仅限美国地区，种类较少</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>以卢布计价，汇率波动影响实际成本</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>俄罗斯公司，部分用户对支付/合规有顾虑</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面，支持英语/俄语</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无公开的 Trustpilot 等第三方评分</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>网站为在线商店模式，非传统代理面板</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>IPv4 仅限美国地区，种类较�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>以卢布计价，汇率波动影响实际成本</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>俄罗斯公司，部分用户对支�?合规有顾�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面，支持英语/俄语</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无公开�?Trustpilot 等第三方评分</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>网站为在线商店模式，非传统代理面�?/span></li>
             </ul>
           </div>
         </div>
@@ -226,14 +223,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          DCProxy Shop 以其独特的"线程计费"模式和极具竞争力的价格在代理市场中占据了一席之地。对于需要大规模 IPv6 旋转代理的用户而言，DCProxy 提供了难以匹敌的性价比——最低 500 ₽/月（约人民币 40 元 / $5.5 USD）即可获得 50 线程的 SimpleDC 方案，覆盖 195 个国家 200 多个地点的 IPv6 地址池，轮换间隔可调至 1 秒。这种模式尤其适合大规模数据采集、地理分布式 SEO 监控和多账号管理等场景。
-        </p>
+          DCProxy Shop 以其独特�?线程计费"模式和极具竞争力的价格在代理市场中占据了一席之地。对于需要大规模 IPv6 旋转代理的用户而言，DCProxy 提供了难以匹敌的性价比——最�?500 �?月（约人民币 40 �?/ $5.5 USD）即可获�?50 线程�?SimpleDC 方案，覆�?195 个国�?200 多个地点�?IPv6 地址池，轮换间隔可调�?1 秒。这种模式尤其适合大规模数据采集、地理分布式 SEO 监控和多账号管理等场景�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          IPv4 产品线虽不及 IPv6 丰富，但数据中心代理（1Gbps，160 ₽）和 ISP 住宅代理（240 ₽）定价同样亲民，为需要美国静态 IP 的用户提供了经济实惠的选择。自有基础设施的运营模式减少了对第三方供应商的依赖，在服务可控性方面具有一定优势。Telegram 即时客服响应迅速。
-        </p>
+          IPv4 产品线虽不及 IPv6 丰富，但数据中心代理�?Gbps�?60 ₽）�?ISP 住宅代理�?40 ₽）定价同样亲民，为需要美国静�?IP 的用户提供了经济实惠的选择。自有基础设施的运营模式减少了对第三方供应商的依赖，在服务可控性方面具有一定优势。Telegram 即时客服响应迅速�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于 IPv4 仅限于美国地区、以卢布计价的汇率波动风险、以及俄罗斯公司背景可能带来的支付和合规考量。综合评估，DCProxy Shop 获得 7.3 分评价。特别推荐给需要海量 IPv6 旋转代理的用户、预算有限但需高并发的大规模数据采集团队、关注线程计费而非流量计费的成本敏感型用户，以及对俄罗斯/独联体地区代理有需求的用户。
-        </p>
+          主要局限在�?IPv4 仅限于美国地区、以卢布计价的汇率波动风险、以及俄罗斯公司背景可能带来的支付和合规考量。综合评估，DCProxy Shop 获得 7.3 分评价。特别推荐给需要海�?IPv6 旋转代理的用户、预算有限但需高并发的大规模数据采集团队、关注线程计费而非流量计费的成本敏感型用户，以及对俄罗�?独联体地区代理有需求的用户�?        </p>
       </section>
 
       <div class="text-center">

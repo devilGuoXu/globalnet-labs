@@ -3,10 +3,10 @@ import Layout from '../../layouts/Layout.astro';
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 ---
 
-<Layout title="ProxySentinel 代理管理器深度评测 - GlobalNet Labs">
+<Layout title="ProxySentinel 代理管理器深度评�?- GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -19,7 +19,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           <div class="flex items-center gap-3 flex-wrap">
             <h1 class="text-3xl font-bold text-slate-100">ProxySentinel 评测</h1>
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
-            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">代理管理器</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">代理管理�?/span>
           </div>
           <p class="text-slate-400 mt-1">自管代理管理器——自带代理，节省成本，企业级故障转移</p>
         </div>
@@ -30,19 +30,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="grid md:grid-cols-2 gap-4 text-sm">
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">产品类型</span>
-            <p class="text-slate-200 font-medium mt-1">自管代理管理器（Self-Managed Proxy Manager）</p>
+            <p class="text-slate-200 font-medium mt-1">自管代理管理器（Self-Managed Proxy Manager�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">定价模式</span>
-            <p class="text-slate-200 font-medium mt-1">Starter $19/月 · Pro $49/月 · 7天免费试用</p>
+            <p class="text-slate-200 font-medium mt-1">Starter $19/�?· Pro $49/�?· 7天免费试�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">核心功能</span>
-            <p class="text-slate-200 font-medium mt-1">自带代理（BYOP）· 企业级故障转移 · 运行监控</p>
+            <p class="text-slate-200 font-medium mt-1">自带代理（BYOP）�?企业级故障转�?· 运行监控</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">试用政策</span>
-            <p class="text-slate-200 font-medium mt-1">7 天免费试用 · 无需信用卡 · 含预加载代理</p>
+            <p class="text-slate-200 font-medium mt-1">7 天免费试�?· 无需信用�?· 含预加载代理</p>
           </div>
         </div>
       </section>
@@ -50,14 +50,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-6">产品概述</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxySentinel 是一个面向开发者的自管代理管理器（Self-Managed Proxy Manager），由 Kieran Gookey 创建。与传统的代理服务商不同，ProxySentinel 并不提供代理 IP 资源，而是让你"自带代理"（Bring Your Own Proxies，简称 BYOP），通过其平台统一管理、监控和自动故障转移。
-        </p>
+          ProxySentinel 是一个面向开发者的自管代理管理器（Self-Managed Proxy Manager），�?Kieran Gookey 创建。与传统的代理服务商不同，ProxySentinel 并不提供代理 IP 资源，而是让你"自带代理"（Bring Your Own Proxies，简�?BYOP），通过其平台统一管理、监控和自动故障转移�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          这种模式的核心理念是：你已经有代理资源（或者可以从便宜的代理商购买），但缺乏一套好用的管理工具来轮换、监控和保证高可用性。ProxySentinel 填补了这个空白——它类似于 Bright Data 的 Proxy Manager 或 Scrapoxy，但更加轻量、定价透明，且无需按流量付费。
-        </p>
+          这种模式的核心理念是：你已经有代理资源（或者可以从便宜的代理商购买），但缺乏一套好用的管理工具来轮换、监控和保证高可用性。ProxySentinel 填补了这个空白——它类似�?Bright Data �?Proxy Manager �?Scrapoxy，但更加轻量、定价透明，且无需按流量付费�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          ProxySentinel 创始人本人拥有大规模爬虫架构经验（曾管理 400 万+ 日请求量），产品设计紧贴开发者的实际痛点。上线初期限量邀请模式保证了每位用户都能获得一对一的架构咨询，这对于需要定制化爬虫基础设施的团队尤为重要。
-        </p>
+          ProxySentinel 创始人本人拥有大规模爬虫架构经验（曾管理 400 �? 日请求量），产品设计紧贴开发者的实际痛点。上线初期限量邀请模式保证了每位用户都能获得一对一的架构咨询，这对于需要定制化爬虫基础设施的团队尤为重要�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
@@ -66,23 +63,23 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="grid md:grid-cols-2 gap-4">
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50">
             <h3 class="text-lg font-bold text-slate-100 mb-1">Starter</h3>
-            <p class="text-2xl font-bold text-emerald-400 mb-3">$19<span class="text-sm text-slate-400 font-normal">/月</span></p>
+            <p class="text-2xl font-bold text-emerald-400 mb-3">$19<span class="text-sm text-slate-400 font-normal">/�?/span></p>
             <ul class="space-y-2">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>200 并发连接</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>500 GB 月带宽</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>不限管理代理数</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>邮件支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>200 并发连接</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>500 GB 月带�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>不限管理代理�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>邮件支持</span></li>
             </ul>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-6 border border-emerald-500/30 ring-1 ring-emerald-500/20">
-            <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30 mb-3 inline-block">最受欢迎</span>
+            <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30 mb-3 inline-block">最受欢�?/span>
             <h3 class="text-lg font-bold text-slate-100 mb-1">Pro</h3>
-            <p class="text-2xl font-bold text-emerald-400 mb-3">$49<span class="text-sm text-slate-400 font-normal">/月</span></p>
+            <p class="text-2xl font-bold text-emerald-400 mb-3">$49<span class="text-sm text-slate-400 font-normal">/�?/span></p>
             <ul class="space-y-2">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>500 并发连接</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>2 TB 月带宽</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>不限管理代理数</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>优先邮件支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>500 并发连接</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>2 TB 月带�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>不限管理代理�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>优先邮件支持</span></li>
             </ul>
           </div>
         </div>
@@ -92,16 +89,16 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <h2 class="text-xl font-bold text-slate-100 mb-6">核心功能</h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">自带代理（BYOP）模式</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">ProxySentinel 的核心差异化在于 BYOP 模式。你只需将已有代理（如数据中心代理、住宅代理）接入平台，即可获得企业级的管理能力。这意味着你不必为代理本身付费，只需为管理功能付费——大幅降低长期运营成本。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">自带代理（BYOP）模�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxySentinel 的核心差异化在于 BYOP 模式。你只需将已有代理（如数据中心代理、住宅代理）接入平台，即可获得企业级的管理能力。这意味着你不必为代理本身付费，只需为管理功能付费——大幅降低长期运营成本�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">企业级故障转移与监控</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">平台内置健康检查和自动故障转移机制。当某个代理不可用时，流量会自动切换至可用代理，确保爬虫管道不中断。运行监控仪表盘提供实时的代理状态、带宽使用和响应时间可视化管理。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">平台内置健康检查和自动故障转移机制。当某个代理不可用时，流量会自动切换至可用代理，确保爬虫管道不中断。运行监控仪表盘提供实时的代理状态、带宽使用和响应时间可视化管理�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">代理轮换与高可用</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">支持灵活的代理轮换策略，可根据请求量、地理目标或特定规则自动分配代理。无限并发连接（依套餐）和无限管理代理数让你可以随心扩充代理池规模，而不必担心平台本身的限制。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">支持灵活的代理轮换策略，可根据请求量、地理目标或特定规则自动分配代理。无限并发连接（依套餐）和无限管理代理数让你可以随心扩充代理池规模，而不必担心平台本身的限制�?/p>
           </div>
         </div>
       </section>
@@ -116,7 +113,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡</span>
+            <span class="text-sm text-slate-200">信用�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
@@ -127,19 +124,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>BYOP 模式大幅降低代理管理成本</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>企业级故障转移和运行监控</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>7 天免费试用，含预加载代理，无需信用卡</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>不限管理代理数，按并发和带宽计费</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>创始人有大规模爬虫实战经验，产品贴合开发者需求</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>定价透明，无按 GB 流量计费的隐藏成本</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>BYOP 模式大幅降低代理管理成本</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>企业级故障转移和运行监控</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>7 天免费试用，含预加载代理，无需信用�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>不限管理代理数，按并发和带宽计费</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>创始人有大规模爬虫实战经验，产品贴合开发者需�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>定价透明，无�?GB 流量计费的隐藏成�?/span></li>
             </ul>
           </div>
           <div>
@@ -147,11 +144,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>自身不提供代理 IP，需自行购买代理资源</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>产品上线时间较短，品牌知名度和用户评价有限</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>功能相比 Bright Data Proxy Manager 等成熟产品较少</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅适合有一定技术能力的开发团队</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>自身不提供代�?IP，需自行购买代理资源</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>产品上线时间较短，品牌知名度和用户评价有�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面和中文客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>功能相比 Bright Data Proxy Manager 等成熟产品较�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>仅适合有一定技术能力的开发团�?/span></li>
             </ul>
           </div>
         </div>
@@ -160,14 +157,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxySentinel 是一个定位精准的代理管理器工具，专为已经拥有代理资源或计划从低成本代理供应商采购的开发者设计。BYOP（自带代理）模式是其最大的差异化优势——你只需为管理平台付费，无需为代理本身的流量溢价买单。
-        </p>
+          ProxySentinel 是一个定位精准的代理管理器工具，专为已经拥有代理资源或计划从低成本代理供应商采购的开发者设计。BYOP（自带代理）模式是其最大的差异化优势——你只需为管理平台付费，无需为代理本身的流量溢价买单�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          $19/月的入门价格远低于 Bright Data Proxy Manager 等竞品的企业级价格，且无需按流量计费，对中小数据采集团队极具吸引力。企业级故障转移、健康监控和无限管理代理数等功能使其在大规模爬虫场景中具备实用价值。创始人的实战背景也使得产品设计更贴近实际开发需求。
-        </p>
+          $19/月的入门价格远低�?Bright Data Proxy Manager 等竞品的企业级价格，且无需按流量计费，对中小数据采集团队极具吸引力。企业级故障转移、健康监控和无限管理代理数等功能使其在大规模爬虫场景中具备实用价值。创始人的实战背景也使得产品设计更贴近实际开发需求�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于自身不提供代理资源（需要用户自己解决代理来源）、产品上线时间较短以及缺乏中文支持。综合评估，ProxySentinel 获得 7.3 分评价。特别推荐给已有代理资源的技术团队、需要替代 Bright Data Proxy Manager 低成本方案的数据采集团队、以及希望统一管理多供应商代理池的开发者。
-        </p>
+          主要局限在于自身不提供代理资源（需要用户自己解决代理来源）、产品上线时间较短以及缺乏中文支持。综合评估，ProxySentinel 获得 7.3 分评价。特别推荐给已有代理资源的技术团队、需要替�?Bright Data Proxy Manager 低成本方案的数据采集团队、以及希望统一管理多供应商代理池的开发者�?        </p>
       </section>
 
       <div class="text-center">

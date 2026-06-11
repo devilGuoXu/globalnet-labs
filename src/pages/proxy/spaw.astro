@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="Spaw 代理深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -15,7 +15,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <img src={`${base}/images/spaw.png`} alt="Spaw" class="h-14 w-auto" />
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Spaw 深度评测</h1>
-          <p class="text-slate-400 text-lg">550 万+ 4G/LTE 移动代理，波兰/英国/拉脱维亚三地节点，无限流量无限线程，$49.99/月起</p>
+          <p class="text-slate-400 text-lg">550 �? 4G/LTE 移动代理，波�?英国/拉脱维亚三地节点，无限流量无限线程，$49.99/月起</p>
         </div>
       </div>
 
@@ -28,11 +28,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">8.0</div>
-            <div class="text-xs text-slate-500 mt-1">IP纯净度</div>
+            <div class="text-xs text-slate-500 mt-1">IP纯净�?/div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">6.0</div>
-            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富�?/div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.5</div>
@@ -48,42 +48,39 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Spaw 是一家专注于 3G/4G (LTE) 移动代理的欧洲代理服务商，提供波兰、英国和拉脱维亚三个节点的移动代理方案。平台拥有超过 550 万个移动 IP，所有代理均来自真实移动运营商网络，通过 4G/LTE 蜂窝网络提供互联网接入。
-        </p>
+          Spaw 是一家专注于 3G/4G (LTE) 移动代理的欧洲代理服务商，提供波兰、英国和拉脱维亚三个节点的移动代理方案。平台拥有超�?550 万个移动 IP，所有代理均来自真实移动运营商网络，通过 4G/LTE 蜂窝网络提供互联网接入�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Spaw 的核心卖点在于"无限"——无限流量、无限线程、无限 IP 变更次数。每个设备均为独享私用，无需与其他用户共享带宽。平台提供 API 接口支持自定义 IP 轮换时间，即时激活，下单后即可使用。Trustpilot 上获得 5/5 星满分评价。
-        </p>
+          Spaw 的核心卖点在�?无限"——无限流量、无限线程、无�?IP 变更次数。每个设备均为独享私用，无需与其他用户共享带宽。平台提�?API 接口支持自定�?IP 轮换时间，即时激活，下单后即可使用。Trustpilot 上获�?5/5 星满分评价�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          作为一家新兴服务商，Spaw 的用户设施使用率较低，因此速度表现优于众多老牌移动代理服务。所有代理均经过多重性能指标测试，确保高成功率。Scamalytics 欺诈评分仅 0-10，属于极低欺诈风险等级。
-        </p>
+          作为一家新兴服务商，Spaw 的用户设施使用率较低，因此速度表现优于众多老牌移动代理服务。所有代理均经过多重性能指标测试，确保高成功率。Scamalytics 欺诈评分�?0-10，属于极低欺诈风险等级�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详�?/h2>
         <div class="space-y-6">
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">无限流量 + 无限线程</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">Spaw 所有方案均包含无限流量和无限并发线程。这在移动代理服务商中较为少见，大多数竞品（如 CarrierProxy、Proxy-Cheap 等）都会对流量或线程数设限。无限策略对需要大量并发数据传输的用户（大规模数据采集、自动化操作等）非常友好。</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Spaw 所有方案均包含无限流量和无限并发线程。这在移动代理服务商中较为少见，大多数竞品（�?CarrierProxy、Proxy-Cheap 等）都会对流量或线程数设限。无限策略对需要大量并发数据传输的用户（大规模数据采集、自动化操作等）非常友好�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">极低欺诈评分（0-10）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">Spaw 在 Scamalytics 平台的欺诈评分仅为 0-10，属于极低风险等级。真实 4G/LTE 移动 IP 相比数据中心 IP 具有天然信任优势，不易被目标网站标记为代理流量。这在需要访问风控严格的平台时优势明显。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">极低欺诈评分�?-10�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Spaw �?Scamalytics 平台的欺诈评分仅�?0-10，属于极低风险等级。真�?4G/LTE 移动 IP 相比数据中心 IP 具有天然信任优势，不易被目标网站标记为代理流量。这在需要访问风控严格的平台时优势明显�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">99.9% 可用率 + 35Mbps 速度</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">Spaw 承诺 99.9% 的正常运行时间。用户实测速度约 35Mbps，符合 4G/LTE 网络的典型水平。作为新服务商，用户设施使用率低，实际速度表现优于高峰期拥堵的老牌服务商。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">99.9% 可用�?+ 35Mbps 速度</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Spaw 承诺 99.9% 的正常运行时间。用户实测速度�?35Mbps，符�?4G/LTE 网络的典型水平。作为新服务商，用户设施使用率低，实际速度表现优于高峰期拥堵的老牌服务商�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">API 接口 + 自定义轮换</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">Spaw 提供 RESTful API 接口，支持通过 JSON 格式的 API 请求管理代理。可自定义 IP 轮换时间间隔，或通过 API 手动触发轮换。API 响应速度快，集成简单，开发者友好。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">API 接口 + 自定义轮�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Spaw 提供 RESTful API 接口，支持通过 JSON 格式�?API 请求管理代理。可自定�?IP 轮换时间间隔，或通过 API 手动触发轮换。API 响应速度快，集成简单，开发者友好�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">即时激活 + 独享设备</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">支付完成后代理即时激活，无需等待人工审核。每个方案对应一台独享移动设备（SIM 卡 + 4G 路由器），无需与其他用户共享。独享模式确保带宽和 IP 资源完全由用户掌控。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">即时激�?+ 独享设备</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">支付完成后代理即时激活，无需等待人工审核。每个方案对应一台独享移动设备（SIM �?+ 4G 路由器），无需与其他用户共享。独享模式确保带宽和 IP 资源完全由用户掌控�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">信任度与合规性</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">所有 IP 均为 100% 道德采购（ethically-sourced），隐私保护方面仅使用用户数据用于订单处理和提供服务改进。Trustpilot 上获得 5/5 星满分，用户评价普遍称赞速度、稳定性和客户支持。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">信任度与合规�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">所�?IP 均为 100% 道德采购（ethically-sourced），隐私保护方面仅使用用户数据用于订单处理和提供服务改进。Trustpilot 上获�?5/5 星满分，用户评价普遍称赞速度、稳定性和客户支持�?/p>
           </div>
         </div>
       </section>
@@ -92,42 +89,42 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 评论监控与舆情分析</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">移动 IP 的高匿名性非常适合持续监控亚马逊、Google Reviews、Trustpilot 等平台的用户评价。无限流量方案可全天候不间断抓取，无需担心流量上限。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 评论监控与舆情分�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">移动 IP 的高匿名性非常适合持续监控亚马逊、Google Reviews、Trustpilot 等平台的用户评价。无限流量方案可全天候不间断抓取，无需担心流量上限�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 广告验证与链接监控</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">定期检查广告展示页和推广链接的有效性，确保广告未被删除或篡改。移动 IP 模拟真实移动用户访问，比桌面端代理更接近普通用户行为。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 广告验证与链接监�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">定期检查广告展示页和推广链接的有效性，确保广告未被删除或篡改。移�?IP 模拟真实移动用户访问，比桌面端代理更接近普通用户行为�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 跨区域价格监测</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">波兰、英国、拉脱维亚三个欧洲节点的移动 IP，可获取当地精确的电商价格信息。适合需要监测欧洲多国市场价格变动的跨境电商团队。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 跨区域价格监�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">波兰、英国、拉脱维亚三个欧洲节点的移动 IP，可获取当地精确的电商价格信息。适合需要监测欧洲多国市场价格变动的跨境电商团队�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 社交媒体运营</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">移动 IP 在社媒平台信任度最高，适合 TikTok、Instagram 等以移动端为主的社交平台运营。无限线程支持同时管理大量账号。</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">移动 IP 在社媒平台信任度最高，适合 TikTok、Instagram 等以移动端为主的社交平台运营。无限线程支持同时管理大量账号�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. SEO 监测与搜索引擎运营</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">获取特定区域的 Google 搜索结果，适合欧洲市场的 SEO 监测需求。移动 IP 可以获取移动端搜索结果的准确排名数据。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. SEO 监测与搜索引擎运�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">获取特定区域�?Google 搜索结果，适合欧洲市场�?SEO 监测需求。移�?IP 可以获取移动端搜索结果的准确排名数据�?/p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限流量 + 无限线程，无任何使用限制</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Scamalytics 欺诈评分 0-10，极低风控风险</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>独享设备，无需共享带宽</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>波兰节点 $49.99/月，欧洲移动代理中性价比高</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>即时激活，API 接口完善</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Trustpilot 满分 5/5，用户口碑优秀</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>无限流量 + 无限线程，无任何使用限制</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>Scamalytics 欺诈评分 0-10，极低风控风�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>独享设备，无需共享带宽</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>波兰节点 $49.99/月，欧洲移动代理中性价比高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>即时激活，API 接口完善</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>Trustpilot 满分 5/5，用户口碑优秀</span></li>
             </ul>
           </div>
           <div>
@@ -135,12 +132,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅 3 个节点（波兰/英国/拉脱维亚），覆盖有限</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅移动代理，无住宅/数据中心/ISP 产品线</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>英国节点 $119.99/月，价格偏高</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面，仅英文</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>新兴服务商，品牌知名度低</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不含亚洲/美洲等非欧洲区域节点</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>�?3 个节点（波兰/英国/拉脱维亚），覆盖有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>仅移动代理，无住�?数据中心/ISP 产品�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>英国节点 $119.99/月，价格偏高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面，仅英�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>新兴服务商，品牌知名度低</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>不含亚洲/美洲等非欧洲区域节点</span></li>
             </ul>
           </div>
         </div>
@@ -159,14 +156,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Spaw 是一家小而精的欧洲移动代理服务商。550 万+ 移动 IP 虽然规模不算庞大，但胜在纯净度高——Scamalytics 欺诈评分 0-10 在同级产品中表现突出。无限流量和无限线程的策略在实际使用中的灵活性和自由度远超按量计费的竞品。
-        </p>
+          Spaw 是一家小而精的欧洲移动代理服务商�?50 �? 移动 IP 虽然规模不算庞大，但胜在纯净度高——Scamalytics 欺诈评分 0-10 在同级产品中表现突出。无限流量和无限线程的策略在实际使用中的灵活性和自由度远超按量计费的竞品�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          $49.99/月的波兰节点方案在欧洲移动代理市场中价格具有竞争力，无限策略让用户无需担心流量成本。即时激活和 API 接口的完善程度也体现了其对开发者用户的友好态度。Trustpilot 满分评价和用户对速度的称赞说明其实际体验符合宣传。
-        </p>
+          $49.99/月的波兰节点方案在欧洲移动代理市场中价格具有竞争力，无限策略让用户无需担心流量成本。即时激活和 API 接口的完善程度也体现了其对开发者用户的友好态度。Trustpilot 满分评价和用户对速度的称赞说明其实际体验符合宣传�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          但仅三个欧洲节点的覆盖范围明显限制了其应用场景——如果用户需要亚洲、美洲或更广泛的欧洲区域覆盖，Spaw 可能无法满足。综合评估 IP 质量、价格策略和功能完整性，Spaw 获得 7.3 分评价。特别推荐给以欧洲市场为目标、需要纯净移动 IP 进行社媒运营、评论监控和价格监测的用户。
-        </p>
+          但仅三个欧洲节点的覆盖范围明显限制了其应用场景——如果用户需要亚洲、美洲或更广泛的欧洲区域覆盖，Spaw 可能无法满足。综合评�?IP 质量、价格策略和功能完整性，Spaw 获得 7.3 分评价。特别推荐给以欧洲市场为目标、需要纯净移动 IP 进行社媒运营、评论监控和价格监测的用户�?        </p>
       </section>
 
       <div class="text-center">

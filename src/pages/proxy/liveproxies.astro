@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="Live Proxies 代理深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -15,7 +15,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <img src={`${base}/images/liveproxies.png`} alt="Live Proxies" class="h-14 w-auto" />
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Live Proxies 深度评测</h1>
-          <p class="text-slate-400 text-lg">独享住宅/移动代理，轮换 & 静态双模式，无限并发线程，1000 万+ IP 池，$45/月起</p>
+          <p class="text-slate-400 text-lg">独享住宅/移动代理，轮�?& 静态双模式，无限并发线程，1000 �? IP 池，$45/月起</p>
         </div>
       </div>
 
@@ -28,11 +28,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.5</div>
-            <div class="text-xs text-slate-500 mt-1">IP纯净度</div>
+            <div class="text-xs text-slate-500 mt-1">IP纯净�?/div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.0</div>
-            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富�?/div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.5</div>
@@ -48,14 +48,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Live Proxies 是一家总部位于美国加州 Studio City 的代理服务商，为个人用户（B2C）和企业客户（B2B）提供住宅和移动代理解决方案。平台拥有超过 1000 万个 IP，覆盖 50+ 国家，被 Forbes、USA Today、TechRadar 等知名媒体推荐报道。
-        </p>
+          Live Proxies 是一家总部位于美国加州 Studio City 的代理服务商，为个人用户（B2C）和企业客户（B2B）提供住宅和移动代理解决方案。平台拥有超�?1000 万个 IP，覆�?50+ 国家，被 Forbes、USA Today、TechRadar 等知名媒体推荐报道�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Live Proxies 的核心差异化在于"独享 IP"策略——每个用户的 IP 是私有的，不与公共池共享，确保 IP 始终处于未封禁状态。产品线涵盖轮换住宅代理、静态住宅代理和轮换移动代理三大类，支持计量（Metered）和不计量（Unmetered）两种计费模式。B2B 企业方案提供 10M+ IP 池、API 接入和城市/州/国家/ASN 级定位。
-        </p>
+          Live Proxies 的核心差异化在于"独享 IP"策略——每个用户的 IP 是私有的，不与公共池共享，确�?IP 始终处于未封禁状态。产品线涵盖轮换住宅代理、静态住宅代理和轮换移动代理三大类，支持计量（Metered）和不计量（Unmetered）两种计费模式。B2B 企业方案提供 10M+ IP 池、API 接入和城�?�?国家/ASN 级定位�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          平台在 Trustpilot、G2 和 ProxyWay 上均获得 4.5/5 星评价，拥有 10,000+ 活跃用户。24/7 客户支持团队由来自不同国家和时区的 7 名成员组成，通过 Discord 和帮助中心提供服务。
-        </p>
+          平台�?Trustpilot、G2 �?ProxyWay 上均获得 4.5/5 星评价，拥有 10,000+ 活跃用户�?4/7 客户支持团队由来自不同国家和时区�?7 名成员组成，通过 Discord 和帮助中心提供服务�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
@@ -64,25 +61,25 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50">
             <div class="text-lg font-bold text-slate-100 mb-1">轮换住宅代理</div>
             <div class="text-2xl font-bold text-emerald-400 mb-4">$45<small class="text-sm text-slate-500 font-normal">/月起</small></div>
-            <p class="text-sm text-slate-400 mb-4">适合数据抓取、广告验证等需要频繁更换 IP 的场景</p>
+            <p class="text-sm text-slate-400 mb-4">适合数据抓取、广告验证等需要频繁更�?IP 的场�?/p>
             <ul class="space-y-2 text-sm text-slate-300">
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>轮换 & 粘性会话</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>计量/不计量可选</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>美国州级定位</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>即时交付</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>无限并发线程</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>轮换 & 粘性会�?/li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>计量/不计量可�?/li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>美国州级定位</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>即时交付</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>无限并发线程</li>
             </ul>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50">
-            <div class="text-lg font-bold text-slate-100 mb-1">静态住宅代理</div>
+            <div class="text-lg font-bold text-slate-100 mb-1">静态住宅代�?/div>
             <div class="text-2xl font-bold text-emerald-400 mb-4">$65<small class="text-sm text-slate-500 font-normal">/月起</small></div>
-            <p class="text-sm text-slate-400 mb-4">固定住宅 IP，30 天以上持续使用，适合账号运营</p>
+            <p class="text-sm text-slate-400 mb-4">固定住宅 IP�?0 天以上持续使用，适合账号运营</p>
             <ul class="space-y-2 text-sm text-slate-300">
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>固定 IP 30 天+</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>计量/不计量可选</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>美国州级定位</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>带宽滚存</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>无限并发线程</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>固定 IP 30 �?</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>计量/不计量可�?/li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>美国州级定位</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>带宽滚存</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>无限并发线程</li>
             </ul>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50">
@@ -90,46 +87,46 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <div class="text-2xl font-bold text-emerald-400 mb-4">$55<small class="text-sm text-slate-500 font-normal">/月起</small></div>
             <p class="text-sm text-slate-400 mb-4">真实移动网络 IP，高信任度，适合社媒运营</p>
             <ul class="space-y-2 text-sm text-slate-300">
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>移动网络轮换</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>计量模式</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>HTTP 协议</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>即时交付</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>无限并发线程</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>移动网络轮换</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>计量模式</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>HTTP 协议</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>即时交付</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>无限并发线程</li>
             </ul>
           </div>
         </div>
         <div class="mt-6 bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
           <h3 class="text-emerald-400 font-semibold mb-2">B2B 企业方案</h3>
-          <p class="text-sm text-slate-400">1000 万+ IP 池，$2K/月起，支持 HTTP & SOCKS5，城市/州/国家/ASN 级定位，API 集成，免费试用。适合大规模数据采集和企业级应用。</p>
+          <p class="text-sm text-slate-400">1000 �? IP 池，$2K/月起，支�?HTTP & SOCKS5，城�?�?国家/ASN 级定位，API 集成，免费试用。适合大规模数据采集和企业级应用�?/p>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详�?/h2>
         <div class="space-y-6">
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">100% 独享 IP，不共享公共池</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">Live Proxies 最大的差异化卖点——每个用户的 IP 是私有的，不与公共 IP 池共享。这意味着 IP 不会被其他用户滥用导致封禁，始终在所有网站上保持未封禁状态。对于需要长期稳定 IP 的用户来说，独享模式的价值远高于共享池方案。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">100% 独享 IP，不共享公共�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Live Proxies 最大的差异化卖点——每个用户的 IP 是私有的，不与公�?IP 池共享。这意味着 IP 不会被其他用户滥用导致封禁，始终在所有网站上保持未封禁状态。对于需要长期稳�?IP 的用户来说，独享模式的价值远高于共享池方案�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">无限并发线程</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">所有方案均无并发连接限制。这对于需要同时运行大量自动化任务的用户（如批量数据抓取、多账号自动化操作）非常友好。对比按线程数收费的竞品，Live Proxies 的无限策略更具灵活性。</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">所有方案均无并发连接限制。这对于需要同时运行大量自动化任务的用户（如批量数据抓取、多账号自动化操作）非常友好。对比按线程数收费的竞品，Live Proxies 的无限策略更具灵活性�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态住宅代理（30 天+ 固定 IP）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">$65/月起即可获得固定住宅 IP，保持 30 天或更长时间不变。这对需要长期稳定身份的多账号运营（社媒、电商等）是重要的功能。大多数住宅代理服务商只提供轮换模式，Live Proxies 的静态住宅方案是一个差异化亮点。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态住宅代理（30 �? 固定 IP�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">$65/月起即可获得固定住宅 IP，保�?30 天或更长时间不变。这对需要长期稳定身份的多账号运营（社媒、电商等）是重要的功能。大多数住宅代理服务商只提供轮换模式，Live Proxies 的静态住宅方案是一个差异化亮点�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">双计费模式：计量 & 不计量</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅代理产品提供 Metered（按量计费）和 Unmetered（不限量）两种模式，让用户根据实际需求灵活选择。未使用完的流量可滚存到下一周期（Bandwidth Rollover）。这种灵活性在同级服务中较为少见。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">双计费模式：计量 & 不计�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅代理产品提供 Metered（按量计费）�?Unmetered（不限量）两种模式，让用户根据实际需求灵活选择。未使用完的流量可滚存到下一周期（Bandwidth Rollover）。这种灵活性在同级服务中较为少见�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">生态集成丰富</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">与主流指纹浏览器（GoLogin、AdsPower、MultiLogin）、自动化工具（Selenium、Puppeteer）和代理管理软件（Proxifier）等深度集成。支持 IP 白名单认证，方便快速接入。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">生态集成丰�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">与主流指纹浏览器（GoLogin、AdsPower、MultiLogin）、自动化工具（Selenium、Puppeteer）和代理管理软件（Proxifier）等深度集成。支�?IP 白名单认证，方便快速接入�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">行业认可与客户支持</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">被 Forbes、USA Today、TechRadar、Hubspot 等权威媒体推荐。Trustpilot、G2、ProxyWay 三平台均获 4.5/5 星。24/7 多时区客服团队通过 Discord 和帮助中心提供支持，响应速度快。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">行业认可与客户支�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">�?Forbes、USA Today、TechRadar、Hubspot 等权威媒体推荐。Trustpilot、G2、ProxyWay 三平台均�?4.5/5 星�?4/7 多时区客服团队通过 Discord 和帮助中心提供支持，响应速度快�?/p>
           </div>
         </div>
       </section>
@@ -138,24 +135,24 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 电商数据采集（Amazon、eBay、Shopify）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">Live Proxies 针对 Amazon、eBay、Shopify 等电商平台提供专门的代理方案。独享 IP 确保 IP 不被其他用户污染，在风控严格的电商网站上拥有更高的通过率。无限并发线程支持大规模商品监控和价格追踪。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 电商数据采集（Amazon、eBay、Shopify�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Live Proxies 针对 Amazon、eBay、Shopify 等电商平台提供专门的代理方案。独�?IP 确保 IP 不被其他用户污染，在风控严格的电商网站上拥有更高的通过率。无限并发线程支持大规模商品监控和价格追踪�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. SEO/SERP 监测</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">美国州级定位可获取精确的本地化搜索结果。独享住宅 IP 在 Google 等搜索引擎上的信任度高，不易触发验证码。适合 SEO 团队进行关键词排名追踪和竞品分析。</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">美国州级定位可获取精确的本地化搜索结果。独享住�?IP �?Google 等搜索引擎上的信任度高，不易触发验证码。适合 SEO 团队进行关键词排名追踪和竞品分析�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 社媒多账号管理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">静态住宅代理提供 30 天+ 固定 IP，配合 GoLogin、AdsPower 等指纹浏览器，是社媒多账号运营的理想组合。无限并发线程支持同时管理大量账号。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 社媒多账号管�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">静态住宅代理提�?30 �? 固定 IP，配�?GoLogin、AdsPower 等指纹浏览器，是社媒多账号运营的理想组合。无限并发线程支持同时管理大量账号�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. Sneakers 球鞋抢购</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">Live Proxies 提供专门的 Sneaker Proxies 方案。独享 IP 确保在 Nike、Supreme 等热门球鞋网站上的抢购成功率。无限并发线程支持多账号同时抢购。</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Live Proxies 提供专门�?Sneaker Proxies 方案。独�?IP 确保�?Nike、Supreme 等热门球鞋网站上的抢购成功率。无限并发线程支持多账号同时抢购�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 品牌保护与广告验证</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">轮换住宅代理可模拟真实用户行为，用于监控品牌网络舆情和验证广告投放效果。50+ 国家覆盖支持全球范围的品牌保护监测。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 品牌保护与广告验�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">轮换住宅代理可模拟真实用户行为，用于监控品牌网络舆情和验证广告投放效果�?0+ 国家覆盖支持全球范围的品牌保护监测�?/p>
           </div>
         </div>
       </section>
@@ -166,19 +163,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>100% 独享 IP，不共享公共池</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限并发线程，无任何限制</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>静态住宅代理 30 天+ 固定 IP</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>计量/不计量双模式 + 带宽滚存</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Forbes/TechRadar 等权威媒体报道</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>24/7 多时区客服，Discord 社区活跃</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>100% 独享 IP，不共享公共�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>无限并发线程，无任何限制</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>静态住宅代�?30 �? 固定 IP</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>计量/不计量双模式 + 带宽滚存</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>Forbes/TechRadar 等权威媒体报�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>24/7 多时区客服，Discord 社区活跃</span></li>
             </ul>
           </div>
           <div>
@@ -186,12 +183,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 池 1000 万，低于头部厂商的亿级规模</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅 HTTP 协议，不支持 SOCKS5（B2B 除外）</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动代理仅支持计量模式</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持支付宝/微信等中国支付方式</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面，仅英文</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>静态代理仅支持美国州级定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>IP �?1000 万，低于头部厂商的亿级规�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>�?HTTP 协议，不支持 SOCKS5（B2B 除外�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>移动代理仅支持计量模�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>不支持支付宝/微信等中国支付方�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面，仅英�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>静态代理仅支持美国州级定位</span></li>
             </ul>
           </div>
         </div>
@@ -207,7 +204,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡/借记卡</span>
+            <span class="text-sm text-slate-200">信用�?借记�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-slate-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
@@ -227,14 +224,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Live Proxies 是一家以"独享 IP"为核心卖点的代理服务商。100% 私有的 IP 分配策略从根本上避免了共享池模式中的 IP 污染和封禁问题，对于需要长期稳定代理的用户具有独特价值。住宅、静态住宅和移动代理三大产品线覆盖了主流使用场景，计量和不计量双模式让用户有更多选择空间。
-        </p>
+          Live Proxies 是一家以"独享 IP"为核心卖点的代理服务商�?00% 私有�?IP 分配策略从根本上避免了共享池模式中的 IP 污染和封禁问题，对于需要长期稳定代理的用户具有独特价值。住宅、静态住宅和移动代理三大产品线覆盖了主流使用场景，计量和不计量双模式让用户有更多选择空间�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          静态住宅代理（30 天+ 固定 IP）是 Live Proxies 区别于大多数住宅代理服务商的重要差异化功能。无限并发线程和不计量模式的组合对大规模数据采集用户极具吸引力。Forbes、TechRadar 等权威媒体的推荐也从侧面印证了其服务质量。
-        </p>
+          静态住宅代理（30 �? 固定 IP）是 Live Proxies 区别于大多数住宅代理服务商的重要差异化功能。无限并发线程和不计量模式的组合对大规模数据采集用户极具吸引力。Forbes、TechRadar 等权威媒体的推荐也从侧面印证了其服务质量�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          但仅支持 HTTP 协议（B2B 除外）、不支持 SOCKS5、以及缺乏中文界面，对部分用户群体可能构成门槛。综合评估 IP 独享策略、产品多样性和客户支持质量，Live Proxies 获得 7.3 分评价。特别推荐给需要独享住宅/移动 IP 进行电商数据采集、社媒多账号运营和 SEO 监测的用户。
-        </p>
+          但仅支持 HTTP 协议（B2B 除外）、不支持 SOCKS5、以及缺乏中文界面，对部分用户群体可能构成门槛。综合评�?IP 独享策略、产品多样性和客户支持质量，Live Proxies 获得 7.3 分评价。特别推荐给需要独享住�?移动 IP 进行电商数据采集、社媒多账号运营�?SEO 监测的用户�?        </p>
       </section>
 
       <div class="text-center">

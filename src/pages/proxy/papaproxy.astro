@@ -1,158 +1,158 @@
-ï»¿---
+---
 import Layout from '../../layouts/Layout.astro';
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 ---
 
-<Layout title="PapaProxy ä»£ç†æ·±åº¦è¯„æµ‹ - GlobalNet Labs">
+<Layout title="PapaProxy ´úÀíÉî¶ÈÆÀ²â - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
-        è¿”å›žä»£ç†åˆ—è¡¨
+        ·µ»Ø´úÀíÁÐ±í
       </a>
 
       <div class="flex items-center gap-4 mb-10">
         <img src={`${base}/images/papaproxy.png`} alt="PapaProxy" class="h-14 w-auto" />
         <div>
-          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">PapaProxy æ·±åº¦è¯„æµ‹</h1>
-          <p class="text-slate-400 text-lg">æ•°æ®ä¸­å¿ƒä»£ç†ï¼Œ100,000+ IPv4ï¼Œ18 ä¸ªå›½å®¶ï¼Œä¸é™æµé‡ï¼ŒHTTP/SOCKS5/UDPï¼Œ$19/æœˆèµ·ï¼Œæ—  KYC</p>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">PapaProxy Éî¶ÈÆÀ²â</h1>
+          <p class="text-slate-400 text-lg">Êý¾ÝÖÐÐÄ´úÀí£¬100,000+ IPv4£¬18 ¸ö¹ú¼Ò£¬²»ÏÞÁ÷Á¿£¬HTTP/SOCKS5/UDP£¬$19/ÔÂÆð£¬ÎÞ KYC</p>
         </div>
       </div>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">è¯„åˆ†æ¦‚è§ˆ</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">ÆÀ·Ö¸ÅÀÀ</h2>
         <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-emerald-400">7.3</div>
-            <div class="text-xs text-slate-500 mt-1">ç»¼åˆè¯„åˆ†</div>
+            <div class="text-xs text-slate-500 mt-1">×ÛºÏÆÀ·Ö</div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.0</div>
-            <div class="text-xs text-slate-500 mt-1">IP çº¯å‡€åº¦</div>
+            <div class="text-xs text-slate-500 mt-1">IP ´¿¾»¶È</div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.5</div>
-            <div class="text-xs text-slate-500 mt-1">äº§å“ä¸°å¯Œåº¦</div>
+            <div class="text-xs text-slate-500 mt-1">²úÆ··á¸»¶È</div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">8.5</div>
-            <div class="text-xs text-slate-500 mt-1">ä»·æ ¼ä¼˜åŠ¿</div>
+            <div class="text-xs text-slate-500 mt-1">¼Û¸ñÓÅÊÆ</div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">8.0</div>
-            <div class="text-xs text-slate-500 mt-1">å®¢æˆ·æ”¯æŒ</div>
+            <div class="text-xs text-slate-500 mt-1">¿Í»§Ö§³Ö</div>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-4">äº§å“æ¦‚è¿°</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-4">²úÆ·¸ÅÊö</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          PapaProxyï¼ˆpapaproxy.netï¼‰æ˜¯ä¸€å®¶ä¸“æ³¨äºŽæ•°æ®ä¸­å¿ƒä»£ç†çš„æœåŠ¡å•†ï¼Œæä¾›ä¸é™é‡ä»£ç†ã€ç§æœ‰ä»£ç†ã€è½®æ¢ä»£ç†å’Œ UDP ä»£ç†å››æ¡äº§å“çº¿ã€‚å¹³å°æ‹¥æœ‰ 100,000+ IPv4 åœ°å€ï¼Œè¦†ç›–ç¾Žå›½ã€æ¬§æ´²ã€åŠ æ‹¿å¤§ã€è‹±å›½ã€å¾·å›½ã€ä¿„ç½—æ–¯ã€ä¸­å›½ã€ä¹Œå…‹å…°ã€æ¾³å¤§åˆ©äºšã€å·´è¥¿ç­‰ 18 ä¸ªå›½å®¶å’Œåœ°åŒºã€‚
+          PapaProxy£¨papaproxy.net£©ÊÇÒ»¼Ò×¨×¢ÓÚÊý¾ÝÖÐÐÄ´úÀíµÄ·þÎñÉÌ£¬Ìá¹©²»ÏÞÁ¿´úÀí¡¢Ë½ÓÐ´úÀí¡¢ÂÖ»»´úÀíºÍ UDP ´úÀíËÄÌõ²úÆ·Ïß¡£Æ½Ì¨ÓµÓÐ 100,000+ IPv4 µØÖ·£¬¸²¸ÇÃÀ¹ú¡¢Å·ÖÞ¡¢¼ÓÄÃ´ó¡¢Ó¢¹ú¡¢µÂ¹ú¡¢¶íÂÞË¹¡¢ÖÐ¹ú¡¢ÎÚ¿ËÀ¼¡¢°Ä´óÀûÑÇ¡¢°ÍÎ÷µÈ 18 ¸ö¹ú¼ÒºÍµØÇø¡£
         </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          PapaProxy å¼ºè°ƒ"è‡ªæœ‰ IPã€è‡ªå·±è¿è¥"â€”â€”æ‰€æœ‰ä»£ç†å‡ç”±å›¢é˜Ÿè‡ªç®¡æœåŠ¡å™¨ç›´ä¾›ï¼Œæ— è½¬å”®ã€æ— å¸¦å®½è´¹ç”¨ã€‚æ”¯æŒ HTTPã€SOCKS5 å’Œ UDP ä¸‰åè®®ï¼Œä¸é™æµé‡ï¼Œå•ä»£ç†æœ€é«˜ 500 Mbpsã€‚æä¾›å…è´¹è¯•ç”¨ã€24 å°æ—¶é€€æ¬¾ä¿éšœå’Œæ—  KYC æ³¨å†Œï¼ˆå¤§éƒ¨åˆ†æ”¯ä»˜æ–¹å¼ï¼‰ã€‚æ”¯æŒ Stripeã€Visaã€Mastercardã€AliPay å’Œå¤šç§åŠ å¯†è´§å¸æ”¯ä»˜ã€‚
+          PapaProxy Ç¿µ÷"×ÔÓÐ IP¡¢×Ô¼ºÔËÓª"¡ª¡ªËùÓÐ´úÀí¾ùÓÉÍÅ¶Ó×Ô¹Ü·þÎñÆ÷Ö±¹©£¬ÎÞ×ªÊÛ¡¢ÎÞ´ø¿í·ÑÓÃ¡£Ö§³Ö HTTP¡¢SOCKS5 ºÍ UDP ÈýÐ­Òé£¬²»ÏÞÁ÷Á¿£¬µ¥´úÀí×î¸ß 500 Mbps¡£Ìá¹©Ãâ·ÑÊÔÓÃ¡¢24 Ð¡Ê±ÍË¿î±£ÕÏºÍÎÞ KYC ×¢²á£¨´ó²¿·ÖÖ§¸¶·½Ê½£©¡£Ö§³Ö Stripe¡¢Visa¡¢Mastercard¡¢AliPay ºÍ¶àÖÖ¼ÓÃÜ»õ±ÒÖ§¸¶¡£
         </p>
         <p class="text-slate-300 leading-relaxed">
-          äº§å“ä»¥æ•°æ®ä¸­å¿ƒ IP ä¸ºä¸»ï¼Œæ²¡æœ‰ä½å®…æˆ–ç§»åŠ¨ä»£ç†ã€‚é€‚åˆéœ€è¦ä½Žæˆæœ¬ã€é«˜é€Ÿåº¦ã€å¤š IP çš„çˆ¬è™«ã€è‡ªåŠ¨åŒ–ã€SEO å’Œå¤šè´¦å·ç®¡ç†åœºæ™¯ã€‚æä¾› API ç®¡ç†æŽ¥å£ï¼Œæ”¯æŒ IP ç™½åå•è®¤è¯å’Œå®šæ—¶æ›´æ–° IP åˆ—è¡¨ã€‚
+          ²úÆ·ÒÔÊý¾ÝÖÐÐÄ IP ÎªÖ÷£¬Ã»ÓÐ×¡Õ¬»òÒÆ¶¯´úÀí¡£ÊÊºÏÐèÒªµÍ³É±¾¡¢¸ßËÙ¶È¡¢¶à IP µÄÅÀ³æ¡¢×Ô¶¯»¯¡¢SEO ºÍ¶àÕËºÅ¹ÜÀí³¡¾°¡£Ìá¹© API ¹ÜÀí½Ó¿Ú£¬Ö§³Ö IP °×Ãûµ¥ÈÏÖ¤ºÍ¶¨Ê±¸üÐÂ IP ÁÐ±í¡£
         </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">æ ¸å¿ƒç‰¹æ€§è¯¦è§£</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">ºËÐÄÌØÐÔÏê½â</h2>
         <div class="space-y-6">
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">100,000+ IPv4ï¼Œ18 ä¸ªå›½å®¶å¯é€‰</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">PapaProxy æ‹¥æœ‰ 100,000+ ä¸ª IPv4 åœ°å€ï¼Œè¦†ç›–ç¾Žå›½ï¼ˆ$0.075/IP/æœˆèµ·ï¼‰ã€æ¬§æ´²ï¼ˆ$0.073/IP/æœˆèµ·ï¼‰ã€åŠ æ‹¿å¤§ã€è‹±å›½ã€å¾·å›½ã€ä¿„ç½—æ–¯ã€ä¸­å›½ã€ä¹Œå…‹å…°ã€æ¾³å¤§åˆ©äºšã€å·´è¥¿ã€è·å…°ã€æ³•å›½ã€åœŸè€³å…¶ã€å°åº¦ã€æ³¢å…°ã€è¥¿ç­ç‰™ã€ç‘žå£«ã€æ—¥æœ¬ç­‰ 18 ä¸ªå›½å®¶ã€‚æ”¯æŒæ··åˆå›½å®¶å¥—é¤ã€‚</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">100,000+ IPv4£¬18 ¸ö¹ú¼Ò¿ÉÑ¡</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">PapaProxy ÓµÓÐ 100,000+ ¸ö IPv4 µØÖ·£¬¸²¸ÇÃÀ¹ú£¨$0.075/IP/ÔÂÆð£©¡¢Å·ÖÞ£¨$0.073/IP/ÔÂÆð£©¡¢¼ÓÄÃ´ó¡¢Ó¢¹ú¡¢µÂ¹ú¡¢¶íÂÞË¹¡¢ÖÐ¹ú¡¢ÎÚ¿ËÀ¼¡¢°Ä´óÀûÑÇ¡¢°ÍÎ÷¡¢ºÉÀ¼¡¢·¨¹ú¡¢ÍÁ¶úÆä¡¢Ó¡¶È¡¢²¨À¼¡¢Î÷°àÑÀ¡¢ÈðÊ¿¡¢ÈÕ±¾µÈ 18 ¸ö¹ú¼Ò¡£Ö§³Ö»ìºÏ¹ú¼ÒÌ×²Í¡£</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">ä¸é™æµé‡ + é«˜è¾¾ 500 Mbps</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">æ‰€æœ‰ä»£ç†å¥—é¤å‡æä¾›ä¸é™æµé‡ï¼ˆUnlimited Trafficï¼‰ï¼Œæ— éšè—è´¹ç”¨ã€‚å•ä»£ç†æœ€é«˜é€Ÿåº¦ 500 Mbpsï¼Œè¿žæŽ¥æ•°ä¸é™ã€‚æœåŠ¡å™¨æ‰˜ç®¡åœ¨å…¨çƒå¤šä¸ªæ•°æ®ä¸­å¿ƒï¼Œé€šé“å¸¦å®½ 10-80 Gbpsã€‚è¿™ç§ä¸é™é‡è®¾è®¡é€‚åˆéœ€è¦æŒç»­é«˜é€Ÿè¿žæŽ¥çš„å¤§è§„æ¨¡é‡‡é›†å’Œè‡ªåŠ¨åŒ–ä»»åŠ¡ã€‚</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">²»ÏÞÁ÷Á¿ + ¸ß´ï 500 Mbps</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ËùÓÐ´úÀíÌ×²Í¾ùÌá¹©²»ÏÞÁ÷Á¿£¨Unlimited Traffic£©£¬ÎÞÒþ²Ø·ÑÓÃ¡£µ¥´úÀí×î¸ßËÙ¶È 500 Mbps£¬Á¬½ÓÊý²»ÏÞ¡£·þÎñÆ÷ÍÐ¹ÜÔÚÈ«Çò¶à¸öÊý¾ÝÖÐÐÄ£¬Í¨µÀ´ø¿í 10-80 Gbps¡£ÕâÖÖ²»ÏÞÁ¿Éè¼ÆÊÊºÏÐèÒª³ÖÐø¸ßËÙÁ¬½ÓµÄ´ó¹æÄ£²É¼¯ºÍ×Ô¶¯»¯ÈÎÎñ¡£</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">HTTP/SOCKS5/UDP ä¸‰åè®®æ”¯æŒ</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">PapaProxy åŒæ—¶æ”¯æŒ HTTPSã€SOCKS5 å’Œ UDP ä¸‰ç§åè®®ã€‚UDP ä»£ç†åœ¨ä»£ç†è¡Œä¸šä¸­è¾ƒä¸ºå°‘è§ï¼Œé€‚åˆæ¸¸æˆã€ç›´æ’­å’Œéœ€è¦ UDP ä¼ è¾“çš„åº”ç”¨ã€‚SOCKS5 æä¾›é«˜çº§éšç§ä¿æŠ¤ï¼ŒHTTPS å…¼å®¹æ€§æœ€å¹¿ã€‚ç”¨æˆ·å¯åœ¨æŽ§åˆ¶é¢æ¿ä¸­éšæ—¶åˆ‡æ¢åè®®ã€‚</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">HTTP/SOCKS5/UDP ÈýÐ­ÒéÖ§³Ö</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">PapaProxy Í¬Ê±Ö§³Ö HTTPS¡¢SOCKS5 ºÍ UDP ÈýÖÖÐ­Òé¡£UDP ´úÀíÔÚ´úÀíÐÐÒµÖÐ½ÏÎªÉÙ¼û£¬ÊÊºÏÓÎÏ·¡¢Ö±²¥ºÍÐèÒª UDP ´«ÊäµÄÓ¦ÓÃ¡£SOCKS5 Ìá¹©¸ß¼¶ÒþË½±£»¤£¬HTTPS ¼æÈÝÐÔ×î¹ã¡£ÓÃ»§¿ÉÔÚ¿ØÖÆÃæ°åÖÐËæÊ±ÇÐ»»Ð­Òé¡£</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">ä½Žè‡³ $0.073/IP/æœˆï¼Œé‡å¤§å¯è®®</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">PapaProxy çš„å®šä»·åœ¨æ•°æ®ä¸­å¿ƒä»£ç†å¸‚åœºä¸­å…·æœ‰ç«žäº‰åŠ›ã€‚ä¸é™é‡ä»£ç†ä»Ž $19/æœˆèµ·ï¼ˆçº¦ 100 IPï¼‰ï¼Œç§æœ‰ä»£ç†ä»Ž $2.5/æœˆèµ·ï¼Œè½®æ¢ä»£ç†ä»Ž $49/æœˆèµ·ã€‚å¤§è§„æ¨¡é‡‡è´­ï¼ˆ500+ IPï¼‰äº«å—æ‰¹å‘æŠ˜æ‰£ï¼Œè¶…è¿‡ $500 çš„è®¢å•å¯é…å¤‡ä¸“å±žå®¢æˆ·ç»ç†å¹¶æä¾›å®šåˆ¶æŠ¥ä»·ã€‚</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">µÍÖÁ $0.073/IP/ÔÂ£¬Á¿´ó¿ÉÒé</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">PapaProxy µÄ¶¨¼ÛÔÚÊý¾ÝÖÐÐÄ´úÀíÊÐ³¡ÖÐ¾ßÓÐ¾ºÕùÁ¦¡£²»ÏÞÁ¿´úÀí´Ó $19/ÔÂÆð£¨Ô¼ 100 IP£©£¬Ë½ÓÐ´úÀí´Ó $2.5/ÔÂÆð£¬ÂÖ»»´úÀí´Ó $49/ÔÂÆð¡£´ó¹æÄ£²É¹º£¨500+ IP£©ÏíÊÜÅú·¢ÕÛ¿Û£¬³¬¹ý $500 µÄ¶©µ¥¿ÉÅä±¸×¨Êô¿Í»§¾­Àí²¢Ìá¹©¶¨ÖÆ±¨¼Û¡£</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">å…è´¹è¯•ç”¨ + 24 å°æ—¶é€€æ¬¾ + æ—  KYC</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">PapaProxy æä¾›å…è´¹æµ‹è¯• IP æ± ï¼ˆä¸é™é‡ã€è½®æ¢å’Œ UDP äº§å“ï¼‰ï¼Œæ— éœ€ KYC å³å¯æ³¨å†Œã€‚æ‰€æœ‰å¥—é¤æä¾› 24 å°æ—¶é€€æ¬¾ä¿éšœã€‚æ”¯æŒ Stripeã€Visaã€Mastercardã€AliPayã€USDTã€BTCã€ETH ç­‰å¤šç§æ”¯ä»˜æ–¹å¼ã€‚æ—  KYC æ”¿ç­–å¯¹éšç§æ•æ„Ÿç”¨æˆ·å‹å¥½ã€‚</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Ãâ·ÑÊÔÓÃ + 24 Ð¡Ê±ÍË¿î + ÎÞ KYC</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">PapaProxy Ìá¹©Ãâ·Ñ²âÊÔ IP ³Ø£¨²»ÏÞÁ¿¡¢ÂÖ»»ºÍ UDP ²úÆ·£©£¬ÎÞÐè KYC ¼´¿É×¢²á¡£ËùÓÐÌ×²ÍÌá¹© 24 Ð¡Ê±ÍË¿î±£ÕÏ¡£Ö§³Ö Stripe¡¢Visa¡¢Mastercard¡¢AliPay¡¢USDT¡¢BTC¡¢ETH µÈ¶àÖÖÖ§¸¶·½Ê½¡£ÎÞ KYC Õþ²ß¶ÔÒþË½Ãô¸ÐÓÃ»§ÓÑºÃ¡£</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">API + IP ç™½åå• + æŒ‡çº¹æµè§ˆå™¨å…¼å®¹</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">PapaProxy æä¾›å®Œå–„çš„ API æŽ¥å£ï¼Œæ”¯æŒè´­ä¹°ã€ç»­è´¹ã€æ›´æ–° IP åˆ—è¡¨ã€ç®¡ç† IP ç»‘å®šå’Œå¯¼å‡ºåˆ—è¡¨ã€‚ä»£ç†é€šè¿‡ IP ç™½åå•è®¤è¯ã€‚å…¼å®¹æ‰€æœ‰ä¸»æµæŒ‡çº¹æµè§ˆå™¨ï¼ˆAdsPowerã€Dolphin Antyã€GoLoginã€MoreLoginã€Octo Browser ç­‰ï¼‰å’Œè‡ªåŠ¨åŒ–å·¥å…·ï¼ˆScrapyã€Seleniumã€Puppeteerã€Playwright ç­‰ï¼‰ã€‚</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">API + IP °×Ãûµ¥ + Ö¸ÎÆä¯ÀÀÆ÷¼æÈÝ</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">PapaProxy Ìá¹©ÍêÉÆµÄ API ½Ó¿Ú£¬Ö§³Ö¹ºÂò¡¢Ðø·Ñ¡¢¸üÐÂ IP ÁÐ±í¡¢¹ÜÀí IP °ó¶¨ºÍµ¼³öÁÐ±í¡£´úÀíÍ¨¹ý IP °×Ãûµ¥ÈÏÖ¤¡£¼æÈÝËùÓÐÖ÷Á÷Ö¸ÎÆä¯ÀÀÆ÷£¨AdsPower¡¢Dolphin Anty¡¢GoLogin¡¢MoreLogin¡¢Octo Browser µÈ£©ºÍ×Ô¶¯»¯¹¤¾ß£¨Scrapy¡¢Selenium¡¢Puppeteer¡¢Playwright µÈ£©¡£</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">ä»·æ ¼æ–¹æ¡ˆ</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">¼Û¸ñ·½°¸</h2>
         <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
-          <img src={`${base}/images/papaproxy-price.webp`} alt="PapaProxy ä»·æ ¼æ–¹æ¡ˆ" class="w-full rounded-lg" />
+          <img src={`${base}/images/papaproxy-price.webp`} alt="PapaProxy ¼Û¸ñ·½°¸" class="w-full rounded-lg" />
         </div>
-        <p class="text-xs text-slate-500 text-center mt-4">ä¸é™é‡ä»£ç† $19/æœˆèµ· Â· ç§æœ‰ä»£ç† $2.5/æœˆèµ· Â· è½®æ¢ä»£ç† $49/æœˆèµ· Â· UDP ä»£ç† $19/æœˆèµ·</p>
+        <p class="text-xs text-slate-500 text-center mt-4">²»ÏÞÁ¿´úÀí $19/ÔÂÆð ¡¤ Ë½ÓÐ´úÀí $2.5/ÔÂÆð ¡¤ ÂÖ»»´úÀí $49/ÔÂÆð ¡¤ UDP ´úÀí $19/ÔÂÆð</p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">é€‚ç”¨åœºæ™¯è¯¦ç»†åˆ†æž</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">ÊÊÓÃ³¡¾°ÏêÏ¸·ÖÎö</h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. ç½‘ç»œçˆ¬è™«ä¸Žæ•°æ®é‡‡é›†</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">ä¸é™æµé‡ + é«˜é€Ÿè¿žæŽ¥ + å¤§æ‰¹é‡ IP ä½¿ PapaProxy é€‚åˆå¤§è§„æ¨¡æ•°æ®é‡‡é›†ã€‚è½®æ¢ä»£ç†æ¯æ¬¡è¯·æ±‚æ›´æ¢ IPï¼Œé€‚åˆéœ€è¦é¢‘ç¹æ›´æ¢æ¥æºçš„çˆ¬è™«ä»»åŠ¡ã€‚API æŽ¥å£æ”¯æŒè‡ªåŠ¨åŒ– IP ç®¡ç†ï¼Œå¯ä¸Ž Scrapyã€Selenium ç­‰æ¡†æž¶é›†æˆã€‚</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. ÍøÂçÅÀ³æÓëÊý¾Ý²É¼¯</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">²»ÏÞÁ÷Á¿ + ¸ßËÙÁ¬½Ó + ´óÅúÁ¿ IP Ê¹ PapaProxy ÊÊºÏ´ó¹æÄ£Êý¾Ý²É¼¯¡£ÂÖ»»´úÀíÃ¿´ÎÇëÇó¸ü»» IP£¬ÊÊºÏÐèÒªÆµ·±¸ü»»À´Ô´µÄÅÀ³æÈÎÎñ¡£API ½Ó¿ÚÖ§³Ö×Ô¶¯»¯ IP ¹ÜÀí£¬¿ÉÓë Scrapy¡¢Selenium µÈ¿ò¼Ü¼¯³É¡£</p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. å¤šè´¦å·ç®¡ç†ä¸ŽæŒ‡çº¹æµè§ˆå™¨</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">ç§æœ‰ä»£ç†æä¾›ç‹¬äº« IPï¼Œé€‚åˆç¤¾åª’å¤šè´¦å·ç®¡ç†ã€‚å…¼å®¹ AdsPowerã€Dolphin Antyã€GoLogin ç­‰ä¸»æµæŒ‡çº¹æµè§ˆå™¨ã€‚IP ç™½åå•è®¤è¯æé«˜äº†è´¦å·å®‰å…¨æ€§ã€‚</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. ¶àÕËºÅ¹ÜÀíÓëÖ¸ÎÆä¯ÀÀÆ÷</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Ë½ÓÐ´úÀíÌá¹©¶ÀÏí IP£¬ÊÊºÏÉçÃ½¶àÕËºÅ¹ÜÀí¡£¼æÈÝ AdsPower¡¢Dolphin Anty¡¢GoLogin µÈÖ÷Á÷Ö¸ÎÆä¯ÀÀÆ÷¡£IP °×Ãûµ¥ÈÏÖ¤Ìá¸ßÁËÕËºÅ°²È«ÐÔ¡£</p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO ç›‘æŽ§ä¸ŽæŽ’åè¿½è¸ª</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">18 ä¸ªå›½å®¶çš„ IP å‡ºå£é€‚åˆå…¨çƒ SEO æŽ’åç›‘æŽ§ã€‚ä¸é™é‡å¥—é¤é€‚åˆéœ€è¦æŒç»­å¤§é‡æŸ¥è¯¢çš„å…³é”®è¯è¿½è¸ªé¡¹ç›®ã€‚ä½Žè‡³ $0.073/IP/æœˆçš„ä»·æ ¼åœ¨é•¿æœŸç›‘æŽ§é¡¹ç›®ä¸­å…·æœ‰æˆæœ¬ä¼˜åŠ¿ã€‚</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO ¼à¿ØÓëÅÅÃû×·×Ù</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">18 ¸ö¹ú¼ÒµÄ IP ³ö¿ÚÊÊºÏÈ«Çò SEO ÅÅÃû¼à¿Ø¡£²»ÏÞÁ¿Ì×²ÍÊÊºÏÐèÒª³ÖÐø´óÁ¿²éÑ¯µÄ¹Ø¼ü´Ê×·×ÙÏîÄ¿¡£µÍÖÁ $0.073/IP/ÔÂµÄ¼Û¸ñÔÚ³¤ÆÚ¼à¿ØÏîÄ¿ÖÐ¾ßÓÐ³É±¾ÓÅÊÆ¡£</p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. æ¸¸æˆä¸Ž UDP åº”ç”¨</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">UDP ä»£ç†äº§å“çº¿ä½¿ PapaProxy é€‚åˆæ¸¸æˆåŠ é€Ÿã€ç›´æ’­æŽ¨æµå’Œéœ€è¦ UDP åè®®çš„å®žæ—¶é€šä¿¡åº”ç”¨ã€‚$19/æœˆèµ·çš„ä»·æ ¼åœ¨ UDP ä»£ç†å¸‚åœºä¸­è¾ƒä¸ºäº²æ°‘ã€‚</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. ÓÎÏ·Óë UDP Ó¦ÓÃ</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">UDP ´úÀí²úÆ·ÏßÊ¹ PapaProxy ÊÊºÏÓÎÏ·¼ÓËÙ¡¢Ö±²¥ÍÆÁ÷ºÍÐèÒª UDP Ð­ÒéµÄÊµÊ±Í¨ÐÅÓ¦ÓÃ¡£$19/ÔÂÆðµÄ¼Û¸ñÔÚ UDP ´úÀíÊÐ³¡ÖÐ½ÏÎªÇ×Ãñ¡£</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">ä¼˜åŠ¿ä¸Žå±€é™</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">ÓÅÊÆÓë¾ÖÏÞ</h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
-              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>ä¼˜åŠ¿
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>ÓÅÊÆ
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">â€¢</span><span>æ•°æ®ä¸­å¿ƒ IP å®šä»·æžä½Žï¼Œ$0.073/IP/æœˆèµ·</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">â€¢</span><span>100,000+ IPv4ï¼Œ18 ä¸ªå›½å®¶ï¼Œä¸é™æµé‡</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">â€¢</span><span>HTTP/SOCKS5/UDP ä¸‰åè®®æ”¯æŒ</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">â€¢</span><span>å…è´¹è¯•ç”¨ + 24 å°æ—¶é€€æ¬¾ + æ—  KYC</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">â€¢</span><span>å®Œå–„ API + æŒ‡çº¹æµè§ˆå™¨å…¼å®¹</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">?</span><span>Êý¾ÝÖÐÐÄ IP ¶¨¼Û¼«µÍ£¬$0.073/IP/ÔÂÆð</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">?</span><span>100,000+ IPv4£¬18 ¸ö¹ú¼Ò£¬²»ÏÞÁ÷Á¿</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">?</span><span>HTTP/SOCKS5/UDP ÈýÐ­ÒéÖ§³Ö</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">?</span><span>Ãâ·ÑÊÔÓÃ + 24 Ð¡Ê±ÍË¿î + ÎÞ KYC</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">?</span><span>ÍêÉÆ API + Ö¸ÎÆä¯ÀÀÆ÷¼æÈÝ</span></li>
             </ul>
           </div>
           <div>
             <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
-              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>æ³¨æ„äº‹é¡¹
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>×¢ÒâÊÂÏî
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">â€¢</span><span>ä»…æ•°æ®ä¸­å¿ƒ IPï¼Œæ— ä½å®…/ç§»åŠ¨ä»£ç†</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">â€¢</span><span>ä¸­å›½ IP è¦†ç›–æœ‰é™</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">â€¢</span><span>æ— ä¸­æ–‡ç•Œé¢å’Œå®¢æœ</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">â€¢</span><span>IP çº¯å‡€åº¦ä¸å¦‚ä½å®…ä»£ç†</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">?</span><span>½öÊý¾ÝÖÐÐÄ IP£¬ÎÞ×¡Õ¬/ÒÆ¶¯´úÀí</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">?</span><span>ÖÐ¹ú IP ¸²¸ÇÓÐÏÞ</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">?</span><span>ÎÞÖÐÎÄ½çÃæºÍ¿Í·þ</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">?</span><span>IP ´¿¾»¶È²»Èç×¡Õ¬´úÀí</span></li>
             </ul>
           </div>
         </div>
       </section>
 
-      <!-- æ”¯ä»˜æ–¹å¼ -->
+      <!-- Ö§¸¶·½Ê½ -->
       <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
         <div class="flex items-center gap-3 mb-6">
           <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-          <h2 class="text-xl font-bold text-slate-100">æ”¯ä»˜æ–¹å¼</h2>
-          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">å®˜æ–¹æ”¯æŒ</span>
+          <h2 class="text-xl font-bold text-slate-100">Ö§¸¶·½Ê½</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">¹Ù·½Ö§³Ö</span>
         </div>
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
@@ -187,21 +187,21 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-4">æ€»ç»“è¯„ä»·</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-4">×Ü½áÆÀ¼Û</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          PapaProxy æ˜¯ä¸€å®¶ä¸“æ³¨äºŽæ•°æ®ä¸­å¿ƒä»£ç†çš„æœåŠ¡å•†ï¼Œä»¥æžå…·ç«žäº‰åŠ›çš„ä»·æ ¼ï¼ˆ$0.073/IP/æœˆèµ·ï¼‰å’Œ 100,000+ IPv4 çš„è§„æ¨¡åœ¨å¸‚åœºä¸­å æ®ä¸€å¸­ä¹‹åœ°ã€‚18 ä¸ªå›½å®¶è¦†ç›–ã€ä¸é™æµé‡ã€ä¸‰åè®®æ”¯æŒï¼ˆHTTP/SOCKS5/UDPï¼‰å’Œ API æŽ¥å£ä½¿å…¶é€‚åˆæŠ€æœ¯å›¢é˜Ÿéƒ¨ç½²è‡ªåŠ¨åŒ–ä»£ç†åŸºç¡€è®¾æ–½ã€‚
+          PapaProxy ÊÇÒ»¼Ò×¨×¢ÓÚÊý¾ÝÖÐÐÄ´úÀíµÄ·þÎñÉÌ£¬ÒÔ¼«¾ß¾ºÕùÁ¦µÄ¼Û¸ñ£¨$0.073/IP/ÔÂÆð£©ºÍ 100,000+ IPv4 µÄ¹æÄ£ÔÚÊÐ³¡ÖÐÕ¼¾ÝÒ»Ï¯Ö®µØ¡£18 ¸ö¹ú¼Ò¸²¸Ç¡¢²»ÏÞÁ÷Á¿¡¢ÈýÐ­ÒéÖ§³Ö£¨HTTP/SOCKS5/UDP£©ºÍ API ½Ó¿ÚÊ¹ÆäÊÊºÏ¼¼ÊõÍÅ¶Ó²¿Êð×Ô¶¯»¯´úÀí»ù´¡ÉèÊ©¡£
         </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          å…è´¹è¯•ç”¨ã€24 å°æ—¶é€€æ¬¾ä¿éšœå’Œæ—  KYC æ³¨å†Œé™ä½Žäº†ç”¨æˆ·çš„å°è¯•æˆæœ¬ã€‚æŒ‡çº¹æµè§ˆå™¨å…¼å®¹å’Œä¸°å¯Œçš„å·¥å…·ç”Ÿæ€é›†æˆä½¿å…¶åœ¨ç¤¾åª’å¤šè´¦å·ç®¡ç†åœºæ™¯ä¸­åŒæ ·å¯ç”¨ã€‚
+          Ãâ·ÑÊÔÓÃ¡¢24 Ð¡Ê±ÍË¿î±£ÕÏºÍÎÞ KYC ×¢²á½µµÍÁËÓÃ»§µÄ³¢ÊÔ³É±¾¡£Ö¸ÎÆä¯ÀÀÆ÷¼æÈÝºÍ·á¸»µÄ¹¤¾ßÉúÌ¬¼¯³ÉÊ¹ÆäÔÚÉçÃ½¶àÕËºÅ¹ÜÀí³¡¾°ÖÐÍ¬Ñù¿ÉÓÃ¡£
         </p>
         <p class="text-slate-300 leading-relaxed">
-          ä¸»è¦å±€é™åœ¨äºŽä»…æä¾›æ•°æ®ä¸­å¿ƒ IPï¼ˆçº¯å‡€åº¦ä¸å¦‚ä½å®…ä»£ç†ï¼‰ã€æ— ä¸­æ–‡ç•Œé¢å’Œå®¢æœã€‚ç»¼åˆè¯„ä¼°ï¼ŒPapaProxy èŽ·å¾— 7.3 åˆ†è¯„ä»·ã€‚ç‰¹åˆ«æŽ¨èç»™éœ€è¦å¤§é‡æ•°æ®ä¸­å¿ƒ IP çš„ä½Žæˆæœ¬çˆ¬è™«é¡¹ç›®ã€éœ€è¦ UDP ä»£ç†çš„æ¸¸æˆ/ç›´æ’­åº”ç”¨å’Œé¢„ç®—æœ‰é™çš„å¤šè´¦å·ç®¡ç†å›¢é˜Ÿã€‚
+          Ö÷Òª¾ÖÏÞÔÚÓÚ½öÌá¹©Êý¾ÝÖÐÐÄ IP£¨´¿¾»¶È²»Èç×¡Õ¬´úÀí£©¡¢ÎÞÖÐÎÄ½çÃæºÍ¿Í·þ¡£×ÛºÏÆÀ¹À£¬PapaProxy »ñµÃ 7.3 ·ÖÆÀ¼Û¡£ÌØ±ðÍÆ¼ö¸øÐèÒª´óÁ¿Êý¾ÝÖÐÐÄ IP µÄµÍ³É±¾ÅÀ³æÏîÄ¿¡¢ÐèÒª UDP ´úÀíµÄÓÎÏ·/Ö±²¥Ó¦ÓÃºÍÔ¤ËãÓÐÏÞµÄ¶àÕËºÅ¹ÜÀíÍÅ¶Ó¡£
         </p>
       </section>
 
       <div class="text-center">
         <a href="https://papaproxy.net/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
-          è®¿é—® PapaProxy å®˜ç½‘
+          ·ÃÎÊ PapaProxy ¹ÙÍø
           <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
         </a>
       </div>

@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="Proxiware 深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -17,7 +17,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           <div class="flex items-center gap-3 flex-wrap">
             <h1 class="text-3xl font-bold text-slate-100">Proxiware 评测</h1>
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
-            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">1亿+IP</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">1�?IP</span>
           </div>
           <p class="text-slate-400 mt-1">住宅代理 · 移动代理 · 数据中心代理 · 静态ISP · 无限住宅 · UK公司</p>
         </div>
@@ -32,58 +32,55 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">覆盖范围</span>
-            <p class="text-slate-200 font-medium mt-1">1 亿+ IP，165+ 国家，1000+ 城市，ISP/城市级定位</p>
+            <p class="text-slate-200 font-medium mt-1">1 �? IP�?65+ 国家�?000+ 城市，ISP/城市级定�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">核心特性</span>
-            <p class="text-slate-200 font-medium mt-1">流量滚动 · 99.99% 在线率 · &lt;600ms 延迟 · Trustpilot 4.9 · 社区驱动</p>
+            <span class="text-slate-500">核心特�?/span>
+            <p class="text-slate-200 font-medium mt-1">流量滚动 · 99.99% 在线�?· &lt;600ms 延迟 · Trustpilot 4.9 · 社区驱动</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">支付方式</span>
-            <p class="text-slate-200 font-medium mt-1">信用卡 · PayPal · 加密货币</p>
+            <p class="text-slate-200 font-medium mt-1">信用�?· PayPal · 加密货币</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Proxiware 是一家企业级代理基础设施服务商，拥有 1 亿+ IP 地址，覆盖 165+ 个国家和 1000+ 个城市，提供 6 种不同类型的代理产品——从顶级的 Premium 住宅代理到高性价比的 Eco 住宅代理、无限带宽住宅代理、静态 ISP 代理、4G/5G 移动代理和高速数据中心代理。平台每月处理 5000 亿+ 次请求，服务于 5 万+ 客户，Trustpilot 评分高达 4.9。
-        </p>
+          Proxiware 是一家企业级代理基础设施服务商，拥有 1 �? IP 地址，覆�?165+ 个国家和 1000+ 个城市，提供 6 种不同类型的代理产品——从顶级�?Premium 住宅代理到高性价比的 Eco 住宅代理、无限带宽住宅代理、静�?ISP 代理�?G/5G 移动代理和高速数据中心代理。平台每月处�?5000 �? 次请求，服务�?5 �? 客户，Trustpilot 评分高达 4.9�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Proxiware 的核心差异化优势在于产品线的全面性和灵活性——从 $0.15/GB 的 Eco 住宅到 $28.88/天的无限住宅，再到 $1.25/月的静态 ISP，几乎覆盖了所有使用场景和预算需求。"流量滚动"机制让未使用的流量自动结转到下月，避免浪费。平台还提供 Spring25 优惠码，可在 Premium 住宅（$1.25/GB）、移动（$1.12/GB）和数据中心（$0.30/GB）上享受额外折扣。
-        </p>
+          Proxiware 的核心差异化优势在于产品线的全面性和灵活性——从 $0.15/GB �?Eco 住宅�?$28.88/天的无限住宅，再�?$1.25/月的静�?ISP，几乎覆盖了所有使用场景和预算需求�?流量滚动"机制让未使用的流量自动结转到下月，避免浪费。平台还提供 Spring25 优惠码，可在 Premium 住宅�?1.25/GB）、移动（$1.12/GB）和数据中心�?0.30/GB）上享受额外折扣�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          Proxiware 采用社区驱动模式，通过 Discord 和 Telegram 社区与用户保持紧密互动。无需信用卡即可 60 秒注册，支持 HTTP/HTTPS/SOCKS5 协议，提供标准用户名密码认证和城市级定位（如 user-country-us）。IP 来源宣称合法合规、用户自愿加入。支持与主流电商、社媒和搜索引擎平台的集成。
-        </p>
+          Proxiware 采用社区驱动模式，通过 Discord �?Telegram 社区与用户保持紧密互动。无需信用卡即�?60 秒注册，支持 HTTP/HTTPS/SOCKS5 协议，提供标准用户名密码认证和城市级定位（如 user-country-us）。IP 来源宣称合法合规、用户自愿加入。支持与主流电商、社媒和搜索引擎平台的集成�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特性</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特�?/h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Premium 住宅代理（Premium Residential）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">1 亿+ 真实住宅 IP，165+ 国家，1000+ 城市，支持城市级和 ISP 级别精确定位。自动轮换和黏性会话两种模式，99%+ 成功率。$1.25/GB（使用 Spring25 码），流量滚动。支持 HTTP/HTTPS/SOCKS5，无限并发。适合大规模数据采集、价格监测、SEO 追踪等场景。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Premium 住宅代理（Premium Residential�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">1 �? 真实住宅 IP�?65+ 国家�?000+ 城市，支持城市级�?ISP 级别精确定位。自动轮换和黏性会话两种模式，99%+ 成功率�?1.25/GB（使�?Spring25 码），流量滚动。支�?HTTP/HTTPS/SOCKS5，无限并发。适合大规模数据采集、价格监测、SEO 追踪等场景�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Eco 住宅代理（Eco Residential）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">全新推出的经济型住宅代理，仅 $0.15/GB，价格极具竞争力。支持国家级别定位，同样支持旋转和黏性会话模式，使用与 Premium 相同的认证和工具。适合对预算敏感、不需要最大 IP 池的项目。流量同样支持滚动。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Eco 住宅代理（Eco Residential�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全新推出的经济型住宅代理，仅 $0.15/GB，价格极具竞争力。支持国家级别定位，同样支持旋转和黏性会话模式，使用�?Premium 相同的认证和工具。适合对预算敏感、不需要最�?IP 池的项目。流量同样支持滚动�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无限住宅代理（Unlimited Residential）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">不限流量的住宅代理，按天计费 $28.88/天。适合大规模企业级数据采集任务，无限带宽，专属 IP 池，24/7 监控。无需担心 GB 上限，运行任意规模的流量。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无限住宅代理（Unlimited Residential�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">不限流量的住宅代理，按天计费 $28.88/天。适合大规模企业级数据采集任务，无限带宽，专属 IP 池，24/7 监控。无需担心 GB 上限，运行任意规模的流量�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态 ISP 代理（Static ISP）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">来自 ISP 网络的静态代理，结合住宅代理的可信度和数据中心的稳定性——IP 永不改变。全球多地可选，$1.25/月/IP，长期订阅可享最高 20% 折扣。适合社媒账号管理、电商运营等需要固定 IP 的场景。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静�?ISP 代理（Static ISP�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">来自 ISP 网络的静态代理，结合住宅代理的可信度和数据中心的稳定性——IP 永不改变。全球多地可选，$1.25/�?IP，长期订阅可享最�?20% 折扣。适合社媒账号管理、电商运营等需要固�?IP 的场景�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">移动代理（Mobile 4G/5G）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">真实 4G/5G 运营商 IP，拥有真实移动 ASN，检测风险极低。适用于突破最难防护的目标网站。$1.12/GB（Spring25 码），99%+ 成功率。适合广告验证、社媒管理等高纯净度需求场景。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">移动代理（Mobile 4G/5G�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">真实 4G/5G 运营�?IP，拥有真实移�?ASN，检测风险极低。适用于突破最难防护的目标网站�?1.12/GB（Spring25 码）�?9%+ 成功率。适合广告验证、社媒管理等高纯净度需求场景�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心代理（Datacenter）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">超低延迟（<50ms），1Gbps 上行链路，多子网支持。$0.30/GB（Spring25 码），批量购买可享额外折扣。对速度和吞吐量要求高的爬虫任务性价比极高。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心代理（Datacenter�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">超低延迟�?50ms），1Gbps 上行链路，多子网支持�?0.30/GB（Spring25 码），批量购买可享额外折扣。对速度和吞吐量要求高的爬虫任务性价比极高�?/p>
           </div>
         </div>
       </section>
@@ -111,7 +108,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡</span>
+            <span class="text-sm text-slate-200">信用�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
@@ -122,19 +119,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>6 类代理覆盖所有场景，从 $0.15/GB Eco 到无限住宅</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>1 亿+ IP，165+ 国家，1000+ 城市，覆盖极广</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>流量滚动 + Trustpilot 4.9 + 99.99% 在线率</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Eco 住宅 $0.15/GB 是市场上最低价之一</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无需信用卡 60 秒注册，Discord/Telegram 社区活跃</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>静态 ISP + 移动 4G/5G + 无限住宅 产品线齐全</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>6 类代理覆盖所有场景，�?$0.15/GB Eco 到无限住�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>1 �? IP�?65+ 国家�?000+ 城市，覆盖极�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>流量滚动 + Trustpilot 4.9 + 99.99% 在线�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>Eco 住宅 $0.15/GB 是市场上最低价之一</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>无需信用�?60 秒注册，Discord/Telegram 社区活跃</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>静�?ISP + 移动 4G/5G + 无限住宅 产品线齐�?/span></li>
             </ul>
           </div>
           <div>
@@ -142,12 +139,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>Eco 住宅仅支持国家定位，无城市/ISP 级别定位</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无限住宅 $28.88/天，仅适合企业级持续使用</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>中文界面缺失，社区以英文为主</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>Premium 住宅 $1.25/GB 需优惠码，原价可能更高</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>新推出的 Eco 和无限住宅产品稳定性待长期验证</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面，中文用户使用时可能需要借助翻译</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>Eco 住宅仅支持国家定位，无城�?ISP 级别定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无限住宅 $28.88/天，仅适合企业级持续使�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>中文界面缺失，社区以英文为主</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>Premium 住宅 $1.25/GB 需优惠码，原价可能更高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>新推出的 Eco 和无限住宅产品稳定性待长期验证</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面，中文用户使用时可能需要借助翻译</span></li>
             </ul>
           </div>
         </div>
@@ -156,14 +153,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Proxiware 是一家产品线极为丰富且定价策略灵活的代理服务商。从顶级的 Premium 住宅代理到仅 $0.15/GB 的 Eco 住宅代理、无限带宽方案、静态 ISP、4G/5G 移动代理和高速数据中心代理，6 种产品几乎覆盖了代理市场的所有需求层次。1 亿+ IP 覆盖 165+ 国家和 1000+ 城市，配合 99.99% 在线率和 Trustpilot 4.9 的评分，在行业中具有较强的竞争力。
-        </p>
+          Proxiware 是一家产品线极为丰富且定价策略灵活的代理服务商。从顶级�?Premium 住宅代理到仅 $0.15/GB �?Eco 住宅代理、无限带宽方案、静�?ISP�?G/5G 移动代理和高速数据中心代理，6 种产品几乎覆盖了代理市场的所有需求层次�? �? IP 覆盖 165+ 国家�?1000+ 城市，配�?99.99% 在线率和 Trustpilot 4.9 的评分，在行业中具有较强的竞争力�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Proxiware 在产品创新上的投入值得关注——同时推出 Eco 住宅和无限住宅两条新产品线，前者以 $0.15/GB 刷新了住宅代理的价格底线，后者为大规模用户提供了按天计费的无限带宽方案。流量滚动机制、无需信用卡注册、活跃的 Discord/Telegram 社区和 Spring25 优惠码也降低了用户的试错成本和使用门槛。静态 ISP 代理更是填补了许多竞争对手的产品空白。
-        </p>
+          Proxiware 在产品创新上的投入值得关注——同时推�?Eco 住宅和无限住宅两条新产品线，前者以 $0.15/GB 刷新了住宅代理的价格底线，后者为大规模用户提供了按天计费的无限带宽方案。流量滚动机制、无需信用卡注册、活跃的 Discord/Telegram 社区�?Spring25 优惠码也降低了用户的试错成本和使用门槛。静�?ISP 代理更是填补了许多竞争对手的产品空白�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于 Eco 住宅仅支持国家定位、无限住宅按天计费不适合小规模用户、无中文界面。综合评估，Proxiware 获得 7.3 分评价。特别推荐给需要多类型代理的灵活团队、预算敏感型用户（Eco 住宅）、需要静态 ISP 的社媒运营者，以及偏好社区驱动服务模式的开发者。
-        </p>
+          主要局限在�?Eco 住宅仅支持国家定位、无限住宅按天计费不适合小规模用户、无中文界面。综合评估，Proxiware 获得 7.3 分评价。特别推荐给需要多类型代理的灵活团队、预算敏感型用户（Eco 住宅）、需要静�?ISP 的社媒运营者，以及偏好社区驱动服务模式的开发者�?        </p>
       </section>
 
       <div class="text-center">

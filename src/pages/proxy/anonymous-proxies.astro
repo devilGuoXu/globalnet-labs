@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="Anonymous Proxies 代理深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -15,7 +15,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <img src={`${base}/images/anonymous-proxies.png`} alt="Anonymous Proxies" class="h-14 w-auto" />
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Anonymous Proxies 深度评测</h1>
-          <p class="text-slate-400 text-lg">2009 年运营至今，数据中心/住宅/移动/ISP/SOCKS5 全产品线，100+ 国家覆盖，$0.5/月起</p>
+          <p class="text-slate-400 text-lg">2009 年运营至今，数据中心/住宅/移动/ISP/SOCKS5 全产品线�?00+ 国家覆盖�?0.5/月起</p>
         </div>
       </div>
 
@@ -28,11 +28,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.0</div>
-            <div class="text-xs text-slate-500 mt-1">IP纯净度</div>
+            <div class="text-xs text-slate-500 mt-1">IP纯净�?/div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">8.0</div>
-            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富�?/div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">8.0</div>
@@ -48,42 +48,39 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Anonymous Proxies（anonymous-proxies.net）是代理行业中运营时间最长的服务商之一，自 2009/2010 年起至今已有 15+ 年行业经验，总部位于巴拿马，服务超过 100,000 名客户。平台在产品线广度上在行业中独树一帜，提供数据中心代理、ISP 代理、住宅代理、移动代理、SOCKS5 代理、Shadowsocks、Trojan、WireGuard VPN、Amnezia VPN、Smart DNS 代理和 Backconnect 轮换代理等十余种产品。
-        </p>
+          Anonymous Proxies（anonymous-proxies.net）是代理行业中运营时间最长的服务商之一，自 2009/2010 年起至今已有 15+ 年行业经验，总部位于巴拿马，服务超过 100,000 名客户。平台在产品线广度上在行业中独树一帜，提供数据中心代理、ISP 代理、住宅代理、移动代理、SOCKS5 代理、Shadowsocks、Trojan、WireGuard VPN、Amnezia VPN、Smart DNS 代理�?Backconnect 轮换代理等十余种产品�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          支持 HTTP(S)、SOCKS5、Shadowsocks、Trojan、WireGuard 等多种协议，覆盖 100+ 国家，IP 池总量 200K+。定价极具竞争力，共享数据中心代理从 $0.5/月起，独享数据中心代理从 $2.20/月起，静态住宅代理从 $1.6/月起。所有静态代理均含不限带宽。支持按子网、城市、州、国家级别精确定位 IP，支持 IP 白名单和用户名/密码双重认证方式。
-        </p>
+          支持 HTTP(S)、SOCKS5、Shadowsocks、Trojan、WireGuard 等多种协议，覆盖 100+ 国家，IP 池总量 200K+。定价极具竞争力，共享数据中心代理从 $0.5/月起，独享数据中心代理从 $2.20/月起，静态住宅代理从 $1.6/月起。所有静态代理均含不限带宽。支持按子网、城市、州、国家级别精确定�?IP，支�?IP 白名单和用户�?密码双重认证方式�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          平台宣称 100% 匿名无 IP/DNS 泄露，提供 24/7 客服支持，即时激活，每月 IP 列表更新。Trustpilot 评分 4.1/5（37 条评价），但评分两极分化较为明显——正面评价强调长期稳定性和价格优势，负面评价主要集中于部分 IP 死亡和客服响应问题。
-        </p>
+          平台宣称 100% 匿名�?IP/DNS 泄露，提�?24/7 客服支持，即时激活，每月 IP 列表更新。Trustpilot 评分 4.1/5�?7 条评价），但评分两极分化较为明显——正面评价强调长期稳定性和价格优势，负面评价主要集中于部分 IP 死亡和客服响应问题�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详�?/h2>
         <div class="space-y-6">
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">15+ 年行业经验 + 超广泛产品线</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">Anonymous Proxies 自 2009/2010 年开始运营，是行业中历史最悠久的厂商之一。产品线之丰富在行业中较为罕见——从数据中心代理、ISP 代理、住宅代理、移动代理到 SOCKS5、Shadowsocks、Trojan、WireGuard VPN、Amnezia VPN、Smart DNS 和 Backconnect 轮换，几乎覆盖了所有主流代理和隐私协议。这种广度使平台能适配从基础匿名浏览到高匿名加密隧道、从静态独享到轮换池的各种需求。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">15+ 年行业经�?+ 超广泛产品线</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Anonymous Proxies �?2009/2010 年开始运营，是行业中历史最悠久的厂商之一。产品线之丰富在行业中较为罕见——从数据中心代理、ISP 代理、住宅代理、移动代理到 SOCKS5、Shadowsocks、Trojan、WireGuard VPN、Amnezia VPN、Smart DNS �?Backconnect 轮换，几乎覆盖了所有主流代理和隐私协议。这种广度使平台能适配从基础匿名浏览到高匿名加密隧道、从静态独享到轮换池的各种需求�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多种隐私增强协议（Shadowsocks / Trojan / WireGuard）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">除标准的 HTTP/SOCKS5 外，Anonymous Proxies 还提供 Shadowsocks（AEAD 加密隧道，绕过深度包检测）、Trojan（伪装 HTTPS 流量，对防火墙隐身）和 WireGuard/Amnezia VPN（现代高效 VPN 协议）等增强隐私的协议选项。这些协议在高审查环境、严格防火墙国家和对隐私有极致要求的场景中具有独特价值。同时提供住宅和数据中心两种网络类型的协议选择。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多种隐私增强协议（Shadowsocks / Trojan / WireGuard�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">除标准的 HTTP/SOCKS5 外，Anonymous Proxies 还提�?Shadowsocks（AEAD 加密隧道，绕过深度包检测）、Trojan（伪�?HTTPS 流量，对防火墙隐身）�?WireGuard/Amnezia VPN（现代高�?VPN 协议）等增强隐私的协议选项。这些协议在高审查环境、严格防火墙国家和对隐私有极致要求的场景中具有独特价值。同时提供住宅和数据中心两种网络类型的协议选择�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">精确定位 + 自主选择 IP</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">Anonymous Proxies 的核心差异化之一是按需选择 IP 的模式——用户可精确到子网、城市、州和国家级别挑选代理 IP，而非被动接受厂商分配的 IP 池。这种灵活性在广告验证、本地化 SEO 监测和区域市场调研等需要精确定位的场景中极具实用价值。每月的 IP 列表刷新确保了 IP 的新鲜度。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">Anonymous Proxies 的核心差异化之一是按需选择 IP 的模式——用户可精确到子网、城市、州和国家级别挑选代�?IP，而非被动接受厂商分配�?IP 池。这种灵活性在广告验证、本地化 SEO 监测和区域市场调研等需要精确定位的场景中极具实用价值。每月的 IP 列表刷新确保�?IP 的新鲜度�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">极具竞争力的价格体系</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">共享数据中心代理从 $0.5/月起，独享数据中心代理从 $2.20/月起，静态住宅代理从 $1.6/月起，在行业中属于极低价位。所有静态代理均包含不限带宽，轮换代理按流量计费（住宅从 $4/GB、数据中心从 $2/GB）。支持月付、季付、半年付和年付，批量购买享自动折扣。使用优惠码 Chat10 可享 10% 折扣。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">共享数据中心代理�?$0.5/月起，独享数据中心代理从 $2.20/月起，静态住宅代理从 $1.6/月起，在行业中属于极低价位。所有静态代理均包含不限带宽，轮换代理按流量计费（住宅从 $4/GB、数据中心从 $2/GB）。支持月付、季付、半年付和年付，批量购买享自动折扣。使用优惠码 Chat10 可享 10% 折扣�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">双重认证 + 即时激活 + 不限带宽</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">支持 IP 白名单和用户名/密码两种认证方式，适应不同使用场景。所有静态代理套餐均包含不限带宽，用户无需担心流量超额。付款后即时激活，代理在数秒内即可使用。每月代理列表刷新，旧 IP 会被替换为新 IP。支持最多 100 个 IP 的单次购买。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">双重认证 + 即时激�?+ 不限带宽</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 IP 白名单和用户�?密码两种认证方式，适应不同使用场景。所有静态代理套餐均包含不限带宽，用户无需担心流量超额。付款后即时激活，代理在数秒内即可使用。每月代理列表刷新，�?IP 会被替换为新 IP。支持最�?100 �?IP 的单次购买�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">100+ 国家覆盖 + 广泛应用场景</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">Anonymous Proxies 覆盖 100+ 国家，从主流市场到小语种区域均有布局。平台官网提供了广告验证、价格监测、网站可用性监控、在线游戏、BT 下载、匿名浏览、自动购买、品牌监测和竞争监测等细化应用场景页面。多协议 + 多产品线的结构使其能适配自动化工具、指纹浏览器（如 Hidemium、BitBrowser）和各类爬虫框架的集成需求。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">Anonymous Proxies 覆盖 100+ 国家，从主流市场到小语种区域均有布局。平台官网提供了广告验证、价格监测、网站可用性监控、在线游戏、BT 下载、匿名浏览、自动购买、品牌监测和竞争监测等细化应用场景页面。多协议 + 多产品线的结构使其能适配自动化工具、指纹浏览器（如 Hidemium、BitBrowser）和各类爬虫框架的集成需求�?/p>
           </div>
         </div>
       </section>
@@ -92,24 +89,24 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 广告验证与品牌保护</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">Anonymous Proxies 的按城市/州/国家精确定位 IP 的能力在广告验证中具有独特价值。可模拟真实用户从目标地区查看广告投放位置和内容，验证广告是否按预期展示。100+ 国家的覆盖范围适合跨国广告活动的验证。独享数据中心和住宅代理均可用于此场景，配合不限带宽特性支持大规模持续的广告监测任务。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 广告验证与品牌保�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Anonymous Proxies 的按城市/�?国家精确定位 IP 的能力在广告验证中具有独特价值。可模拟真实用户从目标地区查看广告投放位置和内容，验证广告是否按预期展示�?00+ 国家的覆盖范围适合跨国广告活动的验证。独享数据中心和住宅代理均可用于此场景，配合不限带宽特性支持大规模持续的广告监测任务�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 价格监测与电商数据采集</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">价格监测需要高频访问各大电商平台，数据中心代理的低价（$2.20/月起）和不限带宽特性使其成为此场景的经济选择。对于需要更高信任度的 Amazon、eBay 等平台，住宅代理（$1.6/月起）和 ISP 代理提供了更稳定的访问能力。轮换代理（$2/GB）适合大规模产品目录采集。代理共享同一用户名/密码的设计也简化了批量管理。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 价格监测与电商数据采�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">价格监测需要高频访问各大电商平台，数据中心代理的低价（$2.20/月起）和不限带宽特性使其成为此场景的经济选择。对于需要更高信任度�?Amazon、eBay 等平台，住宅代理�?1.6/月起）和 ISP 代理提供了更稳定的访问能力。轮换代理（$2/GB）适合大规模产品目录采集。代理共享同一用户�?密码的设计也简化了批量管理�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO 监测与本地化排名追踪</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">SEO 监测需要从不同地理位置查看搜索排名。Anonymous Proxies 的 100+ 国家覆盖和城市级定位能力使本地化 SERP 监测成为可能。独享数据中心代理的低延迟特性适合频繁的关键词排名查询，住宅代理则可用于需要模拟真实用户搜索的情况。每月 IP 刷新确保了监测数据的持续可用性。</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">SEO 监测需要从不同地理位置查看搜索排名。Anonymous Proxies �?100+ 国家覆盖和城市级定位能力使本地化 SERP 监测成为可能。独享数据中心代理的低延迟特性适合频繁的关键词排名查询，住宅代理则可用于需要模拟真实用户搜索的情况。每�?IP 刷新确保了监测数据的持续可用性�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 隐私增强与审查规避</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">Shadowsocks 和 Trojan 协议的引入使 Anonymous Proxies 成为隐私和审查规避场景的独特选择。Shadowsocks 的 AEAD 加密隧道可绕过深度包检测，Trojan 将代理流量伪装为标准 HTTPS 流量，适合高防火墙环境。WireGuard VPN 提供全设备流量加密。这些协议在普通代理服务商中较为少见，是 Anonymous Proxies 的核心差异化优势。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 隐私增强与审查规�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Shadowsocks �?Trojan 协议的引入使 Anonymous Proxies 成为隐私和审查规避场景的独特选择。Shadowsocks �?AEAD 加密隧道可绕过深度包检测，Trojan 将代理流量伪装为标准 HTTPS 流量，适合高防火墙环境。WireGuard VPN 提供全设备流量加密。这些协议在普通代理服务商中较为少见，�?Anonymous Proxies 的核心差异化优势�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 社媒多账号与指纹浏览器集成</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">SOCKS5 代理的低开销特性使其在社媒多账号管理和指纹浏览器（如 Hidemium、BitBrowser）集成中具有优势。独享代理确保每个账号有专属 IP，避免关联风险。$1.1/月起的价格使批量购买多 IP 的经济门槛较低。IP 精确定位能力可配合指纹浏览器的地理位置模拟功能，增强账号的真实性。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 社媒多账号与指纹浏览器集�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">SOCKS5 代理的低开销特性使其在社媒多账号管理和指纹浏览器（�?Hidemium、BitBrowser）集成中具有优势。独享代理确保每个账号有专属 IP，避免关联风险�?1.1/月起的价格使批量购买�?IP 的经济门槛较低。IP 精确定位能力可配合指纹浏览器的地理位置模拟功能，增强账号的真实性�?/p>
           </div>
         </div>
       </section>
@@ -118,10 +115,10 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
 
         <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
-          <h3 class="text-emerald-400 font-semibold text-lg mb-3">价格一览</h3>
+          <h3 class="text-emerald-400 font-semibold text-lg mb-3">价格一�?/h3>
           <img src={`${base}/images/anonymous-proxies-price.webp`} alt="Anonymous Proxies 价格方案" class="w-full rounded-lg" />
         </div>
-        <p class="text-xs text-slate-500 text-center mt-4">静态代理不限带宽 | 批量购买享自动折扣 | 100+ 国家 | 即时激活 | 月/季/半年/年付</p>
+        <p class="text-xs text-slate-500 text-center mt-4">静态代理不限带�?| 批量购买享自动折�?| 100+ 国家 | 即时激�?| �?�?半年/年付</p>
       </section>
 
       <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
@@ -133,30 +130,30 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡</span>
+            <span class="text-sm text-slate-200">信用�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
             <span class="text-sm text-slate-200">Bitcoin</span>
           </div>
         </div>
-        <p class="text-xs text-slate-500 mt-3">注：支持 Visa、MasterCard、Amex、Discover 等信用卡及 Bitcoin 支付</p>
+        <p class="text-xs text-slate-500 mt-3">注：支持 Visa、MasterCard、Amex、Discover 等信用卡�?Bitcoin 支付</p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>15+ 年行业经验，产品线极广（10+ 种代理/VPN 协议）</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$0.5/月起，行业最低价位之一</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>精确到子网/城市/州/国家的 IP 自主选择</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Shadowsocks/Trojan/WireGuard 等增强隐私协议</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>静态代理不限带宽 + 双重认证 + 即时激活</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>100+ 国家覆盖，100,000+ 客户</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>15+ 年行业经验，产品线极广（10+ 种代�?VPN 协议�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>$0.5/月起，行业最低价位之一</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>精确到子�?城市/�?国家�?IP 自主选择</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>Shadowsocks/Trojan/WireGuard 等增强隐私协�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>静态代理不限带�?+ 双重认证 + 即时激�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>100+ 国家覆盖�?00,000+ 客户</span></li>
             </ul>
           </div>
           <div>
@@ -164,12 +161,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 池较小（200K+），大型项目可能受限</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>单次最多购买 100 个 IP</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无免费试用，不支持支付宝/微信</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无住宅轮换 API/SDK 集成方案</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>客服评价两极分化，部分用户反映响应慢</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>IP 池较小（200K+），大型项目可能受限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>单次最多购�?100 �?IP</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无免费试用，不支持支付宝/微信</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面和中文客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无住宅轮�?API/SDK 集成方案</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>客服评价两极分化，部分用户反映响应慢</span></li>
             </ul>
           </div>
         </div>
@@ -178,14 +175,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Anonymous Proxies 是代理行业中最具历史的老牌厂商之一，15+ 年的运营经验在产品线的丰富度上得到了充分体现——十余种代理和 VPN 产品覆盖了从基础 HTTP 代理到 Shadowsocks/Trojan 加密隧道的完整光谱。$0.5/起的定价在行业中极具竞争力，按子网/城市/国家的 IP 精确定位能力也为精准地理定位场景提供了实用价值。
-        </p>
+          Anonymous Proxies 是代理行业中最具历史的老牌厂商之一�?5+ 年的运营经验在产品线的丰富度上得到了充分体现——十余种代理�?VPN 产品覆盖了从基础 HTTP 代理�?Shadowsocks/Trojan 加密隧道的完整光谱�?0.5/起的定价在行业中极具竞争力，按子�?城市/国家�?IP 精确定位能力也为精准地理定位场景提供了实用价值�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Shadowsocks、Trojan 和 WireGuard 等增强隐私协议的引入是 Anonymous Proxies 区别于大多数代理服务商的核心差异化优势，在高审查环境和隐私敏感场景中具有独特价值。100+ 国家的覆盖范围和 100,000+ 客户的市场验证也证明了其服务的广泛适用性。
-        </p>
+          Shadowsocks、Trojan �?WireGuard 等增强隐私协议的引入�?Anonymous Proxies 区别于大多数代理服务商的核心差异化优势，在高审查环境和隐私敏感场景中具有独特价值�?00+ 国家的覆盖范围和 100,000+ 客户的市场验证也证明了其服务的广泛适用性�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          但 200K+ 的 IP 池规模在行业中偏小，单次购买 100 IP 的限制也约束了大型项目的扩展能力。客服评价的两极分化是需要关注的潜在风险。综合评估其 15+ 年行业经验、产品线广度和价格竞争力，Anonymous Proxies 获得 7.3 分评价。特别推荐给需要多协议、精确定位和低成本代理的 SEO 从业者、广告验证团队和高隐私需求用户。
-        </p>
+          �?200K+ �?IP 池规模在行业中偏小，单次购买 100 IP 的限制也约束了大型项目的扩展能力。客服评价的两极分化是需要关注的潜在风险。综合评估其 15+ 年行业经验、产品线广度和价格竞争力，Anonymous Proxies 获得 7.3 分评价。特别推荐给需要多协议、精确定位和低成本代理的 SEO 从业者、广告验证团队和高隐私需求用户�?        </p>
       </section>
 
       <div class="text-center">

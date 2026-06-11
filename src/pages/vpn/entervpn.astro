@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="EnterVPN 深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/vpn`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回 VPN 列表
       </a>
@@ -28,79 +28,76 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="grid md:grid-cols-2 gap-4 text-sm">
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">价格</span>
-            <p class="text-slate-200 font-medium mt-1">24月 $2.00/月 · 12月 $2.50/月 · 6月 $11.99/月 · 1月 $6.99/月 · 免费套餐</p>
+            <p class="text-slate-200 font-medium mt-1">24�?$2.00/�?· 12�?$2.50/�?· 6�?$11.99/�?· 1�?$6.99/�?· 免费套餐</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">服务器网络</span>
+            <span class="text-slate-500">服务器网�?/span>
             <p class="text-slate-200 font-medium mt-1">72+ 节点 · 16 国家 · 10Gbps 端口 · 不限流量</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">核心特性</span>
-            <p class="text-slate-200 font-medium mt-1">WireGuard · AES-256 · 零日志 · Kill Switch · 5 设备 · 广告拦截</p>
+            <span class="text-slate-500">核心特�?/span>
+            <p class="text-slate-200 font-medium mt-1">WireGuard · AES-256 · 零日�?· Kill Switch · 5 设备 · 广告拦截</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">支付方式</span>
-            <p class="text-slate-200 font-medium mt-1">信用卡 · PayPal · 加密货币 (CoinPayments) · 7 天退款</p>
+            <p class="text-slate-200 font-medium mt-1">信用�?· PayPal · 加密货币 (CoinPayments) · 7 天退�?/p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          EnterVPN 是一个提供免费和付费 VPN 服务的平台，主打高性价比的不限流量 VPN 体验。其最大特色在于提供永久免费套餐（10+ 节点、1Gbps 速度、有限流量、含广告），使用户可以在不付费的情况下体验 VPN 服务。付费方案从 $2.00/月（24 月）到 $6.99/月（1 月），所有付费套餐均不限流量、不限速，支持 5 台设备同时连接。
-        </p>
+          EnterVPN 是一个提供免费和付费 VPN 服务的平台，主打高性价比的不限流量 VPN 体验。其最大特色在于提供永久免费套餐（10+ 节点�?Gbps 速度、有限流量、含广告），使用户可以在不付费的情况下体�?VPN 服务。付费方案从 $2.00/月（24 月）�?$6.99/月（1 月），所有付费套餐均不限流量、不限速，支持 5 台设备同时连接�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          EnterVPN 自建服务器网络覆盖 16 个国家 72+ 个节点，包括美国（洛杉矶/凤凰城/亚特兰大等）、英国（伦敦/伯明翰等）、加拿大（温哥华/多伦多等）、瑞典、芬兰、爱沙尼亚等。所有服务器均标配 10Gbps 端口，支持 WireGuard、OpenVPN（UDP/TCP）和 IKEv2 协议，并提供 SOCKS5 代理支持。采用 AES-256 位加密和零日志策略，配备 Kill Switch 和 DNS/IPv6 泄漏保护功能。
-        </p>
+          EnterVPN 自建服务器网络覆�?16 个国�?72+ 个节点，包括美国（洛杉矶/凤凰�?亚特兰大等）、英国（伦敦/伯明翰等）、加拿大（温哥华/多伦多等）、瑞典、芬兰、爱沙尼亚等。所有服务器均标�?10Gbps 端口，支�?WireGuard、OpenVPN（UDP/TCP）和 IKEv2 协议，并提供 SOCKS5 代理支持。采�?AES-256 位加密和零日志策略，配备 Kill Switch �?DNS/IPv6 泄漏保护功能�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          客户端覆盖主流平台：Android（Google Play）、iOS（App Store）、Windows、macOS，Linux 和 Chrome 扩展即将推出。支持 Stripe 信用卡支付、PayPal 和 CoinPayments 加密货币支付。提供 7 天退款保障，所有付费套餐均享受 24/7 客服支持、无限带宽以及解锁 Netflix、YouTube、Disney+ 等流媒体服务的能力。
-        </p>
+          客户端覆盖主流平台：Android（Google Play）、iOS（App Store）、Windows、macOS，Linux �?Chrome 扩展即将推出。支�?Stripe 信用卡支付、PayPal �?CoinPayments 加密货币支付。提�?7 天退款保障，所有付费套餐均享受 24/7 客服支持、无限带宽以及解�?Netflix、YouTube、Disney+ 等流媒体服务的能力�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-6">定价方案</h2>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50 text-center">
-            <div class="text-xs text-slate-500 mb-1">最佳价值</div>
+            <div class="text-xs text-slate-500 mb-1">最佳价�?/div>
             <div class="text-emerald-400 font-bold text-3xl">$2.00</div>
-            <div class="text-slate-400 text-sm mb-4">/月 · 24 月</div>
-            <div class="text-xs text-slate-500 mb-3">$48 每 24 月 · 72% 优惠</div>
+            <div class="text-slate-400 text-sm mb-4">/�?· 24 �?/div>
+            <div class="text-xs text-slate-500 mb-3">$48 �?24 �?· 72% 优惠</div>
             <ul class="text-sm text-slate-300 space-y-2 text-left">
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>不限流量不限速</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>5 设备同时连接</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>72+ 节点全部可用</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>7 天退款保障</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>不限流量不限�?/li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>5 设备同时连接</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>72+ 节点全部可用</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>7 天退款保�?/li>
             </ul>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50 text-center">
             <div class="text-xs text-slate-500 mb-1">推荐</div>
             <div class="text-emerald-400 font-bold text-3xl">$2.50</div>
-            <div class="text-slate-400 text-sm mb-4">/月 · 12 月</div>
+            <div class="text-slate-400 text-sm mb-4">/�?· 12 �?/div>
             <div class="text-xs text-slate-500 mb-3">$29.99 每年 · 64% 优惠</div>
             <ul class="text-sm text-slate-300 space-y-2 text-left">
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>不限流量不限速</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>5 设备同时连接</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>72+ 节点全部可用</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>7 天退款保障</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>不限流量不限�?/li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>5 设备同时连接</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>72+ 节点全部可用</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>7 天退款保�?/li>
             </ul>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-700/50 text-center">
             <div class="text-xs text-slate-500 mb-1">月付</div>
             <div class="text-emerald-400 font-bold text-3xl">$6.99</div>
-            <div class="text-slate-400 text-sm mb-4">/月 · 按月</div>
-            <div class="text-xs text-slate-500 mb-3">$6.99 每月 · 30 天风险试用</div>
+            <div class="text-slate-400 text-sm mb-4">/�?· 按月</div>
+            <div class="text-xs text-slate-500 mb-3">$6.99 每月 · 30 天风险试�?/div>
             <ul class="text-sm text-slate-300 space-y-2 text-left">
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>不限流量不限速</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>5 设备同时连接</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>72+ 节点全部可用</li>
-              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">•</span>7 天退款保障</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>不限流量不限�?/li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>5 设备同时连接</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>72+ 节点全部可用</li>
+              <li class="flex items-start gap-2"><span class="text-emerald-400 mt-0.5">�?/span>7 天退款保�?/li>
             </ul>
           </div>
         </div>
         <div class="mt-4 bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
           <div class="text-emerald-400 font-bold text-2xl">免费</div>
-          <div class="text-slate-400 text-sm mb-3">10+ 节点 · 1Gbps · 含广告 · 1 设备 · 有限流量</div>
+          <div class="text-slate-400 text-sm mb-3">10+ 节点 · 1Gbps · 含广�?· 1 设备 · 有限流量</div>
         </div>
       </section>
 
@@ -117,7 +114,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         </div>
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
-            <span class="text-sm text-slate-200">信用卡 (Visa/Mastercard/Amex/Discover)</span>
+            <span class="text-sm text-slate-200">信用�?(Visa/Mastercard/Amex/Discover)</span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <span class="text-sm text-slate-200">PayPal</span>
@@ -128,7 +125,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         </div>
         <div class="flex flex-wrap gap-3 mt-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
-            <span class="text-xs text-slate-300">7 天退款保障</span>
+            <span class="text-xs text-slate-300">7 天退款保�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
             <span class="text-xs text-slate-300">免费套餐可用</span>
@@ -137,31 +134,31 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">服务器节点</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">服务器节�?/h2>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
           <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
             <span class="text-slate-200 font-medium">🇺🇸 美国</span>
-            <p class="text-slate-500 text-xs mt-1">洛杉矶 · 凤凰城 · 亚特兰大 · 多个城市</p>
+            <p class="text-slate-500 text-xs mt-1">洛杉�?· 凤凰�?· 亚特兰大 · 多个城市</p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
             <span class="text-slate-200 font-medium">🇬🇧 英国</span>
-            <p class="text-slate-500 text-xs mt-1">伦敦 · 伯明翰 · 诺丁汉 · 布里斯托</p>
+            <p class="text-slate-500 text-xs mt-1">伦敦 · 伯明�?· 诺丁�?· 布里斯托</p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
-            <span class="text-slate-200 font-medium">🇨🇦 加拿大</span>
-            <p class="text-slate-500 text-xs mt-1">温哥华 · 多伦多 · 渥太华 · 维多利亚</p>
+            <span class="text-slate-200 font-medium">🇨🇦 加拿�?/span>
+            <p class="text-slate-500 text-xs mt-1">温哥�?· 多伦�?· 渥太�?· 维多利亚</p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
             <span class="text-slate-200 font-medium">🇸🇪 瑞典</span>
-            <p class="text-slate-500 text-xs mt-1">斯德哥尔摩 ·  Huskvarna · 哥德堡 · 赫尔辛堡</p>
+            <p class="text-slate-500 text-xs mt-1">斯德哥尔�?·  Huskvarna · 哥德�?· 赫尔辛堡</p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
             <span class="text-slate-200 font-medium">🇪🇪 爱沙尼亚</span>
-            <p class="text-slate-500 text-xs mt-1">塔林 · 塔尔图 · 纳尔瓦 · 拉克韦雷</p>
+            <p class="text-slate-500 text-xs mt-1">塔林 · 塔尔�?· 纳尔�?· 拉克韦雷</p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
             <span class="text-slate-200 font-medium">🇫🇮 芬兰</span>
-            <p class="text-slate-500 text-xs mt-1">赫尔辛基 · 图尔库 · 库奥皮奥 · 万塔</p>
+            <p class="text-slate-500 text-xs mt-1">赫尔辛基 · 图尔�?· 库奥皮奥 · 万塔</p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
             <span class="text-slate-200 font-medium">🌍 更多</span>
@@ -171,19 +168,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$2/月起，价格极具竞争力</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>永久免费套餐，低门槛体验</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>不限流量不限速，10Gbps 端口</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支持 WireGuard / OpenVPN / IKEv2 / SOCKS5</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>AES-256 加密 + 零日志 + Kill Switch</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>7 天退款 + 多支付方式</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>$2/月起，价格极具竞争力</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>永久免费套餐，低门槛体验</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>不限流量不限速，10Gbps 端口</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>支持 WireGuard / OpenVPN / IKEv2 / SOCKS5</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>AES-256 加密 + 零日�?+ Kill Switch</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>7 天退�?+ 多支付方�?/span></li>
             </ul>
           </div>
           <div>
@@ -191,12 +188,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>管辖地不明确，未披露公司注册地</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌较新，市场知名度有限</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>Linux / Chrome 客户端尚未发布</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>服务器节点集中在欧美，亚洲/澳洲较少</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>免费套餐含广告且有流量限制</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面，仅支持英文</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>管辖地不明确，未披露公司注册�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>品牌较新，市场知名度有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>Linux / Chrome 客户端尚未发�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>服务器节点集中在欧美，亚�?澳洲较少</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>免费套餐含广告且有流量限�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面，仅支持英�?/span></li>
             </ul>
           </div>
         </div>
@@ -205,14 +202,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          EnterVPN 是一个以高性价比为核心定位的 VPN 服务商。$2.00/月（24 月方案）的价格在市场中具有极强的竞争力，配合不限流量、不限速、5 设备同时连接的政策，对于预算有限但需要稳定 VPN 服务的用户来说非常友好。其免费套餐的存在也降低了用户尝试门槛——即使不付费也能体验 10+ 节点的 VPN 服务。
-        </p>
+          EnterVPN 是一个以高性价比为核心定位�?VPN 服务商�?2.00/月（24 月方案）的价格在市场中具有极强的竞争力，配合不限流量、不限速�? 设备同时连接的政策，对于预算有限但需要稳�?VPN 服务的用户来说非常友好。其免费套餐的存在也降低了用户尝试门槛——即使不付费也能体验 10+ 节点�?VPN 服务�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          技术配置方面，EnterVPN 支持多种主流协议（WireGuard / OpenVPN / IKEv2），AES-256 加密和零日志策略符合行业标准。72+ 节点覆盖 16 个国家，10Gbps 端口提供充足带宽。对 Netflix、YouTube、Disney+ 等流媒体平台的支持也是加分项。多平台客户端覆盖 Android、iOS、Windows 和 macOS，适应主流使用场景。
-        </p>
+          技术配置方面，EnterVPN 支持多种主流协议（WireGuard / OpenVPN / IKEv2），AES-256 加密和零日志策略符合行业标准�?2+ 节点覆盖 16 个国家，10Gbps 端口提供充足带宽。对 Netflix、YouTube、Disney+ 等流媒体平台的支持也是加分项。多平台客户端覆�?Android、iOS、Windows �?macOS，适应主流使用场景�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于管辖地不明、品牌较新、节点集中在欧美以及 Linux/Chrome 客户端尚未发布。综合评估，EnterVPN 获得 7.5 分评价。特别推荐给预算敏感型用户、需要免费套餐体验 VPN 的新手用户、以及需要不限流量方案用于流媒体解锁和日常隐私保护的用户。对于需要严格隐私管辖地或亚洲节点的用户，建议同时考虑其他 VPN 方案。
-        </p>
+          主要局限在于管辖地不明、品牌较新、节点集中在欧美以及 Linux/Chrome 客户端尚未发布。综合评估，EnterVPN 获得 7.5 分评价。特别推荐给预算敏感型用户、需要免费套餐体�?VPN 的新手用户、以及需要不限流量方案用于流媒体解锁和日常隐私保护的用户。对于需要严格隐私管辖地或亚洲节点的用户，建议同时考虑其他 VPN 方案�?        </p>
       </section>
 
       <div class="text-center">

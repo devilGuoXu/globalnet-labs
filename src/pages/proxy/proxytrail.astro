@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="ProxyTrail 深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -28,11 +28,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.0</div>
-            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净�?/div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.0</div>
-            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富�?/div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">8.0</div>
@@ -48,14 +48,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxyTrail 是一家面向独联体市场的俄罗斯语代理服务商（成立于 2021 年），主打独享数据中心 IPv4 代理。平台提供私有代理、批量代理、SOCKS5 代理、无限流量代理和精英代理等多条产品线，覆盖 50+ 个国家和地区。其核心定位是为个人用户和中小企业提供高性价比、无需实名的独享 IP 代理服务。
-        </p>
+          ProxyTrail 是一家面向独联体市场的俄罗斯语代理服务商（成立于 2021 年），主打独享数据中�?IPv4 代理。平台提供私有代理、批量代理、SOCKS5 代理、无限流量代理和精英代理等多条产品线，覆�?50+ 个国家和地区。其核心定位是为个人用户和中小企业提供高性价比、无需实名的独�?IP 代理服务�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxyTrail 所有代理均为独享（私有）类型，每个 IP 只分配给一个客户使用，避免了共享代理常见的连带封禁问题。服务器提供最高 100 Mbps 速度，支持 HTTP(s) 和 SOCKS4/5 双协议。平台覆盖俄罗斯、乌克兰、哈萨克斯坦、美国、欧洲、土耳其、中国、印尼、新加坡、立陶宛等 50+ 国家。
-        </p>
+          ProxyTrail 所有代理均为独享（私有）类型，每个 IP 只分配给一个客户使用，避免了共享代理常见的连带封禁问题。服务器提供最�?100 Mbps 速度，支�?HTTP(s) �?SOCKS4/5 双协议。平台覆盖俄罗斯、乌克兰、哈萨克斯坦、美国、欧洲、土耳其、中国、印尼、新加坡、立陶宛�?50+ 国家�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          代理采用访问码（Access Code）认证方式，购买后通过邮箱接收访问码，在个人中心输入即可激活使用。支持 1/3/6/12 个月的灵活租期选择。平台同时提供针对 Discord、YouTube、Telegram、Steam、PlayStation、Trading、Facebook、Instagram 等 10+ 平台的目标优化方案。支持 Telegram、Facebook、VK 社交渠道和 Trustpilot 评价。
-        </p>
+          代理采用访问码（Access Code）认证方式，购买后通过邮箱接收访问码，在个人中心输入即可激活使用。支�?1/3/6/12 个月的灵活租期选择。平台同时提供针�?Discord、YouTube、Telegram、Steam、PlayStation、Trading、Facebook、Instagram �?10+ 平台的目标优化方案。支�?Telegram、Facebook、VK 社交渠道�?Trustpilot 评价�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
@@ -63,84 +60,84 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="grid md:grid-cols-2 gap-4">
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50">
             <div class="text-lg font-bold text-slate-100 mb-1">私有代理</div>
-            <div class="text-2xl font-bold text-emerald-400 mb-4">$1.5<small class="text-sm text-slate-500 font-normal">/月/IP 起</small></div>
-            <p class="text-sm text-slate-400 mb-4">独享数据中心 IPv4 代理，100 Mbps 高速连接</p>
+            <div class="text-2xl font-bold text-emerald-400 mb-4">$1.5<small class="text-sm text-slate-500 font-normal">/�?IP �?/small></div>
+            <p class="text-sm text-slate-400 mb-4">独享数据中心 IPv4 代理�?00 Mbps 高速连�?/p>
             <ul class="space-y-2 text-sm text-slate-300">
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>1 IP $1.5 → 500 IP $200/月</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>HTTP(s)/SOCKS4/5 协议</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>100 Mbps 速度</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>50+ 国家选择</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>1/3/6/12 月租期</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>1 IP $1.5 �?500 IP $200/�?/li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>HTTP(s)/SOCKS4/5 协议</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>100 Mbps 速度</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>50+ 国家选择</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>1/3/6/12 月租�?/li>
             </ul>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50">
             <div class="text-lg font-bold text-slate-100 mb-1">无限流量代理</div>
             <div class="text-2xl font-bold text-emerald-400 mb-4">不限流量</div>
-            <p class="text-sm text-slate-400 mb-4">无流量限制，适合长期高负荷使用</p>
+            <p class="text-sm text-slate-400 mb-4">无流量限制，适合长期高负荷使�?/p>
             <ul class="space-y-2 text-sm text-slate-300">
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>不限制流量消耗</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>HTTP(s)/SOCKS4/5 协议</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>100 Mbps 速度</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>独享 IP 不共享</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>24/7 技术支持</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>不限制流量消�?/li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>HTTP(s)/SOCKS4/5 协议</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>100 Mbps 速度</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>独享 IP 不共�?/li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>24/7 技术支�?/li>
             </ul>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50">
             <div class="text-lg font-bold text-slate-100 mb-1">精英代理</div>
-            <div class="text-2xl font-bold text-emerald-400 mb-4">$100<small class="text-sm text-slate-500 font-normal">/月/IP</small></div>
-            <p class="text-sm text-slate-400 mb-4">高端独享 IP，更高匿名性和优先技术支持</p>
+            <div class="text-2xl font-bold text-emerald-400 mb-4">$100<small class="text-sm text-slate-500 font-normal">/�?IP</small></div>
+            <p class="text-sm text-slate-400 mb-4">高端独享 IP，更高匿名性和优先技术支�?/p>
             <ul class="space-y-2 text-sm text-slate-300">
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>优先技术支持</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>HTTP(s)/SOCKS4/5 协议</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>100 Mbps 速度</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>更高匿名性保障</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>IPv4 协议</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>优先技术支�?/li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>HTTP(s)/SOCKS4/5 协议</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>100 Mbps 速度</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>更高匿名性保�?/li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>IPv4 协议</li>
             </ul>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50">
             <div class="text-lg font-bold text-slate-100 mb-1">批量代理</div>
-            <div class="text-2xl font-bold text-emerald-400 mb-4">$0.40<small class="text-sm text-slate-500 font-normal">/IP/月（批量）</small></div>
-            <p class="text-sm text-slate-400 mb-4">大批量 IP 需求，200+ IP 起，单价更低</p>
+            <div class="text-2xl font-bold text-emerald-400 mb-4">$0.40<small class="text-sm text-slate-500 font-normal">/IP/月（批量�?/small></div>
+            <p class="text-sm text-slate-400 mb-4">大批�?IP 需求，200+ IP 起，单价更低</p>
             <ul class="space-y-2 text-sm text-slate-300">
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>200 IP $90 → 500 IP $200/月</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>HTTP(s)/SOCKS4/5 协议</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>100 Mbps 速度</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>独享 IP 不共享</li>
-              <li class="flex items-center gap-2"><span class="text-emerald-400">•</span>适合数据采集</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>200 IP $90 �?500 IP $200/�?/li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>HTTP(s)/SOCKS4/5 协议</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>100 Mbps 速度</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>独享 IP 不共�?/li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">�?/span>适合数据采集</li>
             </ul>
           </div>
         </div>
         <div class="mt-4 text-center text-sm text-slate-500">
-          使用优惠码 SAVE15 可享 15% 折扣 · 支持 1/3/6/12 月租期 · 覆盖 50+ 国家
+          使用优惠�?SAVE15 可享 15% 折扣 · 支持 1/3/6/12 月租�?· 覆盖 50+ 国家
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详�?/h2>
         <div class="space-y-6">
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">独享 IP，一人一 IP</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">ProxyTrail 所有代理均为独享（私有）类型，每个 IP 地址在同一时间内只分配给一个客户。这从根本上避免了共享代理常见的连带封禁问题——其他用户的违规行为不会影响到你的代理。对于需要长期稳定 IP 的社媒运营和电商账号管理场景尤为重要。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxyTrail 所有代理均为独享（私有）类型，每个 IP 地址在同一时间内只分配给一个客户。这从根本上避免了共享代理常见的连带封禁问题——其他用户的违规行为不会影响到你的代理。对于需要长期稳�?IP 的社媒运营和电商账号管理场景尤为重要�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无需实名，保护隐私</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">ProxyTrail 注册和购买无需实名认证，支持加密货币（Bitcoin/USDT）支付，对注重隐私的用户友好。平台实行无日志政策，不记录用户的上网活动数据。对于独联体地区用户来说，这一特点在同类产品中具有吸引力。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无需实名，保护隐�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxyTrail 注册和购买无需实名认证，支持加密货币（Bitcoin/USDT）支付，对注重隐私的用户友好。平台实行无日志政策，不记录用户的上网活动数据。对于独联体地区用户来说，这一特点在同类产品中具有吸引力�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">50+ 国家覆盖，灵活选择</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">覆盖俄罗斯、乌克兰、哈萨克斯坦、美国、德国、土耳其、中国、印度尼西亚、新加坡、立陶宛、阿联酋（迪拜）等 50+ 个国家和地区。每个国家内还可选择特定城市级别定位，满足本地化需求。独联体国家（俄罗斯、乌克兰、哈萨克斯坦）的覆盖广度是该平台的核心优势。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">覆盖俄罗斯、乌克兰、哈萨克斯坦、美国、德国、土耳其、中国、印度尼西亚、新加坡、立陶宛、阿联酋（迪拜）�?50+ 个国家和地区。每个国家内还可选择特定城市级别定位，满足本地化需求。独联体国家（俄罗斯、乌克兰、哈萨克斯坦）的覆盖广度是该平台的核心优势�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">HTTP(s) + SOCKS4/5 双协议支持</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">同时支持 HTTP(s) 和 SOCKS4/5 两种协议。SOCKS5 支持 UDP 流量转发，适合游戏、流媒体和实时通信应用。HTTP(s) 则在网页抓取和浏览器配置中更为便捷。双协议兼容性确保了 ProxyTrail 可适用于从简单网页浏览到复杂网络应用的广泛场景。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">HTTP(s) + SOCKS4/5 双协议支�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">同时支持 HTTP(s) �?SOCKS4/5 两种协议。SOCKS5 支持 UDP 流量转发，适合游戏、流媒体和实时通信应用。HTTP(s) 则在网页抓取和浏览器配置中更为便捷。双协议兼容性确保了 ProxyTrail 可适用于从简单网页浏览到复杂网络应用的广泛场景�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">目标平台优化方案</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">ProxyTrail 针对 10+ 主流平台提供专门优化配置方案，包括 Discord、YouTube、Wireguard、Smarttube、Telegram、Steam、PlayStation、Trading（交易平台）、Facebook、Instagram 等。每套方案针对目标平台的风控策略和网络特征进行优化，降低被封禁风险。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxyTrail 针对 10+ 主流平台提供专门优化配置方案，包�?Discord、YouTube、Wireguard、Smarttube、Telegram、Steam、PlayStation、Trading（交易平台）、Facebook、Instagram 等。每套方案针对目标平台的风控策略和网络特征进行优化，降低被封禁风险�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">访问码认证 + 24/7 俄语支持</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">采用访问码（Access Code）认证方式，购买后通过邮箱接收代码即可激活。24/7 俄语技术客服可通过 Telegram、Facebook、VK 和官网联系。Trustpilot 评价体系和活跃的社交媒体账号增加了平台可信度。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">访问码认�?+ 24/7 俄语支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">采用访问码（Access Code）认证方式，购买后通过邮箱接收代码即可激活�?4/7 俄语技术客服可通过 Telegram、Facebook、VK 和官网联系。Trustpilot 评价体系和活跃的社交媒体账号增加了平台可信度�?/p>
           </div>
         </div>
       </section>
@@ -149,54 +146,54 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 独联体地区社媒运营</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyTrail 在俄罗斯、乌克兰、哈萨克斯坦等独联体国家的 IP 覆盖深度是其核心优势。对于需要运营 VK、Yandex、Telegram 等本地平台的团队，本地 IP 的纯净度和速度表现理想。独享 IP 避免了共享代理常见的连带封禁问题。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 独联体地区社媒运�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyTrail 在俄罗斯、乌克兰、哈萨克斯坦等独联体国家�?IP 覆盖深度是其核心优势。对于需要运�?VK、Yandex、Telegram 等本地平台的团队，本�?IP 的纯净度和速度表现理想。独�?IP 避免了共享代理常见的连带封禁问题�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 游戏加速与低延迟连接</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">SOCKS5 支持 UDP 转发，使 ProxyTrail 适合在线游戏、PlayStation、Steam 等场景。100 Mbps 速度和独享带宽保障了稳定的低延迟连接。针对 Discord、Steam、PlayStation 有专门优化方案。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 游戏加速与低延迟连�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">SOCKS5 支持 UDP 转发，使 ProxyTrail 适合在线游戏、PlayStation、Steam 等场景�?00 Mbps 速度和独享带宽保障了稳定的低延迟连接。针�?Discord、Steam、PlayStation 有专门优化方案�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 跨境电商与价格监控</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">独享 IP 减少了被电商平台风控系统标记的风险。美国、欧洲、中国、土耳其等多国 IP 适合监控 Amazon、eBay、AliExpress 等平台的商品价格。批量代理方案（$0.40/IP/月）为大规-模监控提供了成本优势。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 跨境电商与价格监�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">独享 IP 减少了被电商平台风控系统标记的风险。美国、欧洲、中国、土耳其等多�?IP 适合监控 Amazon、eBay、AliExpress 等平台的商品价格。批量代理方案（$0.40/IP/月）为大�?模监控提供了成本优势�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 数据采集与网页抓取</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">独享数据中心代理的高速度和稳定性适合中小规模数据采集任务。不限流量方案消除了对流量消耗的顾虑。购买前可通过访问码激活测试可用性。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 数据采集与网页抓�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">独享数据中心代理的高速度和稳定性适合中小规模数据采集任务。不限流量方案消除了对流量消耗的顾虑。购买前可通过访问码激活测试可用性�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 隐私保护与匿名浏览</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">无需实名注册、加密货币支付、无日志政策和支持 BitTorrent 流量，使 ProxyTrail 适合对隐私有较高要求的用户。独享 IP 避免了因他人行为导致 IP 被污染的风险。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 隐私保护与匿名浏�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">无需实名注册、加密货币支付、无日志政策和支�?BitTorrent 流量，使 ProxyTrail 适合对隐私有较高要求的用户。独�?IP 避免了因他人行为导致 IP 被污染的风险�?/p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
-        <p class="text-slate-300 text-sm mb-4">ProxyTrail 提供按 IP 数量递增的定价方案，批量采购单价更低：</p>
+        <p class="text-slate-300 text-sm mb-4">ProxyTrail 提供�?IP 数量递增的定价方案，批量采购单价更低�?/p>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-800/50 text-center">
             <div class="text-lg font-bold text-emerald-400">$1.5</div>
-            <div class="text-xs text-slate-500">/月</div>
+            <div class="text-xs text-slate-500">/�?/div>
             <div class="text-sm text-slate-300 mt-1">1 IP</div>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-800/50 text-center">
             <div class="text-lg font-bold text-emerald-400">$9</div>
-            <div class="text-xs text-slate-500">/月</div>
+            <div class="text-xs text-slate-500">/�?/div>
             <div class="text-sm text-slate-300 mt-1">10 IP</div>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-800/50 text-center">
             <div class="text-lg font-bold text-emerald-400">$50</div>
-            <div class="text-xs text-slate-500">/月</div>
+            <div class="text-xs text-slate-500">/�?/div>
             <div class="text-sm text-slate-300 mt-1">100 IP</div>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-800/50 text-center">
             <div class="text-lg font-bold text-emerald-400">$200</div>
-            <div class="text-xs text-slate-500">/月</div>
+            <div class="text-xs text-slate-500">/�?/div>
             <div class="text-sm text-slate-300 mt-1">500 IP</div>
           </div>
         </div>
-        <p class="text-xs text-slate-500 mt-3 text-center">5 IP $5.25/月 · 25 IP $15/月 · 50 IP $27.5/月 · 200 IP $90/月 · 优惠码 SAVE15 可享 15% 折扣 · 支持 1/3/6/12 月租期</p>
+        <p class="text-xs text-slate-500 mt-3 text-center">5 IP $5.25/�?· 25 IP $15/�?· 50 IP $27.5/�?· 200 IP $90/�?· 优惠�?SAVE15 可享 15% 折扣 · 支持 1/3/6/12 月租�?/p>
       </section>
 
       <!-- 支付方式 -->
@@ -231,19 +228,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>独享 IP 不共享，无连带封禁风险</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$1.5/IP/月 起，批量低至 $0.40/IP/月</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>独联体国家（俄/乌/哈）IP 覆盖深度佳</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无需实名 + 加密货币支付 + 无日志</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>HTTP(s)/SOCKS4/5 双协议 + UDP 支持</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>24/7 俄语客服 + Trustpilot 评价</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>独享 IP 不共享，无连带封禁风�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>$1.5/IP/�?起，批量低至 $0.40/IP/�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>独联体国家（�?�?哈）IP 覆盖深度�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>无需实名 + 加密货币支付 + 无日�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>HTTP(s)/SOCKS4/5 双协�?+ UDP 支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>24/7 俄语客服 + Trustpilot 评价</span></li>
             </ul>
           </div>
           <div>
@@ -251,12 +248,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅数据中心代理，无住宅/移动代理</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>没有英文/中文界面，仅支持俄语</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌成立较晚（2021年），知名度有限</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>非独联体地区（中美日韩等）覆盖一般</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 API 接口，自动化支持有限</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>100 Mbps 速度对于高带宽场景略显不足</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>仅数据中心代理，无住�?移动代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>没有英文/中文界面，仅支持俄语</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>品牌成立较晚�?021年），知名度有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>非独联体地区（中美日韩等）覆盖一�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>�?API 接口，自动化支持有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>100 Mbps 速度对于高带宽场景略显不�?/span></li>
             </ul>
           </div>
         </div>
@@ -265,14 +262,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxyTrail 是一家面向独联体市场的独享数据中心代理服务商，以 $1.5/IP/月 起的定价和无需实名的特点在个人用户和小型企业中建立了口碑。独享 IP 不共享的机制避免了连带封禁问题，在社媒运营和账号管理场景中具有实际价值。俄罗斯、乌克兰、哈萨克斯坦等独联体国家的 IP 覆盖深度是其区别于一般代理服务商的核心优势。
-        </p>
+          ProxyTrail 是一家面向独联体市场的独享数据中心代理服务商，以 $1.5/IP/�?起的定价和无需实名的特点在个人用户和小型企业中建立了口碑。独�?IP 不共享的机制避免了连带封禁问题，在社媒运营和账号管理场景中具有实际价值。俄罗斯、乌克兰、哈萨克斯坦等独联体国家�?IP 覆盖深度是其区别于一般代理服务商的核心优势�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          HTTP(s)/SOCKS4/5 双协议支持、加密货币支付、无日志政策和 24/7 俄语客服构成了完整的服务闭环。SAVE15 优惠码提供 15% 折扣，批量采购方案低至 $0.40/IP/月，在数据中心代理市场中拥有价格竞争力。
-        </p>
+          HTTP(s)/SOCKS4/5 双协议支持、加密货币支付、无日志政策�?24/7 俄语客服构成了完整的服务闭环。SAVE15 优惠码提�?15% 折扣，批量采购方案低�?$0.40/IP/月，在数据中心代理市场中拥有价格竞争力�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于仅提供数据中心代理（无住宅/移动）、仅支持俄语（无英文/中文）、品牌成立较晚以及非独联体地区覆盖一般。综合评估，ProxyTrail 获得 7.3 分评价。特别推荐给需要独享独联体地区 IP 的社媒运营团队、游戏玩家和注重隐私的个人用户。
-        </p>
+          主要局限在于仅提供数据中心代理（无住宅/移动）、仅支持俄语（无英文/中文）、品牌成立较晚以及非独联体地区覆盖一般。综合评估，ProxyTrail 获得 7.3 分评价。特别推荐给需要独享独联体地区 IP 的社媒运营团队、游戏玩家和注重隐私的个人用户�?        </p>
       </section>
 
       <div class="text-center">

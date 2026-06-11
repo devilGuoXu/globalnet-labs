@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="ProxyLite 代理深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -19,7 +19,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">住宅代理</span>
           </div>
-          <p class="text-slate-400 mt-1">住宅代理 · 静态住宅 · 数据中心 · ISP 代理 · Scraper API</p>
+          <p class="text-slate-400 mt-1">住宅代理 · 静态住�?· 数据中心 · ISP 代理 · Scraper API</p>
         </div>
       </div>
 
@@ -28,11 +28,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="grid md:grid-cols-2 gap-4 text-sm">
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">产品类型</span>
-            <p class="text-slate-200 font-medium mt-1">住宅代理 · 静态住宅 · 静态数据中心 · ISP · 无限住宅 · Scraper API</p>
+            <p class="text-slate-200 font-medium mt-1">住宅代理 · 静态住�?· 静态数据中�?· ISP · 无限住宅 · Scraper API</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">IP 池规模</span>
-            <p class="text-slate-200 font-medium mt-1">7200 万+ 住宅 IP，190+ 国家</p>
+            <span class="text-slate-500">IP 池规�?/span>
+            <p class="text-slate-200 font-medium mt-1">7200 �? 住宅 IP�?90+ 国家</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">协议支持</span>
@@ -40,7 +40,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">语言支持</span>
-            <p class="text-slate-200 font-medium mt-1">中文 · 英文 · 俄语 · 德语 · 越南语 · 印尼语 · 印地语 · 葡萄牙语</p>
+            <p class="text-slate-200 font-medium mt-1">中文 · 英文 · 俄语 · 德语 · 越南�?· 印尼�?· 印地�?· 葡萄牙语</p>
           </div>
         </div>
       </section>
@@ -48,14 +48,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-6">产品概述</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxyLite 是一家产品线极为丰富的代理服务商，提供住宅代理、静态住宅代理、无限住宅代理、静态数据中心代理和长效 ISP 代理五条核心产品线，此外还提供 Web Scraper API、SERP API 和 Video Downloader API 等数据采集工具。7200 万+ 住宅 IP 和 190+ 国家覆盖使其在代理资源规模上处于行业中上水平。
-        </p>
+          ProxyLite 是一家产品线极为丰富的代理服务商，提供住宅代理、静态住宅代理、无限住宅代理、静态数据中心代理和长效 ISP 代理五条核心产品线，此外还提�?Web Scraper API、SERP API �?Video Downloader API 等数据采集工具�?200 �? 住宅 IP �?190+ 国家覆盖使其在代理资源规模上处于行业中上水平�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxyLite 的一大特色是多语言支持——官网提供中文、英文、俄语、德语、越南语、印尼语、印地语、葡萄牙语等 8 种语言界面，对全球用户都非常友好。此外，平台还提供免费的 Proxy Checker、ProxySite 代理网站、免费代理列表等工具，以及 MCP Server 支持，显示出其对开发者社区和普通用户的兼顾。
-        </p>
+          ProxyLite 的一大特色是多语言支持——官网提供中文、英文、俄语、德语、越南语、印尼语、印地语、葡萄牙语等 8 种语言界面，对全球用户都非常友好。此外，平台还提供免费的 Proxy Checker、ProxySite 代理网站、免费代理列表等工具，以�?MCP Server 支持，显示出其对开发者社区和普通用户的兼顾�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          平台还提供最多 1GB/月的免费代理服务，让用户可以零成本体验代理服务。对于需要大规模数据采集的团队，Scraper API 和 SERP API 提供了开箱即用的数据提取能力，覆盖 Google、Bing、Amazon、Instagram 等主流目标网站。
-        </p>
+          平台还提供最�?1GB/月的免费代理服务，让用户可以零成本体验代理服务。对于需要大规模数据采集的团队，Scraper API �?SERP API 提供了开箱即用的数据提取能力，覆�?Google、Bing、Amazon、Instagram 等主流目标网站�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
@@ -63,7 +60,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 
         <div class="mb-8">
           <h3 class="text-emerald-400 font-semibold text-lg mb-3">住宅代理</h3>
-          <p class="text-sm text-slate-400 leading-relaxed mb-4">7200 万+ 真实住宅 IP，190+ 国家覆盖，高匿名性，适合数据采集、社媒运营等场景。按 GB 计费，支持粘性会话和自动轮换。</p>
+          <p class="text-sm text-slate-400 leading-relaxed mb-4">7200 �? 真实住宅 IP�?90+ 国家覆盖，高匿名性，适合数据采集、社媒运营等场景。按 GB 计费，支持粘性会话和自动轮换�?/p>
           <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
             <img src={`${base}/images/proxylite-res-price.webp`} alt="ProxyLite 住宅代理价格" class="max-w-full h-auto" />
           </div>
@@ -71,17 +68,17 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 
         <div class="grid md:grid-cols-2 gap-4 mb-6">
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
-            <h3 class="text-emerald-400 font-semibold mb-2">静态住宅代理</h3>
+            <h3 class="text-emerald-400 font-semibold mb-2">静态住宅代�?/h3>
             <p class="text-2xl font-bold text-slate-100 mb-2">$5.50<span class="text-sm text-slate-400 font-normal">/IP</span></p>
-            <p class="text-xs text-slate-400">数据中心托管真实住宅 IP，永久静态 IP 会话</p>
+            <p class="text-xs text-slate-400">数据中心托管真实住宅 IP，永久静�?IP 会话</p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold mb-2">无限住宅代理</h3>
-            <p class="text-2xl font-bold text-slate-100 mb-2">$9.82<span class="text-sm text-slate-400 font-normal">/小时起</span></p>
-            <p class="text-xs text-slate-400">无限流量 + 无限并发，190+ 区域真实住宅 IP</p>
+            <p class="text-2xl font-bold text-slate-100 mb-2">$9.82<span class="text-sm text-slate-400 font-normal">/小时�?/span></p>
+            <p class="text-xs text-slate-400">无限流量 + 无限并发�?90+ 区域真实住宅 IP</p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
-            <h3 class="text-emerald-400 font-semibold mb-2">静态数据中心代理</h3>
+            <h3 class="text-emerald-400 font-semibold mb-2">静态数据中心代�?/h3>
             <p class="text-2xl font-bold text-slate-100 mb-2">$2.10<span class="text-sm text-slate-400 font-normal">/IP</span></p>
             <p class="text-xs text-slate-400">无限带宽和会话，HTTP/SOCKS5</p>
           </div>
@@ -97,20 +94,20 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <h2 class="text-xl font-bold text-slate-100 mb-6">核心功能</h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多产品线全覆盖</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">ProxyLite 是业内产品线最丰富的代理平台之一，从低成本数据中心到高匿名住宅代理，从按 GB 计费到无限流量，从静态 IP 到长效 ISP，几乎覆盖了所有主流代理类型。用户可以在一个平台满足多种使用场景。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多产品线全覆�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxyLite 是业内产品线最丰富的代理平台之一，从低成本数据中心到高匿名住宅代理，从按 GB 计费到无限流量，从静�?IP 到长�?ISP，几乎覆盖了所有主流代理类型。用户可以在一个平台满足多种使用场景�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据采集工具生态</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">除代理服务外，还提供 Web Scraper API（一站式网页数据采集平台）、SERP API（搜索引擎结果采集）、Video Downloader API（视频数据提取）。这些工具与代理服务深度集成，降低了数据采集的技术门槛。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据采集工具生�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">除代理服务外，还提供 Web Scraper API（一站式网页数据采集平台）、SERP API（搜索引擎结果采集）、Video Downloader API（视频数据提取）。这些工具与代理服务深度集成，降低了数据采集的技术门槛�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">多语言与全球化</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">官网支持 8 种语言（含简体中文），这在代理服务商中较为罕见。中文界面和本地化的支持文档大幅降低了中文用户的使用门槛。同时提供 Telegram、Discord 等社区渠道，以及详尽的用户指南和博客文章。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">官网支持 8 种语言（含简体中文），这在代理服务商中较为罕见。中文界面和本地化的支持文档大幅降低了中文用户的使用门槛。同时提�?Telegram、Discord 等社区渠道，以及详尽的用户指南和博客文章�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">免费工具与 MCP Server</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">提供最多 1GB/月的免费代理、免费的在线 Proxy Checker、基于 Web 的 ProxySite 代理网站和 CroxyProxy，以及 MCP Server 支持。这些免费工具和 AI 集成能力使其对开发者和普通用户都具有吸引力。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">免费工具�?MCP Server</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供最�?1GB/月的免费代理、免费的在线 Proxy Checker、基�?Web �?ProxySite 代理网站�?CroxyProxy，以�?MCP Server 支持。这些免费工具和 AI 集成能力使其对开发者和普通用户都具有吸引力�?/p>
           </div>
         </div>
       </section>
@@ -125,7 +122,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡</span>
+            <span class="text-sm text-slate-200">信用�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
@@ -140,19 +137,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>五条核心代理产品线 + Scraper API，选择极其丰富</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>7200 万+ 住宅 IP，190+ 国家覆盖</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>8 种语言支持（含简体中文），国际化程度高</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费代理（1GB/月）+ Proxy Checker 等免费工具</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>MCP Server + Scraper API + SERP API，AI/数据采集工具完善</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.5% 成功率，99%+ 在线率保障</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>五条核心代理产品�?+ Scraper API，选择极其丰富</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>7200 �? 住宅 IP�?90+ 国家覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>8 种语言支持（含简体中文），国际化程度�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>免费代理�?GB/月）+ Proxy Checker 等免费工�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>MCP Server + Scraper API + SERP API，AI/数据采集工具完善</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>99.5% 成功率，99%+ 在线率保�?/span></li>
             </ul>
           </div>
           <div>
@@ -160,11 +157,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>各产品线覆盖的国家范围不同，部分线路仅限 28 国</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度不及 Bright Data、Oxylabs 等头部厂商</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无移动代理产品线</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无限方案按时计费，适合短期高并发，长期使用成本较高</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无公开的客户评价/Trustpilot 评分</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>各产品线覆盖的国家范围不同，部分线路仅限 28 �?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>品牌知名度不�?Bright Data、Oxylabs 等头部厂�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无移动代理产品线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无限方案按时计费，适合短期高并发，长期使用成本较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无公开的客户评�?Trustpilot 评分</span></li>
             </ul>
           </div>
         </div>
@@ -173,14 +170,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxyLite 是一个产品线极为丰富的代理服务平台，五条代理产品线（住宅/静态住宅/无限住宅/数据中心/ISP）加上 Scraper API、SERP API 等数据采集工具，使其在功能覆盖面上达到行业领先水平。7200 万+ 住宅 IP 和 190+ 国家覆盖满足主流数据采集需求，8 种语言支持（含简体中文）对全球用户都非常友好。
-        </p>
+          ProxyLite 是一个产品线极为丰富的代理服务平台，五条代理产品线（住宅/静态住�?无限住宅/数据中心/ISP）加�?Scraper API、SERP API 等数据采集工具，使其在功能覆盖面上达到行业领先水平�?200 �? 住宅 IP �?190+ 国家覆盖满足主流数据采集需求，8 种语言支持（含简体中文）对全球用户都非常友好�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          $1.05/GB 的住宅代理起价在行业中具有竞争力，免费代理和免费 Proxy Checker 等工具降低了用户体验门槛。MCP Server 支持和 Scraper API 集成使其在 AI 数据采集场景中具备差异化优势。
-        </p>
+          $1.05/GB 的住宅代理起价在行业中具有竞争力，免费代理和免费 Proxy Checker 等工具降低了用户体验门槛。MCP Server 支持�?Scraper API 集成使其�?AI 数据采集场景中具备差异化优势�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于各产品线的覆盖范围不一致、缺少移动代理产品线和品牌知名度相对有限。综合评估，ProxyLite 获得 7.3 分评价。特别推荐给需要多产品线一站式采购的团队、需要中文界面和中文支持的国内外用户，以及需要通过 Scraper API 快速构建数据管道的开发者。
-        </p>
+          主要局限在于各产品线的覆盖范围不一致、缺少移动代理产品线和品牌知名度相对有限。综合评估，ProxyLite 获得 7.3 分评价。特别推荐给需要多产品线一站式采购的团队、需要中文界面和中文支持的国内外用户，以及需要通过 Scraper API 快速构建数据管道的开发者�?        </p>
       </section>
 
       <div class="text-center">

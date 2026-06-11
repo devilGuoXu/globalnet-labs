@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="QuickProxy 代理深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -19,7 +19,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">住宅代理</span>
           </div>
-          <p class="text-slate-400 mt-1">住宅代理 · 超低延迟 · 城市/ISP 级定位 · 统一网关</p>
+          <p class="text-slate-400 mt-1">住宅代理 · 超低延迟 · 城市/ISP 级定�?· 统一网关</p>
         </div>
       </div>
 
@@ -28,15 +28,15 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="grid md:grid-cols-2 gap-4 text-sm">
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">产品类型</span>
-            <p class="text-slate-200 font-medium mt-1">住宅代理（Residential Proxy）</p>
+            <p class="text-slate-200 font-medium mt-1">住宅代理（Residential Proxy�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">IP 池规模</span>
-            <p class="text-slate-200 font-medium mt-1">900 万+ 住宅 IP，150+ 国家，城市/ISP 级定位</p>
+            <span class="text-slate-500">IP 池规�?/span>
+            <p class="text-slate-200 font-medium mt-1">900 �? 住宅 IP�?50+ 国家，城�?ISP 级定�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">性能指标</span>
-            <p class="text-slate-200 font-medium mt-1">0.3-0.5s 响应 · 99.9% 在线率 · 粘性会话 30 分钟</p>
+            <p class="text-slate-200 font-medium mt-1">0.3-0.5s 响应 · 99.9% 在线�?· 粘性会�?30 分钟</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">接入方式</span>
@@ -46,46 +46,43 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          QuickProxy 是一家专注住宅代理的服务商，定位为"为严肃运营者打造"的数据采集基础设施。平台提供 900 万+ 真实住宅 IP，覆盖 150+ 国家和地区，支持城市级、区域级和 ISP 级三级地理定位，在覆盖精度上具有竞争力。
-        </p>
+          QuickProxy 是一家专注住宅代理的服务商，定位�?为严肃运营者打�?的数据采集基础设施。平台提�?900 �? 真实住宅 IP，覆�?150+ 国家和地区，支持城市级、区域级�?ISP 级三级地理定位，在覆盖精度上具有竞争力�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          QuickProxy 的核心差异化优势在于超低延迟——美国节点 0.4s、德国节点 0.3s、日本节点 0.5s 的平均响应时间，在全球住宅代理服务商中处于领先水平。平台采用统一网关架构（gate.quickproxy.io），所有请求通过单一端点路由，无需为不同地区配置不同的代理地址。
-        </p>
+          QuickProxy 的核心差异化优势在于超低延迟——美国节�?0.4s、德国节�?0.3s、日本节�?0.5s 的平均响应时间，在全球住宅代理服务商中处于领先水平。平台采用统一网关架构（gate.quickproxy.io），所有请求通过单一端点路由，无需为不同地区配置不同的代理地址�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          平台提供两种认证方式（用户名/密码和 IP 白名单），支持按请求轮换和粘性会话（最长 30 分钟）两种模式。定价采用即用即付和月付两种模式，入门试用价仅 $1.99，标准方案 $16/月起。所有方案均包含完整的网络功能集，仅带宽配额不同。
-        </p>
+          平台提供两种认证方式（用户名/密码�?IP 白名单），支持按请求轮换和粘性会话（最�?30 分钟）两种模式。定价采用即用即付和月付两种模式，入门试用价�?$1.99，标准方�?$16/月起。所有方案均包含完整的网络功能集，仅带宽配额不同�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特性</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品与技术特�?/h2>
         <div class="space-y-6">
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">超低延迟全球网络</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">QuickProxy 宣称其住宅代理网络具有行业领先的响应速度：美国 0.4s、德国 0.3s、日本 0.5s。全对等互联的全球网络确保数据采集任务不会因代理响应缓慢而阻塞。99.9% 在线率 SLA 保障生产管道的持续运行。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">QuickProxy 宣称其住宅代理网络具有行业领先的响应速度：美�?0.4s、德�?0.3s、日�?0.5s。全对等互联的全球网络确保数据采集任务不会因代理响应缓慢而阻塞�?9.9% 在线�?SLA 保障生产管道的持续运行�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">统一网关架构</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">所有请求通过单一网关端点 gate.quickproxy.io 路由，无需为不同地区或国家配置不同的代理地址。地理定位通过代理用户名参数设置，无需 Dashboard 往返配置。这种设计大幅简化了多区域数据采集的配置复杂度。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">所有请求通过单一网关端点 gate.quickproxy.io 路由，无需为不同地区或国家配置不同的代理地址。地理定位通过代理用户名参数设置，无需 Dashboard 往返配置。这种设计大幅简化了多区域数据采集的配置复杂度�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">三级地理 + ISP 定位</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">支持国家、区域/州、城市和 ISP 四级定位，通过代理用户名在每个请求上独立设置。美国拥有 420 万+ IP，德国 180 万+，日本 98 万+ 等。精细的地理控制适用于广告验证、本地化 SERP 监控和区域市场研究。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">支持国家、区�?州、城市和 ISP 四级定位，通过代理用户名在每个请求上独立设置。美国拥�?420 �? IP，德�?180 �?，日�?98 �? 等。精细的地理控制适用于广告验证、本地化 SERP 监控和区域市场研究�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">灵活的会话管理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">支持按请求自动轮换和粘性会话（最长 30 分钟）两种模式。粘性会话通过代理用户名中的 session token 控制，适合多账号管理和广告验证等需要保持同一 IP 的场景。HTTP/HTTPS/SOCKS5 双协议覆盖。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">灵活的会话管�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持按请求自动轮换和粘性会话（最�?30 分钟）两种模式。粘性会话通过代理用户名中�?session token 控制，适合多账号管理和广告验证等需要保持同一 IP 的场景。HTTP/HTTPS/SOCKS5 双协议覆盖�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">即用即付定价</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">入门试用仅 $1.99，标准方案 $16/月（3GB）、$49/月（10GB）、$99/月（25GB）、$299/月（100GB）。所有方案包含完整功能集，无功能分级限制。支持一次性购买和月度订阅两种模式，可随时取消。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">入门试用�?$1.99，标准方�?$16/月（3GB）�?49/月（10GB）�?99/月（25GB）�?299/月（100GB）。所有方案包含完整功能集，无功能分级限制。支持一次性购买和月度订阅两种模式，可随时取消�?/p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">住宅代理定价参考</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">住宅代理定价参�?/h2>
         <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
           <img src={`${base}/images/quickproxy-res-price.webp`} alt="QuickProxy 住宅代理价格" class="max-w-full h-auto" />
         </div>
@@ -101,26 +98,26 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡</span>
+            <span class="text-sm text-slate-200">信用�?/span>
           </div>
         </div>
         <p class="text-xs text-slate-500 mt-3">具体支付方式请以官网结算页面为准</p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>0.3-0.5s 超低延迟，住宅代理中顶级响应速度</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>统一网关架构，多区域数据采集配置极简</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>国家/区域/城市/ISP 四级定位，控制精细</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$1.99 低价试用，即用即付无合约</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>HTTP + SOCKS5，不限线程，24/7 人工支持</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>所有方案功能完整，无功能分级限制</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>0.3-0.5s 超低延迟，住宅代理中顶级响应速度</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>统一网关架构，多区域数据采集配置极简</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>国家/区域/城市/ISP 四级定位，控制精�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>$1.99 低价试用，即用即付无合约</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>HTTP + SOCKS5，不限线程，24/7 人工支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>所有方案功能完整，无功能分级限�?/span></li>
             </ul>
           </div>
           <div>
@@ -128,12 +125,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅住宅代理，无数据中心/移动/ISP 等产品线</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 池规模（900 万）低于头部平台</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度有限，信息透明度一般</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 API/SERP 等数据采集工具</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><small class="text-slate-500">注：网站部分信息较旧（© 2023-2026），但运营持续更新</small></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>仅住宅代理，无数据中�?移动/ISP 等产品线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>IP 池规模（900 万）低于头部平台</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面和中文客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>品牌知名度有限，信息透明度一�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>�?API/SERP 等数据采集工�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><small class="text-slate-500">注：网站部分信息较旧（�?2023-2026），但运营持续更�?/small></li>
             </ul>
           </div>
         </div>
@@ -142,14 +139,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          QuickProxy 是一款专注住宅代理的轻量级平台，以超低延迟和简洁架构为核心卖点。0.3-0.5s 的响应时间在住宅代理服务商中属于顶级水平，统一网关设计（gate.quickproxy.io）大幅降低了多区域数据采集的配置复杂度。900 万+ IP 和 150+ 国家覆盖满足主流数据采集需求。
-        </p>
+          QuickProxy 是一款专注住宅代理的轻量级平台，以超低延迟和简洁架构为核心卖点�?.3-0.5s 的响应时间在住宅代理服务商中属于顶级水平，统一网关设计（gate.quickproxy.io）大幅降低了多区域数据采集的配置复杂度�?00 �? IP �?150+ 国家覆盖满足主流数据采集需求�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          QuickProxy 的差异化优势在于"为运营者设计"的产品理念——四级地理定位、灵活的会话管理、即用即付定价、所有方案功能完整无分级限制。$1.99 的入门试用价和 24/7 人工支持也降低了用户的决策门槛和运营风险。
-        </p>
+          QuickProxy 的差异化优势在于"为运营者设�?的产品理念——四级地理定位、灵活的会话管理、即用即付定价、所有方案功能完整无分级限制�?1.99 的入门试用价�?24/7 人工支持也降低了用户的决策门槛和运营风险�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于产品线单一（仅住宅代理）、IP 池规模低于头部平台以及有限的品牌知名度。综合评估，QuickProxy 获得 7.3 分评价。特别推荐给对代理响应速度有高要求的数据采集团队、需要精细地理定位进行广告验证和 SERP 监控的用户，以及寻找即用即付无合约模式的中小型团队。
-        </p>
+          主要局限在于产品线单一（仅住宅代理）、IP 池规模低于头部平台以及有限的品牌知名度。综合评估，QuickProxy 获得 7.3 分评价。特别推荐给对代理响应速度有高要求的数据采集团队、需要精细地理定位进行广告验证和 SERP 监控的用户，以及寻找即用即付无合约模式的中小型团队�?        </p>
       </section>
 
       <div class="text-center">

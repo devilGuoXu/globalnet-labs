@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="Croxy 代理深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -15,7 +15,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <img src={`${base}/images/croxy.png`} alt="Croxy" class="h-14 w-auto" />
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Croxy 深度评测</h1>
-          <p class="text-slate-400 text-lg">8000 万+ 真实住宅 IP，195+ 国家覆盖，SOCKS5/HTTP 全协议支持，2000+ 企业信赖</p>
+          <p class="text-slate-400 text-lg">8000 �? 真实住宅 IP�?95+ 国家覆盖，SOCKS5/HTTP 全协议支持，2000+ 企业信赖</p>
         </div>
       </div>
 
@@ -28,11 +28,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.5</div>
-            <div class="text-xs text-slate-500 mt-1">IP纯净度</div>
+            <div class="text-xs text-slate-500 mt-1">IP纯净�?/div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.5</div>
-            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富�?/div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.0</div>
@@ -48,68 +48,68 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Croxy 是一家总部位于美国加利福尼亚州尔湾市的综合型代理服务商，运营主体为 Qiaogu Intelligent Information Technology Limited。平台拥有超过 8000 万个真实住宅 IP 地址，覆盖全球 195 多个国家和地区，为全球 2000+ 企业客户提供服务。
+          Croxy 是一家总部位于美国加利福尼亚州尔湾市的综合型代理服务商，运营主体为 Qiaogu Intelligent Information Technology Limited。平台拥有超�?8000 万个真实住宅 IP 地址，覆盖全�?195 多个国家和地区，为全�?2000+ 企业客户提供服务�?
         </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Croxy 的产品线涵盖五大代理方案——住宅代理、无限流量住宅代理、静态住宅代理、静态数据中心代理和长效 ISP 代理。价格按需定制（联系客服获取报价），支持个人和企业两种套餐模式。所有方案均包含 HTTP/SOCKS5 协议支持、自动 IP 轮换、无限并发连接和白名单/账户认证。
+          Croxy 的产品线涵盖五大代理方案——住宅代理、无限流量住宅代理、静态住宅代理、静态数据中心代理和长效 ISP 代理。价格按需定制（联系客服获取报价），支持个人和企业两种套餐模式。所有方案均包含 HTTP/SOCKS5 协议支持、自�?IP 轮换、无限并发连接和白名�?账户认证�?
         </p>
         <p class="text-slate-300 leading-relaxed">
-          Croxy 以中文界面和中文客服为特色，是中国用户友好的海外代理服务商之一。平台提供免费试用（联系客服申请），大多数产品无需 KYC 认证。已通过第三方标准审核认证，在 TrustPilot 等平台拥有良好用户口碑。
+          Croxy 以中文界面和中文客服为特色，是中国用户友好的海外代理服务商之一。平台提供免费试用（联系客服申请），大多数产品无需 KYC 认证。已通过第三方标准审核认证，�?TrustPilot 等平台拥有良好用户口碑�?
         </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">产品线详解</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品线详�?/h2>
         <div class="grid md:grid-cols-2 gap-4">
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅代理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">8000 万+ 轮换住宅 IP，覆盖 195+ 个国家、州、城市和邮编。免费地理定位，支持粘性会话或按请求轮换。适合数据抓取、广告验证和多账号管理。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">8000 �? 轮换住宅 IP，覆�?195+ 个国家、州、城市和邮编。免费地理定位，支持粘性会话或按请求轮换。适合数据抓取、广告验证和多账号管理�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">无限流量住宅代理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">不限流量的住宅代理方案，适合大规模持续数据采集任务。包含住宅代理所有功能特性，无需担心流量上限。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">不限流量的住宅代理方案，适合大规模持续数据采集任务。包含住宅代理所有功能特性，无需担心流量上限�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态住宅代理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">固定 IP 的住宅代理，适合需要长期稳定身份的运营场景——如社交媒体多账号管理、电商店铺运营等需要保持同一 IP 登录的场景。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态住宅代�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">固定 IP 的住宅代理，适合需要长期稳定身份的运营场景——如社交媒体多账号管理、电商店铺运营等需要保持同一 IP 登录的场景�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态数据中心代理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">来自数据中心的固定 IP，速度快、成本低，适合对 IP 信任度要求不高的批量数据抓取任务。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态数据中心代�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">来自数据中心的固�?IP，速度快、成本低，适合�?IP 信任度要求不高的批量数据抓取任务�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">长效 ISP 代理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">运营商级别的长效 ISP 代理，兼具住宅 IP 的高信任度和数据中心的稳定性。适合对 IP 质量要求较高的企业级应用。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">运营商级别的长效 ISP 代理，兼具住�?IP 的高信任度和数据中心的稳定性。适合�?IP 质量要求较高的企业级应用�?/p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详�?/h2>
         <div class="space-y-6">
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">8000 万+ 真实住宅 IP</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">Croxy 的 IP 全部来自真实住宅宽带用户，非数据中心或云服务商 IP。美国节点最多（1824 万+），其次是法国（539 万+）、德国（525 万+）、澳大利亚（223 万+）、马来西亚（168 万+）和印度（152 万+）。IP 纯净度较高，能有效绕过目标网站的反爬和风控机制。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">8000 �? 真实住宅 IP</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Croxy �?IP 全部来自真实住宅宽带用户，非数据中心或云服务�?IP。美国节点最多（1824 �?），其次是法国（539 �?）、德国（525 �?）、澳大利亚（223 �?）、马来西亚（168 �?）和印度�?52 �?）。IP 纯净度较高，能有效绕过目标网站的反爬和风控机制�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">五大产品线，灵活选择</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">从轮换住宅代理到静态数据中心代理，从无限流量方案到长效 ISP 方案，Croxy 覆盖了代理市场的主流产品类型。特别是无限流量住宅代理和长效 ISP 代理，是面向企业级用户的高端方案。产品线丰富度在同类服务商中表现中等偏上。</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">从轮换住宅代理到静态数据中心代理，从无限流量方案到长效 ISP 方案，Croxy 覆盖了代理市场的主流产品类型。特别是无限流量住宅代理和长�?ISP 代理，是面向企业级用户的高端方案。产品线丰富度在同类服务商中表现中等偏上�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">中文界面 + 中文客服</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">Croxy 是少数提供完整中文界面和中文客服的海外代理服务商。网站支持简体中文，客服团队可使用中文沟通，大大降低了中国用户的使用门槛。这对英文不熟练的用户来说是重要的加分项。</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Croxy 是少数提供完整中文界面和中文客服的海外代理服务商。网站支持简体中文，客服团队可使用中文沟通，大大降低了中国用户的使用门槛。这对英文不熟练的用户来说是重要的加分项�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">免费试用 + 无需 KYC</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">联系客服即可申请免费试用。大多数产品无需 KYC 认证，即买即用。支付方式支持多种渠道（支付宝/微信等），提升了中国用户的购买便利性。</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">联系客服即可申请免费试用。大多数产品无需 KYC 认证，即买即用。支付方式支持多种渠道（支付�?微信等），提升了中国用户的购买便利性�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">开发者友好集成</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">提供多语言代码示例（Python、Node.js、PHP、Go、Java、C# 等），内置端点生成器和使用统计面板。提供 API 白名单和账户认证两种接入方式，以及现成的第三方软件集成方案（支持 AdsPower、VMlogin、MoreLogin 等指纹浏览器）。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">开发者友好集�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">提供多语言代码示例（Python、Node.js、PHP、Go、Java、C# 等），内置端点生成器和使用统计面板。提�?API 白名单和账户认证两种接入方式，以及现成的第三方软件集成方案（支持 AdsPower、VMlogin、MoreLogin 等指纹浏览器）�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">99.9% 正常运行时间</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">Croxy 承诺 99.9% 的 IP 可用时间，高匿 IP 可用性超过 99.6%。支持自动 IP 轮换和无限并发连接，确保大规模任务稳定运行。24/7 技术支持可通过实时聊天和邮件联系。</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">Croxy 承诺 99.9% �?IP 可用时间，高�?IP 可用性超�?99.6%。支持自�?IP 轮换和无限并发连接，确保大规模任务稳定运行�?4/7 技术支持可通过实时聊天和邮件联系�?/p>
           </div>
         </div>
       </section>
@@ -118,24 +118,24 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 网页数据抓取与爬虫</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">8000 万+ 真实住宅 IP 池为大规模网页抓取提供了充足的 IP 资源。自动轮换 + 无限并发连接确保抓取效率。住宅 IP 的高匿名性能有效绕过反爬机制。对于需要持续数周甚至数月的大规模数据采集，无限流量方案是理想选择。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 网页数据抓取与爬�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">8000 �? 真实住宅 IP 池为大规模网页抓取提供了充足�?IP 资源。自动轮�?+ 无限并发连接确保抓取效率。住�?IP 的高匿名性能有效绕过反爬机制。对于需要持续数周甚至数月的大规模数据采集，无限流量方案是理想选择�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社交媒体多账号管理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">静态住宅代理为每个社交媒体账号提供固定 IP，避免因 IP 频繁变化触发风控。Croxy 与 AdsPower、VMlogin、MoreLogin 等指纹浏览器深度集成，方便多账号矩阵管理。ISP 代理的高信任度有助于降低社媒平台的封号风险。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社交媒体多账号管�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">静态住宅代理为每个社交媒体账号提供固定 IP，避免因 IP 频繁变化触发风控。Croxy �?AdsPower、VMlogin、MoreLogin 等指纹浏览器深度集成，方便多账号矩阵管理。ISP 代理的高信任度有助于降低社媒平台的封号风险�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO 与 SERP 监测</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">支持按国家和城市级别的地理定位，可获取准确的本地化搜索引擎结果。住宅 IP 能有效避免 Google 的验证码拦截。适合 SEO 团队进行关键词排名监测和竞品搜索分析。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO �?SERP 监测</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">支持按国家和城市级别的地理定位，可获取准确的本地化搜索引擎结果。住�?IP 能有效避�?Google 的验证码拦截。适合 SEO 团队进行关键词排名监测和竞品搜索分析�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 电子商务与价格监测</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅 IP 在有机器人保护的电商网站（Amazon、Walmart 等）上通过率较高。195+ 国家覆盖可从全球各地获取本地化价格信息。无限并发连接支持同时监测大量商品。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 电子商务与价格监�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅 IP 在有机器人保护的电商网站（Amazon、Walmart 等）上通过率较高�?95+ 国家覆盖可从全球各地获取本地化价格信息。无限并发连接支持同时监测大量商品�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 广告验证与品牌保护</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅 IP 模拟真实用户浏览行为，帮助广告主验证广告投放效果和品牌安全。支持全球多地点广告验证，确保广告在不同地区的展示效果符合预期。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 广告验证与品牌保�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">住宅 IP 模拟真实用户浏览行为，帮助广告主验证广告投放效果和品牌安全。支持全球多地点广告验证，确保广告在不同地区的展示效果符合预期�?/p>
           </div>
         </div>
       </section>
@@ -155,7 +155,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
-            <span class="text-sm text-slate-200">支付宝</span>
+            <span class="text-sm text-slate-200">支付�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
@@ -167,25 +167,25 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡</span>
+            <span class="text-sm text-slate-200">信用�?/span>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>8000 万+ 真实住宅 IP，纯净度较高</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>完整中文界面和中文客服，中国用户友好</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>五大产品线覆盖主流需求，含无限流量方案</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>与主流指纹浏览器深度集成</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费试用 + 无需 KYC，支付方式多样</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.9% 正常运行时间，24/7 技术支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>8000 �? 真实住宅 IP，纯净度较�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>完整中文界面和中文客服，中国用户友好</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>五大产品线覆盖主流需求，含无限流量方�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>与主流指纹浏览器深度集成</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>免费试用 + 无需 KYC，支付方式多�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>99.9% 正常运行时间�?4/7 技术支�?/span></li>
             </ul>
           </div>
           <div>
@@ -193,11 +193,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 池规模 8000 万，低于头部厂商的数亿级别</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分区域 IP 数量较少（如摩洛哥仅 6 万）</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理不含中国大陆 IP 访问能力</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无移动代理（4G/5G）产品线</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度低于 Bright Data、Oxylabs 等头部厂商</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>IP 池规�?8000 万，低于头部厂商的数亿级�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>部分区域 IP 数量较少（如摩洛哥仅 6 万）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>住宅代理不含中国大陆 IP 访问能力</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无移动代理（4G/5G）产品线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>品牌知名度低�?Bright Data、Oxylabs 等头部厂�?/span></li>
             </ul>
           </div>
         </div>
@@ -206,13 +206,13 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Croxy 是一家以真实住宅 IP 为核心的中型代理服务商。8000 万+ 的 IP 池规模和 195+ 国家覆盖确保了基本的资源储备，而五大产品线为不同场景的用户提供了灵活选择。无限流量方案和长效 ISP 代理是企业级用户值得关注的亮点。
+          Croxy 是一家以真实住宅 IP 为核心的中型代理服务商�?000 �? �?IP 池规模和 195+ 国家覆盖确保了基本的资源储备，而五大产品线为不同场景的用户提供了灵活选择。无限流量方案和长效 ISP 代理是企业级用户值得关注的亮点�?
         </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Croxy 最大的差异化优势在于其中文界面和中文客服支持。对于中国用户而言，无需英文沟通即可完成从购买到使用的全流程，这在与指纹浏览器的深度集成配合下，使其成为多账号管理场景的便捷选择。免费试用和无需 KYC 的购买流程也降低了尝试门槛。
+          Croxy 最大的差异化优势在于其中文界面和中文客服支持。对于中国用户而言，无需英文沟通即可完成从购买到使用的全流程，这在与指纹浏览器的深度集成配合下，使其成为多账号管理场景的便捷选择。免费试用和无需 KYC 的购买流程也降低了尝试门槛�?
         </p>
         <p class="text-slate-300 leading-relaxed">
-          但需要注意的是，Croxy 的价格不透明、需要联系客服获取报价，这对习惯自助下单的用户可能带来不便。综合评估产品覆盖度、IP 质量和中文服务优势，Croxy 获得 7.3 分评价。特别推荐给需要中文客服支持的中国用户、指纹浏览器多账号管理用户以及大规模数据抓取的企业团队。
+          但需要注意的是，Croxy 的价格不透明、需要联系客服获取报价，这对习惯自助下单的用户可能带来不便。综合评估产品覆盖度、IP 质量和中文服务优势，Croxy 获得 7.3 分评价。特别推荐给需要中文客服支持的中国用户、指纹浏览器多账号管理用户以及大规模数据抓取的企业团队�?
         </p>
       </section>
 

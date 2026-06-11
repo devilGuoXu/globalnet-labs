@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="MobileSimPortal 深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -34,11 +34,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">覆盖范围</span>
-            <p class="text-slate-200 font-medium mt-1">美国多州（共享）· 新泽西（专属/远程设备）</p>
+            <p class="text-slate-200 font-medium mt-1">美国多州（共享）· 新泽西（专属/远程设备�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">核心特性</span>
-            <p class="text-slate-200 font-medium mt-1">真实 SIM 设备 · 无限数据无限制 · HTTP/SOCKS5 · API · 一键 IP 更换</p>
+            <span class="text-slate-500">核心特�?/span>
+            <p class="text-slate-200 font-medium mt-1">真实 SIM 设备 · 无限数据无限�?· HTTP/SOCKS5 · API · 一�?IP 更换</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">支付方式</span>
@@ -48,16 +48,13 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          MobileSimPortal（品牌名 VIPNlines）是一家专注于美国移动网络资源的一站式服务平台，提供三大核心产品线：移动代理 IP（共享/专属）、远程真实 Android/Apple 设备、以及移动 SIM 卡电话号码。所有服务均基于真实 SIM 卡的物理设备，非模拟器或虚拟化方案，确保 IP 的信任度和环境真实性。
-        </p>
+          MobileSimPortal（品牌名 VIPNlines）是一家专注于美国移动网络资源的一站式服务平台，提供三大核心产品线：移动代�?IP（共�?专属）、远程真�?Android/Apple 设备、以及移�?SIM 卡电话号码。所有服务均基于真实 SIM 卡的物理设备，非模拟器或虚拟化方案，确保 IP 的信任度和环境真实性�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          共享移动代理覆盖美国多个地区，支持 HTTP 和 SOCKS5 协议，IP 每 10 分钟自动轮换，也可通过切换位置即时更换 IP。所有代理方案均提供无限数据流量，无速度限制或阈值控制。专属代理位于新泽西州，用户可通过控制面板或 API 完全控制 IP 更换。远程设备服务则提供真实的 Android/Apple 设备远程操控，设备画面实时镜像到用户端，支持一键 IP 更换。
-        </p>
+          共享移动代理覆盖美国多个地区，支�?HTTP �?SOCKS5 协议，IP �?10 分钟自动轮换，也可通过切换位置即时更换 IP。所有代理方案均提供无限数据流量，无速度限制或阈值控制。专属代理位于新泽西州，用户可通过控制面板�?API 完全控制 IP 更换。远程设备服务则提供真实�?Android/Apple 设备远程操控，设备画面实时镜像到用户端，支持一�?IP 更换�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          此外，MobileSimPortal 还提供 SIM 卡电话号码服务，支持一次性和长期租赁，覆盖美国所有州，适用于账号注册验证和 OTP 接收。平台配备经销商管理功能，支持多级用户管理和自定义折扣率。支持加密货币即时充值，所有服务即时交付。
-        </p>
+          此外，MobileSimPortal 还提�?SIM 卡电话号码服务，支持一次性和长期租赁，覆盖美国所有州，适用于账号注册验证和 OTP 接收。平台配备经销商管理功能，支持多级用户管理和自定义折扣率。支持加密货币即时充值，所有服务即时交付�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
@@ -67,49 +64,49 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <h3 class="text-emerald-400 font-semibold text-lg mb-3">共享移动代理</h3>
             <div class="grid md:grid-cols-4 gap-3">
               <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
-                <div class="text-xs text-slate-500 mb-1">按小时</div>
+                <div class="text-xs text-slate-500 mb-1">按小�?/div>
                 <div class="text-emerald-400 font-bold text-2xl">$4</div>
                 <div class="text-xs text-slate-400">/小时</div>
               </div>
               <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
                 <div class="text-xs text-slate-500 mb-1">按天</div>
                 <div class="text-emerald-400 font-bold text-2xl">$10</div>
-                <div class="text-xs text-slate-400">/天</div>
+                <div class="text-xs text-slate-400">/�?/div>
               </div>
               <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
                 <div class="text-xs text-slate-500 mb-1">按周</div>
                 <div class="text-emerald-400 font-bold text-2xl">$30</div>
-                <div class="text-xs text-slate-400">/周</div>
+                <div class="text-xs text-slate-400">/�?/div>
               </div>
               <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
                 <div class="text-xs text-slate-500 mb-1">按月</div>
                 <div class="text-emerald-400 font-bold text-2xl">$100</div>
-                <div class="text-xs text-slate-400">/月</div>
+                <div class="text-xs text-slate-400">/�?/div>
               </div>
             </div>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-3">专属移动代理（新泽西）</h3>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-3">专属移动代理（新泽西�?/h3>
             <div class="grid md:grid-cols-4 gap-3">
               <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
-                <div class="text-xs text-slate-500 mb-1">按小时</div>
+                <div class="text-xs text-slate-500 mb-1">按小�?/div>
                 <div class="text-emerald-400 font-bold text-2xl">$5</div>
                 <div class="text-xs text-slate-400">/小时</div>
               </div>
               <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
                 <div class="text-xs text-slate-500 mb-1">按天</div>
                 <div class="text-emerald-400 font-bold text-2xl">$15</div>
-                <div class="text-xs text-slate-400">/天</div>
+                <div class="text-xs text-slate-400">/�?/div>
               </div>
               <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
                 <div class="text-xs text-slate-500 mb-1">按周</div>
                 <div class="text-emerald-400 font-bold text-2xl">$50</div>
-                <div class="text-xs text-slate-400">/周</div>
+                <div class="text-xs text-slate-400">/�?/div>
               </div>
               <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
                 <div class="text-xs text-slate-500 mb-1">按月</div>
                 <div class="text-emerald-400 font-bold text-2xl">$170</div>
-                <div class="text-xs text-slate-400">/月</div>
+                <div class="text-xs text-slate-400">/�?/div>
               </div>
             </div>
           </div>
@@ -119,17 +116,17 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
                 <div class="text-xs text-slate-500 mb-1">按天</div>
                 <div class="text-emerald-400 font-bold text-2xl">$20</div>
-                <div class="text-xs text-slate-400">/天</div>
+                <div class="text-xs text-slate-400">/�?/div>
               </div>
               <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
                 <div class="text-xs text-slate-500 mb-1">按周</div>
                 <div class="text-emerald-400 font-bold text-2xl">$80</div>
-                <div class="text-xs text-slate-400">/周</div>
+                <div class="text-xs text-slate-400">/�?/div>
               </div>
               <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
                 <div class="text-xs text-slate-500 mb-1">按月</div>
                 <div class="text-emerald-400 font-bold text-2xl">$250</div>
-                <div class="text-xs text-slate-400">/月</div>
+                <div class="text-xs text-slate-400">/�?/div>
               </div>
             </div>
           </div>
@@ -137,24 +134,24 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <h3 class="text-emerald-400 font-semibold text-lg mb-3">SIM 电话号码</h3>
             <div class="grid md:grid-cols-3 gap-3">
               <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
-                <div class="text-xs text-slate-500 mb-1">一次性使用</div>
+                <div class="text-xs text-slate-500 mb-1">一次性使�?/div>
                 <div class="text-emerald-400 font-bold text-2xl">$0.25</div>
-                <div class="text-xs text-slate-400">/SMS 码</div>
+                <div class="text-xs text-slate-400">/SMS �?/div>
               </div>
               <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
-                <div class="text-xs text-slate-500 mb-1">长期 3 天</div>
+                <div class="text-xs text-slate-500 mb-1">长期 3 �?/div>
                 <div class="text-emerald-400 font-bold text-2xl">$1.82</div>
-                <div class="text-xs text-slate-400">/3 天可续</div>
+                <div class="text-xs text-slate-400">/3 天可�?/div>
               </div>
               <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
-                <div class="text-xs text-slate-500 mb-1">长期 30 天</div>
+                <div class="text-xs text-slate-500 mb-1">长期 30 �?/div>
                 <div class="text-emerald-400 font-bold text-2xl">$7.89</div>
-                <div class="text-xs text-slate-400">/30 天可续</div>
+                <div class="text-xs text-slate-400">/30 天可�?/div>
               </div>
             </div>
           </div>
         </div>
-        <p class="text-xs text-slate-500 mt-4 text-center">所有代理和远程设备均含无限数据 · 无限制 · 无阈值 · 加密货币支付 · 即时交付</p>
+        <p class="text-xs text-slate-500 mt-4 text-center">所有代理和远程设备均含无限数据 · 无限�?· 无阈�?· 加密货币支付 · 即时交付</p>
       </section>
 
       <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
@@ -173,46 +170,46 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <span class="text-xs text-slate-300">即时交付</span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
-            <span class="text-xs text-slate-300">经销商折扣</span>
+            <span class="text-xs text-slate-300">经销商折�?/span>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">平台特性</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">平台特�?/h2>
         <div class="grid md:grid-cols-2 gap-6 text-sm">
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold mb-2">真实 SIM 设备</h3>
-            <p class="text-slate-400 leading-relaxed">所有代理和远程设备均使用真实 SIM 卡的物理 Android/Apple 设备，非模拟器，IP 信任度最高。</p>
+            <p class="text-slate-400 leading-relaxed">所有代理和远程设备均使用真�?SIM 卡的物理 Android/Apple 设备，非模拟器，IP 信任度最高�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold mb-2">三合一服务平台</h3>
-            <p class="text-slate-400 leading-relaxed">移动代理 + 远程设备 + SIM 号码三大产品线一站管理，统一控制面板和 API 接口。</p>
+            <p class="text-slate-400 leading-relaxed">移动代理 + 远程设备 + SIM 号码三大产品线一站管理，统一控制面板�?API 接口�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
-            <h3 class="text-emerald-400 font-semibold mb-2">无限数据无限制</h3>
-            <p class="text-slate-400 leading-relaxed">所有代理和远程设备均提供 100% 无限数据流量，无速度限制、无阈值控制。</p>
+            <h3 class="text-emerald-400 font-semibold mb-2">无限数据无限�?/h3>
+            <p class="text-slate-400 leading-relaxed">所有代理和远程设备均提�?100% 无限数据流量，无速度限制、无阈值控制�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
-            <h3 class="text-emerald-400 font-semibold mb-2">经销商管理系统</h3>
-            <p class="text-slate-400 leading-relaxed">完整的多级经销商管理功能，自定义折扣率、即时加密货币结算、完整报表。</p>
+            <h3 class="text-emerald-400 font-semibold mb-2">经销商管理系�?/h3>
+            <p class="text-slate-400 leading-relaxed">完整的多级经销商管理功能，自定义折扣率、即时加密货币结算、完整报表�?/p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>真实 SIM 设备，非模拟器，IP 纯净度极高</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>代理 + 设备 + 号码一站式服务</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限数据无阈值，真正不限量</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>一键 IP 更换，即时交付</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>完整经销商管理 + 多级折扣</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>真实 SIM 设备，非模拟器，IP 纯净度极�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>代理 + 设备 + 号码一站式服务</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>无限数据无阈值，真正不限�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>一�?IP 更换，即时交�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>完整经销商管�?+ 多级折扣</span></li>
             </ul>
           </div>
           <div>
@@ -220,12 +217,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅限美国地区，无其他国家覆盖</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅加密货币支付，无信用卡/PayPal</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度较低</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>网站设计较简朴</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>禁止银行类网站使用</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不提供退款（仅故障补偿）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>仅限美国地区，无其他国家覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>仅加密货币支付，无信用卡/PayPal</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>品牌知名度较�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>网站设计较简�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>禁止银行类网站使�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>不提供退款（仅故障补偿）</span></li>
             </ul>
           </div>
         </div>
@@ -234,14 +231,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          MobileSimPortal（VIPNlines）以其实 SIM 卡驱动的真实设备为核心竞争力，在移动代理市场中提供了独特的价值。与许多使用模拟器或云端虚拟化方案的竞争对手不同，其所有代理和远程设备均基于物理 SIM 卡的 Android/Apple 设备运行，在网络层面几乎无法被识别为代理流量，极大降低了账号封禁风险。
-        </p>
+          MobileSimPortal（VIPNlines）以其实 SIM 卡驱动的真实设备为核心竞争力，在移动代理市场中提供了独特的价值。与许多使用模拟器或云端虚拟化方案的竞争对手不同，其所有代理和远程设备均基于物�?SIM 卡的 Android/Apple 设备运行，在网络层面几乎无法被识别为代理流量，极大降低了账号封禁风险�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          代理 + 远程设备 + SIM 号码三大产品线的一站式整合是其差异化优势，用户可以在同一平台上获取移动代理 IP、远程操控真实手机、以及接收短信验证码。所有服务均提供无限数据流量且无阈值控制，对于需要大量数据传输的用户非常友好。即时交付和即时 IP 更换也提升了使用效率。
-        </p>
+          代理 + 远程设备 + SIM 号码三大产品线的一站式整合是其差异化优势，用户可以在同一平台上获取移动代�?IP、远程操控真实手机、以及接收短信验证码。所有服务均提供无限数据流量且无阈值控制，对于需要大量数据传输的用户非常友好。即时交付和即时 IP 更换也提升了使用效率�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于仅限美国地区、仅支持加密货币支付、品牌知名度较低。综合评估，MobileSimPortal 获得 7.3 分评价。特别推荐给专注于美国市场的社媒多账号运营者、需要真实远程设备进行环境模拟的反检测用户、以及需要一站式代理+号码+设备解决方案的团队。对于需要全球覆盖或信用卡支付的用户，建议考虑其他代理服务商。
-        </p>
+          主要局限在于仅限美国地区、仅支持加密货币支付、品牌知名度较低。综合评估，MobileSimPortal 获得 7.3 分评价。特别推荐给专注于美国市场的社媒多账号运营者、需要真实远程设备进行环境模拟的反检测用户、以及需要一站式代理+号码+设备解决方案的团队。对于需要全球覆盖或信用卡支付的用户，建议考虑其他代理服务商�?        </p>
       </section>
 
       <div class="text-center">

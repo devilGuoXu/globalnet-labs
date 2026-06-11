@@ -1,182 +1,182 @@
-﻿---
+---
 import Layout from '../../layouts/Layout.astro';
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 ---
 
-<Layout title="ProxyWing 深度评测 - GlobalNet Labs">
+<Layout title="ProxyWing ������� - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
-        返回代理列表
+        ���ش����б�
       </a>
 
       <div class="flex items-center gap-4 mb-10">
         <img src={`${base}/images/proxywing.png`} alt="ProxyWing" class="h-14 w-auto" />
         <div>
-          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">ProxyWing 深度评测</h1>
-          <p class="text-slate-400 text-lg">住宅代理 $1/GB · 数据中心 $0.90/月 · 移动代理 $4/天 · ISP $1.70/月 · 7000 万+ IP · 190+ 国家</p>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">ProxyWing �������</h1>
+          <p class="text-slate-400 text-lg">סլ���� $1/GB �� �������� $0.90/�� �� �ƶ����� $4/�� �� ISP $1.70/�� �� 7000 ��+ IP �� 190+ ����</p>
         </div>
       </div>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">���ָ���</h2>
         <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-emerald-400">7.3</div>
-            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+            <div class="text-xs text-slate-500 mt-1">�ۺ�����</div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.5</div>
-            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+            <div class="text-xs text-slate-500 mt-1">IP ������</div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">8.0</div>
-            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+            <div class="text-xs text-slate-500 mt-1">��Ʒ�ḻ��</div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.5</div>
-            <div class="text-xs text-slate-500 mt-1">价格优势</div>
+            <div class="text-xs text-slate-500 mt-1">�۸�����</div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">8.0</div>
-            <div class="text-xs text-slate-500 mt-1">客户支持</div>
+            <div class="text-xs text-slate-500 mt-1">�ͻ�֧��</div>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-4">��Ʒ����</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxyWing（proxywing.com）是一家快速成长的代理服务商，提供住宅代理、数据中心代理、移动代理和 ISP 代理四条产品线。IP 池超过 7000 万，覆盖 190+ 国家和地区，拥有 40 万+ 服务器节点。Trustpilot 评分 4.5/5，拥有 70,000+ 用户，曾被 Reuters、Fortune 等媒体报道。正逐步获得 SOC 2 和 ISO 27001 合规认证。
+          ProxyWing��proxywing.com����һ�ҿ��ٳɳ��Ĵ��������̣��ṩסլ�������������Ĵ������ƶ������� ISP ����������Ʒ�ߡ�IP �س��� 7000 �򣬸��� 190+ ���Һ͵�����ӵ�� 40 ��+ �������ڵ㡣Trustpilot ���� 4.5/5��ӵ�� 70,000+ �û������� Reuters��Fortune ��ý�屨�������𲽻�� SOC 2 �� ISO 27001 �Ϲ���֤��
         </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          住宅代理 $1/GB 起（Premium 版 $2.5/GB 起），大容量可低至 $1/GB，流量永不过期。数据中心代理 $0.90/月起，移动代理 $4/天起，ISP 代理 $1.70/月起。所有产品均支持 HTTP/S 和 SOCKS5 协议，部分支持 UDP 和 TCP。提供粘性会话和动态轮换两种模式，支持城市级和 ASN 级定位。
+          סլ���� $1/GB ��Premium �� $2.5/GB �𣩣��������ɵ��� $1/GB�������������ڡ��������Ĵ��� $0.90/�����ƶ����� $4/����ISP ���� $1.70/�������в�Ʒ��֧�� HTTP/S �� SOCKS5 Э�飬����֧�� UDP �� TCP���ṩճ�ԻỰ�Ͷ�̬�ֻ�����ģʽ��֧�ֳ��м��� ASN ����λ��
         </p>
         <p class="text-slate-300 leading-relaxed">
-          平台支持超过 100 种支付方式（含加密货币），24/7 客户支持。与 AdsPower、Dolphin、GoLogin、Hidemyacc、Incogniton 等主流反检测浏览器深度集成。99.99% 在线率保障，1GB/s 高速连接。提供流量不限的数据中心代理和流量不过期的住宅代理。
+          ƽ̨֧�ֳ��� 100 ��֧����ʽ�������ܻ��ң���24/7 �ͻ�֧�֡��� AdsPower��Dolphin��GoLogin��Hidemyacc��Incogniton ������������������ȼ��ɡ�99.99% �����ʱ��ϣ�1GB/s �������ӡ��ṩ�������޵��������Ĵ��������������ڵ�סլ������
         </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">�����������</h2>
         <div class="space-y-6">
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">四条产品线，全场景覆盖</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">ProxyWing 提供住宅代理（$1/GB 起，7000 万+ 真实住宅 IP，190+ 国家）、数据中心代理（$0.90/月起，高速稳定）、移动代理（$4/天起，最高信任度真实移动 IP）和 ISP 代理（$1.70/月起，住宅 IP 可信度 + 数据中心速度）四条产品线，覆盖从数据采集到社媒管理的全场景需求。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">������Ʒ�ߣ�ȫ��������</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxyWing �ṩסլ������$1/GB ��7000 ��+ ��ʵסլ IP��190+ ���ң����������Ĵ�����$0.90/���𣬸����ȶ������ƶ�������$4/����������ζ���ʵ�ƶ� IP���� ISP ������$1.70/����סլ IP ���Ŷ� + ���������ٶȣ�������Ʒ�ߣ����Ǵ����ݲɼ�����ý������ȫ��������</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">$1/GB 起，价格透明有折扣</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">住宅代理 Premium 版 $2.5/GB 起（1GB），大容量 10000GB+ 可低至 $1/GB。数据中心代理 $0.90/月起，ISP 代理 $1.70/月起，移动代理 $4/天起。住宅代理流量永不过期，数据中心代理含无限流量。接受 100+ 支付方式（含加密货币）。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">$1/GB �𣬼۸�͸�����ۿ�</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">סլ���� Premium �� $2.5/GB ��1GB���������� 10000GB+ �ɵ��� $1/GB���������Ĵ��� $0.90/����ISP ���� $1.70/�����ƶ����� $4/����סլ���������������ڣ��������Ĵ������������������� 100+ ֧����ʽ�������ܻ��ң���</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">7000 万+ IP + 190+ 国家</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">IP 池 7000 万+，覆盖 190+ 国家和地区，40 万+ 服务器节点。支持城市级和 ASN 级定位。住宅代理 99.47% 成功率，99.99% 在线率保障。数据中心代理支持 1GB/s 高速连接。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">7000 ��+ IP + 190+ ����</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">IP �� 7000 ��+������ 190+ ���Һ͵�����40 ��+ �������ڵ㡣֧�ֳ��м��� ASN ����λ��סլ���� 99.47% �ɹ��ʣ�99.99% �����ʱ��ϡ��������Ĵ���֧�� 1GB/s �������ӡ�</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">HTTP/S + SOCKS5 + UDP 多协议</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">支持 HTTP、HTTPS、SOCKS5、UDP 和 TCP 协议。住宅代理和移动代理支持粘性会话和动态轮换两种模式。用户可根据任务需求灵活配置。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">HTTP/S + SOCKS5 + UDP ��Э��</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">֧�� HTTP��HTTPS��SOCKS5��UDP �� TCP Э�顣סլ�������ƶ�����֧��ճ�ԻỰ�Ͷ�̬�ֻ�����ģʽ���û��ɸ�����������������á�</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">反检测浏览器深度集成</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">与 AdsPower、Bitbrowser、Dolphin、GoLogin、Hidemyacc、Incogniton、Morelogin、VMLogin、XLogin 等 20+ 主流反检测浏览器深度集成，适合多账号管理和社媒运营。SOC 2 和 ISO 27001 合规认证进行中。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">������������ȼ���</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">�� AdsPower��Bitbrowser��Dolphin��GoLogin��Hidemyacc��Incogniton��Morelogin��VMLogin��XLogin �� 20+ ����������������ȼ��ɣ��ʺ϶��˺Ź�������ý��Ӫ��SOC 2 �� ISO 27001 �Ϲ���֤�����С�</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Trustpilot 4.5 + 24/7 支持</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">Trustpilot 评分 4.5/5，拥有 70,000+ 用户，曾被 Reuters、Fortune 报道。24/7 客服团队响应迅速，平均响应时间约 1 分钟。提供超过 100 种支付方式，包括信用卡、PayPal、KakaoPay、微信支付、UPI、Klarna 和 100+ 加密货币。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Trustpilot 4.5 + 24/7 ֧��</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Trustpilot ���� 4.5/5��ӵ�� 70,000+ �û������� Reuters��Fortune ������24/7 �ͷ��Ŷ���ӦѸ�٣�ƽ����Ӧʱ��Լ 1 ���ӡ��ṩ���� 100 ��֧����ʽ���������ÿ���PayPal��KakaoPay��΢��֧����UPI��Klarna �� 100+ ���ܻ��ҡ�</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">�۸񷽰�</h2>
         <div class="space-y-6">
           <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-base mb-3">住宅代理价格</h3>
-            <img src={`${base}/images/proxywing-res-price.webp`} alt="ProxyWing 住宅代理价格" class="w-full rounded-lg" />
+            <h3 class="text-emerald-400 font-semibold text-base mb-3">סլ�����۸�</h3>
+            <img src={`${base}/images/proxywing-res-price.webp`} alt="ProxyWing סլ�����۸�" class="w-full rounded-lg" />
           </div>
           <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-base mb-3">移动代理价格</h3>
-            <img src={`${base}/images/proxywing-mob-price.webp`} alt="ProxyWing 移动代理价格" class="w-full rounded-lg" />
+            <h3 class="text-emerald-400 font-semibold text-base mb-3">�ƶ������۸�</h3>
+            <img src={`${base}/images/proxywing-mob-price.webp`} alt="ProxyWing �ƶ������۸�" class="w-full rounded-lg" />
           </div>
-          <p class="text-xs text-slate-500 text-center">数据中心代理 $0.90/月起 · 住宅代理 $1/GB 起（Premium $2.5/GB） · ISP $1.70/月起 · 移动 $4/天起</p>
+          <p class="text-xs text-slate-500 text-center">�������Ĵ��� $0.90/���� �� סլ���� $1/GB ��Premium $2.5/GB�� �� ISP $1.70/���� �� �ƶ� $4/����</p>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">���ó�����ϸ����</h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 大规模数据采集与网页抓取</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">数据中心代理 $0.90/月起含无限流量，住宅代理 $1/GB 起，是成本效益较高的选择。7000 万+ IP 池提供足够的 IP 多样性，99.47% 的成功率和 99.99% 在线率保障任务稳定性。动态轮换模式和城市级定位支持精确数据采集。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. ���ģ���ݲɼ�����ҳץȡ</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">�������Ĵ��� $0.90/��������������סլ���� $1/GB ���ǳɱ�Ч��ϸߵ�ѡ��7000 ��+ IP ���ṩ�㹻�� IP �����ԣ�99.47% �ĳɹ��ʺ� 99.99% �����ʱ��������ȶ��ԡ���̬�ֻ�ģʽ�ͳ��м���λ֧�־�ȷ���ݲɼ���</p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒多账号管理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">移动代理和 ISP 代理的高信任级 IP 适合 TikTok、Facebook、Instagram、WhatsApp 等风控严格平台的多账号运营。与 20+ 反检测浏览器的深度集成（AdsPower、Dolphin、GoLogin 等）大幅降低多账号管理门槛。粘性会话模式确保登录稳定性。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. ��ý���˺Ź���</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">�ƶ������� ISP �����ĸ����μ� IP �ʺ� TikTok��Facebook��Instagram��WhatsApp �ȷ���ϸ�ƽ̨�Ķ��˺���Ӫ���� 20+ ��������������ȼ��ɣ�AdsPower��Dolphin��GoLogin �ȣ�������Ͷ��˺Ź����ż���ճ�ԻỰģʽȷ����¼�ȶ��ԡ�</p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO 监控与广告验证</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">190+ 国家和城市级定位支持全球 SEO 排名监控。住宅代理的高纯净度适合获取真实的搜索结果和广告投放数据。ASN 级定位可精确到运营商级别。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO ���������֤</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">190+ ���Һͳ��м���λ֧��ȫ�� SEO ������ء�סլ�����ĸߴ������ʺϻ�ȡ��ʵ����������͹��Ͷ�����ݡ�ASN ����λ�ɾ�ȷ����Ӫ�̼���</p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. AI 开发与流量套利</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyWing 针对 AI 开发、流量套利、加密货币等场景提供专门优化。UDP 和 TCP 协议支持使代理可用于更广泛的网络任务。灵活的价格方案适合从个人到企业的各种规模。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. AI ��������������</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ProxyWing ��� AI �������������������ܻ��ҵȳ����ṩר���Ż���UDP �� TCP Э��֧��ʹ���������ڸ��㷺�������������ļ۸񷽰��ʺϴӸ��˵���ҵ�ĸ��ֹ�ģ��</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">���������</h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
-              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>����
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>四条产品线覆盖所有场景</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅 $1/GB 起 + 数据中心 $0.90/月，定价竞争力强</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>20+ 反检测浏览器集成 + SOC 2 认证中</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Trustpilot 4.5 + 100+ 支付方式</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">?</span><span>������Ʒ�߸������г���</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">?</span><span>סլ $1/GB �� + �������� $0.90/�£����۾�����ǿ</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">?</span><span>20+ �������������� + SOC 2 ��֤��</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">?</span><span>Trustpilot 4.5 + 100+ ֧����ʽ</span></li>
             </ul>
           </div>
           <div>
             <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
-              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>ע������
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理起售价按产品线区分（Standard $6/GB 较高）</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌 2019 年后起步，历史相对较短</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和客服</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动代理按天计费，短期使用性价比一般</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">?</span><span>סլ�������ۼ۰���Ʒ�����֣�Standard $6/GB �ϸߣ�</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">?</span><span>Ʒ�� 2019 ����𲽣���ʷ��Խ϶�</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">?</span><span>�����Ľ���Ϳͷ�</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">?</span><span>�ƶ���������Ʒѣ�����ʹ���Լ۱�һ��</span></li>
             </ul>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-4">�ܽ�����</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxyWing 是一家产品线丰富、定价透明且具有竞争力的代理服务商。住宅代理、数据中心代理、移动代理和 ISP 代理四条产品线覆盖了从数据采集到社媒运营的全场景需求。7000 万+ IP 和 190+ 国家覆盖在行业中处于中上游水平。
+          ProxyWing ��һ�Ҳ�Ʒ�߷ḻ������͸���Ҿ��о������Ĵ��������̡�סլ�������������Ĵ������ƶ������� ISP ����������Ʒ�߸����˴����ݲɼ�����ý��Ӫ��ȫ��������7000 ��+ IP �� 190+ ���Ҹ�������ҵ�д���������ˮƽ��
         </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          住宅代理 $1/GB 起的大容量价格和 $0.90/月的数据中心代理定价极具竞争力。丰富的协议支持（HTTP/S、SOCKS5、UDP、TCP）、20+ 反检测浏览器集成和 SOC 2 认证进程显示了平台的成熟度。Trustpilot 4.5 评分和 Reuters 等媒体背书增加了可信度。
+          סլ���� $1/GB ��Ĵ������۸�� $0.90/�µ��������Ĵ������ۼ��߾��������ḻ��Э��֧�֣�HTTP/S��SOCKS5��UDP��TCP����20+ �������������ɺ� SOC 2 ��֤������ʾ��ƽ̨�ĳ���ȡ�Trustpilot 4.5 ���ֺ� Reuters ��ý�屳�������˿��Ŷȡ�
         </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于 Standard 版住宅代理起价较高、品牌历史相对较短和中文支持缺失。综合评估，ProxyWing 获得 7.3 分评价。特别推荐给需要多条产品线代理的团队和需要反检测浏览器深度集成的社媒运营者。
+          ��Ҫ�������� Standard ��סլ������۽ϸߡ�Ʒ����ʷ��Խ϶̺�����֧��ȱʧ���ۺ�������ProxyWing ��� 7.3 �����ۡ��ر��Ƽ�����Ҫ������Ʒ�ߴ������ŶӺ���Ҫ������������ȼ��ɵ���ý��Ӫ�ߡ�
         </p>
       </section>
 
-      <!-- 支付方式 -->
+      <!-- ֧����ʽ -->
       <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
         <div class="flex items-center gap-3 mb-6">
           <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
-          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+          <h2 class="text-xl font-bold text-slate-100">֧����ʽ</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">�ٷ�֧��</span>
         </div>
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡</span>
+            <span class="text-sm text-slate-200">���ÿ�</span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
@@ -188,7 +188,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
-            <span class="text-sm text-slate-200">微信支付</span>
+            <span class="text-sm text-slate-200">΢��֧��</span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
@@ -200,14 +200,14 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-            <span class="text-sm text-slate-200">加密货币</span>
+            <span class="text-sm text-slate-200">���ܻ���</span>
           </div>
         </div>
       </section>
 
       <div class="text-center">
         <a href="https://proxywing.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
-          访问 ProxyWing 官网
+          ���� ProxyWing ����
           <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
         </a>
       </div>

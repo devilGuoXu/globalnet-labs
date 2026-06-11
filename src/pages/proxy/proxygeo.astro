@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="ProxyGeo 深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -19,9 +19,9 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           <div class="flex items-center gap-3 flex-wrap">
             <h1 class="text-3xl font-bold text-slate-100">ProxyGeo 评测</h1>
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
-            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">多类型覆盖</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">多类型覆�?/span>
           </div>
-          <p class="text-slate-400 mt-1">住宅代理 · 私有代理 · IPV6 · 无限带宽 · 1500万+ IP · 12+ 国家</p>
+          <p class="text-slate-400 mt-1">住宅代理 · 私有代理 · IPV6 · 无限带宽 · 1500�? IP · 12+ 国家</p>
         </div>
       </div>
 
@@ -30,39 +30,36 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="grid md:grid-cols-2 gap-4 text-sm">
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">代理类型</span>
-            <p class="text-slate-200 font-medium mt-1">住宅代理 · 私有代理 · 静态 IPV6 · 旋转 IPV6 · YouTube IPV6</p>
+            <p class="text-slate-200 font-medium mt-1">住宅代理 · 私有代理 · 静�?IPV6 · 旋转 IPV6 · YouTube IPV6</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">覆盖范围</span>
-            <p class="text-slate-200 font-medium mt-1">12+ 国家 · 美国 415 万 IP · 印度 358 万 IP · 巴西 195 万 IP</p>
+            <p class="text-slate-200 font-medium mt-1">12+ 国家 · 美国 415 �?IP · 印度 358 �?IP · 巴西 195 �?IP</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">核心特性</span>
-            <p class="text-slate-200 font-medium mt-1">无限带宽 · 旋转/粘性 · API · 用户友好面板 · 24/7 支持</p>
+            <span class="text-slate-500">核心特�?/span>
+            <p class="text-slate-200 font-medium mt-1">无限带宽 · 旋转/粘�?· API · 用户友好面板 · 24/7 支持</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">支付方式</span>
-            <p class="text-slate-200 font-medium mt-1">信用卡 · 借记卡 · 美国运通 · Bitcoin</p>
+            <p class="text-slate-200 font-medium mt-1">信用�?· 借记�?· 美国运�?· Bitcoin</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxyGeo 是一家提供多类型代理服务的综合平台，覆盖住宅代理、私有代理（Dedicated Proxy）、越南代理、静态 IPV6、旋转 IPV6 和 YouTube IPV6 等多种代理类型。平台拥有超过 1500 万个住宅 IP，覆盖美国、英国、德国、意大利、法国、澳大利亚、加拿大、西班牙、中国、日本、巴西、印度等 12 个以上国家。
-        </p>
+          ProxyGeo 是一家提供多类型代理服务的综合平台，覆盖住宅代理、私有代理（Dedicated Proxy）、越南代理、静�?IPV6、旋�?IPV6 �?YouTube IPV6 等多种代理类型。平台拥有超�?1500 万个住宅 IP，覆盖美国、英国、德国、意大利、法国、澳大利亚、加拿大、西班牙、中国、日本、巴西、印度等 12 个以上国家�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxyGeo 的住宅代理采用旋转机制，适合数据采集、社媒运营和广告验证等场景。私有代理为单用户专用，提供更高的纯净度和稳定性。IPV6 代理支持静态和旋转两种模式，价格极具竞争力。此外还提供越南专线代理和 YouTube 专用 IPV6 代理等特色产品。
-        </p>
+          ProxyGeo 的住宅代理采用旋转机制，适合数据采集、社媒运营和广告验证等场景。私有代理为单用户专用，提供更高的纯净度和稳定性。IPV6 代理支持静态和旋转两种模式，价格极具竞争力。此外还提供越南专线代理�?YouTube 专用 IPV6 代理等特色产品�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          平台界面简洁易用，订单自动处理，支持即买即用。提供详细的视频教程和步骤指南，新手也能快速上手。支持 Discover、Visa、Mastercard、American Express 和 Bitcoin 等多种支付方式。客服支持邮件和 Facebook 渠道。
-        </p>
+          平台界面简洁易用，订单自动处理，支持即买即用。提供详细的视频教程和步骤指南，新手也能快速上手。支�?Discover、Visa、Mastercard、American Express �?Bitcoin 等多种支付方式。客服支持邮件和 Facebook 渠道�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">定价方案</h2>
-        <p class="text-slate-300 text-sm mb-4">ProxyGeo 提供住宅代理、私有代理、IPV6 代理等多种定价方案。</p>
+        <p class="text-slate-300 text-sm mb-4">ProxyGeo 提供住宅代理、私有代理、IPV6 代理等多种定价方案�?/p>
         <p class="text-slate-300 text-xs mb-3 font-medium">住宅代理定价</p>
         <img src={`${base}/images/proxygeo-res-price.png`} alt="ProxyGeo 住宅代理价格" class="w-full max-w-2xl mx-auto rounded-lg mb-6" />
         <p class="text-slate-300 text-xs mb-3 font-medium">私有代理定价</p>
@@ -77,7 +74,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         </div>
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
-            <span class="text-sm text-slate-200">信用卡 / 借记卡</span>
+            <span class="text-sm text-slate-200">信用�?/ 借记�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <span class="text-sm text-slate-200">American Express</span>
@@ -100,40 +97,40 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">平台特性</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">平台特�?/h2>
         <div class="grid md:grid-cols-2 gap-6 text-sm">
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
-            <h3 class="text-emerald-400 font-semibold mb-2">多类型代理覆盖</h3>
-            <p class="text-slate-400 leading-relaxed">住宅旋转、私有专属、静态/旋转 IPV6、越南专线、YouTube 专用代理，一站式满足不同场景需求。</p>
+            <h3 class="text-emerald-400 font-semibold mb-2">多类型代理覆�?/h3>
+            <p class="text-slate-400 leading-relaxed">住宅旋转、私有专属、静�?旋转 IPV6、越南专线、YouTube 专用代理，一站式满足不同场景需求�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold mb-2">全球 IP 覆盖</h3>
-            <p class="text-slate-400 leading-relaxed">1500 万+ 住宅 IP，覆盖美、英、德、法、巴西、印度等 12+ 国家，支持城市级定位。</p>
+            <p class="text-slate-400 leading-relaxed">1500 �? 住宅 IP，覆盖美、英、德、法、巴西、印度等 12+ 国家，支持城市级定位�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold mb-2">无限带宽设计</h3>
-            <p class="text-slate-400 leading-relaxed">所有代理方案均提供无限带宽和高速连接，适合数据采集、多账号管理等大规模任务。</p>
+            <p class="text-slate-400 leading-relaxed">所有代理方案均提供无限带宽和高速连接，适合数据采集、多账号管理等大规模任务�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold mb-2">用户友好体验</h3>
-            <p class="text-slate-400 leading-relaxed">直观面板管理代理，自动订单处理，视频教程引导，新手也能快速上手使用。</p>
+            <p class="text-slate-400 leading-relaxed">直观面板管理代理，自动订单处理，视频教程引导，新手也能快速上手使用�?/p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>多类型代理一站式覆盖</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限带宽，适合高负载任务</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>1500 万+ 大容量 IP 池</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支持 Bitcoin 等多种支付</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>自动交付 + 视频教程</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>多类型代理一站式覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>无限带宽，适合高负载任�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>1500 �? 大容�?IP �?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>支持 Bitcoin 等多种支�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>自动交付 + 视频教程</span></li>
             </ul>
           </div>
           <div>
@@ -141,11 +138,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅 IP 池集中在部分国家</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 PayPal 支付选项</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>界面仅英文和越南语</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文市场支持</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无公开退款政策</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>住宅 IP 池集中在部分国家</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>�?PayPal 支付选项</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>界面仅英文和越南�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文市场支�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无公开退款政�?/span></li>
             </ul>
           </div>
         </div>
@@ -154,14 +151,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxyGeo 以"多类型代理一站式平台"为定位，在代理服务市场中走出了一条差异化路线。从住宅旋转代理到私有专属代理，从静态 IPV6 到旋转 IPV6、YouTube 专用 IPV6，甚至越南专线代理——ProxyGeo 几乎覆盖了代理市场的所有主流类型，让用户无需在多个服务商之间切换。
-        </p>
+          ProxyGeo �?多类型代理一站式平台"为定位，在代理服务市场中走出了一条差异化路线。从住宅旋转代理到私有专属代理，从静�?IPV6 到旋�?IPV6、YouTube 专用 IPV6，甚至越南专线代理——ProxyGeo 几乎覆盖了代理市场的所有主流类型，让用户无需在多个服务商之间切换�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          1500 万+ 的住宅 IP 池和无限带宽设计使其在实际使用中表现稳定，自动交付机制和视频教程降低了使用门槛。比特币等加密货币支付方式的加入也为注重隐私的用户提供了便利。其 IPV6 代理定价极具竞争力（$0.17/月起），是市场上性价比较高的选择之一。
-        </p>
+          1500 �? 的住�?IP 池和无限带宽设计使其在实际使用中表现稳定，自动交付机制和视频教程降低了使用门槛。比特币等加密货币支付方式的加入也为注重隐私的用户提供了便利。其 IPV6 代理定价极具竞争力（$0.17/月起），是市场上性价比较高的选择之一�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于无 PayPal 支付、界面仅支持英文和越南语、以及无中文市场支持。综合评估，ProxyGeo 获得 7.3 分评价。特别推荐给需要多类型代理管理的用户、对 IPV6 代理有需求的用户、以及越南地区业务相关的用户。对于需要 PayPal 支付或中文支持的用户，建议考虑其他代理服务商。
-        </p>
+          主要局限在于无 PayPal 支付、界面仅支持英文和越南语、以及无中文市场支持。综合评估，ProxyGeo 获得 7.3 分评价。特别推荐给需要多类型代理管理的用户、对 IPV6 代理有需求的用户、以及越南地区业务相关的用户。对于需�?PayPal 支付或中文支持的用户，建议考虑其他代理服务商�?        </p>
       </section>
 
       <div class="text-center">

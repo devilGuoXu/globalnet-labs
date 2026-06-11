@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="2Captcha 代理服务深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -31,68 +31,65 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <p class="text-slate-200 font-medium mt-1">住宅 · 数据中心 · 移动 3G/4G · ISP · SOCKS5 · Premium</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">IP 池规模</span>
-            <p class="text-slate-200 font-medium mt-1">9000 万+ 住宅 IP · 700 万+ 移动 IP · 220+ 国家</p>
+            <span class="text-slate-500">IP 池规�?/span>
+            <p class="text-slate-200 font-medium mt-1">9000 �? 住宅 IP · 700 �? 移动 IP · 220+ 国家</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">性能指标</span>
-            <p class="text-slate-200 font-medium mt-1">99.9% 在线率 · ~0.7s 响应 · 无限并发 · HTTP/HTTPS/SOCKS5</p>
+            <p class="text-slate-200 font-medium mt-1">99.9% 在线�?· ~0.7s 响应 · 无限并发 · HTTP/HTTPS/SOCKS5</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">定价模式</span>
-            <p class="text-slate-200 font-medium mt-1">住宅 $5/GB 起 · 批量折扣至 $1.4/GB · 3 个月有效期</p>
+            <p class="text-slate-200 font-medium mt-1">住宅 $5/GB �?· 批量折扣�?$1.4/GB · 3 个月有效�?/p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          2Captcha 是全球知名的代理服务提供商，提供住宅代理、数据中心代理、3G/4G 移动代理、ISP 代理和 SOCKS5 代理等多条产品线。平台拥有超过 9000 万住宅 IP 和 700 万移动 IP，覆盖 220+ 国家和地区，支持国家、州/省、城市和 ISP 级别的精准定位。作为行业领先的代理基础设施平台，2Captcha 被 G2、SourceForge 和 Captchathecat 等评测机构评为高分。
-        </p>
+          2Captcha 是全球知名的代理服务提供商，提供住宅代理、数据中心代理�?G/4G 移动代理、ISP 代理�?SOCKS5 代理等多条产品线。平台拥有超�?9000 万住�?IP �?700 万移�?IP，覆�?220+ 国家和地区，支持国家、州/省、城市和 ISP 级别的精准定位。作为行业领先的代理基础设施平台�?Captcha �?G2、SourceForge �?Captchathecat 等评测机构评为高分�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          2Captcha 代理服务的核心优势在于"全类型覆盖 + 弹性定价"——从住宅到数据中心、从移动到 ISP，用户可以在一个平台获取所需的所有代理类型。按 GB 计费的定价模式从 $5/GB 起，批量购买最高可享 72% 折扣（低至 $1.4/GB）。平台提供灵活的粘性会话设置（0-120 分钟），支持 HTTP/HTTPS/SOCKS5 协议，无并发连接限制。
-        </p>
+          2Captcha 代理服务的核心优势在�?全类型覆�?+ 弹性定�?——从住宅到数据中心、从移动�?ISP，用户可以在一个平台获取所需的所有代理类型。按 GB 计费的定价模式从 $5/GB 起，批量购买最高可�?72% 折扣（低�?$1.4/GB）。平台提供灵活的粘性会话设置（0-120 分钟），支持 HTTP/HTTPS/SOCKS5 协议，无并发连接限制�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          2Captcha 提供 Chrome 浏览器代理扩展和代理切换器插件，支持 PHP、Node.js、C#、Go、Java、Python 等多语言 API 集成。平台严格遵循无日志政策，支持 SSL 加密、GDPR 和 CCPA 合规。支付方式包括 Visa、Mastercard、PayPal、支付宝、BTC、USDT 和 Airtm。
-        </p>
+          2Captcha 提供 Chrome 浏览器代理扩展和代理切换器插件，支持 PHP、Node.js、C#、Go、Java、Python 等多语言 API 集成。平台严格遵循无日志政策，支�?SSL 加密、GDPR �?CCPA 合规。支付方式包�?Visa、Mastercard、PayPal、支付宝、BTC、USDT �?Airtm�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">代理产品与技术特性</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">代理产品与技术特�?/h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅代理（Residential）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">2Captcha 的核心代理产品，基于全球真实用户的社区共享网络。拥有超过 9000 万住宅 IP，覆盖 220+ 国家和地区，支持国家、州/省、城市和 ISP 级别的精准定位。粘性会话 0-120 分钟可调，支持 HTTP/HTTPS/SOCKS5 协议，无并发连接限制。99.9% 在线率保证，约 0.7s 平均响应时间。定价 $5/GB 起，批量购买低至 $1.4/GB。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅代理（Residential�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">2Captcha 的核心代理产品，基于全球真实用户的社区共享网络。拥有超�?9000 万住�?IP，覆�?220+ 国家和地区，支持国家、州/省、城市和 ISP 级别的精准定位。粘性会�?0-120 分钟可调，支�?HTTP/HTTPS/SOCKS5 协议，无并发连接限制�?9.9% 在线率保证，�?0.7s 平均响应时间。定�?$5/GB 起，批量购买低至 $1.4/GB�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心代理（Datacenter / Premium）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">提供全球分布的数据中心代理服务器，Premium 代理拥有高效流量管理能力，可应对大规模流量激增，响应速度行业领先。支持共享 IP 池和独立 IP 获取，支持国家、州和城市级别定位。零带宽限制，零目标限制，API 集成便捷。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心代理（Datacenter / Premium�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供全球分布的数据中心代理服务器，Premium 代理拥有高效流量管理能力，可应对大规模流量激增，响应速度行业领先。支持共�?IP 池和独立 IP 获取，支持国家、州和城市级别定位。零带宽限制，零目标限制，API 集成便捷�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">移动代理（Mobile 3G/4G）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">通过真实对等网络提供 3G/4G 移动 IP，拥有超过 700 万真实移动 IP，覆盖全球各大城市。支持按国家、城市、运营商和 ASN 的精准定位，无并发连接限制。适合需要从移动设备视角访问互联网的广告验证、应用测试等场景。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">移动代理（Mobile 3G/4G�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">通过真实对等网络提供 3G/4G 移动 IP，拥有超�?700 万真实移�?IP，覆盖全球各大城市。支持按国家、城市、运营商�?ASN 的精准定位，无并发连接限制。适合需要从移动设备视角访问互联网的广告验证、应用测试等场景�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">ISP 代理（静态住宅）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">提供由 ISP 分配的真实住宅 IP，用户可长期持有同一 IP 地址，不受中断或延迟影响。支持全球任意城市定位，提供行业最快的静态住宅 ISP IP 速度。适合需要稳定长期 IP 的社媒运营、电商管理和品牌保护等场景。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">提供�?ISP 分配的真实住�?IP，用户可长期持有同一 IP 地址，不受中断或延迟影响。支持全球任意城市定位，提供行业最快的静态住�?ISP IP 速度。适合需要稳定长�?IP 的社媒运营、电商管理和品牌保护等场景�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">SOCKS5 代理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">支持 TCP 协议和增强认证方式，提供超低延迟和高带宽连接。全球网络覆盖，适用于流媒体、BT 下载和在线游戏等对速度和匿名性要求较高的场景。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 TCP 协议和增强认证方式，提供超低延迟和高带宽连接。全球网络覆盖，适用于流媒体、BT 下载和在线游戏等对速度和匿名性要求较高的场景�?/p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">定价参考</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">定价参�?/h2>
         <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50 overflow-x-auto">
           <table class="w-full text-sm text-slate-300">
             <thead>
               <tr class="border-b border-slate-700">
-                <th class="text-left py-3 px-2">流量包</th>
+                <th class="text-left py-3 px-2">流量�?/th>
                 <th class="text-right py-3 px-2">价格</th>
-                <th class="text-right py-3 px-2">每 GB 单价</th>
+                <th class="text-right py-3 px-2">�?GB 单价</th>
               </tr>
             </thead>
             <tbody>
@@ -108,7 +105,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             </tbody>
           </table>
         </div>
-        <p class="text-xs text-slate-500 mt-2">价格为住宅代理定价，以官网实时报价为准</p>
+        <p class="text-xs text-slate-500 mt-2">价格为住宅代理定价，以官网实时报价为�?/p>
       </section>
 
       <!-- 支付方式 -->
@@ -133,26 +130,26 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">支付宝 / Airtm</span>
+            <span class="text-sm text-slate-200">支付�?/ Airtm</span>
           </div>
         </div>
         <p class="text-xs text-slate-500 mt-3">具体支付方式请以官网结算页面为准</p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>五大代理类型全覆盖：住宅/数据中心/移动/ISP/SOCKS5</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>9000 万+ 住宅 IP，220+ 国家，城市/ISP 级定位</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>批量折扣最高 72%，$5/GB 低至 $1.4/GB</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限并发连接，99.9% 在线率，HTTP/SOCKS5</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Chrome 扩展 + 多语言 API + 无日志政策</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支持加密货币、PayPal、支付宝等多种支付</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>五大代理类型全覆盖：住宅/数据中心/移动/ISP/SOCKS5</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>9000 �? 住宅 IP�?20+ 国家，城�?ISP 级定�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>批量折扣最�?72%�?5/GB 低至 $1.4/GB</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>无限并发连接�?9.9% 在线率，HTTP/SOCKS5</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>Chrome 扩展 + 多语言 API + 无日志政�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>支持加密货币、PayPal、支付宝等多种支�?/span></li>
             </ul>
           </div>
           <div>
@@ -160,11 +157,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>中国不可用，部分网站（PayPal/Telegram）被屏蔽</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无免费试用，购买流量 3 个月内有效</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>粘性会话最长 120 分钟，无永久会话</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理为社区共享网络，非专属设备</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>中国不可用，部分网站（PayPal/Telegram）被屏蔽</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无免费试用，购买流量 3 个月内有�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面和中文客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>粘性会话最�?120 分钟，无永久会话</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>住宅代理为社区共享网络，非专属设�?/span></li>
             </ul>
           </div>
         </div>
@@ -173,14 +170,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          2Captcha 代理服务是全球代理市场中产品线最全面的平台之一，提供住宅代理、数据中心代理、移动 3G/4G 代理、ISP 代理和 SOCKS5 代理五大产品线。超过 9000 万住宅 IP 覆盖 220+ 国家和地区，配合国家/州/城市/ISP 四级定位能力，可满足绝大多数数据采集、社媒运营和广告验证场景的需求。
-        </p>
+          2Captcha 代理服务是全球代理市场中产品线最全面的平台之一，提供住宅代理、数据中心代理、移�?3G/4G 代理、ISP 代理�?SOCKS5 代理五大产品线。超�?9000 万住�?IP 覆盖 220+ 国家和地区，配合国家/�?城市/ISP 四级定位能力，可满足绝大多数数据采集、社媒运营和广告验证场景的需求�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          2Captcha 代理的核心价值在于"全类型 + 弹性定价 + 易集成"——一个平台覆盖所有代理需求，批量购买折扣最高 72%，Chrome 扩展和多语言 API 大幅降低使用门槛。无日志政策、SSL 加密和多种支付方式也提升了平台的可用性和信任度。
-        </p>
+          2Captcha 代理的核心价值在�?全类�?+ 弹性定�?+ 易集�?——一个平台覆盖所有代理需求，批量购买折扣最�?72%，Chrome 扩展和多语言 API 大幅降低使用门槛。无日志政策、SSL 加密和多种支付方式也提升了平台的可用性和信任度�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于中国不可用、无免费试用、流量 3 个月有效期以及社区共享网络带来的 IP 纯净度不确定性。综合评估，2Captcha 代理服务获得 7.3 分评价。特别推荐给需要多类型代理的一站式用户、预算敏感的大批量数据采集团队，以及偏好按 GB 计费灵活模式的开发者。
-        </p>
+          主要局限在于中国不可用、无免费试用、流�?3 个月有效期以及社区共享网络带来的 IP 纯净度不确定性。综合评估，2Captcha 代理服务获得 7.3 分评价。特别推荐给需要多类型代理的一站式用户、预算敏感的大批量数据采集团队，以及偏好�?GB 计费灵活模式的开发者�?        </p>
       </section>
 
       <div class="text-center">

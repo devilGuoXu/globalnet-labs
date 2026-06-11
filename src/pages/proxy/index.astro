@@ -197,6 +197,26 @@ const filtered = proxiesData.filter(p => whitelist.includes(p.id));
   let page = 1;
   let perPage = 10;
 
+  const saved = sessionStorage.getItem('proxyListState');
+  if (saved) {
+    const st = JSON.parse(saved);
+    page = st.page || 1;
+    perPage = st.perPage || 10;
+    if (st.search) searchInput.value = st.search;
+    pageSizeSelect.value = perPage;
+    sessionStorage.removeItem('proxyListState');
+  }
+
+  function saveState() {
+    sessionStorage.setItem('proxyListState', JSON.stringify({
+      page, perPage, search: searchInput.value.trim()
+    }));
+  }
+
+  document.querySelectorAll('.proxy-card a').forEach(a => {
+    a.addEventListener('click', saveState);
+  });
+
   function filterCards() {
     const q = searchInput.value.trim().toLowerCase();
     visibleCards = [...allCards].filter(card => !q || card.dataset.name.includes(q));

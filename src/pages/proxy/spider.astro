@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="Spider 代理深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -31,12 +31,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <p class="text-slate-200 font-medium mt-1">住宅代理 · 移动代理 · SERP API · Fetch API · Real-Time Crawler</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">IP 池规模</span>
-            <p class="text-slate-200 font-medium mt-1">300 万+ 住宅 + 移动 IP，150+ 国家</p>
+            <span class="text-slate-500">IP 池规�?/span>
+            <p class="text-slate-200 font-medium mt-1">300 �? 住宅 + 移动 IP�?50+ 国家</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">核心特色</span>
-            <p class="text-slate-200 font-medium mt-1">城市级/ASN 定位 · 不限子用户 · API 优先</p>
+            <p class="text-slate-200 font-medium mt-1">城市�?ASN 定位 · 不限子用�?· API 优先</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">知名客户</span>
@@ -46,16 +46,13 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与背景</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与背�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Spider 是一家以 API 为先理念驱动的代理服务商，由 DomainTools 联合创始人 Jay 于 2002 年创立。其创始团队在数据采集领域拥有超过 20 年的经验——早在 2002 年，Jay 在创建 DomainTools 时就需要大规模采集域名 Whois 数据，GoDaddy 等注册商对单个 IP 每天仅允许 10 条记录的限制催生了 Spider 代理网络的雏形。
-        </p>
+          Spider 是一家以 API 为先理念驱动的代理服务商，由 DomainTools 联合创始�?Jay �?2002 年创立。其创始团队在数据采集领域拥有超�?20 年的经验——早�?2002 年，Jay 在创�?DomainTools 时就需要大规模采集域名 Whois 数据，GoDaddy 等注册商对单�?IP 每天仅允�?10 条记录的限制催生�?Spider 代理网络的雏形�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Spider 的核心产品包括 Residential Proxy（住宅 + 移动代理网络）、SERP Request API（搜索引擎结果采集）、Fetch API（通用 URL 抓取）和 Real-Time Crawler（企业级实时爬虫）。此外还运营 Spider Income 项目，通过用户自愿贡献带宽来实现代理 IP 的合规获取，强调"仅使用经过用户同意的带宽资源"。
-        </p>
+          Spider 的核心产品包�?Residential Proxy（住�?+ 移动代理网络）、SERP Request API（搜索引擎结果采集）、Fetch API（通用 URL 抓取）和 Real-Time Crawler（企业级实时爬虫）。此外还运营 Spider Income 项目，通过用户自愿贡献带宽来实现代�?IP 的合规获取，强调"仅使用经过用户同意的带宽资源"�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          平台日均处理超过 1000 万次 API 调用，服务客户包括 HubSpot、Deloitte、Logitech、Walmart 等知名企业。支持城市级和 ASN 级地理定位，提供不限数量的子用户管理功能。
-        </p>
+          平台日均处理超过 1000 万次 API 调用，服务客户包�?HubSpot、Deloitte、Logitech、Walmart 等知名企业。支持城市级�?ASN 级地理定位，提供不限数量的子用户管理功能�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
@@ -64,22 +61,22 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="space-y-6">
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">Residential Proxy</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">Spider 的核心代理产品，提供住宅和移动 IP 资源。支持城市级定位（*部分方案）、ASN 和运营商级别定位。不限子用户数量和不限 IP 数量，适合团队协作和大规模数据采集。提供多层分级方案从免费到企业级，入门级免费 Candy 方案提供 100MB 流量，无需填写支付信息即可体验。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">Spider 的核心代理产品，提供住宅和移�?IP 资源。支持城市级定位�?部分方案）、ASN 和运营商级别定位。不限子用户数量和不�?IP 数量，适合团队协作和大规模数据采集。提供多层分级方案从免费到企业级，入门级免费 Candy 方案提供 100MB 流量，无需填写支付信息即可体验�?/p>
           </div>
 
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">SERP Request API</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">专门针对 Google 和 Bing 搜索引擎结果页（SERP）的数据采集 API。提供 100% 交付成功率，支持无缝集成。分层定价按页数计费，从入门级到企业级方案覆盖不同规模需求，企业级方案支持 2500 万+ 页。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">专门针对 Google �?Bing 搜索引擎结果页（SERP）的数据采集 API。提�?100% 交付成功率，支持无缝集成。分层定价按页数计费，从入门级到企业级方案覆盖不同规模需求，企业级方案支�?2500 �? 页�?/p>
           </div>
 
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">Fetch API</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">通用 URL 抓取 API，是开发者最常用的产品之一。可抓取 Amazon 商品信息、旅游定价、房地产数据等大型网站的结构化数据。定价模式与 SERP API 相同，按页数分层计费，提供 100% 交付成功率。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">通用 URL 抓取 API，是开发者最常用的产品之一。可抓取 Amazon 商品信息、旅游定价、房地产数据等大型网站的结构化数据。定价模式与 SERP API 相同，按页数分层计费，提�?100% 交付成功率�?/p>
           </div>
 
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">Real-Time Crawler</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">面向企业的实时爬虫服务，适合需要持续、大规模数据采集的组织。Spider 团队利用 20+ 年的爬虫经验为企业提供定制化的数据采集解决方案。官网未公开具体定价，需联系销售团队。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">面向企业的实时爬虫服务，适合需要持续、大规模数据采集的组织。Spider 团队利用 20+ 年的爬虫经验为企业提供定制化的数据采集解决方案。官网未公开具体定价，需联系销售团队�?/p>
           </div>
         </div>
       </section>
@@ -88,24 +85,24 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <h2 class="text-xl font-bold text-slate-100 mb-6">核心功能</h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">城市级 + ASN 级地理定位</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">支持按国家、城市、ASN 和运营商选择代理位置，这在同行中较为少见。用户可以精确地选取特定城市或特定网络运营商的 IP，适用于本地化测试、区域数据采集和广告验证等对地理精度要求较高的场景。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">城市�?+ ASN 级地理定�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持按国家、城市、ASN 和运营商选择代理位置，这在同行中较为少见。用户可以精确地选取特定城市或特定网络运营商�?IP，适用于本地化测试、区域数据采集和广告验证等对地理精度要求较高的场景�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">不限子用户与 IP 数量</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">所有付费方案均提供不限数量的子用户和 IP 配额，方便团队管理和权限分配。Dashboard 支持子用户管理和域名白名单配置，管理员可以精细控制每个子用户的访问权限和目标域名。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">所有付费方案均提供不限数量的子用户�?IP 配额，方便团队管理和权限分配。Dashboard 支持子用户管理和域名白名单配置，管理员可以精细控制每个子用户的访问权限和目标域名�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">免费试用方案</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">提供名为 Candy 的免费方案，包含 100MB 流量，无需填写任何支付信息即可注册使用。此外还提供 7 天免费试用，让用户在购买前充分测试服务质量。同时提供无条件退款保证。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">提供名为 Candy 的免费方案，包含 100MB 流量，无需填写任何支付信息即可注册使用。此外还提供 7 天免费试用，让用户在购买前充分测试服务质量。同时提供无条件退款保证�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">三大 API 产品矩阵</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">Spider 是业内以 API 产品见长的代理平台之一，Residential Proxy、SERP API 和 Fetch API 三款 API 产品覆盖了代理接入、搜索引擎数据采集和通用网页抓取的完整链条。开发者可以通过统一的 API 接口完成所有操作，无需跳转多个平台。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">Spider 是业内以 API 产品见长的代理平台之一，Residential Proxy、SERP API �?Fetch API 三款 API 产品覆盖了代理接入、搜索引擎数据采集和通用网页抓取的完整链条。开发者可以通过统一�?API 接口完成所有操作，无需跳转多个平台�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">伦理带宽与透明度</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">Spider 强调其 IP 资源来自用户自愿贡献的带宽（通过 Spider Income 项目），而非通过恶意软件或未经用户同意的方式获取。公司在所有产品披露中使用公司实名，并发布了隐私透明度报告。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">伦理带宽与透明�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Spider 强调�?IP 资源来自用户自愿贡献的带宽（通过 Spider Income 项目），而非通过恶意软件或未经用户同意的方式获取。公司在所有产品披露中使用公司实名，并发布了隐私透明度报告�?/p>
           </div>
         </div>
       </section>
@@ -120,26 +117,26 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡</span>
+            <span class="text-sm text-slate-200">信用�?/span>
           </div>
         </div>
         <p class="text-xs text-slate-500 mt-3">具体支付方式请以官网结算页面为准</p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>20+ 年数据采集经验，创始人曾创立 DomainTools</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>API 产品矩阵完善：代理 + SERP + Fetch + Crawler</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>城市级 + ASN 级定位，不限子用户和 IP 数量</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费 Candy 方案（100MB）+ 7 天试用 + 退款保证</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>服务 HubSpot/Deloitte/Logitech/Walmart 等大客户</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>同时提供住宅 IP 和移动 IP</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>20+ 年数据采集经验，创始人曾创立 DomainTools</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>API 产品矩阵完善：代�?+ SERP + Fetch + Crawler</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>城市�?+ ASN 级定位，不限子用户和 IP 数量</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>免费 Candy 方案�?00MB�? 7 天试�?+ 退款保�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>服务 HubSpot/Deloitte/Logitech/Walmart 等大客户</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>同时提供住宅 IP 和移�?IP</span></li>
             </ul>
           </div>
           <div>
@@ -147,12 +144,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>300 万+ IP 池规模相比头部平台（数千万级）偏小</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>定价整体偏高，入门付费方案 $75/5GB 起</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无数据中心代理产品线，只有住宅+移动</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>网站设计和文档更新不够频繁（版权显示 2022）</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 SOCKS5 协议支持（仅 HTTP/HTTPS）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>300 �? IP 池规模相比头部平台（数千万级）偏�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>定价整体偏高，入门付费方�?$75/5GB �?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无数据中心代理产品线，只有住�?移动</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面和中文客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>网站设计和文档更新不够频繁（版权显示 2022�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>�?SOCKS5 协议支持（仅 HTTP/HTTPS�?/span></li>
             </ul>
           </div>
         </div>
@@ -161,14 +158,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Spider 是一家具有深厚技术基因的代理服务商，20+ 年的数据采集经验和 DomainTools 创始团队的技术背景使其在 API 设计和数据采集工具构建方面具有独特优势。核心产品矩阵涵盖 Residential Proxy、SERP API、Fetch API 和 Real-Time Crawler，提供了从代理接入到数据采集的完整链条。
-        </p>
+          Spider 是一家具有深厚技术基因的代理服务商，20+ 年的数据采集经验�?DomainTools 创始团队的技术背景使其在 API 设计和数据采集工具构建方面具有独特优势。核心产品矩阵涵�?Residential Proxy、SERP API、Fetch API �?Real-Time Crawler，提供了从代理接入到数据采集的完整链条�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          300 万+ 住宅和移动 IP 资源、城市级/ASN 级定位、不限子用户等特性使其在企业级数据采集场景中具有竞争力。免费 Candy 方案和 7 天试用降低了用户的决策门槛。服务 HubSpot、Deloitte 等知名企业的履历也增强了其品牌可信度。同时提供住宅和移动 IP 在代理服务商中也不多见。
-        </p>
+          300 �? 住宅和移�?IP 资源、城市级/ASN 级定位、不限子用户等特性使其在企业级数据采集场景中具有竞争力。免�?Candy 方案�?7 天试用降低了用户的决策门槛。服�?HubSpot、Deloitte 等知名企业的履历也增强了其品牌可信度。同时提供住宅和移动 IP 在代理服务商中也不多见�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于 IP 池规模（300 万+）相比头部平台偏小、定价偏高、缺少数据中心代理和中文支持。综合评估，Spider 获得 7.3 分评价。特别推荐给重视 API 集成体验的开发者团队、需要同时使用住宅和移动 IP 的用户、以及需要通过 SERP API 采集搜索引擎数据的 SEO 和数据研究团队。
-        </p>
+          主要局限在�?IP 池规模（300 �?）相比头部平台偏小、定价偏高、缺少数据中心代理和中文支持。综合评估，Spider 获得 7.3 分评价。特别推荐给重视 API 集成体验的开发者团队、需要同时使用住宅和移动 IP 的用户、以及需要通过 SERP API 采集搜索引擎数据�?SEO 和数据研究团队�?        </p>
       </section>
 
       <div class="text-center">

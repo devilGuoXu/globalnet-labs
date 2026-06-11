@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="Thunderproxy 代理深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -19,7 +19,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">住宅代理</span>
           </div>
-          <p class="text-slate-400 mt-1">住宅代理 · 静态 ISP · 数据中心 · 加密货币友好</p>
+          <p class="text-slate-400 mt-1">住宅代理 · 静�?ISP · 数据中心 · 加密货币友好</p>
         </div>
       </div>
 
@@ -28,15 +28,15 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="grid md:grid-cols-2 gap-4 text-sm">
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">产品类型</span>
-            <p class="text-slate-200 font-medium mt-1">住宅代理 · 静态 ISP · 数据中心</p>
+            <p class="text-slate-200 font-medium mt-1">住宅代理 · 静�?ISP · 数据中心</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">IP 池规模</span>
-            <p class="text-slate-200 font-medium mt-1">3000 万+ 住宅 IP，155+ 国家，2500+ 城市</p>
+            <span class="text-slate-500">IP 池规�?/span>
+            <p class="text-slate-200 font-medium mt-1">3000 �? 住宅 IP�?55+ 国家�?500+ 城市</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">性能指标</span>
-            <p class="text-slate-200 font-medium mt-1">0.5s 响应 · 99.9% 在线率 · 99.55% 成功率</p>
+            <p class="text-slate-200 font-medium mt-1">0.5s 响应 · 99.9% 在线�?· 99.55% 成功�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">公司所在地</span>
@@ -46,41 +46,38 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Thunderproxy 是一家总部位于立陶宛维尔纽斯的代理服务商，提供住宅代理、静态 ISP 代理和数据中心代理三条产品线。平台拥有 3000 万+ 住宅 IP 资源，覆盖 155+ 国家、500+ 州/省和 2500+ 城市，在覆盖广度上处于行业中上水平。
-        </p>
+          Thunderproxy 是一家总部位于立陶宛维尔纽斯的代理服务商，提供住宅代理、静�?ISP 代理和数据中心代理三条产品线。平台拥�?3000 �? 住宅 IP 资源，覆�?155+ 国家�?00+ �?省和 2500+ 城市，在覆盖广度上处于行业中上水平�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Thunderproxy 最突出的差异化优势是加密货币友好——除 Mastercard 和 Visa 外，支持 Bitcoin、Binance 以及 100+ 其他加密货币支付，且"无需信用卡即可开始"。平台提供 256MB 免费试用，无需绑定支付方式。使用优惠码 BF50 可享 50% 折扣。
-        </p>
+          Thunderproxy 最突出的差异化优势是加密货币友好——除 Mastercard �?Visa 外，支持 Bitcoin、Binance 以及 100+ 其他加密货币支付，且"无需信用卡即可开�?。平台提�?256MB 免费试用，无需绑定支付方式。使用优惠码 BF50 可享 50% 折扣�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          客户包括 DigitalOcean、Hetzner、Vercel、Paysera、Coingate、Undetectable.io、Postman、Mailerlite 等知名科技公司。平台提供 24/7 在线客服、Discord 和 Telegram 社区支持，以及详细的 API 文档和集成指南。
-        </p>
+          客户包括 DigitalOcean、Hetzner、Vercel、Paysera、Coingate、Undetectable.io、Postman、Mailerlite 等知名科技公司。平台提�?24/7 在线客服、Discord �?Telegram 社区支持，以及详细的 API 文档和集成指南�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">产品线详解</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">产品线详�?/h2>
 
         <div class="space-y-6">
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅代理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">Thunderproxy 的核心产品，3000 万+ 真实住宅 IP，155+ 国家覆盖，0.5s 平均响应时间。支持三种轮换模式：按请求轮换、粘性会话和基于 TTL 的时间轮换。支持国家/州/城市三级地理定位。不限并发线程数，99.55% 成功率。HTTP 和 SOCKS5 协议支持。起价 $2.49/GB（使用 BF50 享 50% OFF）。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">Thunderproxy 的核心产品，3000 �? 真实住宅 IP�?55+ 国家覆盖�?.5s 平均响应时间。支持三种轮换模式：按请求轮换、粘性会话和基于 TTL 的时间轮换。支持国�?�?城市三级地理定位。不限并发线程数�?9.55% 成功率。HTTP �?SOCKS5 协议支持。起�?$2.49/GB（使�?BF50 �?50% OFF）�?/p>
           </div>
 
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态 ISP 代理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">专属 IPv4 地址，由可信 ISP 提供，兼具住宅代理的高信任度和数据中心的高速性能。无限租期延长，持续高速表现。适合需要长期稳定代理身份的业务场景，如账号管理和品牌保护。起价 $1.79/IP。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静�?ISP 代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">专属 IPv4 地址，由可信 ISP 提供，兼具住宅代理的高信任度和数据中心的高速性能。无限租期延长，持续高速表现。适合需要长期稳定代理身份的业务场景，如账号管理和品牌保护。起�?$1.79/IP�?/p>
           </div>
 
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心代理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">经济高效的高速代理方案，不限线程数，支持轮换会话。覆盖 20+ 国家。适合对速度要求高、对匿名性要求相对较低的批量数据采集场景。起价 $0.75/GB。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">经济高效的高速代理方案，不限线程数，支持轮换会话。覆�?20+ 国家。适合对速度要求高、对匿名性要求相对较低的批量数据采集场景。起�?$0.75/GB�?/p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">住宅代理定价参考</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">住宅代理定价参�?/h2>
         <div class="bg-slate-950/50 rounded-xl p-4 border border-slate-700/50">
           <img src={`${base}/images/thunderproxy-res-price.webp`} alt="Thunderproxy 住宅代理价格" class="max-w-full h-auto" />
         </div>
@@ -91,19 +88,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="space-y-6">
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">三种轮换模式</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">支持按请求自动轮换、粘性会话（保持同一 IP 一段时间）和基于 TTL 的时间轮换三种模式。用户可根据目标网站的反爬策略和采集需求灵活选择，兼顾匿名性和会话连贯性。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">支持按请求自动轮换、粘性会话（保持同一 IP 一段时间）和基�?TTL 的时间轮换三种模式。用户可根据目标网站的反爬策略和采集需求灵活选择，兼顾匿名性和会话连贯性�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">三级地理定位</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">支持国家、州/省和城市三级地理定位，覆盖 155+ 国家和 2500+ 城市。美国拥有 520 万+ IP，巴西 190 万+，英国 110 万+，加拿大 52 万+，德国 31 万+ 等。精细的地理控制适用于本地化测试和区域数据采集。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">支持国家、州/省和城市三级地理定位，覆�?155+ 国家�?2500+ 城市。美国拥�?520 �? IP，巴�?190 �?，英�?110 �?，加拿大 52 �?，德�?31 �? 等。精细的地理控制适用于本地化测试和区域数据采集�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">加密货币支付生态</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">除传统信用卡（Mastercard/Visa）外，支持 Bitcoin、Binance Coin 以及超过 100 种其他加密货币支付。注册无需信用卡，256MB 免费试用无任何绑定。对隐私敏感用户和加密货币持有者非常友好。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">加密货币支付生�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">除传统信用卡（Mastercard/Visa）外，支�?Bitcoin、Binance Coin 以及超过 100 种其他加密货币支付。注册无需信用卡，256MB 免费试用无任何绑定。对隐私敏感用户和加密货币持有者非常友好�?/p>
           </div>
           <div>
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">低延迟高性能</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">平均 0.5 秒响应时间，99.9% 在线率保障，99.55% 请求成功率。不限并发线程数，支持多设备同时使用。HTTP 和 SOCKS5 双协议覆盖，user:pass 和 IP 白名单两种认证方式。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">平均 0.5 秒响应时间，99.9% 在线率保障，99.55% 请求成功率。不限并发线程数，支持多设备同时使用。HTTP �?SOCKS5 双协议覆盖，user:pass �?IP 白名单两种认证方式�?/p>
           </div>
         </div>
       </section>
@@ -118,30 +115,30 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <div class="flex flex-wrap gap-3">
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            <span class="text-sm text-slate-200">信用卡</span>
+            <span class="text-sm text-slate-200">信用�?/span>
           </div>
           <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
             <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
             <span class="text-sm text-slate-200">加密货币</span>
           </div>
         </div>
-        <p class="text-xs text-slate-500 mt-3">支持 Bitcoin、Binance 及 100+ 加密货币</p>
+        <p class="text-xs text-slate-500 mt-3">支持 Bitcoin、Binance �?100+ 加密货币</p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>3000 万+ 住宅 IP，155+ 国家，城市级定位</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>三种轮换模式（请求/粘性/TTL），灵活性高</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支持 100+ 加密货币支付，注册无需信用卡</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>256MB 免费试用，0.5s 低延迟，99.9% 在线率</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>HTTP + SOCKS5 双协议，不限并发线程</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>BF50 优惠码享 50% 折扣</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>3000 �? 住宅 IP�?55+ 国家，城市级定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>三种轮换模式（请�?粘�?TTL），灵活性高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>支持 100+ 加密货币支付，注册无需信用�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>256MB 免费试用�?.5s 低延迟，99.9% 在线�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>HTTP + SOCKS5 双协议，不限并发线程</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>BF50 优惠码享 50% 折扣</span></li>
             </ul>
           </div>
           <div>
@@ -149,12 +146,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 池规模（3000 万）低于头部平台的亿级规模</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无移动代理产品线</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面和中文客服</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度相对有限，运营时间不如老牌厂商</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>定价折扣前 $4.99/GB 原价偏高</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>缺少 SERP/Scraper API 等数据采集 API</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>IP 池规模（3000 万）低于头部平台的亿级规�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无移动代理产品线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界面和中文客服</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>品牌知名度相对有限，运营时间不如老牌厂商</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>定价折扣�?$4.99/GB 原价偏高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>缺少 SERP/Scraper API 等数据采�?API</span></li>
             </ul>
           </div>
         </div>
@@ -163,14 +160,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Thunderproxy 是一家以低延迟和高性能为卖点的代理服务商，3000 万+ 住宅 IP、155+ 国家覆盖和 0.5s 平均响应时间使其在数据采集场景中具有竞争力。三种轮换模式（按请求、粘性、TTL）和三级地理定位（国家/州/城市）提供了较高的灵活性。
-        </p>
+          Thunderproxy 是一家以低延迟和高性能为卖点的代理服务商，3000 �? 住宅 IP�?55+ 国家覆盖�?0.5s 平均响应时间使其在数据采集场景中具有竞争力。三种轮换模式（按请求、粘性、TTL）和三级地理定位（国�?�?城市）提供了较高的灵活性�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          Thunderproxy 最独特的差异化优势在于其加密货币支付生态——支持超过 100 种加密货币，注册无需信用卡，256MB 免费试用无任何绑定。这对于隐私敏感用户和加密货币持有者来说是显著的加分项。BF50 优惠码可享 50% 折扣，使定价更具竞争力。DigitalOcean、Vercel、Undetectable 等客户的背书也增强了品牌可信度。
-        </p>
+          Thunderproxy 最独特的差异化优势在于其加密货币支付生态——支持超�?100 种加密货币，注册无需信用卡，256MB 免费试用无任何绑定。这对于隐私敏感用户和加密货币持有者来说是显著的加分项。BF50 优惠码可�?50% 折扣，使定价更具竞争力。DigitalOcean、Vercel、Undetectable 等客户的背书也增强了品牌可信度�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于 IP 池规模低于头部平台、缺少移动代理和 API 产品线。综合评估，Thunderproxy 获得 7.3 分评价。特别推荐给习惯使用加密货币支付的用户、重视低延迟和高成功率的自动化数据采集团队，以及寻找无需信用卡即可试用的隐私意识较强的用户。
-        </p>
+          主要局限在�?IP 池规模低于头部平台、缺少移动代理和 API 产品线。综合评估，Thunderproxy 获得 7.3 分评价。特别推荐给习惯使用加密货币支付的用户、重视低延迟和高成功率的自动化数据采集团队，以及寻找无需信用卡即可试用的隐私意识较强的用户�?        </p>
       </section>
 
       <div class="text-center">

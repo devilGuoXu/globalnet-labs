@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 <Layout title="HypeProxies 代理深度评测 - GlobalNet Labs">
   <div class="max-w-[1440px] mx-auto px-6 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         返回代理列表
       </a>
@@ -15,7 +15,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <img src={`${base}/images/hypeproxies.png`} alt="HypeProxies" class="h-14 w-auto" />
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">HypeProxies 深度评测</h1>
-          <p class="text-slate-400 text-lg">ISP 静态住宅代理专家，10Gbps 骨干网，不限带宽，$1 试用</p>
+          <p class="text-slate-400 text-lg">ISP 静态住宅代理专家，10Gbps 骨干网，不限带宽�?1 试用</p>
         </div>
       </div>
 
@@ -28,11 +28,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.5</div>
-            <div class="text-xs text-slate-500 mt-1">IP纯净度</div>
+            <div class="text-xs text-slate-500 mt-1">IP纯净�?/div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.5</div>
-            <div class="text-xs text-slate-500 mt-1">产品丰富度</div>
+            <div class="text-xs text-slate-500 mt-1">产品丰富�?/div>
           </div>
           <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
             <div class="text-2xl font-bold text-slate-100">7.0</div>
@@ -48,42 +48,39 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          HypeProxies 是一家运营超过 7 年的代理服务商，以 ISP 静态住宅代理为核心产品，同时提供轮换住宅代理、运动鞋抢购代理、票务代理、调查代理、精英代理和不限带宽代理等多条产品线。平台拥有 50 万+ ISP IP 和 1000 万+ 住宅 IP，覆盖美国和加拿大全境，月均处理超过 600 亿次代理请求。
-        </p>
+          HypeProxies 是一家运营超�?7 年的代理服务商，�?ISP 静态住宅代理为核心产品，同时提供轮换住宅代理、运动鞋抢购代理、票务代理、调查代理、精英代理和不限带宽代理等多条产品线。平台拥�?50 �? ISP IP �?1000 �? 住宅 IP，覆盖美国和加拿大全境，月均处理超过 600 亿次代理请求�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ISP 代理的定价为 $1.30/IP 起（50 个 IP 每月 $65），季度付款享 10% 折扣。所有代理均采用 10Gbps-100Gbps 光纤连接，部署于 Tier 1 数据中心，99.9% 正常运行时间保证，不限带宽、不限线程。住宅代理覆盖 150+ 国家，使用数据中心托管架构以兼顾速度和住宅 IP 信任度。
-        </p>
+          ISP 代理的定价为 $1.30/IP 起（50 �?IP 每月 $65），季度付款�?10% 折扣。所有代理均采用 10Gbps-100Gbps 光纤连接，部署于 Tier 1 数据中心�?9.9% 正常运行时间保证，不限带宽、不限线程。住宅代理覆�?150+ 国家，使用数据中心托管架构以兼顾速度和住�?IP 信任度�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          HypeProxies 的独特之处在于提供 $1 一次性验证试用，用户可支付 1 美元获得全功能访问权限，无需长期承诺。平台提供 24/7 多语言支持（实时聊天、Discord、工单），并支持加密货币支付。拥有 20,000+ 付费用户，深受运动鞋抢购和社媒自动化领域的专业用户信赖。
-        </p>
+          HypeProxies 的独特之处在于提�?$1 一次性验证试用，用户可支�?1 美元获得全功能访问权限，无需长期承诺。平台提�?24/7 多语言支持（实时聊天、Discord、工单），并支持加密货币支付。拥�?20,000+ 付费用户，深受运动鞋抢购和社媒自动化领域的专业用户信赖�?        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详�?/h2>
         <div class="space-y-6">
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">ISP 静态住宅代理为核心</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">HypeProxies 最核心的产品是 ISP 静态住宅代理，拥有 50 万+ 来自美国主流运营商的纯净 IP，100% 静态且为真实住宅注册。与轮换住宅代理不同，ISP 代理提供固定的 IP 身份，在电商多账号管理、运动鞋抢购和社媒运营中具有更高的信任评分和更少的验证码挑战。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">HypeProxies 最核心的产品是 ISP 静态住宅代理，拥有 50 �? 来自美国主流运营商的纯净 IP�?00% 静态且为真实住宅注册。与轮换住宅代理不同，ISP 代理提供固定�?IP 身份，在电商多账号管理、运动鞋抢购和社媒运营中具有更高的信任评分和更少的验证码挑战�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">10Gbps-100Gbps 超高速骨干网</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">所有代理均部署于 10Gbps-100Gbps 光纤连接的 Tier 1 数据中心，延迟极低、吞吐量极高。无论是大规模数据采集、批量自动化操作还是对速度敏感的抢购场景，HypeProxies 的网络基础设施都能提供稳定的高速连接。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">所有代理均部署�?10Gbps-100Gbps 光纤连接�?Tier 1 数据中心，延迟极低、吞吐量极高。无论是大规模数据采集、批量自动化操作还是对速度敏感的抢购场景，HypeProxies 的网络基础设施都能提供稳定的高速连接�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">不限带宽 + 不限线程</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">所有代理产品均提供不限带宽和不限并发线程，无流量上限、无超额费用。用户可以运行任意数量的高负载任务而无需担心额外成本。这一策略对需要大规模数据采集和同时操作大量账号的团队尤其重要。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">所有代理产品均提供不限带宽和不限并发线程，无流量上限、无超额费用。用户可以运行任意数量的高负载任务而无需担心额外成本。这一策略对需要大规模数据采集和同时操作大量账号的团队尤其重要�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">$1 试用的低门槛体验</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">HypeProxies 提供仅需 1 美元的一次性验证试用，用户支付后即可获得完整的代理访问权限，无需月费或长期承诺。这种策略让潜在客户以极低成本验证代理质量，体现了平台对自身服务的信心。设置过程仅需 2 分钟。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">HypeProxies 提供仅需 1 美元的一次性验证试用，用户支付后即可获得完整的代理访问权限，无需月费或长期承诺。这种策略让潜在客户以极低成本验证代理质量，体现了平台对自身服务的信心。设置过程仅需 2 分钟�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多条产品线覆盖垂直场景</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">除了 ISP 和住宅代理，HypeProxies 还提供运动鞋抢购代理、票务代理、调查代理、精英代理和不限带宽代理等垂直产品线。运动鞋抢购代理专为 Supreme、Nike SNKRS 等平台优化，调查代理则面向问卷奖励等场景。还提供 Sneaker 服务器、VPS 云服务器和裸金属服务器等基础设施产品。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多条产品线覆盖垂直场�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed">除了 ISP 和住宅代理，HypeProxies 还提供运动鞋抢购代理、票务代理、调查代理、精英代理和不限带宽代理等垂直产品线。运动鞋抢购代理专为 Supreme、Nike SNKRS 等平台优化，调查代理则面向问卷奖励等场景。还提供 Sneaker 服务器、VPS 云服务器和裸金属服务器等基础设施产品�?/p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
             <h3 class="text-emerald-400 font-semibold text-lg mb-2">24/7 多语言支持 + 专属客户经理</h3>
-            <p class="text-sm text-slate-400 leading-relaxed">提供 24/7 多语言技术支持，支持渠道包括实时聊天、Discord 和工单系统。企业客户可配备专属客户经理，获得一对一的代理专家服务。7 年以上的运营经验和 20,000+ 付费用户的口碑积累证明了其服务可靠性。</p>
+            <p class="text-sm text-slate-400 leading-relaxed">提供 24/7 多语言技术支持，支持渠道包括实时聊天、Discord 和工单系统。企业客户可配备专属客户经理，获得一对一的代理专家服务�? 年以上的运营经验�?20,000+ 付费用户的口碑积累证明了其服务可靠性�?/p>
           </div>
         </div>
       </section>
@@ -92,24 +89,24 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
         <div class="space-y-6">
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 运动鞋抢购（Sneaker Botting）</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">这是 HypeProxies 最核心的垂直场景。ISP 静态住宅代理在 Supreme、Nike SNKRS、Yeezy Supply 等平台具有高信任评分和低封禁率。10Gbps 高速连接确保抢购时的低延迟优势。不限带宽和不限线程支持同时运行大量抢购任务。提供专门的 Sneaker 服务器。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 运动鞋抢购（Sneaker Botting�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">这是 HypeProxies 最核心的垂直场景。ISP 静态住宅代理在 Supreme、Nike SNKRS、Yeezy Supply 等平台具有高信任评分和低封禁率�?0Gbps 高速连接确保抢购时的低延迟优势。不限带宽和不限线程支持同时运行大量抢购任务。提供专门的 Sneaker 服务器�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒多账号运营</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">ISP 静态住宅代理的固定 IP 身份为 Facebook、Instagram、TikTok 等平台的账号管理提供稳定环境。美国全境 50 个州的 IP 分布支持多地域矩阵运营。不限线程支持同时管理大量账号。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒多账号运�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ISP 静态住宅代理的固定 IP 身份�?Facebook、Instagram、TikTok 等平台的账号管理提供稳定环境。美国全�?50 个州�?IP 分布支持多地域矩阵运营。不限线程支持同时管理大量账号�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 电商数据采集与价格监测</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">虽然住宅代理覆盖 150+ 国家，但 HypeProxies 的核心优势集中在美国和加拿大市场。1000 万+ 住宅 IP 池和 10Gbps 高速连接确保了大规模数据采集的效率和成功率。99.9% 正常运行时间和不限带宽策略适合 7x24 持续监测。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 电商数据采集与价格监�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">虽然住宅代理覆盖 150+ 国家，但 HypeProxies 的核心优势集中在美国和加拿大市场�?000 �? 住宅 IP 池和 10Gbps 高速连接确保了大规模数据采集的效率和成功率�?9.9% 正常运行时间和不限带宽策略适合 7x24 持续监测�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. SEO 监测与市场研究</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">ISP 代理的住宅 IP 注册信息在搜索引擎中具有高信任度，可获得准确的 SERP 结果。美国和加拿大全境的 IP 分布为北美市场 SEO 研究提供精准的地理数据支持。$1 试用选项让小团队也能低成本评估服务质量。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. SEO 监测与市场研�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">ISP 代理的住�?IP 注册信息在搜索引擎中具有高信任度，可获得准确�?SERP 结果。美国和加拿大全境的 IP 分布为北美市�?SEO 研究提供精准的地理数据支持�?1 试用选项让小团队也能低成本评估服务质量�?/p>
           </div>
           <div>
-            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 票务与限量商品抢购</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-2">HypeProxies 提供专门的票务代理产品线，针对 Ticketmaster 等票务平台的抢购场景优化。ISP 静态 IP 在票务平台中的稳定性和信任度优于轮换代理，结合 10Gbps 网络在抢购中具有关键的速度优势。</p>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 票务与限量商品抢�?/h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-2">HypeProxies 提供专门的票务代理产品线，针�?Ticketmaster 等票务平台的抢购场景优化。ISP 静�?IP 在票务平台中的稳定性和信任度优于轮换代理，结合 10Gbps 网络在抢购中具有关键的速度优势�?/p>
           </div>
         </div>
       </section>
@@ -117,13 +114,13 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
         <div class="bg-slate-950/50 rounded-lg p-6 border border-slate-800/50 mb-4">
-          <h3 class="text-emerald-400 font-semibold text-lg mb-3">ISP 静态住宅代理</h3>
+          <h3 class="text-emerald-400 font-semibold text-lg mb-3">ISP 静态住宅代�?/h3>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div class="bg-slate-900 border border-slate-700/50 rounded-lg p-4 text-center">
               <div class="text-lg font-bold text-slate-100">50 IPs</div>
-              <div class="text-2xl font-bold text-emerald-400 my-2">$65<span class="text-sm text-slate-400">/月</span></div>
+              <div class="text-2xl font-bold text-emerald-400 my-2">$65<span class="text-sm text-slate-400">/�?/span></div>
               <div class="text-xs text-slate-500">$1.30/IP</div>
-              <div class="text-xs text-slate-500 mt-1">季度 $58/月</div>
+              <div class="text-xs text-slate-500 mt-1">季度 $58/�?/div>
               <ul class="text-xs text-slate-400 mt-3 space-y-1">
                 <li>不限带宽</li>
                 <li>10Gbps</li>
@@ -132,9 +129,9 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             </div>
             <div class="bg-slate-900 border border-emerald-500/30 rounded-lg p-4 text-center ring-1 ring-emerald-500/20">
               <div class="text-lg font-bold text-slate-100">100 IPs</div>
-              <div class="text-2xl font-bold text-emerald-400 my-2">$125<span class="text-sm text-slate-400">/月</span></div>
+              <div class="text-2xl font-bold text-emerald-400 my-2">$125<span class="text-sm text-slate-400">/�?/span></div>
               <div class="text-xs text-slate-500">$1.25/IP</div>
-              <div class="text-xs text-slate-500 mt-1">季度 $112/月</div>
+              <div class="text-xs text-slate-500 mt-1">季度 $112/�?/div>
               <ul class="text-xs text-slate-400 mt-3 space-y-1">
                 <li>不限带宽</li>
                 <li>10Gbps</li>
@@ -143,9 +140,9 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             </div>
             <div class="bg-slate-900 border border-slate-700/50 rounded-lg p-4 text-center">
               <div class="text-lg font-bold text-slate-100">254 IPs /24</div>
-              <div class="text-2xl font-bold text-emerald-400 my-2">$300<span class="text-sm text-slate-400">/月</span></div>
+              <div class="text-2xl font-bold text-emerald-400 my-2">$300<span class="text-sm text-slate-400">/�?/span></div>
               <div class="text-xs text-slate-500">$1.18/IP</div>
-              <div class="text-xs text-slate-500 mt-1">季度 $270/月</div>
+              <div class="text-xs text-slate-500 mt-1">季度 $270/�?/div>
               <ul class="text-xs text-slate-400 mt-3 space-y-1">
                 <li>不限带宽</li>
                 <li>10Gbps</li>
@@ -155,7 +152,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             </div>
           </div>
         </div>
-        <p class="text-xs text-slate-500 text-center">$1 一次性验证试用 | 季度付享 10% 折扣 | 支持加密货币支付</p>
+        <p class="text-xs text-slate-500 text-center">$1 一次性验证试�?| 季度付享 10% 折扣 | 支持加密货币支付</p>
       </section>
 
       <!-- 支付方式 -->
@@ -183,23 +180,23 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
             <span class="text-sm text-slate-200">$1 试用验证</span>
           </div>
         </div>
-        <p class="text-xs text-slate-500 mt-3">注：支持信用卡和加密货币，$1 一次性验证即可试用全部功能</p>
+        <p class="text-xs text-slate-500 mt-3">注：支持信用卡和加密货币�?1 一次性验证即可试用全部功�?/p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>50 万+ ISP 静态住宅 IP，来自美国主流运营商</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>10Gbps-100Gbps 骨干网，99.9% 正常运行时间</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>不限带宽、不限线程，无超额费用</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$1 一次性试用，极低门槛体验全功能</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>24/7 多语言支持，专属客户经理</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>多条垂直产品线覆盖抢购/票务/调查等场景</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>50 �? ISP 静态住�?IP，来自美国主流运营商</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>10Gbps-100Gbps 骨干网，99.9% 正常运行时间</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>不限带宽、不限线程，无超额费�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>$1 一次性试用，极低门槛体验全功�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>24/7 多语言支持，专属客户经�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>多条垂直产品线覆盖抢�?票务/调查等场�?/span></li>
             </ul>
           </div>
           <div>
@@ -207,12 +204,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>核心覆盖仅限美国和加拿大，全球覆盖不足</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅轮换代理仅 150+ 国家，且尚未正式开放</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持支付宝/微信，对中国大陆用户不友好</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>入门价格 $1.30/IP 在 ISP 代理中不算最低</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动代理产品线缺失</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>核心覆盖仅限美国和加拿大，全球覆盖不�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>住宅轮换代理�?150+ 国家，且尚未正式开�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>不支持支付宝/微信，对中国大陆用户不友�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无中文界�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>入门价格 $1.30/IP �?ISP 代理中不算最�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>移动代理产品线缺�?/span></li>
             </ul>
           </div>
         </div>
@@ -221,14 +218,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          HypeProxies 是一家以 ISP 静态住宅代理为核心优势的专业代理服务商，50 万+ 来自美国主流运营商的纯净 IP、10Gbps-100Gbps 的超高速骨干网和不限带宽不限线程的策略，使其在运动鞋抢购、社媒自动化和北美市场数据采集等场景中表现突出。7 年以上的运营经验和 20,000+ 付费用户的口碑积累证明了其可靠性。
-        </p>
+          HypeProxies 是一家以 ISP 静态住宅代理为核心优势的专业代理服务商�?0 �? 来自美国主流运营商的纯净 IP�?0Gbps-100Gbps 的超高速骨干网和不限带宽不限线程的策略，使其在运动鞋抢购、社媒自动化和北美市场数据采集等场景中表现突出�? 年以上的运营经验�?20,000+ 付费用户的口碑积累证明了其可靠性�?        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          $1 一次性验证试用的低门槛策略在行业中独树一帜，让用户以极低成本体验全功能。24/7 多语言支持和专属客户经理服务确保了良好的客户体验。多条垂直产品线（运动鞋代理、票务代理、调查代理等）精准切入特定市场需求。
-        </p>
+          $1 一次性验证试用的低门槛策略在行业中独树一帜，让用户以极低成本体验全功能�?4/7 多语言支持和专属客户经理服务确保了良好的客户体验。多条垂直产品线（运动鞋代理、票务代理、调查代理等）精准切入特定市场需求�?        </p>
         <p class="text-slate-300 leading-relaxed">
-          但核心覆盖仅限美国和加拿大、缺少移动代理产品线、不支持中国支付方式等局限也限制了其全球化应用的广度。综合评估其在 ISP 代理领域的专业深度、网络基础设施性能和垂直场景覆盖能力，HypeProxies 获得 7.3 分评价。特别推荐给以北美市场为主的运动鞋抢购团队、社媒运营团队和需要高速 ISP 静态代理的数据采集用户。
-        </p>
+          但核心覆盖仅限美国和加拿大、缺少移动代理产品线、不支持中国支付方式等局限也限制了其全球化应用的广度。综合评估其�?ISP 代理领域的专业深度、网络基础设施性能和垂直场景覆盖能力，HypeProxies 获得 7.3 分评价。特别推荐给以北美市场为主的运动鞋抢购团队、社媒运营团队和需要高�?ISP 静态代理的数据采集用户�?        </p>
       </section>
 
       <div class="text-center">
