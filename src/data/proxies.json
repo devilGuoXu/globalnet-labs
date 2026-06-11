@@ -2494,5 +2494,18 @@
     "features": ["美国4G/5G移动", "15GB/天流量", "无限IP轮换", "SOCKS5+UDP"],
     "affiliateUrl": "https://www.globalproxies.net/",
     "detailUrl": "/proxy/globalproxies"
+  },
+  {
+    "id": "proxytee",
+    "name": "ProxyTee",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "2000万+",
+    "proxyTypes": ["住宅代理"],
+    "isFeatured": false,
+    "badge": "不限量",
+    "features": ["2000万IP池", "无限带宽不限量", "100+国家覆盖", "HTTP/SOCKS5"],
+    "affiliateUrl": "https://proxytee.com/",
+    "detailUrl": "/proxy/proxytee"
   }
 ]
