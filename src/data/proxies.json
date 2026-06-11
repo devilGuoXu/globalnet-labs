@@ -2390,5 +2390,18 @@
     "features": ["真实SIM卡设备", "无限流量不限速", "美国多州覆盖", "HTTP/SOCKS5+API"],
     "affiliateUrl": "https://mobilesimportal.com/",
     "detailUrl": "/proxy/mobilesimportal"
+  },
+  {
+    "id": "iaproxy",
+    "name": "iaProxy",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "越南+美国",
+    "proxyTypes": ["4G移动代理"],
+    "isFeatured": false,
+    "badge": "越南+美国4G",
+    "features": ["越南+美国4G", "无限流量不限速", "专属独立线路", "API自动轮换"],
+    "affiliateUrl": "https://iaproxy.com/",
+    "detailUrl": "/proxy/iaproxy"
   }
 ]
