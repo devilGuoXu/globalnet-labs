@@ -2416,5 +2416,18 @@
     "features": ["6.4万+数据中心IP", "50+国家覆盖", "无限流量不限速", "HTTP/SOCKS4/5"],
     "affiliateUrl": "https://cyber-gateway.net/",
     "detailUrl": "/proxy/cyber-gateway"
+  },
+  {
+    "id": "socks-market",
+    "name": "Socks Market",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "全球多国",
+    "proxyTypes": ["住宅代理", "移动代理"],
+    "isFeatured": false,
+    "badge": "住宅+移动",
+    "features": ["住宅/移动混合IP", "全球多国覆盖", "无限流量不限速", "反检测防标记"],
+    "affiliateUrl": "https://socks.market/",
+    "detailUrl": "/proxy/socks-market"
   }
 ]
