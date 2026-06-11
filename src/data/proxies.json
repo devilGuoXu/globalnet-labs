@@ -2481,5 +2481,18 @@
     "features": ["8国4G移动覆盖", "专属SIM独立线路", "自定义自动轮换", "10-15GB/天流量"],
     "affiliateUrl": "https://www.proproxies.co.uk/",
     "detailUrl": "/proxy/proproxies"
+  },
+  {
+    "id": "globalproxies",
+    "name": "Global Proxies",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "美国",
+    "proxyTypes": ["4G/5G 移动代理"],
+    "isFeatured": false,
+    "badge": "4G/5G",
+    "features": ["美国4G/5G移动", "15GB/天流量", "无限IP轮换", "SOCKS5+UDP"],
+    "affiliateUrl": "https://www.globalproxies.net/",
+    "detailUrl": "/proxy/globalproxies"
   }
 ]
