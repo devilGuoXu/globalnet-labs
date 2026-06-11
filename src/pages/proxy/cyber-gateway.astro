@@ -1,0 +1,248 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Cyber Gateway 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-6">
+        <div class="shrink-0 flex items-center justify-center">
+          <img src={`${base}/images/cyber-gateway.png`} alt="Cyber Gateway" class="h-12 w-auto" />
+        </div>
+        <div>
+          <div class="flex items-center gap-3 flex-wrap">
+            <h1 class="text-3xl font-bold text-slate-100">Cyber Gateway 评测</h1>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">纯数据中心</span>
+          </div>
+          <p class="text-slate-400 mt-1">数据中心代理 · 40+ 国家 · 7.5 万 IP 池 · 无限流量 · 自有硬件</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">核心摘要</h2>
+        <div class="grid md:grid-cols-2 gap-4 text-sm">
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">代理类型</span>
+            <p class="text-slate-200 font-medium mt-1">数据中心代理 · 共享/专属 · HTTP/SOCKS4/SOCKS5</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">覆盖范围</span>
+            <p class="text-slate-200 font-medium mt-1">40+ 国家混合池 · 50+ 国家可选 · 美国/欧洲/亚洲区域混合</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">核心特性</span>
+            <p class="text-slate-200 font-medium mt-1">自有硬件 · 99%+ 在线 · 无限带宽 · API 管理 · 30 分钟免费试用</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">支付方式</span>
+            <p class="text-slate-200 font-medium mt-1">信用卡 · 加密货币 · Alipay · 多种电子钱包</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Cyber Gateway（cyber-gateway.net）是一家自 2015 年起运营的数据中心代理服务商，定位于为企业级用户和个人开发者提供高品质的纯数据中心代理。其核心差异化在于所有代理均基于自有物理硬件服务器运行，而非从第三方租赁或使用受感染设备的僵尸网络，确保了代理的合法性、稳定性和安全性。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          平台拥有 75,000+ IP 的庞大代理池，覆盖全球 50+ 个国家。核心产品为混合位置代理池（Mixed Locations），自动从 40+ 个国家分配 IP，并提供美国、欧洲、亚洲三大区域的精选混合包。此外还支持按国家单独购买、旋转代理、UDP 代理、专属代理及独立裸机服务器租赁。所有方案均提供无限带宽、无流量限制。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          Cyber Gateway 支持 HTTP/HTTPS/SOCKS4/SOCKS5 四种协议，提供完善的客户端控制面板和 API 接口。30 分钟免费试用帮助用户在购买前评估服务质量。平台保证 99%+ 在线率（实测每周仅约 1.53 小时宕机），24 小时退款保障降低了用户尝试风险。支付方式覆盖广泛，支持信用卡（Stripe）、加密货币、支付宝、Perfect Money 等多种渠道。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">定价方案</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-3">混合位置代理（自动分配 40+ 国家）</h3>
+            <div class="grid md:grid-cols-4 gap-3">
+              <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+                <div class="text-xs text-slate-500 mb-1">500 IP</div>
+                <div class="text-emerald-400 font-bold text-2xl">$69</div>
+                <div class="text-xs text-slate-400">/月</div>
+              </div>
+              <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+                <div class="text-xs text-slate-500 mb-1">770 IP</div>
+                <div class="text-emerald-400 font-bold text-2xl">$99</div>
+                <div class="text-xs text-slate-400">/月</div>
+              </div>
+              <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+                <div class="text-xs text-slate-500 mb-1">900 IP</div>
+                <div class="text-emerald-400 font-bold text-2xl">$99</div>
+                <div class="text-xs text-slate-400">/月</div>
+              </div>
+              <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+                <div class="text-xs text-slate-500 mb-1">2,500 IP</div>
+                <div class="text-emerald-400 font-bold text-2xl">$249</div>
+                <div class="text-xs text-slate-400">/月</div>
+              </div>
+              <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+                <div class="text-xs text-slate-500 mb-1">5,500 IP</div>
+                <div class="text-emerald-400 font-bold text-2xl">$449</div>
+                <div class="text-xs text-slate-400">/月</div>
+              </div>
+              <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+                <div class="text-xs text-slate-500 mb-1">15,500 IP</div>
+                <div class="text-emerald-400 font-bold text-2xl">$1,099</div>
+                <div class="text-xs text-slate-400">/月</div>
+              </div>
+              <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+                <div class="text-xs text-slate-500 mb-1">25,000 IP</div>
+                <div class="text-emerald-400 font-bold text-2xl">$2,499</div>
+                <div class="text-xs text-slate-400">/月</div>
+              </div>
+              <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+                <div class="text-xs text-slate-500 mb-1">50,000 IP</div>
+                <div class="text-emerald-400 font-bold text-2xl">$3,899</div>
+                <div class="text-xs text-slate-400">/月</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-3">区域混合包</h3>
+            <div class="grid md:grid-cols-3 gap-3">
+              <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+                <div class="text-xs text-slate-500 mb-1">美洲混合</div>
+                <div class="text-emerald-400 font-bold text-2xl">$39</div>
+                <div class="text-xs text-slate-400">300 IP/月</div>
+              </div>
+              <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+                <div class="text-xs text-slate-500 mb-1">欧洲混合</div>
+                <div class="text-emerald-400 font-bold text-2xl">$39</div>
+                <div class="text-xs text-slate-400">300 IP/月</div>
+              </div>
+              <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50 text-center">
+                <div class="text-xs text-slate-500 mb-1">亚洲+澳洲混合</div>
+                <div class="text-emerald-400 font-bold text-2xl">$35</div>
+                <div class="text-xs text-slate-400">300 IP/月</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-xs text-slate-500 mt-4 text-center">所有方案无限带宽 · HTTP/SOCKS4/SOCKS5 · 即时自动交付 · 24 小时退款保障 · 30 分钟免费试用</p>
+      </section>
+
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">信用卡（Stripe）</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">加密货币（BTC/ETH/USDT/LTC/DOGE）</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">Alipay</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">Perfect Money</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">Webmoney</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">UnionPay</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">PaySafeCard</span>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-3 mt-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
+            <span class="text-xs text-slate-300">即时自动交付 · 2-10 分钟激活</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
+            <span class="text-xs text-slate-300">24 小时无条件退款</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">平台特性</h2>
+        <div class="grid md:grid-cols-2 gap-6 text-sm">
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">自有硬件服务器</h3>
+            <p class="text-slate-400 leading-relaxed">所有代理基于自有物理服务器，不存在僵尸网络或受感染设备。专业系统管理员维护，99%+ 在线。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">无限带宽不限速</h3>
+            <p class="text-slate-400 leading-relaxed">所有方案均提供真正无限带宽，无数据上限、无速度限制。适合大规模数据采集和高流量业务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">多协议支持</h3>
+            <p class="text-slate-400 leading-relaxed">同时支持 HTTP、HTTPS、SOCKS4、SOCKS5 四种主流协议，通过端口切换即可变更，兼容性强。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">30 分钟免费试用</h3>
+            <p class="text-slate-400 leading-relaxed">购买前可申请 30 分钟免费测试账号，含 50 个随机地理位置 IP，零成本体验服务质量。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>自有硬件，非僵尸网络，合法合规</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>7.5 万 IP 池，40+ 国家覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限带宽不限速</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$0.07/IP 起，性价比高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支付方式广泛，含信用卡/支付宝</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>30 分钟免费试用 + 24h 退款保障</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>数据中心 IP，非住宅/移动，部分场景易被识别</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>共享代理无法选择具体国家</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无按天/按量计费方案</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>大规模方案价格较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>每月退款限制（超过 3 次可拒绝）</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Cyber Gateway 作为一家自 2015 年起运营的数据中心代理老牌服务商，其核心优势在于自有硬件基础设施和合法合规的运营方式。与许多依赖租赁第三方服务器或使用僵尸网络的竞争对手不同，Cyber Gateway 的每个代理都运行在自己购买的物理服务器上，由专业系统管理员维护，这对于注重合规性和稳定性的企业用户来说是一个重要考量。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          7.5 万 IP 池覆盖 50+ 国家、无限带宽不限速、四种协议支持、完善的客户端面板和 API 管理，使其适合中大型数据采集项目和 SEO 监测等场景。从 $69/月（500 IP）起的价格对于数据中心代理而言具有一定竞争力，支持信用卡和支付宝等便捷支付方式也降低了购买门槛。30 分钟免费试用和 24 小时退款政策为用户提供了充足的试错空间。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于数据中心 IP 在某些对 IP 纯净度要求极高的场景（如社媒多账号管理）可能不如住宅/移动代理理想，共享混合池无法选择特定国家 IP，以及没有按天/按量的灵活计费方案。综合评估，Cyber Gateway 获得 7.3 分评价。特别推荐给需要大规模数据中心代理进行数据采集、SEO 监测、价格跟踪的企业用户，以及需要合法合规自有硬件代理的开发者。对于需要住宅/移动 IP 或精细地理位置选择的用户，建议考虑其他代理服务商。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://cyber-gateway.net/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Cyber Gateway
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

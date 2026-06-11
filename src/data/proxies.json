@@ -2403,5 +2403,18 @@
     "features": ["越南+美国4G", "无限流量不限速", "专属独立线路", "API自动轮换"],
     "affiliateUrl": "https://iaproxy.com/",
     "detailUrl": "/proxy/iaproxy"
+  },
+  {
+    "id": "cyber-gateway",
+    "name": "Cyber Gateway",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "6.4万+",
+    "proxyTypes": ["数据中心代理"],
+    "isFeatured": false,
+    "badge": "纯数据中心",
+    "features": ["6.4万+数据中心IP", "50+国家覆盖", "无限流量不限速", "HTTP/SOCKS4/5"],
+    "affiliateUrl": "https://cyber-gateway.net/",
+    "detailUrl": "/proxy/cyber-gateway"
   }
 ]
