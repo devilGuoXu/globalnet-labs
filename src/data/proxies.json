@@ -2429,5 +2429,18 @@
     "features": ["住宅/移动混合IP", "全球多国覆盖", "无限流量不限速", "反检测防标记"],
     "affiliateUrl": "https://socks.market/",
     "detailUrl": "/proxy/socks-market"
+  },
+  {
+    "id": "onlyaiproxies",
+    "name": "OnlyAI Proxies",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "美国",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "5G移动",
+    "features": ["Verizon 5G专属", "无限流量不限速", "HTTPS/SOCKS5", "12h免费试用"],
+    "affiliateUrl": "https://onlyaiproxies.com/",
+    "detailUrl": "/proxy/onlyaiproxies"
   }
 ]
