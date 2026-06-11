@@ -2533,5 +2533,18 @@
     "features": ["全品类代理", "100万+住宅IP", "120+国家覆盖", "$1.25/GB起"],
     "affiliateUrl": "https://www.eclipseproxy.com/",
     "detailUrl": "/proxy/eclipseproxy"
+  },
+  {
+    "id": "sentracell",
+    "name": "SentraCell",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "专属设备",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "美国运营商",
+    "features": ["美国原生4G/5G", "专属SIM绑定", "无限带宽", "真实设备"],
+    "affiliateUrl": "https://sentracell.com/",
+    "detailUrl": "/proxy/sentracell"
   }
 ]
