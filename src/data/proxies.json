@@ -2572,5 +2572,18 @@
     "features": ["巴西/西班牙4G/5G", "运营商原生IP", "HTTP/SOCKS5", "API自动轮换"],
     "affiliateUrl": "https://nafeproxys.online/",
     "detailUrl": "/proxy/nafeproxys"
+  },
+  {
+    "id": "digiproxy",
+    "name": "DigiProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "7200万+",
+    "proxyTypes": ["住宅代理", "数据中心", "LTE移动"],
+    "isFeatured": false,
+    "badge": "全品类覆盖",
+    "features": ["住宅/数据中心/LTE", "$2.30/GB起", "190+地区覆盖", "无限并发线程"],
+    "affiliateUrl": "https://digiproxy.cc/",
+    "detailUrl": "/proxy/digiproxy"
   }
 ]
