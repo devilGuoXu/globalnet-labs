@@ -1,0 +1,169 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Local Proxies 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-6">
+        <div class="shrink-0 flex items-center justify-center">
+          <img src={`${base}/images/localproxies.png`} alt="Local Proxies" class="h-14 w-auto" />
+        </div>
+        <div>
+          <div class="flex items-center gap-3 flex-wrap">
+            <h1 class="text-3xl font-bold text-slate-100">Local Proxies 评测</h1>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">无限带宽</span>
+          </div>
+          <p class="text-slate-400 mt-1">优质住宅代理 · 无限带宽 · 全球覆盖 · 静态/旋转可选 · $50/月起</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">核心摘要</h2>
+        <div class="grid md:grid-cols-2 gap-4 text-sm">
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">代理类型</span>
+            <p class="text-slate-200 font-medium mt-1">优质住宅代理 · HTTPS/SOCKS5 · 静态/按请求旋转</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">覆盖范围</span>
+            <p class="text-slate-200 font-medium mt-1">全球数千城市 · 几乎所有国家 · 含 US/CA/GB/EU</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">核心特性</span>
+            <p class="text-slate-200 font-medium mt-1">无限带宽 · 无限授权IP · 住宅IP纯净 · 每日更新IP池</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">支付方式</span>
+            <p class="text-slate-200 font-medium mt-1">官网注册购买 · 信用卡/PayPal</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Local Proxies 是一家成立于 2019 年、专注于优质住宅代理的服务商。其核心理念是"只提供最高品质的代理"——所有 IP 均来自合法渠道获取的真实住宅网络，而非低价低质的数据中心 IP 或公开代理列表。平台日均刷新 IP 池，旧 IP 被移除、新 IP 持续加入，确保 IP 的新鲜度和可用性。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Local Proxies 提供两条产品线：(1) 每 10 分钟轮换的端口方案（1 端口 $50/月、3 端口 $132/月等），支持全球所有地区（含 US/CA/GB/EU）；(2) 每次请求轮换的线程方案（40 线程 $120/月、80 线程 $216/月等），覆盖国际混合地区。所有方案均为无限带宽、无限授权 IP，支持 HTTPS 和 SOCKS5 双协议。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          其 Backconnect 架构允许用户通过单一网关连接到代理网络，系统根据请求自动分配最优代理。这种架构不仅简化了配置，还实现了国家级的精准定位和自动 IP 轮换，同时通过算法防止代理被滥用，保证服务质量。平台提供 24 小时免费试用，用户可通过企业邮箱申请。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">定价方案</h2>
+        <p class="text-slate-300 text-sm mb-4">Local Proxies 提供端口（每 10 分钟轮换）和线程（每次请求轮换）两种方案，均为无限带宽。</p>
+        <img src={`${base}/images/localproxies-price.png`} alt="Local Proxies 定价方案" class="w-full max-w-2xl mx-auto rounded-lg" />
+      </section>
+
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付方式</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">官方支持</span>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">信用卡</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">PayPal</span>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-3 mt-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
+            <span class="text-xs text-slate-300">24 小时免费试用</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
+            <span class="text-xs text-slate-300">无限带宽无限授权</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
+            <span class="text-xs text-slate-300">24/7 客服支持</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">平台特性</h2>
+        <div class="grid md:grid-cols-2 gap-6 text-sm">
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">优质住宅 IP</h3>
+            <p class="text-slate-400 leading-relaxed">所有 IP 均来自合法获取的真实住宅网络，不可被代理检测服务识别，网络指纹与真实用户无异。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">无限带宽无限授权</h3>
+            <p class="text-slate-400 leading-relaxed">所有方案无限带宽，无流量上限。支持无限数量的授权 IP，方便团队协作使用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">Backconnect 架构</h3>
+            <p class="text-slate-400 leading-relaxed">通过单一网关连接，请求自动路由到最优代理。支持国家级的精准定位和自动 IP 轮换。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">每日刷新 IP 池</h3>
+            <p class="text-slate-400 leading-relaxed">旧 IP 每日被移除，新 IP 持续加入，确保 IP 的新鲜度和可用性。来自多个 ISP 的随机子网。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>真实住宅 IP，检测难度极高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限带宽 + 无限授权 IP</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>每日更新 IP 池，保持新鲜度</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>24 小时免费试用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>多语言支持（含中文界面）</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>端口方案 $50/月起，价格较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>线程方案不含 US/CA/GB/EU 等主流地区</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 API 接口（仅面板管理）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌较旧但知名度不高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动端适配一般</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Local Proxies 以"只做优质住宅代理"为品牌定位，在代理服务商中走出了一条精品化路线。其对 IP 品质的极致追求——合法来源、每日刷新、随机子网、不可检测——使得每一 IP 都与真实住宅用户无异，特别适合对代理纯净度有严苛要求的业务场景。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          无限带宽和无限授权 IP 的设计在同类服务中相当罕见，用户无需为流量或团队成员数量担忧。Backconnect 架构让配置变得简单，同时支持按请求轮换和按时长轮换两种模式，灵活性高。24 小时免费试用也让用户可以在购买前充分评估服务质量。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          主要局限在于价格较高（$50/月起）、线程方案不覆盖主流地区、以及缺乏 API 接口。综合评估，Local Proxies 获得 7.3 分评价。特别推荐给对代理纯净度有极致要求的社媒运营者、需要无限带宽进行数据采集的团队、以及需要可靠住宅代理的企业用户。对于预算有限或需要 API 集成能力的用户，建议考虑其他代理服务商。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://localproxies.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Local Proxies
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

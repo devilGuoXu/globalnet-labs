@@ -2585,5 +2585,18 @@
     "features": ["住宅/数据中心/LTE", "$2.30/GB起", "190+地区覆盖", "无限并发线程"],
     "affiliateUrl": "https://digiproxy.cc/",
     "detailUrl": "/proxy/digiproxy"
+  },
+  {
+    "id": "localproxies",
+    "name": "Local Proxies",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "全球覆盖",
+    "proxyTypes": ["住宅代理"],
+    "isFeatured": false,
+    "badge": "无限带宽",
+    "features": ["优质住宅代理", "无限带宽", "全球多国覆盖", "$50/月起"],
+    "affiliateUrl": "https://localproxies.com/",
+    "detailUrl": "/proxy/localproxies"
   }
 ]
