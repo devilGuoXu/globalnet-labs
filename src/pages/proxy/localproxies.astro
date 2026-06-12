@@ -12,7 +12,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </a>
 
       <div class="flex items-center gap-4 mb-6">
-        <div class="shrink-0 w-20 h-20 flex items-center justify-center overflow-hidden bg-slate-950/50 border border-slate-700/50 rounded-xl">
+        <div class="shrink-0 w-20 h-20 flex items-center justify-center overflow-hidden bg-white border border-slate-200 rounded-xl">
           <img src={`${base}/images/localproxies.png`} alt="Local Proxies" class="max-w-[85%] max-h-[85%] w-auto h-auto object-contain" />
         </div>
         <div>
@@ -58,6 +58,12 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <p class="text-slate-300 leading-relaxed">
           其 Backconnect 架构允许用户通过单一网关连接到代理网络，系统根据请求自动分配最优代理。这种架构不仅简化了配置，还实现了国家级的精准定位和自动 IP 轮换，同时通过算法防止代理被滥用，保证服务质量。平台提供 24 小时免费试用，用户可通过企业邮箱申请。
         </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">定价方案</h2>
+        <p class="text-slate-300 text-sm mb-4">Local Proxies 提供端口（每 10 分钟轮换）和线程（每次请求轮换）两种方案，均为无限带宽。</p>
+        <img src={`${base}/images/localproxies-price.png`} alt="Local Proxies 定价方案" class="w-full max-w-2xl mx-auto rounded-lg" />
       </section>
 
       <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
