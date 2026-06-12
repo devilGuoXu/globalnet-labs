@@ -2598,5 +2598,18 @@
     "features": ["优质住宅代理", "无限带宽", "全球多国覆盖", "$50/月起"],
     "affiliateUrl": "https://localproxies.com/",
     "detailUrl": "/proxy/localproxies"
+  },
+  {
+    "id": "proxysight",
+    "name": "ProxySight",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "高速网络",
+    "proxyTypes": ["住宅代理", "数据中心"],
+    "isFeatured": false,
+    "badge": "高速稳定",
+    "features": ["高速住宅代理", "稳定连接", "全球覆盖", "灵活方案"],
+    "affiliateUrl": "https://proxysight.com/",
+    "detailUrl": "/proxy/proxysight"
   }
 ]
