@@ -2624,5 +2624,18 @@
     "features": ["优质数据中心", "高速连接", "全球多国", "灵活方案"],
     "affiliateUrl": "https://proxytitan.com/",
     "detailUrl": "/proxy/proxytitan"
+  },
+  {
+    "id": "germanproxy",
+    "name": "GermanProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "德国节点",
+    "proxyTypes": ["住宅代理", "数据中心"],
+    "isFeatured": false,
+    "badge": "德国代理",
+    "features": ["德国住宅代理", "德国数据中心", "稳定连接", "灵活方案"],
+    "affiliateUrl": "https://germanproxy.io/",
+    "detailUrl": "/proxy/germanproxy"
   }
 ]
