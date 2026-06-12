@@ -2615,13 +2615,13 @@
   {
     "id": "proxytitan",
     "name": "ProxyTitan",
-    "type": "residential-proxy",
+    "type": "datacenter-proxy",
     "rating": 7.3,
     "poolSize": "全球覆盖",
-    "proxyTypes": ["住宅代理"],
+    "proxyTypes": ["数据中心"],
     "isFeatured": false,
     "badge": "高速代理",
-    "features": ["优质住宅代理", "高速连接", "全球多国", "灵活方案"],
+    "features": ["优质数据中心", "高速连接", "全球多国", "灵活方案"],
     "affiliateUrl": "https://proxytitan.com/",
     "detailUrl": "/proxy/proxytitan"
   }
