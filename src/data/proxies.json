@@ -1470,6 +1470,19 @@
     "detailUrl": "/proxy/dynaprox"
   },
   {
+    "id": "dslroot",
+    "name": "DSLRoot",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "全美覆盖",
+    "proxyTypes": ["住宅代理", "4G/5G移动", "DSL", "Cable"],
+    "isFeatured": false,
+    "badge": "美国住宅",
+    "features": ["全美70+城市覆盖", "4G/5G/DSL/Cable多线路", "一键更换IP", "免费试用1小时"],
+    "affiliateUrl": "https://dslroot.com/",
+    "detailUrl": "/proxy/dslroot"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
