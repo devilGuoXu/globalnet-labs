@@ -2741,5 +2741,18 @@
     "features": ["优质住宅代理", "全球覆盖", "稳定连接", "灵活方案"],
     "affiliateUrl": "https://whitecloakproxy.com/",
     "detailUrl": "/proxy/whitecloakproxy"
+  },
+  {
+    "id": "proxybrazil",
+    "name": "Proxy Brazil",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "巴西运营商",
+    "proxyTypes": ["4G移动代理"],
+    "isFeatured": false,
+    "badge": "巴西4G",
+    "features": ["巴西运营商IP（Vivo/Claro/TIM/Oi）", "自动IP轮换", "HTTP/SOCKS5支持", "不限流量带宽"],
+    "affiliateUrl": "https://proxybrazil.com/",
+    "detailUrl": "/proxy/proxybrazil"
   }
 ]
