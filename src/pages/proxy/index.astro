@@ -165,14 +165,8 @@ const filtered = proxiesData.filter(p => whitelist.includes(p.id));
                     <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
                       <img src={`${base}/images/germanproxy.png`} alt="GermanProxy" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
                     </div>
-                  ) : proxy.id === 'litport' ? (
-                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
-                      <img src={`${base}/images/litport.webp`} alt="LitPort" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
-                    </div>
-                  ) : proxy.id === 'kingsproxy' ? (
-                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
-                      <img src={`${base}/images/kingsproxy.webp`} alt="KingsProxy" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
-                    </div>
+                  ) : proxy.id === 'litport' || proxy.id === 'kingsproxy' ? (
+                    <img src={`${base}/images/${proxy.id}.webp`} alt={proxy.name} class="h-14 w-auto self-center" />
                   ) : (
                     <img src={`${base}/images/${proxy.id === 'kocerroxy' ? proxy.id + '-logo.svg' : proxy.id === 'proxy.market' ? 'proxy-market.png' : proxy.id === 'hydraproxy' || proxy.id === 'proxysentinel' ? proxy.id + '.webp' : proxy.id + '.png'}`} alt={proxy.name} class="h-14 w-auto self-center" />
                   )
