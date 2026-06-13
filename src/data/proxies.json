@@ -2715,5 +2715,18 @@
     "features": ["优质住宅代理", "全球覆盖", "稳定连接", "灵活方案"],
     "affiliateUrl": "https://nyprox.com/",
     "detailUrl": "/proxy/nyprox"
+  },
+  {
+    "id": "buypersonalproxy",
+    "name": "BuyPersonalProxy",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "全球覆盖",
+    "proxyTypes": ["数据中心"],
+    "isFeatured": false,
+    "badge": "私人代理",
+    "features": ["私人数据中心", "全球覆盖", "稳定连接", "灵活方案"],
+    "affiliateUrl": "https://www.buypersonalproxy.com/",
+    "detailUrl": "/proxy/buypersonalproxy"
   }
 ]
