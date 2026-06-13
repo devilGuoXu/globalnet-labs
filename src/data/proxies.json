@@ -2639,6 +2639,19 @@
     "detailUrl": "/proxy/germanproxy"
   },
   {
+    "id": "ghostealth",
+    "name": "Ghostealth",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "5000万+",
+    "proxyTypes": ["数据中心", "住宅代理"],
+    "isFeatured": false,
+    "badge": "高速稳定",
+    "features": ["5000万+全球IP池", "数据中心+住宅代理", "超低延迟<100ms", "快速技术支持"],
+    "affiliateUrl": "https://ghostealth.com/",
+    "detailUrl": "/proxy/ghostealth"
+  },
+  {
     "id": "resiproxies",
     "name": "ResiProxies",
     "type": "residential-proxy",
@@ -2676,6 +2689,19 @@
     "features": ["优质住宅代理", "全球覆盖", "稳定连接", "灵活方案"],
     "affiliateUrl": "https://kingsproxy.uk",
     "detailUrl": "/proxy/kingsproxy"
+  },
+  {
+    "id": "legionproxy",
+    "name": "LegionProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "7400万+",
+    "proxyTypes": ["住宅代理", "数据中心", "静态ISP", "IPv6", "不限量"],
+    "isFeatured": false,
+    "badge": "多类型代理",
+    "features": ["7400万+住宅IP", "195+国家覆盖", "Sticky/Rotating会话", "API集成"],
+    "affiliateUrl": "https://www.legionproxy.io/",
+    "detailUrl": "/proxy/legionproxy"
   },
   {
     "id": "siamproxy",
