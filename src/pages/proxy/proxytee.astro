@@ -19,9 +19,9 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           <div class="flex items-center gap-3 flex-wrap">
             <h1 class="text-3xl font-bold text-slate-100">ProxyTee 评测</h1>
             <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
-            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">不限�?/span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">不限量</span>
           </div>
-          <p class="text-slate-400 mt-1">旋转住宅代理 · 无限带宽 · 2000 �?IP · 100+ 国家</p>
+          <p class="text-slate-400 mt-1">旋转住宅代理 · 无限带宽 · 2000 万 IP · 100+ 国家</p>
         </div>
       </div>
 
@@ -34,11 +34,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">覆盖范围</span>
-            <p class="text-slate-200 font-medium mt-1">100+ 国家 · 2000 �?IP �?/p>
+            <p class="text-slate-200 font-medium mt-1">100+ 国家 · 2000 万 IP 池</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
-            <span class="text-slate-500">核心特�?/span>
-            <p class="text-slate-200 font-medium mt-1">无限带宽 · 3-60 分钟自动轮换 · API 管理 · 用户认证/IP 白名�?/p>
+            <span class="text-slate-500">核心特性</span>
+            <p class="text-slate-200 font-medium mt-1">无限带宽 · 3-60 分钟自动轮换 · API 管理 · 用户认证/IP 白名单</p>
           </div>
           <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
             <span class="text-slate-500">支付方式</span>
@@ -48,18 +48,21 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概�?/h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxyTee 是一家提供旋转住宅代理的服务商，其最核心的卖点是"无限带宽"——所有住宅代理方案均提供真正的无限带宽，用户无需担心数据超额费用或速度限制。代理池拥有 2000 �? 住宅 IP，覆盖全�?100 多个国家�?        </p>
+          ProxyTee 是一家提供旋转住宅代理的服务商，其最核心的卖点是"无限带宽"——所有住宅代理方案均提供真正的无限带宽，用户无需担心数据超额费用或速度限制。代理池拥有 2000 万+ 住宅 IP，覆盖全球 100 多个国家。
+        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxyTee 提供三种代理类型：住宅代理（旋转，无限带宽）、数据中心代理（高速适合批量任务）和移动代理（真实移�?IP）。住宅代理支�?3-60 分钟自动轮换时间配置，支�?HTTP �?SOCKS5 协议，提�?API 接口方便集成自动化工具。认证方式支持用户名/密码�?IP 白名单两种模式�?        </p>
+          ProxyTee 提供三种代理类型：住宅代理（旋转，无限带宽）、数据中心代理（高速适合批量任务）和移动代理（真实移动 IP）。住宅代理支持 3-60 分钟自动轮换时间配置，支持 HTTP 和 SOCKS5 协议，提供 API 接口方便集成自动化工具。认证方式支持用户名/密码和 IP 白名单两种模式。
+        </p>
         <p class="text-slate-300 leading-relaxed">
-          平台定价基于并发端口数（即同时连接数），�?1 端口 $29/月到 100 端口 $1399/月。提供免费试用（需邮件联系客服）。产品适用于数据采集、SEO 监测、社媒管理、市场情报等场景。界面简洁易用，兼容主流自动化工具和指纹浏览器�?        </p>
+          平台定价基于并发端口数（即同时连接数），从 1 端口 $29/月到 100 端口 $1399/月。提供免费试用（需邮件联系客服）。产品适用于数据采集、SEO 监测、社媒管理、市场情报等场景。界面简洁易用，兼容主流自动化工具和指纹浏览器。
+        </p>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">定价方案</h2>
-        <p class="text-slate-300 text-sm mb-4">ProxyTee 住宅代理按并发端口数计费，所有方案均含无限带宽�?000 �?IP 池�?-60 分钟轮换、API 访问�?/p>
+        <p class="text-slate-300 text-sm mb-4">ProxyTee 住宅代理按并发端口数计费，所有方案均含无限带宽、2000 万 IP 池、3-60 分钟轮换、API 访问。</p>
         <img src={`${base}/images/proxytee-price.webp`} alt="ProxyTee 价格" class="w-full max-w-2xl mx-auto rounded-lg" />
       </section>
 
@@ -91,40 +94,40 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">平台特�?/h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">平台特性</h2>
         <div class="grid md:grid-cols-2 gap-6 text-sm">
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold mb-2">无限带宽</h3>
-            <p class="text-slate-400 leading-relaxed">所有住宅代理方案提供真正无限带宽，无数据上限、无速度限制、无超额费用�?/p>
+            <p class="text-slate-400 leading-relaxed">所有住宅代理方案提供真正无限带宽，无数据上限、无速度限制、无超额费用。</p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
-            <h3 class="text-emerald-400 font-semibold mb-2">2000 �?IP �?/h3>
-            <p class="text-slate-400 leading-relaxed">拥有 2000 �? 住宅 IP，覆�?100+ 国家，满足全球地理定位需求�?/p>
+            <h3 class="text-emerald-400 font-semibold mb-2">2000 万 IP 池</h3>
+            <p class="text-slate-400 leading-relaxed">拥有 2000 万+ 住宅 IP，覆盖 100+ 国家，满足全球地理定位需求。</p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold mb-2">灵活自动轮换</h3>
-            <p class="text-slate-400 leading-relaxed">支持 3-60 分钟自由配置 IP 轮换间隔，适应不同场景的防封锁策略�?/p>
+            <p class="text-slate-400 leading-relaxed">支持 3-60 分钟自由配置 IP 轮换间隔，适应不同场景的防封锁策略。</p>
           </div>
           <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
             <h3 class="text-emerald-400 font-semibold mb-2">简洁易用的界面</h3>
-            <p class="text-slate-400 leading-relaxed">干净直观的控制面板，几分钟即可上手。支�?API 集成，无缝对接自动化工具�?/p>
+            <p class="text-slate-400 leading-relaxed">干净直观的控制面板，几分钟即可上手。支持 API 集成，无缝对接自动化工具。</p>
           </div>
         </div>
       </section>
 
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
-        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局�?/h2>
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>真正无限带宽，无流量限制</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>2000 �?IP�?00+ 国家覆盖</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>$29/月起，入门价格低</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>3-60 分钟可配置轮�?/span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">�?/span><span>界面简洁，上手�?/span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>真正无限带宽，无流量限制</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>2000 万 IP，100+ 国家覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$29/月起，入门价格低</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>3-60 分钟可配置轮换</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>界面简洁，上手快</span></li>
             </ul>
           </div>
           <div>
@@ -132,11 +135,11 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
             </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>品牌知名度有�?/span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>按端口计费，大并发成本高</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>无公开支付方式信息</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>免费试用需人工联系</span></li>
-              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">�?/span><span>不支持粘性会话（仅轮换）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>按端口计费，大并发成本高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无公开支付方式信息</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>免费试用需人工联系</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持粘性会话（仅轮换）</span></li>
             </ul>
           </div>
         </div>
@@ -145,11 +148,14 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
         <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
         <p class="text-slate-300 leading-relaxed mb-4">
-          ProxyTee �?无限带宽"为核心差异化卖点在住宅代理市场中占据了一席之地。对于数据采集量大、需要持续运行大规模爬虫的用户而言，无限带宽方案省去了频繁监控流量和担心超额费用的麻烦�?000 �?IP 池覆�?100+ 国家的资源体量也足以应对大部分全球采集需求�?        </p>
+          ProxyTee 以"无限带宽"为核心差异化卖点在住宅代理市场中占据了一席之地。对于数据采集量大、需要持续运行大规模爬虫的用户而言，无限带宽方案省去了频繁监控流量和担心超额费用的麻烦。2000 万 IP 池覆盖 100+ 国家的资源体量也足以应对大部分全球采集需求。
+        </p>
         <p class="text-slate-300 leading-relaxed mb-4">
-          $29/月（1 端口）的入门价格在无限带宽类住宅代理中具有竞争力�?-60 分钟可配置轮换、API 管理、双重认证等基础功能齐备。界面设计简洁，用户体验友好。提供免费试用（需人工联系）降低了尝试门槛�?        </p>
+          $29/月（1 端口）的入门价格在无限带宽类住宅代理中具有竞争力。3-60 分钟可配置轮换、API 管理、双重认证等基础功能齐备。界面设计简洁，用户体验友好。提供免费试用（需人工联系）降低了尝试门槛。
+        </p>
         <p class="text-slate-300 leading-relaxed">
-          主要局限在于品牌知名度有限、按端口计费在大并发场景下成本较高、无粘性会话模式。综合评估，ProxyTee 获得 7.3 分评价。特别推荐给需要无限带宽进行大规模数据采集的用户、注重性价比的中小团队、以及优先考虑简单易用体验的个人开发者。对于需要粘性会话、极大规模并发或对品牌知名度有要求的用户，建议考虑其他代理服务商�?        </p>
+          主要局限在于品牌知名度有限、按端口计费在大并发场景下成本较高、无粘性会话模式。综合评估，ProxyTee 获得 7.3 分评价。特别推荐给需要无限带宽进行大规模数据采集的用户、注重性价比的中小团队、以及优先考虑简单易用体验的个人开发者。对于需要粘性会话、极大规模并发或对品牌知名度有要求的用户，建议考虑其他代理服务商。
+        </p>
       </section>
 
       <div class="text-center">
