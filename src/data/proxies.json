@@ -1483,6 +1483,19 @@
     "detailUrl": "/proxy/dslroot"
   },
   {
+    "id": "foxprox",
+    "name": "FoxProx",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "全美覆盖",
+    "proxyTypes": ["住宅代理"],
+    "isFeatured": false,
+    "badge": "美国住宅",
+    "features": ["美国住宅IP", "一键换IP", "多城市覆盖"],
+    "affiliateUrl": "https://foxprox.com/",
+    "detailUrl": "/proxy/foxprox"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
