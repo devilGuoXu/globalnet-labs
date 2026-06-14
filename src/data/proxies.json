@@ -1574,6 +1574,19 @@
     "detailUrl": "/proxy/ashburnproxies"
   },
   {
+    "id": "ekame",
+    "name": "EKAME",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "全球100+国家",
+    "proxyTypes": ["数据中心代理", "SOCKS5代理"],
+    "isFeatured": false,
+    "badge": "全球覆盖",
+    "features": ["HTTP/SOCKS5", "无限日志匿名", "专享独立IP", "100+国家覆盖"],
+    "affiliateUrl": "https://ekame.net/proxies",
+    "detailUrl": "/proxy/ekame"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
