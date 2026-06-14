@@ -1491,7 +1491,7 @@
     "proxyTypes": ["住宅代理"],
     "isFeatured": false,
     "badge": "美国住宅",
-    "features": ["美国住宅IP", "一键换IP", "多城市覆盖"],
+    "features": ["美国住宅IP", "一键换IP", "多城市覆盖", "美国家庭住宅"],
     "affiliateUrl": "https://foxprox.com/",
     "detailUrl": "/proxy/foxprox"
   },
@@ -1504,7 +1504,7 @@
     "proxyTypes": ["4G/5G移动代理"],
     "isFeatured": false,
     "badge": "4G移动",
-    "features": ["真实4G/5G设备", "无限带宽", "即时换IP", "API控制", "立陶宛/意大利IP"],
+    "features": ["真实4G/5G设备", "无限带宽", "即时换IP", "立陶宛/意大利IP"],
     "affiliateUrl": "https://proximy.io/",
     "detailUrl": "/proxy/proximy"
   },
@@ -1517,7 +1517,7 @@
     "proxyTypes": ["4G/5G移动代理", "硬件+软件"],
     "isFeatured": false,
     "badge": "自建代理",
-    "features": ["即插即用硬件套件", "自动代理生成", "一键IP轮换", "支持IPv4/IPv6", "HTTP/SOCKS5"],
+    "features": ["即插即用硬件套件", "自动代理生成", "一键IP轮换", "支持IPv4/IPv6"],
     "affiliateUrl": "https://xproxy.io/",
     "detailUrl": "/proxy/xproxy"
   },
@@ -1530,7 +1530,7 @@
     "proxyTypes": ["5G移动代理"],
     "isFeatured": false,
     "badge": "5G拉脱维亚",
-    "features": ["真实5G SIM卡设备", "40-80+ Mbit/s", "无限流量", "IP轮换", "24/7支持"],
+    "features": ["真实5G SIM卡设备", "40-80+ Mbit/s", "无限流量", "IP轮换"],
     "affiliateUrl": "https://balticproxy.eu/",
     "detailUrl": "/proxy/balticproxy"
   },
@@ -1543,7 +1543,7 @@
     "proxyTypes": ["4G/5G移动代理", "Android应用"],
     "isFeatured": false,
     "badge": "自建代理",
-    "features": ["Android设备变代理", "远程IP更换", "自动IP轮换", "SOCKS5/HTTP", "Telegram机器人管理", "无限流量"],
+    "features": ["Android设备变代理", "远程IP更换", "自动IP轮换", "无限流量"],
     "affiliateUrl": "https://iproxy.online/zh",
     "detailUrl": "/proxy/iproxy"
   },
@@ -1556,7 +1556,7 @@
     "proxyTypes": ["数据中心轮换代理", "Browser API", "MCP Server"],
     "isFeatured": false,
     "badge": "MCP AI 集成",
-    "features": ["反检测TLS指纹", "云端浏览器API", "MCP AI原生集成"],
+    "features": ["反检测TLS指纹", "云端浏览器API", "MCP AI原生集成", "无限制并发"],
     "affiliateUrl": "https://botproxy.com/",
     "couponCode": "",
     "detailUrl": "/proxy/botproxy"
