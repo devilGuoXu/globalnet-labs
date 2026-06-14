@@ -1509,6 +1509,19 @@
     "detailUrl": "/proxy/proximy"
   },
   {
+    "id": "xproxy",
+    "name": "XProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "自建方案",
+    "proxyTypes": ["4G/5G移动代理", "硬件+软件"],
+    "isFeatured": false,
+    "badge": "自建代理",
+    "features": ["即插即用硬件套件", "自动代理生成", "一键IP轮换", "支持IPv4/IPv6", "HTTP/SOCKS5"],
+    "affiliateUrl": "https://xproxy.io/",
+    "detailUrl": "/proxy/xproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
