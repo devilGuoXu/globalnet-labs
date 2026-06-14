@@ -1496,6 +1496,19 @@
     "detailUrl": "/proxy/foxprox"
   },
   {
+    "id": "proximy",
+    "name": "Proximy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "100万+ IPs",
+    "proxyTypes": ["4G/5G移动代理"],
+    "isFeatured": false,
+    "badge": "4G移动",
+    "features": ["真实4G/5G设备", "无限带宽", "即时换IP", "API控制", "立陶宛/意大利IP"],
+    "affiliateUrl": "https://proximy.io/",
+    "detailUrl": "/proxy/proximy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
