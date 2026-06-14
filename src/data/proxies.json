@@ -1522,6 +1522,19 @@
     "detailUrl": "/proxy/xproxy"
   },
   {
+    "id": "balticproxy",
+    "name": "Baltic Proxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "专属+共享",
+    "proxyTypes": ["5G移动代理"],
+    "isFeatured": false,
+    "badge": "5G拉脱维亚",
+    "features": ["真实5G SIM卡设备", "40-80+ Mbit/s", "无限流量", "IP轮换", "24/7支持"],
+    "affiliateUrl": "https://balticproxy.eu/",
+    "detailUrl": "/proxy/balticproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
