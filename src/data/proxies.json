@@ -1535,6 +1535,19 @@
     "detailUrl": "/proxy/balticproxy"
   },
   {
+    "id": "iproxy",
+    "name": "iProxy Online",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "自建方案",
+    "proxyTypes": ["4G/5G移动代理", "Android应用"],
+    "isFeatured": false,
+    "badge": "自建代理",
+    "features": ["Android设备变代理", "远程IP更换", "自动IP轮换", "SOCKS5/HTTP", "Telegram机器人管理", "无限流量"],
+    "affiliateUrl": "https://iproxy.online/zh",
+    "detailUrl": "/proxy/iproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
