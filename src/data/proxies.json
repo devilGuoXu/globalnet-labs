@@ -1548,6 +1548,19 @@
     "detailUrl": "/proxy/iproxy"
   },
   {
+    "id": "mproxy",
+    "name": "MProxy",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "多国池",
+    "proxyTypes": ["4G/5G移动代理"],
+    "isFeatured": false,
+    "badge": "多国移动",
+    "features": ["多国运营商覆盖", "API/IP链接换IP", "HTTP/SOCKS5", "99%在线率"],
+    "affiliateUrl": "https://mproxy.top/en",
+    "detailUrl": "/proxy/mproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
