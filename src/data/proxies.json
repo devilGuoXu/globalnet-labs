@@ -1561,6 +1561,19 @@
     "detailUrl": "/proxy/mproxy"
   },
   {
+    "id": "ashburnproxies",
+    "name": "Ashburn Proxies",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "美国多机房",
+    "proxyTypes": ["ISP代理", "SOCKS5代理", "住宅代理"],
+    "isFeatured": false,
+    "badge": "美国ISP",
+    "features": ["独享代理通道", "10Gbps端口", "100%在线率", "IP/密码认证"],
+    "affiliateUrl": "https://ashburnproxies.com/",
+    "detailUrl": "/proxy/ashburnproxies"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
