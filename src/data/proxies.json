@@ -1600,6 +1600,19 @@
     "detailUrl": "/proxy/resirack"
   },
   {
+    "id": "actproxy",
+    "name": "ActProxy",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "美国/全球多机房",
+    "proxyTypes": ["独享代理", "共享代理", "IPv6代理"],
+    "isFeatured": false,
+    "badge": "性价比之选",
+    "features": ["HTTP/SOCKS5", "IP/密码双认证", "独享$1.40起", "3天退款保障"],
+    "affiliateUrl": "https://actproxy.com/",
+    "detailUrl": "/proxy/actproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
