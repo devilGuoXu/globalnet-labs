@@ -1756,6 +1756,19 @@
     "detailUrl": "/proxy/lightproxies"
   },
   {
+    "id": "vproxy",
+    "name": "VProxy",
+    "type": "datacenter-proxy",
+    "rating": 7.0,
+    "poolSize": "美欧机房",
+    "proxyTypes": ["数据中心代理"],
+    "isFeatured": false,
+    "badge": "独享代理",
+    "features": ["独享IPv4", "$0.3起/月", "HTTP/SOCKS5", "500Mbps端口", "无限流量"],
+    "affiliateUrl": "https://vproxy.tech/",
+    "detailUrl": "/proxy/vproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
