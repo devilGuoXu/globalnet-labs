@@ -1717,6 +1717,19 @@
     "detailUrl": "/proxy/yourprivateproxy"
   },
   {
+    "id": "lemurproxy",
+    "name": "LemurProxy",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "10000+ 日IP",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "4G/LTE 移动代理",
+    "features": ["4G/LTE移动IP", "10000+每日IP", "HTTP/SOCKS5", "1-120分钟自动轮换"],
+    "affiliateUrl": "https://lemurproxy.com/",
+    "detailUrl": "/proxy/lemurproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
