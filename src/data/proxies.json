@@ -1678,6 +1678,19 @@
     "detailUrl": "/proxy/proxyverse"
   },
   {
+    "id": "juicyproxies",
+    "name": "JuicyProxies",
+    "type": "mobile-proxy",
+    "rating": 7.3,
+    "poolSize": "数百万 IPs",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "美荷移动",
+    "features": ["美国/荷兰移动IP", "HTTP/SOCKS5", "无限带宽", "即时交付"],
+    "affiliateUrl": "https://juicyproxies.com/",
+    "detailUrl": "/proxy/juicyproxies"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
