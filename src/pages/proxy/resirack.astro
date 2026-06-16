@@ -1,0 +1,157 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="ResiRack 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-6">
+        <div class="shrink-0 w-20 h-20 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/resirack.webp`} alt="ResiRack" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <div class="flex items-center gap-3 flex-wrap">
+            <h1 class="text-3xl font-bold text-slate-100">ResiRack (ActProxy) 评测</h1>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">7.3</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30">数据中心代理</span>
+          </div>
+          <p class="text-slate-400 mt-1">独享/共享代理 · IPv4/IPv6 · HTTP/SOCKS5 · 超高性价比</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">核心摘要</h2>
+        <div class="grid md:grid-cols-2 gap-4 text-sm">
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">代理类型</span>
+            <p class="text-slate-200 font-medium mt-1">独享 / 共享 / IPv6</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">覆盖范围</span>
+            <p class="text-slate-200 font-medium mt-1">美国多城市 + 全球机房</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">核心特性</span>
+            <p class="text-slate-200 font-medium mt-1">HTTP/SOCKS5 · IP/密码认证 · 共享$0.55起 · IPv6 $0.35起</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-4 border border-slate-700/50">
+            <span class="text-slate-500">退款保障</span>
+            <p class="text-slate-200 font-medium mt-1">3天退款保障</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">品牌与平台概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ResiRack（旗下品牌 ActProxy）是一家总部位于美国俄勒冈州克拉克马斯的代理服务商，由 UNVIO, LLC 运营。提供独享和共享两种类型的 IPv4/IPv6 代理，同时提供 Windows VPS 托管方案。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          核心优势在于价格极具竞争力——共享代理低至 $0.55/个，IPv6 代理低至 $0.35/个，独享代理 $1.40/个起。支持 HTTP(S) 和 SOCKS 协议，IP 认证和账号密码认证均可，适合预算敏感型用户。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-emerald-500/30 rounded-xl p-8 mb-8 ring-1 ring-emerald-500/20">
+        <div class="flex items-center gap-3 mb-6">
+          <svg class="w-6 h-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <h2 class="text-xl font-bold text-slate-100">支付与使用</h2>
+          <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30">高性价比</span>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">共享 IPv4/IPv6 $0.50-0.55</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">独享 IPv4/IPv6 $1.30-1.40</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <span class="text-sm text-slate-200">纯IPv6 $0.33-0.35</span>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-3 mt-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
+            <span class="text-xs text-slate-300">3天退款保障</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
+            <span class="text-xs text-slate-300">多个子网 / 多城市</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2 border border-slate-700/50">
+            <span class="text-xs text-slate-300">每月免费更换IP</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">平台特性</h2>
+        <div class="grid md:grid-cols-2 gap-6 text-sm">
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">多种代理类型</h3>
+            <p class="text-slate-400 leading-relaxed">提供独享代理、共享代理和纯 IPv6 代理三种类型，满足不同预算和使用场景需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">双协议支持</h3>
+            <p class="text-slate-400 leading-relaxed">同时支持 HTTP(S) 和 SOCKS 协议，兼容各类自动化工具、浏览器和应用程序配置。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">灵活认证方式</h3>
+            <p class="text-slate-400 leading-relaxed">支持 IP 白名单认证和账号密码认证两种方式，也可同时启用，适配不同的网络环境。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-5 border border-slate-700/50">
+            <h3 class="text-emerald-400 font-semibold mb-2">Windows VPS</h3>
+            <p class="text-slate-400 leading-relaxed">提供 Hyper-V 架构的 Windows VPS，$10/月起，含正版授权，适合需要完整桌面环境的用户。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>价格极具竞争力（共享$0.55起）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>纯 IPv6 低至 $0.35</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>HTTP 和 SOCKS 双协议</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>3天退款保障 + 免费更换IP</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.11 0 2.08.402 2.599 1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>主要为数据中心 IP，非住宅</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>共享代理可能被他人影响</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>知名度相对较低</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ResiRack (ActProxy) 的核心竞争力在于价格——共享代理 $0.55/个、纯 IPv6 低至 $0.35/个，在同类产品中属于最低价位。支持 HTTP(S) 和 SOCKS 双协议，IP 认证和账号密码认证均可，灵活性不错。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          3天退款保障和每月免费更换 IP 降低了试用风险。主要面向预算敏感的用户，适合日常浏览、SEO 监测和轻量级自动化任务。综合评估，ResiRack 获得 7.3 分评价。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://actproxy.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 ResiRack
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

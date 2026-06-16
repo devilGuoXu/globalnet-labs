@@ -1587,6 +1587,19 @@
     "detailUrl": "/proxy/ekame"
   },
   {
+    "id": "resirack",
+    "name": "ResiRack",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "美国/全球多机房",
+    "proxyTypes": ["独享代理", "共享代理", "IPv6代理"],
+    "isFeatured": false,
+    "badge": "超高性价比",
+    "features": ["共享代理$0.55起", "IPv6低至$0.35", "HTTP/SOCKS5", "3天退款保障"],
+    "affiliateUrl": "https://actproxy.com/",
+    "detailUrl": "/proxy/resirack"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
