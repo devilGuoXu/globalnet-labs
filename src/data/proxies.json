@@ -1665,6 +1665,19 @@
     "detailUrl": "/proxy/koch"
   },
   {
+    "id": "proxyverse",
+    "name": "Proxyverse",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "7000万+ IPs",
+    "proxyTypes": ["住宅代理", "移动代理"],
+    "isFeatured": false,
+    "badge": "99%在线率",
+    "features": ["7000万+住宅IP", "195+国家覆盖", "$2/GB起", "99%在线率"],
+    "affiliateUrl": "https://proxyverse.io/",
+    "detailUrl": "/proxy/proxyverse"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
