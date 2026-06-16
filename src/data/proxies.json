@@ -1704,6 +1704,19 @@
     "detailUrl": "/proxy/nexusnet"
   },
   {
+    "id": "yourprivateproxy",
+    "name": "Your Private Proxy",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "28个机房",
+    "proxyTypes": ["数据中心代理", "住宅代理"],
+    "isFeatured": false,
+    "badge": "独享代理",
+    "features": ["独享数据中心IP", "$1.99起/月", "HTTP/SOCKS5", "28个全球机房"],
+    "affiliateUrl": "https://www.yourprivateproxy.com/",
+    "detailUrl": "/proxy/yourprivateproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
