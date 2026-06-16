@@ -1652,6 +1652,19 @@
     "detailUrl": "/proxy/client-ultra"
   },
   {
+    "id": "koch",
+    "name": "KOCH",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1亿+ IPs",
+    "proxyTypes": ["住宅代理", "ISP代理"],
+    "isFeatured": false,
+    "badge": "1亿IP池",
+    "features": ["住宅€1.8起/GB", "ISP€1起/月", "全球覆盖", "1亿+ IP池"],
+    "affiliateUrl": "https://koch.gg/",
+    "detailUrl": "/proxy/koch"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
