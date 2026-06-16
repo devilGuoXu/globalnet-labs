@@ -1613,6 +1613,19 @@
     "detailUrl": "/proxy/actproxy"
   },
   {
+    "id": "skyproxies",
+    "name": "SkyProxies",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "全球195+国家",
+    "proxyTypes": ["数据中心代理", "住宅代理", "ISP代理", "IPv6代理"],
+    "isFeatured": false,
+    "badge": "无限带宽",
+    "features": ["轮换/粘性IP", "HTTP/SOCKS5", "无限带宽", "99.96%在线率"],
+    "affiliateUrl": "https://skyproxies.net/",
+    "detailUrl": "/proxy/skyproxies"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
