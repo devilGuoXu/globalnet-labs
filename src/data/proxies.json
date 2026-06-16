@@ -1730,6 +1730,19 @@
     "detailUrl": "/proxy/lemurproxy"
   },
   {
+    "id": "v6proxies",
+    "name": "V6Proxies",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "IPv4 + IPv6",
+    "proxyTypes": ["住宅代理", "数据中心代理"],
+    "isFeatured": false,
+    "badge": "IPv4/IPv6 双栈",
+    "features": ["IPv4+IPv6双栈", "住宅+DC代理", "静态+轮换套餐", "HTTP/SOCKS5", "不限带宽"],
+    "affiliateUrl": "https://v6proxies.com/",
+    "detailUrl": "/proxy/v6proxies"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
