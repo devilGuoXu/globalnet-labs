@@ -1743,6 +1743,19 @@
     "detailUrl": "/proxy/v6proxies"
   },
   {
+    "id": "lightproxies",
+    "name": "Light Proxies",
+    "type": "datacenter-proxy",
+    "rating": 7.3,
+    "poolSize": "20+ 国家",
+    "proxyTypes": ["数据中心代理", "住宅代理", "ISP代理"],
+    "isFeatured": false,
+    "badge": "三合一",
+    "features": ["数据中心+住宅+ISP三合一", "$2.50起/月", "HTTP/SOCKS5", "24/7客服", "不限带宽"],
+    "affiliateUrl": "https://lightproxies.com/",
+    "detailUrl": "/proxy/lightproxies"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
