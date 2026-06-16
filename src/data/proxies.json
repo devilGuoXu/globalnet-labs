@@ -1639,6 +1639,19 @@
     "detailUrl": "/proxy/proxyhq"
   },
   {
+    "id": "client-ultra",
+    "name": "Client.Ultra",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "美国多运营商",
+    "proxyTypes": ["住宅代理", "邮件代理", "IPv6代理"],
+    "isFeatured": false,
+    "badge": "0欺诈分",
+    "features": ["0欺诈分住宅IP", "HTTPS/SOCKS5", "无限带宽", "双认证方式"],
+    "affiliateUrl": "https://client.ultra.one/",
+    "detailUrl": "/proxy/client-ultra"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
