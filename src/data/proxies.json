@@ -1626,6 +1626,19 @@
     "detailUrl": "/proxy/skyproxies"
   },
   {
+    "id": "proxyhq",
+    "name": "ProxyHQ",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "1.8亿+ IPs",
+    "proxyTypes": ["数据中心代理", "住宅代理", "ISP代理", "移动代理", "IPv6代理"],
+    "isFeatured": false,
+    "badge": "50+国家",
+    "features": ["1.8亿+ IP覆盖50+国家", "五种代理类型", "$20起订", "免费试用"],
+    "affiliateUrl": "https://proxyhq.io/",
+    "detailUrl": "/proxy/proxyhq"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
