@@ -1691,6 +1691,19 @@
     "detailUrl": "/proxy/juicyproxies"
   },
   {
+    "id": "nexusnet",
+    "name": "Nexusnet",
+    "type": "residential-proxy",
+    "rating": 7.3,
+    "poolSize": "700万+ IPs",
+    "proxyTypes": ["住宅代理", "移动代理"],
+    "isFeatured": false,
+    "badge": "150+国家",
+    "features": ["住宅/移动双类型", "700万+ IP", "150+国家覆盖", "SOCKS5/HTTP"],
+    "affiliateUrl": "https://nexusnet.io/",
+    "detailUrl": "/proxy/nexusnet"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
