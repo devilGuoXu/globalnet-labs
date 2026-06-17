@@ -1769,6 +1769,19 @@
     "detailUrl": "/proxy/vproxy"
   },
   {
+    "id": "noxproxy",
+    "name": "NoxProxy",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "44+ 地区",
+    "proxyTypes": ["IPv6代理", "住宅代理", "移动代理", "数据中心代理"],
+    "isFeatured": false,
+    "badge": "IPv4/IPv6 双栈",
+    "features": ["IPv4+IPv6", "住宅+移动+ISP+DC", "静态+轮换", "HTTP/SOCKS5", "99.9%在线率"],
+    "affiliateUrl": "https://noxproxy.com/",
+    "detailUrl": "/proxy/noxproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
