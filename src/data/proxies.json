@@ -2159,6 +2159,19 @@
     "detailUrl": "/proxy/tuziip"
   },
   {
+    "id": "antsdata",
+    "name": "AntsData",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "1亿+ IPs",
+    "proxyTypes": ["住宅代理", "ISP代理", "移动代理", "数据中心代理"],
+    "isFeatured": false,
+    "badge": "$2.3/GB起",
+    "features": ["1亿+住宅IP", "200+国家覆盖", "99.96%成功率", "粘性会话60分钟"],
+    "affiliateUrl": "https://www.antsdata.com/",
+    "detailUrl": "/proxy/antsdata"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
