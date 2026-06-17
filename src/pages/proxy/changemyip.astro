@@ -1,0 +1,212 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="ChangeMyIP 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/changemyip.webp`} alt="ChangeMyIP" class="h-14 w-auto self-center" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">ChangeMyIP 深度评测</h1>
+          <p class="text-slate-400 text-lg">12 年老牌代理服务商，HTTP/SOCKS5/Shadowsocks/WireGuard 全覆盖</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ChangeMyIP 是一家运营超过 12 年的老牌代理服务商，提供 HTTP 代理、SOCKS5、Shadowsocks、Trojan、DNS 代理和 WireGuard VPN 等多种连接方式。产品覆盖共享/独享、数据中心/住宅、静态/旋转 IP 等多种组合。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          平台覆盖 40+ 个国家、300+ 个城市、1000+ 个子网，拥有庞大的全球网络。所有服务器配备 1Gb/s 网络端口，提供无限带宽和即时激活服务。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          定价极其透明，共享 HTTP 代理低至 $1/月，独享 HTTP 代理 $1.80/月，SOCKS5 $2.20/月，WireGuard VPN $4/月。长期订购（3/6/12 个月）享受额外折扣。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">10+ 种代理/VPN 协议</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 HTTP、HTTPS、SOCKS5、Shadowsocks、Trojan、DNS 代理、WireGuard VPN 等多种协议。用户可以根据具体需求选择最合适的连接方式。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">共享 / 独享灵活选择</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">共享代理低至 $1/月，适合预算有限的用户；独享代理确保 IP 仅限单用户使用，适合对纯净度要求较高的场景。所有产品均同时提供两种选择。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">40+ 国家 300+ 城市覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">覆盖 40+ 个国家、300+ 个城市、1000+ 个子网，包括美国 40+ 城市、欧洲主要城市以及亚洲、澳洲等地的广泛覆盖。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无限带宽</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有方案均提供无限带宽，无流量限制。1Gb/s 网络端口保证了高速稳定的连接体验。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心 + 住宅代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">同时提供数据中心代理和住宅代理。数据中心代理速度快、价格低；住宅代理纯净度高、隐身性好。用户可按需选择。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">12 年运营历史</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">超过 12 年的运营经验，积累了大量的客户信任和行业经验。稳定的服务和成熟的业务体系是其核心竞争力之一。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <div class="grid md:grid-cols-4 gap-4">
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50 text-center">
+            <h3 class="text-lg font-bold text-slate-100 mb-2">共享 HTTP</h3>
+            <div class="text-3xl font-bold text-emerald-400 mb-2">$1<span class="text-base text-slate-400">/月</span></div>
+            <ul class="text-sm text-slate-400 space-y-2 mb-4">
+              <li>无限带宽</li>
+              <li>1Gb/s 端口</li>
+              <li>即时激活</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50 text-center">
+            <h3 class="text-lg font-bold text-slate-100 mb-2">独享 HTTP</h3>
+            <div class="text-3xl font-bold text-emerald-400 mb-2">$1.80<span class="text-base text-slate-400">/月</span></div>
+            <ul class="text-sm text-slate-400 space-y-2 mb-4">
+              <li>无限带宽</li>
+              <li>1Gb/s 端口</li>
+              <li>独享 IP</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-emerald-500/30 text-center ring-1 ring-emerald-500/20">
+            <h3 class="text-lg font-bold text-slate-100 mb-2">SOCKS5</h3>
+            <div class="text-3xl font-bold text-emerald-400 mb-2">$2.20<span class="text-base text-slate-400">/月</span></div>
+            <ul class="text-sm text-slate-400 space-y-2 mb-4">
+              <li>无限带宽</li>
+              <li>共享/独享可选</li>
+              <li>即时激活</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50 text-center">
+            <h3 class="text-lg font-bold text-slate-100 mb-2">WireGuard</h3>
+            <div class="text-3xl font-bold text-emerald-400 mb-2">$4<span class="text-base text-slate-400">/月</span></div>
+            <ul class="text-sm text-slate-400 space-y-2 mb-4">
+              <li>无限带宽</li>
+              <li>高速加密</li>
+              <li>即时激活</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 日常隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">$1/月的共享 HTTP 代理适合日常网页浏览的 IP 隐藏和隐私保护。简单易用，兼容所有浏览器和应用。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒多账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">独享 HTTP 或 SOCKS5 代理提供稳定的 IP 环境，适合社媒账号的日常维护和管理。300+ 城市的选择覆盖全球主要市场。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">数据中心代理速度快、带宽高，适合大规模数据采集。共享代理的低成本使其在预算敏感的场景中具有竞争力。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 流媒体解锁</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">40+ 国家的广泛覆盖使 ChangeMyIP 适合解锁各地流媒体平台的地理限制。住宅代理提供更好的隐身性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. VPN 加密通信</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">WireGuard VPN 和 Shadowsocks 提供加密通信通道，适合对安全性有较高要求的远程办公和跨境通信场景。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>12 年运营历史，经验丰富</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>10+ 种协议，覆盖面极广</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>共享 $1 起，价格极具竞争力</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>40+ 国家 300+ 城市覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限带宽，1Gb/s 端口</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>定价完全透明</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理 IP 池规模有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>共享代理 IP 可能被其他人影响</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中文</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>界面设计较陈旧</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>缺少移动代理产品</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无免费试用</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ChangeMyIP 以 12 年的运营历史和极具竞争力的价格在代理市场中占据独特位置。共享 HTTP 代理 $1/月的定价使其成为预算有限用户的首选之一。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          10+ 种协议和 40+ 国家的覆盖体现了其产品的丰富性。虽然住宅代理规模和数据中心代理的品质与一线服务商有差距，但超低价格和长久的运营历史弥补了这些不足。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，ChangeMyIP 获得 7.0 分，特别适合预算敏感、需要多种协议选择的个人用户和小型团队。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://changemyip.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 ChangeMyIP 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

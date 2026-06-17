@@ -2003,6 +2003,19 @@
     "detailUrl": "/proxy/proxycue"
   },
   {
+    "id": "changemyip",
+    "name": "ChangeMyIP",
+    "type": "datacenter-proxy",
+    "rating": 7.0,
+    "poolSize": "40+国家 300+城市",
+    "proxyTypes": ["数据中心代理", "住宅代理", "SOCKS5", "VPN"],
+    "isFeatured": false,
+    "badge": "12年+老牌",
+    "features": ["HTTP/SOCKS5/Shadowsocks", "共享/独享可选", "无限带宽", "40+国家"],
+    "affiliateUrl": "https://changemyip.com/",
+    "detailUrl": "/proxy/changemyip"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
