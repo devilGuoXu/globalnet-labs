@@ -1808,6 +1808,19 @@
     "detailUrl": "/proxy/beyondproxy"
   },
   {
+    "id": "rogproxy",
+    "name": "RogProxy",
+    "type": "mobile-proxy",
+    "rating": 7.0,
+    "poolSize": "4G LTE 移动网络",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "独享移动代理",
+    "features": ["4G LTE独享代理", "无限线程", "HTTP/SOCKS5", "自定义轮换", "智能指纹"],
+    "affiliateUrl": "https://rogproxy.com/",
+    "detailUrl": "/proxy/rogproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
