@@ -1,0 +1,170 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="MountProxies 美国4G/5G移动代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/mountproxies.webp`} alt="MountProxies" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">MountProxies 深度评测</h1>
+          <p class="text-slate-400 text-lg">美国原生 4G/5G 移动代理，真实手机设备，无限带宽</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">5.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">5.5</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          MountProxies 是一家专注于美国市场的移动代理服务商，提供基于真实手机设备的 4G 和 5G LTE 专属代理。所有代理均使用真实的 AT&T、T-Mobile、Verizon 手机设备连接到真实基站，而非虚拟化或模拟方案。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          服务覆盖美国多个城市：新泽西（Cinnaminson）、费城、洛杉矶、阿什维尔（北卡）、华盛顿特区和波特兰（缅因）。每个代理均为专属使用，不与他人共享设备或带宽。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          定价为 $114.99/代理/月（无限数据），支持加密货币、Wise 和 PayPal 付款。提供试用选项，无需长期合约。团队位于美国，提供 24/7 客服支持。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">真实手机设备代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">与多数移动代理服务商不同，MountProxies 使用真正的物理手机设备连接运营商基站。这意味着 IP 的来源是完全真实的移动网络用户，在目标网站的检测中具有最高的信任度。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">三大美国运营商覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">代理由 AT&T、T-Mobile 和 Verizon 三大美国移动运营商提供网络支持。根据不同城市位置，可选择的运营商有所不同。企业与运营商签订正式商业合同，确保服务合法合规。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无限带宽与线程</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">每个代理提供无限数据流量，24/7 全天候可用。无线程限制、无连接数限制、无 PC 台数限制。这对于需要多账号批量运营或高频率数据采集的用户来说非常有吸引力。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">城市级定位</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持美国多个城市级定位：东海岸（新泽西、费城、华盛顿特区、波特兰）、西海岸（洛杉矶）和东南部（阿什维尔）。用户可以根据目标市场选择对应城市的代理。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">IP 轮换</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持自定义 IP 轮换间隔，可设置固定时间自动轮换。拥有数百万级 IP 池，分布于多个网络提供商。轮换时可获得全新的移动运营商分配 IP。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">高度合规与隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">MountProxies 声明完全遵守美国及国际法律。所有代理均来自企业级商业合同，无跟踪、无日志记录。与通过 P2P 借用用户 IP 的住宅代理服务有本质区别。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 社媒账号管理与养号</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">美国本土真实手机 IP 在 Instagram、Facebook、TikTok、Twitter 等平台上具有极高信任度。专属代理不共享，可同时管理多个账号而不会因 IP 滥用导致封禁。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 美国市场数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">城市级定位功能允许用户针对特定美国城市进行本地化数据采集。无限带宽和大规模 IP 池适合企业级数据采集项目。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 美国电商监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Amazon、Walmart、Best Buy 等美国电商平台对移动 IP 的检测最为宽松。城市级代理可模拟真实美国消费者的浏览行为，获取准确的本地化价格和库存信息。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 广告验证与品牌保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">美国移动 IP 在广告验证场景中表现优异。多个城市节点可以同时监测不同地区的广告投放效果。无日志政策保护了用户的商业机密。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 票务与限量商品抢购</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">真实手机 IP 的高信任度配合无限带宽和高速连接，适合 Ticketmaster、StubHub 等美国票务平台的抢购场景。多城市节点提供了地理多样性优势。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>真实手机设备，极高信任度</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>AT&T/T-Mobile/Verizon 三大运营商</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限带宽、线程、连接数</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>专属代理，不共享设备</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>城市级定位，多节点选择</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>US 团队 24/7 支持</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>$114.99/月，价格较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅限美国 IP，无国际覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌较新，知名度有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>速度因城市和运营商而异</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中文</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 SOCKS5 支持确认</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          MountProxies 以真实手机设备搭建的美國移动代理网络在市场中具有鲜明的差异化定位。与使用虚拟化方案或 P2P 借用 IP 的服务不同，其基础设施的合规性和 IP 纯净度具有天然的竞争优势。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          $114.99/月的定价和仅限美国的覆盖范围决定了它并非面向所有用户，但对于专注于美国市场的社媒运营、数据采集和电商监控团队而言，无限带宽和专属代理的组合提供了可靠的代理方案。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，MountProxies 获得 7.0 分，特别适合需要美国本土高纯净度移动 IP 的专业用户和团队。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://mountproxies.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 MountProxies 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

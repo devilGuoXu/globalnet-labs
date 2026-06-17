@@ -2042,6 +2042,19 @@
     "detailUrl": "/proxy/airproxy"
   },
   {
+    "id": "mountproxies",
+    "name": "MountProxies",
+    "type": "mobile-proxy",
+    "rating": 7.0,
+    "poolSize": "美国多城",
+    "proxyTypes": ["4G/5G移动代理"],
+    "isFeatured": false,
+    "badge": "美国原生",
+    "features": ["真实手机设备", "AT&T/T-Mobile/Verizon", "无限带宽", "城市级定位", "$114.99/月起"],
+    "affiliateUrl": "https://mountproxies.com/",
+    "detailUrl": "/proxy/mountproxies"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
