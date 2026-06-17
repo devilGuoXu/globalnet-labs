@@ -2037,7 +2037,7 @@
     "proxyTypes": ["4G移动代理"],
     "isFeatured": false,
     "badge": "意大利原生",
-    "features": ["专属SIM卡不共享", "无限带宽", "API轮换IP", "0%欺诈评分", "即时交付"],
+    "features": ["专属SIM卡不共享", "无限带宽", "API轮换IP", "0%欺诈评分"],
     "affiliateUrl": "https://airproxy.io/en/",
     "detailUrl": "/proxy/airproxy"
   },
@@ -2050,9 +2050,22 @@
     "proxyTypes": ["4G/5G移动代理"],
     "isFeatured": false,
     "badge": "美国原生",
-    "features": ["真实手机设备", "AT&T/T-Mobile/Verizon", "无限带宽", "城市级定位", "$114.99/月起"],
+    "features": ["真实手机设备", "AT&T/T-Mobile/Verizon", "无限带宽", "城市级定位"],
     "affiliateUrl": "https://mountproxies.com/",
     "detailUrl": "/proxy/mountproxies"
+  },
+  {
+    "id": "speedproxies",
+    "name": "SpeedProxies",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "6300万+ IPs",
+    "proxyTypes": ["住宅代理", "数据中心", "ISP", "移动代理"],
+    "isFeatured": false,
+    "badge": "150+国家",
+    "features": ["6300万+全球IP", "150+国家覆盖", "无限带宽不限线程", "SOCKS5支持"],
+    "affiliateUrl": "https://speedproxies.net/",
+    "detailUrl": "/proxy/speedproxies"
   },
   {
     "id": "botproxy",
