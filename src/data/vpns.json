@@ -243,7 +243,7 @@
     "id": "iprovpn",
     "name": "iProVPN",
     "type": "vpn",
-    "rating": 7.0,
+    "rating": 8.0,
     "price": "",
     "jurisdiction": "",
     "protocols": ["WireGuard", "OpenVPN", "IKEv2"],
@@ -253,5 +253,20 @@
     "affiliateUrl": "https://iprovpn.com/",
     "couponCode": "",
     "detailUrl": "/vpn/iprovpn"
+  },
+  {
+    "id": "hide-me",
+    "name": "hide.me",
+    "type": "vpn",
+    "rating": 7.5,
+    "price": "",
+    "jurisdiction": "马来西亚（非14 Eyes）",
+    "protocols": ["WireGuard", "OpenVPN", "IKEv2", "SoftEther", "SSTP"],
+    "isFeatured": false,
+    "badge": "2600+服务器",
+    "features": ["2600+服务器91+地点", "免费套餐可用", "独立审计无日志", "10台同时连接"],
+    "affiliateUrl": "https://hide.me/zh/",
+    "couponCode": "",
+    "detailUrl": "/vpn/hide-me"
   }
 ]

@@ -1,0 +1,164 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="hide.me VPN 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/hide-me.webp`} alt="hide.me" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">hide.me VPN 深度评测</h1>
+          <p class="text-slate-400 text-lg">2600+ 服务器 91+ 地点，独立审计无日志</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">隐私保护</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">服务器规模</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">易用性</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          hide.me 是拥有超过十年历史的 VPN 服务商，总部位于马来西亚（非 5/9/14 Eyes 盟国）。拥有 2600+ 台自营服务器，覆盖 91+ 个地点和 6 大洲，所有服务器均配备 10 Gbps 带宽。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          支持 WireGuard、OpenVPN、IKEv2、SoftEther 和 SSTP 五种协议，AES-256 加密。严格无日志政策经 Securitum 独立审计（2024），所有服务器运行于 RAM 内存盘，重启自动擦除数据。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          免费套餐提供 10GB/月流量和 8 个地点接入，付费套餐不限流量、10 台设备同时连接。30 天退款保障。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2600+ 自营服务器 91+ 地点</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有服务器由 hide.me 自营自维，非第三方租赁。91+ 地点覆盖 6 大洲，每台服务器标配 10 Gbps 带宽。支持查看实时 Ping 值和距离。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">独立审计无日志 + RAM 服务器</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">经 Securitum（2024）独立审计验证的无日志政策。所有服务器运行于 RAM 磁盘，重启后数据自动彻底擦除，无永久记录留存。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">五种协议 + 全 IPv6 支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">原生支持 WireGuard、OpenVPN、IKEv2、SoftEther 和 SSTP。业内率先完整支持 IPv6，原生实现避免 IPv6 泄漏风险。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Bolt 加速技术</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">自研 Bolt 技术大幅提升 Windows 平台 VPN 速度，配合 WireGuard 实现极速连接体验。动态端口转发自动开放必要端口，优化游戏和 P2P。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">免费套餐</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">业界最慷慨的免费方案之一：10GB/月流量，8 个地点（芬兰、法国、德国、荷兰、瑞士、英国、美国），1 台设备。无信用卡、无需注册即可使用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">SmartGuard + Stealth Guard</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">SmartGuard 广告拦截器防御恶意软件、追踪器和钓鱼威胁。Stealth Guard 智能应用控制，指定哪些应用必须通过 VPN，VPN 断开时自动拦截流量。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 流媒体解锁</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">20+ 国家专属流媒体服务器，稳定解锁 Netflix（美/英/日/加）、Amazon Prime Video、Hulu、Disney+、HBO Max。免费套餐不适用流媒体。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">马来西亚管辖 + 独立审计无日志 + RAM 服务器三重保障。AES-256 加密 + Kill Switch + 全 IPv6 支持，全方位保护在线隐私。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. P2P 下载</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有服务器不限 P2P 和 Torrent，动态端口转发优化下载速度。10 Gbps 带宽保证高速下载体验。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 突破网络审查</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Multihop 双跳 VPN 选择不同入口和出口服务器，绕过深度包检测。混淆协议适用于高限制性网络环境。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>独立审计无日志 + RAM 服务器</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>马来西亚管辖，非 14 Eyes</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>2600+ 自营服务器，10 Gbps</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>慷慨免费套餐（10GB/月）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>原生 IPv6 支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>五年协议 + 动态端口转发</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>付费套餐价格偏高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>免费套餐不支持流媒体</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分流媒体平台存在不稳定</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>中国区连接效果有限</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          hide.me 凭借十年以上的行业经验和独立审计验证的无日志政策在 VPN 市场中建立了坚实的隐私信誉。2600+ 台自营服务器和 10 Gbps 带宽保证了可靠的基础性能。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          慷慨的免费方案和原生 IPv6 支持展现了与其他竞品的差异化。马来西亚的管辖优势和 RAM 服务器设计为隐私敏感用户提供了强有力的保护。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，hide.me 获得 7.5 分，适合重视隐私保护和需要可靠免费 VPN 的用户，也适合有 P2P 下载和流媒体解锁需求的高级用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://hide.me/zh/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 hide.me 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
