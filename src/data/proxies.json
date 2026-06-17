@@ -1977,6 +1977,19 @@
     "detailUrl": "/proxy/proxyguys"
   },
   {
+    "id": "zproxies",
+    "name": "zProxies",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "IPv4/IPv6",
+    "proxyTypes": ["住宅代理", "移动代理", "IPv6代理"],
+    "isFeatured": false,
+    "badge": "IPv6+移动",
+    "features": ["IPv6住宅代理", "4G移动代理", "不限带宽", "静态IPv4"],
+    "affiliateUrl": "https://zproxies.com/",
+    "detailUrl": "/proxy/zproxies"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
