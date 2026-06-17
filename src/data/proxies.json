@@ -1738,7 +1738,7 @@
     "proxyTypes": ["住宅代理", "数据中心代理"],
     "isFeatured": false,
     "badge": "IPv4/IPv6 双栈",
-    "features": ["IPv4+IPv6双栈", "住宅+DC代理", "静态+轮换套餐", "HTTP/SOCKS5", "不限带宽"],
+    "features": ["IPv4+IPv6双栈", "住宅+DC代理", "静态+轮换套餐", "HTTP/SOCKS5"],
     "affiliateUrl": "https://v6proxies.com/",
     "detailUrl": "/proxy/v6proxies"
   },
@@ -1751,7 +1751,7 @@
     "proxyTypes": ["数据中心代理", "住宅代理", "ISP代理"],
     "isFeatured": false,
     "badge": "三合一",
-    "features": ["数据中心+住宅+ISP三合一", "$2.50起/月", "HTTP/SOCKS5", "24/7客服", "不限带宽"],
+    "features": ["数据中心+住宅+ISP三合一", "$2.50起/月", "HTTP/SOCKS5", "24/7客服"],
     "affiliateUrl": "https://lightproxies.com/",
     "detailUrl": "/proxy/lightproxies"
   },
@@ -1764,7 +1764,7 @@
     "proxyTypes": ["数据中心代理"],
     "isFeatured": false,
     "badge": "独享代理",
-    "features": ["独享IPv4", "$0.3起/月", "HTTP/SOCKS5", "500Mbps端口", "无限流量"],
+    "features": ["独享IPv4", "$0.3起/月", "HTTP/SOCKS5", "无限流量"],
     "affiliateUrl": "https://vproxy.tech/",
     "detailUrl": "/proxy/vproxy"
   },
@@ -1777,7 +1777,7 @@
     "proxyTypes": ["IPv6代理", "住宅代理", "移动代理", "数据中心代理"],
     "isFeatured": false,
     "badge": "IPv4/IPv6 双栈",
-    "features": ["IPv4+IPv6", "住宅+移动+ISP+DC", "静态+轮换", "HTTP/SOCKS5", "99.9%在线率"],
+    "features": ["IPv4+IPv6", "住宅+移动+ISP+DC", "静态+轮换", "HTTP/SOCKS5"],
     "affiliateUrl": "https://noxproxy.com/",
     "detailUrl": "/proxy/noxproxy"
   },
@@ -1790,7 +1790,7 @@
     "proxyTypes": ["数据中心代理", "住宅代理"],
     "isFeatured": false,
     "badge": "土耳其代理",
-    "features": ["独享IPv4", "€0.55起/月", "HTTP/SOCKS5", "土耳其机房", "无限流量"],
+    "features": ["独享IPv4", "€0.55起/月", "HTTP/SOCKS5", "土耳其机房"],
     "affiliateUrl": "https://gokturkhost.com/en/home",
     "detailUrl": "/proxy/gokturkhost"
   },
@@ -1803,7 +1803,7 @@
     "proxyTypes": ["住宅代理", "数据中心代理", "ISP代理"],
     "isFeatured": false,
     "badge": "多类型代理",
-    "features": ["9000万+住宅IP", "150+国家", "住宅+DC+ISP三合一", "Sticky IP轮换", "99.9%在线率"],
+    "features": ["9000万+住宅IP", "150+国家", "住宅+DC+ISP三合一", "Sticky IP轮换"],
     "affiliateUrl": "https://beyondproxy.io/",
     "detailUrl": "/proxy/beyondproxy"
   },
@@ -1816,7 +1816,7 @@
     "proxyTypes": ["移动代理"],
     "isFeatured": false,
     "badge": "独享移动代理",
-    "features": ["4G LTE独享代理", "无限线程", "HTTP/SOCKS5", "自定义轮换", "智能指纹"],
+    "features": ["4G LTE独享代理", "无限线程", "HTTP/SOCKS5", "自定义轮换"],
     "affiliateUrl": "https://rogproxy.com/",
     "detailUrl": "/proxy/rogproxy"
   },
