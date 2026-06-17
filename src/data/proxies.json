@@ -1847,6 +1847,19 @@
     "detailUrl": "/proxy/flipnode"
   },
   {
+    "id": "proxypanel",
+    "name": "ProxyPanel",
+    "type": "mobile-proxy",
+    "rating": 7.0,
+    "poolSize": "170+ 美国城市",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "美国4G/5G",
+    "features": ["真实4G/5G移动IP", "AT&T/T-Mobile双网", "170+美国城市", "无限带宽"],
+    "affiliateUrl": "https://proxypanel.io/",
+    "detailUrl": "/proxy/proxypanel"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
