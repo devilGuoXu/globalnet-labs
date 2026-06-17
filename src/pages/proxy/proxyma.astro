@@ -1,0 +1,166 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Proxyma 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/proxyma.webp`} alt="Proxyma" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Proxyma 深度评测</h1>
+          <p class="text-slate-400 text-lg">6000 万+ 住宅 IP，180+ 国家，99.99% 在线率</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 池规模</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">在线率</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.0</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxyma 是一家全球住宅代理服务提供商，拥有 6000 万+ 真实住宅 IP 资源池，覆盖 180+ 个国家和地区。产品线涵盖住宅动态代理、住宅无限代理和 ISP 代理三大类，提供轮换和静态双模式选择。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          住宅动态代理支持自动/手动 IP 轮换，每次请求更换 IP；住宅无限代理不限流量不限并发，适合大规模数据采集；ISP 代理结合数据中心速度和住宅可信度，固定 IP 长期使用。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          99.99% 高在线率，24/7 客服平均 1 分钟响应。所有 IP 均来自真实用户自愿分享，合法合规获取。支持按国家、地区、城市和运营商精确筛选。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">6000 万+ 住宅 IP 池</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">6000 万+ 动态住宅 IP 在线，每个 IP 均来自真实个人设备用户。覆盖 180+ 国家，IP 资源持续更新，保证高可用率和低重复率。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">三种代理计划</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅动态代理——轮换 IP 适合匿名采集；住宅无限代理——不限流量不限并发适合大规模任务；ISP 代理——高速稳定性账号管理专用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">99.99% 在线率</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">超高在线率保证业务连续性。24/7 客服支持，平均 1 分钟响应时间，快速解决使用过程中的任何问题。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">轮换 + 静态双模式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">自动/手动 IP 轮换满足高频匿名需求，静态 IP 保持同一地址适合持续性会话。两种模式灵活切换，适配不同业务场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">精确地理定位</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持按国家、地区、城市和运营商四级精确筛选。控制面板直观易用，快速定位目标区域的住宅 IP 资源。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">快速集成</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">即买即用，只需复制粘贴即可集成到主流软件中。支持 HTTP/HTTPS 和 SOCKS5 协议，兼容 Scrapy、Puppeteer、Selenium 等框架。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 电商数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">6000 万+ 住宅 IP 轮换绕过亚马逊、eBay 等平台反爬。不限并发的无限代理计划适合大规模价格监控和商品数据采集。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 加密货币空投</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">专为 Crypto Drops 优化的代理产品，高抗反欺诈能力。静态清洁 IP 确保每个账号的独立性和安全性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO / SERP 监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">180+ 国家住宅 IP 获取真实本地搜索排名。城市级定位保证 SERP 数据的准确性和本地化。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 社媒账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ISP 静态代理提供稳定固定 IP，适合 Facebook、Instagram、TikTok 等平台的批量账号管理。高速稳定连接保证在线体验。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>6000 万+ 住宅 IP</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.99% 超高在线率</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>轮换 + 静态双模式</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>四级精确定位（含运营商）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>24/7 客服，平均 1 分钟响应</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>快速集成，即买即用</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度较低</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>公开定价信息不透明</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>社区评价和口碑有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 纯净度待验证</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxyma 以 6000 万+ 住宅 IP 的超大池子和 99.99% 的极高在线率在全球代理市场中具备竞争力。三种代理计划的灵活选择覆盖了从个人隐私到企业级采集的完整需求。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          四级精确定位和快速集成能力为开发者提供了便捷的使用体验，24/7 的快速客服响应进一步降低了使用门槛。但其品牌知名度和公开定价信息仍有待完善。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，Proxyma 获得 7.0 分，适合需要大规模高可用住宅 IP 且重视客服响应速度的数据采集团队。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://proxyma.io/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Proxyma 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

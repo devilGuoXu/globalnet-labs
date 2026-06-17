@@ -2185,6 +2185,19 @@
     "detailUrl": "/proxy/cloudvpschinhhang"
   },
   {
+    "id": "proxyma",
+    "name": "Proxyma",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "6000万+ IPs",
+    "proxyTypes": ["住宅动态代理", "住宅无限代理", "ISP代理"],
+    "isFeatured": false,
+    "badge": "24/7 支持",
+    "features": ["6000万+住宅IP", "180+国家覆盖", "99.99%在线率", "轮换+静态双模式"],
+    "affiliateUrl": "https://proxyma.io/",
+    "detailUrl": "/proxy/proxyma"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
