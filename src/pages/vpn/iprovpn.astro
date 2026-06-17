@@ -1,0 +1,164 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="iProVPN 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/iprovpn.webp`} alt="iProVPN" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">iProVPN 深度评测</h1>
+          <p class="text-slate-400 text-lg">250+ 服务器 36+ 国家，10 台设备同时连接</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">服务器规模</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">安全隐私</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">易用性</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          iProVPN 是一家 VPN 服务提供商，拥有 250+ 台服务器覆盖 36+ 个国家。支持 WireGuard、OpenVPN 和 IKEv2 协议，提供无日志政策、AES-256 加密和 Kill Switch 等标准安全功能。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          单订阅支持最多 10 台设备同时连接，无限带宽不限速。内置广告拦截器、密码管理器和 Split Tunneling 分流功能。提供 Windows、Mac、iOS、Android、Linux 全平台应用及 Chrome/Firefox 浏览器扩展。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          30 天退款保障，24/7 客服支持。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">250+ 服务器 36+ 国家</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">服务器遍布全球，包括美国、英国、澳大利亚、芬兰、香港等热门地区。10 Gbps 服务器节点提供高速连接体验。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">10 台设备同时连接</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">单订阅支持最多 10 台设备同时在线。支持 Windows、Mac、iOS、Android、Linux、路由器、Fire TV 等多种平台。可选无限设备附加包。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">AES-256 + 无日志</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">军用级 AES-256 加密保护数据传输安全。严格无日志政策，不监控、追踪或存储用户在线活动。内置 DNS/IP 泄漏保护。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Kill Switch + Split Tunneling</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Kill Switch 在 VPN 断开时自动切断网络，防止 IP 泄露。Split Tunneling 允许部分流量走 VPN、部分走本地网络，灵活控制。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">附加安全功能</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">内置广告拦截器屏蔽侵入式广告；免费密码管理器保护账户安全；P2P 优化支持 BT 下载；双跳 VPN 增强匿名性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">30 天退款保障</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">30 天无理由退款政策，零风险试用。24/7 在线客服和邮件支持，提供快速响应服务。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 流媒体解锁</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">多国服务器解锁 Netflix、Hulu、Amazon Prime Video 等平台内容。无限带宽保证 4K 流畅播放体验。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 远程办公安全</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">AES-256 加密保护公共 Wi-Fi 下的数据传输安全。10 台设备覆盖工作电脑和手机，Kill Switch 防止意外泄露。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">无日志政策和 IP/DNS 泄漏保护确保匿名上网。广告拦截器阻止追踪器收集浏览行为数据。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. P2P 下载</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">P2P 优化服务器提供高效的 BT 下载体验。无限带宽不限速，Split Tunneling 可按需分流。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>10 台设备同时连接</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>AES-256 + 无日志</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>内置广告拦截器 + 密码管理器</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Split Tunneling 分流</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>30 天退款保障</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>全平台支持 + 浏览器扩展</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>服务器节点偏少（36+ 国）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>注册地未公开</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>价格偏贵</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>独立审计结果未公开</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          iProVPN 以 10 台设备同时连接、内置广告拦截器和密码管理器等功能在中端 VPN 市场中形成差异化。WireGuard 协议支持和无限带宽保证了基础连接体验。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          30 天退款保障和全平台覆盖降低了用户的尝试成本。但服务器节点偏少和注册地不公开是其主要短板。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，iProVPN 获得 7.0 分，适合需要多设备同时保护且看重附加安全功能的普通用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://iprovpn.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 iProVPN 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

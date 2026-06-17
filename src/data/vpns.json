@@ -238,5 +238,20 @@
     "affiliateUrl": "https://www.starvpn.com/",
     "couponCode": "",
     "detailUrl": "/vpn/starvpn"
+  },
+  {
+    "id": "iprovpn",
+    "name": "iProVPN",
+    "type": "vpn",
+    "rating": 7.0,
+    "price": "",
+    "jurisdiction": "",
+    "protocols": ["WireGuard", "OpenVPN", "IKEv2"],
+    "isFeatured": false,
+    "badge": "10台设备",
+    "features": ["250+服务器36+国家", "10台同时连接", "无限带宽", "30天退款保障"],
+    "affiliateUrl": "https://iprovpn.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/iprovpn"
   }
 ]
