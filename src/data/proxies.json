@@ -2211,6 +2211,19 @@
     "detailUrl": "/proxy/proxyfish"
   },
   {
+    "id": "proxyprovider",
+    "name": "ProxyProvider",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "多类型IP池",
+    "proxyTypes": ["住宅代理", "数据中心代理", "ISP代理", "IPv6代理"],
+    "isFeatured": false,
+    "badge": "隐私优先",
+    "features": ["住宅/数据中心/ISP全系", "HTTP/SOCKS5协议", "无日志政策", "免费代理列表"],
+    "affiliateUrl": "https://www.proxyprovider.net/",
+    "detailUrl": "/proxy/proxyprovider"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
