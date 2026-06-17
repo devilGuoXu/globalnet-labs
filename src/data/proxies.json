@@ -1899,6 +1899,19 @@
     "detailUrl": "/proxy/proxy-n-vpn"
   },
   {
+    "id": "sneakernode",
+    "name": "SneakerNode",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "1.15亿+ IPs",
+    "proxyTypes": ["住宅代理", "移动代理"],
+    "isFeatured": false,
+    "badge": "住宅+移动",
+    "features": ["1.15亿+住宅IP", "2100万+移动IP", "145+国家", "HTTP/SOCKS5"],
+    "affiliateUrl": "https://sneakernode.com/",
+    "detailUrl": "/proxy/sneakernode"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
