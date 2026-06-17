@@ -2081,6 +2081,19 @@
     "detailUrl": "/proxy/murphyproxies"
   },
   {
+    "id": "thesafety",
+    "name": "TheSafety",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "600万+ IPs",
+    "proxyTypes": ["匿名代理", "服务器代理", "住宅代理"],
+    "isFeatured": false,
+    "badge": "HTTP+SOCKS5",
+    "features": ["600万+ HTTP/SOCKS5代理", "无日志政策", "无限带宽", "测试账户可用"],
+    "affiliateUrl": "https://thesafety.us/",
+    "detailUrl": "/proxy/thesafety"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",

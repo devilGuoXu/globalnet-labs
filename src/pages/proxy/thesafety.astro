@@ -1,0 +1,165 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="TheSafety 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/thesafety.webp`} alt="TheSafety" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">TheSafety 深度评测</h1>
+          <p class="text-slate-400 text-lg">600 万+ 匿名代理，无日志，无限带宽</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">价格</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">匿名性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">代理质量</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.0</div>
+            <div class="text-xs text-slate-500 mt-1">易用性</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          TheSafety 是一家俄罗斯匿名代理和 VPN 服务商，提供三种代理数据库：超高匿名代理、服务器代理和住宅代理，以及 OpenVPN/IKEv2 加密隧道服务。核心产品是 HTTP 和 SOCKS5 匿名代理，数据库总计超过 600 万个有效代理。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          该服务主打"无日志"策略——不仅是应用层不记录，服务器操作系统的日志也被完全禁用。同时提供无限带宽、测试账户、BTC 匿名支付、自有 Proxy Helper 工具等附加功能。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          TheSafety 代理每 5 分钟检测一次有效性，库存可用率保持在 99% 以上，按使用时长和数据库类型差异化定价。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">三种代理数据库</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">超高匿名代理（SOCKS5 为主，最长 24 小时有效，手动提取）、服务器代理（永久运行，可下载列表，HTTP + SOCKS5）、住宅代理（轮换 + 会话模式，HTTPS 协议）。按需选择，覆盖匿名浏览、数据分析、社交管理等多种场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">600 万+ 代理池</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">HTTP 和 SOCKS5 协议代理总数超过 600 万，按国家、城市、州（美国）、连接类型、速度、在线时间、域名等维度排序和搜索。每 5 分钟自动检查，保证 99% 以上存活率。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无日志 + DNS 泄漏防护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">服务器端完全禁用所有日志（包括 OS 日志），从根本上杜绝数据留存。内置 DNS 泄漏防护机制，确保代理连接过程中的 DNS 查询安全。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Proxy Helper 工具</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">自有桌面辅助程序帮助用户快速配置代理连接，简化 SOCKS5 设置流程，适合技术门槛较低的用户群体。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">VPN 附加服务</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">除代理外还提供 VPN 服务，支持 OpenVPN（TCP/UDP）和 IKEv2 协议，最多 4 设备同时连接，Double VPN 链式加密。与代理服务共用无日志和无限带宽策略。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">比特币匿名支付 + 测试账户</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持比特币匿名付款，无需实名。提供免费测试账户供用户体验服务，注册后可申请。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 匿名浏览</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">超高匿名代理的 SOCKS5 协议提供最强匿名性，24 小时自动轮换，配合无日志策略适合对隐私要求高的日常匿名上网。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. SEO / SMM</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">服务器代理永久在线，可下载列表批量配置，适合 SEO 排名监控和社交媒体的多账号管理。Proxy Helper 简化了批量配置流程。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 网页数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">600 万+ 代理池覆盖多种 IP 段，旋转住宅代理可应对基础的反爬机制。按国家、城市精细化筛选目标位置的代理。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 爬虫与自动化</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">服务器代理可通过列表下载集成到标准爬虫框架中，每 5 分钟高可用检测保证代理质量。无限带宽消除流量限制。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>600 万+ 代理池，协议齐全</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无日志 + DNS 泄漏防护</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限带宽，无流量限制</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>比特币匿名支付</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>提供免费测试账户</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>自有 Proxy Helper 工具</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>俄罗斯服务商，合规性存疑</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>未提供住宅代理池具体数量</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>匿名代理需手动提取，不适合大规模自动化</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中文</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>没有明确 SLA 保障</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          TheSafety 凭借 600 万+ 的庞大体量和严格的"无日志"策略在匿名代理市场中独树一帜。三种代理数据库的设计覆盖了从个人隐私到企业采集的多种需求，无限带宽和比特币支付进一步降低了使用门槛。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxy Helper 工具和免费测试账户对新手较为友好。但俄罗斯服务商的合规性以及匿名代理需手动提取的限制是明显短板。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，TheSafety 获得 7.0 分，适合对匿名性要求高、预算有限且不介意手动操作的隐私优先用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://thesafety.us/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 TheSafety 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
