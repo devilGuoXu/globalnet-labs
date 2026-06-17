@@ -1912,6 +1912,19 @@
     "detailUrl": "/proxy/sneakernode"
   },
   {
+    "id": "leastslow",
+    "name": "Leastslow",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "8000万+ IPs",
+    "proxyTypes": ["住宅代理", "ISP代理"],
+    "isFeatured": false,
+    "badge": "旋转+静态",
+    "features": ["8000万+住宅IP", "200+国家", "HTTP/SOCKS5", "免费地理过滤"],
+    "affiliateUrl": "https://www.leastslow.com/",
+    "detailUrl": "/proxy/leastslow"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
