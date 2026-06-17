@@ -42,7 +42,7 @@
     "features": ["自有协议 Lightway", "105+ 国家节点", "无日志政策"],
     "affiliateUrl": "https://www.expressvpn.com/",
     "couponCode": "",
-    "detailUrl": "https://www.expressvpn.com/"
+    "detailUrl": "/vpn/expressvpn"
   },
   {
     "id": "proton",
@@ -57,7 +57,7 @@
     "features": ["免费套餐可用", "防攻击架构", "Tor 集成"],
     "affiliateUrl": "https://proton.me/",
     "couponCode": "",
-    "detailUrl": "https://proton.me/"
+    "detailUrl": "/vpn/proton"
   },
   {
     "id": "surfshark",

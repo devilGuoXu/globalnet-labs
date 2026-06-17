@@ -1,0 +1,165 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="ExpressVPN 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/expressvpn.webp`} alt="ExpressVPN" class="h-14 w-auto self-center" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">ExpressVPN 深度评测</h1>
+          <p class="text-slate-400 text-lg">自研 Lightway 协议，105+ 国家节点覆盖</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.5</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.5</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ExpressVPN 是全球最知名的 VPN 服务商之一，总部位于英属维尔京群岛（隐私友好辖区），在全球 105+ 个国家部署了 VPN 节点。其自主研发的 Lightway 协议基于 WireGuard 内核，在速度和稳定性方面表现突出。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ExpressVPN 以严格的零日志政策闻名，经过独立审计验证。支持 Split Tunneling、TrustedServer（无硬盘服务器）、Network Lock（ Kill Switch）等高级功能。所有服务器均使用 RAM-only 模式，重启后不留任何数据。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          ExpressVPN 提供 24/7 在线客服支持，支持 Windows、macOS、iOS、Android、Linux 等主流平台以及路由器。配合自有 MediaStreamer 功能，可实现非 VPN 兼容设备的智能 DNS 解锁。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Lightway 自研协议</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">基于 WireGuard 内核自研的 Lightway 协议，在保持高速连接的同时提供更稳定的隧道连接。支持 TCP/UDP 双模，在中国等网络受限地区表现出色。开源可审计，代码透明。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">105+ 国家节点覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">在全球 105+ 个国家部署了数千台服务器，覆盖范围在主流 VPN 中名列前茅。每个节点均使用 10Gbps 带宽，确保连接速度和稳定性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">TrustedServer 无硬盘技术</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有服务器均运行于 RAM-only 模式，无物理硬盘。每次重启后服务器上的所有数据被完全清除，从根本上保障用户隐私和数据安全。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Network Lock (Kill Switch)</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">内置 Kill Switch 功能，当 VPN 连接意外中断时自动阻断所有网络流量，防止真实 IP 泄露。支持 IPv6 泄漏保护，确保全方位的隐私保障。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">MediaStreamer</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">智能 DNS 功能，让不支持 VPN 的设备（如游戏主机、智能电视）也能通过 ExpressVPN 访问受限内容。无需安装任何软件，只需修改 DNS 设置即可。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">独立审计零日志政策</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ExpressVPN 的零日志政策通过了 PwC（普华永道）的独立审计验证。不记录任何连接日志、流量日志、DNS 查询和 IP 分配信息。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 流媒体解锁</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ExpressVPN 在 Netflix、HBO Max、Disney+、BBC iPlayer 等主流流媒体平台的解锁能力处于行业领先水平。Lightway 协议的高速连接确保 4K 流媒体播放流畅稳定。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 跨国商务与远程办公</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">105+ 国家的广泛节点覆盖和 TrustedServer 技术，适合跨国企业员工安全访问公司资源。MediaStreamer 为不具备 VPN 功能的设备提供智能 DNS 方案。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 隐私保护与公共 Wi-Fi 安全</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">严格零日志政策和 RAM-only 服务器确保网络活动不被记录。Network Lock 功能在公共 Wi-Fi 环境下提供额外的安全保障，防止数据泄露。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 跨区域内容访问</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">105+ 国家节点让用户可以便捷地访问不同地区的在线内容和服务。Lightway 协议在网络受限地区的稳定性尤其出色。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>105+ 国家节点，覆盖广泛</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Lightway 协议速度快、稳定</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>TrustedServer RAM-only 隐私保障</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>独立审计零日志政策</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>MediaStreamer 兼容非 VPN 设备</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>流媒体解锁能力出色</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>$6.67/月，价格偏高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>最多 8 台设备同时连接</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中文界面</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无广告拦截等附加功能</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无独立 Tor 集成</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ExpressVPN 作为全球 VPN 行业的标杆品牌，在服务器覆盖、连接速度和隐私保障方面均达到了行业顶级水平。自研 Lightway 协议和 TrustedServer 技术体现了其在技术创新上的持续投入。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          $6.67/月的定价在同类产品中偏高，但对于追求稳定连接、广泛节点覆盖和可靠隐私保护的商务及流媒体用户而言，仍然是值得考虑的选择。8 台设备的同时连接数适合个人和小团队使用。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，ExpressVPN 获得 9.0 分，推荐给对流媒体解锁和网络稳定性有高要求的用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.expressvpn.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 ExpressVPN 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

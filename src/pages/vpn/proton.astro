@@ -1,0 +1,165 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Proton VPN 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/proton.webp`} alt="Proton VPN" class="h-14 w-auto self-center" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Proton VPN 深度评测</h1>
+          <p class="text-slate-400 text-lg">瑞士隐私保护，免费套餐可用，防攻击架构</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proton VPN 由 Proton AG 运营，与 Proton Mail 同属一家公司，总部位于瑞士日内瓦。瑞士严格的隐私保护法使其成为全球最注重隐私的 VPN 服务之一。Proton VPN 提供免费套餐和付费套餐，是少数提供真正免费 VPN 方案的主流服务。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          采用 WireGuard、OpenVPN 和 IKEv2 协议，支持防攻击架构和 Tor 集成。所有服务器均遵循零日志政策，且由 Proton 自有团队管理，不依赖第三方基础设施。Secure Core 架构将服务器部署在瑞士、冰岛和瑞典等高隐私保护国家，抵御网络攻击。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          Proton VPN 免费套餐提供 3 个国家节点、中等速度和零日志保护，无广告无流量限制。付费套餐解锁 80+ 国家节点、高速连接、Tor 集成和 NetShield 广告拦截等高级功能。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Secure Core 架构</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">多层 VPN 架构，用户流量首先经过瑞士、冰岛或瑞典的高安全服务器，再转发至目标节点。即使目标服务器被攻破，用户的真实 IP 仍受到 Secure Core 服务器的保护。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Tor 集成</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">内置 Tor 集成功能，用户可通过 Proton VPN 直接连接 Tor 网络，无需额外配置 Tor 浏览器。VPN + Tor 双重加密提供最大程度的匿名性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">NetShield 广告拦截</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">内置 DNS 级广告拦截、恶意软件保护和追踪器拦截功能。在 VPN 连接层面阻止广告和威胁，支持三种拦截级别，同时提升浏览速度和隐私安全。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">免费套餐</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Proton VPN 的免费套餐是市场上为数不多的真正免费 VPN 方案：无广告、无流量限制、零日志政策。提供荷兰、日本、波兰和美国 4 个国家节点，中等速度适合日常浏览。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">瑞士隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">总部位于瑞士，受瑞士联邦数据保护法（FADP）约束。瑞士不属于 14 Eyes 联盟成员国，无强制数据保留要求。Proton 自成立以来在隐私保护领域保持良好记录。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">零日志 + 透明审计</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Proton VPN 的零日志政策经过独立安全审计验证。所有应用均为开源，安全研究人员可随时审查代码。采用强制 DNS 加密和 IPv6 泄漏保护。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 高安全隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Secure Core 多层架构和瑞士隐私法保护，适合记者、活动人士和需要最高级别隐私保护的用户。Tor 集成提供 VPN + Tor 的双重匿名保障。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 免费 VPN 需求</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Proton VPN 免费套餐无广告、无流量限制，适合预算有限的用户。免费用户同样享受零日志政策保护，在免费 VPN 市场中独树一帜。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 跨境数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">80+ 国家付费节点覆盖，WireGuard 协议的高速连接适合数据采集任务。NetShield 可在采集过程中拦截广告和追踪器，节省带宽。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 公共 Wi-Fi 安全</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">强制 DNS 加密和 Kill Switch 功能为公共网络连接提供全方位保障。零日志政策确保任何连接记录不被保留。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>瑞士隐私法保护，零日志政策</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费套餐可用，无广告无限制</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Secure Core 多层加密架构</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Tor 集成，双匿名保障</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>NetShield 广告+恶意软件拦截</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>全部应用开源，可审计</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>免费套餐节点较少（仅4国）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>免费套餐速度受限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分流媒体解锁不稳定</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>客服响应速度一般</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无电话/在线聊天客服</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proton VPN 以其瑞士隐私保护、免费套餐策略和 Secure Core 安全架构在 VPN 市场中建立了独特的定位。全部应用开源、零日志政策经独立审计，使其成为隐私保护领域最值得信赖的 VPN 之一。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          $4.99/月的付费定价性价比出色，免费套餐虽有限制但在免费 VPN 市场中是罕见的良心选择。对于注重隐私保护、需要 Tor 集成或多层安全防护的用户，Proton VPN 是一个非常理想的选择。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，Proton VPN 获得 9.0 分，特别适合高隐私需求和预算有限的用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://proton.me/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Proton VPN 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
