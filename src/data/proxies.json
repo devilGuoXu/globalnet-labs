@@ -1860,6 +1860,19 @@
     "detailUrl": "/proxy/proxypanel"
   },
   {
+    "id": "buymobileproxy",
+    "name": "BuyMobileProxy",
+    "type": "mobile-proxy",
+    "rating": 7.0,
+    "poolSize": "土耳其单节点",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "土耳其3G/4G",
+    "features": ["真实SIM卡独享", "3G/4G网络", "HTTP/SOCKS5", "API即时换IP"],
+    "affiliateUrl": "https://buymobileproxy.com/",
+    "detailUrl": "/proxy/buymobileproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
