@@ -63,7 +63,7 @@
     "id": "surfshark",
     "name": "Surfshark",
     "type": "vpn",
-    "rating": 8.7,
+    "rating": 8.0,
     "price": "$2.49/月",
     "jurisdiction": "荷兰（隐私友好）",
     "protocols": ["WireGuard", "OpenVPN", "IKEv2"],
@@ -72,7 +72,7 @@
     "features": ["无限设备连接", "CleanWeb 去广告", "动态 IP"],
     "affiliateUrl": "https://surfshark.com/",
     "couponCode": "",
-    "detailUrl": "https://surfshark.com/"
+    "detailUrl": "/vpn/surfshark"
   },
   {
     "id": "cometvpn",
