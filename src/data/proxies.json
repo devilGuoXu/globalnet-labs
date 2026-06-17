@@ -2120,6 +2120,19 @@
     "detailUrl": "/proxy/proxyline"
   },
   {
+    "id": "spaceproxy",
+    "name": "Spaceproxy",
+    "type": "datacenter-proxy",
+    "rating": 7.0,
+    "poolSize": "1900+ 子网",
+    "proxyTypes": ["私密专属代理", "住宅代理", "移动代理"],
+    "isFeatured": false,
+    "badge": "IPv4+IPv6",
+    "features": ["私密专属IP代理", "1900+子网覆盖", "HTTP/SOCKS5双协议", "无限流量不限速"],
+    "affiliateUrl": "https://spaceproxy.net/",
+    "detailUrl": "/proxy/spaceproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",

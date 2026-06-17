@@ -1,0 +1,164 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Spaceproxy 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/spaceproxy.webp`} alt="Spaceproxy" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Spaceproxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">私密专属 IPv4/IPv6 代理，1900+ 子网，无限流量</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">稳定性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.0</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Spaceproxy 是一家提供私密专属代理服务的综合性平台，产品线涵盖数据中心代理、住宅代理、ISP 代理和移动代理。主打私有 IPv4 和 IPv6 代理，覆盖 1900+ 不同子网和网络段。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          数据中心代理以高速稳定著称，独享 IP 资源确保单用户独占；住宅代理使用真实 ISP 分配的 IP 降低检测风险；移动代理支持 5G/4G/3G 网络接入。所有代理支持 HTTP 和 SOCKS5 协议，无限流量不限速。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          全自动化系统支付即激活，支持从 1 个 IP 起租（最短几天到最长一年）。提供 48 小时退款/换 IP 保障，24/7 在线技术支持。支持加密货币支付。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">私密专属 IP 代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">IPv4 和 IPv6 私有代理均为单用户独享，不与他人共享带宽。IPv4 支持所有主流网站，IPv6 价格更优但兼容性有限。支持按城市手动挑选 IP 和子网。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1900+ 子网覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">1900+ 个不同的网络和子网段，覆盖俄罗斯、美国、欧洲和独联体国家。支持城市级 IP 挑选，可从可用列表中自由选择任意 IP 地址。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">四种代理类型</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">数据中心代理——高速稳定适合抓取和 SEO；住宅代理——真实 ISP IP 适合匿名浏览；ISP 代理——数据中心速度 + 住宅可信度；移动代理——5G/4G/3G 适合移动端验证。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无限流量 + 高速连接</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有代理产品均提供无限流量、不限速。数据中心代理低延迟高性能，适合需要大量数据传输的网页抓取和数据挖掘任务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">48 小时退款保障</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">购买后 48 小时内可申请退款或免费更换 IP（不超过 5 次，流量不超过 500MB）。全自动化系统，支付后即时激活。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">API + 个人面板</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">多功能 API 接口和便捷的个人控制面板，支持 IP 白名单和 User:Pass 双认证方式。24/7 在线技术支持。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. SEO 推广与 SMM</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">私密专属 IPv4 代理适合 Facebook、Instagram、VK 等社交平台的广告投放和账号管理。独享 IP 保证账号稳定性和低封禁率。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 网页抓取与数据挖掘</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">数据中心代理的高速低延迟特性适合大规模数据采集任务。无限流量不影响采集任务规模和时长。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 分类信息平台发帖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理的 ISP 真实 IP 适合在 OLX、Yula、Avito 等分类信息平台批量发帖和广告管理，降低被标记风险。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 移动端广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">5G/4G/3G 移动代理可模拟真实移动用户行为，用于移动广告投放验证和市场调研。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>私密独享 IP，不与他人共享</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>IPv4 + IPv6 双栈支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>1900+ 子网覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限流量不限速</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>48 小时退款保障</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>城市级 IP 手动挑选</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>主要覆盖俄罗斯/欧洲，亚洲 IP 有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IPv6 兼容站点有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅移动代理价格偏高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>文档和教程较少</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Spaceproxy 以私密专属 IP + 无限流量的组合在中东欧代理市场中占有一席之地。1900+ 子网覆盖和城市级 IP 挑选功能使其在精细化的 SEO 和社媒推广场景中表现突出。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          独享 IP 不与他人共享的特性保证了带宽稳定性和 IP 纯净度，48 小时退款政策也降低了试错门槛。但亚洲 IP 资源有限和 IPv6 兼容性问题限制了其全球化应用。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，Spaceproxy 获得 7.0 分，适合以俄罗斯/独联体市场为目标、需要私密独享 IP 的 SEO 和社媒运营团队。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://spaceproxy.net/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Spaceproxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
