@@ -1,0 +1,170 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="HighProxies VPN 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/highproxies.webp`} alt="HighProxies" class="h-14 w-auto self-center" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">HighProxies 深度评测</h1>
+          <p class="text-slate-400 text-lg">加拿大/美国商业 VPN + 代理解决方案，$4/月无限流量</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          HighProxies 是一家专注于北美市场的 VPN 和代理基础设施服务商，为商业用户、营销人员、开发者和专业人士提供稳定可靠的连接解决方案。产品线涵盖私人代理、SEO 代理、SOCKS5 代理、商业 VPN 和专属 IP 方案。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          商业 VPN 服务 $4/月起，采用 256 位 AES 加密，支持 L2TP/IPSec、IKEv2、OpenVPN 和 WireGuard 协议。无限数据传输，无设置费用，提供多个子网选择。所有方案均经过精心优化，适用于 SEO 监控、社媒管理、自动化运营和企业远程办公等场景。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          HighProxies 以基础设施优先的理念运营，注重正常运行时间、稳定的路由和一致的性能。每月 IP 刷新确保长期项目的高可用性和数据完整性。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">商业 VPN 服务</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">$4/月的商业 VPN 提供 256 位 AES 加密、无限流量和多个子网选择。支持 OpenVPN、WireGuard、IKEv2 和 L2TP/IPSec 四种协议，覆盖所有操作系统和设备。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">私人 + SEO + SOCKS5 代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">除了 VPN 服务，HighProxies 还提供私人 HTTP/HTTPS 代理、SEO 代理和 SOCKS5 代理。每种代理针对特定使用场景优化，用户可以根据实际工作流程选择。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多城市多子网选择</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">代理和 VPN 覆盖加拿大和美国多个城市和子网，用户可以根据目标市场灵活选择地理位置。每月 IP 刷新保障了 IP 的可用性和纯净度。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无限流量 + 透明定价</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有方案均提供无限数据传输，无数据上限。定价完全透明，无设置费或隐藏费用。用户只需为所选方案支付固定月费。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">100% 满意保证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供 100% 满意保证和退款政策，用户可以放心购买。24/7 技术支持团队随时响应用户的问题和需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">跨平台兼容</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 Windows、macOS、Linux、Android、iOS 和路由器等主流平台。多种协议选择确保了与各类操作系统和应用程序的兼容性。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. SEO 监控与排名追踪</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">SEO 代理专为搜索引擎工具优化，适合 SEO 机构进行关键词排名监控和竞争分析。稳定可靠的 IP 确保数据采集的连续性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">私人代理和多城市选择使社媒管理团队可以在不同地点管理社媒账号。SOCKS5 代理兼容各类社媒管理工具。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 企业远程办公</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">商业 VPN 为远程团队提供加密的企业网络连接。WireGuard 和 OpenVPN 协议确保快速稳定的远程办公体验。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 市场调研</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">加拿大和美国的本地 IP 适合北美市场的调研和数据分析。多子网选择使用户可以从不同网络环境观察目标市场。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 自动化运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">稳定的代理基础设施和无限制流量适合自动化工具的持续运营。每月 IP 刷新确保长期项目中的 IP 可用性。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>VPN + 代理多产品线覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$4/月商业 VPN，性价比高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限流量，透明定价</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>多城市多子网选择</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>每月 IP 刷新</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>24/7 技术支持</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅限加拿大/美国地区</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度较低</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>全球覆盖不足</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中文</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无住宅代理产品</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>缺少独立第三方审计</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          HighProxies 以其 VPN + 代理多产品线在北美市场提供了实用的商业级连接解决方案。$4/月的商业 VPN 在功能完整性和性价比之间取得了良好的平衡。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          无限流量、透明定价和每月 IP 刷新等特性体现了对用户实际需求的关注。虽然全球覆盖有限且品牌知名度不高，但对于主要关注北美市场的商业用户来说，HighProxies 是一个值得考虑的实用选择。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，HighProxies 获得 8.0 分，特别适合需要在加拿大和美国进行 SEO 监控、社媒管理和远程办公的商业用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://highproxies.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 HighProxies 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

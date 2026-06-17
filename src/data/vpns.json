@@ -133,5 +133,20 @@
     "affiliateUrl": "https://okayvpn.com/",
     "couponCode": "",
     "detailUrl": "/vpn/okayvpn"
+  },
+  {
+    "id": "highproxies",
+    "name": "HighProxies",
+    "type": "vpn",
+    "rating": 8.0,
+    "price": "$4/月",
+    "jurisdiction": "加拿大/美国",
+    "protocols": ["OpenVPN", "WireGuard", "IKEv2", "L2TP/IPSec"],
+    "isFeatured": false,
+    "badge": "代理+VPN",
+    "features": ["商业VPN", "无限流量", "专属代理", "多子网"],
+    "affiliateUrl": "https://highproxies.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/highproxies"
   }
 ]
