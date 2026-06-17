@@ -2029,6 +2029,19 @@
     "detailUrl": "/proxy/toolip"
   },
   {
+    "id": "airproxy",
+    "name": "Airproxy",
+    "type": "mobile-proxy",
+    "rating": 7.0,
+    "poolSize": "2000+ SIMs",
+    "proxyTypes": ["4G移动代理"],
+    "isFeatured": false,
+    "badge": "意大利原生",
+    "features": ["专属SIM卡不共享", "无限带宽", "API轮换IP", "0%欺诈评分", "即时交付"],
+    "affiliateUrl": "https://airproxy.io/en/",
+    "detailUrl": "/proxy/airproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
