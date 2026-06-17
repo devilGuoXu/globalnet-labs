@@ -2172,6 +2172,19 @@
     "detailUrl": "/proxy/antsdata"
   },
   {
+    "id": "cloudvpschinhhang",
+    "name": "CloudVPSChinhHang",
+    "type": "datacenter-proxy",
+    "rating": 7.0,
+    "poolSize": "多国数据中心",
+    "proxyTypes": ["私密数据中心代理", "VPS云服务器"],
+    "isFeatured": false,
+    "badge": "越南服务商",
+    "features": ["私密独享IP代理", "HTTP/SOCKS5协议", "无限流量不限速", "多国数据中心覆盖"],
+    "affiliateUrl": "https://cloudvpschinhhang.com/",
+    "detailUrl": "/proxy/cloudvpschinhhang"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
