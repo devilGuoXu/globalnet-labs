@@ -2016,6 +2016,19 @@
     "detailUrl": "/proxy/changemyip"
   },
   {
+    "id": "toolip",
+    "name": "Toolip",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "7000万+ IPs",
+    "proxyTypes": ["住宅代理", "数据中心代理", "ISP代理"],
+    "isFeatured": false,
+    "badge": "全品类",
+    "features": ["7000万+IP", "195+国家", "$1.3/GB起", "99.9%正常运行"],
+    "affiliateUrl": "https://toolip.io/",
+    "detailUrl": "/proxy/toolip"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",

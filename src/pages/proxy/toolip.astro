@@ -1,0 +1,172 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Toolip 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/toolip.webp`} alt="Toolip" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Toolip 深度评测</h1>
+          <p class="text-slate-400 text-lg">7000 万+ 代理 IP，195+ 国家覆盖，$1.3/GB 起</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">5.5</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Toolip 是一家新兴代理服务商，拥有超过 7000 万代理 IP 资源，覆盖全球 195+ 个国家与地区。产品线涵盖共享数据中心代理、专属数据中心代理、旋转住宅代理、全球 ISP 代理和搜索引擎 ISP 代理五种类型。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          住宅代理起价 $1.3/GB，共享数据中心代理低至 $0.18/IP，定价在同类产品中具有竞争力。平台提供免费代理试用，无需信用卡即可体验服务。99.9% 的正常运行时间保证了服务的持续可用性。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          Toolip 的全球网络覆盖欧洲、北美、拉美、亚洲、非洲和大洋洲，IP 最集中的地区包括美国（1600 万+）、欧洲（1600 万+）和亚洲（2400 万+）。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">7000 万+ 全球代理网络</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Toolip 拥有超过 7000 万代理 IP，覆盖 195+ 个国家。亚洲地区拥有最丰富的 IP 资源（2400 万+），北美和欧洲各有 1600 万+，为全球数据采集提供了充足的 IP 池。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">五种产品类型</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供共享数据中心、专属数据中心、旋转住宅、全球 ISP 和搜索引擎 ISP 五种代理类型。每种代理针对特定使用场景设计，用户可以根据需求灵活选择。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">$1.3/GB 住宅代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">旋转住宅代理起价 $1.3/GB，提供高匿名性和低检测率。适合需要大量住宅 IP 的市场调研、竞争分析和数据采集任务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">免费代理试用</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Toolip 提供免费代理试用，无需信用卡即可开始使用。用户可以在购买前充分测试代理质量、速度和稳定性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">99.9% 正常运行时间</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">承诺 99.9% 的正常运行时间，确保代理服务的持续可用性。适合需要长时间稳定运行的自动化任务和企业级应用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">搜索引擎 ISP 代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">专为搜索引擎数据采集优化的 ISP 代理（美国），针对 Google、Bing 等搜索引擎进行了优化，可有效避免搜索结果的拦截和限制。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 全球数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">7000 万+ IP 和 195+ 国家的覆盖范围使 Toolip 成为全球数据采集的得力工具。住宅代理的高匿名性确保了采集任务的成功率。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. SEO 与 SERP 监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">搜索引擎 ISP 代理专为 SEO 监控优化，可有效避免 Google 等搜索引擎的检测和限制。美国 IP 适合监测美国市场的搜索排名。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 社媒多账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">旋转住宅代理的高匿名性适合社媒账号的批量管理。专属数据中心代理则为需要稳定 IP 的账号提供可靠环境。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 电商价格监测</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全球覆盖和多种代理类型使电商价格监测可以在不同市场和平台同时进行。共享数据中心代理的低成本适合大规模部署。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全球 IP 覆盖使广告团队可以在全球主要市场验证广告投放效果。195+ 国家的覆盖确保了广告验证的地理多样性。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>7000 万+ IP，195+ 国家覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>五种代理类型灵活选择</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$1.3/GB 住宅代理，性价比高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费代理试用，无信用卡</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.9% 正常运行时间</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>搜索引擎专用 ISP 代理</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度较低，市场口碑有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 纯净度有待验证</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中文</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>SOCKS5 支持信息不明确</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无移动代理产品</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>企业级功能有限</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Toolip 以 7000 万+ 代理 IP 和 195+ 国家覆盖在代理市场中占据了一席之地。五种代理类型的选择为用户提供了灵活的产品配置，免费试用降低了用户的尝试门槛。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          $1.3/GB 的住宅代理定价和搜索引擎 ISP 代理是其差异化亮点。但作为新兴平台，品牌知名度和 IP 纯净度仍需更多市场验证。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，Toolip 获得 7.0 分，特别适合需要全球 IP 覆盖、注重免费试用的数据采集用户和 SEO 团队。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://toolip.io/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Toolip 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
