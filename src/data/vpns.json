@@ -18,16 +18,16 @@
     "id": "nordvpn",
     "name": "NordVPN",
     "type": "vpn",
-    "rating": 9.2,
+    "rating": 9.0,
     "price": "$3.99/月",
     "jurisdiction": "巴拿马（无强制数据保留）",
     "protocols": ["NordLynx", "OpenVPN", "IKEv2"],
     "isFeatured": false,
-    "badge": "",
+    "badge": "NordLynx 协议",
     "features": ["双跳加密", "混淆服务器", "威胁防护"],
-    "affiliateUrl": "https://nordvpn.com/",
+    "affiliateUrl": "https://nordvpn.com/zh/",
     "couponCode": "",
-    "detailUrl": "https://nordvpn.com/"
+    "detailUrl": "/vpn/nordvpn"
   },
   {
     "id": "expressvpn",

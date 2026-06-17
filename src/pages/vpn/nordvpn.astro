@@ -1,0 +1,165 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="NordVPN 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/nordvpn.webp`} alt="NordVPN" class="h-14 w-auto self-center" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">NordVPN 深度评测</h1>
+          <p class="text-slate-400 text-lg">自研 NordLynx 协议，巴拿马隐私管辖</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.5</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          NordVPN 是全球最大的 VPN 服务商之一，隶属于 Nord Security 集团，总部位于巴拿马（无强制数据保留辖区）。在全球 110+ 个国家运营 6000+ 台服务器，是覆盖面最广的 VPN 之一。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          自研 NordLynx 协议基于 WireGuard 内核，在速度和安全性之间实现了出色的平衡。支持双跳加密、混淆服务器、威胁防护（Threat Protection）等高级功能。通过第三方独立审计验证零日志政策。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          NordVPN 提供 24/7 在线客服，支持 Windows、macOS、iOS、Android、Linux 和路由器等平台。支持 10 台设备同时连接，$3.99/月的定价在同类产品中具有较强竞争力。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">NordLynx 自研协议</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">基于 WireGuard 内核开发的 NordLynx 协议，通过双 NAT 机制解决 WireGuard 的静态 IP 分配问题。在保持 WireGuard 高速连接的同时，增强了隐私保护。速度测试中常年位列行业前三。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">6000+ 服务器 110+ 国家</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全球最大 VPN 网络之一，6000+ 台服务器分布在 110+ 个国家。所有服务器均使用 RAM-only 模式，重启后不留存数据。部分服务器支持 P2P 专用和混淆服务器。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">双跳加密</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">流量经过两个 VPN 服务器中转，实现双重加密。即使其中一个节点被攻破，用户的真实 IP 和目标仍受另一节点的保护。支持自定义双跳服务器组合。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">混淆服务器</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">专为网络受限地区设计的混淆技术，将 VPN 流量伪装成普通 HTTPS 流量，绕过深度包检测（DPI）限制。在网络审查严格的地区保持稳定的 VPN 连接。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Threat Protection</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">集成式安全防护套件，在 VPN 层面拦截广告、追踪器、恶意网站和钓鱼攻击。支持恶意软件扫描功能，在下载文件前自动检测威胁。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Meshnet 组网</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">NordVPN 独有的 Meshnet 功能，允许用户通过加密隧道直接连接多台设备，实现跨地域局域网。适合远程办公、文件共享和联机游戏场景。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 流媒体解锁</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">NordVPN 在 Netflix、HBO Max、Disney+ 等主流平台的解锁能力稳定可靠。6000+ 服务器的庞大规模确保总有可用节点。NordLynx 协议的高速连接支持 4K 流媒体播放。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 网络受限地区访问</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">混淆服务器技术专为穿越网络防火墙设计，将 VPN 流量伪装为 HTTPS 流量。配合 NordLynx 协议，在审查严格的网络环境下保持稳定连接。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 高安全数据传输</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">双跳加密为敏感数据传输提供双重保护。巴拿马管辖地不受 14 Eyes 联盟约束，零日志政策保障数据隐私。Meshnet 可作为安全的跨设备加密通道。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 日常隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Threat Protection 在后台持续拦截广告和追踪器。10 台设备同时连接可覆盖家庭和办公设备。Split Tunneling 允许部分应用绕过 VPN，灵活配置网络使用策略。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>6000+ 服务器 110+ 国家</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>NordLynx 协议高速稳定</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>双跳加密 + 混淆服务器</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Threat Protection 安全防护</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Meshnet 设备组网</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>巴拿马管辖 零日志审计</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>10 台设备上限（非无限）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>$3.99/月（2年付）续费偏高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分流媒体节点不稳定</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>桌面端应用界面较复杂</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无独立 Tor 集成</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          NordVPN 凭借庞大的服务器网络、自研 NordLynx 协议和丰富的安全功能，在全球 VPN 市场中稳居领先地位。双跳加密、混淆服务器和 Threat Protection 等差异化功能覆盖了从隐私保护到网络突破的广泛需求。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          $3.99/月的 2 年付价格在同类产品中具有竞争力，巴拿马管辖地的隐私优势明显。Meshnet 组网功能为远程办公和跨设备通信提供了独特价值。10 台设备上限和部分流媒体节点的稳定性是值得关注的局限。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，NordVPN 获得 9.0 分，推荐给需要全球节点覆盖、混淆穿越和高级安全功能的综合型用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://nordvpn.com/zh/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 NordVPN 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
