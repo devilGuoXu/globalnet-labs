@@ -1,0 +1,165 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="PrivateVPN 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/privatevpn.webp`} alt="PrivateVPN" class="h-14 w-auto self-center" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">PrivateVPN 深度评测</h1>
+          <p class="text-slate-400 text-lg">10台设备连接，63国服务器，瑞典隐私保护</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          PrivateVPN 是一家总部位于瑞典的 VPN 服务商，以尊重用户隐私和强大解锁能力著称。在 63 个国家部署了高速服务器，支持 10 台设备同时连接，提供无限带宽和 30 天退款保障。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          支持 OpenVPN（TAP-TUN UDP/TCP）、IKEv2 协议，以及 SOCKS5 和 HTTP 代理。所有服务器均支持 P2P 文件共享和流媒体解锁。PrivateVPN 在 Netflix、BBC iPlayer 等平台的解锁能力处于行业领先水平。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          36 个月套餐低至 $2.08/月，支持信用卡和加密货币支付。瑞典受欧盟 GDPR 保护，零日志政策保障用户隐私。提供 24/7 在线客服支持。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">63 国服务器覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">在 63 个国家部署了高速服务器，覆盖欧洲、北美、亚太、拉美和中东主要地区。所有服务器均支持 P2P 文件共享和流媒体解锁，节点分布兼顾速度和覆盖范围。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">10 台设备同时连接</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">一个订阅支持最多 10 台设备同时连接，覆盖家庭和办公场景。支持 Windows、macOS、iOS、Android 和 Linux 等主流平台。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">流媒体解锁能力</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">PrivateVPN 在流媒体解锁方面表现突出，稳定解锁 Netflix、HBO Max、BBC iPlayer、Disney+ 等主流平台。支持多种流媒体协议和智能 DNS 功能。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">零日志政策</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">遵循严格的零日志政策，不记录用户连接日志、浏览活动和 DNS 查询。瑞典受 GDPR 保护，具有完善的隐私法律框架。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">SOCKS5 + HTTP 代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">内置 SOCKS5 和 HTTP 代理支持，适用于需要轻量级代理的场景。所有服务器端口 1080（SOCKS5）和 8080（HTTP）开放代理服务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">30 天退款保障</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有套餐均享受 30 天无理由退款保障，用户可以在购买后充分测试服务质量。支持信用卡和加密货币支付，支付方式灵活多样。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 流媒体解锁</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">PrivateVPN 的流媒体解锁能力是其核心亮点。Netflix 美区、BBC iPlayer 英区等热门平台的解锁表现稳定可靠，配合无限带宽适合 4K 流媒体播放。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. P2P 文件共享</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有服务器均支持 P2P 流量，无限带宽方案适合 BitTorrent 等文件共享场景。内置 SOCKS5 代理提供额外的连接灵活性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 跨境数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">63 国服务器覆盖提供地理多样性，配合 SOCKS5/HTTP 代理协议，适合多地域数据采集任务。零日志政策保障数据隐私。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 家庭多设备保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">10 台设备同时连接可覆盖家庭中的电脑、手机、平板和电视。无限带宽确保多设备同时使用时不互相影响。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>流媒体解锁能力出色</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>10 台设备同时连接</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$2.08/月 极致性价比</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限带宽无限流量</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>SOCKS5 + HTTP 双代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>30 天退款保障</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>瑞典属 14 Eyes 联盟</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>服务器数量相对较少</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持 WireGuard 协议</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度较低</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无中文界面支持</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          PrivateVPN 以其出色的流媒体解锁能力、10 台设备同时连接和 $2.08/月的极致定价在 VPN 市场中占据独特定位。63 国服务器覆盖虽不及大型 VPN 广泛，但所有节点均支持 P2P 和流媒体解锁。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          不支持 WireGuard 协议是其主要技术短板，但 OpenVPN 和 SOCKS5/HTTP 代理的全面支持弥补了部分不足。对于注重性价比和流媒体体验的用户而言，PrivateVPN 是一个非常值得考虑的选择。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，PrivateVPN 获得 9.0 分，推荐给对流媒体解锁和性价比有高要求的用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://privatevpn.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 PrivateVPN 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

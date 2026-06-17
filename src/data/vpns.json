@@ -178,5 +178,20 @@
     "affiliateUrl": "https://www.ipvanish.com/",
     "couponCode": "",
     "detailUrl": "/vpn/ipvanish"
+  },
+  {
+    "id": "privatevpn",
+    "name": "PrivateVPN",
+    "type": "vpn",
+    "rating": 9.0,
+    "price": "$2.08/月",
+    "jurisdiction": "瑞典",
+    "protocols": ["OpenVPN", "IKEv2", "SOCKS5"],
+    "isFeatured": false,
+    "badge": "10台设备",
+    "features": ["63国服务器覆盖", "10台同时连接", "无限带宽", "30天退款保障"],
+    "affiliateUrl": "https://privatevpn.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/privatevpn"
   }
 ]
