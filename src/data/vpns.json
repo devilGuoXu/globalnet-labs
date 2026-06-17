@@ -45,19 +45,19 @@
     "detailUrl": "https://www.expressvpn.com/"
   },
   {
-    "id": "protonvpn",
-    "name": "ProtonVPN",
+    "id": "proton",
+    "name": "Proton VPN",
     "type": "vpn",
-    "rating": 8.8,
+    "rating": 9.0,
     "price": "$4.99/月",
     "jurisdiction": "瑞士（严格隐私法）",
     "protocols": ["WireGuard", "OpenVPN", "IKEv2"],
     "isFeatured": false,
     "badge": "",
     "features": ["免费套餐可用", "防攻击架构", "Tor 集成"],
-    "affiliateUrl": "https://protonvpn.com/",
+    "affiliateUrl": "https://proton.me/",
     "couponCode": "",
-    "detailUrl": "https://protonvpn.com/"
+    "detailUrl": "https://proton.me/"
   },
   {
     "id": "surfshark",
