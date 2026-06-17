@@ -1925,6 +1925,19 @@
     "detailUrl": "/proxy/leastslow"
   },
   {
+    "id": "aaaproxy",
+    "name": "AAAProxy",
+    "type": "mobile-proxy",
+    "rating": 7.0,
+    "poolSize": "美国5G专属设备",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "美国5G",
+    "features": ["美国原生5G", "专属SIM卡", "无限带宽", "HTTP/SOCKS5"],
+    "affiliateUrl": "https://aaaproxy.io/",
+    "detailUrl": "/proxy/aaaproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
