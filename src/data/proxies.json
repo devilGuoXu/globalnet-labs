@@ -1873,6 +1873,19 @@
     "detailUrl": "/proxy/buymobileproxy"
   },
   {
+    "id": "bhproxies",
+    "name": "BHProxies",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "全球混合",
+    "proxyTypes": ["住宅轮换代理"],
+    "isFeatured": false,
+    "badge": "Backconnect",
+    "features": ["住宅轮换代理", "HTTPS/SOCKS4/5", "无限带宽线程", "死代理自动替换"],
+    "affiliateUrl": "http://bhproxies.com/",
+    "detailUrl": "/proxy/bhproxies"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
