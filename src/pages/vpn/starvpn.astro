@@ -1,0 +1,165 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="StarVPN 住宅 VPN 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/starvpn.webp`} alt="StarVPN" class="h-14 w-auto self-center" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">StarVPN 深度评测</h1>
+          <p class="text-slate-400 text-lg">300 万+ 真实住宅 IP，静态/轮换灵活选择</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          StarVPN 是加拿大运营的住宅 VPN 服务商，拥有超过 300 万真实住宅 IP 和 1000+ 接入点服务器，是全球最大的住宅 VPN 代理运营商之一。提供数据中心 VPN、Business Residential 和 Premium Residential 三个套餐层级。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          支持 WireGuard、OpenVPN 和 Shadowsocks 协议，以及 AmneziaWG 混淆技术。提供静态住宅 IP、轮换住宅 IP 和粘性 IP 三种 IP 模式，适用不同场景需求。Smart Streamer 功能专门用于流媒体解锁。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          数据中心套餐 $8/月，Business Residential $20/月，Premium Residential $45/月。提供免费套餐（2GB/天数据中心 IP）。所有套餐均包含 SOCKS5 和 HTTP 代理支持。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">300 万+ 真实住宅 IP</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">StarVPN 的核心资产是超过 300 万真实住宅 IP 资源，来源于美国 Fortune 500 宽带 ISP。静态住宅 IP 部署在数据中心，轮换住宅 IP 来自真实家庭住宅，提供最高级别的匿名性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态 / 轮换 / 粘性 IP 三模式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">三种 IP 模式满足不同场景：静态住宅 IP 适合需要固定身份的长连接任务；轮换住宅 IP 每次请求更换 IP 适合数据采集；粘性 IP 在设定时间内保持同一 IP 适合社媒管理。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">AmneziaWG 混淆技术</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">采用 AmneziaWG 混淆技术，将 WireGuard 流量伪装成普通 HTTPS 流量，有效绕过 DPI 检测和网络防火墙。在审查严格的中国等网络环境下保持连接稳定性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Smart Streamer</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">内置 Smart Streamer 智能解锁功能，专门用于绕过 Netflix、HBO Max、Disney+ 等流媒体平台的地域限制。数据中心套餐即包含此功能。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">API 管理仪表盘</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供完整的 API 集成管理界面，支持 IP 更新、区域切换、IP 类型（静态/轮换）选择。适合需要自动化管理 IP 配置的开发者和企业用户。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">SOCKS5 + HTTP 双代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有套餐均支持 SOCKS5 和 HTTP 代理协议，适用于需要轻量级代理连接的应用场景。配合住宅 IP 使用，在数据采集和社媒运营中具有显著优势。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 社媒账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">真实住宅 IP 在社媒平台的检测率极低。粘性 IP 模式可模拟真实用户的固定 IP 行为，配合 Business/Premium 套餐的静态住宅 IP，适合 Instagram、Facebook 等平台的账号运营。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">轮换住宅 IP 模式每次请求更换 IP，配合 SOCKS5/HTTP 代理，适合大规模数据采集任务。Premium 套餐的 60+ 国家覆盖提供了地理多样性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">真实住宅 IP 的纯净度优势在广告验证场景中发挥重要作用。ISP 级 IP 可模拟真实用户浏览行为，提供准确的广告投放验证数据。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 流媒体解锁</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Smart Streamer 功能和住宅 IP 的结合为流媒体解锁提供了双重保障。数据中心套餐即可满足基本的流媒体解锁需求。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>300 万+ 真实住宅 IP</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>静态/轮换/粘性三种 IP 模式</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>AmneziaWG 混淆 + Smart Streamer</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>API 管理仪表盘</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>SOCKS5 + HTTP 双代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费套餐 2GB/天</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅套餐 $20-45/月，价格较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>服务器数量较少（50+）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无独立审计零日志</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅套餐不可退款</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>加拿大属 5 Eyes 联盟</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          StarVPN 以 300 万+ 真实住宅 IP 和灵活的 IP 模式选择（静态/轮换/粘性）在住宅 VPN 市场中建立了差异化定位。AmneziaWG 混淆技术和 Smart Streamer 功能为其增添了实用价值。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          $20-45/月的住宅套餐价格偏高，但真实住宅 IP 的纯净度优势对于社媒运营和数据采集用户来说物有所值。缺少独立审计和加拿大（5 Eyes）管辖地是隐私方面的顾虑点。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，StarVPN 获得 8.0 分，推荐给需要真实住宅 IP 进行社媒管理和广告验证的专业用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.starvpn.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 StarVPN 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

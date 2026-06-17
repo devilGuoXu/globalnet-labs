@@ -1,0 +1,165 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="IP2Proxy 代理检测服务深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/ip2proxy.webp`} alt="IP2Proxy" class="h-14 w-auto self-center" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">IP2Proxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">IP 代理 / VPN / Tor 检测数据库与 API 服务</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">数据准确性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">API 响应</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          IP2Proxy 由 IP2Location 团队开发，是一项专业的 IP 代理检测服务，提供数据库、REST API 和批量处理三种使用方式。能够准确识别 IP 地址是否被用作 VPN、开放代理、Web 代理、Tor 出口节点、数据中心、住宅代理等 10 余种代理类型。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          IP2Proxy 数据库每日更新，覆盖全球所有 IPv4 和 IPv6 地址段。数据精确到代理类型、国家、地区、城市、ISP、域名、使用类型、ASN 等信息级别。适用于需要检测和过滤代理流量的各类应用场景。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          提供标准许可（$799/服务器/年起）和站点许可（$15,980/年起）两种订阅模式。同时提供免费的 Web Service 配额和在线查询演示工具。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">10+ 代理类型识别</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持检测 VPN 匿名器、开放代理、Web 代理、Tor 出口节点、数据中心范围、搜索引擎爬虫、住宅代理、消费者隐私网络和企业专用网络等 10 余种代理类型。每种类型均有详细分类标识。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">每日数据更新</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">数据库每日 UTC 0:00 更新，确保代理检测数据的时效性和准确性。新的代理 IP 被快速收录，已失效的代理及时标记。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">三种使用方式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持本地数据库（MySQL、MSSQL 等）、REST API 和在线批量上传三种方式。本地数据库适合高频查询场景，API 适合轻量集成，批量服务适合一次性大规模检测。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">全球 IP 全覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">覆盖所有已分配的 IPv4 和 IPv6 地址段。查询结果包含代理类型、国家、地区、城市、ISP、域名、使用类型、ASN 和最后发现时间等丰富信息。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">IP2Location.io Web Service</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">通过 REST API 进行 IP 查询，支持 JSON 格式返回。适合网站、应用和服务的实时代理检测需求。免费配额可供开发和测试使用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多平台兼容</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">数据库支持所有主流服务器平台和编程语言。提供自动下载脚本，方便集成到 CI/CD 流程。Zapier 集成可实现自动化工作流。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 网站反欺诈</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">实时检测注册用户和访问流量的 IP 是否来自代理/VPN，有效防范虚假注册、刷单和欺诈行为。每日更新的数据库确保检测的时效性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 内容访问控制</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">根据代理类型制定访问策略，例如限制 VPN 和开放代理访问某些内容，同时允许普通用户正常访问。精确到代理类型的分类支持精细化管控。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">在广告投放验证中过滤掉代理和 VPN 流量，确保广告效果的统计准确性。检测住宅代理和消费者隐私网络等难以识别的代理类型。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 安全监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">识别 Tor 出口节点和开放代理等潜在威胁源，加强网络安全监控。批量检测功能适合大规模 IP 安全审计。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>10+ 代理类型精准识别</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>数据库每日更新</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>全球 IPv4/IPv6 全覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>数据库/API/批量三种方式</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>IP2Location 品牌信誉保障</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>自动下载脚本 CI/CD 集成</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>标准许可 $799/年起，价格较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>非 VPN 服务，为检测工具</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>站点许可 $15,980 适合企业</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>免费 API 配额有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中文界面</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          IP2Proxy 是市场上最全面的 IP 代理检测解决方案之一，由 IP2Location 团队持续维护。10+ 代理类型的精准识别、每日数据更新和三种使用方式的灵活选择使其在反欺诈、内容访问控制和广告验证等领域具有广泛的应用价值。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          $799/年的起步价格对个人开发者来说偏高，但对于需要精确代理检测的企业来说是一项值得的投资。免费 API 配额可用于初步评估和测试。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，IP2Proxy 获得 8.0 分，推荐给需要 IP 代理检测能力的网站运营者、安全团队和广告技术公司。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.ip2proxy.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 IP2Proxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

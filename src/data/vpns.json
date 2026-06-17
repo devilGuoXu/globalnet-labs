@@ -162,7 +162,7 @@
     "features": ["代理/VPN/Tor检测", "数据库每日更新", "REST API集成", "10+代理类型识别"],
     "affiliateUrl": "https://www.ip2proxy.com/",
     "couponCode": "",
-    "detailUrl": "https://www.ip2proxy.com/"
+    "detailUrl": "/vpn/ip2proxy"
   },
   {
     "id": "ipvanish",
@@ -193,5 +193,50 @@
     "affiliateUrl": "https://privatevpn.com/",
     "couponCode": "",
     "detailUrl": "/vpn/privatevpn"
+  },
+  {
+    "id": "nym",
+    "name": "NymVPN",
+    "type": "vpn",
+    "rating": 7.5,
+    "price": "",
+    "jurisdiction": "瑞士",
+    "protocols": ["AmneziaWG", "Mixnet"],
+    "isFeatured": false,
+    "badge": "去中心化 Mixnet",
+    "features": ["AmneziaWG 快速模式", "Mixnet 匿名模式", "去中心化节点", "zk-nym 匿名支付"],
+    "affiliateUrl": "https://nym.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/nym"
+  },
+  {
+    "id": "purevpn",
+    "name": "PureVPN",
+    "type": "vpn",
+    "rating": 7.5,
+    "price": "$2.49/月",
+    "jurisdiction": "香港",
+    "protocols": ["WireGuard", "OpenVPN", "IKEv2"],
+    "isFeatured": false,
+    "badge": "6000+服务器",
+    "features": ["6000+服务器65+国家", "混淆服务器", "量子抗性加密", "无限带宽"],
+    "affiliateUrl": "https://www.purevpn.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/purevpn"
+  },
+  {
+    "id": "starvpn",
+    "name": "StarVPN",
+    "type": "vpn",
+    "rating": 8.0,
+    "price": "$8/月",
+    "jurisdiction": "加拿大",
+    "protocols": ["WireGuard", "OpenVPN", "Shadowsocks"],
+    "isFeatured": false,
+    "badge": "住宅VPN",
+    "features": ["300万+住宅IP", "静态/轮换住宅IP", "Smart Streamer", "SOCKS5+HTTP"],
+    "affiliateUrl": "https://www.starvpn.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/starvpn"
   }
 ]

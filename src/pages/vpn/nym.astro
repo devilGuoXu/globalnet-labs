@@ -1,0 +1,165 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="NymVPN 去中心化 Mixnet VPN 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/nym.webp`} alt="NymVPN" class="h-14 w-auto self-center" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">NymVPN 深度评测</h1>
+          <p class="text-slate-400 text-lg">去中心化 Noise Generating Mixnet，对抗 AI 监控</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.0</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          NymVPN 由瑞士 Nym Technologies 开发，是首个基于 Noise Generating Mixnet 的去中心化 VPN。与传统 VPN 不同，NymVPN 通过去中心化节点网络和噪声生成技术，提供目前市场上最高级别的元数据保护。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          提供两种模式：Fast 模式（基于 AmneziaWG，抗审查 WireGuard 变体）适合日常浏览和流媒体；Anonymous 模式（基于 Mixnet）适合对隐私要求极高的通信场景。600+ 网关覆盖 70+ 国家，由去中心化的社区运营节点组成。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          采用 zk-nym 零知识凭证实现不可关联支付，支持比特币、Zcash、Monero 等加密货币。所有代码经过 JP Aumasson、Oak Security、Cryspen、Cure53 等多家机构审计。基于十年学术匿名通信研究成果。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Noise Generating Mixnet</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Nym 的核心技术——噪声生成混合网络。数据包经过多层加密、填充统一大小、混入虚假流量，在多个节点间随机延迟和混洗。这种设计使得即使面对 AI 流量分析，也无法关联发送者和接收者。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Fast 模式 / Anonymous 模式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Fast 模式使用 AmneziaWG（抗审查版 WireGuard），2 跳路由，适合日常浏览、流媒体和文件传输。Anonymous 模式使用 5 跳 Mixnet，添加覆盖流量和时序混淆，适合需要最高匿名性的加密通信和交易。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">去中心化节点网络</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">600+ 网关节点分布在 70+ 国家，由去中心化的社区运营者维护。Nym Technologies 不控制节点基础设施，这意味着即使面对法律压力，也无法监控或拦截用户流量。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">zk-nym 匿名支付</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">使用零知识证明（zk-nym）凭证系统，用户的支付行为与 VPN 使用完全脱钩。支付后获得匿名凭证，凭证验证时无法追溯到具体用户。支持 Monero、Zcash 等隐私币支付。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多层洋葱加密</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">数据包经过多层加密，每个中继节点只能解密一层。结合固定大小的数据包和覆盖流量，防止基于数据包大小和时序的流量分析。Nym 自身也无法查看用户流量的来源和目的地。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多家安全审计</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Nym 基础设施经过了 JP Aumasson（2021）、Oak Security（2022）、Cryspen（2023-2025）和 Cure53（2024-2025）的多轮独立安全审计。多年跨实验室的审计在去中心化 VPN 领域非常罕见。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 高敏感通信</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Anonymous 模式的 Mixnet 提供了目前消费级产品中最强的元数据保护。适合记者、活动人士和需要对抗国家级监控的用户。覆盖流量和时序混淆可有效防御 AI 流量分析。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 加密货币交易</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">zk-nym 匿名支付支持 Monero、Zcash 等隐私币，结合 Mixnet 的 IP 保护，为加密货币交易提供端到端的匿名保障。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 反审查浏览</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">AmneziaWG 协议专为抗审查设计，在 Fast 模式下提供良好的日常浏览体验。去中心化架构确保即使部分节点被封禁，网络仍可正常运行。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 隐私优先数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Fast 模式适合对速度有一定要求的数据采集任务。去中心化 IP 池提供天然的 IP 多样性，降低被目标网站封锁的风险。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Mixnet AI 级隐私保护</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>去中心化，无单点控制</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>zk-nym 匿名不可关联支付</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>多家机构安全审计</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>瑞士隐私法律保护</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>600+ 网关 70+ 国家</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>Anonymous 模式延迟较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌较新，知名度有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中文界面</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>价格信息不够透明</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分平台支持有限</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          NymVPN 代表了 VPN 技术的前沿方向——去中心化 Mixnet 架构提供了传统 VPN 无法比拟的元数据保护能力。Fast 和 Anonymous 双模式设计兼顾了日常使用和最高安全场景，zk-nym 匿名支付更是将隐私保护延伸到了支付环节。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          但在产品成熟度方面仍处于早期阶段：Anonymous 模式的延迟较高、品牌知名度有限、部分平台支持尚不完善。对于追求极致隐私的用户来说，NymVPN 是当前市场上最先进的选择之一。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，NymVPN 获得 7.5 分，推荐给对元数据保护有极高要求的隐私安全从业者和研究人员。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://nym.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 NymVPN 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
