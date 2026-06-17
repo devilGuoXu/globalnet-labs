@@ -320,7 +320,9 @@ const filtered = proxiesData.filter(p => whitelist.includes(p.id)).sort((a, b) =
                   ) : proxy.id === 'spaceproxy' ? (
                     <img src={`${base}/images/spaceproxy.webp`} alt="Spaceproxy" class="h-14 w-auto self-center" />
                   ) : proxy.id === 'ispkey' ? (
-                    <img src={`${base}/images/ispkey.webp`} alt="ISPKEY" class="h-14 w-auto self-center" />
+                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+                      <img src={`${base}/images/ispkey.webp`} alt="ISPKEY" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+                    </div>
                   ) : proxy.id === 'tuziip' ? (
                     <img src={`${base}/images/tuziip.webp`} alt="兔子IP" class="h-14 w-auto self-center" />
                   ) : (
