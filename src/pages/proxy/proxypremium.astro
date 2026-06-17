@@ -1,0 +1,170 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="ProxyPremium 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/proxypremium.webp`} alt="ProxyPremium" class="h-14 w-auto self-center" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">ProxyPremium 深度评测</h1>
+          <p class="text-slate-400 text-lg">全球专属移动代理，无限流量真实 SIM 卡</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">5.0</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyPremium 是一家专注于专属移动代理的服务商，在全球热门国家提供高速 4G/LTE 移动代理。所有代理均使用真实 SIM 卡，绑定专属移动设备，确保 IP 的纯净度和独占性。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          平台最大的卖点是无限流量，用户无需担心带宽限制。支持 IP 按需轮换和粘性 IP 两种模式，满足不同使用场景的需求。代理采用专属端口，HTTP/HTTPS 协议兼容。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          ProxyPremium 还支持按国家和运营商精确选择，使用户能够精准定位到目标市场的移动网络环境。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">专属移动设备 + 真实 SIM 卡</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">每个代理都运行在专属的 4G/LTE 移动设备上，插入真实 SIM 卡。无虚拟化、无共享，确保 IP 在目标网站上的高信任度和低封禁率。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无限流量</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有方案均提供无限月流量，无带宽限制。用户可以放心进行大规模数据采集、高频率 API 调用或持续社媒运营，无需担心超额费用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">IP 旋转或粘性 IP</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持按需轮换 IP 和粘性 IP 两种模式。用户在需要时可随时通过 API 更换 IP，也可以保持固定 IP 进行长期稳定连接。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">国家与运营商精确定位</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持按国家和运营商选择代理，覆盖全球热门市场的主要移动运营商。用户可精确选择目标国家的特定运营商网络，满足精细化运营需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">专属端口 + HTTP/HTTPS</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">每个代理分配专属端口，无需与其他用户共享。支持 HTTP 和 HTTPS 协议，满足大多数网页浏览和数据采集场景的需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">首都城市定位</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">代理 IP 位于各国首都城市，确保网络基础设施的稳定性和访问速度。城市级别定位为需要精确地理位置的场景提供了可能。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 社媒多账号运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">专属移动代理的纯净度极高，非常适合社媒平台的批量账号管理。无限流量确保长时间运营不会因流量耗尽而中断。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 电商数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">真实移动 IP 可以有效突破电商平台的风控检测。粘性 IP 模式适合需要登录态的采集任务，旋转 IP 模式适合大规模价格监测。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">按国家和运营商精确选择功能，使广告团队可以在目标市场的真实移动网络环境下验证广告投放效果。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 应用测试</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">真实移动设备和 4G/LTE 网络环境使 ProxyPremium 非常适合移动应用的兼容性和网络环境测试。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 品牌保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">使用真实移动 IP 进行品牌侵权监测和渠道检查，高纯净度的 IP 可以避免被目标网站检测和封禁。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>真实 SIM 卡 + 专属设备，IP 纯净度高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限流量，无带宽限制</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>按需 IP 旋转 / 粘性 IP 双模式</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>国家 + 运营商精确定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>专属端口，HTTP/HTTPS</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>4G/LTE 全速连接</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度低，用户评价有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>产品类型单一，仅移动代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅支持 HTTP/HTTPS，无 SOCKS5</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>价格信息不透明</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中文</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>覆盖国家数量有限</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyPremium 专注于专属移动代理领域，以真实 SIM 卡、专属设备和无限流量为核心卖点。对于需要高质量移动 IP 的用户来说，其产品定位明确，核心功能扎实。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          无限流量是其最大的亮点，在移动代理市场中较为少见。但仅支持 HTTP/HTTPS 协议、产品线单一以及品牌知名度低等因素限制了其受众范围。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，ProxyPremium 获得 7.0 分，适合对移动代理有刚需、需要无限流量的社媒运营团队和电商数据采集团队。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://proxypremium.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 ProxyPremium 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

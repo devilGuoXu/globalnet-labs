@@ -1964,6 +1964,19 @@
     "detailUrl": "/proxy/okayvpn"
   },
   {
+    "id": "proxypremium",
+    "name": "ProxyPremium",
+    "type": "mobile-proxy",
+    "rating": 7.0,
+    "poolSize": "全球覆盖",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "4G/LTE",
+    "features": ["专属SIM卡", "无限流量", "IP旋转/粘性", "HTTP/HTTPS"],
+    "affiliateUrl": "https://proxypremium.com/",
+    "detailUrl": "/proxy/proxypremium"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
