@@ -1,0 +1,231 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="FrogProxy 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/frogproxy.webp`} alt="FrogProxy" class="h-14 w-auto self-center" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">FrogProxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">意大利原生 4G LTE 移动代理，TIM/Vodafone/Wind 运营商</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">5.0</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          FrogProxy 是一家专注于意大利市场的 4G LTE 移动代理服务商。所有代理均使用意大利本地 TIM、Vodafone、Wind 和 Fastweb 运营商的真实 SIM 卡，在专属移动设备上运行，提供纯净度极高的意大利移动 IP。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          平台提供 Frog50（50GB/€45）、Frog200（200GB/€55）和 Frog1000（无限流量/€80）三种方案。支持 HTTP 和 SOCKS5 协议，IP 可手动或自动轮换。所有方案均提供 24 小时免费试用。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          FrogProxy 的冗余系统设计实现了高可用性，在发生故障时可自动重新配置代理而无需用户端更改配置，保障了服务的持续稳定。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">意大利原生 4G LTE 移动代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有代理来自意大利本地运营商的真实 4G LTE 网络，包括 TIM、Vodafone、Wind 和 Fastweb。真实移动 IP 提供了极高的纯净度和低封禁率。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">专属 SIM 卡 + 独立设备</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">每个代理配备专属 SIM 卡和独立移动设备，确保 100% 独占使用。无共享 IP，不会被其他用户的行为影响 IP 声誉。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">HTTP + SOCKS5 双协议</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">同时支持 HTTP 和 SOCKS5 协议，满足不同应用场景的连接需求。SOCKS5 适合非 HTTP 应用，HTTP 适合网页浏览和数据采集。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">灵活 IP 轮换</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持手动和自动 IP 轮换两种模式。自动轮换周期可自定义，用户可根据实际需求灵活调整 IP 更换频率，适应不同平台的风控策略。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">高可用冗余系统</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">采用先进冗余设计，在设备故障时可自动重新配置代理。UPS 不间断电源保障即使停电也能继续使用。用户端无需任何配置更改。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">24 小时免费试用</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有方案均提供 24 小时免费试用，用户可以在购买前充分测试代理质量、速度和稳定性。试用期后的退款政策也保持了灵活性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">即时交付 + 7/7 支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">购买后立即自动交付代理，所有配置更改即时生效。提供每周 7 天的技术支持服务，随时响应用户的问题和需求。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <div class="grid md:grid-cols-3 gap-4">
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50 text-center">
+            <h3 class="text-lg font-bold text-slate-100 mb-2">Frog50</h3>
+            <div class="text-3xl font-bold text-emerald-400 mb-2">€45<span class="text-base text-slate-400">/月</span></div>
+            <div class="text-sm text-slate-400 mb-4">50GB 流量</div>
+            <ul class="text-sm text-slate-400 space-y-2 mb-4">
+              <li>TIM/Vodafone/Wind</li>
+              <li>HTTP + SOCKS5</li>
+              <li>手动/自动 IP 轮换</li>
+              <li>24 小时试用</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-emerald-500/30 text-center ring-1 ring-emerald-500/20">
+            <h3 class="text-lg font-bold text-slate-100 mb-2">Frog200</h3>
+            <div class="text-3xl font-bold text-emerald-400 mb-2">€55<span class="text-base text-slate-400">/月</span></div>
+            <div class="text-sm text-slate-400 mb-4">200GB 流量</div>
+            <ul class="text-sm text-slate-400 space-y-2 mb-4">
+              <li>TIM/Vodafone/Wind</li>
+              <li>HTTP + SOCKS5</li>
+              <li>手动/自动 IP 轮换</li>
+              <li>24 小时试用</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50 text-center">
+            <h3 class="text-lg font-bold text-slate-100 mb-2">Frog1000</h3>
+            <div class="text-3xl font-bold text-emerald-400 mb-2">€80<span class="text-base text-slate-400">/月</span></div>
+            <div class="text-sm text-slate-400 mb-4">无限流量</div>
+            <ul class="text-sm text-slate-400 space-y-2 mb-4">
+              <li>TIM/Vodafone/Wind</li>
+              <li>HTTP + SOCKS5</li>
+              <li>手动/自动 IP 轮换</li>
+              <li>24 小时试用</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 意大利社媒运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">意大利原生移动 IP 适合在意大利市场进行社媒多账号运营。真实移动 IP 的纯净度可以有效降低风控触发概率。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 意大利电商监测</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">精准的意大利本地 IP 适合监测 Amazon Italy、eBay Italy 等电商平台的价格和商品数据。移动 IP 的隐身性确保采集不被封禁。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">在意大利本地移动网络环境下验证广告投放效果，确保广告在意大利市场正确展示。支持 SOCKS5 协议兼容各类广告验证工具。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 流媒体解锁</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">意大利 IP 可用于解锁意大利本地流媒体平台的内容限制，如 RaiPlay、Mediaset 等。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 品牌保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">使用意大利移动 IP 进行意大利市场的品牌侵权监测和渠道合规检查，避免被本地网站检测和封禁。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>意大利原生 4G LTE 真实移动 IP</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>专属 SIM 卡 + 独立设备，100% 独占</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>HTTP + SOCKS5 双协议</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>自动冗余系统，高可用性</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>24 小时免费试用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>PayPal/信用卡/加密货币支付</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅限意大利地区，无全球覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度低，用户评价有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅限移动代理，产品线单一</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>退款政策较严格</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中文</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>低价方案流量较低</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">支付方式</h2>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            <span class="text-sm text-slate-200">信用卡</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+            <span class="text-sm text-slate-200">PayPal</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-950/50 rounded-lg px-4 py-2.5 border border-slate-700/50">
+            <svg class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span class="text-sm text-slate-200">加密货币</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          FrogProxy 是一家精确定位于意大利市场的 4G LTE 移动代理服务商。对于需要意大利本地移动 IP 的用户，FrogProxy 提供了纯净度高、稳定性好的专属代理服务。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          24 小时免费试用和即时交付是其亮点，冗余系统设计也体现了服务的专业性。但仅限意大利的覆盖范围和单一产品线使其受众群体相对有限。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，FrogProxy 获得 7.0 分，特别适合需要意大利移动 IP 的社媒运营团队、电商数据采集团队和广告验证团队。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.frogproxy.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 FrogProxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

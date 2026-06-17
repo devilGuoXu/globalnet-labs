@@ -103,5 +103,35 @@
     "affiliateUrl": "https://entervpn.com/",
     "couponCode": "",
     "detailUrl": "/vpn/entervpn"
+  },
+  {
+    "id": "getfoxyproxy",
+    "name": "FoxyProxy",
+    "type": "vpn",
+    "rating": 7.0,
+    "price": "",
+    "jurisdiction": "美国（合法注册公司）",
+    "protocols": ["OpenVPN", "IPSec", "PPTP", "HTTP", "HTTPS", "SOCKS5"],
+    "isFeatured": false,
+    "badge": "VPN+代理",
+    "features": ["67+国家", "VPN+代理二合一", "6种连接方式", "无限带宽"],
+    "affiliateUrl": "https://getfoxyproxy.org/",
+    "couponCode": "",
+    "detailUrl": "/vpn/getfoxyproxy"
+  },
+  {
+    "id": "okayvpn",
+    "name": "OkayVPN",
+    "type": "vpn",
+    "rating": 7.0,
+    "price": "",
+    "jurisdiction": "",
+    "protocols": ["OpenVPN", "WireGuard", "IKEv2", "L2TP/IPSec", "SSTP", "HTTP", "HTTPS", "SOCKS5"],
+    "isFeatured": false,
+    "badge": "住宅VPN",
+    "features": ["100%住宅IP", "90+国家", "城市级定位", "PPTP/OpenVPN/WireGuard"],
+    "affiliateUrl": "https://okayvpn.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/okayvpn"
   }
 ]

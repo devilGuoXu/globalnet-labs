@@ -1938,32 +1938,6 @@
     "detailUrl": "/proxy/aaaproxy"
   },
   {
-    "id": "getfoxyproxy",
-    "name": "FoxyProxy",
-    "type": "residential-proxy",
-    "rating": 7.0,
-    "poolSize": "67+ 国家",
-    "proxyTypes": ["VPN", "HTTP/HTTPS代理", "SOCKS5"],
-    "isFeatured": false,
-    "badge": "VPN+代理",
-    "features": ["67+国家", "VPN+代理二合一", "6种连接方式", "无限带宽"],
-    "affiliateUrl": "https://getfoxyproxy.org/",
-    "detailUrl": "/proxy/getfoxyproxy"
-  },
-  {
-    "id": "okayvpn",
-    "name": "OkayVPN",
-    "type": "residential-proxy",
-    "rating": 7.0,
-    "poolSize": "90+ 国家",
-    "proxyTypes": ["住宅VPN", "HTTP/HTTPS", "SOCKS5"],
-    "isFeatured": false,
-    "badge": "住宅VPN",
-    "features": ["100%住宅IP", "90+国家", "城市级定位", "PPTP/OpenVPN/WireGuard"],
-    "affiliateUrl": "https://okayvpn.com/",
-    "detailUrl": "/proxy/okayvpn"
-  },
-  {
     "id": "proxypremium",
     "name": "ProxyPremium",
     "type": "mobile-proxy",
@@ -1975,6 +1949,19 @@
     "features": ["专属SIM卡", "无限流量", "IP旋转/粘性", "HTTP/HTTPS"],
     "affiliateUrl": "https://proxypremium.com/",
     "detailUrl": "/proxy/proxypremium"
+  },
+  {
+    "id": "frogproxy",
+    "name": "FrogProxy",
+    "type": "mobile-proxy",
+    "rating": 7.0,
+    "poolSize": "意大利4G/LTE",
+    "proxyTypes": ["移动代理"],
+    "isFeatured": false,
+    "badge": "意大利4G",
+    "features": ["意大利原生4G", "专属SIM卡", "HTTP/SOCKS5", "24小时试用"],
+    "affiliateUrl": "https://www.frogproxy.com/",
+    "detailUrl": "/proxy/frogproxy"
   },
   {
     "id": "botproxy",
