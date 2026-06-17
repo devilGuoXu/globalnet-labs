@@ -2107,6 +2107,19 @@
     "detailUrl": "/proxy/blurpath"
   },
   {
+    "id": "proxyline",
+    "name": "Proxyline",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "250万+ IPs",
+    "proxyTypes": ["住宅代理", "数据中心代理", "移动代理"],
+    "isFeatured": false,
+    "badge": "HTTP+SOCKS5",
+    "features": ["250万+真实IP", "80+国家覆盖", "€1.35/GB起", "无限带宽无月费"],
+    "affiliateUrl": "https://proxyline.net/",
+    "detailUrl": "/proxy/proxyline"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
