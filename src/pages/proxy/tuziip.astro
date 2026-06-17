@@ -1,0 +1,164 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="兔子IP（TuziIP）代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/tuziip.webp`} alt="兔子IP" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">兔子IP（TuziIP）深度评测</h1>
+          <p class="text-slate-400 text-lg">千万级 IP 池，全国 200+ 城市，一键极速切换</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 池规模</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">国内覆盖</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          兔子IP（TuziIP）是湖北闪联兔网络有限公司运营的国内专业 IP 代理服务商。拥有千万级独立 IP 池，覆盖全国 200+ 城市，日千万次使用。产品线涵盖静态 IP、高级动态 IP 和模拟器多开 IP 三种模式。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          静态 IP 提供长期固定的 IP 地址，适合稳定连接场景；高级动态 IP 提供独享带宽的企业级品质，一键切换全国城市线路；模拟器多开 IP 实现单窗口单 IP 互不干扰。自建机房独享 4-8M 带宽。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          仅限中国大陆地区使用，全平台支持，适用于营销、游戏、广告、爬虫等各类对 IP 有需求的场景。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">千万级独立 IP 池</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">千万级独立 IP 资源池，日千万次使用量。IP 资源持续更新，保证高可用率和低重复率。自建机房保障 IP 质量和网络稳定性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">全国 200+ 城市覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">覆盖全国 200+ 城市线路，一键秒切。支持按城市级别精确定位，满足区域化运营和本地化数据采集需求。城市覆盖密度在同类国内代理中处于领先水平。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">三种产品模式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">静态 IP——固定地址长期稳定，适合账号绑定和持续性连接；高级动态 IP——独享 4-8M 带宽，一键切换城市；模拟器多开 IP——单窗口单 IP，适合多开运营和自动化操作。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">极速切换 + 低延迟</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">自建机房配合优化路由，一键切换 IP 速度极快。独享 4-8M 带宽保证低延迟流畅体验。隐藏真实 IP，高匿名保护。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">灵活计费方案</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">多类套餐按需选择，支持定制化方案。适合从个人到企业的不同规模需求。灵活的计费周期，降低使用门槛。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">合规运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">正规 ICP 备案（鄂ICP备2022010067号-3），完整的法律条款和隐私政策。所有 IP 产品记录日志保留 6 个月以上，严格合规运营。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 网络营销推广</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">一键切换全国 200+ 城市 IP，模拟真实用户地域分布。适合本地化广告投放验证、搜索引擎排名监控和社交媒体运营推广等场景。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 游戏多开与挂机</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">模拟器多开 IP 支持单窗口单 IP，互不干扰。适合手游多开运营、游戏挂机、账号批量管理等场景，降低同 IP 关联风险。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 数据采集与爬虫</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">高级动态 IP 独享带宽保障爬虫效率，轮换 IP 规避反爬机制。全国 200+ 城市覆盖支持区域性的电商价格监控和行业数据分析。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 账号批量管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">静态 IP 提供长期稳定的连接环境，适合各类平台账号的批量注册和日常维护。固定 IP 地址降低被风控策略标记的概率。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>千万级独立 IP 池，日千万次使用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>全国 200+ 城市覆盖，一键秒切</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>三种产品模式满足多元场景</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>独享 4-8M 带宽，低延迟</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>正规 ICP 备案，合规运营</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>配套客户端软件</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅限中国大陆地区使用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无海外 IP 资源</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>宽带限制 4-8M，不适合大流量</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>日志保留 6 个月，隐私有限</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          兔子IP 以千万级独立 IP 池和全国 200+ 城市的覆盖度在国内代理市场中具有不错的竞争力。静态、动态和模拟器多开三种产品模式针对国内常见的营销、游戏和数据采集场景做了精准适配。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          独享带宽和极速切换解决了国内用户对响应速度和操作便捷性的核心诉求。但其纯国内定位和带宽限制也决定了它不适合国际业务和大流量应用场景。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，兔子IP 获得 7.0 分，适合需要全国城市级 IP 覆盖的国内营销推广、游戏多开和数据采集用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.tuziip.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问兔子IP 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

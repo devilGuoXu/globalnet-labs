@@ -2146,6 +2146,19 @@
     "detailUrl": "/proxy/ispkey"
   },
   {
+    "id": "tuziip",
+    "name": "兔子IP",
+    "type": "datacenter-proxy",
+    "rating": 7.0,
+    "poolSize": "千万级 IPs",
+    "proxyTypes": ["静态IP", "高级动态IP", "模拟器多开IP"],
+    "isFeatured": false,
+    "badge": "国内代理",
+    "features": ["千万级独立IP池", "全国200+城市", "独享4-8M带宽", "一键极速切换"],
+    "affiliateUrl": "https://www.tuziip.com/",
+    "detailUrl": "/proxy/tuziip"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
