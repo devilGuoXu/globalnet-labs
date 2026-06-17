@@ -2133,6 +2133,19 @@
     "detailUrl": "/proxy/spaceproxy"
   },
   {
+    "id": "ispkey",
+    "name": "ISPKEY",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "6500万+ IPs",
+    "proxyTypes": ["动态住宅代理", "静态住宅代理", "移动代理"],
+    "isFeatured": false,
+    "badge": "动态+静态",
+    "features": ["6500万+住宅IP", "200+国家覆盖", "$2.7/GB起", "10Gbps带宽"],
+    "affiliateUrl": "https://ispkey.com/",
+    "detailUrl": "/proxy/ispkey"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
