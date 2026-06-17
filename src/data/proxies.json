@@ -1821,6 +1821,19 @@
     "detailUrl": "/proxy/rogproxy"
   },
   {
+    "id": "scrapingproxy",
+    "name": "ScrapingProxy",
+    "type": "datacenter-proxy",
+    "rating": 7.0,
+    "poolSize": "美/德/英/加/澳",
+    "proxyTypes": ["数据中心代理"],
+    "isFeatured": false,
+    "badge": "爬虫优化",
+    "features": ["专为爬虫优化", "$0.50起/月", "HTTP/SOCKS5", "1000Mbps+网络"],
+    "affiliateUrl": "https://scrapingproxy.com/",
+    "detailUrl": "/proxy/scrapingproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
