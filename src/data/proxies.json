@@ -2224,6 +2224,19 @@
     "detailUrl": "/proxy/proxyprovider"
   },
   {
+    "id": "miyaip",
+    "name": "MIYAIP",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "1亿+ IPs",
+    "proxyTypes": ["动态住宅代理", "静态住宅代理", "移动代理"],
+    "isFeatured": false,
+    "badge": "190+国家",
+    "features": ["1亿+住宅IP", "190+国家覆盖", "ASN级精确定位", "HTTP/SOCKS5协议"],
+    "affiliateUrl": "https://www.miyaip.com/",
+    "detailUrl": "/proxy/miyaip"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",

@@ -1,0 +1,163 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="MIYAIP 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/miyaip.webp`} alt="MIYAIP" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">MIYAIP 深度评测</h1>
+          <p class="text-slate-400 text-lg">1 亿+ IP 池，190+ 国家，ASN 级精确定位</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 池规模</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">定位精度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.0</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          MIYAIP 是一家全球代理服务提供商，拥有 1 亿+ IP 资源池，覆盖 190+ 个国家和地区。产品线涵盖动态住宅代理、静态住宅代理、短期住宅代理、移动代理和无限带宽代理五大类。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          动态住宅代理按流量计费（上行+下行），生成代理数量无限制，流量不过期；静态住宅代理按月按 IP 计费，无流量限制；短期住宅代理专为 24 小时内任务设计，按 IP 购买即开即用。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          支持国家、州、城市和 ASN 四级精确定位，HTTP(S) 和 SOCKS5 协议。支持信用卡、支付宝、微信和 USDT 支付。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1 亿+ IP 池 190+ 国家</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">1 亿+ 真实住宅 IP，覆盖 190+ 国家和地区。IP 资源持续更新，保证高可用率和低重复率。支持大规模并发数据采集。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">五种代理产品</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">动态住宅——按流量计费轮换采集；静态住宅——固定 IP 长期使用；短期住宅——24 小时按 IP 购买；移动代理——真实移动网络；无限带宽——按时或按端口计费不限流量。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">ASN 级精确定位</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持国家、州、城市和 ASN 四级定位粒度，精度领先行业。可按运营商网络精确筛选 IP，满足精细化数据采集需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">粘性会话 + 自定义轮换</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持基于请求次数和基于时间的轮换调度。粘性会话保持同一 IP 活跃数分钟，适合持续性会话任务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无限带宽模式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">按端口或时间计费，不限流量。适合长时间运行的高流量任务，可搭配住宅或数据中心代理类型使用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">国内友好支付</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持支付宝、微信、信用卡和 USDT 多种支付方式，对中国用户友好。中文官网和帮助文档降低使用门槛。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 电商数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">1 亿+ IP 全国轮换采集电商平台数据，ASN 级定位可针对特定运营商网络获取精准价格信息。无限带宽模式适合大规模持续采集。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">静态住宅 IP 按月固定使用，稳定 Cookie 和登录环境降低平台风控。长期有效的 IP 地址适合批量账号维护。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO 排名监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">190+ 国家住宅 IP 结合城市级定位获取真实 SERP 数据。ASN 级过滤可针对特定运营商网络查看搜索差异。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 短期数据验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">短期住宅代理专为 24 小时内任务设计，按 IP 购买即开即用。适合广告验证、价格抽查等短期临时性采集需求。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>1 亿+ IP，190+ 国家</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>ASN 级四级精确定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>五种代理产品线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限带宽选项</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支付宝/微信支付</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>中文官网 + 帮助文档</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度较低</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>价格信息不透明</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>API 文档相对有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 纯净度待验证</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          MIYAIP 以 1 亿+ IP 的超大池子和 ASN 级四级定位能力在全球代理市场中具备独特的竞争优势。五种代理产品线的灵活选择和无限带宽模式满足了从短期验证到长期运维的全场景需求。</p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          支付宝/微信支付和中文支持对中国用户极为友好，降低了国内用户的使用门槛。但品牌知名度和价格透明度仍有提升空间。</p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，MIYAIP 获得 7.0 分，适合需要大规模 IP 和精细化定位的数据采集团队，尤其推荐给中国用户。</p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.miyaip.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 MIYAIP 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
