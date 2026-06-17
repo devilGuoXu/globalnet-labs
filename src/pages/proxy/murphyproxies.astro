@@ -1,0 +1,165 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="MurphyProxies 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/murphyproxies.webp`} alt="MurphyProxies" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">MurphyProxies 深度评测</h1>
+          <p class="text-slate-400 text-lg">2500 万+ 住宅 IP，190+ 国家，€0.70/GB 起</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">5.0</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          MurphyProxies 是一家欧盟运营的代理服务商（受 GDPR 保护），提供住宅代理和 ISP 代理两种产品线。拥有 2500 万+ 真实住宅 IP，覆盖 190+ 个国家与地区，以极简的按量计费模式 $0.70/GB 起售。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          住宅代理支持国家、州、城市和 ASN 四级定位，粘性会话最长 30 分钟，轮换会话每次请求更换 IP。ISP 代理提供 15+ 国家的静态 IP，无限带宽，低至 €0.80/IP。两种产品均支持 HTTP 和 SOCKS5 协议。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          99%+ 成功率，24 小时全额退款保障，无最低月消费。所有套餐即买即用，无需 SDK 安装，通过标准 HTTP/SOCKS5 端点即可连接。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2500 万+ 住宅 IP 池</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">真实消费者 ISP 分配的住宅 IP，每日更新过滤。覆盖 190+ 国家，其中美国、英国、德国等主要市场的 IP 资源最为丰富。支持国家、州、城市和 ASN 四级精确定位。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">€0.70/GB 按量计费</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理采用按 GB 计费模式，€0.70/GB 起，大规模用量低至 €0.50/GB。流量永不过期，无月度最低消费。支持一次性购买 1GB 小包测试，最低仅 €3.50。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">ISP 专属代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">15+ 国家静态 ISP 代理，IP 注册在真实 ISP ASN 下（Comcast、Orange、Free 等）。数据中心速度 + 住宅级信任度，无限带宽。€0.80/IP 起，适合账号管理和零售抢购场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">99%+ 成功率</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">基于 7 天滚动窗口测量，在 Top 100 目标域上保持 99%+ 成功率。自动故障路由在请求失败时自动重试，确保数据采集任务的连续性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">极速集成</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">无需安装 SDK，通过标准 HTTP 和 SOCKS5 端点即可连接。仪表盘自动生成网关 URL，付款后 60 秒内即可开始使用。支持 User:Pass 认证，无限并发线程。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">GDPR 合规</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">作为欧盟运营商，MurphyProxies 受 GDPR 隐私法规保护。提供 24 小时全额退款保障，无需解释原因。坚持按量付费，无隐藏费用或长期合约。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. SEO 监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">城市级住宅 IP 定位可在 190+ 国家精确追踪关键词排名和 SERP 特征。轮换 IP 避免触发搜索引擎反爬机制，获取真实的本地搜索结果。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ISP 静态 IP 适合社媒和电商平台的批量账号管理。静态 IP 可保持长期稳定会话，通过零售平台的身份验证（KYC），不会因 IP 频繁更换而被标记。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 电商数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅旋转 IP 在激进的反爬网站上保持低检测率。城市级定位可获取本地化的商品价格和库存信息。按量计费模式适合流量可控的采集项目。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">190+ 国家的真实住宅 IP 使广告团队可在全球范围验证广告投放。€0.70/GB 的低门槛定价适合中小规模的广告验证测试。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>2500 万+ 住宅 IP，190+ 国家</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>€0.70/GB 按量计费无月费</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>ISP 静态代理 €0.80/IP 无限带宽</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>城市/ASN 级精确定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>GDPR 合规，24小时退款</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>60 秒极速集成</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度低，口碑有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 纯净度有待验证</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>ISP 代理仅 15+ 国家</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>免费试用仅 24 小时退款</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中文</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          MurphyProxies 以 €0.70/GB 的极低入门价、按量计费无月费的灵活模式在住宅代理市场中形成了差异化竞争。2500 万+ IP 和 190+ 国家的覆盖满足全球数据采集的基础需求。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ISP 代理的无限带宽模式和城市/ASN 级精确定位是其加分项。但作为新兴品牌，IP 纯净度和市场口碑仍需更多用户验证。GDPR 合规和 24 小时退款保障为用户提供了一定的安心保障。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，MurphyProxies 获得 7.0 分，特别适合预算有限、需要灵活按量计费的初级数据采集用户和 SEO 从业者。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.murphyproxies.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 MurphyProxies 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

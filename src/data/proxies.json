@@ -2068,6 +2068,19 @@
     "detailUrl": "/proxy/speedproxies"
   },
   {
+    "id": "murphyproxies",
+    "name": "MurphyProxies",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "2500万+ IPs",
+    "proxyTypes": ["住宅代理", "ISP代理"],
+    "isFeatured": false,
+    "badge": "欧盟 GDPR",
+    "features": ["2500万+住宅IP", "190+国家覆盖", "€0.70/GB起", "SOCKS5+HTTP"],
+    "affiliateUrl": "https://www.murphyproxies.com/",
+    "detailUrl": "/proxy/murphyproxies"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
