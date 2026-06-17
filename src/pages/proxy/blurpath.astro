@@ -1,0 +1,164 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Blurpath 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/blurpath.webp`} alt="Blurpath" class="h-14 w-auto" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Blurpath 深度评测</h1>
+          <p class="text-slate-400 text-lg">6000 万+ 住宅 IP，190+ 国家覆盖，99.5% 成功率</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 池规模</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Blurpath 是一家全球代理服务提供商，拥有超过 6000 万个真实住宅 IP，覆盖 190 多个国家与地区。产品线涵盖动态住宅代理、静态 ISP 代理和数据中心代理三大类，提供 HTTP(s) 和 SOCKS5 协议支持。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          住宅代理支持轮换和粘性会话（最长 120 分钟），无限并发请求和访问次数，99.5% 的高成功率。ISP 代理提供静态 IP 适合长连接场景，数据中心代理则主打高性价比和大带宽。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          Blurpath 采用灵活的按量付费模式，无需合约绑定，支持国家、州和城市三级精确定位。内置智能 API 集群可自动突破反爬限制，兼容主流的电商平台、社交媒体和搜索引擎。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">6000 万+ 住宅 IP 池</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">超过 6000 万个真实住宅 IP，来源于全球真实的 ISP 网络，每天持续更新。支持国家、州和城市三级粒度定位，可精准获取目标市场的本地化数据。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">三种代理产品线</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">动态住宅代理——轮换 IP 高匿名采集；静态 ISP 代理——固定 IP 长期账号管理；数据中心代理——低成本高速抓取。全覆盖满足企业数据采集的各类需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">99.5% 成功率</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">通过智能 API 集群自动路由最优通道，突破主流电商与社交平台的反爬限制，保证 99.5% 以上的请求成功率。内置自动重试和故障转移机制。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">粘性会话 120 分钟</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理支持旋转和粘性两种模式，粘性会话最长保持 120 分钟。无限并发请求会话，可同时满足多业务线的数据采集需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">灵活计费无合约</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">按量付费模式，无月度最低消费，无长期合约绑定。数据中心代理按 IP 数量计费，无限带宽。可定制代理服务方案满足企业级需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">HTTP(s) + SOCKS5</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全产品线支持 HTTP、HTTPS 和 SOCKS5 协议，兼容市面上主流的数据采集工具和编程语言。无需额外 SDK，快速集成。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 电商数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">智能 API 集群自动突破 Amazon、eBay、Walmart 等主流电商平台的反爬限制。城市级住宅 IP 获取本地化商品价格、评论和库存数据。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. SEO 排名监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">190+ 国家的住宅 IP 精确定位到城市级别，获取真实本地搜索结果。轮换 IP 机制避免搜索引擎触发验证码。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 社媒账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ISP 静态代理提供固定 IP 用于 Facebook、Instagram、TikTok 等社媒平台的批量账号管理，KYC 认证时 IP 不会频繁变更。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 品牌保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全球住宅 IP 网络可用于监控假冒商品、商标侵权和价格违规行为。99.5% 的成功率保证监控任务的持续性。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>6000 万+ 住宅 IP，190+ 国家</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>三大产品线覆盖全场景</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.5% 高成功率</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>粘性会话最长 120 分钟</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>城市级精确定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无合约按量付费</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度相对较低</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>未公布具体定价信息</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 纯净度待验证</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>支持中有限的客服渠道</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Blurpath 拥有 6000 万+ 住宅 IP 的庞大网络，配合 ISP 和数据中心代理的协同产品矩阵，覆盖了从匿名采集到账号管理的完整场景链。99.5% 的高成功率和最长 120 分钟的粘性会话为数据采集任务提供了稳定的基础设施。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          城市级精确定位和智能 API 集群使其在电商数据采集和 SEO 监控领域具有竞争力。但作为相对较新的品牌，IP 质量和市场口碑仍需更多用户验证。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，Blurpath 获得 7.0 分，适合需要大规模住宅 IP 覆盖且追求灵活付费模式的企业数据采集用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.blurpath.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Blurpath 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

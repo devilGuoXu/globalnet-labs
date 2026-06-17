@@ -2094,6 +2094,19 @@
     "detailUrl": "/proxy/thesafety"
   },
   {
+    "id": "blurpath",
+    "name": "Blurpath",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "6000万+ IPs",
+    "proxyTypes": ["住宅代理", "ISP代理", "数据中心代理"],
+    "isFeatured": false,
+    "badge": "HTTP(S)+SOCKS5",
+    "features": ["6000万+住宅IP", "190+国家覆盖", "99.5%成功率", "粘性会话120分钟"],
+    "affiliateUrl": "https://www.blurpath.com/",
+    "detailUrl": "/proxy/blurpath"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
