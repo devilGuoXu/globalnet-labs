@@ -1782,6 +1782,19 @@
     "detailUrl": "/proxy/noxproxy"
   },
   {
+    "id": "gokturkhost",
+    "name": "GokturkHost",
+    "type": "datacenter-proxy",
+    "rating": 7.0,
+    "poolSize": "土耳其节点",
+    "proxyTypes": ["数据中心代理", "住宅代理"],
+    "isFeatured": false,
+    "badge": "土耳其代理",
+    "features": ["独享IPv4", "€0.55起/月", "HTTP/SOCKS5", "土耳其机房", "无限流量"],
+    "affiliateUrl": "https://gokturkhost.com/en/home",
+    "detailUrl": "/proxy/gokturkhost"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
