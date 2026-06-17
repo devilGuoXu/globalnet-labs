@@ -1834,6 +1834,19 @@
     "detailUrl": "/proxy/scrapingproxy"
   },
   {
+    "id": "flipnode",
+    "name": "Flipnode",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "4000万+ IPs",
+    "proxyTypes": ["住宅代理", "数据中心代理", "ISP代理"],
+    "isFeatured": false,
+    "badge": "代理+爬虫API",
+    "features": ["住宅4000万+IP", "数据中心100万+IP", "195+国家", "Web Scraper API"],
+    "affiliateUrl": "https://flipnode.io/",
+    "detailUrl": "/proxy/flipnode"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
