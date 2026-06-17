@@ -148,5 +148,20 @@
     "affiliateUrl": "https://highproxies.com/",
     "couponCode": "",
     "detailUrl": "/vpn/highproxies"
+  },
+  {
+    "id": "ip2proxy",
+    "name": "IP2Proxy",
+    "type": "vpn",
+    "rating": 8.0,
+    "price": "$399/年起",
+    "jurisdiction": "美国",
+    "protocols": ["REST API", "数据库", "Batch Service"],
+    "isFeatured": false,
+    "badge": "代理检测",
+    "features": ["代理/VPN/Tor检测", "数据库每日更新", "REST API集成", "10+代理类型识别"],
+    "affiliateUrl": "https://www.ip2proxy.com/",
+    "couponCode": "",
+    "detailUrl": "https://www.ip2proxy.com/"
   }
 ]
