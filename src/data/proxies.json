@@ -1951,6 +1951,19 @@
     "detailUrl": "/proxy/getfoxyproxy"
   },
   {
+    "id": "okayvpn",
+    "name": "OkayVPN",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "90+ 国家",
+    "proxyTypes": ["住宅VPN", "HTTP/HTTPS", "SOCKS5"],
+    "isFeatured": false,
+    "badge": "住宅VPN",
+    "features": ["100%住宅IP", "90+国家", "城市级定位", "PPTP/OpenVPN/WireGuard"],
+    "affiliateUrl": "https://okayvpn.com/",
+    "detailUrl": "/proxy/okayvpn"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",

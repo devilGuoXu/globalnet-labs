@@ -1,0 +1,213 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="OkayVPN 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/okayvpn.webp`} alt="OkayVPN" class="h-14 w-auto self-center" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">OkayVPN 深度评测</h1>
+          <p class="text-slate-400 text-lg">100% 住宅 IP 的 VPN 服务商，90+ 国家城市级定位</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.2</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">5.5</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          OkayVPN 是一家专注于住宅 IP 的 VPN 服务商，与市面上 99% 使用数据中心的 VPN 不同，OkayVPN 100% 的 IP 都来自真实住宅宽带，由 AT&T、Cox、Comcast、Charter 等 ISP 提供。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          平台覆盖 90+ 个国家，支持城市级别精确定位。提供 PPTP、L2TP/IPSec、OpenVPN、SSTP、IKEv2、AnyConnect、WireGuard、HTTP、HTTPS 和 SOCKS5 等多种协议，兼容 Windows、Linux、Mac、Android、iOS 和路由器等平台。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          住宅 IP 的高信任度评分使其特别适合 Craigslist、Badoo、在线调查、广告投放、多账号管理等对 IP 纯净度要求较高的场景。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">100% 住宅 IP</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有 IP 均来自真实 ISP 分配的住宅宽带，非数据中心 IP。住宅 IP 的高信任度评分使其不容易被目标网站的风控系统识别和拦截，提供更高的匿名性和可用性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">90+ 国家城市级覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">覆盖 90+ 个国家，支持城市级别 IP 定位。IP 池每日更新，热门节点覆盖美国主要城市、英国和欧盟国家。用户还可以联系定制专属服务器节点。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多种协议广泛兼容</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 PPTP、L2TP/IPSec、OpenVPN、SSTP、IKEv2、AnyConnect、WireGuard、HTTP、HTTPS 和 SOCKS5 等主流协议。几乎覆盖了所有操作系统和设备的连接需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">旋转与粘性 IP</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 IP 自动轮换和粘性会话两种模式。旋转 IP 适合需要频繁更换 IP 的高匿名场景，粘性 IP 则适合需要保持连接稳定性的长期任务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">跨平台全设备支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 Windows、Linux、macOS、Android、iOS 和路由器。多设备同时登录（Starter 2 台，Plus/Pro 5 台），满足个人和团队的使用需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">按量付费灵活定价</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供 Starter（5GB）、Plus（10GB）和 Pro（20GB）三档按量方案。无 Geo-blocking 限制，企业级安全防护，零日志记录保护隐私。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <div class="grid md:grid-cols-3 gap-4">
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50 text-center">
+            <h3 class="text-lg font-bold text-slate-100 mb-2">Starter</h3>
+            <div class="text-3xl font-bold text-emerald-400 mb-2">5GB</div>
+            <ul class="text-sm text-slate-400 space-y-2 mb-4">
+              <li>住宅 VPN 连接</li>
+              <li>2 台设备同时登录</li>
+              <li>OpenVPN/WireGuard</li>
+              <li>HTTP/HTTPS/SOCKS5</li>
+              <li>90+ 国家覆盖</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-emerald-500/30 text-center ring-1 ring-emerald-500/20">
+            <h3 class="text-lg font-bold text-slate-100 mb-2">Plus</h3>
+            <div class="text-3xl font-bold text-emerald-400 mb-2">10GB</div>
+            <ul class="text-sm text-slate-400 space-y-2 mb-4">
+              <li>住宅 VPN 连接</li>
+              <li>5 台设备同时登录</li>
+              <li>OpenVPN/WireGuard</li>
+              <li>HTTP/HTTPS/SOCKS5</li>
+              <li>90+ 国家覆盖</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50 text-center">
+            <h3 class="text-lg font-bold text-slate-100 mb-2">Pro</h3>
+            <div class="text-3xl font-bold text-emerald-400 mb-2">20GB</div>
+            <ul class="text-sm text-slate-400 space-y-2 mb-4">
+              <li>住宅 VPN 连接</li>
+              <li>5 台设备同时登录</li>
+              <li>OpenVPN/WireGuard</li>
+              <li>HTTP/HTTPS/SOCKS5</li>
+              <li>90+ 国家覆盖</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 在线调查与问卷</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">许多在线调查平台对 IP 质量要求极高，住宅 IP 的高信任度评分可以有效避免被识别和拦截，适合 Swagbucks、Lifepoints 等调查平台的自动化操作。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒多账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">旋转 IP 模式适合 Craigslist、Badoo、Facebook 等平台的批量账号管理。真实住宅 IP 大大降低了被平台风控系统检测的风险。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. CPA 营销与广告投放</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅 IP 的纯净度使 CPA 营销人员可以在各大广告平台进行安全的广告投放和验证，避免因 IP 质量问题导致的账号限制。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 市场调研与竞品分析</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">90+ 国家覆盖和城市级定位使 OkayVPN 适合全球市场调研。用户可以从不同地区视角查看产品发布、市场竞争和本地化内容。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 绕过地理限制</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅 VPN 比数据中心 VPN 更难被流媒体平台检测和封锁，适合解锁地区限制内容。支持 OpenVPN 和 WireGuard 等高速协议。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">6. 安全隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">零日志政策和企业级加密保护确保用户隐私安全。住宅 IP 的匿名性比数据中心 VPN 更优，不易被追踪。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>100% 真实住宅 IP，纯净度极高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>90+ 国家覆盖，支持城市级定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>10 种协议兼容，跨平台支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>旋转 + 粘性 IP 双模式</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>IP 池每日更新</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>零日志，企业级加密</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>按量计费，无无限流量方案</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度较低</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>速度受限于住宅宽带上行</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中文</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分冷门地区节点有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无免费试用</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          OkayVPN 以 100% 住宅 IP 为核心卖点，在 VPN 市场中走出了一条差异化路线。对于需要使用住宅 IP 但不想部署传统代理的用户来说，OkayVPN 提供了更简便的 VPN 接入方式。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          10 种协议的广泛兼容性和跨平台支持使其适用场景非常灵活。按量计费模式适合流量需求不高的用户，但对大流量场景不够友好。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，OkayVPN 获得 7.0 分，特别适合在线调查、社媒运营和 CPA 营销等需要高纯净住宅 IP 的场景。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://okayvpn.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 OkayVPN 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
