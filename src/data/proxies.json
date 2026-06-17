@@ -1886,6 +1886,19 @@
     "detailUrl": "/proxy/bhproxies"
   },
   {
+    "id": "proxy-n-vpn",
+    "name": "Proxy-N-VPN",
+    "type": "datacenter-proxy",
+    "rating": 7.0,
+    "poolSize": "多城市多子网",
+    "proxyTypes": ["数据中心代理"],
+    "isFeatured": false,
+    "badge": "2012年运营",
+    "features": ["$1.53起/代理", "1000Mbps", "无限带宽", "3天退款保障"],
+    "affiliateUrl": "https://www.proxy-n-vpn.com/",
+    "detailUrl": "/proxy/proxy-n-vpn"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
