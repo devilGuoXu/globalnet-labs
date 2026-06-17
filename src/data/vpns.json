@@ -163,5 +163,20 @@
     "affiliateUrl": "https://www.ip2proxy.com/",
     "couponCode": "",
     "detailUrl": "https://www.ip2proxy.com/"
+  },
+  {
+    "id": "ipvanish",
+    "name": "IPVanish",
+    "type": "vpn",
+    "rating": 8.5,
+    "price": "$2.19/月",
+    "jurisdiction": "美国",
+    "protocols": ["WireGuard", "OpenVPN", "IKEv2"],
+    "isFeatured": false,
+    "badge": "无限设备",
+    "features": ["无限设备连接", "105+国家2400+服务器", "独立审计零日志", "Threat Protection"],
+    "affiliateUrl": "https://www.ipvanish.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/ipvanish"
   }
 ]
