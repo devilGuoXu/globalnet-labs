@@ -1,0 +1,178 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="FoxyProxy 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/getfoxyproxy.webp`} alt="FoxyProxy" class="h-14 w-auto self-center" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">FoxyProxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">2006 年成立的经典 VPN+代理服务商，67+ 国家覆盖</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.8</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          FoxyProxy 是一家成立于 2006 年的美国老牌 VPN 和代理服务商。与市面上常见的代理服务不同，FoxyProxy 将 VPN 和代理服务器合二为一，一次购买即可同时获得两种服务，覆盖 67+ 个国家与地区。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          FoxyProxy 提供 6 种连接方式：OpenVPN、IPSec、PPTP、HTTP 代理、HTTPS 代理和 SOCKS5。每个订阅包含 1 个独享 IP，购买多个 IP 可享受批量折扣。所有方案均包含无限高速带宽和 24/7 客户支持。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          此外，FoxyProxy 还提供知名的开源浏览器代理管理扩展，被数百万用户日常使用，在 Firefox 和 Chrome 生态中拥有良好的口碑。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">VPN + 代理二合一</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">一次购买即可同时使用 VPN 和代理服务器。VPN 加密所有流量适合隐私保护场景，代理则灵活快速适合解锁地理限制内容，用户可根据需求自由切换。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">6 种连接方式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 OpenVPN、IPSec、PPTP、HTTP 代理、HTTPS 代理和 SOCKS5 六种连接协议。其中 SSL 代理提供端到端加密，SOCKS5 适合非 HTTP 应用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">67+ 国家全球覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">在 67+ 个国家与地区部署服务器，支持数百个城市级别的精确选择。适合全球范围内的内容解锁、本地化数据采集和广告验证。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无限高速带宽</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有方案均提供无限高速带宽，无流量限制。HTTP 代理因缓存机制可能比直连更快，SOCKS5 代理则保持高效稳定的传输性能。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">开源代理管理工具</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">FoxyProxy 开发了业内知名的开源浏览器代理管理扩展，支持 Firefox 和 Chrome，翻译成 34 种语言，被数百万用户日常使用，是行业标准级别的代理管理工具。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">7 天无理由退款</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供 7 天无理由退款保证，用户可以充分测试服务质量和速度后再决定是否继续使用。美国合法注册公司运营，服务可靠性有保障。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">独享 IP + 批量折扣</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">每个订阅包含 1 个独享 IP，确保 IP 仅限单用户使用，不会被他人污染。购买 3 个以上可联系销售获取批量折扣。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 解锁地理限制内容</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">代理模式快速灵活，适合解锁 Hulu、BBC、Netflix 等流媒体平台的地理限制内容。HTTP 代理提供比 VPN 更快的访问速度。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 隐私保护与安全加密</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">VPN 模式全流量加密适合公共 Wi-Fi 场景和需要隐私保护的敏感操作。OpenVPN 和 IPSec 提供企业级加密保护。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 全球广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">67+ 国家的服务器网络和城市级别定位支持，使 FoxyProxy 适合广告团队进行全球广告投放验证和本地化内容检查。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 应用地理测试</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">开发者可以使用 FoxyProxy 测试应用在不同国家的表现、检查本地化内容和确保广告定向准确。SOCKS5 支持非 HTTP 应用的测试。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 电商价格监测</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">城市级别地理位置选择使电商价格监测可以精确到特定市场。无限带宽适合需要持续大规模采集数据的场景。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">6. 社媒运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">代理模式允许每个浏览器单独配置，适合需要同时管理多个社媒账号的用户。SOCKS5 支持兼容各类社媒管理工具。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>2006 年老牌公司，美国合法注册运营</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>VPN + 代理二合一，一份钱两种服务</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>6 种连接协议，覆盖面广</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>67+ 国家覆盖，城市级别定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限带宽，7 天退款保障</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>知名开源代理管理工具</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>偏向 VPN 服务，代理 IP 池规模有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无住宅代理，不适合高频数据采集</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>价格高于同类代理服务</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中文，主要面向英文用户</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无免费试用，仅提供付费退款保障</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>每个订阅仅 1 个独享 IP</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          FoxyProxy 作为一家 2006 年成立的美国老牌 VPN+代理服务商，最大的特色是将 VPN 和代理服务合二为一，提供 6 种连接方式覆盖不同的使用场景。67+ 国家的服务器网络和无限带宽为其加分不少。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          与专业住宅代理服务商相比，FoxyProxy 的代理 IP 池规模有限，不适合大规模数据采集任务。但对于需要解锁地理限制、隐私保护、广告验证和轻度代理任务的用户来说，FoxyProxy 是一个值得信赖的选择。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，FoxyProxy 获得 7.0 分，特别适合需要 VPN+代理二合一解决方案的个人用户和中小团队。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://getfoxyproxy.org/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 FoxyProxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

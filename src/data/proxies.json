@@ -1938,6 +1938,19 @@
     "detailUrl": "/proxy/aaaproxy"
   },
   {
+    "id": "getfoxyproxy",
+    "name": "FoxyProxy",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "67+ 国家",
+    "proxyTypes": ["VPN", "HTTP/HTTPS代理", "SOCKS5"],
+    "isFeatured": false,
+    "badge": "VPN+代理",
+    "features": ["67+国家", "VPN+代理二合一", "6种连接方式", "无限带宽"],
+    "affiliateUrl": "https://getfoxyproxy.org/",
+    "detailUrl": "/proxy/getfoxyproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
