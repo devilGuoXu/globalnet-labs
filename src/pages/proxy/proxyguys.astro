@@ -1,0 +1,170 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="ProxyGuys 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/proxyguys.webp`} alt="ProxyGuys" class="h-14 w-auto self-center" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">ProxyGuys 深度评测</h1>
+          <p class="text-slate-400 text-lg">美国原生 5G 移动代理，50+ 城市覆盖无限带宽</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.2</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">4.5</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyGuys 是一家专注于美国 5G 移动代理的服务商，提供覆盖美国 50+ 个城市的原生 5G 移动 IP。与住宅代理和数据中心代理不同，5G 移动 IP 由美国主要移动运营商直接分配，被各大平台识别为真实手机用户流量。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          平台的核心优势在于极低的检测率（3-8%），远低于住宅代理的 15-30%。平均速度 40-60 Mbps，配备无限带宽和即时 IP 轮换能力。所有 IP 均通过合规渠道获取，支持无限制并发连接。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          ProxyGuys 专精于 5G 移动代理单一品类，不提供住宅或数据中心代理，适合对 IP 纯净度和隐身性有最高要求的用户。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">美国原生 5G 移动 IP</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有 IP 来自美国主要移动运营商的原生 5G 网络，非住宅或数据中心 IP。真实移动 IP 被 Instagram、TikTok、Amazon、Shopify 等主流平台高度信任。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">极低检测率（3-8%）</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">5G 移动 IP 的检测率仅 3-8%，远低于住宅代理的 15-30% 和数据中心代理的 50%+。移动 IP 随基站自然旋转，行为模式与真实用户无异。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">50+ 美国城市覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">覆盖美国 50+ 个城市，用户可以精确选择目标城市的 5G 移动 IP。城市级定位为本地化运营和广告验证提供了精准的地理位置支持。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">40-60 Mbps 高速连接</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">平均速度 40-60 Mbps，真正的运营商级连接。5G 网络的高速低延迟特性确保了流畅的浏览体验和高效的数据采集。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无限带宽 + 即时轮换</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有方案均提供无限带宽，无流量限制。支持即时 IP 轮换，用户可根据需要随时更换 IP，无需等待。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">合规来源 + 随时取消</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有 IP 均通过合规合法渠道获取。无长期合约，用户可以随时取消订阅。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 社媒多账号运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">5G 移动 IP 是所有代理类型中检测率最低的，3-8% 的检测率使社媒多账号运营的安全系数大幅提升。Instagram、TikTok、Facebook 等平台几乎无法区分真实用户和代理流量。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. Sneaker 抢购</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">极低检测率和即时 IP 轮换能力使 ProxyGuys 非常适合 Nike、Supreme 等限量球鞋的自动化抢购任务。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">50+ 城市的精确地理定位使广告团队可以在美国主要城市验证广告投放效果和本地化内容展示。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 电商数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Amazon、Shopify 等电商平台对 5G 移动 IP 的风控阈值远低于住宅代理。40-60 Mbps 的高速连接确保了数据采集效率。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 账号注册与验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">高纯净度的 5G 移动 IP 在各大平台注册和验证流程中通过率极高，适合需要批量创建账号的场景。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>美国原生 5G 移动 IP，检测率仅 3-8%</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>50+ 美国城市覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>40-60 Mbps 平均速度</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无限带宽 + 即时 IP 轮换</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>被各大主流平台高度信任</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>合规来源，随时可取消</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅限美国地区，无全球覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅提供 5G 移动代理，产品线单一</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度低，市场口碑较少</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>价格信息不透明</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中文</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 SOCKS5 协议信息</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyGuys 专注于美国 5G 移动代理，以极低的检测率和高速连接为核心竞争力。对于需要在美国市场进行社媒运营、Sneaker 抢购、广告验证等高隐形需求的用户来说，ProxyGuys 提供了品质出色的移动代理服务。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          50+ 城市的覆盖范围和无限带宽方案使其在同类服务中具有吸引力。但仅限美国地区和单一产品线限制了其适用人群。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，ProxyGuys 获得 7.0 分，特别适合对美国 5G 移动 IP 有刚需的社媒运营团队和电商数据采集用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://proxyguys.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 ProxyGuys 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
