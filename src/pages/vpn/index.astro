@@ -48,11 +48,9 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
                     </li>
                   ))}
                 </ul>
-                {!isExternal && (
-                  <div class="shrink-0 flex items-center justify-center">
-                    <img src={`${base}/images/${vpn.id}.${['getfoxyproxy','okayvpn','surfshark','highproxies'].includes(vpn.id) ? 'webp' : 'png'}`} alt={vpn.name} class="h-14 w-auto self-center" />
-                  </div>
-                )}
+                <div class="shrink-0 flex items-center justify-center">
+                  <img src={`${base}/images/${vpn.id}.${['getfoxyproxy','okayvpn','surfshark','highproxies','expressvpn'].includes(vpn.id) ? 'webp' : 'png'}`} alt={vpn.name} class="h-14 w-auto self-center" />
+                </div>
               </div>
               <div class="pt-3 border-t border-slate-800 text-right">
                 <span class="text-sm text-emerald-400 group-hover:text-emerald-300 transition-colors">查看详情 →</span>
