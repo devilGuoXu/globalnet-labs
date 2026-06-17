@@ -1990,6 +1990,19 @@
     "detailUrl": "/proxy/zproxies"
   },
   {
+    "id": "proxycue",
+    "name": "ProxyCue",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "全球住宅+移动",
+    "proxyTypes": ["住宅代理", "移动代理", "数据中心"],
+    "isFeatured": false,
+    "badge": "全品类",
+    "features": ["住宅代理", "4G/5G移动代理", "10G上行", "8年运营"],
+    "affiliateUrl": "https://proxycue.com/",
+    "detailUrl": "/proxy/proxycue"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",

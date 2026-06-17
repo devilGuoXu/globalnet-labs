@@ -1,0 +1,206 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="ProxyCue 海外代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <img src={`${base}/images/proxycue.webp`} alt="ProxyCue" class="h-14 w-auto self-center" />
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">ProxyCue 深度评测</h1>
+          <p class="text-slate-400 text-lg">8 年老牌代理服务商，住宅/移动/数据中心全品类覆盖</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.0</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyCue 是一家运营超过 8 年的老牌代理服务商，提供住宅代理、4G/5G 移动代理、数据中心代理、ISP 代理和独立服务器租赁等多种产品。平台以 10G 上行带宽和可靠的网络基础设施著称。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          住宅代理产品 Cue Resi 起价 $10/月，支持旋转和粘性会话，数据永不过期。此外还提供针对 Ticketmaster、AXS 等票务平台的专有住宅代理池。移动代理目前支持纽约地区的 4G/5G 网络，月付 $110 或日付 $25。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyCue 还提供 100G 网络的多地独立服务器租赁，不限带宽，适合需要高性能基础设施的企业级用户。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Cue Resi 住宅代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">起价 $10/月的住宅代理，支持旋转和粘性会话。高质量住宅 IP 池适用于各类网站，数据永不过期。另有 Events 住宅池专为票务平台优化。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4G/5G 移动代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">目前支持纽约地区的 4G/5G 移动代理，IP 自动轮换，无限连接。真实移动 IP 提供最高级别的纯净度和隐身性，适合社媒运营和账号管理。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">10G 上行带宽</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ProxyCue 提供高达 10G 的上行带宽，确保代理连接的快速和稳定。即使在高峰期也能保持出色的响应速度，适合对速度要求较高的抢购和采集任务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多品类覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">从住宅代理到移动代理，从数据中心代理到独立服务器，ProxyCue 覆盖了代理市场的几乎所有品类。用户可以从单一供应商处满足所有代理需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">零广告 + 多层安全</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">承诺不干预或重定向用户流量，所有流量直达目标。多层安全技术确保数据传输的保密性和隐私性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">即时交付</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">购买后立即可用，无需等待。所有配置变更即时生效。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">价格方案</h2>
+        <div class="grid md:grid-cols-3 gap-4">
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50 text-center">
+            <h3 class="text-lg font-bold text-slate-100 mb-2">Cue Resi</h3>
+            <div class="text-3xl font-bold text-emerald-400 mb-2">$10<span class="text-base text-slate-400">/月</span></div>
+            <ul class="text-sm text-slate-400 space-y-2 mb-4">
+              <li>住宅代理</li>
+              <li>旋转 + 粘性会话</li>
+              <li>数据永不过期</li>
+              <li>即时交付</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-emerald-500/30 text-center ring-1 ring-emerald-500/20">
+            <h3 class="text-lg font-bold text-slate-100 mb-2">Events</h3>
+            <div class="text-3xl font-bold text-emerald-400 mb-2">$12<span class="text-base text-slate-400">/月</span></div>
+            <ul class="text-sm text-slate-400 space-y-2 mb-4">
+              <li>专有住宅代理池</li>
+              <li>Ticketmaster/AXS 优化</li>
+              <li>数据永不过期</li>
+              <li>即时交付</li>
+            </ul>
+          </div>
+          <div class="bg-slate-950/50 rounded-xl p-6 border border-slate-800/50 text-center">
+            <h3 class="text-lg font-bold text-slate-100 mb-2">NY Mobile</h3>
+            <div class="text-3xl font-bold text-emerald-400 mb-2">$110<span class="text-base text-slate-400">/月</span></div>
+            <ul class="text-sm text-slate-400 space-y-2 mb-4">
+              <li>纽约 4G/5G 移动代理</li>
+              <li>IP 自动轮换</li>
+              <li>无限连接</li>
+              <li>日付 $25 可用</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 票务抢购</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Events 住宅代理池专为 Ticketmaster、AXS 等票务平台优化，适合演唱会、体育赛事等热门票务的自动化抢购。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒多账号运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">纽约移动代理提供真实 4G/5G IP，适合社媒平台的批量账号管理和自动化运营。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理的旋转和粘性会话灵活切换，适合不同场景的数据采集需求。10G 带宽确保高效的数据传输。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">稳定的住宅代理 IP 适合广告验证和品牌保护的持续性监测任务。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">5. 服务器托管</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">100G 网络的独立服务器租赁适合需要高性能基础设施的大型项目和代理转售业务。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>8 年老牌服务商，运营经验丰富</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅/移动/数据中心/服务器全品类覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>10G 上行带宽，速度出色</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Events 专有住宅池适合票务</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>零广告策略，流量纯净</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>多层安全加密</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌在国内知名度较低</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动代理仅限纽约地区</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>移动代理价格较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持中文</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>协议支持信息不透明</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>全球覆盖范围有限</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyCue 作为一家运营超过 8 年的代理服务商，以丰富的产品线和稳定的网络质量赢得了核心用户的信赖。住宅代理 $10/月的价格具有竞争力，Events 专有住宅池在票务领域有独特优势。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          10G 上行带宽和零广告策略体现了对服务质量的追求。但移动代理仅限纽约、全球覆盖范围有限等因素使其适用场景受到一定限制。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，ProxyCue 获得 7.0 分，特别适合需要多品类代理的一站式采购用户和票务抢购团队。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://proxycue.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 ProxyCue 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
