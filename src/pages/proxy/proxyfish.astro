@@ -1,0 +1,166 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="ProxyFish 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/proxyfish.webp`} alt="ProxyFish" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">ProxyFish 深度评测</h1>
+          <p class="text-slate-400 text-lg">1.2 亿+ 住宅 IP，200+ 国家，$5/GB 起</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 池规模</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">易用性</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyFish 是一家全球代理服务提供商，拥有 1.2 亿+ 住宅 IP 资源池，覆盖 200+ 个国家和地区。产品线涵盖住宅代理、数据中心代理、ISP 代理和移动代理，提供 HTTP/HTTPS 和 SOCKS5 协议支持。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          住宅代理 1.2 亿+ IP 支持粘性和轮换双模式，$5/GB 起（标准版）或 $13/GB（高级版），99.5% 在线率；数据中心代理覆盖 15+ 地点，城市级定位，专用独享 IP 极速连接；ISP 代理融合数据中心速度和住宅可信度。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          支持 IP 白名单和 User:Pass 双认证，提供白标经销商 API 和 WHMCS 模块。支持 PayPal、比特币和加密货币支付。$1 即可试用。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1.2 亿+ 住宅 IP 池</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">结合多个私有 IP 池，提供高达 1.2 亿+ 住宅 IP。覆盖 200+ 国家和地区的真实用户设备，每天持续更新，保证高可用率和低重复率。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">住宅 + 数据中心 + ISP + 移动</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理——真实人设备高匿名；数据中心代理——15+ 地点超高速；ISP 代理——住宅可信 + 数据中心速度；移动代理——真实移动网络环境。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">99.5% 在线率 + 快速响应</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">高在线率保证业务连续性，低延迟快速响应适合实时数据采集。不限并发连接数，可弹性扩展。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">粘性 + 轮换双模式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">轮换模式每次请求更换 IP 适合匿名采集；粘性模式保持同一 IP 适合持续性会话。灵活切换适配不同业务场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">白标经销商 API</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供完整的白标经销商 API 和 WHMCS 模块，适合需要转售代理服务的业务。支持自定义定价和品牌。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多支付 + 低价试用</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 PayPal、比特币和多种加密货币支付。$1 即可购买 24 小时试用套餐，零风险体验服务质量。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 抢鞋与限量商品</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ISP 代理兼具数据中心速度和住宅可信度，适合 Nike、Supreme 等限量商品自动抢购。专用独享 IP 保证低延迟高成功率。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 电商数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">1.2 亿+ IP 轮换规避 Amazon、eBay 等平台反爬。200+ 国家住宅 IP 获取本地化商品数据，不限并发适合大规模采集。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">国家/城市级目标定位验证广告投放效果。99.5% 在线率保证验证任务持续性和可靠性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. SEO 监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">200+ 国家住宅 IP 获取真实本地 SERP 数据。粘性会话适合持续监控关键词排名变化趋势。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>1.2 亿+ IP，200+ 国家</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅/数据中心/ISP/移动全覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>白标经销商 API + WHMCS</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$1 低价试用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>PayPal/比特币/加密货币支付</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Chrome/Firefox 扩展</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理价格偏高（$5-13/GB）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>数据中心仅 15 个地点</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>退款政策不够清晰</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无 SOCKS5 住宅代理支持</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxyFish 以 1.2 亿+ IP 的庞大池子和全面的产品线在全球代理市场中占据一席之地。住宅和数据中心双核心产品覆盖从匿名采集到高速连接的多元需求，白标经销商系统为转售业务提供了有力支持。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          $1 低价试用和多种支付方式降低了使用门槛，Chrome/Firefox 浏览器扩展提升了易用性。但住宅代理的定价偏高和无 SOCKS5 住宅支持是其明显的短板。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，ProxyFish 获得 7.0 分，适合需要海量 IP 池且追求高速连接的数据采集和抢鞋自动化用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.proxyfish.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 ProxyFish 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
