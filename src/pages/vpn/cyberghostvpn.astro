@@ -1,0 +1,163 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="CyberGhost VPN 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/cyberghostvpn.webp`} alt="CyberGhost VPN" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">CyberGhost VPN 深度评测</h1>
+          <p class="text-slate-400 text-lg">11000+ 服务器覆盖 100 国，新手友好型 VPN</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">服务器网络</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">隐私保护</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">流媒体解锁</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          CyberGhost VPN 是业内服务器规模最大的 VPN 之一，拥有 11000+ 台服务器覆盖 100 个国家和 125 个地点。总部位于罗马尼亚，属于非 5/9/14 Eyes 司法管辖区，通过 Deloitte 独立审计的无日志政策。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          以其易用性著称，提供针对流媒体、P2P 下载和游戏的专项优化服务器。支持 WireGuard、OpenVPN 和 IKEv2 协议，7 台设备同时连接。最长 45 天退款保证，是主流 VPN 中最长的退款周期之一。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          长期方案低至 $2.03/月，属于 Kape Technologies 集团（同属 ExpressVPN、ZenMate）。提供 NoSpy 自有服务器，进一步提升隐私安全保障。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">11000+ 服务器全球网络</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">覆盖 100 个国家 125 个地点，是业内服务器数量最多的 VPN。60% 为物理服务器，40% 为虚拟服务器，全球分布均衡，包括非洲 6 个地点和南美 9 个地点。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">专项优化服务器</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">流媒体服务器：针对 Netflix、Hulu、BBC iPlayer、Disney+ 等 35+ 平台在 22 个国家优化。P2P 服务器：86 个国家支持高速下载。游戏服务器：低延迟优化，适合在线游戏。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">隐私与无日志政策</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">总部位于罗马尼亚，不受五眼/九眼/十四眼联盟管辖。通过 Deloitte 独立审计的无日志政策，透明报告定期发布。NoSpy 自有服务器进一步加强隐私保护。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">45 天退款保证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">长期方案提供 45 天退款保证，是主流 VPN 中最长的试用周期。月付方案为 14 天退款。提供 24/7 在线客服和邮件支持。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多平台支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 Windows、macOS、iOS、Android、Linux 和智能电视。支持路由器安装，一次配置保护全网络设备。7 台设备同时连接。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Smart Rules 智能规则</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">可根据 WiFi 网络自动连接/断开 VPN，按应用分流（Split Tunneling），启动时自动运行。Block Content 广告跟踪拦截器，一键保护隐私。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 流媒体解锁</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">专项流媒体服务器覆盖 Netflix US/UK、Hulu、BBC iPlayer、Disney+、Amazon Prime Video 等 35+ 平台，简单一键连接即可解锁，无需手动配置。这是 CyberGhost 最强大的功能。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 隐私保护与匿名下载</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">罗马尼亚司法管辖 + Deloitte 审计无日志 + NoSpy 自有服务器，三重隐私保障。86 个国家 P2P 优化服务器，满足高质量匿名下载需求。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 在线游戏</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">低延迟游戏优化服务器，适合《Apex Legends》《Valorant》等在线游戏。多国服务器选择帮助获取地区独占内容或早期访问。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 跨境电商与市场调研</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">100 个国家服务器覆盖，查看各国搜索结果和定价信息。稳定的连接速度和全球节点分布满足日常跨境业务需求。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>11000+ 服务器，业内最大网络</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>专项流媒体服务器，解锁能力出色</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>45 天最长退款保证</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$2.03/月，超高性价比</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Deloitte 审计无日志 + NoSpy 服务器</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>新手友好的易用界面</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>属于 Kape Technologies 集团</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>远程地区连接速度下降明显</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>缺少多跳（Multi-Hop）功能</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>续费价格有上涨</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          CyberGhost VPN 以 11000+ 台服务器的庞大规模和专项流媒体解锁能力在 VPN 市场中独树一帜。对于初次使用 VPN 的用户，其直观的界面和预设的流媒体/P2P/游戏服务器大大降低了使用门槛。</p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Deloitte 审计的无日志政策和罗马尼亚司法管辖区提供了扎实的隐私保障。45 天退款保证更是体现了对产品质量的信心。虽然缺少多跳等高级功能，但对于绝大多数用户的日常使用绰绰有余。</p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，CyberGhost VPN 获得 8.0 分，特别推荐给流媒体爱好者和 VPN 新手用户。</p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.cyberghostvpn.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 CyberGhost VPN 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

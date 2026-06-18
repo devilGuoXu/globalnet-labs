@@ -1,0 +1,163 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="BitIP 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/bitip.webp`} alt="BitIP" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">BitIP 深度评测</h1>
+          <p class="text-slate-400 text-lg">亿级真实住宅 IP，美英德新泰原生家庭带宽</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">连通率</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          BitIP（比特）是江苏米亚信息科技有限公司运营的全球住宅代理 IP 服务商。拥有亿级真实住宅网络 IP，提供美国、英国、德国、新加坡、泰国等国家的原生家庭带宽代理。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          主打企业级大数据采集解决方案，住宅 IP 纯净来源于合规渠道，99.9% 连通率保障，7x24 小时 AI 筛选确保 IP 质量。支持 HTTP 和 SOCKS5 协议。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          注册即送 200MB 动态流量免费试用。支持微信、Telegram 中文客服。注意：所有产品仅支持中国大陆以外网络环境使用。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">亿级真实住宅网络</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">亿级真实住宅 IP 资源池，IP 纯净来源合规。7x24 小时 AI 自动筛选过滤不可用 IP，保证 IP 质量和可用率。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多国原生家庭带宽</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供美国、英国、德国、新加坡、泰国等国家的原生家庭带宽代理。原生住宅 IP 具有最高信任度，适合对 IP 纯净度要求高的场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">99.9% 连通率</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">通过智能路由保障隐私安全，99.9% 高连通率保证数据采集任务连续性。AI 实时监控 IP 状态，自动替换失效节点。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">200MB 免费试用</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">注册即送 200MB 动态流量，零成本体验服务质量。中文官网和微信/Telegram 客服，沟通无障碍。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">企业级解决方案</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">面向企业级大数据采集场景设计，高速稳定支持多线程并发。大客户经理提供一对一专属服务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">合规运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">正规 ICP 备案（苏ICP备2024151633号-2），持有《中华人民共和国增值电信业务许可证》B1-20250216。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 跨境电商数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">美英德等国的原生家庭带宽 IP 适合采集 Amazon、eBay 等平台数据。高纯净 IP 降低被封风险，99.9% 连通率保证数据采集的持续性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">原生住宅 IP 的高信任度适合 Facebook、Instagram、TikTok 等平台的批量账号管理。原生家庭带宽 IP 的纯净度减少平台风控触发。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO 排名监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">多国原生 IP 获取精准的本土搜索排名数据，智能路由保障长时间监控任务的稳定性和准确性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">多国原生住宅 IP 覆盖北美、欧洲和东南亚主要市场，适合跨区域广告投放验证和品牌保护监控。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>亿级真实住宅 IP，纯净合规</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>美英德新泰原生家庭带宽</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.9% 高连通率</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>200MB 免费试用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>中文客服 + 微信支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>正规 ICP 许可证</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅限中国大陆以外网络使用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>国家覆盖数量有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>价格信息不透明</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌较新</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          BitIP 以原生家庭带宽住宅 IP 为核心卖点，在 IP 纯净度方面形成了差异化优势。美英德新泰等国的原生 IP 特别适合对 IP 信任度要求高的跨境电商和社媒运营场景。</p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          200MB 免费试用和中文客服降低了国内用户的试错成本，正规 ICP 资质提供了合规保障。但国家覆盖偏少和仅限海外网络使用的限制是其短板。</p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，BitIP 获得 7.0 分，适合需要高纯净度原生住宅 IP 的跨境电商和社媒运营团队，尤其推荐给中国用户。</p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.bitip.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 BitIP 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

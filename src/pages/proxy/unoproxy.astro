@@ -1,0 +1,165 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="UnoProxy 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/unoproxy.webp`} alt="UnoProxy" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">UnoProxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">全球住宅&数据中心代理，动态住宅低至 $1.00/GB</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">5.5</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          UnoProxy 是一家提供全球住宅和数据中心代理 IP 的服务商，覆盖北美、欧洲和亚洲等多个区域。核心产品包括动态住宅代理、静态住宅代理和静态数据中心代理三大类。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          动态住宅代理 $1.00/GB 起，支持自动轮转和高并发请求；静态住宅代理 $5.00/月 起，提供稳定独占 IP；数据中心代理 $2.00/月 起，适合大规模任务。支持国家/城市级定位。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          无需复杂配置，统一管理面板。支持 HTTP/HTTPS/SOCKS5 协议。提供免费试用，支持批量采购阶梯折扣。支持中文界面。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">动态住宅代理 $1.00/GB</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">自动轮换 IP 突破封锁，全球节点高匿名性，支持高并发爬虫请求。按流量计费，灵活适配不同规模的数据采集任务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态住宅代理 $5.00/月</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">稳定独占 IP，真实住宅网络降低风控风险。可选国家/城市自由配置，适合多账号运营和长期登录场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">数据中心代理 $2.00/月</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">高速稳定低延迟连接，海量 IP 池快速部署。成本极低，适合大规模批量任务和预算敏感项目。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">全球多区域覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">IP 池覆盖北美、欧洲和亚洲，满足全球业务扩展需求。支持国家/城市级定位，精准获取目标市场数据。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">灵活定价与批量折扣</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">阶梯定价机制，批量采购享折扣（1-9、10-99、100+ 阶梯）。动态住宅按流量计费，静态按固定月费，满足不同预算需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">中文界面 + 免费试用</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持中文官网和后台，降低中文用户使用门槛。注册即可免费试用，零成本体验服务质量。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 数据采集与爬虫</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">动态住宅 $1.00/GB 超低价格，自动轮转 IP 适合大规模电商数据采集、SEO 监控和舆情分析。高并发支持保证采集效率。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 跨境电商多账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">静态住宅代理 $5/月 提供稳定纯净 IP，适合 Amazon、Shopee 等平台多店铺运营。可选城市级 IP 精准匹配目标市场。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 社媒运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">静态住宅 IP 低风险评分，适合 Facebook、TikTok 等平台的批量账号管理和矩阵运营。稳定连接保证长期使用不被风控。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 广告验证与品牌保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">北美、欧洲、亚洲多区域覆盖，验证广告投放效果和品牌侵权监控。动态 IP 轮转避免检测。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>动态住宅 $1.00/GB 超低价</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅+数据中心三种产品线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$2/月 数据中心，极致性价比</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>中文界面 + 免费试用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>批量采购阶梯折扣</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>城市级精准定位</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌较新，知名度有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>区域覆盖以欧美亚为主</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>缺少移动代理产品</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>社区口碑尚需积累</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          UnoProxy 以 $1.00/GB 的动态住宅代理价格在市场中形成了显著的性价比优势。住宅+数据中心三种产品线覆盖了从数据采集到多账号运营的广泛场景。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          中文界面和免费试用降低了国内用户的试错门槛，批量采购折扣对中大规模团队友好。不过品牌知名度尚需时间和市场验证。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，UnoProxy 获得 7.0 分，适合追求高性价比的跨境电商、数据采集团队，尤其推荐给需要中文支持的用户。</p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.unoproxy.net/zh" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 UnoProxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

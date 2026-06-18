@@ -268,5 +268,20 @@
     "affiliateUrl": "https://hide.me/zh/",
     "couponCode": "",
     "detailUrl": "/vpn/hide-me"
+  },
+  {
+    "id": "cyberghostvpn",
+    "name": "CyberGhost VPN",
+    "type": "vpn",
+    "rating": 8.0,
+    "price": "$2.03/月起",
+    "jurisdiction": "罗马尼亚（非5/9/14 Eyes）",
+    "protocols": ["WireGuard", "OpenVPN", "IKEv2"],
+    "isFeatured": false,
+    "badge": "11000+服务器",
+    "features": ["11000+服务器100国家", "Deloitte审计无日志", "45天退款保障", "7台同时连接"],
+    "affiliateUrl": "https://www.cyberghostvpn.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/cyberghostvpn"
   }
 ]

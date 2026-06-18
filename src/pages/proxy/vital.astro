@@ -1,0 +1,165 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Vital Proxies 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/vital.webp`} alt="Vital Proxies" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Vital Proxies 深度评测</h1>
+          <p class="text-slate-400 text-lg">住宅/移动/ISP 代理一站式服务，按量付费 $4.50/GB</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">稳定性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Vital Proxies 是一家快速成长的代理服务商，提供住宅、移动和 ISP 三种代理类型。覆盖 180+ 国家，以按量付费（Pay As You Go）模式为核心卖点，住宅代理最低 $4.50/GB。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          突出特点是价格极具竞争力且支持信用卡和加密货币支付。统一仪表盘管理所有代理产品，支持 API 自动化和集成。粘性会话最长 30 分钟或每次请求轮转，高级方案支持城市/州级定位和最长 3 天粘性。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          适合数据采集、社媒管理、抢鞋抢票等场景。24/7 客服支持。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">三种代理类型</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理（180+ 国家，HTTP/HTTPS，30 分钟粘性或轮转）、静态 ISP 代理（SOCKS4/5 支持）、移动代理。一个仪表盘管理所有产品。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">按量付费模式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理 $4.50/GB 起，用多少付多少，无需预购套餐。最低方案 $1.40/GB。信用卡和加密货币支付，即买即用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">180+ 国家覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">从控制面板选择所需国家的代理，全球覆盖满足多地区业务需求。高级方案支持城市和州级地理定位。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">灵活会话控制</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">基础方案保持同一 IP 最长 30 分钟或每次请求轮转。高级方案支持最长 3 天粘性会话，适合需要长期稳定 IP 的任务。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">统一控制面板</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">直观的仪表盘管理所有代理，支持 API 访问实现自动化集成。即时交付，购买后立即使用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">高性价比 + 好评口碑</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Trustpilot 评分优秀，用户称赞价格合理和客服响应迅速。在 Reddit 等社区也有较高的讨论度。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 数据采集与监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">按量付费 $4.50/GB，适合电商价格监控、SEO 排名追踪和竞品分析。30 分钟粘性会话保证采集稳定性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 抢鞋与票务</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">高级方案支持最长 3 天粘性会话和城市级定位，适合限量版运动鞋和演唱会票务自动化购买。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 社媒账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅和 ISP 代理适合社媒平台的多账号运营，SOCKS5 协议支持灵活配置。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 机器学习数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全球 180+ 国家的多样化数据源，匿名采集训练数据，突破地理限制获取全面的 AI 数据集。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$4.50/GB 起，价格极具竞争力</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅/移动/ISP 三种代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>按量付费，灵活无合约</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支持信用卡和加密货币</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>180+ 国家城市级定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Trustpilot 高评分</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分用户反馈偶有稳定性问题</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>基础方案仅 HTTP/HTTPS</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>粘性会话基础方案仅 30 分钟</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>相较主流厂商 IP 池较小</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Vital Proxies 以极具竞争力的价格和灵活的按量付费模式在代理市场中脱颖而出。$4.50/GB 的住宅代理定价远低于行业平均水平，三种代理类型覆盖了从数据采集到抢票抢鞋的多种场景。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          虽然在 IP 池规模和稳定性方面与一线厂商仍有差距，但 Trustpilot 上的良好口碑证明了其服务质量。对于预算敏感的用户来说，Vital Proxies 是一个性价比极高的选择。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，Vital Proxies 获得 7.0 分，适合追求高性价比的跨境电商、数据采集团队和抢鞋爱好者。</p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.vital-proxies.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Vital Proxies 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
