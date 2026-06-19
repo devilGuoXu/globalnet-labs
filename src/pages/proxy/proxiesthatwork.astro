@@ -1,0 +1,163 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="ProxiesThatWork 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/proxiesthatwork.webp`} alt="ProxiesThatWork" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">ProxiesThatWork 深度评测</h1>
+          <p class="text-slate-400 text-lg">超高性价比数据中心代理，150 代理仅 $3/月</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">速度与稳定性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">易用性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxiesThatWork 主打"真正能用的便宜代理"，专注于提供经过验证的高质量数据中心代理。150 个代理仅 $3/月，每个代理低至 $0.02，是市场上最具性价比的选择之一。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          所有代理经过 1000+ 网站的兼容性验证，每 60 秒检测一次在线状态，99.9% 网络在线率。支持 HTTP/HTTPS 协议、IP 认证。覆盖美国多个城市。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          支持 7 天退款保证。即买即用，无需复杂配置。提供 150、1000、2500 代理三档套餐。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">$3/月 超低价入门</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">150 个代理仅 $3/月，每个代理成本 $0.02。1000 代理 $20/月，2500 代理 $50/月。适合预算有限的个人和小团队。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">千站兼容验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有代理经过 1000+ 主流网站的兼容性测试，确保开箱即用。覆盖搜索、社交、电商等主流平台，减少试错成本。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">每 60 秒在线检测</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">每个代理每 60 秒确认一次在线状态，99.9%+ 网络在线率。100+ 全球地点可用性测试，确保从任何地方都能连接。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">即买即用</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">购买后即时生效，无需等待。支持 IP 白名单认证，简单配置即可使用。7 天退款保证，零风险试用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">美国多城市覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">代理覆盖美国多个城市，满足不同地理位置的业务需求。HTTP/HTTPS 协议支持，适配各类工具和脚本。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">专业博客资源</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供数据中心 vs 住宅代理成本对比、轮转住宅代理最佳实践等专业指南。帮助用户做出明智的代理选择决策。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 预算有限的个人项目</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">$3/月 的入门价格适合个人开发者、学生的爬虫项目、SEO 监控和价格追踪。低成本试水代理应用场景。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">数据中心代理满足 90% 的广告验证需求。美国多城市覆盖适合验证 Search Ads、Display 广告投放效果。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. SEO 监控与排名追踪</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">美国多城市 IP 获取本地化搜索排名数据。定期轮换 IP 避免搜索引擎限制。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 社交媒体管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">经过 1000+ 站点验证，兼容主流社交平台。多个代理支持多账号管理，即买即用快速部署。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>150 代理仅 $3/月，极致性价比</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>1000+ 网站兼容性验证</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>每 60 秒检测，99.9% 在线率</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>7 天退款保证</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>即买即用，配置简单</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>专业博客内容丰富</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅数据中心代理，无住宅代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅限美国城市</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅 HTTP/HTTPS，无 SOCKS5</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>IP 池规模较小</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProxiesThatWork 以 $3/月 150 代理的超低价格在数据中心代理市场中独树一帜。1000+ 网站兼容验证和每 60 秒在线检测的品控策略，让"便宜"不再意味着"不好用"。</p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          对于预算敏感的个人开发者和中小团队来说，这是入门代理场景的最佳选择之一。7 天退款保证进一步降低了决策风险。</p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，ProxiesThatWork 获得 7.0 分，特别推荐给需要低成本数据中心代理进行 SEO 监控、广告验证和基础数据采集的用户。</p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.proxiesthatwork.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 ProxiesThatWork 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

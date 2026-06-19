@@ -2354,6 +2354,19 @@
     "detailUrl": "/proxy/proxysolutions"
   },
   {
+    "id": "proxiesthatwork",
+    "name": "ProxiesThatWork",
+    "type": "datacenter-proxy",
+    "rating": 7.0,
+    "poolSize": "2500+ IPs",
+    "proxyTypes": ["数据中心代理"],
+    "isFeatured": false,
+    "badge": "$3/月起",
+    "features": ["150代理$3/月", "千站兼容验证", "99.9%在线率", "HTTP/HTTPS"],
+    "affiliateUrl": "https://www.proxiesthatwork.com/",
+    "detailUrl": "/proxy/proxiesthatwork"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
