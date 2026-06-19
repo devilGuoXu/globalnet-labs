@@ -365,6 +365,10 @@ const filtered = proxiesData.filter(p => whitelist.includes(p.id)).sort((a, b) =
                     <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
                       <img src={`${base}/images/proxies-sx.webp`} alt="PROXIES.SX" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
                     </div>
+                  ) : proxy.id === 'nexip' ? (
+                    <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+                      <img src={`${base}/images/nexip.webp`} alt="NexIP" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+                    </div>
                   ) : (
                     <img src={`${base}/images/${proxy.id === 'kocerroxy' ? proxy.id + '-logo.svg' : proxy.id === 'proxy.market' ? 'proxy-market.png' : proxy.id === 'resigg' ? 'resi-gg.webp' : proxy.id === 'proxysolutions' ? 'proxy-solutions.webp' : proxy.id === 'proxiessx' ? 'proxies-sx.webp' : proxy.id === 'hydraproxy' || proxy.id === 'proxysentinel' || proxy.id === 'ipipd' || proxy.id === 'vital' || proxy.id === 'unoproxy' || proxy.id === 'hqproxy' || proxy.id === 'jibaoproxy' || proxy.id === 'proxiesthatwork' || proxy.id === 'globalbyte' || proxy.id === 'lokiproxy' || proxy.id === 'rarecloud' || proxy.id === 'nexip' || proxy.id === 'udealproxy' ? proxy.id + '.webp' : proxy.id + '.png'}`} alt={proxy.name} class="h-14 w-auto self-center" />
                   )
