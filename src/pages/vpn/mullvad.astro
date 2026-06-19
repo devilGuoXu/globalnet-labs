@@ -1,0 +1,164 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Mullvad VPN 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/mullvad.webp`} alt="Mullvad VPN" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Mullvad VPN 深度评测</h1>
+          <p class="text-slate-400 text-lg">极简隐私保护，€5/月定价透明</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">5.5</div>
+            <div class="text-xs text-slate-500 mt-1">服务器覆盖</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">隐私保护</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Mullvad VPN 成立于 2009 年，总部位于瑞典，是全球最注重隐私保护的 VPN 服务之一。以固定的 €5/月定价和无需邮箱注册的匿名账户系统闻名。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          支持 WireGuard 和 OpenVPN 协议，提供 700+ 服务器覆盖 40+ 国家。采用严格的无日志政策，所有服务器均为自营，支持现金和加密货币支付。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          所有应用均为开源，可独立审计。支持 5 台设备同时连接。在隐私保护领域口碑极佳。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">无需邮箱注册</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Mullvad 不要求邮箱、手机号等个人信息。系统自动生成匿名账户号，支持现金邮寄支付，真正做到 100% 匿名注册。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">固定 €5/月定价</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">不论订阅时长，每月统一 €5。无阶梯定价、无促销活动、无续费涨价。定价透明且简单，在 VPN 行业中独树一帜。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">WireGuard 原生支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Mullvad 是最早全面支持 WireGuard 协议的 VPN 之一。提供原生 WireGuard 密钥管理，速度优秀，延迟低。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">开源透明</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有客户端应用 100% 开源，包括 Windows、macOS、Linux、iOS 和 Android 版本。安全研究人员可随时审查代码。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">瑞典隐私管辖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">总部位于瑞典，受瑞典法律保护。严格的无日志政策，多次经第三方审计验证。支持现金支付，无需任何数字身份。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多支付方式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持信用卡、PayPal、比特币、比特币现金、Monero、电汇甚至实体现金邮寄。Monero 支付额外提供隐私折扣。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 极致隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">无需邮箱注册 + 现金支付 + 瑞典隐私管辖，适合对隐私有最高要求的用户。开源应用和独立审计增强可信度。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 日常匿名浏览</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">€5/月固定价格简洁透明，适合日常网络隐私保护。WireGuard 协议保证速度和稳定性。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 匿名支付场景</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 Monero 和现金邮寄支付，适合需要完全匿名支付的用户。Monero 支付还有隐私折扣优惠。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. P2P 文件共享</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 P2P 和 BitTorrent，无日志政策保障文件共享安全。所有服务器均支持端口转发。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无需邮箱，100% 匿名</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>€5/月固定定价透明</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>WireGuard 原生支持</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>全部应用开源</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支持现金/Monero 支付</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>服务器仅 40+ 国家</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无流媒体解锁优化</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>基础功能较少</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>中国大陆无法直接使用</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Mullvad VPN 以极简隐私哲学和透明定价在 VPN 市场中独树一帜。无需邮箱注册、现金邮寄支付、全部应用开源，在隐私保护领域达到了业界最高标准。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          €5/月固定定价无需比价无需担心续费涨价，WireGuard 原生支持保证了优秀的连接速度。但服务器覆盖和流媒体解锁能力相对有限。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，Mullvad VPN 获得 7.0 分，特别适合对隐私保护要求极高的用户。</p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://mullvad.net/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Mullvad VPN 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

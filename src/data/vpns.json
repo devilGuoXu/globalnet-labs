@@ -3,16 +3,16 @@
     "id": "mullvad",
     "name": "Mullvad VPN",
     "type": "vpn",
-    "rating": 9.5,
+    "rating": 7.0,
     "price": "€5.00/月",
     "jurisdiction": "瑞典（严格隐私保护）",
     "protocols": ["WireGuard", "OpenVPN"],
-    "isFeatured": true,
-    "badge": "年度隐私之王",
-    "features": ["无需邮箱注册", "100% 匿名账户", "WireGuard 原生支持"],
+    "isFeatured": false,
+    "badge": "€5/月",
+    "features": ["无需邮箱注册", "100% 匿名账户", "WireGuard 原生支持", "隐私保护典范"],
     "affiliateUrl": "https://mullvad.net/",
     "couponCode": "",
-    "detailUrl": "https://mullvad.net/"
+    "detailUrl": "/vpn/mullvad"
   },
   {
     "id": "nordvpn",
