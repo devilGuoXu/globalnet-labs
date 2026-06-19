@@ -343,5 +343,20 @@
     "affiliateUrl": "https://nexitally.com/",
     "couponCode": "",
     "detailUrl": "/vpn/nexitally"
+  },
+  {
+    "id": "wgetcloud",
+    "name": "WgetCloud",
+    "type": "vpn",
+    "rating": 7.0,
+    "price": "¥69/月起",
+    "jurisdiction": "香港（BGP多线）",
+    "protocols": ["V2Ray", "Trojan", "WireGuard"],
+    "isFeatured": false,
+    "badge": "29+节点",
+    "features": ["29+节点全球覆盖", "BGP多线智能路由", "解锁Netflix/Disney+", "3台同时连接"],
+    "affiliateUrl": "https://wgetcloud.ltd",
+    "couponCode": "",
+    "detailUrl": "/vpn/wgetcloud"
   }
 ]
