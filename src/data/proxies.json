@@ -2341,6 +2341,19 @@
     "detailUrl": "/proxy/resigg"
   },
   {
+    "id": "proxysolutions",
+    "name": "Proxy Solutions",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "全球覆盖",
+    "proxyTypes": ["住宅代理", "移动代理", "ISP代理", "数据中心代理"],
+    "isFeatured": false,
+    "badge": "28+国家",
+    "features": ["住宅/移动/ISP代理", "28+国家覆盖", "不限流量", "HTTP/HTTPS/SOCKS5"],
+    "affiliateUrl": "https://proxy-solutions.net/",
+    "detailUrl": "/proxy/proxysolutions"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",

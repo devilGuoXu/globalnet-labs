@@ -1,0 +1,163 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Proxy Solutions 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/proxy-solutions.webp`} alt="Proxy Solutions" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Proxy Solutions 深度评测</h1>
+          <p class="text-slate-400 text-lg">住宅/移动/ISP 代理，不限流量，低至 $0.95/IP/月</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxy Solutions 是专业的代理基础设施提供商，专注于静态私有代理（不限流量）。提供住宅代理、移动 4G/5G 代理、ISP 代理和数据中心代理等多种类型，覆盖 28+ 国家 200+ 地点。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          所有代理不限流量，按 IP 或端口计费。住宅/ISP 代理低至 $0.95/IP/月。支持 HTTP、HTTPS、SOCKS5 协议，带宽最高 100 Mbps。99.97% 在线率保障。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          支持 API 集成和 Telegram 机器人管理。即买即用，无需注册。支持 Visa/Mastercard、加密货币等多种支付方式。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">不限流量静态代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有代理不限流量，按 IP 或端口计费。IPv4 私有代理，ISP 或 Residential/Business 类型。带宽高达 100 Mbps，稳定连接保障。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多种代理类型</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅/ISP 代理（$0.95/IP/月）、移动 4G/5G 代理、数据中心代理、专属移动代理。覆盖俄罗斯、乌克兰、哈萨克斯坦、美国、欧洲等 28+ 国家。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">全自动即时交付</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支付完成后代理自动出现在个人中心，无需等待。API 接口方便开发者集成。Telegram 机器人多通道管理。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多协议支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">HTTP/HTTPS/SOCKS5 协议全支持。支持用户名/密码和 IP 白名单两种认证方式。灵活适配各种工具和自动化系统。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">99.97% 高在线率</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">持续监控设备和网络基础设施，保障高可用性。4 小时内退款保证，降低使用风险。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">全球 200+ 地点</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">28+ 国家，200+ 城市级定位。支持 OnlyFans、社媒运营、广告验证等专业场景。移动代理 Trustpilot 4.5+ 评分。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. OnlyFans 账号管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">移动 4G/5G 代理和住宅 ISP 代理是 OnlyFans 的最佳选择。$0.95/IP/月起，不限流量。支持反检测浏览器兼容，24 小时内更换保障。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒矩阵运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">静态住宅 ISP 代理低至 $0.95/IP/月，适合 Facebook、Instagram、TikTok 等平台的批量账号运营。不限流量，长期稳定。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 数据采集与市场研究</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">不限流量和高带宽（100 Mbps）适合大规模数据采集。API 接口便于自动化集成。200+ 地点覆盖提供精准本地化数据。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">28+ 国家 200+ 城市精准定位，住宅和 ISP 代理通过广告平台风控检测。24/7 技术支持保障验证任务顺利进行。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$0.95/IP/月，极致性价比</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>所有代理不限流量</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>住宅/移动/ISP/数据中心全覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>99.97% 在线率</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>API + Telegram 机器人管理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>4 小时内退款保障</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>国家覆盖 28+，不如主流厂商广</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>主要聚焦东欧/独联体地区</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无免费试用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无轮转住宅代理</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Proxy Solutions 以 $0.95/IP/月的超低价格和不限流量的静态代理模式在目标市场中建立了强大竞争力。住宅/移动/ISP/数据中心四种代理类型满足从社媒运营到数据采集的全场景需求。</p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          99.97% 在线率和 4 小时退款保障体现了服务质量信心。API 和 Telegram 机器人管理降低了运维成本。但国家覆盖范围主要聚焦东欧和独联体地区是其主要局限。</p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，Proxy Solutions 获得 7.0 分，特别推荐给需要东欧/独联体 IP 的 OnlyFans 创作者、社媒运营团队和价格敏感型用户。</p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://proxy-solutions.net/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Proxy Solutions 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
