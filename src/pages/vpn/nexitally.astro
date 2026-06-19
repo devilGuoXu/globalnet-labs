@@ -1,0 +1,165 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Nexitally 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/nexitally.webp`} alt="Nexitally" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Nexitally 深度评测</h1>
+          <p class="text-slate-400 text-lg">自研面板 IEPL 专线，流媒体解锁天花板</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">线路稳定性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">流媒体解锁</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">技术实力</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Nexitally（奶昔机场）成立于 2017 年，是一家以自研技术著称的专线机场。采用全自主研发的控制面板，支持 Shadowsocks 和 Trojan 协议，配合 IEPL 专线 + BGP 中继架构。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          拥有 100+ ISP Peer 互联，自有 AS 号和 2000+ IP 地址。基础套餐 ¥123/月提供 500GB 流量，最高 2000Mbps 带宽。提供 Windows、macOS 和 Android 官方定制客户端。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          Netflix、Disney+、ChatGPT 全面解锁。支持购买独立 IP 用于跨境电商防关联。基础套餐 2 台设备同时在线。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">自研控制面板</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全自主研发面板，不依赖 SSpanel 或 V2board 等第三方系统。支持智能接入点分配，根据网络运营商（电信/联通/移动）自动优化接入线路。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">IEPL 专线 + BGP 中继</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">运营商直签专线，中国大陆 BGP 中继优化。与 100+ 运营商和内容提供商直接互联，自有 AS 号覆盖亚洲、欧洲、美洲、非洲与大洋洲核心网络。最高 2000Mbps 带宽。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">流媒体解锁</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Netflix、Disney+、HBO Max、ChatGPT 均可解锁。自有 AS 下 2000+ IP 地址，各地区节点精准对应本地内容库（香港→HK 库，美国→US 库）。支持路由器级别的流媒体解锁。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">独家独立 IP</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">可购买独享纯净 IP，适合跨境电商防关联、电商运营等需要固定 IP 的业务。TikTok 访问和直播场景可正常使用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Multi-Protocol 支持</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 Shadowsocks 和 Trojan 协议。带有 MPTCP 特性的独家隧道技术，安全快速通过防火墙审查。全平台定制客户端一键连接。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">企业级基础设施</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Kirino、HGC 等高端落地节点，多线国内服务器冗余接入。晚高峰带宽几乎无波动，亚太节点速度领先。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 流媒体观看</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Netflix、Disney+、HBO Max 精准解锁，各地区节点对应本地内容库。路由器级别解锁让智能电视等设备轻松享受流媒体。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 跨境电商运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">独立 IP 服务适合跨境电商防关联，TikTok 访问和直播场景可正常使用。固定纯净 IP 保障店铺运营安全。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. AI 工具访问</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">香港、美国、台湾、新加坡等主力节点均可正常访问 ChatGPT。支持 ChatGPT 3.5 会员服务。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 企业办公加速</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">IEPL 专线稳定可靠，适合远程办公和国际业务访问。自研面板和智能接入点分配降低运维复杂度。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>自研面板，技术独立</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>IEPL 专线 + BGP 中继</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>流媒体解锁全面</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>自有 AS + 2000+ IP</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>独立 IP 可选</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>全平台定制客户端</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>价格偏高（¥123/月）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>基础套餐仅 2 台设备</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>Spotify 禁止注册</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>独立 IP 后流媒体解锁失效</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Nexitally 以其自研技术架构在机场市场中独树一帜，IEPL 专线 + BGP 中继提供了出色的线路稳定性。Netflix、Disney+、ChatGPT 等主流平台的全面解锁和自有 AS 下的 2000+ IP 地址，展示了其流媒体解锁能力。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          独立 IP 服务和智能接入点分配等差异化功能，满足了跨境电商和企业办公等场景需求。但 ¥123/月的基础定价和 2 台设备的限制，使其性价比相对一般。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，Nexitally 获得 7.0 分，特别适合对流媒体解锁和线路稳定性有高要求的用户。</p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://nexitally.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Nexitally 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

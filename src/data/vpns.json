@@ -328,5 +328,20 @@
     "affiliateUrl": "https://protonvpn.com/",
     "couponCode": "",
     "detailUrl": "/vpn/protonvpn"
+  },
+  {
+    "id": "nexitally",
+    "name": "Nexitally",
+    "type": "vpn",
+    "rating": 7.0,
+    "price": "¥123/月起",
+    "jurisdiction": "香港（IEPL专线）",
+    "protocols": ["Shadowsocks", "Trojan"],
+    "isFeatured": false,
+    "badge": "2000Mbps带宽",
+    "features": ["IEPL专线+BGP中继", "自研控制面板", "解锁Netflix/ChatGPT", "2台同时连接"],
+    "affiliateUrl": "https://nexitally.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/nexitally"
   }
 ]
