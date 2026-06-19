@@ -2393,6 +2393,19 @@
     "detailUrl": "/proxy/proxiessx"
   },
   {
+    "id": "lokiproxy",
+    "name": "LokiProxy",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "3500万+ IPs",
+    "proxyTypes": ["动态住宅代理", "静态住宅代理", "不限流量代理"],
+    "isFeatured": false,
+    "badge": "190+国家",
+    "features": ["3500万+住宅IP", "190+国家覆盖", "Premium低至$0.48/GB", "HTTP/HTTPS/SOCKS5"],
+    "affiliateUrl": "https://lokiproxy.com/",
+    "detailUrl": "/proxy/lokiproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
