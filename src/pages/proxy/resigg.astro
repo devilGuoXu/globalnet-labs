@@ -1,0 +1,163 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="Resi.GG 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/resi-gg.webp`} alt="Resi.GG" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">Resi.GG 深度评测</h1>
+          <p class="text-slate-400 text-lg">1.95 亿+ 住宅 IP，动态住宅仅 $3.60/GB</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Resi.GG 是全球住宅代理服务商，拥有 1.95 亿+ 住宅 IP，覆盖 195+ 个国家和地区。提供轮转住宅、静态住宅（ISP）、移动代理和数据中心代理四种产品线。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          轮转住宅代理 $3.60/GB 起，交通量永不过期。静态住宅 $3.40/代理起，不限流量。支持 HTTP、HTTPS、SOCKS5 协议，城市/州/ISP 级精准定位。粘性会话最长 24 小时。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          无需合约，即用即付。免费注册无需信用卡。支持 IPv4 和 IPv6，无限并发会话和线程。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1.95 亿+ 住宅 IP 池</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全球最大住宅代理网络之一，195+ 国家覆盖。真实住宅设备 IP，城市/州/ISP 级精准定位。IPv4 和 IPv6 双栈支持。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">四种代理产品</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">轮转住宅（$3.60/GB）、静态住宅 ISP（$3.40/代理）、移动代理、数据中心代理。按量付费，无合约无月费。流量永不过期。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">交通量永不过期</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">购买的带宽流量无有效期，按自己的节奏使用。无需担心流量过期浪费。按量计费，灵活扩展。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">灵活会话控制</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">每次请求自动轮转 IP 或最长 24 小时粘性会话。无限并发会话和线程，无速率限制。适合大规模数据采集。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">静态住宅 ISP</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">专属静态住宅 IP 永不变化，不限流量。31+ 国家可选，SOCKS5 支持。适合电商多店铺运营和社媒账号管理。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">批发与代理计划</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持批量折扣、代理转售计划和自定义 SLA。专属客服支持。企业级基础设施保障 99.9% 在线率。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 大规模数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">1.95 亿+ IP 池，无限并发和轮转模式。$3.60/GB 的价格极具竞争力，流量永不过期。适合电商价格监控、SEO 追踪和市场调研。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 电商多店铺管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">静态住宅 ISP $3.40/代理，专属 IP 不限流量。适合 Amazon、Shopee、eBay 等平台的多店铺运营，IP 永不变化降低风控风险。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 社媒账号运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">移动代理 130+ 国家覆盖，适合 TikTok、Instagram 等平台的账号注册和矩阵管理。24 小时粘性会话保障长期任务稳定。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">城市/州级精准定位，195+ 国家覆盖。IPv6 支持提供额外 IP 资源。零速率限制适合大规模广告投放验证。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>1.95 亿+ 住宅 IP，全球最大之一</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$3.60/GB 动态住宅，价格极低</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>流量永不过期</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>静态住宅 $3.40/代理不限流量</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>IPv4 + IPv6 双栈</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费注册无需信用卡</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌较新，知名度有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>数据中心仅 52+ 国家</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>未公开审计信息</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>社区口碑尚需积累</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Resi.GG 以 1.95 亿+ 住宅 IP 和 $3.60/GB 的极致性价比在代理市场中建立了强有力的竞争地位。四种产品线覆盖了轮转住宅到静态 ISP 的全场景需求。</p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          流量永不过期和无限并发的政策对大规模采集团队极具吸引力。免费注册无需信用卡降低了用户获取门槛。IPv6 支持更是面向未来的技术优势。</p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，Resi.GG 获得 7.0 分，特别推荐给需要大流量、高性价比住宅代理的跨境电商和数据采集团队。</p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://resi.gg/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 Resi.GG 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

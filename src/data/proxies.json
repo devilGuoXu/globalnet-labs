@@ -2328,6 +2328,19 @@
     "detailUrl": "/proxy/jibaoproxy"
   },
   {
+    "id": "resigg",
+    "name": "Resi.GG",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "1.95亿+ IPs",
+    "proxyTypes": ["住宅代理", "静态住宅代理", "移动代理", "数据中心代理"],
+    "isFeatured": false,
+    "badge": "1.95亿+ IP",
+    "features": ["1.95亿+住宅IP", "195+国家覆盖", "动态$3.60/GB", "HTTP/HTTPS/SOCKS5"],
+    "affiliateUrl": "https://resi.gg/",
+    "detailUrl": "/proxy/resigg"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
