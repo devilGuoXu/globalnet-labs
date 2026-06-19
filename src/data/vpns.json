@@ -283,5 +283,20 @@
     "affiliateUrl": "https://www.cyberghostvpn.com/",
     "couponCode": "",
     "detailUrl": "/vpn/cyberghostvpn"
+  },
+  {
+    "id": "ssrdog",
+    "name": "SSRDOG",
+    "type": "vpn",
+    "rating": 7.0,
+    "price": "¥25/月起",
+    "jurisdiction": "新加坡",
+    "protocols": ["Shadowsocks", "IEPL/IPLC专线"],
+    "isFeatured": false,
+    "badge": "66+节点",
+    "features": ["66+节点17国家", "IEPL/IPLC内网专线", "解锁Netflix/ChatGPT", "24小时免费试用"],
+    "affiliateUrl": "https://dog.ssrdog.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/ssrdog"
   }
 ]
