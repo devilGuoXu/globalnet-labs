@@ -1,0 +1,162 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="RareCloud 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/rarecloud.webp`} alt="RareCloud" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">RareCloud 深度评测</h1>
+          <p class="text-slate-400 text-lg">全面代理类型覆盖，欧洲节点核心</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">代理类型</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.5</div>
+            <div class="text-xs text-slate-500 mt-1">节点覆盖</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">不限流量</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          RareCloud 是一家全面型代理服务商，提供动态住宅、4G 移动、Multi-SIM、数据中心和 VPN 移动代理五种代理类型。核心节点位于奥地利（欧洲），支持 HTTP/HTTPS 和 SOCKS5 协议。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          所有代理均不限流量带宽，支持用户名/密码或 IP 白名单认证。4G 移动代理覆盖德国（O2）、奥地利（A1/MAGENTA）、葡萄牙（MEO）和美国（AT&T）。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          Multi-SIM 代理组合 5+ 物理 SIM 卡实现零停机，每日 15,000+ IP。VPN 移动代理结合 WireGuard/OpenVPN 加密，适合高度封锁平台。住宅 ISP 代理始于 €4.90/月。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">五种代理类型</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">动态住宅、4G 移动、Multi-SIM、数据中心、VPN 移动代理全覆盖。每种类型针对不同场景优化，从高速数据采集到超强匿名性一应俱全。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Multi-SIM 零停机</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">5+ 物理 SIM 卡组合单端点，SIM 级冗余确保连接自动切换。每日 15,000+ 独立 IP，95-99% 高风控网站成功率。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">不限流量带宽</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有代理类型不限流量、不限带宽。建议每分钟 200 线程以内以避免 ISP 限制，适合大规模数据采集和广告验证。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">VPN 移动代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">真实移动 IP + WireGuard/OpenVPN 加密，业界最先进的隐身代理方案。适合攻击性封锁代理的平台。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4G 移动代理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">德国、奥地利、葡萄牙、美国四大国家覆盖，主流运营商（AT&T、O2、A1、MAGENTA、MEO）。自动 IP 轮换，纯正蜂窝 IP。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">双协议 + 双认证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">HTTP/HTTPS 和 SOCKS5 双协议，同端口支持自由切换。用户名/密码或 IP 白名单认证，24/7 技术支持。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 社交媒体管理</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">4G 移动代理和 VPN 移动代理适合社媒账号注册和管理。真实蜂窝 IP 难以被风控系统检测。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 电商情报分析</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Multi-SIM 代理 15,000+ 日 IP 和高成功率适合竞品价格监控和库存追踪。不限流量适合大规模数据采集。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅 ISP 代理和 4G 移动代理提供真实网络身份，适合广告投放验证和品牌保护。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 高风控业务</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">VPN 移动代理加密传输 + 真实移动 IP，适合对代理检测最严格的平台操作。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>五种代理类型全覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>不限流量带宽</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Multi-SIM 零停机</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>VPN 移动代理加密</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>HTTP/SOCKS5 双协议</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>核心节点仅奥地利</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>4G 仅 4 国覆盖</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅代理供应商用（€4.90/月）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>人工开通较慢（24-48h）</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          RareCloud 以五种代理类型全覆盖和不限流量为核心竞争力。Multi-SIM 零停机技术和 VPN 移动代理加密方案在高风控场景中表现突出。</p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          欧洲奥地利核心节点保证了 GDPR 合规环境，但节点地理覆盖相对局限。不限流量策略适合大规模数据采集和广告验证业务。</p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，RareCloud 获得 7.0 分，特别适合欧洲市场运营和高风控规避需求的用户。</p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://rarecloud.io/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 RareCloud 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

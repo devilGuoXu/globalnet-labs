@@ -56,6 +56,14 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
                   <div class="shrink-0 flex items-center justify-center">
                     <img src={`${base}/images/ssrdog.webp`} alt="SSRDOG" class="h-8 w-auto self-center" />
                   </div>
+                ) : vpn.id === 'wgetcloud' ? (
+                  <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+                    <img src={`${base}/images/wgetcloud.webp`} alt="WgetCloud" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+                  </div>
+                ) : vpn.id === 'vyprvpn' ? (
+                  <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+                    <img src={`${base}/images/vyprvpn.webp`} alt="VyprVPN" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+                  </div>
                 ) : (
                   <div class="shrink-0 flex items-center justify-center">
                     <img src={`${base}/images/${vpn.id}.${['getfoxyproxy','okayvpn','surfshark','highproxies','expressvpn','proton','ip2proxy','ipvanish','nordvpn','privatevpn','nym','purevpn','starvpn','iprovpn','hide-me','cyberghostvpn','ssrdog','boostnet','protonvpn','nexitally','wgetcloud','vyprvpn'].includes(vpn.id) ? 'webp' : 'png'}`} alt={vpn.name} class="h-14 w-auto self-center" />

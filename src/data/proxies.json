@@ -3716,5 +3716,44 @@
     "features": ["巴西运营商IP（Vivo/Claro/TIM/Oi）", "自动IP轮换", "HTTP/SOCKS5支持", "不限流量带宽"],
     "affiliateUrl": "https://proxybrazil.com/",
     "detailUrl": "/proxy/proxybrazil"
+  },
+  {
+    "id": "rarecloud",
+    "name": "RareCloud",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "多类型代理",
+    "proxyTypes": ["动态住宅", "4G移动", "Multi-SIM", "数据中心"],
+    "isFeatured": false,
+    "badge": "€4.90/月起",
+    "features": ["住宅/4G/多SIM全面覆盖", "不限流量带宽", "HTTP/SOCKS5协议", "奥地利欧洲节点"],
+    "affiliateUrl": "https://rarecloud.io/",
+    "detailUrl": "/proxy/rarecloud"
+  },
+  {
+    "id": "nexip",
+    "name": "NexIP",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "全球195+国家",
+    "proxyTypes": ["动态住宅", "静态住宅"],
+    "isFeatured": false,
+    "badge": "$0.8/GB起",
+    "features": ["全球195+国家覆盖", "动态/静态住宅代理", "99% IP纯净度", "API集成管理"],
+    "affiliateUrl": "https://nexip.cc/",
+    "detailUrl": "/proxy/nexip"
+  },
+  {
+    "id": "udealproxy",
+    "name": "UDealProxy",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "全球住宅IP",
+    "proxyTypes": ["静态住宅", "动态住宅"],
+    "isFeatured": false,
+    "badge": "住宅代理",
+    "features": ["静态/动态住宅代理", "HTTP/SOCKS5协议", "全球覆盖", "高速稳定连接"],
+    "affiliateUrl": "https://www.udealproxy.com/",
+    "detailUrl": "/proxy/udealproxy"
   }
 ]
