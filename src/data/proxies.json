@@ -2315,6 +2315,19 @@
     "detailUrl": "/proxy/hqproxy"
   },
   {
+    "id": "jibaoproxy",
+    "name": "JIBAO Proxy",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "9000万+ IPs",
+    "proxyTypes": ["动态住宅代理", "静态住宅代理", "移动代理", "数据中心代理"],
+    "isFeatured": false,
+    "badge": "240+国家",
+    "features": ["9000万+住宅IP", "240+国家覆盖", "动态$5/GB起", "HTTP/HTTPS/SOCKS5"],
+    "affiliateUrl": "https://www.jibaoproxy.com/",
+    "detailUrl": "/proxy/jibaoproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
