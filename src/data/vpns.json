@@ -298,5 +298,35 @@
     "affiliateUrl": "https://dog.ssrdog.com/",
     "couponCode": "",
     "detailUrl": "/vpn/ssrdog"
+  },
+  {
+    "id": "boostnet",
+    "name": "BoostNet",
+    "type": "vpn",
+    "rating": 7.0,
+    "price": "¥15.9/月起",
+    "jurisdiction": "香港（三网直连IEPL）",
+    "protocols": ["Anytls", "IEPL专线"],
+    "isFeatured": false,
+    "badge": "30+节点",
+    "features": ["30+节点5+国家", "三网直连IEPL专线", "解锁Netflix/ChatGPT", "5台同时连接"],
+    "affiliateUrl": "https://666.boostnet2.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/boostnet"
+  },
+  {
+    "id": "protonvpn",
+    "name": "ProtonVPN",
+    "type": "vpn",
+    "rating": 8.5,
+    "price": "$4.99/月",
+    "jurisdiction": "瑞士（严格隐私法）",
+    "protocols": ["WireGuard", "OpenVPN", "IKEv2"],
+    "isFeatured": false,
+    "badge": "20000+服务器",
+    "features": ["20000+服务器140+国家", "10Gbps高速连接", "NetShield广告拦截", "免费套餐可用"],
+    "affiliateUrl": "https://protonvpn.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/protonvpn"
   }
 ]

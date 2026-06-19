@@ -1,0 +1,163 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="BoostNet 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/boostnet.webp`} alt="BoostNet" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">BoostNet 深度评测</h1>
+          <p class="text-slate-400 text-lg">三网直连 IEPL 专线，低延迟高稳定机场</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">速度与稳定性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">节点覆盖</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">流媒体解锁</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          BoostNet 是一家成立于 2024 年的精品专线机场，主打三网直连 IEPL 内网专线。节点以香港 HGC 为核心落地，覆盖香港、日本、新加坡、美国等主流地区，30+ 节点。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          采用 Anytls 协议，提供 Windows/macOS/Android 一键客户端。支持 Netflix、Disney+、ChatGPT 等主流平台解锁。常规套餐 5 台同时在线，企业套餐 30 台。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          支持支付宝和微信支付。新人 8 折优惠码 boost。仅限中国大陆网络环境使用。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">三网直连 IEPL 专线</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">中国电信/联通/移动三网直连 IEPL 内网专线，广东入口过境。对所有运营商友好，无需担心跨网限速。晚高峰表现稳定。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">香港 HGC 核心落地</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">以香港 HGC 为核心落地节点，延迟极低。覆盖香港、日本、新加坡、美国等主流地区。部分节点支持原生 IPv6。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">自研 Anytls 协议</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">采用自研 Anytls 协议，兼顾安全性和兼容性。支持 Clash Meta、Shadowrocket、Surge、Stash、Loon 等主流客户端。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">流媒体 + AI 解锁</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Netflix、Disney+、ChatGPT 在多数节点可用。支持 YouTube 4K 流畅播放。适合视频流媒体和 AI 工具访问。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">一键客户端</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供 Windows、macOS、Android 官方一键客户端，适合新手直接上手。常规套餐 5 台同时在线，企业套餐 30 台。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">支付宝/微信支付</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持支付宝和微信支付，无手续费。新人 8 折优惠码 boost。仅限中国大陆网络环境使用。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 跨境网络加速</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">三网直连 IEPL 专线对中国大陆用户友好，低延迟高稳定。适合远程办公、国际业务访问和跨境协作场景。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 流媒体观看</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">香港 HGC 核心落地节点延迟极低，Netflix 和 Disney+ 解锁稳定。适合 4K 视频流媒体播放和多线程下载。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. AI 工具访问</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ChatGPT 多地区解锁表现稳定，适合需要频繁访问 AI 工具的用户。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 新手入门</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">一键客户端降低使用门槛，支持支付宝/微信支付，新人优惠码 boost。适合第一次使用机场服务的新手用户。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>三网直连 IEPL 专线</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>香港 HGC 核心落地低延迟</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Netflix/ChatGPT 解锁稳定</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>一键客户端新手友好</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>支付宝/微信支付</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>新人 8 折优惠码</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅限中国大陆网络使用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>节点数量 30+，相对较少</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>禁止 SMTP/22 端口</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>屏蔽轮媒等网站</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          BoostNet 以三网直连 IEPL 专线和香港 HGC 核心落地的技术架构，在机场服务市场中建立了"稳定低延迟"的口碑。自研 Anytls 协议和一键客户端降低了使用门槛。</p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Netflix 和 ChatGPT 的稳定解锁、支付宝/微信支付的无缝支付体验，使其特别适合中国大陆用户。新人 8 折优惠码进一步提升了性价比。</p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，BoostNet 获得 7.0 分，特别推荐给注重稳定性和低延迟的中国大陆用户。</p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://666.boostnet2.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 BoostNet 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

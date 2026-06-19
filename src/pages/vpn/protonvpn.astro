@@ -1,0 +1,167 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="ProtonVPN 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/protonvpn.webp`} alt="ProtonVPN" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">ProtonVPN 深度评测</h1>
+          <p class="text-slate-400 text-lg">20000+ 服务器，140+ 国家，瑞士隐私保护</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">服务器覆盖</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.0</div>
+            <div class="text-xs text-slate-500 mt-1">隐私保护</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProtonVPN 由 Proton AG 运营，与 Proton Mail 同属一家公司，总部位于瑞士日内瓦。拥有 20000+ 服务器覆盖 140+ 国家，是业界规模最大的 VPN 网络之一。提供免费套餐和付费套餐，免费套餐无广告无流量限制。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          支持 WireGuard、OpenVPN 和 IKEv2 协议，配备 NetShield 广告拦截、Secure Core 多跳架构和 VPN Accelerator（提速最高 400%）。10 Gbps 高速服务器，支持 10 台设备同时连接。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          所有应用均为开源，零日志政策经独立审计。Stealth 协议可绕过 VPN 封锁。30 天退款保证。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">20000+ 服务器 140+ 国家</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">业界最大 VPN 网络之一，覆盖 140+ 国家。10 Gbps 高速服务器配合 VPN Accelerator 技术，速度提升最高 400%。新客户端 WireGuard 代码库带来更稳定快速的连接体验。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Secure Core 多跳架构</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">用户流量首先经过瑞士、冰岛或瑞典的高安全服务器，再转发至目标节点。即使目标服务器被攻破，真实 IP 仍受 Secure Core 保护。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">NetShield 广告拦截</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">DNS 级广告拦截、恶意软件防护和追踪器阻止功能，在 VPN 连接层面过滤威胁，提升浏览速度和隐私安全。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">免费套餐</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">真正的免费 VPN：无广告、无流量限制、零日志。10 个国家节点覆盖（荷兰、日本、罗马尼亚、波兰、挪威、瑞士、新加坡、墨西哥、加拿大、美国），1 台设备连接。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Stealth 协议</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">自定义协议设计用于绕过 VPN 封锁和地理限制。结合新 WireGuard 代码库，更难被检测和封锁，适合严格网络环境。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">开源 + 零日志审计</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有应用 100% 开源，安全研究人员可随时审查代码。零日志政策经独立审计验证。瑞士严格隐私法保护，不属于 14 Eyes 联盟。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 流媒体解锁</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">20000+ 服务器覆盖 140+ 国家，支持 Netflix、Hulu、Disney+、Amazon Prime Video 等主流平台。Stealth 协议可绕过地理限制。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 高安全性需求</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Secure Core 多跳架构和瑞士隐私法保护，适合记者、活动人士等需要最高隐私保障的用户。Stealth 协议增强抗封锁能力。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 免费 VPN 需求</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">免费套餐无广告、无流量限制，10 个国家随机分配，适合日常隐私保护。在免费 VPN 市场中独树一帜。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. P2P/文件共享</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 BitTorrent 和 P2P 文件共享，高速服务器配合无限带宽，适合安全文件传输。10 Gbps 连接确保大文件快速下载。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>20000+ 服务器 140+ 国家</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>瑞士隐私法 + 零日志审计</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>10 Gbps + VPN Accelerator</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Secure Core 多跳保护</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费套餐可用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>全部应用开源</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>免费套餐仅 10 国 + 1 台设备</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分国家节点速度一般</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>流媒体解锁不稳定</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>价格偏高（$4.99/月起）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>中国大陆无法直接使用</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ProtonVPN 凭借 20000+ 服务器覆盖 140+ 国家、瑞士隐私保护和开源透明的理念，成为全球最受信赖的 VPN 服务之一。免费套餐无广告无流量限制，在业界独树一帜。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          Secure Core、NetShield 和 Stealth 协议等高级功能满足了隐私保护和突破封锁的双重需求。10 Gbps 高速服务器和 VPN Accelerator 技术提供了优秀的连接速度。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，ProtonVPN 获得 8.5 分，特别适合注重隐私保护和使用免费 VPN 的用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://protonvpn.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 ProtonVPN 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
