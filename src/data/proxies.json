@@ -3755,5 +3755,47 @@
     "features": ["静态/动态住宅代理", "HTTP/SOCKS5协议", "全球覆盖", "高速稳定连接"],
     "affiliateUrl": "https://www.udealproxy.com/",
     "detailUrl": "/proxy/udealproxy"
+  },
+  {
+    "id": "zenrows",
+    "name": "ZenRows",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "5500万+ Residential IPs",
+    "proxyTypes": ["Scraper API", "Scraping Browser", "住宅代理"],
+    "isFeatured": false,
+    "badge": "Scraper API",
+    "features": ["反封锁自动绕过技术", "智能轮换住宅代理", "JS渲染支持", "190+国家覆盖"],
+    "affiliateUrl": "https://www.zenrows.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/zenrows"
+  },
+  {
+    "id": "magneticproxy",
+    "name": "Magnetic Proxy",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "5500万+ IPs",
+    "proxyTypes": ["动态住宅"],
+    "isFeatured": false,
+    "badge": "$1.90/GB起",
+    "features": ["99.95%成功率", "0.6s平均响应", "城市级精确定位", "HTTP/SOCKS5协议"],
+    "affiliateUrl": "https://www.magneticproxy.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/magneticproxy"
+  },
+  {
+    "id": "nodemaven",
+    "name": "NodeMaven",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "3000万+ 住宅 + 295K 移动 IPs",
+    "proxyTypes": ["动态住宅", "移动代理"],
+    "isFeatured": false,
+    "badge": "$2.20/GB起",
+    "features": ["95% IP纯净率", "99.54%成功率", "<0.6s响应速度", "城市/ISP精确定位"],
+    "affiliateUrl": "https://nodemaven.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/nodemaven"
   }
 ]
