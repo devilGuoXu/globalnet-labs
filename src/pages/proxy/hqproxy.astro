@@ -1,0 +1,162 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="HQProxy 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/hqproxy.webp`} alt="HQProxy" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">HQProxy 深度评测</h1>
+          <p class="text-slate-400 text-lg">2000万+ 住宅 IP，住宅/数据中心/移动全覆盖</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.0</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          HQProxy 提供住宅代理、数据中心代理和移动代理三种核心产品。拥有 2000 万+ 住宅 IP 和 50 万+ 数据中心 IP，覆盖 195+ 国家和地区。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          住宅代理 $3/GB 起，数据中心代理 $1.5/GB 起。支持 HTTP/HTTPS/SOCKS5 协议，粘性会话最长 24 小时。无日志政策保障隐私安全。支持 195+ 国家、州/城市/ZIP/ASN 级精准定位。</p>
+        <p class="text-slate-300 leading-relaxed">
+          接受信用卡和加密货币支付，24/7 技术支持。Telegram 社区活跃，支持折扣优惠码。提供不限流量住宅代理方案。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2000万+ 住宅 IP</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">真实住宅设备 IP，低欺诈评分。智能自动轮转，无日志政策保障隐私。覆盖 195+ 个国家，支持城市、ZIP 码和 ASN 级精准定位。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">四种代理类型</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理（$3/GB）、数据中心代理（$1.5/GB）、移动 4G/5G 代理（45+ 国家）、ISP 代理。一个平台覆盖从数据采集到社交媒体的全场景需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">精准地理定位</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持国家、州、城市、ZIP 码和 ASN 编号级定位。可指定特定运营商网络，满足广告验证和本地化数据采集的精准需求。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">高可用性保障</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">99.9% 在线率，无限并发会话。粘性会话最长 24 小时，支持自动轮转。HTTP/HTTPS/SOCKS5 协议全覆盖。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">灵活的计费方式</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">按量付费低至 $1.5/GB，不限流量方案可选。支持信用卡和加密货币支付。Telegram 社群定期发布折扣优惠码。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">专注隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">严格无日志政策，0 欺诈评分 IP，匿名使用。支持 SOCKS5 协议提供更高层级的匿名性。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 社交媒体自动化</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">移动代理 99.9% 成功率适合 Discord、TikTok、Instagram 等平台的账号注册和矩阵管理。城市级定位模拟真实用户环境。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 数据采集与网络爬虫</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">2000 万+ IP 池和无限并发会话适合大规模电商数据采集、SEO 监控。$1.5/GB 数据中心代理降低大规模采集成本。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 抢鞋与票务</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">低欺诈评分住宅 IP，24 小时粘性会话，适合 Nike SNKRS、Ticketmaster 等高安全平台的自动化抢购。Telegram 社区活跃分享经验。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 广告验证与品牌保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">ZIP 码和 ASN 级定位精准模拟目标市场，验证广告投放效果。195+ 国家覆盖确保全球广告验证能力。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>2000 万+ 住宅 + 移动 + 数据中心</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$1.5/GB 数据中心极致低价</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>城市/ZIP/ASN 级精准定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>24 小时粘性会话</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>无日志 + 低欺诈评分</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>信用卡 + 加密货币支付</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>品牌知名度有限</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>网站信息较少</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>主要靠 Telegram 运营</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>未公开审计信息</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          HQProxy 以住宅/数据中心/移动/ISP 四种代理类型和灵活的按量计费模式形成了全面的产品矩阵。$1.5/GB 的数据中心代理在性价比方面极具竞争力。</p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          ZIP 码和 ASN 级精准定位是差异化亮点，Telegram 社区的活跃运营和优惠码策略降低了用户获取门槛。不过品牌知名度尚需积累。</p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，HQProxy 获得 7.0 分，适合需要多种代理类型和精准地理定位的社交媒体运营、数据采集团队。</p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://hqproxy.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 HQProxy 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

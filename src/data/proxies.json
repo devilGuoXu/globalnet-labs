@@ -2302,6 +2302,19 @@
     "detailUrl": "/proxy/unoproxy"
   },
   {
+    "id": "hqproxy",
+    "name": "HQProxy",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "2000万+ IPs",
+    "proxyTypes": ["住宅代理", "数据中心代理", "移动代理"],
+    "isFeatured": false,
+    "badge": "99.9%在线",
+    "features": ["2000万+住宅IP", "住宅/数据中心/移动", "$3/GB起", "HTTP/HTTPS/SOCKS5"],
+    "affiliateUrl": "https://hqproxy.com/",
+    "detailUrl": "/proxy/hqproxy"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",
