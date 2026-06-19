@@ -2380,6 +2380,19 @@
     "detailUrl": "/proxy/globalbyte"
   },
   {
+    "id": "proxiessx",
+    "name": "PROXIES.SX",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "全球覆盖",
+    "proxyTypes": ["移动代理", "住宅代理"],
+    "isFeatured": false,
+    "badge": "$4/GB",
+    "features": ["4G/5G移动+住宅代理", "90+国家覆盖", "$4/GB按量计费", "HTTP/HTTPS/SOCKS5"],
+    "affiliateUrl": "https://www.proxies.sx/",
+    "detailUrl": "/proxy/proxiessx"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",

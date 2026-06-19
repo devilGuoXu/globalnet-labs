@@ -1,0 +1,163 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="PROXIES.SX 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="bg-white rounded-xl shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/proxies-sx.webp`} alt="PROXIES.SX" class="max-w-[80%] max-h-[80%] w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">PROXIES.SX 深度评测</h1>
+          <p class="text-slate-400 text-lg">4G/5G 移动 + 住宅代理，按量计费 $4/GB 起</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">产品多样性</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">品牌知名度</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          PROXIES.SX 是一家以按量计费为核心模式的 4G/5G 移动和住宅代理服务商。$4/GB 起，大量购买低至 $2.40/GB。无月费、无端口费、流量永不过期。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          覆盖 90+ 国家，支持 HTTP、HTTPS 和 SOCKS5 协议。用户通过用户名即可控制轮转/粘性会话和地理定位，无需频繁操作后台。免费端点无限创建。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          提供 1GB 免费试用（无需信用卡）。支持信用卡和 50+ 加密货币支付。150+ 企业客户信赖。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">按量计费 $4/GB</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">$4/GB 起，购买量越大折扣越多（25GB 九折至 250+GB 六折）。无月费、无端口费、无隐藏费用。付费流量永不过期，用完再买。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">移动 + 住宅双池</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">同时提供 4G/5G 移动代理和住宅代理，统一按量计费。移动 IP 最高信任度，住宅 IP 更广泛覆盖。用户名切换池，灵活适配不同场景。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">90+ 国家覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">覆盖 90+ 国家和地区，持续扩展中。支持国家、运营商、城市、ASN 级定位。用户名语法控制，无需后台操作。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">免费端点无限创建</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">端点（端口）完全免费，数量不限。随着累计用量自动解锁更多并行连接。支持 HTTP 和 SOCKS5 协议。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">灵活轮转控制</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">通过用户名控制：每次请求轮转、定时轮转、粘性会话。API 和后台均可管理。轮转完全免费，无限制。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1GB 免费试用</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">注册即送 1GB 免费流量 + 2 个端口，无需信用卡。充分体验网络质量后再决定购买。支持信用卡和 50+ 加密货币支付。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 高难度数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">移动 4G/5G IP 信任度最高，通过反爬检测成功率 88-95%（住宅仅 60-75%）。按量计费避免浪费，适合采集严格保护的目标网站。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 社媒账号运营</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">移动代理 + 粘性会话，适合 TikTok、Instagram 等平台的批量账号管理。运营商级 IP 极难被平台识别为代理。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 广告验证</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">90+ 国家覆盖 + 城市级定位 + 移动/住宅双池，适合全球广告投放验证。按量计费降低大规模验证成本。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 电商价格监控</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">住宅代理 $4/GB 适合高频次价格数据采集。流量永不过期，适合长期监控项目。按量计费灵活控制预算。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>移动 + 住宅双池统一计费</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>$4/GB 按量计费，低至 $2.40/GB</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>流量永不过期，零浪费</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>端点免费无限创建</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>1GB 免费试用无需信用卡</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>用户名控制，无需后台</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>住宅池仍在扩展中</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无传统月付套餐</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无数据中心代理</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>无独立审计信息</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          PROXIES.SX 以清晰的按量计费模式和移动+住宅双池覆盖在代理市场中走出了差异化路线。$4/GB 的定价透明且竞争力强，流量永不过期对用户极为友好。</p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          用户名级别的控制方式创新且高效，免费端点无限创建降低了使用门槛。1GB 免费试用无需信用卡的诚意十足。住宅池的持续扩展将进一步提升其市场竞争力。</p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，PROXIES.SX 获得 7.0 分，特别推荐给需要移动 IP 高信任度和灵活按量计费的数据采集团队和社媒运营者。</p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.proxies.sx/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 PROXIES.SX 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
