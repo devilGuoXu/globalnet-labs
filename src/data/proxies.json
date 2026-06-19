@@ -2367,6 +2367,19 @@
     "detailUrl": "/proxy/proxiesthatwork"
   },
   {
+    "id": "globalbyte",
+    "name": "GlobalByte",
+    "type": "mobile-proxy",
+    "rating": 7.0,
+    "poolSize": "专属5G调制解调器",
+    "proxyTypes": ["5G移动代理"],
+    "isFeatured": false,
+    "badge": "5G专用调制解调器",
+    "features": ["5G专属物理调制解调器", "400Mbps峰值速度", "国家/州/市定位", "实时请求日志"],
+    "affiliateUrl": "https://globalbyte.io/",
+    "detailUrl": "/proxy/globalbyte"
+  },
+  {
     "id": "botproxy",
     "name": "BotProxy",
     "type": "datacenter-proxy",

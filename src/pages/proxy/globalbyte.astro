@@ -1,0 +1,163 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="GlobalByte 代理深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/proxy`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回代理列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/globalbyte.webp`} alt="GlobalByte" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">GlobalByte 深度评测</h1>
+          <p class="text-slate-400 text-lg">5G 专属物理调制解调器移动代理，高达 400Mbps</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">IP 纯净度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">速度性能</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">技术水平</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">5.0</div>
+            <div class="text-xs text-slate-500 mt-1">价格亲和力</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          GlobalByte 是一家以创新技术驱动的 5G 移动代理服务商。其核心特点是每个代理配备专属的物理 5G 调制解调器，而非共享虚拟通道，确保最高等级的隐私和性能。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          峰值速度高达 400Mbps，支持国家/州/城市级地理定位。提供实时请求日志和 Live Tail 监控功能。开发者友好的 API 支持 Bash、JavaScript、Python、Java、PHP 等多种语言。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          覆盖以色列、英国、奥地利、美国（德州、佛州、纽约）等地。提供 24 小时免费试用。仅支持信用卡支付（通过 Stripe）。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">专属物理 5G 调制解调器</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">每个移动代理分配独立的物理调制解调器，而非共享虚拟通道。这意味着真正的专属 IP、最高隐私隔离和稳定连接。这在同行业中极为罕见。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">400Mbps 峰值速度</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">5G 技术驱动的移动代理速度可达 400Mbps，远超传统住宅和移动代理。适合带宽密集型应用和大规模数据采集。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">精确地理定位</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持国家（ISO 3166）、州/省、城市三级精准定位。API 集成完整的层级体系，城市级模糊匹配智能消歧。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">实时日志系统</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有请求实时记录，Live Tail 功能支持即时监控。强大的日志追踪和错误分析能力，方便开发者调试和监控代理使用情况。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">开发者友好 API</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">RESTful API 支持创建/取消订阅、地理定位、粘性会话等功能。支持多语言集成（Bash、JS、Python、Java、PHP）。粘性会话 ID 自定义管理。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">24 小时免费试用</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">提供 24 小时免费试用，充分体验产品性能后再决定是否购买。订阅制计费，周/月/季/年灵活选择。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 社交媒体自动化</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">专属 5G 移动 IP 的最高信任度适合 TikTok、Instagram、Facebook 等平台的批量账号管理。真实移动网络环境极难被风控系统识别。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 广告验证与品牌保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">城市级精准定位验证移动端广告投放效果。专属 IP 不会被标记为代理，确保验证数据真实性。400Mbps 速度保障大批量验证效率。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 高安全场景数据采集</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">对于反爬机制极为严格的平台，5G 移动 IP 是最有效的绕过方式。专属物理调制解调器确保 IP 纯净度最高级别。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 开发测试</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">开发者友好的 API 和实时日志系统方便集成到自动化测试框架。多语言兼容降低开发成本。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>专属物理 5G 调制解调器，最高隐私级别</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>400Mbps 峰值速度</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>城市级精准地理定位</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>开发者友好 API + 实时日志</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>24 小时免费试用</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>粘性会话自定义 ID</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>$74/代理/月起，价格较高</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>覆盖国家较少（美/英/以/奥）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅信用卡支付（Stripe）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅移动代理，无住宅/数据中心</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          GlobalByte 以"专属物理 5G 调制解调器"这一独特技术定位在移动代理市场中开辟了高端细分市场。400Mbps 峰值速度和城市级精准定位是显著技术优势。</p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          开发者友好的 API 和实时日志系统让技术团队能够深入集成和监控。但 $74/代理/月的高价格和有限的国家覆盖使其定位于对 IP 纯净度有极致要求的专业用户。</p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，GlobalByte 获得 7.0 分，特别推荐给对移动 IP 纯净度有极致要求的社媒运营团队、广告验证企业和开发者。</p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://globalbyte.io/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 GlobalByte 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
