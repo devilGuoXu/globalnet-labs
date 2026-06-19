@@ -358,5 +358,20 @@
     "affiliateUrl": "https://wgetcloud.ltd",
     "couponCode": "",
     "detailUrl": "/vpn/wgetcloud"
+  },
+  {
+    "id": "vyprvpn",
+    "name": "VyprVPN",
+    "type": "vpn",
+    "rating": 7.0,
+    "price": "$3.00/月",
+    "jurisdiction": "美国（五眼联盟）",
+    "protocols": ["WireGuard", "OpenVPN", "IKEv2", "Chameleon"],
+    "isFeatured": false,
+    "badge": "700+服务器",
+    "features": ["700+服务器70+国家", "100%自营服务器", "Chameleon混淆协议", "10台同时连接"],
+    "affiliateUrl": "https://www.vyprvpn.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/vyprvpn"
   }
 ]

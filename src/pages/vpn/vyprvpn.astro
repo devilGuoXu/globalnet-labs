@@ -1,0 +1,167 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="VyprVPN 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/vyprvpn.webp`} alt="VyprVPN" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">VyprVPN 深度评测</h1>
+          <p class="text-slate-400 text-lg">100% 自营服务器，Chameleon 混淆协议</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">6.0</div>
+            <div class="text-xs text-slate-500 mt-1">服务器覆盖</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">隐私保护</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          VyprVPN 成立于 2009 年，是全球少数 100% 自营服务器的 VPN 服务商之一。拥有 700+ 服务器覆盖 70+ 国家，300,000+ IP 地址。2023 年被 Certida LLC 收购，总部位于美国德克萨斯州。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          支持 WireGuard、OpenVPN、IKEv2 和独家 Chameleon 混淆协议。经过 Leviathan Security 独立审计的零日志政策。VyprDNS 私有 DNS 系统，NAT 防火墙等安全功能。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          $3.00/月（两年方案），10 台设备同时连接。30 天退款保证，3 天免费试用（移动端）。支持 Netflix、BBC iPlayer 等流媒体解锁。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">100% 自营服务器</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">VyprVPN 拥有并运营全部服务器基础设施，不依赖第三方数据中心。700+ 服务器、300,000+ IP 地址全部自管，提供更高的安全性和隐私保障。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">Chameleon 混淆协议</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">独家 Chameleon 协议，通过数据包混淆技术绕过 VPN 封锁和深度包检测（DPI）。适合网络审查严格的环境使用。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">10 台设备同时连接</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">单账号支持 10 台设备同时连接，覆盖 Windows、macOS、iOS、Android、Linux、Fire TV、Android TV、Apple TV、Google TV 等全平台。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">独立审计零日志</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">零日志政策经 Leviathan Security Group 独立审计验证。VyprDNS 私有 DNS 系统防止 DNS 泄漏，NAT 防火墙提供额外安全层。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">WireGuard + 高速连接</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">全面支持 WireGuard 协议，在 VyprVPN 应用中直接可用。相比传统 OpenVPN 提供更快的速度和更稳定的连接。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">透明定价</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">所有套餐功能一致，无层级区分。$3.00/月（两年方案），续费不涨价。30 天退款保证，移动端 3 天免费试用。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">100% 自营服务器 + 独立审计零日志政策，适合对隐私有较高要求的用户。Chameleon 协议在严格网络环境中提供额外保护。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 流媒体解锁</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 Netflix、BBC iPlayer 等流媒体平台解锁。70+ 国家节点覆盖，适合跨国内容访问。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 多设备家庭使用</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">10 台设备同时连接 + TV 应用支持（Fire TV、Android TV、Apple TV），适合全家人多设备使用。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. P2P 文件共享</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 P2P 和 BitTorrent，自营服务器提供稳定带宽，适合安全的文件共享场景。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>100% 自营服务器</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>Chameleon 混淆协议</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>10 台设备同时连接</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>独立审计零日志</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>透明定价不涨价</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>TV 应用全支持</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>美国管辖（五眼联盟）</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>服务器数量增长缓慢</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>不支持加密货币</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>部分服务器负载不稳定</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>中国大陆无法直接使用</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          VyprVPN 以 100% 自营服务器和 Chameleon 混淆协议在 VPN 市场中建立了独特定位。独立审计的零日志政策和透明定价策略增加了用户信任，10 台设备同时连接和全平台 TV 应用支持提升了实用性。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          $3.00/月的两年方案性价比出色，WireGuard 协议的加入显著提升了连接速度。但美国管辖和服务器网络增长缓慢是其主要的短板。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，VyprVPN 获得 7.0 分，适合注重隐私保护和多设备使用的用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://www.vyprvpn.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 VyprVPN 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
