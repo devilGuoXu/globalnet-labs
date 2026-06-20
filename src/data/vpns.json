@@ -448,5 +448,20 @@
     "affiliateUrl": "https://www.ivpn.net/",
     "couponCode": "",
     "detailUrl": "/vpn/ivpn"
+  },
+  {
+    "id": "adguardvpn",
+    "name": "AdGuard VPN",
+    "type": "vpn",
+    "rating": 7.0,
+    "price": "$2.99/月",
+    "jurisdiction": "塞浦路斯（隐私友好）",
+    "protocols": ["AdGuard VPN协议", "WireGuard", "OpenVPN"],
+    "isFeatured": true,
+    "badge": "4.7/5评分",
+    "features": ["独特VPN协议防封锁", "70+服务器位置", "免费3GB/月", "无日志政策"],
+    "affiliateUrl": "https://adguard-vpn.com/",
+    "couponCode": "",
+    "detailUrl": "/vpn/adguardvpn"
   }
 ]

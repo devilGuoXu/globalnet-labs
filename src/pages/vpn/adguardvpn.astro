@@ -1,0 +1,164 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<Layout title="AdGuard VPN 深度评测 - GlobalNet Labs">
+  <div class="max-w-[1440px] mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href={`${base}/vpn`} onclick="history.back();return false;" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1 mb-6">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回 VPN 列表
+      </a>
+
+      <div class="flex items-center gap-4 mb-10">
+        <div class="shrink-0 w-14 h-14 flex items-center justify-center overflow-hidden">
+          <img src={`${base}/images/adguardvpn.png`} alt="AdGuard VPN" class="max-w-full max-h-full w-auto h-auto object-contain" />
+        </div>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-100 mb-1">AdGuard VPN 深度评测</h1>
+          <p class="text-slate-400 text-lg">独特加密协议，隐私保护首选</p>
+        </div>
+      </div>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">评分概览</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-emerald-400">8.5</div>
+            <div class="text-xs text-slate-500 mt-1">综合评分</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.5</div>
+            <div class="text-xs text-slate-500 mt-1">响应速度</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">7.0</div>
+            <div class="text-xs text-slate-500 mt-1">服务器覆盖</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">9.5</div>
+            <div class="text-xs text-slate-500 mt-1">隐私保护</div>
+          </div>
+          <div class="text-center p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+            <div class="text-2xl font-bold text-slate-100">8.0</div>
+            <div class="text-xs text-slate-500 mt-1">性价比</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">产品概述</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          AdGuard VPN 是知名广告拦截公司 AdGuard 推出的虚拟专用网络服务。凭借 17 年网络安全领域经验，AdGuard VPN 提供独特的加密协议和严格的无日志政策。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          覆盖 70+ 服务器位置，支持 AES-256 加密。免费套餐提供每月 3GB 流量，付费套餐不限流量且支持最多 10 台设备同时连接。应用评分 4.7/5。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          AdGuard VPN 使用自研协议，可有效绕过 VPN 封锁和深度包检测。支持 Windows、Mac、Android、iOS、浏览器扩展和路由器等多种平台。
+        </p>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">核心特性详解</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">独特 VPN 协议</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">AdGuard 自研 VPN 协议可伪装流量特征，有效绕过 VPN 封锁和深度包检测。搭配 WireGuard 和 OpenVPN 协议，兼顾速度与兼容性。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">严格无日志政策</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">AdGuard 坚持严格的无日志政策，不记录、不收集、不共享用户数据。隐私政策符合欧盟法律要求，由独立审计验证。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">免费套餐可用</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">每月 3GB 免费流量，无需信用卡注册。可通过参与活动获取额外流量。付费套餐不限流量，最多 10 台设备同时连接。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">智能分流</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持设置排除列表，指定哪些网站或应用不使用 VPN。也可选择仅对特定网站启用 VPN，灵活控制加密流量。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">多平台覆盖</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">支持 Windows、Mac、Android、iOS、Android TV、Linux、浏览器扩展（Chrome/Edge/Firefox/Opera）和路由器。全平台统一体验。</p>
+          </div>
+          <div class="bg-slate-950/50 rounded-lg p-5 border border-slate-800/50">
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">AES-256 加密</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">业界最安全的 AES-256 加密算法，256 位密钥长度，基于当前算力几乎无法暴力破解。确保数据传输安全。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">适用场景详细分析</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">1. 公共 Wi-Fi 安全</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">在咖啡厅、机场、酒店等公共 Wi-Fi 环境下，AES-256 加密保护流量不被嗅探和中间人攻击。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">2. 绕过网络审查</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">独特 VPN 协议可有效绕过 VPN 封锁，适合在限制性网络环境中访问受限内容。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">3. 隐私保护</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">严格无日志政策和塞浦路斯管辖地，适合注重隐私保护的用户。AdGuard 17 年隐私保护经验值得信赖。</p>
+          </div>
+          <div>
+            <h3 class="text-emerald-400 font-semibold text-lg mb-2">4. 流媒体解锁</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">70+ 服务器位置覆盖全球，适合解锁地区限制的流媒体内容。免费套餐即可体验基本功能。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-6">优势与局限</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-emerald-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>优势
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>独特自研 VPN 协议</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>严格无日志政策</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>免费套餐 3GB/月</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>4.7/5 高评分</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-emerald-400 mt-0.5">•</span><span>多平台全兼容</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>注意事项
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>仅 70+ 服务器较少</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>免费仅 3GB/月</span></li>
+              <li class="flex items-start gap-2 text-sm text-slate-300"><span class="text-amber-400 mt-0.5">•</span><span>塞浦路斯管辖</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-8">
+        <h2 class="text-xl font-bold text-slate-100 mb-4">总结评价</h2>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          AdGuard VPN 凭借 17 年网络安全领域积累和独特自研协议，在隐私保护和反封锁方面表现突出。严格的无日志政策和 AES-256 加密为用户数据安全提供了坚实保障。
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-4">
+          服务器覆盖范围相对有限是主要不足，但独特协议和多平台支持弥补了部分短板。免费套餐降低了体验门槛。
+        </p>
+        <p class="text-slate-300 leading-relaxed">
+          综合评估，AdGuard VPN 获得 8.5 分，特别适合注重隐私保护和需要绕过 VPN 封锁的用户。
+        </p>
+      </section>
+
+      <div class="text-center">
+        <a href="https://adguard-vpn.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-xl transition-all duration-300 text-lg">
+          访问 AdGuard VPN 官网
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

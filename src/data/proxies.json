@@ -3797,5 +3797,19 @@
     "affiliateUrl": "https://nodemaven.com/",
     "couponCode": "",
     "detailUrl": "/proxy/nodemaven"
+  },
+  {
+    "id": "proxy001",
+    "name": "Proxy001",
+    "type": "residential-proxy",
+    "rating": 7.0,
+    "poolSize": "1亿+ 住宅 IPs",
+    "proxyTypes": ["动态住宅", "静态住宅", "数据中心", "无限住宅"],
+    "isFeatured": true,
+    "badge": "$0.55/GB起",
+    "features": ["1亿+ 真实住宅IP", "200+国家/地区覆盖", "$0.55/GB超值定价", "99.9%上线率"],
+    "affiliateUrl": "https://proxy001.com/",
+    "couponCode": "",
+    "detailUrl": "/proxy/proxy001"
   }
 ]
